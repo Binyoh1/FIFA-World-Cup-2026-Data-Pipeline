@@ -1,0 +1,4985 @@
+{
+    "id": 693599,
+    "name": "Exequiel Palacios",
+    "birthDate": {
+        "utcTime": "1998-10-05T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8178,
+        "teamName": "Bayer Leverkusen",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#cf1e1e",
+            "colorAlternate": "#e32221",
+            "colorAway": "#000000",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Back",
+                    "key": "rightback"
+                },
+                "strPosShort": {
+                    "label": "RB",
+                    "key": "rightback_short"
+                },
+                "occurences": 1,
+                "position": "32",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 20,
+                "position": "64",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 2,
+                "position": "76",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.28695652173913044
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Defensive Midfielder",
+            "key": "centerdefensivemidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 177,
+                "key": null,
+                "fallback": "177 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {},
+                "key": null,
+                "fallback": 25
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 27,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "27"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Argentina"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "ARG"
+            },
+            "countryCode": "ARG"
+        },
+        {
+            "value": {
+                "numberValue": 29016312,
+                "key": null,
+                "fallback": "\u20ac29m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 54,
+        "leagueName": "Bundesliga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 1
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 12
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 18
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1097
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.19
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 3
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "GER",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen",
+                "tournaments": [
+                    {
+                        "ccode": "GER",
+                        "leagueId": 209,
+                        "leagueName": "DFB Pokal",
+                        "seasonsWon": [
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2019/2020"
+                        ]
+                    },
+                    {
+                        "ccode": "GER",
+                        "leagueId": 54,
+                        "leagueName": "Bundesliga",
+                        "seasonsWon": [
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025"
+                        ]
+                    },
+                    {
+                        "ccode": "GER",
+                        "leagueId": 8924,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "INT",
+                "teamId": 6706,
+                "teamName": "Argentina",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 44,
+                        "leagueName": "Copa America",
+                        "seasonsWon": [
+                            "2024 USA",
+                            "2021 Brazil"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 77,
+                        "leagueName": "World Cup",
+                        "seasonsWon": [
+                            "2022 Qatar"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": -1,
+                        "leagueName": "CONMEBOL/UEFA Finalissima",
+                        "seasonsWon": [
+                            "2022"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ARG",
+                "teamId": 10076,
+                "teamName": "River Plate",
+                "tournaments": [
+                    {
+                        "ccode": "ARG",
+                        "leagueId": 9381,
+                        "leagueName": "Super Copa International",
+                        "seasonsWon": [
+                            "2017/2018"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2016/2017"
+                        ]
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 45,
+                        "leagueName": "Copa Libertadores",
+                        "seasonsWon": [
+                            "2018"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2019"
+                        ]
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 491,
+                        "leagueName": "Recopa Sudamericana",
+                        "seasonsWon": [
+                            "2019",
+                            "2016"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ARG",
+                        "leagueId": 9305,
+                        "leagueName": "Copa Argentina",
+                        "seasonsWon": [
+                            "2019",
+                            "2017",
+                            "2016"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": false,
+            "id": 4653858,
+            "matchDate": {
+                "utcTime": "2026-07-19T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-spain/1ho257#4653858",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 4653856,
+            "matchDate": {
+                "utcTime": "2026-07-15T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-england/1wrd1a#4653856",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": true,
+            "id": 4653854,
+            "matchDate": {
+                "utcTime": "2026-07-12T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-switzerland/1hn72d#4653854",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": true,
+            "id": 4653848,
+            "matchDate": {
+                "utcTime": "2026-07-07T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-egypt/2dn9n7#4653848",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 5888,
+            "opponentTeamName": "Cape Verde",
+            "isHomeTeam": true,
+            "id": 4653715,
+            "matchDate": {
+                "utcTime": "2026-07-03T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-argentina/1b81pp#4653715",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 5816,
+            "opponentTeamName": "Jordan",
+            "isHomeTeam": false,
+            "id": 4667816,
+            "matchDate": {
+                "utcTime": "2026-06-28T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/jordan-vs-argentina/1aoo0p#4667816",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. J",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 8255,
+            "opponentTeamName": "Austria",
+            "isHomeTeam": true,
+            "id": 4667815,
+            "matchDate": {
+                "utcTime": "2026-06-22T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-austria/1un2w8#4667815",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. J",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 6317,
+            "opponentTeamName": "Algeria",
+            "isHomeTeam": true,
+            "id": 4667812,
+            "matchDate": {
+                "utcTime": "2026-06-17T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/algeria-vs-argentina/1ehtqa#4667812",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. J",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5418307,
+            "matchDate": {
+                "utcTime": "2026-06-10T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-iceland/1x61jj#5418307",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": true,
+            "id": 5656195,
+            "matchDate": {
+                "utcTime": "2026-06-07T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-argentina/1amiqt#5656195",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": true,
+            "id": 4829612,
+            "matchDate": {
+                "utcTime": "2026-05-16T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-hamburger-sv/2o4afq#4829612",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": false,
+            "id": 4829610,
+            "matchDate": {
+                "utcTime": "2026-05-09T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-vfb-stuttgart/2tb6ui#4829610",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 178475,
+            "opponentTeamName": "RB Leipzig",
+            "isHomeTeam": true,
+            "id": 4829594,
+            "matchDate": {
+                "utcTime": "2026-05-02T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-rb-leipzig/803a6n9#4829594",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": false,
+            "id": 4829587,
+            "matchDate": {
+                "utcTime": "2026-04-25T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-1-fc-koln/2d16ak#4829587",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": true,
+            "id": 5196580,
+            "matchDate": {
+                "utcTime": "2026-04-22T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-bayern-munchen/2oh0ew#5196580",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": true,
+            "id": 4829576,
+            "matchDate": {
+                "utcTime": "2026-04-18T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-augsburg/29vrru#4829576",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": false,
+            "id": 4829568,
+            "matchDate": {
+                "utcTime": "2026-04-11T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-borussia-dortmund/2o3wkl#4829568",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": true,
+            "id": 4829558,
+            "matchDate": {
+                "utcTime": "2026-04-04T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-wolfsburg/2d0t93#4829558",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 6277,
+            "opponentTeamName": "Zambia",
+            "isHomeTeam": true,
+            "id": 5266496,
+            "matchDate": {
+                "utcTime": "2026-03-31T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/zambia-vs-argentina/1e6ody#5266496",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 68374,
+            "opponentTeamName": "Mauritania",
+            "isHomeTeam": true,
+            "id": 5264689,
+            "matchDate": {
+                "utcTime": "2026-03-27T23:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-mauritania/1am4kpm#5264689",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": false,
+            "id": 4829553,
+            "matchDate": {
+                "utcTime": "2026-03-21T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-fc-heidenheim/2fxb06z#4829553",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 5205744,
+            "matchDate": {
+                "utcTime": "2026-03-17T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-arsenal/2ohs73#5205744",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": true,
+            "id": 4829540,
+            "matchDate": {
+                "utcTime": "2026-03-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-bayern-munchen/2oh0ew#4829540",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 5205743,
+            "matchDate": {
+                "utcTime": "2026-03-11T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-arsenal/2ohs73#5205743",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": false,
+            "id": 4829533,
+            "matchDate": {
+                "utcTime": "2026-03-07T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-freiburg/29eqdu#4829533",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": false,
+            "id": 4829462,
+            "matchDate": {
+                "utcTime": "2026-03-04T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-hamburger-sv/2o4afq#4829462",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": true,
+            "id": 4829523,
+            "matchDate": {
+                "utcTime": "2026-02-28T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-mainz-05/2pcq1z#4829523",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8638,
+            "opponentTeamName": "Olympiacos",
+            "isHomeTeam": true,
+            "id": 5161874,
+            "matchDate": {
+                "utcTime": "2026-02-24T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-olympiacos/2c6tjq#5161874",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/16",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": false,
+            "id": 4829520,
+            "matchDate": {
+                "utcTime": "2026-02-21T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-bayer-leverkusen/27d4by#4829520",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8638,
+            "opponentTeamName": "Olympiacos",
+            "isHomeTeam": false,
+            "id": 5161873,
+            "matchDate": {
+                "utcTime": "2026-02-18T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-olympiacos/2c6tjq#5161873",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/16",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": true,
+            "id": 4829505,
+            "matchDate": {
+                "utcTime": "2026-02-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-bayer-leverkusen/27e64p#4829505",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": false,
+            "id": 4829496,
+            "matchDate": {
+                "utcTime": "2026-02-07T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-borussia-monchengladbach/2o3iph#4829496",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": true,
+            "id": 5087494,
+            "matchDate": {
+                "utcTime": "2026-02-03T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-bayer-leverkusen/27e64p#5087494",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4829488,
+            "matchDate": {
+                "utcTime": "2026-01-31T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-eintracht-frankfurt/2obzwc#4829488",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 10205,
+            "opponentTeamName": "Villarreal",
+            "isHomeTeam": true,
+            "id": 4947167,
+            "matchDate": {
+                "utcTime": "2026-01-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-villarreal/2slxfu#4947167",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": true,
+            "id": 4829477,
+            "matchDate": {
+                "utcTime": "2026-01-24T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-werder-bremen/2cs4i3#4829477",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": true,
+            "id": 4829332,
+            "matchDate": {
+                "utcTime": "2025-09-12T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-eintracht-frankfurt/2obzwc#4829332",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 6707,
+            "opponentTeamName": "Ecuador",
+            "isHomeTeam": false,
+            "id": 4196581,
+            "matchDate": {
+                "utcTime": "2025-09-09T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-ecuador/1hkbiq#4196581",
+            "leagueId": 10199,
+            "leagueName": "World Cup Qualification CONMEBOL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6706,
+            "teamName": "Argentina",
+            "opponentTeamId": 5800,
+            "opponentTeamName": "Venezuela",
+            "isHomeTeam": true,
+            "id": 4196558,
+            "matchDate": {
+                "utcTime": "2025-09-04T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/venezuela-vs-argentina/1akdip#4196558",
+            "leagueId": 10199,
+            "leagueName": "World Cup Qualification CONMEBOL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": false,
+            "id": 4829242,
+            "matchDate": {
+                "utcTime": "2025-08-30T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-werder-bremen/2cs4i3#4829242",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 6479,
+            "opponentTeamName": "Pisa",
+            "isHomeTeam": true,
+            "id": 4849619,
+            "matchDate": {
+                "utcTime": "2025-08-05T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pisa-vs-bayer-leverkusen/1ryl03#4849619",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 66,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8178,
+            "teamName": "Bayer Leverkusen",
+            "opponentTeamId": 6422,
+            "opponentTeamName": "Fortuna Sittard",
+            "isHomeTeam": false,
+            "id": 4818319,
+            "matchDate": {
+                "utcTime": "2025-08-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fortuna-sittard-vs-bayer-leverkusen/1rgpli#4818319",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 693599,
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "185",
+                        "goals": "15",
+                        "assists": "18",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 693599,
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-11-01T00:00:00",
+                        "endDate": "2019-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "87",
+                        "goals": "10",
+                        "assists": "10",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "25",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.22"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26891,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26893,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.45"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.27"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "38",
+                        "goals": "1",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23794,
+                                "goals": "1",
+                                "assists": "6",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23599,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.17"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "36",
+                        "goals": "6",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "8.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20946,
+                                "goals": "4",
+                                "assists": "5",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "8.05"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20948,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "8.14"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.82"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "34",
+                        "goals": "5",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17801,
+                                "goals": "4",
+                                "assists": "2",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "7.33"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17692,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.30"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17697,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.55"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17700,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.74"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "32",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16494,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "23",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16553,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16640,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.24"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "13",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.04"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.39"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15391,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "5.80"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15238,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.76"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.82"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14144,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.87"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14035,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14007,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.75"
+                                }
+                            }
+                        ],
+                        "teamId": 8178,
+                        "team": "Bayer Leverkusen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "36",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.81"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 112,
+                                "leagueName": "Liga Profesional",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14230,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": "6.81"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 45,
+                                "leagueName": "Copa Libertadores",
+                                "seasonName": "2019",
+                                "tournamentId": 13462,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.70"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9305,
+                                "leagueName": "Copa Argentina",
+                                "seasonName": "2019",
+                                "tournamentId": 13597,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 491,
+                                "leagueName": "Recopa Sudamericana",
+                                "seasonName": "2019",
+                                "tournamentId": 13447,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Copa de la Superliga",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "30",
+                        "goals": "4",
+                        "assists": "5",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 112,
+                                "leagueName": "Liga Profesional",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12993,
+                                "goals": "1",
+                                "assists": "4",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 45,
+                                "leagueName": "Copa Libertadores",
+                                "seasonName": "2018",
+                                "tournamentId": 12373,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "7.10"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9305,
+                                "leagueName": "Copa Argentina",
+                                "seasonName": "2018",
+                                "tournamentId": 12551,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10703,
+                                "leagueName": "FIFA Intercontinental Cup",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "11",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 112,
+                                "leagueName": "Liga Profesional",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11810,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 45,
+                                "leagueName": "Copa Libertadores",
+                                "seasonName": "2017",
+                                "tournamentId": 11119,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9305,
+                                "leagueName": "Copa Argentina",
+                                "seasonName": "2017",
+                                "tournamentId": 11358,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 112,
+                                "leagueName": "Liga Profesional",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10734,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 112,
+                                "leagueName": "Liga Profesional",
+                                "seasonName": "2015",
+                                "tournamentId": 9151,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10076,
+                        "team": "River Plate",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 693599,
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "41",
+                        "goals": "0",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 693599,
+                        "teamId": 5860,
+                        "team": "Argentina U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-01-01T00:00:00",
+                        "endDate": "2017-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 693599,
+                        "teamId": 78789,
+                        "team": "Argentina U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-01-01T00:00:00",
+                        "endDate": "2015-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "10",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "13",
+                        "goals": "0",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.64"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.99"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "3",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.88"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 44,
+                                "leagueName": "Copa America",
+                                "seasonName": "2024",
+                                "tournamentId": 22518,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.88"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.42"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "15",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.35"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.19"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.83"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL World Cup Qualifiers",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL/UEFA Finalissima",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 44,
+                                "leagueName": "Copa America",
+                                "seasonName": "2021",
+                                "tournamentId": 15148,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": 13365,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": 11352,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6706,
+                        "team": "Argentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FIFA U20 World Cup",
+                                "seasonName": "2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5860,
+                        "team": "Argentina U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "10",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 306,
+                                "leagueName": "World Cup U17",
+                                "seasonName": "2015",
+                                "tournamentId": 9912,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL U17",
+                                "seasonName": "2015",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 78789,
+                        "team": "Argentina U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.37
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.17
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.61
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.12
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 1
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "exequiel-palacios",
+        "pageurl": "/players/693599/exequiel-palacios",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Exequiel Palacios?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios is 27 years old. Born on Mon Oct 05 1998."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Exequiel Palacios?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios is 177 cm tall. Or 5 ft 10 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Exequiel Palacios born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios was born Mon Oct 05 1998 and is now 27 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Exequiel Palacios's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Exequiel Palacios's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios's transfer value is estimated to be around \u20ac29m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Exequiel Palacios from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios is from Argentina."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Exequiel Palacios scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exequiel Palacios has scored 0 goals in the Bundesliga."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Exequiel Palacios",
+            "birthDate": "1998-10-05T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/693599/exequiel-palacios",
+            "nationality": {
+                "@type": "Country",
+                "name": "Argentina"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Bayer Leverkusen"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "177"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "71"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Bundesliga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/54/overview/bundesliga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Bayer Leverkusen",
+                    "item": "https://www.fotmob.com/teams/8178/overview/bayer-leverkusen"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Exequiel Palacios",
+                    "item": "https://www.fotmob.com/leagues/693599/overview/exequiel-palacios"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa America",
+                    "tournamentId": 44,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONMEBOL qualification",
+                    "tournamentId": 10199,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Finalissima",
+                    "tournamentId": 10304,
+                    "entryId": "4-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa America",
+                    "tournamentId": 44,
+                    "entryId": "5-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "6-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONMEBOL qualification",
+                    "tournamentId": 10199,
+                    "entryId": "6-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Superliga",
+                    "tournamentId": 112,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "7-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa Libertadores",
+                    "tournamentId": 45,
+                    "entryId": "7-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Superliga",
+                    "tournamentId": 112,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa de la Superliga",
+                    "tournamentId": 10007,
+                    "entryId": "8-1",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Copa Libertadores",
+                    "tournamentId": 45,
+                    "entryId": "8-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "Superliga",
+                    "tournamentId": 112,
+                    "entryId": "9-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.0333016999065876,
+                            "percentileRank": 22.535211267605636,
+                            "percentileRankPer90": 34.50704225352113,
+                            "statFormat": "fraction",
+                            "statValue": "0.03",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 81,
+                            "percentileRank": 50.70422535211267,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "81",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 95.29411764705883,
+                            "percentileRank": 98.59154929577466,
+                            "percentileRankPer90": 98.59154929577466,
+                            "statFormat": "percent",
+                            "statValue": "95.3",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 2,
+                            "percentileRank": 28.169014084507044,
+                            "percentileRankPer90": 78.16901408450704,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Long ball accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 5,
+                            "percentileRank": 15.492957746478872,
+                            "percentileRankPer90": 62.676056338028175,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 83.33333333333333,
+                            "percentileRank": 97.88732394366197,
+                            "percentileRankPer90": 97.88732394366197,
+                            "statFormat": "percent",
+                            "statValue": "83.3",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 108,
+                            "percentileRank": 30.28169014084507,
+                            "percentileRankPer90": 97.88732394366197,
+                            "statFormat": "number",
+                            "statValue": "108",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 1,
+                            "percentileRank": 20.422535211267608,
+                            "percentileRankPer90": 46.478873239436616,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1,
+                            "percentileRank": 19.014084507042252,
+                            "percentileRankPer90": 57.74647887323944,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 12,
+                            "percentileRank": 31.690140845070424,
+                            "percentileRankPer90": 98.59154929577466,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 4,
+                            "percentileRank": 38.028169014084504,
+                            "percentileRankPer90": 91.54929577464789,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 5,
+                            "percentileRank": 77.46478873239437,
+                            "percentileRankPer90": 98.59154929577466,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1,
+                            "percentileRank": 67.6056338028169,
+                            "percentileRankPer90": 48.59154929577465,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3,
+                            "percentileRank": 9.15492957746479,
+                            "percentileRankPer90": 35.2112676056338,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 3,
+                            "percentileRank": 18.30985915492958,
+                            "percentileRankPer90": 63.38028169014085,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1,
+                            "percentileRank": 80.28169014084507,
+                            "percentileRankPer90": 67.6056338028169,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.7613999843597413,
+                            "percentileRank": 92.25352112676056,
+                            "percentileRankPer90": 76.76056338028168,
+                            "statFormat": "fraction",
+                            "statValue": "0.76",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 7.64,
+                    "percentileRank": 92.95774647887323,
+                    "percentileRankPer90": 92.95774647887323,
+                    "statFormat": "fraction",
+                    "statValue": "7.64",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 37.32394366197183,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 9.859154929577464,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "90",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 41.32,
+                    "y": 59.15
+                },
+                {
+                    "x": 46.5,
+                    "y": 51.22
+                },
+                {
+                    "x": 37.04,
+                    "y": 48.34
+                },
+                {
+                    "x": 33.44,
+                    "y": 62.82
+                },
+                {
+                    "x": 64.24,
+                    "y": 59.6
+                },
+                {
+                    "x": 54.53,
+                    "y": 59.67
+                },
+                {
+                    "x": 49.45,
+                    "y": 51.15
+                },
+                {
+                    "x": 56.57,
+                    "y": 59.8
+                },
+                {
+                    "x": 55.14,
+                    "y": 57.24
+                },
+                {
+                    "x": 49.04,
+                    "y": 61.38
+                },
+                {
+                    "x": 39.63,
+                    "y": 65.31
+                },
+                {
+                    "x": 35.8,
+                    "y": 64.13
+                },
+                {
+                    "x": 57.28,
+                    "y": 63.41
+                },
+                {
+                    "x": 58.5,
+                    "y": 63.34
+                },
+                {
+                    "x": 42.79,
+                    "y": 53.67
+                },
+                {
+                    "x": 66.04,
+                    "y": 60.39
+                },
+                {
+                    "x": 54.33,
+                    "y": 62.95
+                },
+                {
+                    "x": 12.1,
+                    "y": 63.67
+                },
+                {
+                    "x": 14.9,
+                    "y": 62.75
+                },
+                {
+                    "x": 14.3,
+                    "y": 68
+                },
+                {
+                    "x": 14.1,
+                    "y": 66.69
+                },
+                {
+                    "x": 39.41,
+                    "y": 60.39
+                },
+                {
+                    "x": 61.88,
+                    "y": 65.38
+                },
+                {
+                    "x": 29.72,
+                    "y": 40.05
+                },
+                {
+                    "x": 28.6,
+                    "y": 39.55
+                },
+                {
+                    "x": 95.83,
+                    "y": 68
+                },
+                {
+                    "x": 57.99,
+                    "y": 63.41
+                },
+                {
+                    "x": 57.89,
+                    "y": 56.98
+                },
+                {
+                    "x": 75.84,
+                    "y": 51.22
+                },
+                {
+                    "x": 69.87,
+                    "y": 52.76
+                },
+                {
+                    "x": 56.16,
+                    "y": 58.03
+                },
+                {
+                    "x": 55.04,
+                    "y": 58.42
+                },
+                {
+                    "x": 68.86,
+                    "y": 57.24
+                },
+                {
+                    "x": 60.73,
+                    "y": 64.13
+                },
+                {
+                    "x": 57.18,
+                    "y": 68
+                },
+                {
+                    "x": 61.14,
+                    "y": 62.95
+                },
+                {
+                    "x": 92.2,
+                    "y": 68
+                },
+                {
+                    "x": 58.9,
+                    "y": 66.49
+                },
+                {
+                    "x": 72.24,
+                    "y": 45.82
+                },
+                {
+                    "x": 47.82,
+                    "y": 52.27
+                },
+                {
+                    "x": 16.61,
+                    "y": 60.13
+                },
+                {
+                    "x": 11.9,
+                    "y": 49.96
+                },
+                {
+                    "x": 30.62,
+                    "y": 54.42
+                },
+                {
+                    "x": 29.5,
+                    "y": 60.39
+                },
+                {
+                    "x": 56.16,
+                    "y": 65.57
+                },
+                {
+                    "x": 65.48,
+                    "y": 60.33
+                },
+                {
+                    "x": 61.24,
+                    "y": 61.24
+                },
+                {
+                    "x": 70.1,
+                    "y": 48.06
+                },
+                {
+                    "x": 65.37,
+                    "y": 55.41
+                },
+                {
+                    "x": 76.97,
+                    "y": 53.6
+                },
+                {
+                    "x": 8.78,
+                    "y": 65.9
+                },
+                {
+                    "x": 6.27,
+                    "y": 62.49
+                },
+                {
+                    "x": 44.37,
+                    "y": 64.33
+                },
+                {
+                    "x": 45.89,
+                    "y": 60.78
+                },
+                {
+                    "x": 40.08,
+                    "y": 48.34
+                },
+                {
+                    "x": 45.38,
+                    "y": 56.39
+                },
+                {
+                    "x": 12.1,
+                    "y": 59.08
+                },
+                {
+                    "x": 48.43,
+                    "y": 62.75
+                },
+                {
+                    "x": 63.45,
+                    "y": 60.19
+                },
+                {
+                    "x": 92.5,
+                    "y": 52.55
+                },
+                {
+                    "x": 56.97,
+                    "y": 63.61
+                },
+                {
+                    "x": 85.17,
+                    "y": 68
+                },
+                {
+                    "x": 33.21,
+                    "y": 60.52
+                },
+                {
+                    "x": 39.41,
+                    "y": 60.52
+                },
+                {
+                    "x": 85.71,
+                    "y": 68
+                },
+                {
+                    "x": 38.96,
+                    "y": 53.46
+                },
+                {
+                    "x": 70.43,
+                    "y": 58.55
+                },
+                {
+                    "x": 46.81,
+                    "y": 55.67
+                },
+                {
+                    "x": 45.69,
+                    "y": 54.02
+                },
+                {
+                    "x": 35.13,
+                    "y": 59.8
+                },
+                {
+                    "x": 28.82,
+                    "y": 57.37
+                },
+                {
+                    "x": 28.82,
+                    "y": 57.37
+                },
+                {
+                    "x": 31.64,
+                    "y": 60.85
+                },
+                {
+                    "x": 48.03,
+                    "y": 57.77
+                },
+                {
+                    "x": 51.18,
+                    "y": 58.23
+                },
+                {
+                    "x": 70.43,
+                    "y": 56.19
+                },
+                {
+                    "x": 68.97,
+                    "y": 49.12
+                },
+                {
+                    "x": 23.75,
+                    "y": 42.52
+                },
+                {
+                    "x": 81.81,
+                    "y": 47.99
+                },
+                {
+                    "x": 105,
+                    "y": 58.88
+                },
+                {
+                    "x": 66.61,
+                    "y": 57.05
+                },
+                {
+                    "x": 48.64,
+                    "y": 59.74
+                },
+                {
+                    "x": 56.67,
+                    "y": 61.24
+                },
+                {
+                    "x": 66.94,
+                    "y": 54.62
+                },
+                {
+                    "x": 28.03,
+                    "y": 68
+                },
+                {
+                    "x": 68.41,
+                    "y": 63.01
+                },
+                {
+                    "x": 56.16,
+                    "y": 61.97
+                },
+                {
+                    "x": 39.07,
+                    "y": 62.36
+                },
+                {
+                    "x": 35.69,
+                    "y": 58.03
+                },
+                {
+                    "x": 55.96,
+                    "y": 61.83
+                },
+                {
+                    "x": 44.47,
+                    "y": 61.05
+                },
+                {
+                    "x": 36.48,
+                    "y": 55.47
+                },
+                {
+                    "x": 61.65,
+                    "y": 63.21
+                },
+                {
+                    "x": 64.58,
+                    "y": 62.82
+                },
+                {
+                    "x": 59.82,
+                    "y": 59.54
+                },
+                {
+                    "x": 75.39,
+                    "y": 58.16
+                },
+                {
+                    "x": 87.53,
+                    "y": 62.75
+                },
+                {
+                    "x": 86.25,
+                    "y": 64.92
+                },
+                {
+                    "x": 91.7,
+                    "y": 64.52
+                },
+                {
+                    "x": 61.76,
+                    "y": 56.98
+                },
+                {
+                    "x": 48.23,
+                    "y": 55.6
+                },
+                {
+                    "x": 33.1,
+                    "y": 63.15
+                },
+                {
+                    "x": 33.66,
+                    "y": 68
+                },
+                {
+                    "x": 48.84,
+                    "y": 63.15
+                },
+                {
+                    "x": 59.31,
+                    "y": 62.56
+                },
+                {
+                    "x": 24.88,
+                    "y": 64
+                },
+                {
+                    "x": 26.68,
+                    "y": 62.82
+                },
+                {
+                    "x": 61.34,
+                    "y": 23.51
+                },
+                {
+                    "x": 13.1,
+                    "y": 34.3
+                },
+                {
+                    "x": 16,
+                    "y": 38.62
+                },
+                {
+                    "x": 40.76,
+                    "y": 62.75
+                },
+                {
+                    "x": 63.56,
+                    "y": 47.29
+                },
+                {
+                    "x": 22.63,
+                    "y": 61.44
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 310000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 400000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 500000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 650000,
+                "currency": "EUR",
+                "lowerBound": 490000,
+                "upperBound": 810000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 890000,
+                "currency": "EUR",
+                "lowerBound": 670000,
+                "upperBound": 1120000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 2910000,
+                "currency": "EUR",
+                "lowerBound": 2180000,
+                "upperBound": 3640000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 4920000,
+                "currency": "EUR",
+                "lowerBound": 3690000,
+                "upperBound": 6150000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 9460000,
+                "currency": "EUR",
+                "lowerBound": 7090000,
+                "upperBound": 11820000,
+                "source": "scisports",
+                "teamId": 10076,
+                "teamName": "River Plate"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 13990000,
+                "currency": "EUR",
+                "lowerBound": 10490000,
+                "upperBound": 17480000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 14690000,
+                "currency": "EUR",
+                "lowerBound": 11020000,
+                "upperBound": 18370000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 15400000,
+                "currency": "EUR",
+                "lowerBound": 11550000,
+                "upperBound": 19250000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 14110000,
+                "currency": "EUR",
+                "lowerBound": 10580000,
+                "upperBound": 17640000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 12820000,
+                "currency": "EUR",
+                "lowerBound": 9620000,
+                "upperBound": 16030000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 13750000,
+                "currency": "EUR",
+                "lowerBound": 10310000,
+                "upperBound": 17180000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 14470000,
+                "currency": "EUR",
+                "lowerBound": 10850000,
+                "upperBound": 18090000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 14760000,
+                "currency": "EUR",
+                "lowerBound": 11070000,
+                "upperBound": 18450000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 15160000,
+                "currency": "EUR",
+                "lowerBound": 11370000,
+                "upperBound": 18950000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 15180000,
+                "currency": "EUR",
+                "lowerBound": 11390000,
+                "upperBound": 18980000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 14730000,
+                "currency": "EUR",
+                "lowerBound": 11050000,
+                "upperBound": 18410000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 14100000,
+                "currency": "EUR",
+                "lowerBound": 10570000,
+                "upperBound": 17620000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 13570000,
+                "currency": "EUR",
+                "lowerBound": 10180000,
+                "upperBound": 16970000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 13510000,
+                "currency": "EUR",
+                "lowerBound": 10130000,
+                "upperBound": 16890000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 13480000,
+                "currency": "EUR",
+                "lowerBound": 10110000,
+                "upperBound": 16850000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 13520000,
+                "currency": "EUR",
+                "lowerBound": 10140000,
+                "upperBound": 16890000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 13290000,
+                "currency": "EUR",
+                "lowerBound": 9970000,
+                "upperBound": 16610000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 12460000,
+                "currency": "EUR",
+                "lowerBound": 9340000,
+                "upperBound": 15570000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 12620000,
+                "currency": "EUR",
+                "lowerBound": 9460000,
+                "upperBound": 15770000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 12720000,
+                "currency": "EUR",
+                "lowerBound": 9540000,
+                "upperBound": 15900000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 13140000,
+                "currency": "EUR",
+                "lowerBound": 9850000,
+                "upperBound": 16420000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 13590000,
+                "currency": "EUR",
+                "lowerBound": 10190000,
+                "upperBound": 16990000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 13870000,
+                "currency": "EUR",
+                "lowerBound": 10400000,
+                "upperBound": 17340000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 17210000,
+                "currency": "EUR",
+                "lowerBound": 12910000,
+                "upperBound": 21510000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 21910000,
+                "currency": "EUR",
+                "lowerBound": 16430000,
+                "upperBound": 27390000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 19590000,
+                "currency": "EUR",
+                "lowerBound": 14690000,
+                "upperBound": 24490000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 17130000,
+                "currency": "EUR",
+                "lowerBound": 12840000,
+                "upperBound": 21410000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 15670000,
+                "currency": "EUR",
+                "lowerBound": 11750000,
+                "upperBound": 19590000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 14630000,
+                "currency": "EUR",
+                "lowerBound": 10970000,
+                "upperBound": 18290000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 29230000,
+                "currency": "EUR",
+                "lowerBound": 21920000,
+                "upperBound": 36540000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 34010000,
+                "currency": "EUR",
+                "lowerBound": 25500000,
+                "upperBound": 42510000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 33680000,
+                "currency": "EUR",
+                "lowerBound": 25260000,
+                "upperBound": 42100000,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 42041466,
+                "currency": "EUR",
+                "lowerBound": 37837319,
+                "upperBound": 46245612,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 42670063,
+                "currency": "EUR",
+                "lowerBound": 38403056,
+                "upperBound": 46937069,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 42568823,
+                "currency": "EUR",
+                "lowerBound": 38311941,
+                "upperBound": 46825706,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 40936075,
+                "currency": "EUR",
+                "lowerBound": 36842467,
+                "upperBound": 45029682,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 40673291,
+                "currency": "EUR",
+                "lowerBound": 36605962,
+                "upperBound": 44740620,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 40630312,
+                "currency": "EUR",
+                "lowerBound": 36567280,
+                "upperBound": 44693343,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 41813281,
+                "currency": "EUR",
+                "lowerBound": 37631953,
+                "upperBound": 45994609,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 41813281,
+                "currency": "EUR",
+                "lowerBound": 37631953,
+                "upperBound": 45994609,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 41561206,
+                "currency": "EUR",
+                "lowerBound": 37405085,
+                "upperBound": 45717327,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 41331048,
+                "currency": "EUR",
+                "lowerBound": 37197943,
+                "upperBound": 45464153,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 39172133,
+                "currency": "EUR",
+                "lowerBound": 35254919,
+                "upperBound": 43089346,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 40657071,
+                "currency": "EUR",
+                "lowerBound": 36591364,
+                "upperBound": 44722778,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 41211664,
+                "currency": "EUR",
+                "lowerBound": 37090497,
+                "upperBound": 45332830,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 40675852,
+                "currency": "EUR",
+                "lowerBound": 36608267,
+                "upperBound": 44743438,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 40675852,
+                "currency": "EUR",
+                "lowerBound": 36608267,
+                "upperBound": 44743438,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 40742027,
+                "currency": "EUR",
+                "lowerBound": 36667824,
+                "upperBound": 44816230,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 39972385,
+                "currency": "EUR",
+                "lowerBound": 35975147,
+                "upperBound": 43969624,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 39972385,
+                "currency": "EUR",
+                "lowerBound": 35975147,
+                "upperBound": 43969624,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 39972385,
+                "currency": "EUR",
+                "lowerBound": 35975147,
+                "upperBound": 43969624,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 39972385,
+                "currency": "EUR",
+                "lowerBound": 35975147,
+                "upperBound": 43969624,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 40392811,
+                "currency": "EUR",
+                "lowerBound": 36353530,
+                "upperBound": 44432093,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 32928532,
+                "currency": "EUR",
+                "lowerBound": 29635679,
+                "upperBound": 36221386,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 33076130,
+                "currency": "EUR",
+                "lowerBound": 29768517,
+                "upperBound": 36383743,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 33076130,
+                "currency": "EUR",
+                "lowerBound": 29768517,
+                "upperBound": 36383743,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 33076130,
+                "currency": "EUR",
+                "lowerBound": 29768517,
+                "upperBound": 36383743,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 33645508,
+                "currency": "EUR",
+                "lowerBound": 30280957,
+                "upperBound": 37010059,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 33023968,
+                "currency": "EUR",
+                "lowerBound": 29721571,
+                "upperBound": 36326365,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 33023968,
+                "currency": "EUR",
+                "lowerBound": 29721571,
+                "upperBound": 36326365,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 32240347,
+                "currency": "EUR",
+                "lowerBound": 29016312,
+                "upperBound": 35464382,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 29016312,
+                "currency": "EUR",
+                "lowerBound": 26114680,
+                "upperBound": 31917943,
+                "source": "scisports",
+                "teamId": 8178,
+                "teamName": "Bayer Leverkusen"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1555492,
+                "name": "Abdoulaye Faye"
+            },
+            {
+                "id": 1367047,
+                "name": "Afonso Moreira"
+            },
+            {
+                "id": 1617224,
+                "name": "Alejo Sarco"
+            },
+            {
+                "id": 1649343,
+                "name": "Aleksa Damjanovic"
+            },
+            {
+                "id": 1422564,
+                "name": "Farid Alfa-Ruprecht"
+            },
+            {
+                "id": 1329406,
+                "name": "Jeanu\u00ebl Belocian"
+            },
+            {
+                "id": 1761869,
+                "name": "Jeremiah Mensah"
+            },
+            {
+                "id": 1793217,
+                "name": "Kennet Eichhorn"
+            },
+            {
+                "id": 1684401,
+                "name": "Kerim Alajbegovic"
+            },
+            {
+                "id": 1571197,
+                "name": "Naba Mensah"
+            },
+            {
+                "id": 1843414,
+                "name": "Ndjicoura Bomba"
+            },
+            {
+                "id": 1225704,
+                "name": "Noah Mbamba"
+            },
+            {
+                "id": 1035208,
+                "name": "Victor Okoh Boniface"
+            },
+            {
+                "id": 330643,
+                "name": "Mark Flekken"
+            },
+            {
+                "id": 1107620,
+                "name": "Jarell Quansah"
+            },
+            {
+                "id": 1119461,
+                "name": "Loic Bad\u00e9"
+            },
+            {
+                "id": 1199959,
+                "name": "Equi Fern\u00e1ndez"
+            },
+            {
+                "id": 331542,
+                "name": "Jonas Hofmann"
+            },
+            {
+                "id": 411851,
+                "name": "Robert Andrich"
+            },
+            {
+                "id": 1126058,
+                "name": "Malik Tillman"
+            },
+            {
+                "id": 770136,
+                "name": "Martin Terrier"
+            },
+            {
+                "id": 789914,
+                "name": "Edmond Tapsoba"
+            },
+            {
+                "id": 1353457,
+                "name": "Arthur"
+            },
+            {
+                "id": 540097,
+                "name": "Patrik Schick"
+            },
+            {
+                "id": 1381853,
+                "name": "Tim Oermann"
+            },
+            {
+                "id": 1695701,
+                "name": "Axel Tape"
+            },
+            {
+                "id": 1393439,
+                "name": "Eliesse Ben Seghir"
+            },
+            {
+                "id": 1251666,
+                "name": "Ernest Poku"
+            },
+            {
+                "id": 359193,
+                "name": "Lucas V\u00e1zquez"
+            },
+            {
+                "id": 877700,
+                "name": "Nathan Tella"
+            },
+            {
+                "id": 642551,
+                "name": "Aleix Garc\u00eda"
+            },
+            {
+                "id": 278814,
+                "name": "Janis Blaswich"
+            },
+            {
+                "id": 1457626,
+                "name": "Ibrahim Maza"
+            },
+            {
+                "id": 1705081,
+                "name": "Christian Kofane"
+            },
+            {
+                "id": 358675,
+                "name": "Niklas Lomb"
+            },
+            {
+                "id": 1830749,
+                "name": "Jesper Schlich"
+            },
+            {
+                "id": 1793199,
+                "name": "Montrell Culbreath"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 389050,
+                "name": "Juan Musso"
+            },
+            {
+                "id": 785411,
+                "name": "Marcos Senesi"
+            },
+            {
+                "id": 195750,
+                "name": "Nicol\u00e1s Tagliafico"
+            },
+            {
+                "id": 687008,
+                "name": "Gonzalo Montiel"
+            },
+            {
+                "id": 237606,
+                "name": "Leandro Paredes"
+            },
+            {
+                "id": 847983,
+                "name": "Lisandro Mart\u00ednez"
+            },
+            {
+                "id": 324578,
+                "name": "Rodrigo De Paul"
+            },
+            {
+                "id": 1272440,
+                "name": "Valent\u00edn Barco"
+            },
+            {
+                "id": 974753,
+                "name": "Juli\u00e1n \u00c1lvarez"
+            },
+            {
+                "id": 30981,
+                "name": "Lionel Messi"
+            },
+            {
+                "id": 604126,
+                "name": "Giovani Lo Celso"
+            },
+            {
+                "id": 245555,
+                "name": "Ger\u00f3nimo Rulli"
+            },
+            {
+                "id": 789066,
+                "name": "Cristian Romero"
+            },
+            {
+                "id": 841672,
+                "name": "Nicol\u00e1s Gonz\u00e1lez"
+            },
+            {
+                "id": 955271,
+                "name": "Thiago Almada"
+            },
+            {
+                "id": 1226147,
+                "name": "Giuliano Simeone"
+            },
+            {
+                "id": 1347574,
+                "name": "Nico Paz"
+            },
+            {
+                "id": 174321,
+                "name": "Nicol\u00e1s Otamendi"
+            },
+            {
+                "id": 831489,
+                "name": "Alexis Mac Allister"
+            },
+            {
+                "id": 1216079,
+                "name": "Jos\u00e9 L\u00f3pez"
+            },
+            {
+                "id": 690230,
+                "name": "Lautaro Mart\u00ednez"
+            },
+            {
+                "id": 268375,
+                "name": "Emiliano Mart\u00ednez"
+            },
+            {
+                "id": 1137705,
+                "name": "Enzo Fern\u00e1ndez"
+            },
+            {
+                "id": 812652,
+                "name": "Facundo Medina"
+            },
+            {
+                "id": 726345,
+                "name": "Nahuel Molina"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1839134,
+                "name": "Priscila Siben"
+            },
+            {
+                "id": 1055845,
+                "name": "Solana Pereyra"
+            },
+            {
+                "id": 1055830,
+                "name": "Adriana Sachs"
+            },
+            {
+                "id": 1055828,
+                "name": "Eliana St\u00e1bile"
+            },
+            {
+                "id": 1611576,
+                "name": "Catalina Roggerone"
+            },
+            {
+                "id": 1544914,
+                "name": "Justina Morcillo"
+            },
+            {
+                "id": 1366906,
+                "name": "Vanina Preininger"
+            },
+            {
+                "id": 1044333,
+                "name": "Aldana Cometti"
+            },
+            {
+                "id": 1691630,
+                "name": "Margarita Gim\u00e9nez"
+            },
+            {
+                "id": 1366901,
+                "name": "Daiana Falf\u00e1n"
+            },
+            {
+                "id": 1691629,
+                "name": "Kishi N\u00fa\u00f1ez"
+            },
+            {
+                "id": 1055840,
+                "name": "Dalila Ipp\u00f3lito"
+            },
+            {
+                "id": 1466031,
+                "name": "Maricel Pereyra"
+            },
+            {
+                "id": 1510804,
+                "name": "Lara Esponda"
+            },
+            {
+                "id": 1366907,
+                "name": "Soph\u00eda Braun"
+            },
+            {
+                "id": 1691627,
+                "name": "Milagros Mart\u00edn"
+            },
+            {
+                "id": 1044176,
+                "name": "Flor Bonsegundo"
+            },
+            {
+                "id": 1691628,
+                "name": "Sof\u00eda Dom\u00ednguez"
+            },
+            {
+                "id": 1798437,
+                "name": "Francisca Altgelt"
+            },
+            {
+                "id": 1888963,
+                "name": "Catalina Ongaro"
+            },
+            {
+                "id": 1691631,
+                "name": "Agostina Holzheier"
+            },
+            {
+                "id": 1360361,
+                "name": "Paulina Gramaglia"
+            },
+            {
+                "id": 1510816,
+                "name": "Abiga\u00edl Ch\u00e1ves"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5765417,
+        "homeId": 8407,
+        "awayId": 8178,
+        "homeName": "Kickers Offenbach",
+        "awayName": "Bayer Leverkusen",
+        "matchDate": "2026-07-25T13:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-25T13:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Stadion am Bieberer Berg",
+            "city": "Offenbach am Main",
+            "lat": 50.094657698,
+            "long": 8.798734546
+        },
+        "matchUrl": "/matches/bayer-leverkusen-vs-kickers-offenbach/29w4kk#5765417"
+    },
+    "dataProvider": "enet"
+}

@@ -1,0 +1,4190 @@
+{
+    "id": 774947,
+    "name": "Guus Til",
+    "birthDate": {
+        "utcTime": "1997-12-22T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8640,
+        "teamName": "PSV Eindhoven",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#E00000",
+            "colorAlternate": "#E00000",
+            "colorAway": "#001020",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 6,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.37142857142857144
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 1,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 10,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.4857142857142857
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 18,
+                "position": "104",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Striker",
+            "key": "striker"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 183,
+                "key": null,
+                "fallback": "183 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 20,
+                "options": {},
+                "key": null,
+                "fallback": 20
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 28,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "28"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Netherlands"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "NED"
+            },
+            "countryCode": "NED"
+        },
+        {
+            "value": {
+                "numberValue": 13641596,
+                "key": null,
+                "fallback": "\u20ac13.6m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 57,
+        "leagueName": "Eredivisie",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 14
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 4
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 25
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 29
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2248
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.42
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "NED",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven",
+                "tournaments": [
+                    {
+                        "ccode": "NED",
+                        "leagueId": 237,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2025/2026",
+                            "2023/2024",
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025"
+                        ]
+                    },
+                    {
+                        "ccode": "NED",
+                        "leagueId": 57,
+                        "leagueName": "Eredivisie",
+                        "seasonsWon": [
+                            "2025/2026",
+                            "2024/2025",
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2022/2023"
+                        ]
+                    },
+                    {
+                        "ccode": "NED",
+                        "leagueId": 235,
+                        "leagueName": "KNVB Cup",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "NED",
+                "teamId": 681217,
+                "teamName": "Jong AZ Alkmaar",
+                "tournaments": [
+                    {
+                        "ccode": "NED",
+                        "leagueId": 9195,
+                        "leagueName": "Tweede Divisie",
+                        "seasonsWon": [
+                            "2016/2017"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": true,
+            "id": 4653706,
+            "matchDate": {
+                "utcTime": "2026-06-30T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-netherlands/1e327v#4653706",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": false,
+            "id": 4667787,
+            "matchDate": {
+                "utcTime": "2026-06-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-tunisia/1hoci5#4667787",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 8520,
+            "opponentTeamName": "Sweden",
+            "isHomeTeam": true,
+            "id": 4667786,
+            "matchDate": {
+                "utcTime": "2026-06-20T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-sweden/1x1gy6#4667786",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 6715,
+            "opponentTeamName": "Japan",
+            "isHomeTeam": true,
+            "id": 4667783,
+            "matchDate": {
+                "utcTime": "2026-06-14T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-japan/1hn72b#4667783",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 8700,
+            "opponentTeamName": "Uzbekistan",
+            "isHomeTeam": true,
+            "id": 5648191,
+            "matchDate": {
+                "utcTime": "2026-06-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-uzbekistan/1yokno#5648191",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "5.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6708,
+            "teamName": "Netherlands",
+            "opponentTeamId": 6317,
+            "opponentTeamName": "Algeria",
+            "isHomeTeam": true,
+            "id": 5212021,
+            "matchDate": {
+                "utcTime": "2026-06-03T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/algeria-vs-netherlands/1eidtx#5212021",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8611,
+            "opponentTeamName": "FC Twente",
+            "isHomeTeam": true,
+            "id": 4815538,
+            "matchDate": {
+                "utcTime": "2026-05-17T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-twente-vs-psv-eindhoven/2glmza#4815538",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6433,
+            "opponentTeamName": "Go Ahead Eagles",
+            "isHomeTeam": false,
+            "id": 4815527,
+            "matchDate": {
+                "utcTime": "2026-05-10T14:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/go-ahead-eagles-vs-psv-eindhoven/1vn501#4815527",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8593,
+            "opponentTeamName": "Ajax",
+            "isHomeTeam": false,
+            "id": 4815515,
+            "matchDate": {
+                "utcTime": "2026-05-02T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ajax-vs-psv-eindhoven/2gezi1#4815515",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6413,
+            "opponentTeamName": "PEC Zwolle",
+            "isHomeTeam": true,
+            "id": 4815512,
+            "matchDate": {
+                "utcTime": "2026-04-23T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pec-zwolle-vs-psv-eindhoven/1vgojf#4815512",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 1,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8614,
+            "opponentTeamName": "Sparta Rotterdam",
+            "isHomeTeam": false,
+            "id": 4815502,
+            "matchDate": {
+                "utcTime": "2026-04-11T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sparta-rotterdam-vs-psv-eindhoven/2gmqx1#4815502",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9908,
+            "opponentTeamName": "FC Utrecht",
+            "isHomeTeam": true,
+            "id": 4815495,
+            "matchDate": {
+                "utcTime": "2026-04-04T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-fc-utrecht/2uf9rq#4815495",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 86,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6414,
+            "opponentTeamName": "Telstar",
+            "isHomeTeam": false,
+            "id": 4815485,
+            "matchDate": {
+                "utcTime": "2026-03-22T15:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/telstar-vs-psv-eindhoven/1vh05l#4815485",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6601,
+            "opponentTeamName": "FC Volendam",
+            "isHomeTeam": false,
+            "id": 4815434,
+            "matchDate": {
+                "utcTime": "2026-02-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-volendam-vs-psv-eindhoven/1x5pv1#4815434",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8674,
+            "opponentTeamName": "FC Groningen",
+            "isHomeTeam": false,
+            "id": 4815424,
+            "matchDate": {
+                "utcTime": "2026-02-08T15:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-fc-groningen/2h8z5h#4815424",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10228,
+            "opponentTeamName": "SC Heerenveen",
+            "isHomeTeam": true,
+            "id": 5142379,
+            "matchDate": {
+                "utcTime": "2026-02-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-sc-heerenveen/2xzk6a#5142379",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": "1/4",
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10235,
+            "opponentTeamName": "Feyenoord",
+            "isHomeTeam": true,
+            "id": 4815418,
+            "matchDate": {
+                "utcTime": "2026-02-01T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-feyenoord/2y2e3u#4815418",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": true,
+            "id": 4947106,
+            "matchDate": {
+                "utcTime": "2026-01-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-bayern-munchen/2thjyn#4947106",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4947238,
+            "matchDate": {
+                "utcTime": "2026-01-21T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-newcastle-united/2ycx1j#4947238",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6422,
+            "opponentTeamName": "Fortuna Sittard",
+            "isHomeTeam": false,
+            "id": 4815397,
+            "matchDate": {
+                "utcTime": "2026-01-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fortuna-sittard-vs-psv-eindhoven/1vjl3x#4815397",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9835,
+            "opponentTeamName": "FC Den Bosch",
+            "isHomeTeam": false,
+            "id": 5104610,
+            "matchDate": {
+                "utcTime": "2026-01-14T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-fc-den-bosch/2tmazh#5104610",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10218,
+            "opponentTeamName": "Excelsior",
+            "isHomeTeam": true,
+            "id": 4815385,
+            "matchDate": {
+                "utcTime": "2026-01-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-excelsior/2xvimf#4815385",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9908,
+            "opponentTeamName": "FC Utrecht",
+            "isHomeTeam": false,
+            "id": 4815377,
+            "matchDate": {
+                "utcTime": "2025-12-21T11:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-fc-utrecht/2uf9rq#4815377",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 150980,
+            "opponentTeamName": "GVVV Veenendaal",
+            "isHomeTeam": true,
+            "id": 5036376,
+            "matchDate": {
+                "utcTime": "2025-12-16T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-gvvv-veenendaal/5uoopl6#5036376",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9791,
+            "opponentTeamName": "Heracles",
+            "isHomeTeam": true,
+            "id": 4815361,
+            "matchDate": {
+                "utcTime": "2025-12-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-heracles/2t4wfz#4815361",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9906,
+            "opponentTeamName": "Atletico Madrid",
+            "isHomeTeam": true,
+            "id": 4947205,
+            "matchDate": {
+                "utcTime": "2025-12-09T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-atletico-madrid/2ueh59#4947205",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 73,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10228,
+            "opponentTeamName": "SC Heerenveen",
+            "isHomeTeam": false,
+            "id": 4815351,
+            "matchDate": {
+                "utcTime": "2025-12-06T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-sc-heerenveen/2xzk6a#4815351",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6601,
+            "opponentTeamName": "FC Volendam",
+            "isHomeTeam": true,
+            "id": 4815341,
+            "matchDate": {
+                "utcTime": "2025-11-30T11:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-volendam-vs-psv-eindhoven/1x5pv1#4815341",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 62,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4947141,
+            "matchDate": {
+                "utcTime": "2025-11-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-liverpool/2h02pt#4947141",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 70,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9761,
+            "opponentTeamName": "NAC Breda",
+            "isHomeTeam": false,
+            "id": 4815332,
+            "matchDate": {
+                "utcTime": "2025-11-22T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-nac-breda/2st242#4815332",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 70,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10229,
+            "opponentTeamName": "AZ Alkmaar",
+            "isHomeTeam": false,
+            "id": 4815321,
+            "matchDate": {
+                "utcTime": "2025-11-09T15:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-az-alkmaar/2xzyqf#4815321",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 5,
+            "minutesPlayed": 90,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.6",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8638,
+            "opponentTeamName": "Olympiacos",
+            "isHomeTeam": false,
+            "id": 4947228,
+            "matchDate": {
+                "utcTime": "2025-11-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/olympiacos-vs-psv-eindhoven/2gvmo1#4947228",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6422,
+            "opponentTeamName": "Fortuna Sittard",
+            "isHomeTeam": true,
+            "id": 4815302,
+            "matchDate": {
+                "utcTime": "2025-10-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fortuna-sittard-vs-psv-eindhoven/1vjl3x#4815302",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10235,
+            "opponentTeamName": "Feyenoord",
+            "isHomeTeam": false,
+            "id": 4815299,
+            "matchDate": {
+                "utcTime": "2025-10-26T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-feyenoord/2y2e3u#4815299",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": true,
+            "id": 4947236,
+            "matchDate": {
+                "utcTime": "2025-10-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-napoli/2u25v5#4947236",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 2,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6433,
+            "opponentTeamName": "Go Ahead Eagles",
+            "isHomeTeam": true,
+            "id": 4815283,
+            "matchDate": {
+                "utcTime": "2025-10-18T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/go-ahead-eagles-vs-psv-eindhoven/1vn501#4815283",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6413,
+            "opponentTeamName": "PEC Zwolle",
+            "isHomeTeam": false,
+            "id": 4815274,
+            "matchDate": {
+                "utcTime": "2025-10-04T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pec-zwolle-vs-psv-eindhoven/1vgojf#4815274",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": false,
+            "id": 4947169,
+            "matchDate": {
+                "utcTime": "2025-10-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-psv-eindhoven/2c7ji3#4947169",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 10218,
+            "opponentTeamName": "Excelsior",
+            "isHomeTeam": false,
+            "id": 4815264,
+            "matchDate": {
+                "utcTime": "2025-09-27T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-excelsior/2xvimf#4815264",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8593,
+            "opponentTeamName": "Ajax",
+            "isHomeTeam": true,
+            "id": 4815257,
+            "matchDate": {
+                "utcTime": "2025-09-21T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ajax-vs-psv-eindhoven/2gezi1#4815257",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 7978,
+            "opponentTeamName": "Union St.Gilloise",
+            "isHomeTeam": true,
+            "id": 4947237,
+            "matchDate": {
+                "utcTime": "2025-09-16T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-stgilloise-vs-psv-eindhoven/2a7vhj#4947237",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8464,
+            "opponentTeamName": "NEC Nijmegen",
+            "isHomeTeam": false,
+            "id": 4815241,
+            "matchDate": {
+                "utcTime": "2025-09-13T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nec-nijmegen-vs-psv-eindhoven/2f3ijs#4815241",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 5,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6414,
+            "opponentTeamName": "Telstar",
+            "isHomeTeam": true,
+            "id": 4815233,
+            "matchDate": {
+                "utcTime": "2025-08-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/telstar-vs-psv-eindhoven/1vh05l#4815233",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8674,
+            "opponentTeamName": "FC Groningen",
+            "isHomeTeam": true,
+            "id": 4815223,
+            "matchDate": {
+                "utcTime": "2025-08-23T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-fc-groningen/2h8z5h#4815223",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 86,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8611,
+            "opponentTeamName": "FC Twente",
+            "isHomeTeam": false,
+            "id": 4815219,
+            "matchDate": {
+                "utcTime": "2025-08-17T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-twente-vs-psv-eindhoven/2glmza#4815219",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8614,
+            "opponentTeamName": "Sparta Rotterdam",
+            "isHomeTeam": true,
+            "id": 4815208,
+            "matchDate": {
+                "utcTime": "2025-08-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sparta-rotterdam-vs-psv-eindhoven/2gmqx1#4815208",
+            "leagueId": 57,
+            "leagueName": "Eredivisie",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 1,
+            "minutesPlayed": 23,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6433,
+            "opponentTeamName": "Go Ahead Eagles",
+            "isHomeTeam": true,
+            "id": 4822738,
+            "matchDate": {
+                "utcTime": "2025-08-03T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/go-ahead-eagles-vs-psv-eindhoven/1vn501#4822738",
+            "leagueId": 237,
+            "leagueName": "Super Cup",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 6416,
+            "opponentTeamName": "FC Eindhoven",
+            "isHomeTeam": true,
+            "id": 4892797,
+            "matchDate": {
+                "utcTime": "2025-07-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-eindhoven-vs-psv-eindhoven/1vhne0#4892797",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8640,
+            "teamName": "PSV Eindhoven",
+            "opponentTeamId": 8315,
+            "opponentTeamName": "Athletic Club",
+            "isHomeTeam": true,
+            "id": 4797491,
+            "matchDate": {
+                "utcTime": "2025-07-26T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/athletic-club-vs-psv-eindhoven/2dl4mi#4797491",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 774947,
+                        "teamId": 8640,
+                        "team": "PSV Eindhoven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-04T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "175",
+                        "goals": "53",
+                        "assists": "30",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 10235,
+                        "team": "Feyenoord",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "49",
+                        "goals": "21",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 6594,
+                        "team": "Freiburg II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-17T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "4",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 8358,
+                        "team": "Freiburg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2020-09-02T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 8643,
+                        "team": "Spartak Moscow",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-08-05T00:00:00",
+                        "endDate": "2020-09-02T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "24",
+                        "goals": "2",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 10229,
+                        "team": "AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-08-01T00:00:00",
+                        "endDate": "2019-08-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "96",
+                        "goals": "28",
+                        "assists": "9",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 681217,
+                        "team": "Jong AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-01T00:00:00",
+                        "endDate": "2017-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "40",
+                        "goals": "17",
+                        "assists": "7",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27131,
+                                "goals": "14",
+                                "assists": "4",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 237,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 38612,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28512,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.78"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "2",
+                                "assists": "3",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            }
+                        ],
+                        "teamId": 8640,
+                        "team": "PSV Eindhoven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "49",
+                        "goals": "13",
+                        "assists": "13",
+                        "rating": {
+                            "rating": "7.06"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23691,
+                                "goals": "10",
+                                "assists": "11",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 237,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 27176,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.28"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24234,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "6.73"
+                                }
+                            }
+                        ],
+                        "teamId": 8640,
+                        "team": "PSV Eindhoven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "40",
+                        "goals": "10",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21111,
+                                "goals": "10",
+                                "assists": "5",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.36"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22047,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.39"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20961,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.33"
+                                }
+                            }
+                        ],
+                        "teamId": 8640,
+                        "team": "PSV Eindhoven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "46",
+                        "goals": "13",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17789,
+                                "goals": "9",
+                                "assists": "3",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.07"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 237,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 20736,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18277,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17697,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17700,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.73"
+                                }
+                            }
+                        ],
+                        "teamId": 8640,
+                        "team": "PSV Eindhoven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "49",
+                        "goals": "21",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.24"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16412,
+                                "goals": "15",
+                                "assists": "3",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16916,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16432,
+                                "goals": "6",
+                                "assists": "2",
+                                "appearances": "16",
+                                "rating": {
+                                    "rating": "6.78"
+                                }
+                            }
+                        ],
+                        "teamId": 10235,
+                        "team": "Feyenoord",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "4",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 512,
+                                "leagueName": "Regionalliga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6594,
+                        "team": "Freiburg II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.15"
+                                }
+                            }
+                        ],
+                        "teamId": 8358,
+                        "team": "Freiburg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 63,
+                                "leagueName": "Premier League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15405,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.25"
+                                }
+                            }
+                        ],
+                        "teamId": 8643,
+                        "team": "Spartak Moscow",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "21",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.45"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 63,
+                                "leagueName": "Premier League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 13978,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": "6.45"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 193,
+                                "leagueName": "Russian Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14345,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8643,
+                        "team": "Spartak Moscow",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14007,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10229,
+                        "team": "AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "39",
+                        "goals": "15",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.08"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12766,
+                                "goals": "12",
+                                "assists": "4",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 13132,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12765,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10229,
+                        "team": "AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "39",
+                        "goals": "11",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.12"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11519,
+                                "goals": "9",
+                                "assists": "3",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11630,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10229,
+                        "team": "AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "16",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.93"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10414,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10807,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10327,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "5.93"
+                                }
+                            }
+                        ],
+                        "teamId": 10229,
+                        "team": "AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "14",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9195,
+                                "leagueName": "Tweede Divisie",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10549,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 681217,
+                        "team": "Jong AZ Alkmaar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 774947,
+                        "teamId": 6708,
+                        "team": "Netherlands",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-03-16T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "8",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 774947,
+                        "teamId": 6635,
+                        "team": "Netherlands U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-08-30T00:00:00",
+                        "endDate": "2018-10-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.63"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.10"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "5.16"
+                                }
+                            }
+                        ],
+                        "teamId": 6708,
+                        "team": "Netherlands",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "5.97"
+                                }
+                            }
+                        ],
+                        "teamId": 6708,
+                        "team": "Netherlands",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "4",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.02"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2022",
+                                "tournamentId": 17272,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.02"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17161,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6708,
+                        "team": "Netherlands",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": 11352,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6708,
+                        "team": "Netherlands",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2019",
+                                "tournamentId": 12600,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6635,
+                        "team": "Netherlands U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_forwards",
+        "title": "Stats compared to other forwards",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.94
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.22
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.49
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.76
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.43
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.79
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "guus-til",
+        "pageurl": "/players/774947/guus-til",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Guus Til?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til is 28 years old. Born on Mon Dec 22 1997."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Guus Til?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til is 183 cm tall. Or 6 ft 0 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Guus Til born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til was born Mon Dec 22 1997 and is now 28 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Guus Til's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Guus Til's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til's transfer value is estimated to be around \u20ac13.6m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Guus Til from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til is from Netherlands."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Guus Til scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Guus Til has scored 14 goals in the Eredivisie."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Guus Til",
+            "birthDate": "1997-12-22T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/774947/guus-til",
+            "nationality": {
+                "@type": "Country",
+                "name": "Netherlands"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "PSV Eindhoven"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "183"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "72"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Eredivisie 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/57/overview/eredivisie-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "PSV Eindhoven",
+                    "item": "https://www.fotmob.com/teams/8640/overview/psv-eindhoven"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Guus Til",
+                    "item": "https://www.fotmob.com/leagues/774947/overview/guus-til"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 237,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 237,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "5-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Premier League",
+                    "tournamentId": 63,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 63,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "9-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2016/2017",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "10-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "10-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.1,
+                    "percentileRank": 21.27045235803657,
+                    "percentileRankPer90": 21.27045235803657,
+                    "statFormat": "fraction",
+                    "statValue": "6.10",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 13.955726660250239,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "31",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 60.73,
+                    "y": 6.89
+                },
+                {
+                    "x": 60.53,
+                    "y": 2.43
+                },
+                {
+                    "x": 72.12,
+                    "y": 18.18
+                },
+                {
+                    "x": 62.78,
+                    "y": 11.87
+                },
+                {
+                    "x": 29.38,
+                    "y": 66.75
+                },
+                {
+                    "x": 43.96,
+                    "y": 13.38
+                },
+                {
+                    "x": 60.23,
+                    "y": 7.15
+                },
+                {
+                    "x": 56.06,
+                    "y": 57.31
+                },
+                {
+                    "x": 60.12,
+                    "y": 5.38
+                },
+                {
+                    "x": 75.16,
+                    "y": 13.25
+                },
+                {
+                    "x": 22.18,
+                    "y": 34.99
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 10229,
+                "teamName": "AZ Alkmaar",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 1870000,
+                "currency": "EUR",
+                "lowerBound": 1400000,
+                "upperBound": 2340000,
+                "source": "scisports",
+                "teamId": 10229,
+                "teamName": "AZ Alkmaar"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 3560000,
+                "currency": "EUR",
+                "lowerBound": 2670000,
+                "upperBound": 4450000,
+                "source": "scisports",
+                "teamId": 10229,
+                "teamName": "AZ Alkmaar"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 4210000,
+                "currency": "EUR",
+                "lowerBound": 3160000,
+                "upperBound": 5260000,
+                "source": "scisports",
+                "teamId": 10229,
+                "teamName": "AZ Alkmaar"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 4860000,
+                "currency": "EUR",
+                "lowerBound": 3650000,
+                "upperBound": 6080000,
+                "source": "scisports",
+                "teamId": 10229,
+                "teamName": "AZ Alkmaar"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 6440000,
+                "currency": "EUR",
+                "lowerBound": 4830000,
+                "upperBound": 8040000,
+                "source": "scisports",
+                "teamId": 8643,
+                "teamName": "Spartak Moscow",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 8010000,
+                "currency": "EUR",
+                "lowerBound": 6010000,
+                "upperBound": 10010000,
+                "source": "scisports",
+                "teamId": 8643,
+                "teamName": "Spartak Moscow"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 7360000,
+                "currency": "EUR",
+                "lowerBound": 5520000,
+                "upperBound": 9200000,
+                "source": "scisports",
+                "teamId": 8358,
+                "teamName": "Freiburg",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 6700000,
+                "currency": "EUR",
+                "lowerBound": 5030000,
+                "upperBound": 8380000,
+                "source": "scisports",
+                "teamId": 8358,
+                "teamName": "Freiburg"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 5450000,
+                "currency": "EUR",
+                "lowerBound": 4080000,
+                "upperBound": 6810000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 4190000,
+                "currency": "EUR",
+                "lowerBound": 3140000,
+                "upperBound": 5230000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 4850000,
+                "currency": "EUR",
+                "lowerBound": 3640000,
+                "upperBound": 6060000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 5840000,
+                "currency": "EUR",
+                "lowerBound": 4380000,
+                "upperBound": 7300000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 6180000,
+                "currency": "EUR",
+                "lowerBound": 4640000,
+                "upperBound": 7730000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 6790000,
+                "currency": "EUR",
+                "lowerBound": 5090000,
+                "upperBound": 8490000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 8230000,
+                "currency": "EUR",
+                "lowerBound": 6170000,
+                "upperBound": 10280000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 7930000,
+                "currency": "EUR",
+                "lowerBound": 5950000,
+                "upperBound": 9920000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 7660000,
+                "currency": "EUR",
+                "lowerBound": 5740000,
+                "upperBound": 9570000,
+                "source": "scisports",
+                "teamId": 10235,
+                "teamName": "Feyenoord"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 7420000,
+                "currency": "EUR",
+                "lowerBound": 5560000,
+                "upperBound": 9270000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 7250000,
+                "currency": "EUR",
+                "lowerBound": 5440000,
+                "upperBound": 9070000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 16600000,
+                "currency": "EUR",
+                "lowerBound": 12450000,
+                "upperBound": 20750000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 18320000,
+                "currency": "EUR",
+                "lowerBound": 13740000,
+                "upperBound": 22900000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 16950000,
+                "currency": "EUR",
+                "lowerBound": 12710000,
+                "upperBound": 21190000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 15360000,
+                "currency": "EUR",
+                "lowerBound": 11520000,
+                "upperBound": 19210000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 15410000,
+                "currency": "EUR",
+                "lowerBound": 11560000,
+                "upperBound": 19270000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 15490000,
+                "currency": "EUR",
+                "lowerBound": 11620000,
+                "upperBound": 19360000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 15560000,
+                "currency": "EUR",
+                "lowerBound": 11670000,
+                "upperBound": 19440000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 15760000,
+                "currency": "EUR",
+                "lowerBound": 11820000,
+                "upperBound": 19700000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 16010000,
+                "currency": "EUR",
+                "lowerBound": 12010000,
+                "upperBound": 20020000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 16060000,
+                "currency": "EUR",
+                "lowerBound": 12040000,
+                "upperBound": 20070000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 16210000,
+                "currency": "EUR",
+                "lowerBound": 12160000,
+                "upperBound": 20260000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 16160000,
+                "currency": "EUR",
+                "lowerBound": 12120000,
+                "upperBound": 20200000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 15940000,
+                "currency": "EUR",
+                "lowerBound": 11960000,
+                "upperBound": 19930000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 15540000,
+                "currency": "EUR",
+                "lowerBound": 11650000,
+                "upperBound": 19420000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 15420000,
+                "currency": "EUR",
+                "lowerBound": 11560000,
+                "upperBound": 19270000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 14680000,
+                "currency": "EUR",
+                "lowerBound": 11010000,
+                "upperBound": 18350000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 14320000,
+                "currency": "EUR",
+                "lowerBound": 10740000,
+                "upperBound": 17900000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 13660000,
+                "currency": "EUR",
+                "lowerBound": 10250000,
+                "upperBound": 17080000,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 14313860,
+                "currency": "EUR",
+                "lowerBound": 12882474,
+                "upperBound": 15745246,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 13411299,
+                "currency": "EUR",
+                "lowerBound": 12070169,
+                "upperBound": 14752429,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 13689615,
+                "currency": "EUR",
+                "lowerBound": 12320654,
+                "upperBound": 15058577,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 13994413,
+                "currency": "EUR",
+                "lowerBound": 12594971,
+                "upperBound": 15393854,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 13836044,
+                "currency": "EUR",
+                "lowerBound": 12452440,
+                "upperBound": 15219649,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 12452440,
+                "currency": "EUR",
+                "lowerBound": 11207196,
+                "upperBound": 13697684,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 11763037,
+                "currency": "EUR",
+                "lowerBound": 10586733,
+                "upperBound": 12939341,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 11774515,
+                "currency": "EUR",
+                "lowerBound": 10597064,
+                "upperBound": 12951967,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 12048423,
+                "currency": "EUR",
+                "lowerBound": 10843580,
+                "upperBound": 13253265,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 11918572,
+                "currency": "EUR",
+                "lowerBound": 10726715,
+                "upperBound": 13110430,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 12227359,
+                "currency": "EUR",
+                "lowerBound": 11004623,
+                "upperBound": 13450095,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 12227359,
+                "currency": "EUR",
+                "lowerBound": 11004623,
+                "upperBound": 13450095,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 12227359,
+                "currency": "EUR",
+                "lowerBound": 11004623,
+                "upperBound": 13450095,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 11883865,
+                "currency": "EUR",
+                "lowerBound": 10695478,
+                "upperBound": 13072251,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 12494705,
+                "currency": "EUR",
+                "lowerBound": 11245234,
+                "upperBound": 13744175,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 11485642,
+                "currency": "EUR",
+                "lowerBound": 10337078,
+                "upperBound": 12634206,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 12796098,
+                "currency": "EUR",
+                "lowerBound": 11516488,
+                "upperBound": 14075707,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 14687622,
+                "currency": "EUR",
+                "lowerBound": 13218859,
+                "upperBound": 16156384,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 13510523,
+                "currency": "EUR",
+                "lowerBound": 12159470,
+                "upperBound": 14861575,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 12689335,
+                "currency": "EUR",
+                "lowerBound": 11420402,
+                "upperBound": 13958269,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 12802813,
+                "currency": "EUR",
+                "lowerBound": 11522532,
+                "upperBound": 14083095,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 12615273,
+                "currency": "EUR",
+                "lowerBound": 11353746,
+                "upperBound": 13876801,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 12748003,
+                "currency": "EUR",
+                "lowerBound": 11473202,
+                "upperBound": 14022803,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 12917181,
+                "currency": "EUR",
+                "lowerBound": 11625463,
+                "upperBound": 14208899,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 12776495,
+                "currency": "EUR",
+                "lowerBound": 11498845,
+                "upperBound": 14054144,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 12776495,
+                "currency": "EUR",
+                "lowerBound": 11498845,
+                "upperBound": 14054144,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 12526718,
+                "currency": "EUR",
+                "lowerBound": 11274046,
+                "upperBound": 13779390,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 13779390,
+                "currency": "EUR",
+                "lowerBound": 12401451,
+                "upperBound": 15157329,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 15157329,
+                "currency": "EUR",
+                "lowerBound": 13641596,
+                "upperBound": 16673061,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 13641596,
+                "currency": "EUR",
+                "lowerBound": 12277436,
+                "upperBound": 15005755,
+                "source": "scisports",
+                "teamId": 8640,
+                "teamName": "PSV Eindhoven"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1237425,
+                "name": "Adamo Nagalo"
+            },
+            {
+                "id": 1252642,
+                "name": "Isaac Babadi"
+            },
+            {
+                "id": 588337,
+                "name": "Jo\u00ebl Drommel"
+            },
+            {
+                "id": 1506480,
+                "name": "Yarek Gasiorowski"
+            },
+            {
+                "id": 794244,
+                "name": "Armando Obispo"
+            },
+            {
+                "id": 163670,
+                "name": "Ivan Perisic"
+            },
+            {
+                "id": 1386551,
+                "name": "Ryan Flamingo"
+            },
+            {
+                "id": 1359970,
+                "name": "Ruben van Bommel"
+            },
+            {
+                "id": 892816,
+                "name": "Sergi\u00f1o Dest"
+            },
+            {
+                "id": 1036401,
+                "name": "Ricardo Pepi"
+            },
+            {
+                "id": 1327149,
+                "name": "Paul Wanner"
+            },
+            {
+                "id": 1184693,
+                "name": "Couhaib Driouech"
+            },
+            {
+                "id": 294859,
+                "name": "Alassane Pl\u00e9a"
+            },
+            {
+                "id": 873556,
+                "name": "Mauro J\u00fanior"
+            },
+            {
+                "id": 1346860,
+                "name": "Esmir Bajraktarevic"
+            },
+            {
+                "id": 866517,
+                "name": "Myron Boadu"
+            },
+            {
+                "id": 1035643,
+                "name": "Sven Mijnans"
+            },
+            {
+                "id": 772104,
+                "name": "Jerdy Schouten"
+            },
+            {
+                "id": 792429,
+                "name": "Joey Veerman"
+            },
+            {
+                "id": 1124533,
+                "name": "Kilian Sildillia"
+            },
+            {
+                "id": 805767,
+                "name": "Dennis Man"
+            },
+            {
+                "id": 1077903,
+                "name": "Matej Kov\u00e1r"
+            },
+            {
+                "id": 1643772,
+                "name": "Jo\u00ebl van den Berg"
+            },
+            {
+                "id": 1552456,
+                "name": "Jordy Bawuah"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1131987,
+                "name": "Bart Verbruggen"
+            },
+            {
+                "id": 881640,
+                "name": "Lutsharel Geertruida"
+            },
+            {
+                "id": 198559,
+                "name": "Marten de Roon"
+            },
+            {
+                "id": 209405,
+                "name": "Virgil van Dijk"
+            },
+            {
+                "id": 417068,
+                "name": "Nathan Ak\u00e9"
+            },
+            {
+                "id": 974618,
+                "name": "Jan Paul van Hecke"
+            },
+            {
+                "id": 794253,
+                "name": "Justin Kluivert"
+            },
+            {
+                "id": 956683,
+                "name": "Ryan Gravenberch"
+            },
+            {
+                "id": 351999,
+                "name": "Wout Weghorst"
+            },
+            {
+                "id": 303824,
+                "name": "Memphis Depay"
+            },
+            {
+                "id": 806552,
+                "name": "Cody Gakpo"
+            },
+            {
+                "id": 970243,
+                "name": "Mats Wieffer"
+            },
+            {
+                "id": 1125720,
+                "name": "Robin Roefs"
+            },
+            {
+                "id": 868344,
+                "name": "Tijjani Reijnders"
+            },
+            {
+                "id": 1097466,
+                "name": "Micky van de Ven"
+            },
+            {
+                "id": 837341,
+                "name": "Noa Lang"
+            },
+            {
+                "id": 660301,
+                "name": "Donyell Malen"
+            },
+            {
+                "id": 940446,
+                "name": "Brian Brobbey"
+            },
+            {
+                "id": 866516,
+                "name": "Teun Koopmeiners"
+            },
+            {
+                "id": 638622,
+                "name": "Frenkie de Jong"
+            },
+            {
+                "id": 593118,
+                "name": "Denzel Dumfries"
+            },
+            {
+                "id": 330643,
+                "name": "Mark Flekken"
+            },
+            {
+                "id": 941213,
+                "name": "Crysencio Summerville"
+            },
+            {
+                "id": 1413846,
+                "name": "Jorrel Hato"
+            },
+            {
+                "id": 970563,
+                "name": "Quinten Timber"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5900326,
+        "homeId": 8640,
+        "awayId": 10205,
+        "homeName": "PSV Eindhoven",
+        "awayName": "Villarreal",
+        "matchDate": "2026-07-25T16:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-25T16:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Philips Stadion",
+            "city": "Eindhoven",
+            "lat": 51.441630196,
+            "long": 5.467452407
+        },
+        "matchUrl": "/matches/psv-eindhoven-vs-villarreal/2xq9ir#5900326"
+    },
+    "dataProvider": "enet"
+}

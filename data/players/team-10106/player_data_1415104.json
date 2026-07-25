@@ -1,0 +1,4536 @@
+{
+    "id": 1415104,
+    "name": "Benjamin Tahirovic",
+    "birthDate": {
+        "utcTime": "2003-03-03T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8595,
+        "teamName": "Br\u00f8ndby IF",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#d1a300",
+            "colorAlternate": "#ECC92A",
+            "colorAway": "#084070",
+            "colorAwayAlternate": "#0a5495"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "34",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 9,
+                "position": "64",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58,
+                    "ratio": 0.5214285714285715
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 18,
+                "position": "74",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Central Midfielder",
+            "key": "centermidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Defensive Midfielder",
+                "key": "centerdefensivemidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 191,
+                "key": null,
+                "fallback": "191 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 8,
+                "options": {},
+                "key": null,
+                "fallback": 8
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Bosnia and Herzegovina"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "BIH"
+            },
+            "countryCode": "BIH"
+        },
+        {
+            "value": {
+                "numberValue": 3975390,
+                "key": null,
+                "fallback": "\u20ac4m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 46,
+        "leagueName": "Superligaen",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 1
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 1
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 13
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 25
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1198
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.661666666666666
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 5
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ITA",
+                "teamId": 597676,
+                "teamName": "Roma U19",
+                "tournaments": [
+                    {
+                        "ccode": "ITA",
+                        "leagueId": -1,
+                        "leagueName": "Coppa Italia Primavera",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 4653709,
+            "matchDate": {
+                "utcTime": "2026-07-02T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-vs-bosnia-herzegovina/2c7uzr#4653709",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 39,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 5902,
+            "opponentTeamName": "Qatar",
+            "isHomeTeam": true,
+            "id": 4667762,
+            "matchDate": {
+                "utcTime": "2026-06-24T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-bosnia-herzegovina/24aiya#4667762",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": false,
+            "id": 4667759,
+            "matchDate": {
+                "utcTime": "2026-06-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-bosnia-herzegovina/2c9awx#4667759",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 5810,
+            "opponentTeamName": "Canada",
+            "isHomeTeam": false,
+            "id": 4667757,
+            "matchDate": {
+                "utcTime": "2026-06-12T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/canada-vs-bosnia-herzegovina/23f1qo#4667757",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 5922,
+            "opponentTeamName": "Panama",
+            "isHomeTeam": false,
+            "id": 5737313,
+            "matchDate": {
+                "utcTime": "2026-06-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/panama-vs-bosnia-herzegovina/24he60#5737313",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 8260,
+            "opponentTeamName": "North Macedonia",
+            "isHomeTeam": true,
+            "id": 5648176,
+            "matchDate": {
+                "utcTime": "2026-05-29T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/north-macedonia-vs-bosnia-herzegovina/2sf8h1#5648176",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8113,
+            "opponentTeamName": "FC Midtjylland",
+            "isHomeTeam": false,
+            "id": 5222377,
+            "matchDate": {
+                "utcTime": "2026-05-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-midtjylland-vs-brondby-if/2b40n1#5222377",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8071,
+            "opponentTeamName": "AGF",
+            "isHomeTeam": true,
+            "id": 5222374,
+            "matchDate": {
+                "utcTime": "2026-05-10T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/agf-vs-brondby-if/2aozua#5222374",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 10202,
+            "opponentTeamName": "Nordsj\u00e6lland",
+            "isHomeTeam": true,
+            "id": 5222371,
+            "matchDate": {
+                "utcTime": "2026-05-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-nordsjaelland/2x6we6#5222371",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 9939,
+            "opponentTeamName": "Viborg",
+            "isHomeTeam": false,
+            "id": 5222365,
+            "matchDate": {
+                "utcTime": "2026-04-22T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-viborg/2u9pi0#5222365",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8487,
+            "opponentTeamName": "S\u00f8nderjyske",
+            "isHomeTeam": true,
+            "id": 5222362,
+            "matchDate": {
+                "utcTime": "2026-04-17T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sonderjyske-vs-brondby-if/2evgci#5222362",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8113,
+            "opponentTeamName": "FC Midtjylland",
+            "isHomeTeam": true,
+            "id": 5222361,
+            "matchDate": {
+                "utcTime": "2026-04-12T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-midtjylland-vs-brondby-if/2b40n1#5222361",
+            "leagueId": 46,
+            "leagueName": "Superligaen Championship Playoff",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 23,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 8204,
+            "opponentTeamName": "Italy",
+            "isHomeTeam": true,
+            "id": 5067299,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/italy-vs-bosnia-herzegovina/2rt80x#5067299",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 5790,
+            "opponentTeamName": "Wales",
+            "isHomeTeam": false,
+            "id": 5067291,
+            "matchDate": {
+                "utcTime": "2026-03-26T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/wales-vs-bosnia-herzegovina/238896#5067291",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8113,
+            "opponentTeamName": "FC Midtjylland",
+            "isHomeTeam": false,
+            "id": 4802061,
+            "matchDate": {
+                "utcTime": "2026-03-01T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-midtjylland-vs-brondby-if/2b40n1#4802061",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8487,
+            "opponentTeamName": "S\u00f8nderjyske",
+            "isHomeTeam": true,
+            "id": 4802053,
+            "matchDate": {
+                "utcTime": "2026-02-23T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sonderjyske-vs-brondby-if/2evgci#4802053",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 9939,
+            "opponentTeamName": "Viborg",
+            "isHomeTeam": false,
+            "id": 4802049,
+            "matchDate": {
+                "utcTime": "2026-02-15T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-viborg/2u9pi0#4802049",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8410,
+            "opponentTeamName": "Randers FC",
+            "isHomeTeam": true,
+            "id": 4802041,
+            "matchDate": {
+                "utcTime": "2026-02-08T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/randers-fc-vs-brondby-if/2e3bpa#4802041",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8231,
+            "opponentTeamName": "Vejle Boldklub",
+            "isHomeTeam": false,
+            "id": 4802038,
+            "matchDate": {
+                "utcTime": "2025-12-08T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vejle-boldklub-vs-brondby-if/2cafb6#4802038",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8454,
+            "opponentTeamName": "Fredericia",
+            "isHomeTeam": true,
+            "id": 4802029,
+            "matchDate": {
+                "utcTime": "2025-12-01T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fredericia-vs-brondby-if/2ejdso#4802029",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8391,
+            "opponentTeamName": "FC K\u00f8benhavn",
+            "isHomeTeam": false,
+            "id": 4802023,
+            "matchDate": {
+                "utcTime": "2025-11-23T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-kobenhavn-vs-brondby-if/2dwej6#4802023",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 8255,
+            "opponentTeamName": "Austria",
+            "isHomeTeam": false,
+            "id": 4689315,
+            "matchDate": {
+                "utcTime": "2025-11-18T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/austria-vs-bosnia-herzegovina/2sd9mc#4689315",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. H",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 9730,
+            "opponentTeamName": "Romania",
+            "isHomeTeam": true,
+            "id": 4689314,
+            "matchDate": {
+                "utcTime": "2025-11-15T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/romania-vs-bosnia-herzegovina/3953ns#4689314",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. H",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 10202,
+            "opponentTeamName": "Nordsj\u00e6lland",
+            "isHomeTeam": true,
+            "id": 4802017,
+            "matchDate": {
+                "utcTime": "2025-11-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-nordsjaelland/2x6we6#4802017",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8414,
+            "opponentTeamName": "OB",
+            "isHomeTeam": false,
+            "id": 4802008,
+            "matchDate": {
+                "utcTime": "2025-10-27T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ob-vs-brondby-if/2e4s70#4802008",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8071,
+            "opponentTeamName": "AGF",
+            "isHomeTeam": true,
+            "id": 4802000,
+            "matchDate": {
+                "utcTime": "2025-10-19T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/agf-vs-brondby-if/2aozua#4802000",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 8495,
+            "opponentTeamName": "Malta",
+            "isHomeTeam": false,
+            "id": 4733708,
+            "matchDate": {
+                "utcTime": "2025-10-12T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/malta-vs-bosnia-herzegovina/2v0cb0#4733708",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 5793,
+            "opponentTeamName": "Cyprus",
+            "isHomeTeam": false,
+            "id": 4689310,
+            "matchDate": {
+                "utcTime": "2025-10-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/cyprus-vs-bosnia-herzegovina/239923#4689310",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. H",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8454,
+            "opponentTeamName": "Fredericia",
+            "isHomeTeam": false,
+            "id": 4801996,
+            "matchDate": {
+                "utcTime": "2025-10-05T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fredericia-vs-brondby-if/2ejdso#4801996",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8414,
+            "opponentTeamName": "OB",
+            "isHomeTeam": true,
+            "id": 4801986,
+            "matchDate": {
+                "utcTime": "2025-09-28T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ob-vs-brondby-if/2e4s70#4801986",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8453,
+            "opponentTeamName": "B 93",
+            "isHomeTeam": false,
+            "id": 4956694,
+            "matchDate": {
+                "utcTime": "2025-09-24T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/b-93-vs-brondby-if/2ej0n3#4956694",
+            "leagueId": 242,
+            "leagueName": "DBU Pokalen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 76,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8071,
+            "opponentTeamName": "AGF",
+            "isHomeTeam": false,
+            "id": 4801980,
+            "matchDate": {
+                "utcTime": "2025-09-21T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/agf-vs-brondby-if/2aozua#4801980",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8391,
+            "opponentTeamName": "FC K\u00f8benhavn",
+            "isHomeTeam": true,
+            "id": 4801974,
+            "matchDate": {
+                "utcTime": "2025-09-13T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-kobenhavn-vs-brondby-if/2dwej6#4801974",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 8255,
+            "opponentTeamName": "Austria",
+            "isHomeTeam": true,
+            "id": 4689307,
+            "matchDate": {
+                "utcTime": "2025-09-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/austria-vs-bosnia-herzegovina/2sd9mc#4689307",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. H",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10106,
+            "teamName": "Bosnia and Herzegovina",
+            "opponentTeamId": 6035,
+            "opponentTeamName": "San Marino",
+            "isHomeTeam": false,
+            "id": 4689306,
+            "matchDate": {
+                "utcTime": "2025-09-06T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/san-marino-vs-bosnia-herzegovina/25kcq6#4689306",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 6,
+            "minutesPlayed": 76,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8113,
+            "opponentTeamName": "FC Midtjylland",
+            "isHomeTeam": true,
+            "id": 4801973,
+            "matchDate": {
+                "utcTime": "2025-08-31T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-midtjylland-vs-brondby-if/2b40n1#4801973",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": true,
+            "id": 4912662,
+            "matchDate": {
+                "utcTime": "2025-08-28T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-strasbourg/2t9n7e#4912662",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8487,
+            "opponentTeamName": "S\u00f8nderjyske",
+            "isHomeTeam": false,
+            "id": 4801965,
+            "matchDate": {
+                "utcTime": "2025-08-24T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sonderjyske-vs-brondby-if/2evgci#4801965",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": false,
+            "id": 4912638,
+            "matchDate": {
+                "utcTime": "2025-08-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-strasbourg/2t9n7e#4912638",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8410,
+            "opponentTeamName": "Randers FC",
+            "isHomeTeam": false,
+            "id": 4801960,
+            "matchDate": {
+                "utcTime": "2025-08-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/randers-fc-vs-brondby-if/2e3bpa#4801960",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 6017,
+            "opponentTeamName": "Vikingur Reykjavik",
+            "isHomeTeam": true,
+            "id": 4885242,
+            "matchDate": {
+                "utcTime": "2025-08-14T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vikingur-reykjavik-vs-brondby-if/1rkh5x#4885242",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8231,
+            "opponentTeamName": "Vejle Boldklub",
+            "isHomeTeam": true,
+            "id": 4801954,
+            "matchDate": {
+                "utcTime": "2025-08-10T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vejle-boldklub-vs-brondby-if/2cafb6#4801954",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 6017,
+            "opponentTeamName": "Vikingur Reykjavik",
+            "isHomeTeam": false,
+            "id": 4885212,
+            "matchDate": {
+                "utcTime": "2025-08-07T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vikingur-reykjavik-vs-brondby-if/1rkh5x#4885212",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 9939,
+            "opponentTeamName": "Viborg",
+            "isHomeTeam": true,
+            "id": 4801949,
+            "matchDate": {
+                "utcTime": "2025-08-03T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-viborg/2u9pi0#4801949",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 6652,
+            "opponentTeamName": "HB Torshavn",
+            "isHomeTeam": true,
+            "id": 4814736,
+            "matchDate": {
+                "utcTime": "2025-07-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hb-torshavn-vs-brondby-if/1x7oej#4814736",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 10202,
+            "opponentTeamName": "Nordsj\u00e6lland",
+            "isHomeTeam": false,
+            "id": 4801942,
+            "matchDate": {
+                "utcTime": "2025-07-27T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brondby-if-vs-nordsjaelland/2x6we6#4801942",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 6652,
+            "opponentTeamName": "HB Torshavn",
+            "isHomeTeam": false,
+            "id": 4814735,
+            "matchDate": {
+                "utcTime": "2025-07-24T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/hb-torshavn-vs-brondby-if/1x7oej#4814735",
+            "leagueId": 10615,
+            "leagueName": "Conference League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8595,
+            "teamName": "Br\u00f8ndby IF",
+            "opponentTeamId": 8415,
+            "opponentTeamName": "Silkeborg",
+            "isHomeTeam": true,
+            "id": 4801937,
+            "matchDate": {
+                "utcTime": "2025-07-20T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/silkeborg-vs-brondby-if/2e55bi#4801937",
+            "leagueId": 46,
+            "leagueName": "Superligaen",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1415104,
+                        "teamId": 8595,
+                        "team": "Br\u00f8ndby IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-02-03T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "49",
+                        "goals": "1",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1415104,
+                        "teamId": 163363,
+                        "team": "Jong Ajax",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-09-29T00:00:00",
+                        "endDate": "2025-02-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1415104,
+                        "teamId": 8593,
+                        "team": "Ajax",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2023-06-18T00:00:00",
+                        "endDate": "2025-02-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "39",
+                        "goals": "2",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1415104,
+                        "teamId": 8686,
+                        "team": "Roma",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-10-16T00:00:00",
+                        "endDate": "2023-06-18T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "13",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1415104,
+                        "teamId": 1967,
+                        "team": "Vasalunds IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-06-13T00:00:00",
+                        "endDate": "2021-02-07T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "29",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "32",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.69"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27018,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "6.66"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27306,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.67"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28191,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8595,
+                        "team": "Br\u00f8ndby IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.81"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23624,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": "6.81"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23829,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8595,
+                        "team": "Br\u00f8ndby IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.31"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 111,
+                                "leagueName": "Eerste Divisie",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23696,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.31"
+                                }
+                            }
+                        ],
+                        "teamId": 163363,
+                        "team": "Jong Ajax",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.37"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23691,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24112,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.39"
+                                }
+                            }
+                        ],
+                        "teamId": 8593,
+                        "team": "Ajax",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "37",
+                        "goals": "2",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "6.94"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21111,
+                                "goals": "2",
+                                "assists": "4",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "7.11"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22047,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21016,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.55"
+                                }
+                            }
+                        ],
+                        "teamId": 8593,
+                        "team": "Ajax",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "13",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.37"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 55,
+                                "leagueName": "Serie A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17866,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "6.41"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 141,
+                                "leagueName": "Coppa Italia",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17968,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.16"
+                                }
+                            }
+                        ],
+                        "teamId": 8686,
+                        "team": "Roma",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "29",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 169,
+                                "leagueName": "Ettan",
+                                "seasonName": "2020",
+                                "tournamentId": 14853,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "27",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1967,
+                        "team": "Vasalunds IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1415104,
+                        "teamId": 597676,
+                        "team": "Roma U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-02-08T00:00:00",
+                        "endDate": "2023-06-18T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "38",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9908,
+                                "leagueName": "Campionato Primavera 1",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18030,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 597676,
+                        "team": "Roma U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "29",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9908,
+                                "leagueName": "Campionato Primavera 1",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16760,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 597676,
+                        "team": "Roma U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1415104,
+                        "teamId": 10106,
+                        "team": "Bosnia and Herzegovina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-03-08T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "32",
+                        "goals": "2",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "16",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.77"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.88"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.52"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10106,
+                        "team": "Bosnia and Herzegovina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10106,
+                        "team": "Bosnia and Herzegovina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.13"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.13"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.55"
+                                }
+                            }
+                        ],
+                        "teamId": 10106,
+                        "team": "Bosnia and Herzegovina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.59
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.23
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.29
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.63
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.67
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.68
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "benjamin-tahirovic",
+        "pageurl": "/players/1415104/benjamin-tahirovic",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Benjamin Tahirovic?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic is 23 years old. Born on Mon Mar 03 2003."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Benjamin Tahirovic?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic is 191 cm tall. Or 6 ft 3 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Benjamin Tahirovic born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic was born Mon Mar 03 2003 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Benjamin Tahirovic's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Benjamin Tahirovic's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic's transfer value is estimated to be around \u20ac4m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Benjamin Tahirovic from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic is from Bosnia and Herzegovina."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Benjamin Tahirovic scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benjamin Tahirovic has scored 1 goals in the Superligaen Championship Playoff."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Benjamin Tahirovic",
+            "birthDate": "2003-03-03T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1415104/benjamin-tahirovic",
+            "nationality": {
+                "@type": "Country",
+                "name": "Bosnia and Herzegovina"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Br\u00f8ndby IF"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "191"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "84"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Superligaen 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/46/overview/superligaen-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Br\u00f8ndby IF",
+                    "item": "https://www.fotmob.com/teams/8595/overview/brondby-if"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Benjamin Tahirovic",
+                    "item": "https://www.fotmob.com/leagues/1415104/overview/benjamin-tahirovic"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DBU Pokalen",
+                    "tournamentId": 242,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Eerste Divisie",
+                    "tournamentId": 111,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League Qualification qualification",
+                    "tournamentId": 10613,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "3-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Serie A",
+                    "tournamentId": 55,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coppa Italia",
+                    "tournamentId": 141,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944383629,
+                "playerName": "Benjamin Tahirovic",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "ThrowInSetPiece",
+                "teamId": 10106,
+                "playerId": 1415104,
+                "x": 87.5338235292,
+                "y": 50.0262420363,
+                "min": 44,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 30.72125,
+                "goalCrossedZ": 5.5492413888,
+                "expectedGoals": 0.0163048803806305,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.40015002861666,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.461324318161187
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 5810,
+                "awayTeamId": 10106,
+                "homeTeamName": "Canada",
+                "awayTeamName": "Bosnia and Herzegovina",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667757,
+                "matchDate": "2026-06-12T19:00:00Z",
+                "teamColor": "#027EB0",
+                "teamColorDark": "#027EB0"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.006189873512787155,
+                            "percentileRank": 16.49484536082474,
+                            "percentileRankPer90": 16.49484536082474,
+                            "statFormat": "fraction",
+                            "statValue": "0.02",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.006189873512787155,
+                            "percentileRank": 16.49484536082474,
+                            "percentileRankPer90": 16.49484536082474,
+                            "statFormat": "fraction",
+                            "statValue": "0.02",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.37974683544303794,
+                            "percentileRank": 14.948453608247423,
+                            "percentileRankPer90": 22.164948453608247,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.015967326073706906,
+                            "percentileRank": 22.68041237113402,
+                            "percentileRankPer90": 19.587628865979383,
+                            "statFormat": "fraction",
+                            "statValue": "0.04",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 35.69620253164557,
+                            "percentileRank": 55.154639175257735,
+                            "percentileRankPer90": 48.96907216494845,
+                            "statFormat": "number",
+                            "statValue": "94",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 83.1858407079646,
+                            "percentileRank": 35.051546391752574,
+                            "percentileRankPer90": 35.051546391752574,
+                            "statFormat": "percent",
+                            "statValue": "83.2",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.7594936708860759,
+                            "percentileRank": 31.443298969072163,
+                            "percentileRankPer90": 32.47422680412371,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 20,
+                            "percentileRank": 16.49484536082474,
+                            "percentileRankPer90": 16.49484536082474,
+                            "statFormat": "percent",
+                            "statValue": "20.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.37974683544303794,
+                            "percentileRank": 18.04123711340206,
+                            "percentileRankPer90": 26.288659793814436,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 3.7974683544303796,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 37.628865979381445,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 55.55555555555556,
+                            "percentileRank": 66.49484536082474,
+                            "percentileRankPer90": 66.49484536082474,
+                            "statFormat": "percent",
+                            "statValue": "55.6",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.7594936708860759,
+                            "percentileRank": 44.329896907216494,
+                            "percentileRankPer90": 50.51546391752577,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 50,
+                            "percentileRank": 50,
+                            "percentileRankPer90": 50,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 55.82278481012658,
+                            "percentileRank": 50,
+                            "percentileRankPer90": 42.2680412371134,
+                            "statFormat": "number",
+                            "statValue": "147",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 0.37974683544303794,
+                            "percentileRank": 16.49484536082474,
+                            "percentileRankPer90": 22.164948453608247,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0.7594936708860759,
+                            "percentileRank": 39.175257731958766,
+                            "percentileRankPer90": 49.48453608247423,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 0.7594936708860759,
+                            "percentileRank": 33.50515463917525,
+                            "percentileRankPer90": 32.98969072164948,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 5.3164556962025316,
+                            "percentileRank": 62.88659793814433,
+                            "percentileRankPer90": 65.97938144329896,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.278481012658228,
+                            "percentileRank": 59.27835051546392,
+                            "percentileRankPer90": 67.5257731958763,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 1.5189873417721518,
+                            "percentileRank": 70.61855670103093,
+                            "percentileRankPer90": 77.31958762886599,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1.139240506329114,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 55.670103092783506,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.7974683544303796,
+                            "percentileRank": 45.36082474226804,
+                            "percentileRankPer90": 42.2680412371134,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.37974683544303794,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 60.824742268041234,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.37974683544303794,
+                            "percentileRank": 61.855670103092784,
+                            "percentileRankPer90": 75.77319587628865,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1.5189873417721518,
+                            "percentileRank": 57.21649484536082,
+                            "percentileRankPer90": 60.824742268041234,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.7594936708860759,
+                            "percentileRank": 72.16494845360825,
+                            "percentileRankPer90": 82.4742268041237,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.7903671019439455,
+                            "percentileRank": 73.71134020618557,
+                            "percentileRankPer90": 81.95876288659794,
+                            "statFormat": "fraction",
+                            "statValue": "2.08",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.5175,
+                    "percentileRank": 33.50515463917525,
+                    "percentileRankPer90": 33.50515463917525,
+                    "statFormat": "fraction",
+                    "statValue": "6.52",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 54.63917525773196,
+                    "percentileRankPer90": 54.63917525773196,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 19.587628865979383,
+                    "percentileRankPer90": 8.24742268041237,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 48.96907216494845,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "237",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 22.06,
+                    "y": 66.16
+                },
+                {
+                    "x": 27.13,
+                    "y": 56.52
+                },
+                {
+                    "x": 38.85,
+                    "y": 35.52
+                },
+                {
+                    "x": 56.46,
+                    "y": 14.26
+                },
+                {
+                    "x": 49.45,
+                    "y": 20.78
+                },
+                {
+                    "x": 47.21,
+                    "y": 27.7
+                },
+                {
+                    "x": 54.84,
+                    "y": 22.6
+                },
+                {
+                    "x": 41.1,
+                    "y": 21.34
+                },
+                {
+                    "x": 44.27,
+                    "y": 21.2
+                },
+                {
+                    "x": 47.21,
+                    "y": 22.46
+                },
+                {
+                    "x": 37.83,
+                    "y": 48.06
+                },
+                {
+                    "x": 54.13,
+                    "y": 31.18
+                },
+                {
+                    "x": 49.86,
+                    "y": 15.94
+                },
+                {
+                    "x": 44.06,
+                    "y": 24.49
+                },
+                {
+                    "x": 67.96,
+                    "y": 30.87
+                },
+                {
+                    "x": 76.85,
+                    "y": 16.36
+                },
+                {
+                    "x": 35.58,
+                    "y": 16.92
+                },
+                {
+                    "x": 35.58,
+                    "y": 16.92
+                },
+                {
+                    "x": 70.66,
+                    "y": 52.69
+                },
+                {
+                    "x": 74.71,
+                    "y": 42.24
+                },
+                {
+                    "x": 70.66,
+                    "y": 34.15
+                },
+                {
+                    "x": 72.24,
+                    "y": 43.72
+                },
+                {
+                    "x": 43.86,
+                    "y": 26.34
+                },
+                {
+                    "x": 62.33,
+                    "y": 62.03
+                },
+                {
+                    "x": 15.1,
+                    "y": 59.74
+                },
+                {
+                    "x": 48.84,
+                    "y": 31.1
+                },
+                {
+                    "x": 60.63,
+                    "y": 49.54
+                },
+                {
+                    "x": 63.79,
+                    "y": 55.01
+                },
+                {
+                    "x": 75.05,
+                    "y": 5.51
+                },
+                {
+                    "x": 67.39,
+                    "y": 48.34
+                },
+                {
+                    "x": 63.56,
+                    "y": 48.55
+                },
+                {
+                    "x": 36.82,
+                    "y": 62.42
+                },
+                {
+                    "x": 34.23,
+                    "y": 63.47
+                },
+                {
+                    "x": 47.42,
+                    "y": 23.23
+                },
+                {
+                    "x": 56.87,
+                    "y": 6.95
+                },
+                {
+                    "x": 74.49,
+                    "y": 19.52
+                },
+                {
+                    "x": 70.21,
+                    "y": 17.62
+                },
+                {
+                    "x": 41.55,
+                    "y": 35.52
+                },
+                {
+                    "x": 69.08,
+                    "y": 19.09
+                },
+                {
+                    "x": 36.59,
+                    "y": 32.78
+                },
+                {
+                    "x": 28.48,
+                    "y": 25.59
+                },
+                {
+                    "x": 65.25,
+                    "y": 43.23
+                },
+                {
+                    "x": 69.31,
+                    "y": 58.55
+                },
+                {
+                    "x": 37.38,
+                    "y": 54.55
+                },
+                {
+                    "x": 42.67,
+                    "y": 46.59
+                },
+                {
+                    "x": 36.14,
+                    "y": 44.07
+                },
+                {
+                    "x": 64.13,
+                    "y": 40.81
+                },
+                {
+                    "x": 60.33,
+                    "y": 6.43
+                },
+                {
+                    "x": 56.67,
+                    "y": 51.92
+                },
+                {
+                    "x": 49.25,
+                    "y": 57.24
+                },
+                {
+                    "x": 78.99,
+                    "y": 55.87
+                },
+                {
+                    "x": 82.6,
+                    "y": 58.95
+                },
+                {
+                    "x": 74.38,
+                    "y": 50.8
+                },
+                {
+                    "x": 35.02,
+                    "y": 25.53
+                },
+                {
+                    "x": 9.65,
+                    "y": 28.96
+                },
+                {
+                    "x": 2.56,
+                    "y": 28.54
+                },
+                {
+                    "x": 20.6,
+                    "y": 30.72
+                },
+                {
+                    "x": 71.56,
+                    "y": 53.46
+                },
+                {
+                    "x": 27.25,
+                    "y": 39.04
+                },
+                {
+                    "x": 34.57,
+                    "y": 54.23
+                },
+                {
+                    "x": 33.89,
+                    "y": 53.88
+                },
+                {
+                    "x": 57.48,
+                    "y": 50.66
+                },
+                {
+                    "x": 31.64,
+                    "y": 46.17
+                },
+                {
+                    "x": 13,
+                    "y": 34
+                },
+                {
+                    "x": 17.79,
+                    "y": 30.05
+                },
+                {
+                    "x": 13.3,
+                    "y": 36.82
+                },
+                {
+                    "x": 35.02,
+                    "y": 30.22
+                },
+                {
+                    "x": 42.45,
+                    "y": 22.88
+                },
+                {
+                    "x": 33.89,
+                    "y": 15.45
+                },
+                {
+                    "x": 42,
+                    "y": 12.07
+                },
+                {
+                    "x": 32.76,
+                    "y": 53.25
+                },
+                {
+                    "x": 47.82,
+                    "y": 37.95
+                },
+                {
+                    "x": 87.53,
+                    "y": 17.97
+                },
+                {
+                    "x": 38.73,
+                    "y": 15.03
+                },
+                {
+                    "x": 49.65,
+                    "y": 50.38
+                },
+                {
+                    "x": 93.1,
+                    "y": 15.45
+                },
+                {
+                    "x": 41.44,
+                    "y": 4.39
+                },
+                {
+                    "x": 25.11,
+                    "y": 15.87
+                },
+                {
+                    "x": 51.48,
+                    "y": 42.58
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.26
+                },
+                {
+                    "x": 65.82,
+                    "y": 51.08
+                },
+                {
+                    "x": 77.53,
+                    "y": 7.94
+                },
+                {
+                    "x": 77.19,
+                    "y": 9.12
+                },
+                {
+                    "x": 73.93,
+                    "y": 8.99
+                },
+                {
+                    "x": 59.41,
+                    "y": 40.05
+                },
+                {
+                    "x": 12.2,
+                    "y": 50.38
+                },
+                {
+                    "x": 67.73,
+                    "y": 34.76
+                },
+                {
+                    "x": 19.83,
+                    "y": 2.36
+                },
+                {
+                    "x": 27.47,
+                    "y": 10.76
+                },
+                {
+                    "x": 63.9,
+                    "y": 5.38
+                },
+                {
+                    "x": 15.5,
+                    "y": 23.58
+                },
+                {
+                    "x": 49.04,
+                    "y": 4.46
+                },
+                {
+                    "x": 47.82,
+                    "y": 9.58
+                },
+                {
+                    "x": 37.61,
+                    "y": 16.15
+                },
+                {
+                    "x": 41.89,
+                    "y": 19.3
+                },
+                {
+                    "x": 63.68,
+                    "y": 51.43
+                },
+                {
+                    "x": 57.28,
+                    "y": 14.05
+                },
+                {
+                    "x": 63.34,
+                    "y": 15.66
+                },
+                {
+                    "x": 60.02,
+                    "y": 19.23
+                },
+                {
+                    "x": 56.97,
+                    "y": 4.72
+                },
+                {
+                    "x": 57.79,
+                    "y": 47.08
+                },
+                {
+                    "x": 25.11,
+                    "y": 9.97
+                },
+                {
+                    "x": 29.38,
+                    "y": 22.81
+                },
+                {
+                    "x": 60.84,
+                    "y": 31.71
+                },
+                {
+                    "x": 19.94,
+                    "y": 21.55
+                },
+                {
+                    "x": 33.89,
+                    "y": 19.23
+                },
+                {
+                    "x": 26.68,
+                    "y": 35.45
+                },
+                {
+                    "x": 25.22,
+                    "y": 34.53
+                },
+                {
+                    "x": 72.69,
+                    "y": 24.28
+                },
+                {
+                    "x": 59.41,
+                    "y": 11.28
+                },
+                {
+                    "x": 27.81,
+                    "y": 55.67
+                },
+                {
+                    "x": 51.48,
+                    "y": 31.86
+                },
+                {
+                    "x": 100.92,
+                    "y": 55.21
+                },
+                {
+                    "x": 29.84,
+                    "y": 48.77
+                },
+                {
+                    "x": 56.06,
+                    "y": 16.29
+                },
+                {
+                    "x": 102.16,
+                    "y": 18.25
+                },
+                {
+                    "x": 21.28,
+                    "y": 41.31
+                },
+                {
+                    "x": 22.06,
+                    "y": 40.97
+                },
+                {
+                    "x": 22.97,
+                    "y": 42.18
+                },
+                {
+                    "x": 56.16,
+                    "y": 35.6
+                },
+                {
+                    "x": 27.13,
+                    "y": 25.88
+                },
+                {
+                    "x": 38.28,
+                    "y": 52.55
+                },
+                {
+                    "x": 35.35,
+                    "y": 37.2
+                },
+                {
+                    "x": 38.73,
+                    "y": 8.99
+                },
+                {
+                    "x": 58.29,
+                    "y": 58.82
+                },
+                {
+                    "x": 66.94,
+                    "y": 16.99
+                },
+                {
+                    "x": 67.06,
+                    "y": 22.81
+                },
+                {
+                    "x": 69.42,
+                    "y": 22.6
+                },
+                {
+                    "x": 35.69,
+                    "y": 19.09
+                },
+                {
+                    "x": 46.91,
+                    "y": 32.78
+                },
+                {
+                    "x": 39.41,
+                    "y": 62.29
+                },
+                {
+                    "x": 54.53,
+                    "y": 51.5
+                },
+                {
+                    "x": 39.75,
+                    "y": 63.67
+                },
+                {
+                    "x": 70.77,
+                    "y": 26
+                },
+                {
+                    "x": 39.52,
+                    "y": 16.92
+                },
+                {
+                    "x": 35.58,
+                    "y": 8.07
+                },
+                {
+                    "x": 68.63,
+                    "y": 32.93
+                },
+                {
+                    "x": 27.36,
+                    "y": 17.97
+                },
+                {
+                    "x": 47.21,
+                    "y": 43.51
+                },
+                {
+                    "x": 67.84,
+                    "y": 16.29
+                },
+                {
+                    "x": 68.18,
+                    "y": 16.08
+                },
+                {
+                    "x": 68.75,
+                    "y": 15.1
+                },
+                {
+                    "x": 46.3,
+                    "y": 26.34
+                },
+                {
+                    "x": 46.5,
+                    "y": 21.62
+                },
+                {
+                    "x": 72.24,
+                    "y": 25.3
+                },
+                {
+                    "x": 50.06,
+                    "y": 5.58
+                },
+                {
+                    "x": 38.28,
+                    "y": 12.72
+                },
+                {
+                    "x": 38.28,
+                    "y": 12.72
+                },
+                {
+                    "x": 57.68,
+                    "y": 15.31
+                },
+                {
+                    "x": 42.34,
+                    "y": 16.71
+                },
+                {
+                    "x": 59.31,
+                    "y": 15.73
+                },
+                {
+                    "x": 61.99,
+                    "y": 8.85
+                },
+                {
+                    "x": 11.6,
+                    "y": 28.88
+                },
+                {
+                    "x": 37.04,
+                    "y": 20.29
+                },
+                {
+                    "x": 61.99,
+                    "y": 18.46
+                },
+                {
+                    "x": 88.8,
+                    "y": 12.4
+                },
+                {
+                    "x": 39.63,
+                    "y": 8.46
+                },
+                {
+                    "x": 60.43,
+                    "y": 9.84
+                },
+                {
+                    "x": 64.92,
+                    "y": 17.41
+                },
+                {
+                    "x": 39.18,
+                    "y": 9.12
+                },
+                {
+                    "x": 39.18,
+                    "y": 9.12
+                },
+                {
+                    "x": 37.61,
+                    "y": 5.58
+                },
+                {
+                    "x": 39.63,
+                    "y": 5.71
+                },
+                {
+                    "x": 44.67,
+                    "y": 21.97
+                },
+                {
+                    "x": 49.86,
+                    "y": 30.32
+                },
+                {
+                    "x": 40.53,
+                    "y": 4.07
+                },
+                {
+                    "x": 28.48,
+                    "y": 5.31
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 530000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 340000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 310000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 500000,
+                "currency": "EUR",
+                "lowerBound": 380000,
+                "upperBound": 630000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 490000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 610000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 490000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 610000,
+                "source": "scisports",
+                "teamId": 597676,
+                "teamName": "Roma U19"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 490000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 610000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 480000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 590000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 460000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 580000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 1900000,
+                "currency": "EUR",
+                "lowerBound": 1420000,
+                "upperBound": 2370000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 2450000,
+                "currency": "EUR",
+                "lowerBound": 1840000,
+                "upperBound": 3070000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 2750000,
+                "currency": "EUR",
+                "lowerBound": 2070000,
+                "upperBound": 3440000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 2460000,
+                "currency": "EUR",
+                "lowerBound": 1840000,
+                "upperBound": 3070000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 2410000,
+                "currency": "EUR",
+                "lowerBound": 1810000,
+                "upperBound": 3010000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 5920000,
+                "currency": "EUR",
+                "lowerBound": 4440000,
+                "upperBound": 7400000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 6430000,
+                "currency": "EUR",
+                "lowerBound": 4820000,
+                "upperBound": 8040000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 6780000,
+                "currency": "EUR",
+                "lowerBound": 5080000,
+                "upperBound": 8470000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 6930000,
+                "currency": "EUR",
+                "lowerBound": 5200000,
+                "upperBound": 8660000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 7140000,
+                "currency": "EUR",
+                "lowerBound": 5350000,
+                "upperBound": 8920000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 6640000,
+                "currency": "EUR",
+                "lowerBound": 4980000,
+                "upperBound": 8300000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 9610000,
+                "currency": "EUR",
+                "lowerBound": 7210000,
+                "upperBound": 12010000,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 7210000,
+                "currency": "EUR",
+                "lowerBound": 6128500,
+                "upperBound": 8291499,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 6128500,
+                "currency": "EUR",
+                "lowerBound": 5209225,
+                "upperBound": 7047774,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 5874153,
+                "currency": "EUR",
+                "lowerBound": 4993030,
+                "upperBound": 6755276,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 6024897,
+                "currency": "EUR",
+                "lowerBound": 5121163,
+                "upperBound": 6928632,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 5642457,
+                "currency": "EUR",
+                "lowerBound": 4796088,
+                "upperBound": 6488826,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 5605237,
+                "currency": "EUR",
+                "lowerBound": 4764452,
+                "upperBound": 6446023,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 5305349,
+                "currency": "EUR",
+                "lowerBound": 4509547,
+                "upperBound": 6101152,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 5258093,
+                "currency": "EUR",
+                "lowerBound": 4469379,
+                "upperBound": 6046807,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 4706847,
+                "currency": "EUR",
+                "lowerBound": 3765478,
+                "upperBound": 5648217,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 4795750,
+                "currency": "EUR",
+                "lowerBound": 3836600,
+                "upperBound": 5754900,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 4752140,
+                "currency": "EUR",
+                "lowerBound": 3801712,
+                "upperBound": 5702568,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 4635930,
+                "currency": "EUR",
+                "lowerBound": 3708744,
+                "upperBound": 5563116,
+                "source": "scisports",
+                "teamId": 8593,
+                "teamName": "Ajax"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 4789826,
+                "currency": "EUR",
+                "lowerBound": 3831861,
+                "upperBound": 5747791,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 4920533,
+                "currency": "EUR",
+                "lowerBound": 3936426,
+                "upperBound": 5904639,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 4834772,
+                "currency": "EUR",
+                "lowerBound": 3867818,
+                "upperBound": 5801727,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 4820815,
+                "currency": "EUR",
+                "lowerBound": 3856652,
+                "upperBound": 5784979,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 4740579,
+                "currency": "EUR",
+                "lowerBound": 3792463,
+                "upperBound": 5688695,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 4066622,
+                "currency": "EUR",
+                "lowerBound": 3253297,
+                "upperBound": 4879946,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 4028661,
+                "currency": "EUR",
+                "lowerBound": 3222929,
+                "upperBound": 4834393,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 4067488,
+                "currency": "EUR",
+                "lowerBound": 3253990,
+                "upperBound": 4880985,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 4067130,
+                "currency": "EUR",
+                "lowerBound": 3253704,
+                "upperBound": 4880557,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 3867364,
+                "currency": "EUR",
+                "lowerBound": 3093891,
+                "upperBound": 4640837,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 3945355,
+                "currency": "EUR",
+                "lowerBound": 3156284,
+                "upperBound": 4734426,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 3890963,
+                "currency": "EUR",
+                "lowerBound": 3112770,
+                "upperBound": 4669155,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 3890963,
+                "currency": "EUR",
+                "lowerBound": 3112770,
+                "upperBound": 4669155,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 3888456,
+                "currency": "EUR",
+                "lowerBound": 3110765,
+                "upperBound": 4666148,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 3848108,
+                "currency": "EUR",
+                "lowerBound": 3078486,
+                "upperBound": 4617730,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 4617730,
+                "currency": "EUR",
+                "lowerBound": 3694184,
+                "upperBound": 5541276,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 4969238,
+                "currency": "EUR",
+                "lowerBound": 3975390,
+                "upperBound": 5963085,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 3975390,
+                "currency": "EUR",
+                "lowerBound": 3180312,
+                "upperBound": 4770468,
+                "source": "scisports",
+                "teamId": 8595,
+                "teamName": "Br\u00f8ndby IF"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 630672,
+                "name": "Patrick Pentz"
+            },
+            {
+                "id": 1069402,
+                "name": "Oliver Villadsen"
+            },
+            {
+                "id": 962024,
+                "name": "Luis Binks"
+            },
+            {
+                "id": 595154,
+                "name": "Rasmus Lauritsen"
+            },
+            {
+                "id": 62329,
+                "name": "Patrick Mortensen"
+            },
+            {
+                "id": 74169,
+                "name": "Daniel Wass"
+            },
+            {
+                "id": 1165444,
+                "name": "Filip Bundgaard"
+            },
+            {
+                "id": 940331,
+                "name": "Carl Bj\u00f6rk"
+            },
+            {
+                "id": 1190711,
+                "name": "Gavin Beavers"
+            },
+            {
+                "id": 777069,
+                "name": "Adrian Kappenberger"
+            },
+            {
+                "id": 769673,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 1389698,
+                "name": "Max Ejdum"
+            },
+            {
+                "id": 1451137,
+                "name": "Sho Fukuda"
+            },
+            {
+                "id": 1432615,
+                "name": "Marcus Younis"
+            },
+            {
+                "id": 1673762,
+                "name": "Ousmane Sow"
+            },
+            {
+                "id": 861992,
+                "name": "Marko Divkovic"
+            },
+            {
+                "id": 788379,
+                "name": "Mats K\u00f6hlert"
+            },
+            {
+                "id": 949266,
+                "name": "Mads Fr\u00f8kj\u00e6r-Jensen"
+            },
+            {
+                "id": 401004,
+                "name": "Jordi Vanlerberghe"
+            },
+            {
+                "id": 466861,
+                "name": "Sean Klaiber"
+            },
+            {
+                "id": 1024169,
+                "name": "Frederik Alves Ibsen"
+            },
+            {
+                "id": 1950851,
+                "name": "Raphael Canut"
+            },
+            {
+                "id": 1717020,
+                "name": "Jacob Amb\u00e6k"
+            },
+            {
+                "id": 1436845,
+                "name": "Mathias Jensen"
+            },
+            {
+                "id": 742332,
+                "name": "Bartosz Slisz"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 466867,
+                "name": "Nikola Vasilj"
+            },
+            {
+                "id": 857436,
+                "name": "Nihad Mujakic"
+            },
+            {
+                "id": 797797,
+                "name": "Dennis Hadzikadunic"
+            },
+            {
+                "id": 1250485,
+                "name": "Tarik Muharemovic"
+            },
+            {
+                "id": 304345,
+                "name": "Sead Kolasinac"
+            },
+            {
+                "id": 958010,
+                "name": "Amar Dedic"
+            },
+            {
+                "id": 1057426,
+                "name": "Armin Gigovic"
+            },
+            {
+                "id": 1284492,
+                "name": "Samed Bazdar"
+            },
+            {
+                "id": 840241,
+                "name": "Ermedin Demirovic"
+            },
+            {
+                "id": 15403,
+                "name": "Edin Dzeko"
+            },
+            {
+                "id": 1726288,
+                "name": "Mladen Jurkas"
+            },
+            {
+                "id": 1179875,
+                "name": "Ivan Basic"
+            },
+            {
+                "id": 541551,
+                "name": "Ivan Sunjic"
+            },
+            {
+                "id": 1300385,
+                "name": "Amar Memic"
+            },
+            {
+                "id": 639558,
+                "name": "Amir Hadziahmetovic"
+            },
+            {
+                "id": 660148,
+                "name": "Dzenis Burnic"
+            },
+            {
+                "id": 725655,
+                "name": "Nikola Katic"
+            },
+            {
+                "id": 1684401,
+                "name": "Kerim Alajbegovic"
+            },
+            {
+                "id": 1346860,
+                "name": "Esmir Bajraktarevic"
+            },
+            {
+                "id": 653982,
+                "name": "Stjepan Radeljic"
+            },
+            {
+                "id": 857661,
+                "name": "Martin Zlomislic"
+            },
+            {
+                "id": 388903,
+                "name": "Haris Tabakovic"
+            },
+            {
+                "id": 1515122,
+                "name": "Arjan Malic"
+            },
+            {
+                "id": 1174844,
+                "name": "Jovo Lukic"
+            },
+            {
+                "id": 1528815,
+                "name": "Ermin Mahmic"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5739464,
+        "homeId": 8071,
+        "awayId": 8595,
+        "homeName": "AGF",
+        "awayName": "Br\u00f8ndby IF",
+        "matchDate": "2026-07-25T16:00:00Z",
+        "statusId": 1,
+        "leagueId": 46,
+        "parentLeagueId": 46,
+        "leagueName": "Superligaen",
+        "status": {
+            "utcTime": "2026-07-25T16:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Ceres Park Vejlby",
+            "city": "Risskov",
+            "lat": 56.192430381,
+            "long": 10.210284591
+        },
+        "matchUrl": "/matches/agf-vs-brondby-if/2aozua#5739464"
+    },
+    "dataProvider": "enet"
+}

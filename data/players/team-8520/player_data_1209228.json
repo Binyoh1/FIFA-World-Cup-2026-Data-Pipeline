@@ -1,0 +1,4661 @@
+{
+    "id": 1209228,
+    "name": "Daniel Svensson",
+    "birthDate": {
+        "utcTime": "2002-02-12T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9789,
+        "teamName": "Borussia Dortmund",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#d8a000",
+            "colorAlternate": "#FFD900",
+            "colorAway": "#000000",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Back",
+                    "key": "rightback"
+                },
+                "strPosShort": {
+                    "label": "RB",
+                    "key": "rightback_short"
+                },
+                "occurences": 1,
+                "position": "32",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "37",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Back",
+                    "key": "leftback"
+                },
+                "strPosShort": {
+                    "label": "LB",
+                    "key": "leftback_short"
+                },
+                "occurences": 2,
+                "position": "38",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.74,
+                    "ratio": 0.24000000000000002
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 1,
+                "position": "62",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Wing-Back",
+                    "key": "left_wing_back"
+                },
+                "strPosShort": {
+                    "label": "LWB",
+                    "key": "left_wing_back_short"
+                },
+                "occurences": 31,
+                "position": "68",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 1,
+                "position": "77",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 12,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.42,
+                    "ratio": 0.44
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "88",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Left Wing-Back",
+            "key": "left_wing_back"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Left Back",
+                "key": "leftback"
+            },
+            {
+                "label": "Left Midfielder",
+                "key": "leftmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 183,
+                "key": null,
+                "fallback": "183 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {},
+                "key": null,
+                "fallback": 24
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "24"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Sweden"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "SWE"
+            },
+            "countryCode": "SWE"
+        },
+        {
+            "value": {
+                "numberValue": 24276306,
+                "key": null,
+                "fallback": "\u20ac24.3m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 54,
+        "leagueName": "Bundesliga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 2
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 27
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 33
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2452
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 4653704,
+            "matchDate": {
+                "utcTime": "2026-06-30T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/france-vs-sweden/1x6dai#4653704",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6715,
+            "opponentTeamName": "Japan",
+            "isHomeTeam": false,
+            "id": 4667788,
+            "matchDate": {
+                "utcTime": "2026-06-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-sweden/1x3r7y#4667788",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 4667786,
+            "matchDate": {
+                "utcTime": "2026-06-20T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-sweden/1x1gy6#4667786",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 4667784,
+            "matchDate": {
+                "utcTime": "2026-06-15T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tunisia-vs-sweden/1x5290#4667784",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6383,
+            "opponentTeamName": "Greece",
+            "isHomeTeam": true,
+            "id": 5418296,
+            "matchDate": {
+                "utcTime": "2026-06-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/greece-vs-sweden/1u4ito#5418296",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 37,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": false,
+            "id": 5269692,
+            "matchDate": {
+                "utcTime": "2026-06-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/norway-vs-sweden/2e5vii#5269692",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": false,
+            "id": 4829620,
+            "matchDate": {
+                "utcTime": "2026-05-16T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/werder-bremen-vs-borussia-dortmund/2tqnt6#4829620",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": true,
+            "id": 4829604,
+            "matchDate": {
+                "utcTime": "2026-05-08T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-eintracht-frankfurt/36cxvu#4829604",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": false,
+            "id": 4829596,
+            "matchDate": {
+                "utcTime": "2026-05-03T15:40:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-monchengladbach-vs-borussia-dortmund/363pci#4829596",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": true,
+            "id": 4829586,
+            "matchDate": {
+                "utcTime": "2026-04-26T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-borussia-dortmund/2q1kk3#4829586",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8226,
+            "opponentTeamName": "Hoffenheim",
+            "isHomeTeam": false,
+            "id": 4829581,
+            "matchDate": {
+                "utcTime": "2026-04-18T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-dortmund/2omex9#4829581",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": true,
+            "id": 4829568,
+            "matchDate": {
+                "utcTime": "2026-04-11T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-borussia-dortmund/2o3wkl#4829568",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": false,
+            "id": 4829564,
+            "matchDate": {
+                "utcTime": "2026-04-04T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-vfb-stuttgart/3bs0n0#4829564",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 8568,
+            "opponentTeamName": "Poland",
+            "isHomeTeam": true,
+            "id": 5067300,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sweden-vs-poland/2exnfc#5067300",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "final",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6718,
+            "opponentTeamName": "Ukraine",
+            "isHomeTeam": false,
+            "id": 5067288,
+            "matchDate": {
+                "utcTime": "2026-03-26T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ukraine-vs-sweden/1x4qhp#5067288",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": true,
+            "id": 4829551,
+            "matchDate": {
+                "utcTime": "2026-03-21T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-hamburger-sv/364jk8#4829551",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": true,
+            "id": 4829542,
+            "matchDate": {
+                "utcTime": "2026-03-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/augsburg-vs-borussia-dortmund/2qk9kr#4829542",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": false,
+            "id": 4829532,
+            "matchDate": {
+                "utcTime": "2026-03-07T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/1-fc-koln-vs-borussia-dortmund/2u0knp#4829532",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": true,
+            "id": 4829525,
+            "matchDate": {
+                "utcTime": "2026-02-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-bayern-munchen/36iek5#4829525",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": false,
+            "id": 5161872,
+            "matchDate": {
+                "utcTime": "2026-02-25T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-borussia-dortmund/2rufmy#5161872",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/16",
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 178475,
+            "opponentTeamName": "RB Leipzig",
+            "isHomeTeam": false,
+            "id": 4829518,
+            "matchDate": {
+                "utcTime": "2026-02-21T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-rb-leipzig/85331u9#4829518",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": true,
+            "id": 5161871,
+            "matchDate": {
+                "utcTime": "2026-02-17T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-borussia-dortmund/2rufmy#5161871",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": true,
+            "id": 4829506,
+            "matchDate": {
+                "utcTime": "2026-02-13T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-mainz-05/37gy4q#4829506",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": false,
+            "id": 4829503,
+            "matchDate": {
+                "utcTime": "2026-02-07T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolfsburg-vs-borussia-dortmund/2u06di#4829503",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": true,
+            "id": 4829487,
+            "matchDate": {
+                "utcTime": "2026-02-01T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-fc-heidenheim/2ioxi2i#4829487",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": false,
+            "id": 4829485,
+            "matchDate": {
+                "utcTime": "2026-01-24T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-borussia-dortmund/2nsqug#4829485",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": false,
+            "id": 4947136,
+            "matchDate": {
+                "utcTime": "2026-01-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-borussia-dortmund/2sit89#4947136",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "5.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": true,
+            "id": 4829469,
+            "matchDate": {
+                "utcTime": "2026-01-17T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-borussia-dortmund/2ntwdg#4829469",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": true,
+            "id": 4829460,
+            "matchDate": {
+                "utcTime": "2026-01-13T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/werder-bremen-vs-borussia-dortmund/2tqnt6#4829460",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 23,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4829453,
+            "matchDate": {
+                "utcTime": "2026-01-09T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-eintracht-frankfurt/36cxvu#4829453",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": true,
+            "id": 4829442,
+            "matchDate": {
+                "utcTime": "2025-12-19T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-monchengladbach-vs-borussia-dortmund/363pci#4829442",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": false,
+            "id": 4829436,
+            "matchDate": {
+                "utcTime": "2025-12-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-borussia-dortmund/2q1kk3#4829436",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8402,
+            "opponentTeamName": "Bod\u00f8/Glimt",
+            "isHomeTeam": true,
+            "id": 4947135,
+            "matchDate": {
+                "utcTime": "2025-12-10T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bodoglimt-vs-borussia-dortmund/2qipf9#4947135",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 57,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8226,
+            "opponentTeamName": "Hoffenheim",
+            "isHomeTeam": true,
+            "id": 4829424,
+            "matchDate": {
+                "utcTime": "2025-12-07T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-dortmund/2omex9#4829424",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": true,
+            "id": 5038949,
+            "matchDate": {
+                "utcTime": "2025-12-02T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-borussia-dortmund/2o3wkl#5038949",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": false,
+            "id": 4829414,
+            "matchDate": {
+                "utcTime": "2025-11-29T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-borussia-dortmund/2o3wkl#4829414",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 10205,
+            "opponentTeamName": "Villarreal",
+            "isHomeTeam": true,
+            "id": 4947133,
+            "matchDate": {
+                "utcTime": "2025-11-25T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-villarreal/3b0joc#4947133",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": true,
+            "id": 4829407,
+            "matchDate": {
+                "utcTime": "2025-11-22T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-vfb-stuttgart/3bs0n0#4829407",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": true,
+            "id": 4689292,
+            "matchDate": {
+                "utcTime": "2025-11-18T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-sweden/1oxy3i#4689292",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": false,
+            "id": 4689290,
+            "matchDate": {
+                "utcTime": "2025-11-15T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-sweden/1x4eqf#4689290",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": false,
+            "id": 4829400,
+            "matchDate": {
+                "utcTime": "2025-11-08T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-hamburger-sv/364jk8#4829400",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4947132,
+            "matchDate": {
+                "utcTime": "2025-11-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-borussia-dortmund/2r3sj0#4947132",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": false,
+            "id": 4829387,
+            "matchDate": {
+                "utcTime": "2025-10-31T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/augsburg-vs-borussia-dortmund/2qk9kr#4829387",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4951161,
+            "matchDate": {
+                "utcTime": "2025-10-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-eintracht-frankfurt/36cxvu#4951161",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 120,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": true,
+            "id": 4829381,
+            "matchDate": {
+                "utcTime": "2025-10-25T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/1-fc-koln-vs-borussia-dortmund/2u0knp#4829381",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8391,
+            "opponentTeamName": "FC K\u00f8benhavn",
+            "isHomeTeam": false,
+            "id": 4947138,
+            "matchDate": {
+                "utcTime": "2025-10-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-kobenhavn-vs-borussia-dortmund/2qef2f#4947138",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": false,
+            "id": 4829369,
+            "matchDate": {
+                "utcTime": "2025-10-18T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-bayern-munchen/36iek5#4829369",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 430156,
+            "opponentTeamName": "Kosovo",
+            "isHomeTeam": true,
+            "id": 4689288,
+            "matchDate": {
+                "utcTime": "2025-10-13T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sweden-vs-kosovo/187a1byy#4689288",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": true,
+            "id": 4689286,
+            "matchDate": {
+                "utcTime": "2025-10-10T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-sweden/1x4eqf#4689286",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 178475,
+            "opponentTeamName": "RB Leipzig",
+            "isHomeTeam": true,
+            "id": 4829363,
+            "matchDate": {
+                "utcTime": "2025-10-04T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-rb-leipzig/85331u9#4829363",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8315,
+            "opponentTeamName": "Athletic Club",
+            "isHomeTeam": true,
+            "id": 4947137,
+            "matchDate": {
+                "utcTime": "2025-10-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/athletic-club-vs-borussia-dortmund/2pkv5l#4947137",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": false,
+            "id": 4829356,
+            "matchDate": {
+                "utcTime": "2025-09-27T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-mainz-05/37gy4q#4829356",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": true,
+            "id": 4829344,
+            "matchDate": {
+                "utcTime": "2025-09-21T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolfsburg-vs-borussia-dortmund/2u06di#4829344",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9885,
+            "opponentTeamName": "Juventus",
+            "isHomeTeam": false,
+            "id": 4947134,
+            "matchDate": {
+                "utcTime": "2025-09-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-juventus/378icc#4947134",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": false,
+            "id": 4829339,
+            "matchDate": {
+                "utcTime": "2025-09-13T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-fc-heidenheim/2ioxi2i#4829339",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 430156,
+            "opponentTeamName": "Kosovo",
+            "isHomeTeam": false,
+            "id": 4689283,
+            "matchDate": {
+                "utcTime": "2025-09-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sweden-vs-kosovo/187a1byy#4689283",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": false,
+            "id": 4689281,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-sweden/1oxy3i#4689281",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": true,
+            "id": 4829240,
+            "matchDate": {
+                "utcTime": "2025-08-31T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-borussia-dortmund/2nsqug#4829240",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": false,
+            "id": 4829227,
+            "matchDate": {
+                "utcTime": "2025-08-23T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-borussia-dortmund/2ntwdg#4829227",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 57,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8296,
+            "opponentTeamName": "RW Essen",
+            "isHomeTeam": false,
+            "id": 4810503,
+            "matchDate": {
+                "utcTime": "2025-08-18T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rw-essen-vs-borussia-dortmund/2pdhvg#4810503",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9885,
+            "opponentTeamName": "Juventus",
+            "isHomeTeam": true,
+            "id": 4807182,
+            "matchDate": {
+                "utcTime": "2025-08-10T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-juventus/378icc#4807182",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": true,
+            "id": 4877497,
+            "matchDate": {
+                "utcTime": "2025-08-02T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-borussia-dortmund/2t3ps3#4877497",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9789,
+            "teamName": "Borussia Dortmund",
+            "opponentTeamId": 9757,
+            "opponentTeamName": "Sportfreunde Siegen",
+            "isHomeTeam": false,
+            "id": 4829120,
+            "matchDate": {
+                "utcTime": "2025-07-30T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sportfreunde-siegen-vs-borussia-dortmund/35qpfg#4829120",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 8,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1209228,
+                        "teamId": 9789,
+                        "team": "Borussia Dortmund",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "47",
+                        "goals": "4",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1209228,
+                        "teamId": 9789,
+                        "team": "Borussia Dortmund",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2025-02-03T00:00:00",
+                        "endDate": "2025-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "19",
+                        "goals": "2",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1209228,
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-08-01T00:00:00",
+                        "endDate": "2025-02-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "153",
+                        "goals": "8",
+                        "assists": "17",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1209228,
+                        "teamId": 8501,
+                        "team": "Brommapojkarna",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-11-28T00:00:00",
+                        "endDate": "2020-07-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "45",
+                        "goals": "4",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.93"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26891,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26893,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.74"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.76"
+                                }
+                            }
+                        ],
+                        "teamId": 9789,
+                        "team": "Borussia Dortmund",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "21",
+                        "goals": "2",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23794,
+                                "goals": "1",
+                                "assists": "3",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.21"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 78,
+                                "leagueName": "FIFA Club World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 24449,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.23"
+                                }
+                            }
+                        ],
+                        "teamId": 9789,
+                        "team": "Borussia Dortmund",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "19",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23624,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23829,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "48",
+                        "goals": "4",
+                        "assists": "11",
+                        "rating": {
+                            "rating": "7.24"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20962,
+                                "goals": "2",
+                                "assists": "9",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.35"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21258,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21016,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.91"
+                                }
+                            }
+                        ],
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "35",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.94"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17703,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17946,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "29",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.54"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16387,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "27",
+                                "rating": {
+                                    "rating": "6.54"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 242,
+                                "leagueName": "DBU Pokalen",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16603,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "22",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.63"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 46,
+                                "leagueName": "Superligaen",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15429,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": "6.63"
+                                }
+                            }
+                        ],
+                        "teamId": 10202,
+                        "team": "Nordsj\u00e6lland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 169,
+                                "leagueName": "Ettan",
+                                "seasonName": "2020",
+                                "tournamentId": 14853,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8501,
+                        "team": "Brommapojkarna",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8501,
+                        "team": "Brommapojkarna",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1209228,
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-06-03T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1209228,
+                        "teamId": 8556,
+                        "team": "Sweden U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-28T00:00:00",
+                        "endDate": "2024-10-06T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1209228,
+                        "teamId": 8556,
+                        "team": "Sweden U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-05-25T00:00:00",
+                        "endDate": "2024-05-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "11",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "13",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.48"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "5.74"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.29"
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.54"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.54"
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "8",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8556,
+                        "team": "Sweden U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8556,
+                        "team": "Sweden U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_fullbacks",
+        "title": "Stats compared to other fullbacks",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.57
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.27
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.29
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.72
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.21
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.13
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "daniel-svensson",
+        "pageurl": "/players/1209228/daniel-svensson",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Daniel Svensson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson is 24 years old. Born on Tue Feb 12 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Daniel Svensson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson is 183 cm tall. Or 6 ft 0 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Daniel Svensson born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson was born Tue Feb 12 2002 and is now 24 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Daniel Svensson's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Daniel Svensson's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson's transfer value is estimated to be around \u20ac24.3m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Daniel Svensson from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson is from Sweden."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Daniel Svensson scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daniel Svensson has scored 2 goals in the Bundesliga."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Daniel Svensson",
+            "birthDate": "2002-02-12T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1209228/daniel-svensson",
+            "nationality": {
+                "@type": "Country",
+                "name": "Sweden"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Borussia Dortmund"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "183"
+            },
+            "weight": null
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Bundesliga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/54/overview/bundesliga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Borussia Dortmund",
+                    "item": "https://www.fotmob.com/teams/9789/overview/borussia-dortmund"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Daniel Svensson",
+                    "item": "https://www.fotmob.com/leagues/1209228/overview/daniel-svensson"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "tournamentId": 78,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League C",
+                    "tournamentId": 9808,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Superligaen",
+                    "tournamentId": 46,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945448539,
+                "playerName": "Daniel Svensson",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "SetPiece",
+                "teamId": 8520,
+                "playerId": 1209228,
+                "x": 85.1720588228,
+                "y": 47.15363057,
+                "min": 78,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 87.963235294,
+                "blockedY": 45.4020382125,
+                "goalCrossedY": 34,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.00803541485220194,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6715,
+                "awayTeamId": 8520,
+                "homeTeamName": "Japan",
+                "awayTeamName": "Sweden",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667788,
+                "matchDate": "2026-06-25T23:00:00Z",
+                "teamColor": "#dd9a00",
+                "teamColorDark": "#FED226"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.007346939124471071,
+                            "percentileRank": 34.50704225352113,
+                            "percentileRankPer90": 40.140845070422536,
+                            "statFormat": "fraction",
+                            "statValue": "0.01",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.007346939124471071,
+                            "percentileRank": 34.50704225352113,
+                            "percentileRankPer90": 40.140845070422536,
+                            "statFormat": "fraction",
+                            "statValue": "0.01",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 33.80281690140845,
+                            "percentileRankPer90": 77.46478873239437,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.06582195811182717,
+                            "percentileRank": 34.50704225352113,
+                            "percentileRankPer90": 57.74647887323944,
+                            "statFormat": "fraction",
+                            "statValue": "0.07",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 28.46938775510204,
+                            "percentileRank": 16.19718309859155,
+                            "percentileRankPer90": 38.028169014084504,
+                            "statFormat": "number",
+                            "statValue": "31",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 83.78378378378379,
+                            "percentileRank": 47.183098591549296,
+                            "percentileRankPer90": 47.183098591549296,
+                            "statFormat": "percent",
+                            "statValue": "83.8",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 18.30985915492958,
+                            "percentileRankPer90": 62.676056338028175,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 1.8367346938775508,
+                            "percentileRank": 63.38028169014085,
+                            "percentileRankPer90": 97.1830985915493,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 2.7551020408163263,
+                            "percentileRank": 6.338028169014084,
+                            "percentileRankPer90": 13.380281690140844,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 37.5,
+                            "percentileRank": 7.042253521126761,
+                            "percentileRankPer90": 7.042253521126761,
+                            "statFormat": "percent",
+                            "statValue": "37.5",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 55.10204081632653,
+                            "percentileRank": 12.676056338028168,
+                            "percentileRankPer90": 34.50704225352113,
+                            "statFormat": "number",
+                            "statValue": "60",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 20.422535211267608,
+                            "percentileRankPer90": 42.25352112676056,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.8367346938775508,
+                            "percentileRank": 19.718309859154928,
+                            "percentileRankPer90": 2.8169014084507045,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dispossessed"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 4.591836734693878,
+                            "percentileRank": 7.746478873239436,
+                            "percentileRankPer90": 24.647887323943664,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.7551020408163263,
+                            "percentileRank": 27.464788732394368,
+                            "percentileRankPer90": 75.35211267605634,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 9.15492957746479,
+                            "percentileRankPer90": 40.140845070422536,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 64.08450704225352,
+                            "percentileRankPer90": 45.07042253521127,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 0.9183673469387754,
+                            "percentileRank": 3.5211267605633805,
+                            "percentileRankPer90": 7.042253521126761,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.7551020408163263,
+                            "percentileRank": 51.40845070422535,
+                            "percentileRankPer90": 11.971830985915492,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 3.0378674122751974,
+                            "percentileRank": 51.40845070422535,
+                            "percentileRankPer90": 0.7042253521126761,
+                            "statFormat": "fraction",
+                            "statValue": "3.31",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 5.74,
+                    "percentileRank": 2.8169014084507045,
+                    "percentileRankPer90": 2.8169014084507045,
+                    "statFormat": "fraction",
+                    "statValue": "5.74",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 27.464788732394368,
+                    "percentileRankPer90": 27.464788732394368,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 18.30985915492958,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 15.492957746478872,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "98",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 88.39,
+                    "y": 48.55
+                },
+                {
+                    "x": 31.86,
+                    "y": 68
+                },
+                {
+                    "x": 58.9,
+                    "y": 60.98
+                },
+                {
+                    "x": 68.07,
+                    "y": 62.49
+                },
+                {
+                    "x": 36.14,
+                    "y": 64.39
+                },
+                {
+                    "x": 31.19,
+                    "y": 54.82
+                },
+                {
+                    "x": 73.93,
+                    "y": 63.01
+                },
+                {
+                    "x": 93.5,
+                    "y": 61.05
+                },
+                {
+                    "x": 74.26,
+                    "y": 68
+                },
+                {
+                    "x": 61.04,
+                    "y": 68
+                },
+                {
+                    "x": 65.93,
+                    "y": 13.84
+                },
+                {
+                    "x": 60.33,
+                    "y": 22.6
+                },
+                {
+                    "x": 46.71,
+                    "y": 68
+                },
+                {
+                    "x": 69.2,
+                    "y": 64.26
+                },
+                {
+                    "x": 36.03,
+                    "y": 68
+                },
+                {
+                    "x": 46.71,
+                    "y": 68
+                },
+                {
+                    "x": 8.97,
+                    "y": 14.68
+                },
+                {
+                    "x": 7.14,
+                    "y": 52.06
+                },
+                {
+                    "x": 22.97,
+                    "y": 50.38
+                },
+                {
+                    "x": 60.53,
+                    "y": 61.38
+                },
+                {
+                    "x": 5.41,
+                    "y": 55.21
+                },
+                {
+                    "x": 0.66,
+                    "y": 62.29
+                },
+                {
+                    "x": 97.67,
+                    "y": 59.6
+                },
+                {
+                    "x": 92.1,
+                    "y": 55.34
+                },
+                {
+                    "x": 40.08,
+                    "y": 59.28
+                },
+                {
+                    "x": 36.59,
+                    "y": 68
+                },
+                {
+                    "x": 39.75,
+                    "y": 56.85
+                },
+                {
+                    "x": 13,
+                    "y": 60.92
+                },
+                {
+                    "x": 41.55,
+                    "y": 60.52
+                },
+                {
+                    "x": 69.87,
+                    "y": 46.38
+                },
+                {
+                    "x": 104.72,
+                    "y": 67.67
+                },
+                {
+                    "x": 41.66,
+                    "y": 56.78
+                },
+                {
+                    "x": 43.96,
+                    "y": 59.41
+                },
+                {
+                    "x": 43.76,
+                    "y": 59.93
+                },
+                {
+                    "x": 55.14,
+                    "y": 48.34
+                },
+                {
+                    "x": 30.74,
+                    "y": 50.94
+                },
+                {
+                    "x": 63.11,
+                    "y": 53.95
+                },
+                {
+                    "x": 60.73,
+                    "y": 54.16
+                },
+                {
+                    "x": 73.81,
+                    "y": 57.77
+                },
+                {
+                    "x": 63.79,
+                    "y": 38.37
+                },
+                {
+                    "x": 38.85,
+                    "y": 59.74
+                },
+                {
+                    "x": 49.35,
+                    "y": 37.95
+                },
+                {
+                    "x": 87.75,
+                    "y": 29.46
+                },
+                {
+                    "x": 9.07,
+                    "y": 49.89
+                },
+                {
+                    "x": 9.36,
+                    "y": 47.22
+                },
+                {
+                    "x": 87.21,
+                    "y": 29.21
+                },
+                {
+                    "x": 93.3,
+                    "y": 64.26
+                },
+                {
+                    "x": 92.8,
+                    "y": 68
+                },
+                {
+                    "x": 68.18,
+                    "y": 63.28
+                },
+                {
+                    "x": 71.11,
+                    "y": 64.65
+                },
+                {
+                    "x": 74.15,
+                    "y": 68
+                },
+                {
+                    "x": 85.17,
+                    "y": 20.85
+                },
+                {
+                    "x": 84.62,
+                    "y": 22.04
+                },
+                {
+                    "x": 94.29,
+                    "y": 16.71
+                },
+                {
+                    "x": 57.79,
+                    "y": 57.57
+                },
+                {
+                    "x": 51.89,
+                    "y": 61.05
+                },
+                {
+                    "x": 55.04,
+                    "y": 20.78
+                },
+                {
+                    "x": 58.5,
+                    "y": 17.9
+                },
+                {
+                    "x": 56.87,
+                    "y": 11.87
+                },
+                {
+                    "x": 61.55,
+                    "y": 15.31
+                },
+                {
+                    "x": 56.57,
+                    "y": 8.79
+                },
+                {
+                    "x": 41.1,
+                    "y": 11.41
+                },
+                {
+                    "x": 56.16,
+                    "y": 10.63
+                },
+                {
+                    "x": 43.55,
+                    "y": 9.77
+                },
+                {
+                    "x": 77.64,
+                    "y": 0
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 460000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 570000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 710000,
+                "currency": "EUR",
+                "lowerBound": 530000,
+                "upperBound": 890000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 960000,
+                "currency": "EUR",
+                "lowerBound": 720000,
+                "upperBound": 1200000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 1020000,
+                "currency": "EUR",
+                "lowerBound": 760000,
+                "upperBound": 1270000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 1000000,
+                "currency": "EUR",
+                "lowerBound": 750000,
+                "upperBound": 1250000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 980000,
+                "currency": "EUR",
+                "lowerBound": 740000,
+                "upperBound": 1230000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 900000,
+                "currency": "EUR",
+                "lowerBound": 680000,
+                "upperBound": 1130000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 840000,
+                "currency": "EUR",
+                "lowerBound": 630000,
+                "upperBound": 1050000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 460000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 570000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 410000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 510000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 410000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 520000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 420000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 520000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 390000,
+                "currency": "EUR",
+                "lowerBound": 290000,
+                "upperBound": 490000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 480000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 600000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 340000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 390000,
+                "currency": "EUR",
+                "lowerBound": 290000,
+                "upperBound": 490000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 480000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 600000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 560000,
+                "currency": "EUR",
+                "lowerBound": 420000,
+                "upperBound": 700000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 620000,
+                "currency": "EUR",
+                "lowerBound": 460000,
+                "upperBound": 770000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 800000,
+                "currency": "EUR",
+                "lowerBound": 600000,
+                "upperBound": 1000000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 920000,
+                "currency": "EUR",
+                "lowerBound": 690000,
+                "upperBound": 1150000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 1010000,
+                "currency": "EUR",
+                "lowerBound": 760000,
+                "upperBound": 1260000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 1290000,
+                "currency": "EUR",
+                "lowerBound": 970000,
+                "upperBound": 1610000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 1370000,
+                "currency": "EUR",
+                "lowerBound": 1030000,
+                "upperBound": 1710000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 1400000,
+                "currency": "EUR",
+                "lowerBound": 1050000,
+                "upperBound": 1740000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 1420000,
+                "currency": "EUR",
+                "lowerBound": 1070000,
+                "upperBound": 1780000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 1350000,
+                "currency": "EUR",
+                "lowerBound": 1020000,
+                "upperBound": 1690000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 1300000,
+                "currency": "EUR",
+                "lowerBound": 980000,
+                "upperBound": 1630000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1630000,
+                "currency": "EUR",
+                "lowerBound": 1304000,
+                "upperBound": 1956000,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 1956000,
+                "currency": "EUR",
+                "lowerBound": 1564800,
+                "upperBound": 2347200,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 2347200,
+                "currency": "EUR",
+                "lowerBound": 1877760,
+                "upperBound": 2816640,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 2816640,
+                "currency": "EUR",
+                "lowerBound": 2253312,
+                "upperBound": 3379968,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 3379968,
+                "currency": "EUR",
+                "lowerBound": 2703974,
+                "upperBound": 4055961,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 4055961,
+                "currency": "EUR",
+                "lowerBound": 3244768,
+                "upperBound": 4867153,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 4867153,
+                "currency": "EUR",
+                "lowerBound": 3893722,
+                "upperBound": 5840583,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 5840583,
+                "currency": "EUR",
+                "lowerBound": 4964495,
+                "upperBound": 6716670,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 6716670,
+                "currency": "EUR",
+                "lowerBound": 5709169,
+                "upperBound": 7724170,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 7032652,
+                "currency": "EUR",
+                "lowerBound": 5977754,
+                "upperBound": 8087550,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 6741360,
+                "currency": "EUR",
+                "lowerBound": 5730156,
+                "upperBound": 7752564,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 6310329,
+                "currency": "EUR",
+                "lowerBound": 5363780,
+                "upperBound": 7256878,
+                "source": "scisports",
+                "teamId": 10202,
+                "teamName": "Nordsj\u00e6lland"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 6383533,
+                "currency": "EUR",
+                "lowerBound": 5426003,
+                "upperBound": 7341063,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 7017937,
+                "currency": "EUR",
+                "lowerBound": 5965246,
+                "upperBound": 8070627,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 7009307,
+                "currency": "EUR",
+                "lowerBound": 5957911,
+                "upperBound": 8060704,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 6759351,
+                "currency": "EUR",
+                "lowerBound": 5745449,
+                "upperBound": 7773254,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 6770413,
+                "currency": "EUR",
+                "lowerBound": 5754851,
+                "upperBound": 7785975,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 15411757,
+                "currency": "EUR",
+                "lowerBound": 13870581,
+                "upperBound": 16952932,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 15411757,
+                "currency": "EUR",
+                "lowerBound": 13870581,
+                "upperBound": 16952932,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 15411757,
+                "currency": "EUR",
+                "lowerBound": 13870581,
+                "upperBound": 16952932,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 15411757,
+                "currency": "EUR",
+                "lowerBound": 13870581,
+                "upperBound": 16952932,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 24482197,
+                "currency": "EUR",
+                "lowerBound": 22033977,
+                "upperBound": 26930416,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 24575731,
+                "currency": "EUR",
+                "lowerBound": 22118158,
+                "upperBound": 27033305,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 24521051,
+                "currency": "EUR",
+                "lowerBound": 22068946,
+                "upperBound": 26973157,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 25221421,
+                "currency": "EUR",
+                "lowerBound": 22699279,
+                "upperBound": 27743564,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 24999308,
+                "currency": "EUR",
+                "lowerBound": 22499377,
+                "upperBound": 27499239,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 25790934,
+                "currency": "EUR",
+                "lowerBound": 23211841,
+                "upperBound": 28370028,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 26068110,
+                "currency": "EUR",
+                "lowerBound": 23461299,
+                "upperBound": 28674921,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 26973673,
+                "currency": "EUR",
+                "lowerBound": 24276306,
+                "upperBound": 29671040,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 24276306,
+                "currency": "EUR",
+                "lowerBound": 21848675,
+                "upperBound": 26703936,
+                "source": "scisports",
+                "teamId": 9789,
+                "teamName": "Borussia Dortmund"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1042347,
+                "name": "Diant Ramaj"
+            },
+            {
+                "id": 1750565,
+                "name": "Kau\u00e3 Prates"
+            },
+            {
+                "id": 1684432,
+                "name": "Mussa Kaba"
+            },
+            {
+                "id": 764018,
+                "name": "Gregor Kobel"
+            },
+            {
+                "id": 1109171,
+                "name": "Yan Couto"
+            },
+            {
+                "id": 664970,
+                "name": "Waldemar Anton"
+            },
+            {
+                "id": 1002058,
+                "name": "Nico Schlotterbeck"
+            },
+            {
+                "id": 559065,
+                "name": "Ramy Bensebaini"
+            },
+            {
+                "id": 1287373,
+                "name": "Jobe Bellingham"
+            },
+            {
+                "id": 966019,
+                "name": "Felix Nmecha"
+            },
+            {
+                "id": 448540,
+                "name": "Serhou Guirassy"
+            },
+            {
+                "id": 1047667,
+                "name": "Maximilian Beier"
+            },
+            {
+                "id": 1089685,
+                "name": "Carney Chukwuemeka"
+            },
+            {
+                "id": 215151,
+                "name": "Marcel Sabitzer"
+            },
+            {
+                "id": 1050158,
+                "name": "F\u00e1bio Silva"
+            },
+            {
+                "id": 1479742,
+                "name": "Joane Gadou"
+            },
+            {
+                "id": 307021,
+                "name": "Emre Can"
+            },
+            {
+                "id": 659272,
+                "name": "Julian Ryerson"
+            },
+            {
+                "id": 959594,
+                "name": "Karim Adeyemi"
+            },
+            {
+                "id": 1636870,
+                "name": "Justin Lerma"
+            },
+            {
+                "id": 359203,
+                "name": "Patrick Drewes"
+            },
+            {
+                "id": 1316269,
+                "name": "Silas Ostrzinski"
+            },
+            {
+                "id": 743381,
+                "name": "Alexander Meyer"
+            },
+            {
+                "id": 1663094,
+                "name": "Filippo Man\u00e9"
+            },
+            {
+                "id": 1761151,
+                "name": "Samuele In\u00e1cio"
+            },
+            {
+                "id": 1692797,
+                "name": "Mathis Albert"
+            },
+            {
+                "id": 1845173,
+                "name": "Luca Reggiani"
+            },
+            {
+                "id": 1845220,
+                "name": "Rom\u00e9o Ritter"
+            },
+            {
+                "id": 1845215,
+                "name": "Jan-Luca Riedl"
+            },
+            {
+                "id": 1845223,
+                "name": "Miguel Adje"
+            },
+            {
+                "id": 1845228,
+                "name": "Marwan-Omir Mirza"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1014602,
+                "name": "Jacob Widell Zetterstr\u00f6m"
+            },
+            {
+                "id": 919848,
+                "name": "Gustaf Lagerbielke"
+            },
+            {
+                "id": 258269,
+                "name": "Victor Nilsson Lindel\u00f6f"
+            },
+            {
+                "id": 939780,
+                "name": "Isak Hien"
+            },
+            {
+                "id": 744494,
+                "name": "Gabriel Gudmundsson"
+            },
+            {
+                "id": 946703,
+                "name": "Herman Johansson"
+            },
+            {
+                "id": 1386775,
+                "name": "Lucas Bergvall"
+            },
+            {
+                "id": 690107,
+                "name": "Alexander Isak"
+            },
+            {
+                "id": 931605,
+                "name": "Benjamin Nygren"
+            },
+            {
+                "id": 1050166,
+                "name": "Anthony Elanga"
+            },
+            {
+                "id": 546252,
+                "name": "Viktor Johansson"
+            },
+            {
+                "id": 520670,
+                "name": "Ken Sema"
+            },
+            {
+                "id": 831044,
+                "name": "Hjalmar Ekdal"
+            },
+            {
+                "id": 497662,
+                "name": "Carl Starfelt"
+            },
+            {
+                "id": 322003,
+                "name": "Jesper Karlstr\u00f6m"
+            },
+            {
+                "id": 664500,
+                "name": "Viktor Gy\u00f6keres"
+            },
+            {
+                "id": 1168311,
+                "name": "Yasin Ayari"
+            },
+            {
+                "id": 647900,
+                "name": "Mattias Svanberg"
+            },
+            {
+                "id": 531327,
+                "name": "Eric Smith"
+            },
+            {
+                "id": 1014688,
+                "name": "Alexander Bernhardsson"
+            },
+            {
+                "id": 1338361,
+                "name": "Besfort Zeneli"
+            },
+            {
+                "id": 73462,
+                "name": "Kristoffer Nordfeldt"
+            },
+            {
+                "id": 1272349,
+                "name": "Elliot Stroud"
+            },
+            {
+                "id": 118241,
+                "name": "Gustaf Nilsson"
+            },
+            {
+                "id": 1135782,
+                "name": "Taha Abdi Ali"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5924412,
+        "homeId": 8194,
+        "awayId": 9789,
+        "homeName": "Fortuna D\u00fcsseldorf",
+        "awayName": "Borussia Dortmund",
+        "matchDate": "2026-07-25T11:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-25T11:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Merkur Spiel-Arena",
+            "city": "D\u00fcsseldorf",
+            "lat": 51.261545599,
+            "long": 6.733181477
+        },
+        "matchUrl": "/matches/fortuna-dusseldorf-vs-borussia-dortmund/2oa2hp#5924412"
+    },
+    "dataProvider": "enet"
+}

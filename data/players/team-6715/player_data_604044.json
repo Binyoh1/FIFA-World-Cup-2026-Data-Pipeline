@@ -1,0 +1,5512 @@
+{
+    "id": 604044,
+    "name": "Junya Ito",
+    "birthDate": {
+        "utcTime": "1993-03-09T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9987,
+        "teamName": "Genk",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#005098",
+            "colorAlternate": "#3E60A8",
+            "colorAway": "#000000",
+            "colorAwayAlternate": "#FFFFFF"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 2,
+                "position": "62",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.58,
+                    "ratio": 0.25882352941176473
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.25882352941176473
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 10,
+                "position": "82",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.49411764705882355
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 7,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.40588235294117647
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 12,
+                "position": "87",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "106",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Left Winger",
+            "key": "leftwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Wing-Back",
+                "key": "right_wing_back"
+            },
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 176,
+                "key": null,
+                "fallback": "176 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 10,
+                "options": {},
+                "key": null,
+                "fallback": 10
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 33,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "33"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Japan"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "JPN"
+            },
+            "countryCode": "JPN"
+        },
+        {
+            "value": {
+                "numberValue": 1849143,
+                "key": null,
+                "fallback": "\u20ac1.8m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 40,
+        "leagueName": "Belgian Pro League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 6
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 5
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 22
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 28
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1785
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.167857142857143
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 4
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "BEL",
+                "teamId": 9987,
+                "teamName": "Genk",
+                "tournaments": [
+                    {
+                        "ccode": "BEL",
+                        "leagueId": 149,
+                        "leagueName": "Belgian Cup",
+                        "seasonsWon": [
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "BEL",
+                        "leagueId": 40,
+                        "leagueName": "First Division A",
+                        "seasonsWon": [
+                            "2018/2019"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2020/2021"
+                        ]
+                    },
+                    {
+                        "ccode": "BEL",
+                        "leagueId": 266,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2021/2022"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4653711,
+            "matchDate": {
+                "utcTime": "2026-06-29T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-brazil/1uqadm#4653711",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8520,
+            "opponentTeamName": "Sweden",
+            "isHomeTeam": true,
+            "id": 4667788,
+            "matchDate": {
+                "utcTime": "2026-06-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-sweden/1x3r7y#4667788",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 23,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": false,
+            "id": 4667785,
+            "matchDate": {
+                "utcTime": "2026-06-21T04:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-tunisia/1hqd1q#4667785",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 4667783,
+            "matchDate": {
+                "utcTime": "2026-06-14T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-japan/1hn72b#4667783",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5418293,
+            "matchDate": {
+                "utcTime": "2026-05-31T10:25:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-iceland/1x8zfa#5418293",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 1773,
+            "opponentTeamName": "OH Leuven",
+            "isHomeTeam": false,
+            "id": 5268808,
+            "matchDate": {
+                "utcTime": "2026-05-23T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/oh-leuven-vs-genk/156fsr#5268808",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 72,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9988,
+            "opponentTeamName": "Royal Antwerp",
+            "isHomeTeam": true,
+            "id": 5268805,
+            "matchDate": {
+                "utcTime": "2026-05-19T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-royal-antwerp/3aseu8#5268805",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9985,
+            "opponentTeamName": "Standard Liege",
+            "isHomeTeam": false,
+            "id": 5268803,
+            "matchDate": {
+                "utcTime": "2026-05-16T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/standard-liege-vs-genk/3ar4lp#5268803",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10001,
+            "opponentTeamName": "Westerlo",
+            "isHomeTeam": true,
+            "id": 5268800,
+            "matchDate": {
+                "utcTime": "2026-05-10T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-westerlo/3axz9x#5268800",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 88,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.8",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9986,
+            "opponentTeamName": "Sporting Charleroi",
+            "isHomeTeam": false,
+            "id": 5268796,
+            "matchDate": {
+                "utcTime": "2026-05-02T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-charleroi-vs-genk/3ark0i#5268796",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9985,
+            "opponentTeamName": "Standard Liege",
+            "isHomeTeam": true,
+            "id": 5268793,
+            "matchDate": {
+                "utcTime": "2026-04-25T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/standard-liege-vs-genk/3ar4lp#5268793",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9986,
+            "opponentTeamName": "Sporting Charleroi",
+            "isHomeTeam": true,
+            "id": 5268789,
+            "matchDate": {
+                "utcTime": "2026-04-21T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-charleroi-vs-genk/3ark0i#5268789",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10001,
+            "opponentTeamName": "Westerlo",
+            "isHomeTeam": false,
+            "id": 5268788,
+            "matchDate": {
+                "utcTime": "2026-04-18T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-westerlo/3axz9x#5268788",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 1773,
+            "opponentTeamName": "OH Leuven",
+            "isHomeTeam": true,
+            "id": 5268785,
+            "matchDate": {
+                "utcTime": "2026-04-12T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oh-leuven-vs-genk/156fsr#5268785",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9988,
+            "opponentTeamName": "Royal Antwerp",
+            "isHomeTeam": false,
+            "id": 5268780,
+            "matchDate": {
+                "utcTime": "2026-04-03T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-royal-antwerp/3aseu8#5268780",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League Playoff Conference League Group",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 5124812,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-england/1wuals#5124812",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": false,
+            "id": 5147837,
+            "matchDate": {
+                "utcTime": "2026-03-28T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-scotland/1wwkrh#5147837",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 27,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 1218969,
+            "opponentTeamName": "RAAL La Louviere",
+            "isHomeTeam": false,
+            "id": 4818553,
+            "matchDate": {
+                "utcTime": "2026-03-22T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-raal-la-louviere/9mx2yok9#4818553",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 5,
+            "minutesPlayed": 80,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": false,
+            "id": 5206099,
+            "matchDate": {
+                "utcTime": "2026-03-19T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-genk/2s70dc#5206099",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9997,
+            "opponentTeamName": "St.Truiden",
+            "isHomeTeam": true,
+            "id": 4818544,
+            "matchDate": {
+                "utcTime": "2026-03-15T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-sttruiden/3aw9lh#4818544",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": true,
+            "id": 5206091,
+            "matchDate": {
+                "utcTime": "2026-03-12T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-genk/2s70dc#5206091",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 7978,
+            "opponentTeamName": "Union St.Gilloise",
+            "isHomeTeam": false,
+            "id": 4818538,
+            "matchDate": {
+                "utcTime": "2026-03-07T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-stgilloise-vs-genk/2o34zy#4818538",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9991,
+            "opponentTeamName": "Gent",
+            "isHomeTeam": true,
+            "id": 4818529,
+            "matchDate": {
+                "utcTime": "2026-03-01T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-gent/3atp32#4818529",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": true,
+            "id": 5161889,
+            "matchDate": {
+                "utcTime": "2026-02-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-dinamo-zagreb/3csn57#5161889",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 102,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9985,
+            "opponentTeamName": "Standard Liege",
+            "isHomeTeam": true,
+            "id": 4818519,
+            "matchDate": {
+                "utcTime": "2026-02-22T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/standard-liege-vs-genk/3ar4lp#4818519",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": false,
+            "id": 5161881,
+            "matchDate": {
+                "utcTime": "2026-02-19T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-dinamo-zagreb/3csn57#5161881",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8203,
+            "opponentTeamName": "KV Mechelen",
+            "isHomeTeam": false,
+            "id": 4818513,
+            "matchDate": {
+                "utcTime": "2026-02-13T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/kv-mechelen-vs-genk/2qibjg#4818513",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8635,
+            "opponentTeamName": "Anderlecht",
+            "isHomeTeam": true,
+            "id": 4818503,
+            "matchDate": {
+                "utcTime": "2026-02-08T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/anderlecht-vs-genk/2v8r1g#4818503",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 7947,
+            "opponentTeamName": "FCV Dender EH",
+            "isHomeTeam": false,
+            "id": 4818494,
+            "matchDate": {
+                "utcTime": "2026-02-01T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fcv-dender-eh-vs-genk/2nr7n0#4818494",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10237,
+            "opponentTeamName": "Malm\u00f6 FF",
+            "isHomeTeam": true,
+            "id": 4947912,
+            "matchDate": {
+                "utcTime": "2026-01-29T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-malmo-ff/3dron7#4947912",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9984,
+            "opponentTeamName": "Cercle Brugge",
+            "isHomeTeam": true,
+            "id": 4818488,
+            "matchDate": {
+                "utcTime": "2026-01-25T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cercle-brugge-vs-genk/3aqp6x#4818488",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9908,
+            "opponentTeamName": "FC Utrecht",
+            "isHomeTeam": false,
+            "id": 4947908,
+            "matchDate": {
+                "utcTime": "2026-01-22T20:50:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-utrecht-vs-genk/39u893#4947908",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10000,
+            "opponentTeamName": "Zulte Waregem",
+            "isHomeTeam": false,
+            "id": 4818483,
+            "matchDate": {
+                "utcTime": "2026-01-17T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-zulte-waregem/3axjup#4818483",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8342,
+            "opponentTeamName": "Club Brugge",
+            "isHomeTeam": true,
+            "id": 4818472,
+            "matchDate": {
+                "utcTime": "2025-12-26T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/club-brugge-vs-genk/2s0pzc#4818472",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 5,
+            "minutesPlayed": 18,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": true,
+            "id": 4947213,
+            "matchDate": {
+                "utcTime": "2025-10-14T10:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-brazil/1uqadm#4947213",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 36,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6724,
+            "opponentTeamName": "Paraguay",
+            "isHomeTeam": true,
+            "id": 4928747,
+            "matchDate": {
+                "utcTime": "2025-10-10T10:20:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-paraguay/1hrsw4#4928747",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 7947,
+            "opponentTeamName": "FCV Dender EH",
+            "isHomeTeam": true,
+            "id": 4818392,
+            "matchDate": {
+                "utcTime": "2025-10-05T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fcv-dender-eh-vs-genk/2nr7n0#4818392",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8222,
+            "opponentTeamName": "Ferencvaros",
+            "isHomeTeam": true,
+            "id": 4947910,
+            "matchDate": {
+                "utcTime": "2025-10-02T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-genk/2qpqd0#4947910",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9997,
+            "opponentTeamName": "St.Truiden",
+            "isHomeTeam": false,
+            "id": 4818387,
+            "matchDate": {
+                "utcTime": "2025-09-28T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-sttruiden/3aw9lh#4818387",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 88,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": false,
+            "id": 4947791,
+            "matchDate": {
+                "utcTime": "2025-09-25T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rangers-vs-genk/2ua3u7#4947791",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 7978,
+            "opponentTeamName": "Union St.Gilloise",
+            "isHomeTeam": true,
+            "id": 4818376,
+            "matchDate": {
+                "utcTime": "2025-09-21T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-stgilloise-vs-genk/2o34zy#4818376",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 69,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 9986,
+            "opponentTeamName": "Sporting Charleroi",
+            "isHomeTeam": true,
+            "id": 4818350,
+            "matchDate": {
+                "utcTime": "2025-09-17T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-charleroi-vs-genk/3ark0i#4818350",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 8635,
+            "opponentTeamName": "Anderlecht",
+            "isHomeTeam": false,
+            "id": 4818371,
+            "matchDate": {
+                "utcTime": "2025-09-14T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/anderlecht-vs-genk/2v8r1g#4818371",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 4788892,
+            "matchDate": {
+                "utcTime": "2025-09-09T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-vs-japan/1homv1#4788892",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": false,
+            "id": 4788891,
+            "matchDate": {
+                "utcTime": "2025-09-07T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-japan/1hnrs4#4788891",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 10000,
+            "opponentTeamName": "Zulte Waregem",
+            "isHomeTeam": true,
+            "id": 4818364,
+            "matchDate": {
+                "utcTime": "2025-08-31T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/genk-vs-zulte-waregem/3axjup#4818364",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 2182,
+            "opponentTeamName": "Lech Pozna\u0144",
+            "isHomeTeam": true,
+            "id": 4912268,
+            "matchDate": {
+                "utcTime": "2025-08-28T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lech-poznan-vs-genk/183bsg#4912268",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 67,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 2182,
+            "opponentTeamName": "Lech Pozna\u0144",
+            "isHomeTeam": false,
+            "id": 4912256,
+            "matchDate": {
+                "utcTime": "2025-08-21T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/lech-poznan-vs-genk/183bsg#4912256",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 5,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9987,
+            "teamName": "Genk",
+            "opponentTeamId": 1773,
+            "opponentTeamName": "OH Leuven",
+            "isHomeTeam": false,
+            "id": 4818341,
+            "matchDate": {
+                "utcTime": "2025-08-15T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/oh-leuven-vs-genk/156fsr#4818341",
+            "leagueId": 40,
+            "leagueName": "Belgian Pro League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 604044,
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-08-09T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "36",
+                        "goals": "7",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 9837,
+                        "team": "Reims",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-29T00:00:00",
+                        "endDate": "2025-08-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "106",
+                        "goals": "13",
+                        "assists": "16",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-07-01T00:00:00",
+                        "endDate": "2022-07-29T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "92",
+                        "goals": "20",
+                        "assists": "34",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 8699,
+                        "team": "Kashiwa Reysol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2020-06-30T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2019-01-31T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "52",
+                        "goals": "9",
+                        "assists": "8",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 8699,
+                        "team": "Kashiwa Reysol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-01-09T00:00:00",
+                        "endDate": "2019-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "121",
+                        "goals": "21",
+                        "assists": "23",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 604044,
+                        "teamId": 8539,
+                        "team": "Ventforet Kofu",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2014-12-01T00:00:00",
+                        "endDate": "2016-01-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "37",
+                        "goals": "4",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "36",
+                        "goals": "7",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.14"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27152,
+                                "goals": "6",
+                                "assists": "5",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "7.17"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "7.06"
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "39",
+                        "goals": "4",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.06"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23724,
+                                "goals": "4",
+                                "assists": "3",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.72"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Play-offs 1/2",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9837,
+                        "team": "Reims",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "31",
+                        "goals": "3",
+                        "assists": "7",
+                        "rating": {
+                            "rating": "7.31"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20868,
+                                "goals": "3",
+                                "assists": "7",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.31"
+                                }
+                            }
+                        ],
+                        "teamId": 9837,
+                        "team": "Reims",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "36",
+                        "goals": "6",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.03"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17810,
+                                "goals": "6",
+                                "assists": "5",
+                                "appearances": "35",
+                                "rating": {
+                                    "rating": "7.06"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18310,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.09"
+                                }
+                            }
+                        ],
+                        "teamId": 9837,
+                        "team": "Reims",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "8.22"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17862,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.22"
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "49",
+                        "goals": "8",
+                        "assists": "19",
+                        "rating": {
+                            "rating": "7.38"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16419,
+                                "goals": "8",
+                                "assists": "16",
+                                "appearances": "39",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16843,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 266,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17739,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16407,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16640,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.84"
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "42",
+                        "goals": "12",
+                        "assists": "14",
+                        "rating": {
+                            "rating": "7.37"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15312,
+                                "goals": "11",
+                                "assists": "14",
+                                "appearances": "38",
+                                "rating": {
+                                    "rating": "7.37"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15704,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "38",
+                        "goals": "6",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "6.87"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14160,
+                                "goals": "5",
+                                "assists": "6",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14430,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 266,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14006,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.37"
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "14",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.95"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12768,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12765,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.27"
+                                }
+                            }
+                        ],
+                        "teamId": 9987,
+                        "team": "Genk",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "40",
+                        "goals": "8",
+                        "assists": "13",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2018",
+                                "tournamentId": 12436,
+                                "goals": "6",
+                                "assists": "11",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 525,
+                                "leagueName": "AFC Champions League Elite",
+                                "seasonName": "2018",
+                                "tournamentId": 12344,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8699,
+                        "team": "Kashiwa Reysol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "41",
+                        "goals": "6",
+                        "assists": "4",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2017",
+                                "tournamentId": 11193,
+                                "goals": "6",
+                                "assists": "4",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 224,
+                                "leagueName": "J. League Cup",
+                                "seasonName": "2017",
+                                "tournamentId": 11225,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Emperor Cup",
+                                "seasonName": "2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8699,
+                        "team": "Kashiwa Reysol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016",
+                        "appearances": "40",
+                        "goals": "7",
+                        "assists": "6",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2016",
+                                "tournamentId": 10138,
+                                "goals": "7",
+                                "assists": "6",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 224,
+                                "leagueName": "J. League Cup",
+                                "seasonName": "2016",
+                                "tournamentId": 10174,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Emperor Cup",
+                                "seasonName": "2016",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8699,
+                        "team": "Kashiwa Reysol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "37",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2015",
+                                "tournamentId": 9283,
+                                "goals": "4",
+                                "assists": "undefined",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 224,
+                                "leagueName": "J. League Cup",
+                                "seasonName": "2015",
+                                "tournamentId": 9287,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Emperor Cup",
+                                "seasonName": "2015",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8539,
+                        "team": "Ventforet Kofu",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 604044,
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-11-29T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "73",
+                        "goals": "16",
+                        "assists": "20",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "16",
+                        "goals": "3",
+                        "assists": "10",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10197,
+                                "leagueName": "World Cup Qualification AFC",
+                                "seasonName": "2026",
+                                "tournamentId": 21576,
+                                "goals": "1",
+                                "assists": "10",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.68"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.77"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.43"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "3",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.43"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "8.68"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.68"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "10",
+                        "goals": "4",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.67"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 290,
+                                "leagueName": "Asian Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 20238,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "4",
+                                "assists": "3",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.83"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "23",
+                        "goals": "6",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.62"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10197,
+                                "leagueName": "World Cup Qualification AFC",
+                                "seasonName": "2022",
+                                "tournamentId": 17250,
+                                "goals": "6",
+                                "assists": "2",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": "7.87"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.02"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "Kirin Cup",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.28"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.45"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2020",
+                                "tournamentId": 14773,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.45"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 290,
+                                "leagueName": "Asian Cup",
+                                "seasonName": "2019",
+                                "tournamentId": 12640,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": 13365,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "4",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": 11352,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "EAFF E-1 Football Championship",
+                                "seasonName": "2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.98
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.38
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.62
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.67
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.44
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.89
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "junya-ito",
+        "pageurl": "/players/604044/junya-ito",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Junya Ito?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito is 33 years old. Born on Tue Mar 09 1993."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Junya Ito?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito is 176 cm tall. Or 5 ft 9 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Junya Ito born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito was born Tue Mar 09 1993 and is now 33 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Junya Ito's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Junya Ito's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito's transfer value is estimated to be around \u20ac1.8m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Junya Ito from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito is from Japan."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Junya Ito scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Junya Ito has scored 6 goals in the Belgian Pro League Playoff Conference League Group."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Junya Ito",
+            "birthDate": "1993-03-09T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/604044/junya-ito",
+            "nationality": {
+                "@type": "Country",
+                "name": "Japan"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Genk"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "176"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Belgian Pro League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/40/overview/belgian-pro-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Genk",
+                    "item": "https://www.fotmob.com/teams/9987/overview/genk"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Junya Ito",
+                    "item": "https://www.fotmob.com/leagues/604044/overview/junya-ito"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Belgian Pro League",
+                    "tournamentId": 40,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup AFC qualification",
+                    "tournamentId": 10197,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Asian Cup",
+                    "tournamentId": 290,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Belgian Pro League",
+                    "tournamentId": 40,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "First Division A",
+                    "tournamentId": 40,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "First Division A",
+                    "tournamentId": 40,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 266,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "First Division A",
+                    "tournamentId": 40,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Asian Cup",
+                    "tournamentId": 290,
+                    "entryId": "7-2",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "World Cup AFC qualification",
+                    "tournamentId": 10197,
+                    "entryId": "7-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "First Division A",
+                    "tournamentId": 40,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "9-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "9-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "10-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2016",
+            "tournaments": [
+                {
+                    "name": "J. League 1st stage",
+                    "tournamentId": 223,
+                    "entryId": "11-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2015",
+            "tournaments": [
+                {
+                    "name": "J. League 1st stage",
+                    "tournamentId": 223,
+                    "entryId": "12-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945808565,
+                "playerName": "Junya Ito",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6715,
+                "playerId": 604044,
+                "x": 86.9970588232,
+                "y": 19.7253503212,
+                "min": 45,
+                "minAdded": 0,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 89.9,
+                "blockedY": 21.9673885388,
+                "goalCrossedY": 34.53375,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0251957233995199,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.858796296296295,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8256,
+                "awayTeamId": 6715,
+                "homeTeamName": "Brazil",
+                "awayTeamName": "Japan",
+                "homeScore": 2,
+                "awayScore": 1,
+                "matchId": 4653711,
+                "matchDate": "2026-06-29T17:00:00Z",
+                "teamColor": "#435D99",
+                "teamColorDark": "#435D99"
+            },
+            {
+                "id": 2945128817,
+                "playerName": "Junya Ito",
+                "eventType": "Goal",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6715,
+                "playerId": 604044,
+                "x": 94.675438595,
+                "y": 30.256,
+                "min": 69,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 32.3225,
+                "goalCrossedZ": 0.2054736832,
+                "expectedGoals": 0.589373528957367,
+                "expectedGoalsOnTarget": 0.593782961368561,
+                "onGoalShot": {
+                    "x": 1.44378306878307,
+                    "y": 0.0543581172486773,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6719,
+                "awayTeamId": 6715,
+                "homeTeamName": "Tunisia",
+                "awayTeamName": "Japan",
+                "homeScore": 0,
+                "awayScore": 4,
+                "matchId": 4667785,
+                "matchDate": "2026-06-21T04:00:00Z",
+                "teamColor": "#435D99",
+                "teamColorDark": "#435D99"
+            },
+            {
+                "id": 2945129309,
+                "playerName": "Junya Ito",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "FastBreak",
+                "teamId": 6715,
+                "playerId": 604044,
+                "x": 97.9561403504,
+                "y": 46.3128662384,
+                "min": 85,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 98.9210526314,
+                "blockedY": 44.7714649638,
+                "goalCrossedY": 31.1025,
+                "goalCrossedZ": 1.60526315,
+                "expectedGoals": 0.0462239496409893,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.76653439153439,
+                    "y": 0.424672791005291,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6719,
+                "awayTeamId": 6715,
+                "homeTeamName": "Tunisia",
+                "awayTeamName": "Japan",
+                "homeScore": 0,
+                "awayScore": 4,
+                "matchId": 4667785,
+                "matchDate": "2026-06-21T04:00:00Z",
+                "teamColor": "#435D99",
+                "teamColorDark": "#435D99"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 59.42028985507246,
+                            "percentileRankPer90": 77.53623188405797,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.2766139412861924,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 72.46376811594203,
+                            "statFormat": "fraction",
+                            "statValue": "0.66",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.2485674453336139,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 72.46376811594203,
+                            "statFormat": "fraction",
+                            "statValue": "0.59",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.2766139412861924,
+                            "percentileRank": 67.3913043478261,
+                            "percentileRankPer90": 72.46376811594203,
+                            "statFormat": "fraction",
+                            "statValue": "0.66",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 29.71014492753623,
+                            "percentileRankPer90": 31.15942028985507,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 28.985507246376812,
+                            "percentileRankPer90": 44.20289855072464,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.0945384270230005,
+                            "percentileRank": 44.20289855072464,
+                            "percentileRankPer90": 40.57971014492754,
+                            "statFormat": "fraction",
+                            "statValue": "0.23",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 26.790697674418603,
+                            "percentileRank": 43.47826086956522,
+                            "percentileRankPer90": 45.65217391304348,
+                            "statFormat": "number",
+                            "statValue": "64",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 79.01234567901234,
+                            "percentileRank": 23.18840579710145,
+                            "percentileRankPer90": 23.18840579710145,
+                            "statFormat": "percent",
+                            "statValue": "79.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 57.2463768115942,
+                            "percentileRankPer90": 64.4927536231884,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 60,
+                            "percentileRank": 56.52173913043478,
+                            "percentileRankPer90": 56.52173913043478,
+                            "statFormat": "percent",
+                            "statValue": "60.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.6744186046511627,
+                            "percentileRank": 53.62318840579711,
+                            "percentileRankPer90": 61.59420289855072,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 2.0930232558139537,
+                            "percentileRank": 89.13043478260869,
+                            "percentileRankPer90": 94.92753623188406,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 29.41176470588235,
+                            "percentileRank": 75.36231884057972,
+                            "percentileRankPer90": 75.36231884057972,
+                            "statFormat": "percent",
+                            "statValue": "29.4",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 14.492753623188406,
+                            "percentileRankPer90": 16.666666666666664,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 8.333333333333334,
+                            "percentileRank": 14.492753623188406,
+                            "percentileRankPer90": 14.492753623188406,
+                            "statFormat": "percent",
+                            "statValue": "8.3",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 4.604651162790698,
+                            "percentileRank": 44.927536231884055,
+                            "percentileRankPer90": 51.449275362318836,
+                            "statFormat": "number",
+                            "statValue": "11",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 37.93103448275862,
+                            "percentileRank": 26.811594202898554,
+                            "percentileRankPer90": 26.811594202898554,
+                            "statFormat": "percent",
+                            "statValue": "37.9",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 37.68115942028986,
+                            "percentileRankPer90": 52.89855072463768,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 50,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 66.66666666666666,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 60.27906976744186,
+                            "percentileRank": 52.89855072463768,
+                            "percentileRankPer90": 64.4927536231884,
+                            "statFormat": "number",
+                            "statValue": "144",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 2.511627906976744,
+                            "percentileRank": 36.231884057971016,
+                            "percentileRankPer90": 36.95652173913043,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.6744186046511627,
+                            "percentileRank": 37.68115942028986,
+                            "percentileRankPer90": 38.405797101449274,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 2.0930232558139537,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 81.15942028985508,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 3.7674418604651163,
+                            "percentileRank": 71.73913043478261,
+                            "percentileRankPer90": 75.36231884057972,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.6744186046511627,
+                            "percentileRank": 53.62318840579711,
+                            "percentileRankPer90": 65.94202898550725,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 31.88405797101449,
+                            "percentileRankPer90": 43.47826086956522,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.8372093023255813,
+                            "percentileRank": 50,
+                            "percentileRankPer90": 57.971014492753625,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 2.511627906976744,
+                            "percentileRank": 24.637681159420293,
+                            "percentileRankPer90": 21.014492753623188,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 54.347826086956516,
+                            "percentileRankPer90": 70.28985507246377,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1.6744186046511627,
+                            "percentileRank": 84.05797101449275,
+                            "percentileRankPer90": 89.13043478260869,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 81.88405797101449,
+                            "percentileRankPer90": 94.20289855072464,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 76.08695652173914,
+                            "percentileRankPer90": 84.78260869565217,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.9947301981061004,
+                            "percentileRank": 64.4927536231884,
+                            "percentileRankPer90": 66.66666666666666,
+                            "statFormat": "fraction",
+                            "statValue": "2.38",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0.41860465116279066,
+                    "percentileRank": 59.42028985507246,
+                    "percentileRankPer90": 77.53623188405797,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.7675,
+                    "percentileRank": 39.85507246376812,
+                    "percentileRankPer90": 39.85507246376812,
+                    "statFormat": "fraction",
+                    "statValue": "6.77",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 40.57971014492754,
+                    "percentileRankPer90": 40.57971014492754,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 27.536231884057973,
+                    "percentileRankPer90": 16.666666666666664,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 43.47826086956522,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "215",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 38.28,
+                    "y": 29.04
+                },
+                {
+                    "x": 8.2,
+                    "y": 22.46
+                },
+                {
+                    "x": 40.08,
+                    "y": 48.7
+                },
+                {
+                    "x": 71.34,
+                    "y": 61.05
+                },
+                {
+                    "x": 85.39,
+                    "y": 22.25
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 93.2,
+                    "y": 6.43
+                },
+                {
+                    "x": 35.47,
+                    "y": 62.23
+                },
+                {
+                    "x": 74.38,
+                    "y": 65.51
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 67.51,
+                    "y": 39.21
+                },
+                {
+                    "x": 27.36,
+                    "y": 58.75
+                },
+                {
+                    "x": 19.4,
+                    "y": 65.57
+                },
+                {
+                    "x": 25.33,
+                    "y": 57.51
+                },
+                {
+                    "x": 24.88,
+                    "y": 56.72
+                },
+                {
+                    "x": 64.8,
+                    "y": 65.51
+                },
+                {
+                    "x": 60.02,
+                    "y": 62.56
+                },
+                {
+                    "x": 25.78,
+                    "y": 56
+                },
+                {
+                    "x": 50.37,
+                    "y": 54.82
+                },
+                {
+                    "x": 56.67,
+                    "y": 64.98
+                },
+                {
+                    "x": 72.8,
+                    "y": 63.34
+                },
+                {
+                    "x": 70.77,
+                    "y": 60.78
+                },
+                {
+                    "x": 82.37,
+                    "y": 64
+                },
+                {
+                    "x": 81.13,
+                    "y": 55.67
+                },
+                {
+                    "x": 87,
+                    "y": 48.27
+                },
+                {
+                    "x": 14.9,
+                    "y": 50.03
+                },
+                {
+                    "x": 39.18,
+                    "y": 37.78
+                },
+                {
+                    "x": 20.6,
+                    "y": 58.75
+                },
+                {
+                    "x": 52.4,
+                    "y": 34
+                },
+                {
+                    "x": 67.73,
+                    "y": 17.76
+                },
+                {
+                    "x": 57.07,
+                    "y": 63.41
+                },
+                {
+                    "x": 63.79,
+                    "y": 48.13
+                },
+                {
+                    "x": 13.4,
+                    "y": 47.85
+                },
+                {
+                    "x": 10.42,
+                    "y": 60.85
+                },
+                {
+                    "x": 80.01,
+                    "y": 51.08
+                },
+                {
+                    "x": 52.4,
+                    "y": 33.92
+                },
+                {
+                    "x": 56.16,
+                    "y": 37.77
+                },
+                {
+                    "x": 32.88,
+                    "y": 60.78
+                },
+                {
+                    "x": 44.77,
+                    "y": 54.36
+                },
+                {
+                    "x": 66.38,
+                    "y": 62.36
+                },
+                {
+                    "x": 31.98,
+                    "y": 56.26
+                },
+                {
+                    "x": 6.95,
+                    "y": 22.18
+                },
+                {
+                    "x": 73.36,
+                    "y": 48.48
+                },
+                {
+                    "x": 104.43,
+                    "y": 67.54
+                },
+                {
+                    "x": 67.73,
+                    "y": 64.39
+                },
+                {
+                    "x": 77.75,
+                    "y": 40.89
+                },
+                {
+                    "x": 92.7,
+                    "y": 64
+                },
+                {
+                    "x": 70.43,
+                    "y": 48.91
+                },
+                {
+                    "x": 97.96,
+                    "y": 68
+                },
+                {
+                    "x": 76.63,
+                    "y": 51.15
+                },
+                {
+                    "x": 101.4,
+                    "y": 55.73
+                },
+                {
+                    "x": 64.92,
+                    "y": 57.57
+                },
+                {
+                    "x": 77.64,
+                    "y": 59.08
+                },
+                {
+                    "x": 77.64,
+                    "y": 59.08
+                },
+                {
+                    "x": 97.67,
+                    "y": 65.57
+                },
+                {
+                    "x": 71,
+                    "y": 68
+                },
+                {
+                    "x": 68.18,
+                    "y": 61.64
+                },
+                {
+                    "x": 100.64,
+                    "y": 51.5
+                },
+                {
+                    "x": 74.26,
+                    "y": 56
+                },
+                {
+                    "x": 80.91,
+                    "y": 56.52
+                },
+                {
+                    "x": 90.2,
+                    "y": 55.6
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 95.64,
+                    "y": 50.8
+                },
+                {
+                    "x": 95.06,
+                    "y": 50.03
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 61.99,
+                    "y": 58.69
+                },
+                {
+                    "x": 69.87,
+                    "y": 63.87
+                },
+                {
+                    "x": 61.45,
+                    "y": 65.44
+                },
+                {
+                    "x": 36.82,
+                    "y": 61.05
+                },
+                {
+                    "x": 60.84,
+                    "y": 58.75
+                },
+                {
+                    "x": 31.86,
+                    "y": 51.22
+                },
+                {
+                    "x": 62.66,
+                    "y": 66.56
+                },
+                {
+                    "x": 67.39,
+                    "y": 65.97
+                },
+                {
+                    "x": 74.94,
+                    "y": 66.56
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 104.24,
+                    "y": 52.76
+                },
+                {
+                    "x": 71.67,
+                    "y": 63.41
+                },
+                {
+                    "x": 73.14,
+                    "y": 63.21
+                },
+                {
+                    "x": 77.64,
+                    "y": 68
+                },
+                {
+                    "x": 75.73,
+                    "y": 66.36
+                },
+                {
+                    "x": 36.93,
+                    "y": 62.95
+                },
+                {
+                    "x": 44.77,
+                    "y": 53.67
+                },
+                {
+                    "x": 92.7,
+                    "y": 37.28
+                },
+                {
+                    "x": 45.49,
+                    "y": 44.49
+                },
+                {
+                    "x": 58.8,
+                    "y": 64.13
+                },
+                {
+                    "x": 73.59,
+                    "y": 33.08
+                },
+                {
+                    "x": 29.05,
+                    "y": 62.75
+                },
+                {
+                    "x": 67.73,
+                    "y": 64.98
+                },
+                {
+                    "x": 78.21,
+                    "y": 66.69
+                },
+                {
+                    "x": 69.87,
+                    "y": 63.08
+                },
+                {
+                    "x": 91.2,
+                    "y": 49.61
+                },
+                {
+                    "x": 50.77,
+                    "y": 64
+                },
+                {
+                    "x": 81.58,
+                    "y": 62.75
+                },
+                {
+                    "x": 93.4,
+                    "y": 62.03
+                },
+                {
+                    "x": 94.1,
+                    "y": 61.77
+                },
+                {
+                    "x": 26.01,
+                    "y": 64.72
+                },
+                {
+                    "x": 34.57,
+                    "y": 66.1
+                },
+                {
+                    "x": 34.57,
+                    "y": 66.1
+                },
+                {
+                    "x": 96.41,
+                    "y": 57.57
+                },
+                {
+                    "x": 68.52,
+                    "y": 66.69
+                },
+                {
+                    "x": 92.6,
+                    "y": 66.49
+                },
+                {
+                    "x": 75.73,
+                    "y": 59.93
+                },
+                {
+                    "x": 77.42,
+                    "y": 14.19
+                },
+                {
+                    "x": 80.91,
+                    "y": 19.94
+                },
+                {
+                    "x": 48.03,
+                    "y": 64.33
+                },
+                {
+                    "x": 66.61,
+                    "y": 65.38
+                },
+                {
+                    "x": 51.08,
+                    "y": 45.96
+                },
+                {
+                    "x": 52.3,
+                    "y": 33.92
+                },
+                {
+                    "x": 73.59,
+                    "y": 65.11
+                },
+                {
+                    "x": 92.5,
+                    "y": 64.06
+                },
+                {
+                    "x": 55.85,
+                    "y": 64.72
+                },
+                {
+                    "x": 64.8,
+                    "y": 60.52
+                },
+                {
+                    "x": 67.62,
+                    "y": 65.38
+                },
+                {
+                    "x": 82.03,
+                    "y": 64.79
+                },
+                {
+                    "x": 91.2,
+                    "y": 63.54
+                },
+                {
+                    "x": 83.84,
+                    "y": 64.79
+                },
+                {
+                    "x": 98.15,
+                    "y": 62.23
+                },
+                {
+                    "x": 98.44,
+                    "y": 62.23
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 40.76,
+                    "y": 59.67
+                },
+                {
+                    "x": 38.39,
+                    "y": 59.74
+                },
+                {
+                    "x": 69.31,
+                    "y": 65.11
+                },
+                {
+                    "x": 87.21,
+                    "y": 60.13
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 54.63,
+                    "y": 55.41
+                },
+                {
+                    "x": 35.13,
+                    "y": 57.96
+                },
+                {
+                    "x": 94.68,
+                    "y": 37.74
+                },
+                {
+                    "x": 2.47,
+                    "y": 14.05
+                },
+                {
+                    "x": 0.57,
+                    "y": 14.19
+                },
+                {
+                    "x": 49.25,
+                    "y": 26.4
+                },
+                {
+                    "x": 68.41,
+                    "y": 51.29
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 96.7,
+                    "y": 65.97
+                },
+                {
+                    "x": 70.32,
+                    "y": 55.8
+                },
+                {
+                    "x": 87.43,
+                    "y": 47.64
+                },
+                {
+                    "x": 76.4,
+                    "y": 62.75
+                },
+                {
+                    "x": 31.64,
+                    "y": 28.79
+                },
+                {
+                    "x": 97.96,
+                    "y": 21.69
+                },
+                {
+                    "x": 66.61,
+                    "y": 63.61
+                },
+                {
+                    "x": 55.35,
+                    "y": 45.54
+                },
+                {
+                    "x": 72.91,
+                    "y": 54.42
+                },
+                {
+                    "x": 61.99,
+                    "y": 48.91
+                },
+                {
+                    "x": 45.99,
+                    "y": 64.13
+                },
+                {
+                    "x": 45.38,
+                    "y": 62.75
+                },
+                {
+                    "x": 28.48,
+                    "y": 58.95
+                },
+                {
+                    "x": 24.2,
+                    "y": 62.03
+                },
+                {
+                    "x": 74.71,
+                    "y": 58.1
+                },
+                {
+                    "x": 23.64,
+                    "y": 61.57
+                },
+                {
+                    "x": 66.94,
+                    "y": 64.26
+                },
+                {
+                    "x": 89.8,
+                    "y": 56.19
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 102.63,
+                    "y": 66.16
+                },
+                {
+                    "x": 27.7,
+                    "y": 52.76
+                },
+                {
+                    "x": 57.18,
+                    "y": 31.56
+                },
+                {
+                    "x": 57.18,
+                    "y": 31.56
+                },
+                {
+                    "x": 70.88,
+                    "y": 47.29
+                },
+                {
+                    "x": 74.04,
+                    "y": 52.55
+                },
+                {
+                    "x": 74.04,
+                    "y": 59.28
+                },
+                {
+                    "x": 67.17,
+                    "y": 66.1
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 300000,
+                "currency": "EUR",
+                "lowerBound": 220000,
+                "upperBound": 370000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 520000,
+                "currency": "EUR",
+                "lowerBound": 390000,
+                "upperBound": 650000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 750000,
+                "currency": "EUR",
+                "lowerBound": 560000,
+                "upperBound": 940000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 1040000,
+                "currency": "EUR",
+                "lowerBound": 780000,
+                "upperBound": 1300000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 1330000,
+                "currency": "EUR",
+                "lowerBound": 1000000,
+                "upperBound": 1670000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 1270000,
+                "currency": "EUR",
+                "lowerBound": 950000,
+                "upperBound": 1590000,
+                "source": "scisports",
+                "teamId": 8699,
+                "teamName": "Kashiwa Reysol"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 1210000,
+                "currency": "EUR",
+                "lowerBound": 910000,
+                "upperBound": 1520000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 1870000,
+                "currency": "EUR",
+                "lowerBound": 1400000,
+                "upperBound": 2340000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 2530000,
+                "currency": "EUR",
+                "lowerBound": 1900000,
+                "upperBound": 3160000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 4440000,
+                "currency": "EUR",
+                "lowerBound": 3330000,
+                "upperBound": 5560000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 6360000,
+                "currency": "EUR",
+                "lowerBound": 4770000,
+                "upperBound": 7950000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 6400000,
+                "currency": "EUR",
+                "lowerBound": 4800000,
+                "upperBound": 8000000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 6450000,
+                "currency": "EUR",
+                "lowerBound": 4830000,
+                "upperBound": 8060000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 7580000,
+                "currency": "EUR",
+                "lowerBound": 5680000,
+                "upperBound": 9470000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 7200000,
+                "currency": "EUR",
+                "lowerBound": 5400000,
+                "upperBound": 8990000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 6970000,
+                "currency": "EUR",
+                "lowerBound": 5220000,
+                "upperBound": 8710000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 6790000,
+                "currency": "EUR",
+                "lowerBound": 5090000,
+                "upperBound": 8480000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 6530000,
+                "currency": "EUR",
+                "lowerBound": 4900000,
+                "upperBound": 8160000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 6640000,
+                "currency": "EUR",
+                "lowerBound": 4980000,
+                "upperBound": 8310000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 6440000,
+                "currency": "EUR",
+                "lowerBound": 4830000,
+                "upperBound": 8050000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 6120000,
+                "currency": "EUR",
+                "lowerBound": 4590000,
+                "upperBound": 7650000,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 6000000,
+                "currency": "EUR",
+                "lowerBound": 4500000,
+                "upperBound": 7500000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 13540000,
+                "currency": "EUR",
+                "lowerBound": 10160000,
+                "upperBound": 16930000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 10950000,
+                "currency": "EUR",
+                "lowerBound": 8210000,
+                "upperBound": 13680000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 11580000,
+                "currency": "EUR",
+                "lowerBound": 8690000,
+                "upperBound": 14480000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 11440000,
+                "currency": "EUR",
+                "lowerBound": 8580000,
+                "upperBound": 14310000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 11470000,
+                "currency": "EUR",
+                "lowerBound": 8600000,
+                "upperBound": 14340000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 11510000,
+                "currency": "EUR",
+                "lowerBound": 8630000,
+                "upperBound": 14390000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 11820000,
+                "currency": "EUR",
+                "lowerBound": 8870000,
+                "upperBound": 14780000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 12420000,
+                "currency": "EUR",
+                "lowerBound": 9310000,
+                "upperBound": 15520000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 12560000,
+                "currency": "EUR",
+                "lowerBound": 9420000,
+                "upperBound": 15700000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 12680000,
+                "currency": "EUR",
+                "lowerBound": 9510000,
+                "upperBound": 15850000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 12970000,
+                "currency": "EUR",
+                "lowerBound": 9730000,
+                "upperBound": 16210000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 13710000,
+                "currency": "EUR",
+                "lowerBound": 10280000,
+                "upperBound": 17140000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 14030000,
+                "currency": "EUR",
+                "lowerBound": 10520000,
+                "upperBound": 17530000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 13670000,
+                "currency": "EUR",
+                "lowerBound": 10250000,
+                "upperBound": 17080000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 13290000,
+                "currency": "EUR",
+                "lowerBound": 9970000,
+                "upperBound": 16610000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 13150000,
+                "currency": "EUR",
+                "lowerBound": 9870000,
+                "upperBound": 16440000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 12860000,
+                "currency": "EUR",
+                "lowerBound": 9640000,
+                "upperBound": 16070000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 13170000,
+                "currency": "EUR",
+                "lowerBound": 9880000,
+                "upperBound": 16460000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 9880000,
+                "currency": "EUR",
+                "lowerBound": 8398000,
+                "upperBound": 11362000,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 8398000,
+                "currency": "EUR",
+                "lowerBound": 7138300,
+                "upperBound": 9657700,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 7138300,
+                "currency": "EUR",
+                "lowerBound": 6067555,
+                "upperBound": 8209044,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 6267512,
+                "currency": "EUR",
+                "lowerBound": 5327385,
+                "upperBound": 7207639,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 6267512,
+                "currency": "EUR",
+                "lowerBound": 5327385,
+                "upperBound": 7207639,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 6012946,
+                "currency": "EUR",
+                "lowerBound": 5111004,
+                "upperBound": 6914888,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 6012946,
+                "currency": "EUR",
+                "lowerBound": 5111004,
+                "upperBound": 6914888,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 6914888,
+                "currency": "EUR",
+                "lowerBound": 5877654,
+                "upperBound": 7952121,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 7949394,
+                "currency": "EUR",
+                "lowerBound": 6756985,
+                "upperBound": 9141803,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 6756985,
+                "currency": "EUR",
+                "lowerBound": 5743437,
+                "upperBound": 7770532,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 5785113,
+                "currency": "EUR",
+                "lowerBound": 4917346,
+                "upperBound": 6652880,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 5785108,
+                "currency": "EUR",
+                "lowerBound": 4917342,
+                "upperBound": 6652875,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 5752931,
+                "currency": "EUR",
+                "lowerBound": 4889991,
+                "upperBound": 6615871,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 5841621,
+                "currency": "EUR",
+                "lowerBound": 4965378,
+                "upperBound": 6717864,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 5786049,
+                "currency": "EUR",
+                "lowerBound": 4918142,
+                "upperBound": 6653956,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 5786049,
+                "currency": "EUR",
+                "lowerBound": 4918142,
+                "upperBound": 6653956,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 5746842,
+                "currency": "EUR",
+                "lowerBound": 4884816,
+                "upperBound": 6608868,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 3887896,
+                "currency": "EUR",
+                "lowerBound": 3110316,
+                "upperBound": 4665475,
+                "source": "scisports",
+                "teamId": 9837,
+                "teamName": "Reims"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 3453232,
+                "currency": "EUR",
+                "lowerBound": 2762586,
+                "upperBound": 4143879,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 4179406,
+                "currency": "EUR",
+                "lowerBound": 3343525,
+                "upperBound": 5015287,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 4134802,
+                "currency": "EUR",
+                "lowerBound": 3307842,
+                "upperBound": 4961763,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 3736775,
+                "currency": "EUR",
+                "lowerBound": 2989420,
+                "upperBound": 4484130,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 3698546,
+                "currency": "EUR",
+                "lowerBound": 2958837,
+                "upperBound": 4438255,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 3722988,
+                "currency": "EUR",
+                "lowerBound": 2978391,
+                "upperBound": 4467586,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 3483396,
+                "currency": "EUR",
+                "lowerBound": 2786717,
+                "upperBound": 4180076,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 3519992,
+                "currency": "EUR",
+                "lowerBound": 2815993,
+                "upperBound": 4223990,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 3522511,
+                "currency": "EUR",
+                "lowerBound": 2818009,
+                "upperBound": 4227013,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 2818009,
+                "currency": "EUR",
+                "lowerBound": 2254407,
+                "upperBound": 3381610,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 2254407,
+                "currency": "EUR",
+                "lowerBound": 1803525,
+                "upperBound": 2705288,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 1849143,
+                "currency": "EUR",
+                "lowerBound": 1479314,
+                "upperBound": 2218972,
+                "source": "scisports",
+                "teamId": 9987,
+                "teamName": "Genk"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1013281,
+                "name": "Jeppe Erenbjerg"
+            },
+            {
+                "id": 277845,
+                "name": "Hendrik van Crombrugge"
+            },
+            {
+                "id": 1190692,
+                "name": "Kayden Pierre"
+            },
+            {
+                "id": 939427,
+                "name": "Mujaid Sadick"
+            },
+            {
+                "id": 1390101,
+                "name": "Matte Smets"
+            },
+            {
+                "id": 1224465,
+                "name": "Jarne Steuckers"
+            },
+            {
+                "id": 659493,
+                "name": "Bryan Heynen"
+            },
+            {
+                "id": 1054011,
+                "name": "Collins Sor"
+            },
+            {
+                "id": 500932,
+                "name": "Joris Kayembe Ditu"
+            },
+            {
+                "id": 1391753,
+                "name": "Yaimar Medina"
+            },
+            {
+                "id": 1536436,
+                "name": "Konstantinos Karetsas"
+            },
+            {
+                "id": 1436275,
+                "name": "Ibrahima Sory Bangoura"
+            },
+            {
+                "id": 1527091,
+                "name": "Brad Manguelle"
+            },
+            {
+                "id": 1463600,
+                "name": "Aaron Bibout"
+            },
+            {
+                "id": 1199243,
+                "name": "Nikolas Sattlberger"
+            },
+            {
+                "id": 950832,
+                "name": "Tobias Lawal"
+            },
+            {
+                "id": 974314,
+                "name": "Ken Nkuba"
+            },
+            {
+                "id": 1679949,
+                "name": "Lucca Brughmans"
+            },
+            {
+                "id": 1560046,
+                "name": "Robin Mirisola"
+            },
+            {
+                "id": 1233852,
+                "name": "Ayumu Yokoyama"
+            },
+            {
+                "id": 1577582,
+                "name": "Noah Adedeji-Sternberg"
+            },
+            {
+                "id": 1413371,
+                "name": "Adrian Palacios"
+            },
+            {
+                "id": 768505,
+                "name": "Daan Heymans"
+            },
+            {
+                "id": 1405862,
+                "name": "Josue Kongolo"
+            },
+            {
+                "id": 1692858,
+                "name": "August De Wannemacker"
+            },
+            {
+                "id": 1829314,
+                "name": "Zion Henry"
+            },
+            {
+                "id": 1393398,
+                "name": "Brent Stevens"
+            },
+            {
+                "id": 1287871,
+                "name": "Zakaria El Ouahdi"
+            },
+            {
+                "id": 1664733,
+                "name": "\u00c9mile Doucour\u00e9"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1053679,
+                "name": "Zion Suzuki"
+            },
+            {
+                "id": 924610,
+                "name": "Yukinari Sugawara"
+            },
+            {
+                "id": 523731,
+                "name": "Shogo Taniguchi"
+            },
+            {
+                "id": 620917,
+                "name": "Ko Itakura"
+            },
+            {
+                "id": 98254,
+                "name": "Yuto Nagatomo"
+            },
+            {
+                "id": 915111,
+                "name": "Shuto Machino"
+            },
+            {
+                "id": 935728,
+                "name": "Ao Tanaka"
+            },
+            {
+                "id": 848289,
+                "name": "Takefusa Kubo"
+            },
+            {
+                "id": 1436730,
+                "name": "Keisuke Goto"
+            },
+            {
+                "id": 629805,
+                "name": "Ritsu Doan"
+            },
+            {
+                "id": 728765,
+                "name": "Daizen Maeda"
+            },
+            {
+                "id": 922808,
+                "name": "Keisuke Osako"
+            },
+            {
+                "id": 887704,
+                "name": "Keito Nakamura"
+            },
+            {
+                "id": 621515,
+                "name": "Daichi Kamada"
+            },
+            {
+                "id": 1023887,
+                "name": "Tsuyoshi Watanabe"
+            },
+            {
+                "id": 1134467,
+                "name": "Yuito Suzuki"
+            },
+            {
+                "id": 942393,
+                "name": "Ayase Ueda"
+            },
+            {
+                "id": 727837,
+                "name": "Koki Ogawa"
+            },
+            {
+                "id": 857120,
+                "name": "Ayumu Seko"
+            },
+            {
+                "id": 851626,
+                "name": "Hiroki Ito"
+            },
+            {
+                "id": 664444,
+                "name": "Takehiro Tomiyasu"
+            },
+            {
+                "id": 1232143,
+                "name": "Tomoki Hayakawa"
+            },
+            {
+                "id": 1033111,
+                "name": "Kaishu Sano"
+            },
+            {
+                "id": 1337765,
+                "name": "Junnosuke Suzuki"
+            },
+            {
+                "id": 1611223,
+                "name": "Kento Shiogai"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5900440,
+        "homeId": 10229,
+        "awayId": 9987,
+        "homeName": "AZ Alkmaar",
+        "awayName": "Genk",
+        "matchDate": "2026-07-22T16:30:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-22T16:30:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Sportpark vv Dirkshorn",
+            "city": "Dirkshorn",
+            "lat": 52.750645768,
+            "long": 4.782421589
+        },
+        "matchUrl": "/matches/genk-vs-az-alkmaar/3do7tr#5900440"
+    },
+    "dataProvider": "enet"
+}

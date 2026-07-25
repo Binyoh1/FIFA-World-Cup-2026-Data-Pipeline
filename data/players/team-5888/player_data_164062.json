@@ -1,0 +1,4325 @@
+{
+    "id": 164062,
+    "name": "Stopira",
+    "birthDate": {
+        "utcTime": "1988-05-20T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 212820,
+        "teamName": "Torreense",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#951A2F",
+            "colorAlternate": "#951A2F",
+            "colorAway": "#313B69",
+            "colorAwayAlternate": "#284e91"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 38,
+                "position": "34",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.74
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Center Back",
+            "key": "centerback"
+        },
+        "nonPrimaryPositions": []
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 2,
+                "options": {},
+                "key": null,
+                "fallback": 2
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 38,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "38"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Cape Verde"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CPV"
+            },
+            "countryCode": "CPV"
+        },
+        {
+            "value": {
+                "numberValue": 216742,
+                "key": null,
+                "fallback": "\u20ac216.7k"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 185,
+        "leagueName": "Liga Portugal 2",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 31
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 31
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2714
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 1
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "POR",
+                "teamId": 212820,
+                "teamName": "Torreense",
+                "tournaments": [
+                    {
+                        "ccode": "POR",
+                        "leagueId": 186,
+                        "leagueName": "Ta\u00e7a de Portugal",
+                        "seasonsWon": [
+                            "2025/2026"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "HUN",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar",
+                "tournaments": [
+                    {
+                        "ccode": "HUN",
+                        "leagueId": -1,
+                        "leagueName": "NB I",
+                        "seasonsWon": [
+                            "2017/2018",
+                            "2014/2015"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2019/2020",
+                            "2018/2019",
+                            "2016/2017",
+                            "2015/2016",
+                            "2012/2013"
+                        ]
+                    },
+                    {
+                        "ccode": "HUN",
+                        "leagueId": -1,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2012/2013"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2015/2016"
+                        ]
+                    },
+                    {
+                        "ccode": "HUN",
+                        "leagueId": -1,
+                        "leagueName": "Magyar Kupa",
+                        "seasonsWon": [
+                            "2018/2019"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2020/2021",
+                            "2014/2015"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6706,
+            "opponentTeamName": "Argentina",
+            "isHomeTeam": false,
+            "id": 4653715,
+            "matchDate": {
+                "utcTime": "2026-07-03T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-argentina/1b81pp#4653715",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": true,
+            "id": 4667803,
+            "matchDate": {
+                "utcTime": "2026-06-27T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-saudi-arabia/1jqqyp#4667803",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 5796,
+            "opponentTeamName": "Uruguay",
+            "isHomeTeam": false,
+            "id": 4667800,
+            "matchDate": {
+                "utcTime": "2026-06-21T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-cape-verde/14n97e#4667800",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": false,
+            "id": 4667798,
+            "matchDate": {
+                "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 8205,
+            "opponentTeamName": "Serbia",
+            "isHomeTeam": true,
+            "id": 5667645,
+            "matchDate": {
+                "utcTime": "2026-05-31T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-serbia/1n4t0o#5667645",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": false,
+            "id": 5630436,
+            "matchDate": {
+                "utcTime": "2026-05-28T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-casa-pia-ac/15m4aueq#5630436",
+            "leagueId": 10215,
+            "leagueName": "Liga Portugal Qualification",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9768,
+            "opponentTeamName": "Sporting CP",
+            "isHomeTeam": false,
+            "id": 5074296,
+            "matchDate": {
+                "utcTime": "2026-05-24T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-torreense/bdp3pwu#5074296",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 120,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": true,
+            "id": 5630435,
+            "matchDate": {
+                "utcTime": "2026-05-20T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-casa-pia-ac/15m4aueq#5630435",
+            "leagueId": 10215,
+            "leagueName": "Liga Portugal Qualification",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 4531,
+            "opponentTeamName": "Vizela",
+            "isHomeTeam": true,
+            "id": 4844774,
+            "matchDate": {
+                "utcTime": "2026-05-16T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-torreense/aun8m6n#4844774",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 188154,
+            "opponentTeamName": "Lusitania Lourosa",
+            "isHomeTeam": false,
+            "id": 4844764,
+            "matchDate": {
+                "utcTime": "2026-05-09T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/lusitania-lourosa-vs-torreense/10xif599#4844764",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6547,
+            "opponentTeamName": "Penafiel",
+            "isHomeTeam": true,
+            "id": 4844750,
+            "matchDate": {
+                "utcTime": "2026-05-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/penafiel-vs-torreense/b1xby2n#4844750",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 4064,
+            "opponentTeamName": "Feirense",
+            "isHomeTeam": false,
+            "id": 4844741,
+            "matchDate": {
+                "utcTime": "2026-04-28T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/feirense-vs-torreense/asyvdmq#4844741",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 212796,
+            "opponentTeamName": "AD Fafe",
+            "isHomeTeam": true,
+            "id": 5074294,
+            "matchDate": {
+                "utcTime": "2026-04-23T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ad-fafe-vs-torreense/15lxyrz0#5074294",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/2",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 10212,
+            "opponentTeamName": "Maritimo",
+            "isHomeTeam": true,
+            "id": 4844734,
+            "matchDate": {
+                "utcTime": "2026-04-18T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/maritimo-vs-torreense/bfc4ftc#4844734",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9774,
+            "opponentTeamName": "Chaves",
+            "isHomeTeam": false,
+            "id": 4844724,
+            "matchDate": {
+                "utcTime": "2026-04-11T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chaves-vs-torreense/bdpwcfl#4844724",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6421,
+            "opponentTeamName": "Leixoes",
+            "isHomeTeam": true,
+            "id": 4844714,
+            "matchDate": {
+                "utcTime": "2026-04-06T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leixoes-vs-torreense/b1gvope#4844714",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 1785,
+            "opponentTeamName": "Oliveirense",
+            "isHomeTeam": false,
+            "id": 4844689,
+            "matchDate": {
+                "utcTime": "2026-03-07T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oliveirense-vs-torreense/aku9dsf#4844689",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338304,
+            "opponentTeamName": "FC Porto B",
+            "isHomeTeam": true,
+            "id": 4844677,
+            "matchDate": {
+                "utcTime": "2026-02-28T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-fc-porto-b/1xrn5a5u#4844677",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338302,
+            "opponentTeamName": "Benfica B",
+            "isHomeTeam": true,
+            "id": 4844670,
+            "matchDate": {
+                "utcTime": "2026-02-21T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-benfica-b/1xrmhnnt#4844670",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6403,
+            "opponentTeamName": "Pacos de Ferreira",
+            "isHomeTeam": false,
+            "id": 4844663,
+            "matchDate": {
+                "utcTime": "2026-02-15T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pacos-de-ferreira-vs-torreense/b1ej3sn#4844663",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9771,
+            "opponentTeamName": "Uniao de Leiria",
+            "isHomeTeam": true,
+            "id": 4844654,
+            "matchDate": {
+                "utcTime": "2026-02-08T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/uniao-de-leiria-vs-torreense/bdpi163#4844654",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 212796,
+            "opponentTeamName": "AD Fafe",
+            "isHomeTeam": false,
+            "id": 5074292,
+            "matchDate": {
+                "utcTime": "2026-02-04T20:25:00.000Z"
+            },
+            "matchPageUrl": "/matches/ad-fafe-vs-torreense/15lxyrz0#5074292",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 1786,
+            "opponentTeamName": "Academico Viseu",
+            "isHomeTeam": false,
+            "id": 4844644,
+            "matchDate": {
+                "utcTime": "2026-01-31T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/academico-viseu-vs-torreense/akudzdp#4844644",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6004,
+            "opponentTeamName": "Farense",
+            "isHomeTeam": true,
+            "id": 4844634,
+            "matchDate": {
+                "utcTime": "2026-01-25T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/farense-vs-torreense/azyi0hk#4844634",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338301,
+            "opponentTeamName": "Sporting CP B",
+            "isHomeTeam": false,
+            "id": 4844630,
+            "matchDate": {
+                "utcTime": "2026-01-19T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-sporting-cp-b/1xrm5ueu#4844630",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9771,
+            "opponentTeamName": "Uniao de Leiria",
+            "isHomeTeam": true,
+            "id": 5074289,
+            "matchDate": {
+                "utcTime": "2026-01-11T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/uniao-de-leiria-vs-torreense/bdpi163#5074289",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 4531,
+            "opponentTeamName": "Vizela",
+            "isHomeTeam": false,
+            "id": 4844621,
+            "matchDate": {
+                "utcTime": "2026-01-05T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-torreense/aun8m6n#4844621",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 188154,
+            "opponentTeamName": "Lusitania Lourosa",
+            "isHomeTeam": true,
+            "id": 4844611,
+            "matchDate": {
+                "utcTime": "2025-12-30T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/lusitania-lourosa-vs-torreense/10xif599#4844611",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6547,
+            "opponentTeamName": "Penafiel",
+            "isHomeTeam": false,
+            "id": 4844597,
+            "matchDate": {
+                "utcTime": "2025-12-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/penafiel-vs-torreense/b1xby2n#4844597",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": false,
+            "id": 5074276,
+            "matchDate": {
+                "utcTime": "2025-12-17T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-casa-pia-ac/15m4aueq#5074276",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 4064,
+            "opponentTeamName": "Feirense",
+            "isHomeTeam": true,
+            "id": 4844588,
+            "matchDate": {
+                "utcTime": "2025-12-12T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/feirense-vs-torreense/asyvdmq#4844588",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9774,
+            "opponentTeamName": "Chaves",
+            "isHomeTeam": true,
+            "id": 4844571,
+            "matchDate": {
+                "utcTime": "2025-11-30T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chaves-vs-torreense/bdpwcfl#4844571",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 37,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 188154,
+            "opponentTeamName": "Lusitania Lourosa",
+            "isHomeTeam": false,
+            "id": 5020874,
+            "matchDate": {
+                "utcTime": "2025-11-23T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lusitania-lourosa-vs-torreense/10xif599#5020874",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": false,
+            "id": 5060482,
+            "matchDate": {
+                "utcTime": "2025-11-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-egypt/25l1iw#5060482",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6711,
+            "opponentTeamName": "Iran",
+            "isHomeTeam": false,
+            "id": 5030186,
+            "matchDate": {
+                "utcTime": "2025-11-13T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-iran/1b9ebf#5030186",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6421,
+            "opponentTeamName": "Leixoes",
+            "isHomeTeam": false,
+            "id": 4844561,
+            "matchDate": {
+                "utcTime": "2025-11-09T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leixoes-vs-torreense/b1gvope#4844561",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 474326,
+            "opponentTeamName": "Felgueiras 1932",
+            "isHomeTeam": true,
+            "id": 4844553,
+            "matchDate": {
+                "utcTime": "2025-11-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-felgueiras-1932/30gfaee5#4844553",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9765,
+            "opponentTeamName": "Portimonense",
+            "isHomeTeam": false,
+            "id": 4844544,
+            "matchDate": {
+                "utcTime": "2025-10-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portimonense-vs-torreense/bdopenu#4844544",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 1785,
+            "opponentTeamName": "Oliveirense",
+            "isHomeTeam": true,
+            "id": 4844536,
+            "matchDate": {
+                "utcTime": "2025-10-24T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/oliveirense-vs-torreense/aku9dsf#4844536",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 1785,
+            "opponentTeamName": "Oliveirense",
+            "isHomeTeam": true,
+            "id": 4979803,
+            "matchDate": {
+                "utcTime": "2025-10-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oliveirense-vs-torreense/aku9dsf#4979803",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 4433,
+            "opponentTeamName": "Eswatini",
+            "isHomeTeam": true,
+            "id": 4341188,
+            "matchDate": {
+                "utcTime": "2025-10-13T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/eswatini-vs-cape-verde/vptdl#4341188",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6328,
+            "opponentTeamName": "Libya",
+            "isHomeTeam": false,
+            "id": 4341177,
+            "matchDate": {
+                "utcTime": "2025-10-08T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-libya/18fj5g#4341177",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338304,
+            "opponentTeamName": "FC Porto B",
+            "isHomeTeam": false,
+            "id": 4844524,
+            "matchDate": {
+                "utcTime": "2025-10-05T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-fc-porto-b/1xrn5a5u#4844524",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338302,
+            "opponentTeamName": "Benfica B",
+            "isHomeTeam": false,
+            "id": 4844517,
+            "matchDate": {
+                "utcTime": "2025-09-27T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-benfica-b/1xrmhnnt#4844517",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6403,
+            "opponentTeamName": "Pacos de Ferreira",
+            "isHomeTeam": true,
+            "id": 4844510,
+            "matchDate": {
+                "utcTime": "2025-09-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/pacos-de-ferreira-vs-torreense/b1ej3sn#4844510",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6629,
+            "opponentTeamName": "Cameroon",
+            "isHomeTeam": true,
+            "id": 4341170,
+            "matchDate": {
+                "utcTime": "2025-09-09T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-cameroon/1anbno#4341170",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 5750,
+            "opponentTeamName": "Mauritius",
+            "isHomeTeam": false,
+            "id": 4341172,
+            "matchDate": {
+                "utcTime": "2025-09-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mauritius-vs-cape-verde/14bral#4341172",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 9771,
+            "opponentTeamName": "Uniao de Leiria",
+            "isHomeTeam": false,
+            "id": 4844501,
+            "matchDate": {
+                "utcTime": "2025-08-29T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uniao-de-leiria-vs-torreense/bdpi163#4844501",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 1786,
+            "opponentTeamName": "Academico Viseu",
+            "isHomeTeam": true,
+            "id": 4844491,
+            "matchDate": {
+                "utcTime": "2025-08-23T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/academico-viseu-vs-torreense/akudzdp#4844491",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 6004,
+            "opponentTeamName": "Farense",
+            "isHomeTeam": false,
+            "id": 4844481,
+            "matchDate": {
+                "utcTime": "2025-08-17T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/farense-vs-torreense/azyi0hk#4844481",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 212820,
+            "teamName": "Torreense",
+            "opponentTeamId": 338301,
+            "opponentTeamName": "Sporting CP B",
+            "isHomeTeam": true,
+            "id": 4844477,
+            "matchDate": {
+                "utcTime": "2025-08-09T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torreense-vs-sporting-cp-b/1xrm5ueu#4844477",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 164062,
+                        "teamId": 212820,
+                        "team": "Torreense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2024-07-27T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "70",
+                        "goals": "6",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 164062,
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2012-07-01T00:00:00",
+                        "endDate": "2023-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "346",
+                        "goals": "31",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 164062,
+                        "teamId": 4064,
+                        "team": "Feirense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2011-08-16T00:00:00",
+                        "endDate": "2012-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 164062,
+                        "teamId": 9783,
+                        "team": "Deportivo A Coru\u00f1a",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2010-07-01T00:00:00",
+                        "endDate": "2011-08-15T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 164062,
+                        "teamId": -1,
+                        "team": "Real Club Deportivo Fabril",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2010-07-01T00:00:00",
+                        "endDate": "2011-08-15T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "22",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 164062,
+                        "teamId": 1567,
+                        "team": "Santa Clara",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2008-07-01T00:00:00",
+                        "endDate": "2010-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "28",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "40",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.48"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27182,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27962,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.67"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10215,
+                                "leagueName": "Liga Portugal Qualification",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 34145,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.84"
+                                }
+                            }
+                        ],
+                        "teamId": 212820,
+                        "team": "Torreense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "30",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23834,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24009,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 212820,
+                        "team": "Torreense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "30",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17778,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": null,
+                                "appearances": null,
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16432,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "39",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15238,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "30",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14007,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "21",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "48",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.21"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12764,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12765,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.21"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "39",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11543,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2017/2018",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "29",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10327,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2016/2017",
+                                "tournamentId": -1,
+                                "goals": "5",
+                                "assists": "undefined",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "17",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2015/2016",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "16",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2015/2016",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "29",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2014/2015",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2014/2015",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013/2014",
+                        "appearances": "33",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7780,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2013/2014",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "League Cup",
+                                "seasonName": "2013/2014",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2012/2013",
+                        "appearances": "22",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2012/2013",
+                                "tournamentId": 6983,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2012/2013",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "League Cup",
+                                "seasonName": "2012/2013",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2012/2013",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2012/2013",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8036,
+                        "team": "Videoton FC Fehervar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2011/2012",
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2011/2012",
+                                "tournamentId": 6194,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2011/2012",
+                                "tournamentId": 6202,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 4064,
+                        "team": "Feirense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2010/2011",
+                        "appearances": "22",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Primera Divisi\u00f3n RFEF",
+                                "seasonName": "2010/2011",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Real Club Deportivo Fabril",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2009/2010",
+                        "appearances": "28",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2009/2010",
+                                "tournamentId": 4590,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2009/2010",
+                                "tournamentId": 4589,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1567,
+                        "team": "Santa Clara",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 164062,
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2008-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "30",
+                        "goals": "4",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.54"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2023",
+                                "tournamentId": 23214,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.54"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.68"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2022",
+                                "tournamentId": 17236,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.68"
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.09"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2021",
+                                "tournamentId": 16803,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.09"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": null,
+                        "goals": "1",
+                        "assists": null,
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2019",
+                                "tournamentId": 23212,
+                                "goals": "1",
+                                "assists": null,
+                                "appearances": null,
+                                "rating": {
+                                    "rating": "7.90"
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.43"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2018",
+                                "tournamentId": 17235,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.43"
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2015",
+                                "tournamentId": 9124,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2014",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2010",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2010",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2010",
+                                "tournamentId": 4948,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": null,
+    "meta": {
+        "seopath": "stopira",
+        "pageurl": "/players/164062/stopira",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Stopira?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira is 38 years old. Born on Fri May 20 1988."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Stopira?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Stopira born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira was born Fri May 20 1988 and is now 38 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Stopira's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Stopira's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira's transfer value is estimated to be around \u20ac216.7k."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Stopira from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira is from Cape Verde."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Stopira scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stopira has scored 2 goals in the Liga Portugal 2."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Stopira",
+            "birthDate": "1988-05-20T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/164062/stopira",
+            "nationality": {
+                "@type": "Country",
+                "name": "Cape Verde"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Torreense"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "79"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga Portugal 2 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/185/overview/liga-portugal-2-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Torreense",
+                    "item": "https://www.fotmob.com/teams/212820/overview/torreense"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Stopira",
+                    "item": "https://www.fotmob.com/leagues/164062/overview/stopira"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal 2",
+                    "tournamentId": 185,
+                    "entryId": "0-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Taca de Portugal",
+                    "tournamentId": 186,
+                    "entryId": "0-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga Portugal Qualification",
+                    "tournamentId": 10215,
+                    "entryId": "0-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal 2",
+                    "tournamentId": 185,
+                    "entryId": "1-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2025",
+            "tournaments": [
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "3-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "4-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "5-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "6-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "7-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "7-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card"
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0.06632277081798084,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "2714",
+                    "title": "Minutes"
+                },
+                {
+                    "localizedTitleId": "yellow_cards",
+                    "per90": 0.03316138540899042,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Yellow cards"
+                },
+                {
+                    "localizedTitleId": "red_cards",
+                    "per90": 0.03316138540899042,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Red cards"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2014-12-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-06-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 330000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 410000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 390000,
+                "currency": "EUR",
+                "lowerBound": 290000,
+                "upperBound": 480000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 450000,
+                "currency": "EUR",
+                "lowerBound": 330000,
+                "upperBound": 560000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 420000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 530000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 390000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 490000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 300000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 8036,
+                "teamName": "Videoton FC Fehervar"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 184000,
+                "upperBound": 276000,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 276000,
+                "currency": "EUR",
+                "lowerBound": 220800,
+                "upperBound": 331200,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 262137,
+                "currency": "EUR",
+                "lowerBound": 209710,
+                "upperBound": 314565,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 252196,
+                "currency": "EUR",
+                "lowerBound": 201757,
+                "upperBound": 302636,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 252196,
+                "currency": "EUR",
+                "lowerBound": 201757,
+                "upperBound": 302636,
+                "source": "scisports"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 201757,
+                "currency": "EUR",
+                "lowerBound": 161405,
+                "upperBound": 242108,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 164973,
+                "currency": "EUR",
+                "lowerBound": 131979,
+                "upperBound": 197968,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 152689,
+                "currency": "EUR",
+                "lowerBound": 122151,
+                "upperBound": 183227,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 152689,
+                "currency": "EUR",
+                "lowerBound": 122151,
+                "upperBound": 183227,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 155156,
+                "currency": "EUR",
+                "lowerBound": 124124,
+                "upperBound": 186187,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 158871,
+                "currency": "EUR",
+                "lowerBound": 127097,
+                "upperBound": 190646,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 164973,
+                "currency": "EUR",
+                "lowerBound": 131979,
+                "upperBound": 197968,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 164973,
+                "currency": "EUR",
+                "lowerBound": 131979,
+                "upperBound": 197968,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 164772,
+                "currency": "EUR",
+                "lowerBound": 131818,
+                "upperBound": 197727,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 164772,
+                "currency": "EUR",
+                "lowerBound": 131818,
+                "upperBound": 197727,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 164772,
+                "currency": "EUR",
+                "lowerBound": 131818,
+                "upperBound": 197727,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 188326,
+                "currency": "EUR",
+                "lowerBound": 150660,
+                "upperBound": 225991,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 188326,
+                "currency": "EUR",
+                "lowerBound": 150660,
+                "upperBound": 225991,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 188326,
+                "currency": "EUR",
+                "lowerBound": 150660,
+                "upperBound": 225991,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 166201,
+                "currency": "EUR",
+                "lowerBound": 132961,
+                "upperBound": 199442,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 182144,
+                "currency": "EUR",
+                "lowerBound": 145715,
+                "upperBound": 218572,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 148863,
+                "currency": "EUR",
+                "lowerBound": 119090,
+                "upperBound": 178636,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 168640,
+                "currency": "EUR",
+                "lowerBound": 134912,
+                "upperBound": 202368,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 165765,
+                "currency": "EUR",
+                "lowerBound": 132612,
+                "upperBound": 198918,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 190764,
+                "currency": "EUR",
+                "lowerBound": 152611,
+                "upperBound": 228916,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 195299,
+                "currency": "EUR",
+                "lowerBound": 156239,
+                "upperBound": 234359,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 191583,
+                "currency": "EUR",
+                "lowerBound": 153267,
+                "upperBound": 229900,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 212542,
+                "currency": "EUR",
+                "lowerBound": 170034,
+                "upperBound": 255051,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 216742,
+                "currency": "EUR",
+                "lowerBound": 173393,
+                "upperBound": 260090,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 216742,
+                "currency": "EUR",
+                "lowerBound": 173393,
+                "upperBound": 260090,
+                "source": "scisports",
+                "teamId": 212820,
+                "teamName": "Torreense"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1400915,
+                "name": "Bachirou Yam\u00e9ogo"
+            },
+            {
+                "id": 1523070,
+                "name": "Filipe Quintas"
+            },
+            {
+                "id": 1251926,
+                "name": "Hugo P\u00e9rez"
+            },
+            {
+                "id": 1668003,
+                "name": "Jonathan Mutombo"
+            },
+            {
+                "id": 50100,
+                "name": "Jorge Aguirre"
+            },
+            {
+                "id": 1366623,
+                "name": "Karem Zoabi"
+            },
+            {
+                "id": 1607223,
+                "name": "Nuha Jatta"
+            },
+            {
+                "id": 921208,
+                "name": "Lucas Paes"
+            },
+            {
+                "id": 1384882,
+                "name": "Arnau Casas"
+            },
+            {
+                "id": 1560058,
+                "name": "L\u00e9o Azevedo"
+            },
+            {
+                "id": 1246713,
+                "name": "Dany Jean"
+            },
+            {
+                "id": 1393916,
+                "name": "Alejandro Alfaro"
+            },
+            {
+                "id": 865040,
+                "name": "K\u00e9vin Zohi"
+            },
+            {
+                "id": 362661,
+                "name": "Costinha"
+            },
+            {
+                "id": 1219562,
+                "name": "Manuel Pozo"
+            },
+            {
+                "id": 684967,
+                "name": "Thiago da Silva"
+            },
+            {
+                "id": 1791354,
+                "name": "Unai P\u00e9rez"
+            },
+            {
+                "id": 1525232,
+                "name": "Ricardo Rei"
+            },
+            {
+                "id": 1319208,
+                "name": "Musa Drammeh"
+            },
+            {
+                "id": 470551,
+                "name": "Pit\u00e9"
+            },
+            {
+                "id": 191785,
+                "name": "David Bruno"
+            },
+            {
+                "id": 886809,
+                "name": "Javi V\u00e1zquez"
+            },
+            {
+                "id": 1489099,
+                "name": "Andr\u00e9a Dacourt"
+            },
+            {
+                "id": 1395223,
+                "name": "Andr\u00e9 Simoes"
+            },
+            {
+                "id": 1526177,
+                "name": "Luis Quintero"
+            },
+            {
+                "id": 1520910,
+                "name": "Venaque"
+            },
+            {
+                "id": 1665586,
+                "name": "Silas Bjerre"
+            },
+            {
+                "id": 1904974,
+                "name": "Matheo Titalom-Penka"
+            },
+            {
+                "id": 1187761,
+                "name": "Brian Agbor"
+            },
+            {
+                "id": 1900955,
+                "name": "Adama Baradji"
+            },
+            {
+                "id": 1754761,
+                "name": "Caio Amaral"
+            },
+            {
+                "id": 1669657,
+                "name": "Danilo Ferreira"
+            },
+            {
+                "id": 1426066,
+                "name": "Rodrigo Marques"
+            },
+            {
+                "id": 1813659,
+                "name": "David Ivanov"
+            },
+            {
+                "id": 1695868,
+                "name": "Mohamed Ali Diadie"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 422149,
+                "name": "Vozinha"
+            },
+            {
+                "id": 496648,
+                "name": "Diney Borges"
+            },
+            {
+                "id": 230134,
+                "name": "Roberto Lopes"
+            },
+            {
+                "id": 922877,
+                "name": "Logan Costa"
+            },
+            {
+                "id": 890503,
+                "name": "Kevin Pina"
+            },
+            {
+                "id": 785716,
+                "name": "Jovane Cabral"
+            },
+            {
+                "id": 1241301,
+                "name": "Jo\u00e3o Paulo"
+            },
+            {
+                "id": 1241302,
+                "name": "Gilson Benchimol"
+            },
+            {
+                "id": 680905,
+                "name": "Jamiro Monteiro"
+            },
+            {
+                "id": 302912,
+                "name": "Garry Rodrigues"
+            },
+            {
+                "id": 865144,
+                "name": "M\u00e1rcio Rosa"
+            },
+            {
+                "id": 1441786,
+                "name": "Sidny Lopes Cabral"
+            },
+            {
+                "id": 798069,
+                "name": "Deroy Duarte"
+            },
+            {
+                "id": 665167,
+                "name": "Laros Duarte"
+            },
+            {
+                "id": 1205410,
+                "name": "Yannick Semedo"
+            },
+            {
+                "id": 873832,
+                "name": "Willy Semedo"
+            },
+            {
+                "id": 1165477,
+                "name": "Telmo Arcanjo"
+            },
+            {
+                "id": 1309634,
+                "name": "Dailon Livramento"
+            },
+            {
+                "id": 172615,
+                "name": "Ryan Mendes"
+            },
+            {
+                "id": 671326,
+                "name": "Nuno da Costa"
+            },
+            {
+                "id": 444000,
+                "name": "Steven Moreira"
+            },
+            {
+                "id": 1054027,
+                "name": "Carlos Dos Santos"
+            },
+            {
+                "id": 1460591,
+                "name": "Wagner Pina"
+            },
+            {
+                "id": 1175733,
+                "name": "Kelvin Pires"
+            },
+            {
+                "id": 1524518,
+                "name": "H\u00e9lio Varela"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5886251,
+        "homeId": 9773,
+        "awayId": 212820,
+        "homeName": "FC Porto",
+        "awayName": "Torreense",
+        "matchDate": "2026-08-01T19:15:00Z",
+        "statusId": 1,
+        "leagueId": 188,
+        "parentLeagueId": -1,
+        "leagueName": "Super Cup",
+        "status": {
+            "utcTime": "2026-08-01T19:15:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Est\u00e1dio EFAPEL Cidade de Coimbra",
+            "city": "Coimbra",
+            "lat": 40.203296559,
+            "long": -8.407609463
+        },
+        "matchUrl": "/matches/fc-porto-vs-torreense/bdprkoe#5886251"
+    },
+    "dataProvider": "enet"
+}

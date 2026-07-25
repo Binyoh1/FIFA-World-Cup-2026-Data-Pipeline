@@ -1,0 +1,5409 @@
+{
+    "id": 173461,
+    "name": "Andrej Kramaric",
+    "birthDate": {
+        "utcTime": "1991-06-19T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8226,
+        "teamName": "Hoffenheim",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#005098",
+            "colorAlternate": "#0057a3",
+            "colorAway": "#F87B12",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 5,
+                "position": "71",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.34705882352941175
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 5,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.34705882352941175
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 9,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.4647058823529412
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 12,
+                "position": "84",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 2,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1,
+                    "ratio": 0.25882352941176473
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "107",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Attacking Midfielder",
+            "key": "centerattackingmidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Striker",
+                "key": "striker"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 177,
+                "key": null,
+                "fallback": "177 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 27,
+                "options": {},
+                "key": null,
+                "fallback": 27
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 35,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "35"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Croatia"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CRO"
+            },
+            "countryCode": "CRO"
+        },
+        {
+            "value": {
+                "numberValue": 2497081,
+                "key": null,
+                "fallback": "\u20ac2.5m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 54,
+        "leagueName": "Bundesliga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 14
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 6
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 26
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 34
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2222
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.2
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "CRO",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb",
+                "tournaments": [
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 252,
+                        "leagueName": "HNL",
+                        "seasonsWon": [
+                            "2010/2011",
+                            "2009/2010"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 275,
+                        "leagueName": "Croatian Cup",
+                        "seasonsWon": [
+                            "2010/2011"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 276,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2013/2014"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "CRO",
+                "teamId": 10162,
+                "teamName": "Rijeka",
+                "tournaments": [
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 275,
+                        "leagueName": "Croatian Cup",
+                        "seasonsWon": [
+                            "2013/2014"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 276,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2014/2015"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8361,
+            "opponentTeamName": "Portugal",
+            "isHomeTeam": false,
+            "id": 4653707,
+            "matchDate": {
+                "utcTime": "2026-07-02T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-croatia/2u2izf#4653707",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 6714,
+            "opponentTeamName": "Ghana",
+            "isHomeTeam": true,
+            "id": 4667830,
+            "matchDate": {
+                "utcTime": "2026-06-27T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ghana-vs-croatia/2cpwux#4667830",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5922,
+            "opponentTeamName": "Panama",
+            "isHomeTeam": false,
+            "id": 4667827,
+            "matchDate": {
+                "utcTime": "2026-06-23T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/panama-vs-croatia/24y93x#4667827",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 4667825,
+            "matchDate": {
+                "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/england-vs-croatia/2viayw#4667825",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": true,
+            "id": 5159769,
+            "matchDate": {
+                "utcTime": "2026-06-07T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-croatia/23nxao#5159769",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": true,
+            "id": 5147839,
+            "matchDate": {
+                "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": false,
+            "id": 4829614,
+            "matchDate": {
+                "utcTime": "2026-05-16T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-monchengladbach/2om10t#4829614",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": true,
+            "id": 4829607,
+            "matchDate": {
+                "utcTime": "2026-05-09T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-werder-bremen/2d9ier#4829607",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": true,
+            "id": 4829599,
+            "matchDate": {
+                "utcTime": "2026-05-02T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-vfb-stuttgart/2tu70i#4829599",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": false,
+            "id": 4829588,
+            "matchDate": {
+                "utcTime": "2026-04-25T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-hamburger-sv/2omstq#4829588",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": true,
+            "id": 4829581,
+            "matchDate": {
+                "utcTime": "2026-04-18T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-dortmund/2omex9#4829581",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": false,
+            "id": 4829567,
+            "matchDate": {
+                "utcTime": "2026-04-10T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-augsburg/2acuwi#4829567",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": true,
+            "id": 4829563,
+            "matchDate": {
+                "utcTime": "2026-04-04T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-mainz-05/2pvcpb#4829563",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 5110104,
+            "matchDate": {
+                "utcTime": "2026-04-01T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-vs-croatia/2swyz6#5110104",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8258,
+            "opponentTeamName": "Colombia",
+            "isHomeTeam": false,
+            "id": 5147840,
+            "matchDate": {
+                "utcTime": "2026-03-26T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/colombia-vs-croatia/2sxre5#5147840",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 178475,
+            "opponentTeamName": "RB Leipzig",
+            "isHomeTeam": false,
+            "id": 4829555,
+            "matchDate": {
+                "utcTime": "2026-03-20T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-rb-leipzig/808m8nx#4829555",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": true,
+            "id": 4829546,
+            "matchDate": {
+                "utcTime": "2026-03-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-wolfsburg/2di81r#4829546",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": false,
+            "id": 4829534,
+            "matchDate": {
+                "utcTime": "2026-03-07T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-fc-heidenheim/2g0946b#4829534",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 4,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": true,
+            "id": 4829528,
+            "matchDate": {
+                "utcTime": "2026-02-28T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-hoffenheim/27uzw1#4829528",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": false,
+            "id": 4829514,
+            "matchDate": {
+                "utcTime": "2026-02-21T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-1-fc-koln/2dil4k#4829514",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": true,
+            "id": 4829509,
+            "matchDate": {
+                "utcTime": "2026-02-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-freiburg/29vrqi#4829509",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": false,
+            "id": 4829495,
+            "matchDate": {
+                "utcTime": "2026-02-08T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-bayern-munchen/2ozk0w#4829495",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": true,
+            "id": 4829491,
+            "matchDate": {
+                "utcTime": "2026-01-31T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-hoffenheim/27txza#4829491",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": false,
+            "id": 4829458,
+            "matchDate": {
+                "utcTime": "2026-01-27T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-werder-bremen/2d9ier#4829458",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4829480,
+            "matchDate": {
+                "utcTime": "2026-01-24T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-eintracht-frankfurt/2ouj10#4829480",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": true,
+            "id": 4829472,
+            "matchDate": {
+                "utcTime": "2026-01-17T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-hoffenheim/2844qc#4829472",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": true,
+            "id": 4829463,
+            "matchDate": {
+                "utcTime": "2026-01-14T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-monchengladbach/2om10t#4829463",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": false,
+            "id": 4829448,
+            "matchDate": {
+                "utcTime": "2025-12-20T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-vfb-stuttgart/2tu70i#4829448",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": true,
+            "id": 4829437,
+            "matchDate": {
+                "utcTime": "2025-12-13T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-hamburger-sv/2omstq#4829437",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": false,
+            "id": 4829424,
+            "matchDate": {
+                "utcTime": "2025-12-07T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-borussia-dortmund/2omex9#4829424",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": true,
+            "id": 4829420,
+            "matchDate": {
+                "utcTime": "2025-11-29T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-augsburg/2acuwi#4829420",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": false,
+            "id": 4829410,
+            "matchDate": {
+                "utcTime": "2025-11-21T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-mainz-05/2pvcpb#4829410",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 95,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": false,
+            "id": 4689382,
+            "matchDate": {
+                "utcTime": "2025-11-17T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-montenegro/td71cx#4689382",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 35,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": true,
+            "id": 4689380,
+            "matchDate": {
+                "utcTime": "2025-11-14T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-croatia/2t23qh#4689380",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 178475,
+            "opponentTeamName": "RB Leipzig",
+            "isHomeTeam": true,
+            "id": 4829401,
+            "matchDate": {
+                "utcTime": "2025-11-08T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-rb-leipzig/808m8nx#4829401",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 95,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": false,
+            "id": 4829395,
+            "matchDate": {
+                "utcTime": "2025-11-02T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-wolfsburg/2di81r#4829395",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": false,
+            "id": 4951169,
+            "matchDate": {
+                "utcTime": "2025-10-28T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-hoffenheim/27uzw1#4951169",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 120,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": true,
+            "id": 4829384,
+            "matchDate": {
+                "utcTime": "2025-10-25T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-fc-heidenheim/2g0946b#4829384",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": false,
+            "id": 4829375,
+            "matchDate": {
+                "utcTime": "2025-10-19T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-hoffenheim/27uzw1#4829375",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 76,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 507764,
+            "opponentTeamName": "Gibraltar",
+            "isHomeTeam": true,
+            "id": 4689378,
+            "matchDate": {
+                "utcTime": "2025-10-12T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-gibraltar/1pm42gv8#4689378",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8496,
+            "opponentTeamName": "Czechia",
+            "isHomeTeam": false,
+            "id": 4689375,
+            "matchDate": {
+                "utcTime": "2025-10-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-croatia/2vkax6#4689375",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": true,
+            "id": 4829366,
+            "matchDate": {
+                "utcTime": "2025-10-03T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-1-fc-koln/2dil4k#4829366",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": false,
+            "id": 4829354,
+            "matchDate": {
+                "utcTime": "2025-09-28T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-freiburg/29vrqi#4829354",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9823,
+            "opponentTeamName": "Bayern M\u00fcnchen",
+            "isHomeTeam": true,
+            "id": 4829347,
+            "matchDate": {
+                "utcTime": "2025-09-20T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-bayern-munchen/2ozk0w#4829347",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": false,
+            "id": 4829337,
+            "matchDate": {
+                "utcTime": "2025-09-13T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-hoffenheim/27txza#4829337",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 4,
+            "minutesPlayed": 66,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": true,
+            "id": 4689374,
+            "matchDate": {
+                "utcTime": "2025-09-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-montenegro/td71cx#4689374",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": false,
+            "id": 4689371,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-croatia/2t23qh#4689371",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": true,
+            "id": 4829246,
+            "matchDate": {
+                "utcTime": "2025-08-30T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-eintracht-frankfurt/2ouj10#4829246",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": false,
+            "id": 4829221,
+            "matchDate": {
+                "utcTime": "2025-08-23T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-hoffenheim/2844qc#4829221",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8294,
+            "opponentTeamName": "Hansa Rostock",
+            "isHomeTeam": false,
+            "id": 4810488,
+            "matchDate": {
+                "utcTime": "2025-08-16T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-hansa-rostock/2992a2#4810488",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8550,
+            "opponentTeamName": "Metz",
+            "isHomeTeam": true,
+            "id": 4836809,
+            "matchDate": {
+                "utcTime": "2025-08-09T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-metz/2bsf2i#4836809",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 8,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8226,
+            "teamName": "Hoffenheim",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": false,
+            "id": 4849621,
+            "matchDate": {
+                "utcTime": "2025-08-01T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-werder-bremen/2d9ier#4849621",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 173461,
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "346",
+                        "goals": "153",
+                        "assists": "63",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2016-01-20T00:00:00",
+                        "endDate": "2016-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "15",
+                        "goals": "5",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 8197,
+                        "team": "Leicester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-01-16T00:00:00",
+                        "endDate": "2016-01-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "20",
+                        "goals": "4",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2013-08-31T00:00:00",
+                        "endDate": "2015-01-16T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "65",
+                        "goals": "56",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2013-07-01T00:00:00",
+                        "endDate": "2013-08-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "8",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 175388,
+                        "team": "NK Lokomotiva",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2012-02-12T00:00:00",
+                        "endDate": "2013-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "51",
+                        "goals": "24",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2009-07-13T00:00:00",
+                        "endDate": "2012-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "49",
+                        "goals": "10",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "36",
+                        "goals": "15",
+                        "assists": "8",
+                        "rating": {
+                            "rating": "7.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26891,
+                                "goals": "14",
+                                "assists": "6",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26893,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.26"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "41",
+                        "goals": "11",
+                        "assists": "10",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23794,
+                                "goals": "11",
+                                "assists": "8",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23599,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24112,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.99"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "31",
+                        "goals": "17",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20946,
+                                "goals": "15",
+                                "assists": "6",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.55"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20948,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "9.36"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "34",
+                        "goals": "12",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17801,
+                                "goals": "12",
+                                "assists": "3",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17692,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.37"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "35",
+                        "goals": "8",
+                        "assists": "9",
+                        "rating": {
+                            "rating": "7.23"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16494,
+                                "goals": "6",
+                                "assists": "9",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16553,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.86"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "34",
+                        "goals": "25",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.42"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15481,
+                                "goals": "20",
+                                "assists": "5",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "7.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15391,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.05"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15238,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.85"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "20",
+                        "goals": "12",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14144,
+                                "goals": "12",
+                                "assists": "2",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14035,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "37",
+                        "goals": "22",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12876,
+                                "goals": "17",
+                                "assists": "4",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.23"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12743,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12764,
+                                "goals": "5",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.39"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "42",
+                        "goals": "13",
+                        "assists": "7",
+                        "rating": {
+                            "rating": "6.91"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11623,
+                                "goals": "13",
+                                "assists": "6",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11512,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11542,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11543,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.68"
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "36",
+                        "goals": "18",
+                        "assists": "8",
+                        "rating": {
+                            "rating": "7.17"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10512,
+                                "goals": "15",
+                                "assists": "8",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.17"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10439,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "15",
+                        "goals": "5",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2015/2016",
+                                "tournamentId": 9556,
+                                "goals": "5",
+                                "assists": "2",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8226,
+                        "team": "Hoffenheim",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "5",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2015/2016",
+                                "tournamentId": 9501,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2015/2016",
+                                "tournamentId": 9495,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8197,
+                        "team": "Leicester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "15",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8598,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8962,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8197,
+                        "team": "Leicester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "31",
+                        "goals": "28",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8626,
+                                "goals": "21",
+                                "assists": "undefined",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 276,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2014/2015",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8629,
+                                "goals": "7",
+                                "assists": "1",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013/2014",
+                        "appearances": "34",
+                        "goals": "28",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7748,
+                                "goals": "16",
+                                "assists": "undefined",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2013/2014",
+                                "tournamentId": -1,
+                                "goals": "11",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7780,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013/2014",
+                        "appearances": "8",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7748,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 276,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 8717,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7781,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2012/2013",
+                        "appearances": "38",
+                        "goals": "19",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2012/2013",
+                                "tournamentId": 6874,
+                                "goals": "15",
+                                "assists": "undefined",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2012/2013",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 175388,
+                        "team": "NK Lokomotiva",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2011/2012",
+                        "appearances": "13",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2011/2012",
+                                "tournamentId": 6147,
+                                "goals": "5",
+                                "assists": "undefined",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 175388,
+                        "team": "NK Lokomotiva",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2011/2012",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2011/2012",
+                                "tournamentId": 6147,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2011/2012",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2010/2011",
+                        "appearances": "15",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2010/2011",
+                                "tournamentId": 5238,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2010/2011",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2010/2011",
+                                "tournamentId": 5280,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2009/2010",
+                        "appearances": "32",
+                        "goals": "8",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2009/2010",
+                                "tournamentId": 4527,
+                                "goals": "7",
+                                "assists": "undefined",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2009/2010",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2009/2010",
+                                "tournamentId": 4508,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2009/2010",
+                                "tournamentId": 4512,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 173461,
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2014-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "118",
+                        "goals": "35",
+                        "assists": "9",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2009-05-05T00:00:00",
+                        "endDate": "2012-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 263040,
+                        "team": "Croatia U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2011-07-01T00:00:00",
+                        "endDate": "2011-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 173461,
+                        "teamId": 204263,
+                        "team": "Croatia U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2009-06-01T00:00:00",
+                        "endDate": "2011-10-08T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "15",
+                        "goals": "6",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.94"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "6",
+                                "assists": "1",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "7.51"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.37"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.26"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "21",
+                        "goals": "7",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.95"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 50,
+                                "leagueName": "EURO",
+                                "seasonName": "2024",
+                                "tournamentId": 18307,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.78"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.66"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "27",
+                        "goals": "9",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2022",
+                                "tournamentId": 17272,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.48"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17161,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.80"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.97"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "11",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 50,
+                                "leagueName": "EURO",
+                                "seasonName": "2020",
+                                "tournamentId": 12715,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.34"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15023,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.26"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": 13365,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "26",
+                        "goals": "7",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.90"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2018",
+                                "tournamentId": 17271,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2018",
+                                "tournamentId": 9731,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.79"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": 11352,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12469,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2017",
+                                "tournamentId": 10882,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016",
+                        "appearances": "12",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 50,
+                                "leagueName": "EURO",
+                                "seasonName": "2016",
+                                "tournamentId": 8479,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2016",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2016",
+                                "tournamentId": 10041,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2015",
+                                "tournamentId": 9099,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2014",
+                                "tournamentId": 8170,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2013",
+                                "tournamentId": 7388,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2011",
+                        "appearances": "4",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2011",
+                                "tournamentId": 5773,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2011",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FIFA U20 World Cup",
+                                "seasonName": "2011",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 263040,
+                        "team": "Croatia U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2010",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 287,
+                                "leagueName": "UEFA U19 Championship",
+                                "seasonName": "2010",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 204263,
+                        "team": "Croatia U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.37
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.09
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.96
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.77
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.54
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "andrej-kramaric",
+        "pageurl": "/players/173461/andrej-kramaric",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Andrej Kramaric?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric is 35 years old. Born on Wed Jun 19 1991."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Andrej Kramaric?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric is 177 cm tall. Or 5 ft 10 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Andrej Kramaric born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric was born Wed Jun 19 1991 and is now 35 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Andrej Kramaric's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Andrej Kramaric's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric's transfer value is estimated to be around \u20ac2.5m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Andrej Kramaric from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric is from Croatia."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Andrej Kramaric scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Andrej Kramaric has scored 14 goals in the Bundesliga."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Andrej Kramaric",
+            "birthDate": "1991-06-19T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/173461/andrej-kramaric",
+            "nationality": {
+                "@type": "Country",
+                "name": "Croatia"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Hoffenheim"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "177"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "73"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Bundesliga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/54/overview/bundesliga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Hoffenheim",
+                    "item": "https://www.fotmob.com/teams/8226/overview/hoffenheim"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Andrej Kramaric",
+                    "item": "https://www.fotmob.com/leagues/173461/overview/andrej-kramaric"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO",
+                    "tournamentId": 50,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "6-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "6-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO",
+                    "tournamentId": 50,
+                    "entryId": "6-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "8-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "8-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "8-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "1. Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "9-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "9-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "9-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2016/2017",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "10-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO",
+                    "tournamentId": 50,
+                    "entryId": "10-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "10-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2015/2016",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "11-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "11-1",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "League Cup",
+                    "tournamentId": 133,
+                    "entryId": "11-2",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2014/2015",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "12-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "12-1",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "12-2",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944872419,
+                "playerName": "Andrej Kramaric",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10155,
+                "playerId": 173461,
+                "x": 82.7101941752,
+                "y": 48.2746496788,
+                "min": 90,
+                "minAdded": 4,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 85.6014705876,
+                "blockedY": 46.452993627,
+                "goalCrossedY": 32.6275,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.00731151551008224,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.36309523809524,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8491,
+                "awayTeamId": 10155,
+                "homeTeamName": "England",
+                "awayTeamName": "Croatia",
+                "homeScore": 4,
+                "awayScore": 2,
+                "matchId": 4667825,
+                "matchDate": "2026-06-17T20:00:00Z",
+                "teamColor": "#CC3737",
+                "teamColorDark": "#CC3737"
+            }
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.37,
+                    "percentileRank": 35.707410972088546,
+                    "percentileRankPer90": 35.707410972088546,
+                    "statFormat": "fraction",
+                    "statValue": "6.37",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 35.99615014436959,
+                    "percentileRankPer90": 35.99615014436959,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 22.52165543792108,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "58",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 81.7,
+                    "y": 3.87
+                },
+                {
+                    "x": 62.1,
+                    "y": 22.18
+                },
+                {
+                    "x": 79.22,
+                    "y": 27.78
+                },
+                {
+                    "x": 98.73,
+                    "y": 6.23
+                },
+                {
+                    "x": 40.53,
+                    "y": 41.48
+                },
+                {
+                    "x": 77.75,
+                    "y": 28.2
+                },
+                {
+                    "x": 87,
+                    "y": 10.76
+                },
+                {
+                    "x": 52.6,
+                    "y": 34.15
+                },
+                {
+                    "x": 64.69,
+                    "y": 46.59
+                },
+                {
+                    "x": 24.32,
+                    "y": 8.85
+                },
+                {
+                    "x": 25.22,
+                    "y": 8.99
+                },
+                {
+                    "x": 43.86,
+                    "y": 28.71
+                },
+                {
+                    "x": 44.88,
+                    "y": 20.64
+                },
+                {
+                    "x": 78.66,
+                    "y": 19.87
+                },
+                {
+                    "x": 82.71,
+                    "y": 19.73
+                },
+                {
+                    "x": 41.89,
+                    "y": 20.43
+                },
+                {
+                    "x": 85.6,
+                    "y": 4.59
+                },
+                {
+                    "x": 76.18,
+                    "y": 8
+                },
+                {
+                    "x": 39.41,
+                    "y": 59.15
+                },
+                {
+                    "x": 6.46,
+                    "y": 9.84
+                },
+                {
+                    "x": 51.18,
+                    "y": 18.25
+                },
+                {
+                    "x": 23.08,
+                    "y": 26.94
+                },
+                {
+                    "x": 27.36,
+                    "y": 25.88
+                },
+                {
+                    "x": 37.38,
+                    "y": 2.69
+                },
+                {
+                    "x": 55.35,
+                    "y": 22.67
+                },
+                {
+                    "x": 49.04,
+                    "y": 59.54
+                },
+                {
+                    "x": 43.86,
+                    "y": 52.2
+                },
+                {
+                    "x": 68.75,
+                    "y": 14.68
+                },
+                {
+                    "x": 60.73,
+                    "y": 6.49
+                },
+                {
+                    "x": 38.85,
+                    "y": 33.47
+                },
+                {
+                    "x": 38.85,
+                    "y": 33.47
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2014-12-31T00:00:00+00:00",
+                "value": 5610000,
+                "currency": "EUR",
+                "lowerBound": 4200000,
+                "upperBound": 7010000,
+                "source": "scisports",
+                "teamId": 8197,
+                "teamName": "Leicester City",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-06-30T00:00:00+00:00",
+                "value": 4880000,
+                "currency": "EUR",
+                "lowerBound": 3660000,
+                "upperBound": 6110000,
+                "source": "scisports",
+                "teamId": 8197,
+                "teamName": "Leicester City"
+            },
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 4160000,
+                "currency": "EUR",
+                "lowerBound": 3120000,
+                "upperBound": 5210000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 7420000,
+                "currency": "EUR",
+                "lowerBound": 5570000,
+                "upperBound": 9280000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 10680000,
+                "currency": "EUR",
+                "lowerBound": 8010000,
+                "upperBound": 13350000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 12210000,
+                "currency": "EUR",
+                "lowerBound": 9160000,
+                "upperBound": 15270000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 13740000,
+                "currency": "EUR",
+                "lowerBound": 10310000,
+                "upperBound": 17180000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 20580000,
+                "currency": "EUR",
+                "lowerBound": 15440000,
+                "upperBound": 25730000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 27420000,
+                "currency": "EUR",
+                "lowerBound": 20570000,
+                "upperBound": 34280000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 18340000,
+                "currency": "EUR",
+                "lowerBound": 13760000,
+                "upperBound": 22930000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 9260000,
+                "currency": "EUR",
+                "lowerBound": 6950000,
+                "upperBound": 11580000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 10780000,
+                "currency": "EUR",
+                "lowerBound": 8090000,
+                "upperBound": 13480000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 12300000,
+                "currency": "EUR",
+                "lowerBound": 9230000,
+                "upperBound": 15380000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 14050000,
+                "currency": "EUR",
+                "lowerBound": 10540000,
+                "upperBound": 17560000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 15800000,
+                "currency": "EUR",
+                "lowerBound": 11850000,
+                "upperBound": 19750000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 15790000,
+                "currency": "EUR",
+                "lowerBound": 11840000,
+                "upperBound": 19740000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 14430000,
+                "currency": "EUR",
+                "lowerBound": 10820000,
+                "upperBound": 18040000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 13430000,
+                "currency": "EUR",
+                "lowerBound": 10070000,
+                "upperBound": 16790000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 12050000,
+                "currency": "EUR",
+                "lowerBound": 9040000,
+                "upperBound": 15070000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 18150000,
+                "currency": "EUR",
+                "lowerBound": 13620000,
+                "upperBound": 22690000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 19650000,
+                "currency": "EUR",
+                "lowerBound": 14740000,
+                "upperBound": 24560000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 20440000,
+                "currency": "EUR",
+                "lowerBound": 15330000,
+                "upperBound": 25550000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 19700000,
+                "currency": "EUR",
+                "lowerBound": 14780000,
+                "upperBound": 24630000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 19100000,
+                "currency": "EUR",
+                "lowerBound": 14330000,
+                "upperBound": 23880000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 18340000,
+                "currency": "EUR",
+                "lowerBound": 13760000,
+                "upperBound": 22930000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 17720000,
+                "currency": "EUR",
+                "lowerBound": 13290000,
+                "upperBound": 22150000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 17390000,
+                "currency": "EUR",
+                "lowerBound": 13040000,
+                "upperBound": 21740000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 16350000,
+                "currency": "EUR",
+                "lowerBound": 12260000,
+                "upperBound": 20430000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 16350000,
+                "currency": "EUR",
+                "lowerBound": 12260000,
+                "upperBound": 20440000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 16300000,
+                "currency": "EUR",
+                "lowerBound": 12220000,
+                "upperBound": 20380000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 16130000,
+                "currency": "EUR",
+                "lowerBound": 12090000,
+                "upperBound": 20160000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 15810000,
+                "currency": "EUR",
+                "lowerBound": 11860000,
+                "upperBound": 19760000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 15510000,
+                "currency": "EUR",
+                "lowerBound": 11630000,
+                "upperBound": 19390000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 15050000,
+                "currency": "EUR",
+                "lowerBound": 11280000,
+                "upperBound": 18810000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 14540000,
+                "currency": "EUR",
+                "lowerBound": 10910000,
+                "upperBound": 18180000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 13690000,
+                "currency": "EUR",
+                "lowerBound": 10270000,
+                "upperBound": 17110000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 12970000,
+                "currency": "EUR",
+                "lowerBound": 9730000,
+                "upperBound": 16220000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 11000000,
+                "currency": "EUR",
+                "lowerBound": 8250000,
+                "upperBound": 13740000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 10250000,
+                "currency": "EUR",
+                "lowerBound": 7690000,
+                "upperBound": 12810000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 9850000,
+                "currency": "EUR",
+                "lowerBound": 7390000,
+                "upperBound": 12310000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 9080000,
+                "currency": "EUR",
+                "lowerBound": 6810000,
+                "upperBound": 11350000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 8930000,
+                "currency": "EUR",
+                "lowerBound": 6700000,
+                "upperBound": 11160000,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 6700000,
+                "currency": "EUR",
+                "lowerBound": 5695000,
+                "upperBound": 7704999,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 5695000,
+                "currency": "EUR",
+                "lowerBound": 4840750,
+                "upperBound": 6549249,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 4840750,
+                "currency": "EUR",
+                "lowerBound": 3872600,
+                "upperBound": 5808900,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 3872600,
+                "currency": "EUR",
+                "lowerBound": 3098080,
+                "upperBound": 4647120,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 4294028,
+                "currency": "EUR",
+                "lowerBound": 3435222,
+                "upperBound": 5152834,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 3435222,
+                "currency": "EUR",
+                "lowerBound": 2748177,
+                "upperBound": 4122266,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 2748177,
+                "currency": "EUR",
+                "lowerBound": 2198541,
+                "upperBound": 3297812,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 2504883,
+                "currency": "EUR",
+                "lowerBound": 2003907,
+                "upperBound": 3005860,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 2483124,
+                "currency": "EUR",
+                "lowerBound": 1986499,
+                "upperBound": 2979749,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 2523818,
+                "currency": "EUR",
+                "lowerBound": 2019054,
+                "upperBound": 3028582,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 2311648,
+                "currency": "EUR",
+                "lowerBound": 1849319,
+                "upperBound": 2773978,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 2311648,
+                "currency": "EUR",
+                "lowerBound": 1849319,
+                "upperBound": 2773978,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 2223793,
+                "currency": "EUR",
+                "lowerBound": 1779034,
+                "upperBound": 2668551,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 2223805,
+                "currency": "EUR",
+                "lowerBound": 1779044,
+                "upperBound": 2668566,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 2222561,
+                "currency": "EUR",
+                "lowerBound": 1778048,
+                "upperBound": 2667073,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 3777257,
+                "currency": "EUR",
+                "lowerBound": 3021805,
+                "upperBound": 4532708,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 3681645,
+                "currency": "EUR",
+                "lowerBound": 2945316,
+                "upperBound": 4417974,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 2325636,
+                "currency": "EUR",
+                "lowerBound": 1860509,
+                "upperBound": 2790764,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 2325636,
+                "currency": "EUR",
+                "lowerBound": 1860509,
+                "upperBound": 2790764,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 2223805,
+                "currency": "EUR",
+                "lowerBound": 1779044,
+                "upperBound": 2668566,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 2264872,
+                "currency": "EUR",
+                "lowerBound": 1811898,
+                "upperBound": 2717847,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 2523818,
+                "currency": "EUR",
+                "lowerBound": 2019054,
+                "upperBound": 3028582,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 2125020,
+                "currency": "EUR",
+                "lowerBound": 1700016,
+                "upperBound": 2550025,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 2125020,
+                "currency": "EUR",
+                "lowerBound": 1700016,
+                "upperBound": 2550025,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 2155885,
+                "currency": "EUR",
+                "lowerBound": 1724708,
+                "upperBound": 2587062,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 2405215,
+                "currency": "EUR",
+                "lowerBound": 1924172,
+                "upperBound": 2886258,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 2463317,
+                "currency": "EUR",
+                "lowerBound": 1970654,
+                "upperBound": 2955981,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 1970654,
+                "currency": "EUR",
+                "lowerBound": 1576523,
+                "upperBound": 2364784,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 2364784,
+                "currency": "EUR",
+                "lowerBound": 1891827,
+                "upperBound": 2837740,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 2497081,
+                "currency": "EUR",
+                "lowerBound": 1997665,
+                "upperBound": 2996498,
+                "source": "scisports",
+                "teamId": 8226,
+                "teamName": "Hoffenheim"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1419782,
+                "name": "Alessandro Vogt"
+            },
+            {
+                "id": 1355636,
+                "name": "Arthur Chaves"
+            },
+            {
+                "id": 1338957,
+                "name": "Bambas\u00e9 Cont\u00e9"
+            },
+            {
+                "id": 1793498,
+                "name": "Cajetan Lenz"
+            },
+            {
+                "id": 784495,
+                "name": "Dennis Geiger"
+            },
+            {
+                "id": 1368557,
+                "name": "Gift Orban"
+            },
+            {
+                "id": 1445416,
+                "name": "Mats Rots"
+            },
+            {
+                "id": 1664759,
+                "name": "Nathan De Cat"
+            },
+            {
+                "id": 1899713,
+                "name": "Natnael Abraha"
+            },
+            {
+                "id": 1663128,
+                "name": "Sean Dulic"
+            },
+            {
+                "id": 178778,
+                "name": "Oliver Baumann"
+            },
+            {
+                "id": 1225995,
+                "name": "Robin Hran\u00e1c"
+            },
+            {
+                "id": 845990,
+                "name": "Ozan Kabak"
+            },
+            {
+                "id": 1478148,
+                "name": "Leon Avdullahu"
+            },
+            {
+                "id": 1073498,
+                "name": "Patrick Wimmer"
+            },
+            {
+                "id": 1393387,
+                "name": "Muhammed Mehmet Damar"
+            },
+            {
+                "id": 1219540,
+                "name": "Fisnik Asllani"
+            },
+            {
+                "id": 637716,
+                "name": "Bernardo"
+            },
+            {
+                "id": 947884,
+                "name": "Wouter Burger"
+            },
+            {
+                "id": 1124825,
+                "name": "Tim Lemperle"
+            },
+            {
+                "id": 1186015,
+                "name": "Albian Hajdari"
+            },
+            {
+                "id": 1027194,
+                "name": "Alexander Prass"
+            },
+            {
+                "id": 969870,
+                "name": "Adam Hlozek"
+            },
+            {
+                "id": 727817,
+                "name": "Koki Machida"
+            },
+            {
+                "id": 1486537,
+                "name": "Max Moerstedt"
+            },
+            {
+                "id": 307317,
+                "name": "Vladim\u00edr Coufal"
+            },
+            {
+                "id": 1175933,
+                "name": "Luca Philipp"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 383971,
+                "name": "Dominik Livakovic"
+            },
+            {
+                "id": 950824,
+                "name": "Josip Stanisic"
+            },
+            {
+                "id": 831474,
+                "name": "Marin Pongracic"
+            },
+            {
+                "id": 1070712,
+                "name": "Josko Gvardiol"
+            },
+            {
+                "id": 557799,
+                "name": "Duje Caleta-Car"
+            },
+            {
+                "id": 1186228,
+                "name": "Josip Sutalo"
+            },
+            {
+                "id": 641595,
+                "name": "Nikola Moro"
+            },
+            {
+                "id": 239219,
+                "name": "Mateo Kovacic"
+            },
+            {
+                "id": 31097,
+                "name": "Luka Modric"
+            },
+            {
+                "id": 251269,
+                "name": "Ante Budimir"
+            },
+            {
+                "id": 1077684,
+                "name": "Ivor Pandur"
+            },
+            {
+                "id": 557677,
+                "name": "Nikola Vlasic"
+            },
+            {
+                "id": 163670,
+                "name": "Ivan Perisic"
+            },
+            {
+                "id": 446266,
+                "name": "Mario Pasalic"
+            },
+            {
+                "id": 1215064,
+                "name": "Martin Baturina"
+            },
+            {
+                "id": 1382000,
+                "name": "Petar Sucic"
+            },
+            {
+                "id": 643448,
+                "name": "Kristijan Jakic"
+            },
+            {
+                "id": 1300358,
+                "name": "Toni Fruk"
+            },
+            {
+                "id": 1210893,
+                "name": "Igor Matanovic"
+            },
+            {
+                "id": 959597,
+                "name": "Luka Sucic"
+            },
+            {
+                "id": 1413996,
+                "name": "Luka Vuskovic"
+            },
+            {
+                "id": 873557,
+                "name": "Dominik Kotarski"
+            },
+            {
+                "id": 1199714,
+                "name": "Marco Pasalic"
+            },
+            {
+                "id": 616170,
+                "name": "Martin Erlic"
+            },
+            {
+                "id": 709796,
+                "name": "Petar Musa"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5765462,
+        "homeId": 2025372,
+        "awayId": 8226,
+        "homeName": "Massenbachhausen",
+        "awayName": "Hoffenheim",
+        "matchDate": "2026-07-22T16:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-22T16:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {},
+        "matchUrl": "/matches/hoffenheim-vs-massenbachhausen/qdwzrslf#5765462"
+    },
+    "dataProvider": "enet"
+}

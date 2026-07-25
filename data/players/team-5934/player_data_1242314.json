@@ -1,0 +1,4567 @@
+{
+    "id": 1242314,
+    "name": "Lenny Joseph",
+    "birthDate": {
+        "utcTime": "2000-10-12T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8222,
+        "teamName": "Ferencvaros",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#008040",
+            "colorAlternate": "#008040",
+            "colorAway": "#927C01",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 1,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 2,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.2833333333333333
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 4,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.3666666666666667
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 16,
+                "position": "104",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "107",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Striker",
+            "key": "striker"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 183,
+                "key": null,
+                "fallback": "183 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 75,
+                "options": {},
+                "key": null,
+                "fallback": 75
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Haiti"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "HAI"
+            },
+            "countryCode": "HAI"
+        },
+        {
+            "value": {
+                "numberValue": 1350126,
+                "key": null,
+                "fallback": "\u20ac1.4m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 212,
+        "leagueName": "NB I",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 7
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 12
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 25
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1209
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 3
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 6406,
+            "opponentTeamName": "Vojvodina",
+            "isHomeTeam": true,
+            "id": 5786510,
+            "matchDate": {
+                "utcTime": "2026-07-16T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vojvodina-vs-ferencvaros/1rphdk#5786510",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 6406,
+            "opponentTeamName": "Vojvodina",
+            "isHomeTeam": false,
+            "id": 5786504,
+            "matchDate": {
+                "utcTime": "2026-07-09T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vojvodina-vs-ferencvaros/1rphdk#5786504",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667767,
+            "matchDate": {
+                "utcTime": "2026-06-20T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-brazil/1ny7ix#4667767",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 4667765,
+            "matchDate": {
+                "utcTime": "2026-06-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-scotland/1q0g2q#4667765",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5729844,
+            "matchDate": {
+                "utcTime": "2026-06-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-haiti/14zaw0#5729844",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 1667,
+            "opponentTeamName": "Zalaegerszeg",
+            "isHomeTeam": true,
+            "id": 4813261,
+            "matchDate": {
+                "utcTime": "2026-05-16T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/zalaegerszeg-vs-ferencvaros/t4aof#4813261",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8043,
+            "opponentTeamName": "Ujpest",
+            "isHomeTeam": false,
+            "id": 4813255,
+            "matchDate": {
+                "utcTime": "2026-05-03T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ujpest-vs-ferencvaros/26rgqz#4813255",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 71,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7986,
+            "opponentTeamName": "Paksi SE",
+            "isHomeTeam": true,
+            "id": 4813249,
+            "matchDate": {
+                "utcTime": "2026-04-26T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paksi-se-vs-ferencvaros/267mme#4813249",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 5755,
+            "opponentTeamName": "Gy\u00f6ri ETO",
+            "isHomeTeam": false,
+            "id": 4813244,
+            "matchDate": {
+                "utcTime": "2026-04-19T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/gyori-eto-vs-ferencvaros/1m5wrn#4813244",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 355346,
+            "opponentTeamName": "Puskas FC Academy",
+            "isHomeTeam": true,
+            "id": 4813221,
+            "matchDate": {
+                "utcTime": "2026-04-14T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-puskas-fc-academy/ud0w986#4813221",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 73,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2476,
+            "opponentTeamName": "Diosgyori VTK",
+            "isHomeTeam": true,
+            "id": 4813237,
+            "matchDate": {
+                "utcTime": "2026-04-10T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/diosgyori-vtk-vs-ferencvaros/y2shh#4813237",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8369,
+            "opponentTeamName": "Debrecen",
+            "isHomeTeam": false,
+            "id": 4813233,
+            "matchDate": {
+                "utcTime": "2026-04-05T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-debrecen/29y9c9#4813233",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 465382,
+            "opponentTeamName": "Kisvarda",
+            "isHomeTeam": false,
+            "id": 4813227,
+            "matchDate": {
+                "utcTime": "2026-03-22T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-kisvarda/1firkzs8#4813227",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": false,
+            "id": 5206098,
+            "matchDate": {
+                "utcTime": "2026-03-18T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-braga/2tqmln#5206098",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": true,
+            "id": 5206090,
+            "matchDate": {
+                "utcTime": "2026-03-12T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-braga/2tqmln#5206090",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2035,
+            "opponentTeamName": "Nyiregyhaza Spartacus FC",
+            "isHomeTeam": false,
+            "id": 4813210,
+            "matchDate": {
+                "utcTime": "2026-03-08T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/nyiregyhaza-spartacus-fc-vs-ferencvaros/vbr1z#4813210",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2280,
+            "opponentTeamName": "Kazincbarcikai BSC",
+            "isHomeTeam": true,
+            "id": 4813207,
+            "matchDate": {
+                "utcTime": "2026-03-01T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/kazincbarcikai-bsc-vs-ferencvaros/wu9bn#4813207",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": true,
+            "id": 5161888,
+            "matchDate": {
+                "utcTime": "2026-02-26T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-ludogorets-razgrad/ayeny8o#5161888",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7778,
+            "opponentTeamName": "MTK Budapest",
+            "isHomeTeam": false,
+            "id": 4813200,
+            "matchDate": {
+                "utcTime": "2026-02-23T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mtk-budapest-vs-ferencvaros/247ty6#4813200",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": false,
+            "id": 5161880,
+            "matchDate": {
+                "utcTime": "2026-02-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-ludogorets-razgrad/ayeny8o#5161880",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 1667,
+            "opponentTeamName": "Zalaegerszeg",
+            "isHomeTeam": false,
+            "id": 4813195,
+            "matchDate": {
+                "utcTime": "2026-02-14T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/zalaegerszeg-vs-ferencvaros/t4aof#4813195",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8043,
+            "opponentTeamName": "Ujpest",
+            "isHomeTeam": true,
+            "id": 4813189,
+            "matchDate": {
+                "utcTime": "2026-02-07T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ujpest-vs-ferencvaros/26rgqz#4813189",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7986,
+            "opponentTeamName": "Paksi SE",
+            "isHomeTeam": false,
+            "id": 4813183,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/paksi-se-vs-ferencvaros/267mme#4813183",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4947865,
+            "matchDate": {
+                "utcTime": "2026-01-29T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-nottingham-forest/2t2hwz#4947865",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 5755,
+            "opponentTeamName": "Gy\u00f6ri ETO",
+            "isHomeTeam": true,
+            "id": 4813178,
+            "matchDate": {
+                "utcTime": "2026-01-25T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/gyori-eto-vs-ferencvaros/1m5wrn#4813178",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 10200,
+            "opponentTeamName": "Panathinaikos",
+            "isHomeTeam": true,
+            "id": 4947835,
+            "matchDate": {
+                "utcTime": "2026-01-22T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-panathinaikos/2t1b9n#4947835",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2476,
+            "opponentTeamName": "Diosgyori VTK",
+            "isHomeTeam": false,
+            "id": 4813171,
+            "matchDate": {
+                "utcTime": "2025-12-19T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/diosgyori-vtk-vs-ferencvaros/y2shh#4813171",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8369,
+            "opponentTeamName": "Debrecen",
+            "isHomeTeam": true,
+            "id": 4813167,
+            "matchDate": {
+                "utcTime": "2025-12-14T13:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-debrecen/29y9c9#4813167",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": true,
+            "id": 4947832,
+            "matchDate": {
+                "utcTime": "2025-12-11T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-rangers/2bq9ev#4947832",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 465382,
+            "opponentTeamName": "Kisvarda",
+            "isHomeTeam": true,
+            "id": 4813161,
+            "matchDate": {
+                "utcTime": "2025-12-07T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-kisvarda/1firkzs8#4813161",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 465382,
+            "opponentTeamName": "Kisvarda",
+            "isHomeTeam": false,
+            "id": 4813095,
+            "matchDate": {
+                "utcTime": "2025-12-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-kisvarda/1firkzs8#4813095",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 355346,
+            "opponentTeamName": "Puskas FC Academy",
+            "isHomeTeam": false,
+            "id": 4813155,
+            "matchDate": {
+                "utcTime": "2025-11-30T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-puskas-fc-academy/ud0w986#4813155",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8695,
+            "opponentTeamName": "Fenerbah\u00e7e",
+            "isHomeTeam": false,
+            "id": 4947809,
+            "matchDate": {
+                "utcTime": "2025-11-27T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-fenerbahce/2d7c2m#4947809",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2035,
+            "opponentTeamName": "Nyiregyhaza Spartacus FC",
+            "isHomeTeam": true,
+            "id": 4813144,
+            "matchDate": {
+                "utcTime": "2025-11-22T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/nyiregyhaza-spartacus-fc-vs-ferencvaros/vbr1z#4813144",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2280,
+            "opponentTeamName": "Kazincbarcikai BSC",
+            "isHomeTeam": false,
+            "id": 4813141,
+            "matchDate": {
+                "utcTime": "2025-11-09T14:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/kazincbarcikai-bsc-vs-ferencvaros/wu9bn#4813141",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": true,
+            "id": 4947834,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-ludogorets-razgrad/ayeny8o#4947834",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7778,
+            "opponentTeamName": "MTK Budapest",
+            "isHomeTeam": true,
+            "id": 4813134,
+            "matchDate": {
+                "utcTime": "2025-11-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mtk-budapest-vs-ferencvaros/247ty6#4813134",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 1667,
+            "opponentTeamName": "Zalaegerszeg",
+            "isHomeTeam": true,
+            "id": 4813129,
+            "matchDate": {
+                "utcTime": "2025-10-26T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/zalaegerszeg-vs-ferencvaros/t4aof#4813129",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 10013,
+            "opponentTeamName": "Salzburg",
+            "isHomeTeam": false,
+            "id": 4947801,
+            "matchDate": {
+                "utcTime": "2025-10-23T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-salzburg/2qzuko#4947801",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8043,
+            "opponentTeamName": "Ujpest",
+            "isHomeTeam": false,
+            "id": 4813123,
+            "matchDate": {
+                "utcTime": "2025-10-19T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ujpest-vs-ferencvaros/26rgqz#4813123",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7986,
+            "opponentTeamName": "Paksi SE",
+            "isHomeTeam": true,
+            "id": 4813117,
+            "matchDate": {
+                "utcTime": "2025-10-05T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/paksi-se-vs-ferencvaros/267mme#4813117",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 9987,
+            "opponentTeamName": "Genk",
+            "isHomeTeam": false,
+            "id": 4947910,
+            "matchDate": {
+                "utcTime": "2025-10-02T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-genk/2qpqd0#4947910",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 5755,
+            "opponentTeamName": "Gy\u00f6ri ETO",
+            "isHomeTeam": false,
+            "id": 4813112,
+            "matchDate": {
+                "utcTime": "2025-09-28T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/gyori-eto-vs-ferencvaros/1m5wrn#4813112",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 32,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 6033,
+            "opponentTeamName": "Viktoria Plzen",
+            "isHomeTeam": true,
+            "id": 4947833,
+            "matchDate": {
+                "utcTime": "2025-09-25T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-ferencvaros/1oi0ue#4947833",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 8369,
+            "opponentTeamName": "Debrecen",
+            "isHomeTeam": false,
+            "id": 4813101,
+            "matchDate": {
+                "utcTime": "2025-08-31T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-debrecen/29y9c9#4813101",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7981,
+            "opponentTeamName": "Qarabag FK",
+            "isHomeTeam": false,
+            "id": 4912069,
+            "matchDate": {
+                "utcTime": "2025-08-27T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/qarabag-fk-vs-ferencvaros/265w3k#4912069",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 73,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7981,
+            "opponentTeamName": "Qarabag FK",
+            "isHomeTeam": true,
+            "id": 4912068,
+            "matchDate": {
+                "utcTime": "2025-08-19T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qarabag-fk-vs-ferencvaros/265w3k#4912068",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 355346,
+            "opponentTeamName": "Puskas FC Academy",
+            "isHomeTeam": true,
+            "id": 4813089,
+            "matchDate": {
+                "utcTime": "2025-08-16T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-puskas-fc-academy/ud0w986#4813089",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": true,
+            "id": 4885143,
+            "matchDate": {
+                "utcTime": "2025-08-12T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-ludogorets-razgrad/ayeny8o#4885143",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2035,
+            "opponentTeamName": "Nyiregyhaza Spartacus FC",
+            "isHomeTeam": false,
+            "id": 4813078,
+            "matchDate": {
+                "utcTime": "2025-08-09T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/nyiregyhaza-spartacus-fc-vs-ferencvaros/vbr1z#4813078",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": false,
+            "id": 4885133,
+            "matchDate": {
+                "utcTime": "2025-08-06T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-ludogorets-razgrad/ayeny8o#4885133",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 2280,
+            "opponentTeamName": "Kazincbarcikai BSC",
+            "isHomeTeam": true,
+            "id": 4813075,
+            "matchDate": {
+                "utcTime": "2025-08-02T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/kazincbarcikai-bsc-vs-ferencvaros/wu9bn#4813075",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 866111,
+            "opponentTeamName": "FC Noah",
+            "isHomeTeam": true,
+            "id": 4813907,
+            "matchDate": {
+                "utcTime": "2025-07-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-fc-noah/4vle40r6#4813907",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 78,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 7778,
+            "opponentTeamName": "MTK Budapest",
+            "isHomeTeam": false,
+            "id": 4813068,
+            "matchDate": {
+                "utcTime": "2025-07-26T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/mtk-budapest-vs-ferencvaros/247ty6#4813068",
+            "leagueId": 212,
+            "leagueName": "NB I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8222,
+            "teamName": "Ferencvaros",
+            "opponentTeamId": 866111,
+            "opponentTeamName": "FC Noah",
+            "isHomeTeam": false,
+            "id": 4813892,
+            "matchDate": {
+                "utcTime": "2025-07-22T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-fc-noah/4vle40r6#4813892",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1242314,
+                        "teamId": 8222,
+                        "team": "Ferencvaros",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-01-20T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "63",
+                        "goals": "23",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": 9855,
+                        "team": "Grenoble",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-07-20T00:00:00",
+                        "endDate": "2025-01-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "56",
+                        "goals": "8",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": 8550,
+                        "team": "Metz",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2023-07-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "40",
+                        "goals": "4",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": 213346,
+                        "team": "Metz B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2023-07-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "8",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": 293257,
+                        "team": "Le Puy",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-07-01T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": -1,
+                        "team": "Boulogne-sur-Mer C\u00f4te d'Opale II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-18T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1242314,
+                        "teamId": 293257,
+                        "team": "Le Puy",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2019-07-17T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026/2027",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2026/2027",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8222,
+                        "team": "Ferencvaros",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "48",
+                        "goals": "16",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "6.64"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "6.64"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2025/2026",
+                                "tournamentId": -1,
+                                "goals": "7",
+                                "assists": "1",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2025/2026",
+                                "tournamentId": -1,
+                                "goals": "5",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8222,
+                        "team": "Ferencvaros",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "13",
+                        "goals": "6",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NB I",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "1",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Magyar Kupa",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8222,
+                        "team": "Ferencvaros",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "17",
+                        "goals": "4",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.74"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23725,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": "6.74"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9855,
+                        "team": "Grenoble",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "39",
+                        "goals": "4",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.03"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20971,
+                                "goals": "3",
+                                "assists": "4",
+                                "appearances": "37",
+                                "rating": {
+                                    "rating": "7.03"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22192,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9855,
+                        "team": "Grenoble",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "32",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.36"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17811,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.37"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18310,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.34"
+                                }
+                            }
+                        ],
+                        "teamId": 8550,
+                        "team": "Metz",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.96"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16499,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "5.96"
+                                }
+                            }
+                        ],
+                        "teamId": 8550,
+                        "team": "Metz",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213346,
+                        "team": "Metz B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "12",
+                        "goals": "8",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "8",
+                                "assists": "undefined",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213346,
+                        "team": "Metz B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "9",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15769,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 293257,
+                        "team": "Le Puy",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "12",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Boulogne-sur-Mer C\u00f4te d'Opale II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 13296,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 293257,
+                        "team": "Le Puy",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1242314,
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2026-05-15T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "5",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.08"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "5.90"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.37
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.99
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.88
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.12
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.18
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.72
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "lenny-joseph",
+        "pageurl": "/players/1242314/lenny-joseph",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Lenny Joseph?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph is 25 years old. Born on Thu Oct 12 2000."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Lenny Joseph?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph is 183 cm tall. Or 6 ft 0 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Lenny Joseph born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph was born Thu Oct 12 2000 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Lenny Joseph's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Lenny Joseph's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph's transfer value is estimated to be around \u20ac1.4m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Lenny Joseph from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph is from Haiti."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Lenny Joseph scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lenny Joseph has scored 7 goals in the NB I."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Lenny Joseph",
+            "birthDate": "2000-10-12T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1242314/lenny-joseph",
+            "nationality": {
+                "@type": "Country",
+                "name": "Haiti"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Ferencvaros"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "183"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "73"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "NB I 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/212/overview/nb-i-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Ferencvaros",
+                    "item": "https://www.fotmob.com/teams/8222/overview/ferencvaros"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Lenny Joseph",
+                    "item": "https://www.fotmob.com/leagues/1242314/overview/lenny-joseph"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "1-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "NB I",
+                    "tournamentId": 212,
+                    "entryId": "2-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945372249,
+                "playerName": "Lenny Joseph",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 5934,
+                "playerId": 1242314,
+                "x": 101.1120689658,
+                "y": 32.3225,
+                "min": 10,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 102.0603448278,
+                "blockedY": 31.63625,
+                "goalCrossedY": 28.118809523,
+                "goalCrossedZ": 0.2696842092,
+                "expectedGoals": 0.925723969936371,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.0458553774537101,
+                    "zoomRatio": 0.642727015012135
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6262,
+                "awayTeamId": 5934,
+                "homeTeamName": "Morocco",
+                "awayTeamName": "Haiti",
+                "homeScore": 4,
+                "awayScore": 2,
+                "matchId": 4667769,
+                "matchDate": "2026-06-24T22:00:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            },
+            {
+                "id": 2945372681,
+                "playerName": "Lenny Joseph",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 5934,
+                "playerId": 1242314,
+                "x": 95.9298245603,
+                "y": 19.7253503212,
+                "min": 34,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 32.39875,
+                "goalCrossedZ": 7.3566896704,
+                "expectedGoals": 0.0377047397196293,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.14740929589673,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.347982600149668
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6262,
+                "awayTeamId": 5934,
+                "homeTeamName": "Morocco",
+                "awayTeamName": "Haiti",
+                "homeScore": 4,
+                "awayScore": 2,
+                "matchId": 4667769,
+                "matchDate": "2026-06-24T22:00:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.7474655221248495,
+                            "percentileRank": 65.26315789473685,
+                            "percentileRankPer90": 87.36842105263159,
+                            "statFormat": "fraction",
+                            "statValue": "0.96",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.7474655221248495,
+                            "percentileRank": 67.36842105263158,
+                            "percentileRankPer90": 92.63157894736842,
+                            "statFormat": "fraction",
+                            "statValue": "0.96",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.5517241379310345,
+                            "percentileRank": 25.263157894736842,
+                            "percentileRankPer90": 30.526315789473685,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.03741273752831179,
+                            "percentileRank": 26.31578947368421,
+                            "percentileRankPer90": 38.94736842105263,
+                            "statFormat": "fraction",
+                            "statValue": "0.05",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 10.086206896551724,
+                            "percentileRank": 18.947368421052634,
+                            "percentileRankPer90": 32.631578947368425,
+                            "statFormat": "number",
+                            "statValue": "13",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 68.42105263157895,
+                            "percentileRank": 28.421052631578945,
+                            "percentileRankPer90": 28.421052631578945,
+                            "statFormat": "percent",
+                            "statValue": "68.4",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 2.3275862068965516,
+                            "percentileRank": 86.31578947368422,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 25.263157894736842,
+                            "percentileRankPer90": 47.368421052631575,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 3.103448275862069,
+                            "percentileRank": 89.47368421052632,
+                            "percentileRankPer90": 97.89473684210527,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 57.142857142857146,
+                            "percentileRank": 83.15789473684211,
+                            "percentileRankPer90": 83.15789473684211,
+                            "statFormat": "percent",
+                            "statValue": "57.1",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 5.431034482758621,
+                            "percentileRank": 28.421052631578945,
+                            "percentileRankPer90": 70.52631578947368,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 24.137931034482758,
+                            "percentileRank": 9.473684210526317,
+                            "percentileRankPer90": 9.473684210526317,
+                            "statFormat": "percent",
+                            "statValue": "24.1",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 1.5517241379310345,
+                            "percentileRank": 28.421052631578945,
+                            "percentileRankPer90": 50.526315789473685,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 18.181818181818183,
+                            "percentileRank": 18.947368421052634,
+                            "percentileRankPer90": 18.947368421052634,
+                            "statFormat": "percent",
+                            "statValue": "18.2",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 38.79310344827586,
+                            "percentileRank": 38.94736842105263,
+                            "percentileRankPer90": 78.94736842105263,
+                            "statFormat": "number",
+                            "statValue": "50",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 4.655172413793103,
+                            "percentileRank": 35.78947368421053,
+                            "percentileRankPer90": 63.1578947368421,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 3.103448275862069,
+                            "percentileRank": 27.368421052631582,
+                            "percentileRankPer90": 4.2105263157894735,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 10.526315789473683,
+                            "percentileRankPer90": 31.57894736842105,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 4.655172413793103,
+                            "percentileRank": 10.526315789473683,
+                            "percentileRankPer90": 1.0526315789473684,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.103448275862069,
+                            "percentileRank": 42.10526315789473,
+                            "percentileRankPer90": 84.21052631578947,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 49.473684210526315,
+                            "percentileRankPer90": 85.26315789473684,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.3275862068965516,
+                            "percentileRank": 42.10526315789473,
+                            "percentileRankPer90": 23.157894736842106,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 2.455525727107607,
+                            "percentileRank": 40,
+                            "percentileRankPer90": 8.421052631578947,
+                            "statFormat": "fraction",
+                            "statValue": "3.16",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 5.903333333333333,
+                    "percentileRank": 5.263157894736842,
+                    "percentileRankPer90": 5.263157894736842,
+                    "statFormat": "fraction",
+                    "statValue": "5.90",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 21.052631578947366,
+                    "percentileRankPer90": 21.052631578947366,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 7.368421052631578,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 22.105263157894736,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "116",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 98.44,
+                    "y": 49.61
+                },
+                {
+                    "x": 102.34,
+                    "y": 50.59
+                },
+                {
+                    "x": 56.57,
+                    "y": 28.71
+                },
+                {
+                    "x": 71.9,
+                    "y": 27.11
+                },
+                {
+                    "x": 77.19,
+                    "y": 15.59
+                },
+                {
+                    "x": 81.25,
+                    "y": 18.39
+                },
+                {
+                    "x": 90.3,
+                    "y": 8.07
+                },
+                {
+                    "x": 93.4,
+                    "y": 31.71
+                },
+                {
+                    "x": 93.3,
+                    "y": 35.37
+                },
+                {
+                    "x": 78.88,
+                    "y": 43.44
+                },
+                {
+                    "x": 90,
+                    "y": 34.69
+                },
+                {
+                    "x": 64.47,
+                    "y": 3.87
+                },
+                {
+                    "x": 72.24,
+                    "y": 10.76
+                },
+                {
+                    "x": 67.28,
+                    "y": 18.25
+                },
+                {
+                    "x": 66.94,
+                    "y": 9.97
+                },
+                {
+                    "x": 84.29,
+                    "y": 29.72
+                },
+                {
+                    "x": 76.63,
+                    "y": 37.74
+                },
+                {
+                    "x": 74.26,
+                    "y": 37.36
+                },
+                {
+                    "x": 74.15,
+                    "y": 41.31
+                },
+                {
+                    "x": 68.63,
+                    "y": 65.31
+                },
+                {
+                    "x": 78.66,
+                    "y": 50.17
+                },
+                {
+                    "x": 65.93,
+                    "y": 31.94
+                },
+                {
+                    "x": 28.71,
+                    "y": 49.26
+                },
+                {
+                    "x": 69.31,
+                    "y": 44.56
+                },
+                {
+                    "x": 76.85,
+                    "y": 30.32
+                },
+                {
+                    "x": 59.41,
+                    "y": 14.82
+                },
+                {
+                    "x": 37.04,
+                    "y": 27.61
+                },
+                {
+                    "x": 39.63,
+                    "y": 28.03
+                },
+                {
+                    "x": 45.59,
+                    "y": 34.69
+                },
+                {
+                    "x": 75.5,
+                    "y": 29.8
+                },
+                {
+                    "x": 37.38,
+                    "y": 24.96
+                },
+                {
+                    "x": 60.43,
+                    "y": 65.57
+                },
+                {
+                    "x": 77.08,
+                    "y": 49.26
+                },
+                {
+                    "x": 77.87,
+                    "y": 54.68
+                },
+                {
+                    "x": 63.11,
+                    "y": 24.84
+                },
+                {
+                    "x": 62.78,
+                    "y": 8.33
+                },
+                {
+                    "x": 73.02,
+                    "y": 31.26
+                },
+                {
+                    "x": 101.11,
+                    "y": 35.68
+                },
+                {
+                    "x": 47.42,
+                    "y": 18.39
+                },
+                {
+                    "x": 42.45,
+                    "y": 16.43
+                },
+                {
+                    "x": 62.33,
+                    "y": 15.73
+                },
+                {
+                    "x": 95.93,
+                    "y": 48.27
+                },
+                {
+                    "x": 66.61,
+                    "y": 30.72
+                },
+                {
+                    "x": 66.61,
+                    "y": 30.72
+                },
+                {
+                    "x": 71,
+                    "y": 31.26
+                },
+                {
+                    "x": 38.62,
+                    "y": 31.94
+                },
+                {
+                    "x": 40.76,
+                    "y": 30.72
+                },
+                {
+                    "x": 52.8,
+                    "y": 34
+                },
+                {
+                    "x": 43.76,
+                    "y": 19.09
+                },
+                {
+                    "x": 66.61,
+                    "y": 61.38
+                },
+                {
+                    "x": 66.83,
+                    "y": 55.73
+                },
+                {
+                    "x": 68.75,
+                    "y": 47.85
+                },
+                {
+                    "x": 66.72,
+                    "y": 41.95
+                },
+                {
+                    "x": 93.5,
+                    "y": 27.45
+                },
+                {
+                    "x": 52.4,
+                    "y": 34.38
+                },
+                {
+                    "x": 66.61,
+                    "y": 46.31
+                },
+                {
+                    "x": 67.84,
+                    "y": 46.94
+                },
+                {
+                    "x": 52.8,
+                    "y": 34.08
+                },
+                {
+                    "x": 90.4,
+                    "y": 56.32
+                },
+                {
+                    "x": 89.3,
+                    "y": 52.55
+                },
+                {
+                    "x": 58.5,
+                    "y": 64.52
+                },
+                {
+                    "x": 66.72,
+                    "y": 57.64
+                },
+                {
+                    "x": 67.51,
+                    "y": 67.41
+                },
+                {
+                    "x": 61.55,
+                    "y": 64.2
+                },
+                {
+                    "x": 64.24,
+                    "y": 22.88
+                },
+                {
+                    "x": 48.43,
+                    "y": 30.49
+                },
+                {
+                    "x": 48.33,
+                    "y": 28.79
+                },
+                {
+                    "x": 75.84,
+                    "y": 26.23
+                },
+                {
+                    "x": 66.27,
+                    "y": 45.89
+                },
+                {
+                    "x": 52.5,
+                    "y": 34.08
+                },
+                {
+                    "x": 68.07,
+                    "y": 58.55
+                },
+                {
+                    "x": 67.39,
+                    "y": 57.77
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 293257,
+                "teamName": "Le Puy",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 60000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Boulogne-sur-Mer C\u00f4te d'Opale II",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Boulogne-sur-Mer C\u00f4te d'Opale II"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 293257,
+                "teamName": "Le Puy",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 300000,
+                "currency": "EUR",
+                "lowerBound": 230000,
+                "upperBound": 380000,
+                "source": "scisports",
+                "teamId": 293257,
+                "teamName": "Le Puy"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 710000,
+                "currency": "EUR",
+                "lowerBound": 530000,
+                "upperBound": 880000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 680000,
+                "currency": "EUR",
+                "lowerBound": 510000,
+                "upperBound": 850000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 920000,
+                "currency": "EUR",
+                "lowerBound": 690000,
+                "upperBound": 1150000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 840000,
+                "currency": "EUR",
+                "lowerBound": 630000,
+                "upperBound": 1050000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 870000,
+                "currency": "EUR",
+                "lowerBound": 660000,
+                "upperBound": 1090000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 310000,
+                "currency": "EUR",
+                "lowerBound": 230000,
+                "upperBound": 390000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 690000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 860000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 800000,
+                "currency": "EUR",
+                "lowerBound": 600000,
+                "upperBound": 1010000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 840000,
+                "currency": "EUR",
+                "lowerBound": 630000,
+                "upperBound": 1050000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 850000,
+                "currency": "EUR",
+                "lowerBound": 640000,
+                "upperBound": 1060000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 830000,
+                "currency": "EUR",
+                "lowerBound": 630000,
+                "upperBound": 1040000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 450000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 560000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 440000,
+                "currency": "EUR",
+                "lowerBound": 330000,
+                "upperBound": 550000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 540000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 540000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 470000,
+                "currency": "EUR",
+                "lowerBound": 350000,
+                "upperBound": 580000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 470000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 590000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 490000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 610000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 500000,
+                "currency": "EUR",
+                "lowerBound": 380000,
+                "upperBound": 630000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 410000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 510000,
+                "source": "scisports",
+                "teamId": 8550,
+                "teamName": "Metz"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 540000,
+                "currency": "EUR",
+                "lowerBound": 410000,
+                "upperBound": 680000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 550000,
+                "currency": "EUR",
+                "lowerBound": 410000,
+                "upperBound": 690000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 610000,
+                "currency": "EUR",
+                "lowerBound": 460000,
+                "upperBound": 760000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 620000,
+                "currency": "EUR",
+                "lowerBound": 460000,
+                "upperBound": 770000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 610000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 760000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 660000,
+                "currency": "EUR",
+                "lowerBound": 500000,
+                "upperBound": 830000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 830000,
+                "currency": "EUR",
+                "lowerBound": 664000,
+                "upperBound": 996000,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 996000,
+                "currency": "EUR",
+                "lowerBound": 796800,
+                "upperBound": 1195200,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 1085035,
+                "currency": "EUR",
+                "lowerBound": 868028,
+                "upperBound": 1302042,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 1093541,
+                "currency": "EUR",
+                "lowerBound": 874833,
+                "upperBound": 1312250,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 1049731,
+                "currency": "EUR",
+                "lowerBound": 839785,
+                "upperBound": 1259677,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 1049731,
+                "currency": "EUR",
+                "lowerBound": 839785,
+                "upperBound": 1259677,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 1052267,
+                "currency": "EUR",
+                "lowerBound": 841814,
+                "upperBound": 1262721,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 980137,
+                "currency": "EUR",
+                "lowerBound": 784109,
+                "upperBound": 1176164,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 912529,
+                "currency": "EUR",
+                "lowerBound": 730023,
+                "upperBound": 1095035,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 874612,
+                "currency": "EUR",
+                "lowerBound": 699689,
+                "upperBound": 1049534,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 763881,
+                "currency": "EUR",
+                "lowerBound": 611105,
+                "upperBound": 916658,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 762611,
+                "currency": "EUR",
+                "lowerBound": 610089,
+                "upperBound": 915134,
+                "source": "scisports",
+                "teamId": 9855,
+                "teamName": "Grenoble"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 695116,
+                "currency": "EUR",
+                "lowerBound": 556093,
+                "upperBound": 834140,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 619039,
+                "currency": "EUR",
+                "lowerBound": 495231,
+                "upperBound": 742847,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 580238,
+                "currency": "EUR",
+                "lowerBound": 464191,
+                "upperBound": 696286,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 577243,
+                "currency": "EUR",
+                "lowerBound": 461795,
+                "upperBound": 692692,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 563490,
+                "currency": "EUR",
+                "lowerBound": 450792,
+                "upperBound": 676188,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 998738,
+                "currency": "EUR",
+                "lowerBound": 798990,
+                "upperBound": 1198485,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 1001526,
+                "currency": "EUR",
+                "lowerBound": 801221,
+                "upperBound": 1201831,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 999354,
+                "currency": "EUR",
+                "lowerBound": 799483,
+                "upperBound": 1199225,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 985278,
+                "currency": "EUR",
+                "lowerBound": 788222,
+                "upperBound": 1182333,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 949532,
+                "currency": "EUR",
+                "lowerBound": 759626,
+                "upperBound": 1139439,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 949532,
+                "currency": "EUR",
+                "lowerBound": 759626,
+                "upperBound": 1139439,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 946744,
+                "currency": "EUR",
+                "lowerBound": 757395,
+                "upperBound": 1136093,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 934087,
+                "currency": "EUR",
+                "lowerBound": 747270,
+                "upperBound": 1120905,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 934087,
+                "currency": "EUR",
+                "lowerBound": 747270,
+                "upperBound": 1120905,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 942698,
+                "currency": "EUR",
+                "lowerBound": 754159,
+                "upperBound": 1131238,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 948164,
+                "currency": "EUR",
+                "lowerBound": 758531,
+                "upperBound": 1137797,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 1137797,
+                "currency": "EUR",
+                "lowerBound": 910237,
+                "upperBound": 1365356,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 1350126,
+                "currency": "EUR",
+                "lowerBound": 1080100,
+                "upperBound": 1620151,
+                "source": "scisports",
+                "teamId": 8222,
+                "teamName": "Ferencvaros"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1086351,
+                "name": "Fortune Bassey"
+            },
+            {
+                "id": 1435401,
+                "name": "Isaac Pappoe"
+            },
+            {
+                "id": 574623,
+                "name": "Kenan Kodro"
+            },
+            {
+                "id": 1202601,
+                "name": "Levente Ori"
+            },
+            {
+                "id": 1479925,
+                "name": "Szil\u00e1rd Szab\u00f3"
+            },
+            {
+                "id": 764642,
+                "name": "\u00c1d\u00e1m Varga"
+            },
+            {
+                "id": 888809,
+                "name": "Mariano G\u00f3mez"
+            },
+            {
+                "id": 1073858,
+                "name": "Nathan Zohor\u00e9"
+            },
+            {
+                "id": 518374,
+                "name": "Elton Acolatse"
+            },
+            {
+                "id": 508889,
+                "name": "Naby Ke\u00efta"
+            },
+            {
+                "id": 763214,
+                "name": "Jonathan Levi"
+            },
+            {
+                "id": 1133802,
+                "name": "Bamidele Yusuf"
+            },
+            {
+                "id": 643975,
+                "name": "Attila Osv\u00e1th"
+            },
+            {
+                "id": 799044,
+                "name": "Daniel Arzani"
+            },
+            {
+                "id": 532097,
+                "name": "Kristoffer Zachariassen"
+            },
+            {
+                "id": 1094989,
+                "name": "Marius Corbu"
+            },
+            {
+                "id": 860756,
+                "name": "Franko Kovacevic"
+            },
+            {
+                "id": 1165547,
+                "name": "Cadu"
+            },
+            {
+                "id": 465362,
+                "name": "Endre Botka"
+            },
+            {
+                "id": 1289171,
+                "name": "G\u00e1bor Szalai"
+            },
+            {
+                "id": 1032157,
+                "name": "Bence \u00d6tv\u00f6s"
+            },
+            {
+                "id": 581131,
+                "name": "Ibrahim Ciss\u00e9"
+            },
+            {
+                "id": 1112499,
+                "name": "Toon Raemaekers"
+            },
+            {
+                "id": 466255,
+                "name": "Gergo Sz\u00e9csi"
+            },
+            {
+                "id": 1251656,
+                "name": "Zsombor Gruber"
+            },
+            {
+                "id": 1098041,
+                "name": "Aleksandar Cirkovic"
+            },
+            {
+                "id": 819066,
+                "name": "Gabi Kanichowsky"
+            },
+            {
+                "id": 882349,
+                "name": "Isma\u00ebl Aaneba"
+            },
+            {
+                "id": 438115,
+                "name": "Callum O'Dowda"
+            },
+            {
+                "id": 1463313,
+                "name": "Norbert Kaj\u00e1n"
+            },
+            {
+                "id": 1786959,
+                "name": "Benj\u00e1min G\u00f3lik"
+            },
+            {
+                "id": 1531065,
+                "name": "D\u00e1niel Radn\u00f3ti"
+            },
+            {
+                "id": 1128940,
+                "name": "Edgar Sevikyan"
+            },
+            {
+                "id": 1709060,
+                "name": "Csongor Lakatos"
+            },
+            {
+                "id": 1735841,
+                "name": "\u00c1d\u00e1m Madar\u00e1sz"
+            },
+            {
+                "id": 1364056,
+                "name": "Kriszti\u00e1n Lisztes"
+            },
+            {
+                "id": 1246599,
+                "name": "Barnab\u00e1s Nagy"
+            },
+            {
+                "id": 660135,
+                "name": "Habib Ma\u00efga"
+            },
+            {
+                "id": 583138,
+                "name": "Philippe Rommens"
+            },
+            {
+                "id": 274023,
+                "name": "D\u00e9nes Dibusz"
+            },
+            {
+                "id": 58484,
+                "name": "D\u00e1vid Gr\u00f3f"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 103468,
+                "name": "Johny Placide"
+            },
+            {
+                "id": 634110,
+                "name": "Carlens Arcus"
+            },
+            {
+                "id": 1807873,
+                "name": "Keeto Thermoncy"
+            },
+            {
+                "id": 532700,
+                "name": "Ricardo Ad\u00e9"
+            },
+            {
+                "id": 822716,
+                "name": "Hannes Delcroix"
+            },
+            {
+                "id": 1107287,
+                "name": "Carl Saint\u00e9"
+            },
+            {
+                "id": 643482,
+                "name": "Derrick Etienne"
+            },
+            {
+                "id": 1181438,
+                "name": "Martin Exp\u00e9rience"
+            },
+            {
+                "id": 525445,
+                "name": "Duckens Nazon"
+            },
+            {
+                "id": 769166,
+                "name": "Jean-Ricner Bellegarde"
+            },
+            {
+                "id": 1079194,
+                "name": "Don Deedson Louicius"
+            },
+            {
+                "id": 1209244,
+                "name": "Alexandre Pierre"
+            },
+            {
+                "id": 649744,
+                "name": "Duke Lacroix"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1200016,
+                "name": "Ruben Providence"
+            },
+            {
+                "id": 1329461,
+                "name": "Danley Jean Jacques"
+            },
+            {
+                "id": 887703,
+                "name": "Wilson Isidor"
+            },
+            {
+                "id": 759569,
+                "name": "Yassin Fortun\u00e9"
+            },
+            {
+                "id": 833641,
+                "name": "Frantzdy Pierrot"
+            },
+            {
+                "id": 1199382,
+                "name": "Josu\u00e9 Casimir"
+            },
+            {
+                "id": 769168,
+                "name": "Jean-K\u00e9vin Duverne"
+            },
+            {
+                "id": 899023,
+                "name": "Josu\u00e9 Duverger"
+            },
+            {
+                "id": 1394254,
+                "name": "Wilguens Paugain"
+            },
+            {
+                "id": 1356595,
+                "name": "Dominique Simon"
+            },
+            {
+                "id": 1447452,
+                "name": "Olivier Pierre"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1937484,
+                "name": "Alyssa Manasse"
+            },
+            {
+                "id": 1081279,
+                "name": "Amandine Pierre-Louis"
+            },
+            {
+                "id": 1729585,
+                "name": "Anyssa Ibrahim"
+            },
+            {
+                "id": 1966108,
+                "name": "Cassandra Decombe"
+            },
+            {
+                "id": 1807266,
+                "name": "Chelsea Domond"
+            },
+            {
+                "id": 1807450,
+                "name": "D\u00e9borah Bien-Aim\u00e9"
+            },
+            {
+                "id": 1591676,
+                "name": "Jos\u00e9phine Vanuxeem"
+            },
+            {
+                "id": 1866960,
+                "name": "Ka\u00efna Pietrus"
+            },
+            {
+                "id": 1807235,
+                "name": "Lourdjina \u00c9tienne"
+            },
+            {
+                "id": 1966107,
+                "name": "Nya Jean-Baptiste"
+            },
+            {
+                "id": 1345962,
+                "name": "Oc\u00e9ane Toussaint"
+            },
+            {
+                "id": 1468679,
+                "name": "Jennyfer Limage"
+            },
+            {
+                "id": 1468681,
+                "name": "Tabita Joseph"
+            },
+            {
+                "id": 1130847,
+                "name": "Melchie Dumornay"
+            },
+            {
+                "id": 1382527,
+                "name": "Sherly Jeudy"
+            },
+            {
+                "id": 887722,
+                "name": "Nerilia Mondesir"
+            },
+            {
+                "id": 1468676,
+                "name": "Roseline \u00c9loissaint"
+            },
+            {
+                "id": 1468674,
+                "name": "Betina Petit-Fr\u00e8re"
+            },
+            {
+                "id": 1468673,
+                "name": "Claire Constant"
+            },
+            {
+                "id": 1468671,
+                "name": "Milan Pierre-J\u00e9r\u00f4me"
+            },
+            {
+                "id": 1468669,
+                "name": "Dayana Pierre-Louis"
+            },
+            {
+                "id": 1261791,
+                "name": "Kethna Louis"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5788579,
+        "homeId": 8611,
+        "awayId": 8222,
+        "homeName": "FC Twente",
+        "awayName": "Ferencvaros",
+        "matchDate": "2026-07-23T18:00:00Z",
+        "statusId": 1,
+        "leagueId": 10613,
+        "parentLeagueId": 10613,
+        "leagueName": "Europa League Qualification",
+        "status": {
+            "utcTime": "2026-07-23T18:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "De Grolsch Veste",
+            "city": "Enschede",
+            "lat": 52.236561452,
+            "long": 6.837702319
+        },
+        "matchUrl": "/matches/ferencvaros-vs-fc-twente/2ccy84#5788579"
+    },
+    "dataProvider": "enet"
+}

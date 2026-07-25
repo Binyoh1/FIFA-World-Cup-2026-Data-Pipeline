@@ -1,0 +1,3826 @@
+{
+    "id": 1165477,
+    "name": "Telmo Arcanjo",
+    "birthDate": {
+        "utcTime": "2001-06-21T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 7844,
+        "teamName": "Vitoria de Guimaraes",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#181818",
+            "colorAlternate": "#ffffff",
+            "colorAway": "#EBC14A",
+            "colorAwayAlternate": "#EBC14A"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 1,
+                "position": "64",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.30000000000000004
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 13,
+                "position": "82",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 4,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.4
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": {
+        "name": "Hamstring injury",
+        "key": "injury_42",
+        "expectedReturn": {
+            "expectedReturnKey": "expected_return_date_late",
+            "expectedReturnDateParam": "July 2026",
+            "expectedReturnFallback": "Late July 2026"
+        },
+        "lastUpdated": {
+            "utcTime": "2026-06-22T00:00:00.000Z",
+            "timezone": null
+        }
+    },
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 18,
+                "options": {},
+                "key": null,
+                "fallback": 18
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Cape Verde"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CPV"
+            },
+            "countryCode": "CPV"
+        },
+        {
+            "value": {
+                "numberValue": 1896676,
+                "key": null,
+                "fallback": "\u20ac1.9m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 61,
+        "leagueName": "Liga Portugal",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 1
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 12
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 29
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1243
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.61
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 1
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6706,
+            "opponentTeamName": "Argentina",
+            "isHomeTeam": false,
+            "id": 4653715,
+            "matchDate": {
+                "utcTime": "2026-07-03T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-argentina/1b81pp#4653715",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 5796,
+            "opponentTeamName": "Uruguay",
+            "isHomeTeam": false,
+            "id": 4667800,
+            "matchDate": {
+                "utcTime": "2026-06-21T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-cape-verde/14n97e#4667800",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": false,
+            "id": 4667798,
+            "matchDate": {
+                "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 8205,
+            "opponentTeamName": "Serbia",
+            "isHomeTeam": true,
+            "id": 5667645,
+            "matchDate": {
+                "utcTime": "2026-05-31T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-serbia/1n4t0o#5667645",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 10214,
+            "opponentTeamName": "Nacional",
+            "isHomeTeam": false,
+            "id": 4844463,
+            "matchDate": {
+                "utcTime": "2026-05-16T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-nacional/2p2zvf#4844463",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": true,
+            "id": 4844449,
+            "matchDate": {
+                "utcTime": "2026-05-11T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-casa-pia-ac/b6ncz3t#4844449",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9768,
+            "opponentTeamName": "Sporting CP",
+            "isHomeTeam": false,
+            "id": 4844445,
+            "matchDate": {
+                "utcTime": "2026-05-04T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#4844445",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 7841,
+            "opponentTeamName": "Rio Ave",
+            "isHomeTeam": true,
+            "id": 4844439,
+            "matchDate": {
+                "utcTime": "2026-04-25T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/rio-ave-vs-vitoria-de-guimaraes/218uxf#4844439",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9764,
+            "opponentTeamName": "Gil Vicente",
+            "isHomeTeam": false,
+            "id": 4844427,
+            "matchDate": {
+                "utcTime": "2026-04-18T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-gil-vicente/2kb160#4844427",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": false,
+            "id": 4844415,
+            "matchDate": {
+                "utcTime": "2026-04-11T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-vitoria-de-guimaraes/s7hdf#4844415",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 188163,
+            "opponentTeamName": "Tondela",
+            "isHomeTeam": true,
+            "id": 4844412,
+            "matchDate": {
+                "utcTime": "2026-04-03T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-tondela/8totrzk#4844412",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 7871,
+            "opponentTeamName": "Finland",
+            "isHomeTeam": true,
+            "id": 5187286,
+            "matchDate": {
+                "utcTime": "2026-03-30T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-finland/1kd3of#5187286",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 9762,
+            "opponentTeamName": "Chile",
+            "isHomeTeam": false,
+            "id": 5187284,
+            "matchDate": {
+                "utcTime": "2026-03-27T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-chile/20x59x#5187284",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9772,
+            "opponentTeamName": "Benfica",
+            "isHomeTeam": false,
+            "id": 4844403,
+            "matchDate": {
+                "utcTime": "2026-03-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-benfica/2ke1w4#4844403",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1634,
+            "opponentTeamName": "Famalicao",
+            "isHomeTeam": true,
+            "id": 4844389,
+            "matchDate": {
+                "utcTime": "2026-03-14T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/famalicao-vs-vitoria-de-guimaraes/qqzax#4844389",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1567,
+            "opponentTeamName": "Santa Clara",
+            "isHomeTeam": false,
+            "id": 4844383,
+            "matchDate": {
+                "utcTime": "2026-03-08T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/santa-clara-vs-vitoria-de-guimaraes/qdf0q#4844383",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9780,
+            "opponentTeamName": "Alverca",
+            "isHomeTeam": true,
+            "id": 4844369,
+            "matchDate": {
+                "utcTime": "2026-02-28T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-alverca/2kh2o0#4844369",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": false,
+            "id": 4844367,
+            "matchDate": {
+                "utcTime": "2026-02-21T20:35:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-braga/2pmdje#4844367",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1074320,
+            "opponentTeamName": "Estrela da Amadora",
+            "isHomeTeam": true,
+            "id": 4844350,
+            "matchDate": {
+                "utcTime": "2026-02-14T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-estrela-da-amadora/7gzrejk6#4844350",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 158085,
+            "opponentTeamName": "Arouca",
+            "isHomeTeam": false,
+            "id": 4844347,
+            "matchDate": {
+                "utcTime": "2026-02-07T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-arouca/6bo3qpt#4844347",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 8348,
+            "opponentTeamName": "Moreirense",
+            "isHomeTeam": true,
+            "id": 4844340,
+            "matchDate": {
+                "utcTime": "2026-01-30T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-moreirense/2622po#4844340",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": true,
+            "id": 4844322,
+            "matchDate": {
+                "utcTime": "2026-01-18T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-fc-porto/2kefhi#4844322",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "4.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": true,
+            "id": 5034522,
+            "matchDate": {
+                "utcTime": "2026-01-10T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-braga/2pmdje#5034522",
+            "leagueId": 187,
+            "leagueName": "League Cup",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 54,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9768,
+            "opponentTeamName": "Sporting CP",
+            "isHomeTeam": false,
+            "id": 5034508,
+            "matchDate": {
+                "utcTime": "2026-01-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#5034508",
+            "leagueId": 187,
+            "leagueName": "League Cup",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 10214,
+            "opponentTeamName": "Nacional",
+            "isHomeTeam": true,
+            "id": 4844310,
+            "matchDate": {
+                "utcTime": "2026-01-02T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-nacional/2p2zvf#4844310",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": false,
+            "id": 4844296,
+            "matchDate": {
+                "utcTime": "2025-12-28T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-casa-pia-ac/b6ncz3t#4844296",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9768,
+            "opponentTeamName": "Sporting CP",
+            "isHomeTeam": true,
+            "id": 4844292,
+            "matchDate": {
+                "utcTime": "2025-12-23T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#4844292",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": true,
+            "id": 5074281,
+            "matchDate": {
+                "utcTime": "2025-12-17T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-vitoria-de-guimaraes/s7hdf#5074281",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 7841,
+            "opponentTeamName": "Rio Ave",
+            "isHomeTeam": false,
+            "id": 4844286,
+            "matchDate": {
+                "utcTime": "2025-12-13T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rio-ave-vs-vitoria-de-guimaraes/218uxf#4844286",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": false,
+            "id": 4847933,
+            "matchDate": {
+                "utcTime": "2025-12-04T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-fc-porto/2kefhi#4847933",
+            "leagueId": 187,
+            "leagueName": "League Cup",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": true,
+            "id": 4844262,
+            "matchDate": {
+                "utcTime": "2025-11-28T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-vitoria-de-guimaraes/s7hdf#4844262",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 560911,
+            "opponentTeamName": "Mortagua FC",
+            "isHomeTeam": true,
+            "id": 5020875,
+            "matchDate": {
+                "utcTime": "2025-11-22T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-mortagua-fc/22awnw9e#5020875",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": false,
+            "id": 5060482,
+            "matchDate": {
+                "utcTime": "2025-11-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-egypt/25l1iw#5060482",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6711,
+            "opponentTeamName": "Iran",
+            "isHomeTeam": false,
+            "id": 5030186,
+            "matchDate": {
+                "utcTime": "2025-11-13T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-iran/1b9ebf#5030186",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 188163,
+            "opponentTeamName": "Tondela",
+            "isHomeTeam": false,
+            "id": 4844259,
+            "matchDate": {
+                "utcTime": "2025-11-08T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-tondela/8totrzk#4844259",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9772,
+            "opponentTeamName": "Benfica",
+            "isHomeTeam": true,
+            "id": 4844250,
+            "matchDate": {
+                "utcTime": "2025-11-01T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-benfica/2ke1w4#4844250",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1634,
+            "opponentTeamName": "Famalicao",
+            "isHomeTeam": false,
+            "id": 4844236,
+            "matchDate": {
+                "utcTime": "2025-10-26T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/famalicao-vs-vitoria-de-guimaraes/qqzax#4844236",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 33,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 396267,
+            "opponentTeamName": "Uniao Lamas",
+            "isHomeTeam": false,
+            "id": 4979788,
+            "matchDate": {
+                "utcTime": "2025-10-19T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-uniao-lamas/11ie4gd8#4979788",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 4433,
+            "opponentTeamName": "Eswatini",
+            "isHomeTeam": true,
+            "id": 4341188,
+            "matchDate": {
+                "utcTime": "2025-10-13T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/eswatini-vs-cape-verde/vptdl#4341188",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6328,
+            "opponentTeamName": "Libya",
+            "isHomeTeam": false,
+            "id": 4341177,
+            "matchDate": {
+                "utcTime": "2025-10-08T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-libya/18fj5g#4341177",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 75,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1567,
+            "opponentTeamName": "Santa Clara",
+            "isHomeTeam": true,
+            "id": 4844230,
+            "matchDate": {
+                "utcTime": "2025-10-04T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/santa-clara-vs-vitoria-de-guimaraes/qdf0q#4844230",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9780,
+            "opponentTeamName": "Alverca",
+            "isHomeTeam": false,
+            "id": 4844216,
+            "matchDate": {
+                "utcTime": "2025-09-28T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-alverca/2kh2o0#4844216",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": true,
+            "id": 4844214,
+            "matchDate": {
+                "utcTime": "2025-09-20T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-braga/2pmdje#4844214",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 1074320,
+            "opponentTeamName": "Estrela da Amadora",
+            "isHomeTeam": false,
+            "id": 4844197,
+            "matchDate": {
+                "utcTime": "2025-09-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-estrela-da-amadora/7gzrejk6#4844197",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 6629,
+            "opponentTeamName": "Cameroon",
+            "isHomeTeam": true,
+            "id": 4341170,
+            "matchDate": {
+                "utcTime": "2025-09-09T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-cameroon/1anbno#4341170",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5888,
+            "teamName": "Cape Verde",
+            "opponentTeamId": 5750,
+            "opponentTeamName": "Mauritius",
+            "isHomeTeam": false,
+            "id": 4341172,
+            "matchDate": {
+                "utcTime": "2025-09-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mauritius-vs-cape-verde/14bral#4341172",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. D",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 158085,
+            "opponentTeamName": "Arouca",
+            "isHomeTeam": true,
+            "id": 4844194,
+            "matchDate": {
+                "utcTime": "2025-08-30T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-arouca/6bo3qpt#4844194",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 8348,
+            "opponentTeamName": "Moreirense",
+            "isHomeTeam": false,
+            "id": 4844187,
+            "matchDate": {
+                "utcTime": "2025-08-23T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-moreirense/2622po#4844187",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 7842,
+            "opponentTeamName": "Estoril",
+            "isHomeTeam": true,
+            "id": 4844175,
+            "matchDate": {
+                "utcTime": "2025-08-16T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/estoril-vs-vitoria-de-guimaraes/219715#4844175",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 7844,
+            "teamName": "Vitoria de Guimaraes",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": false,
+            "id": 4844169,
+            "matchDate": {
+                "utcTime": "2025-08-11T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-fc-porto/2kefhi#4844169",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1165477,
+                        "teamId": 7844,
+                        "team": "Vitoria de Guimaraes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "75",
+                        "goals": "8",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1165477,
+                        "teamId": 188163,
+                        "team": "Tondela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-07-04T00:00:00",
+                        "endDate": "2023-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "64",
+                        "goals": "7",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "34",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.59"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27181,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.61"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27272,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27962,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 7844,
+                        "team": "Vitoria de Guimaraes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "41",
+                        "goals": "6",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "6.91"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23826,
+                                "goals": "5",
+                                "assists": "2",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.90"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24009,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24113,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            }
+                        ],
+                        "teamId": 7844,
+                        "team": "Vitoria de Guimaraes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "35",
+                        "goals": "7",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17954,
+                                "goals": "6",
+                                "assists": "undefined",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18276,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18229,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 188,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 20895,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 188163,
+                        "team": "Tondela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.09"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16582,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.09"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16878,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 188163,
+                        "team": "Tondela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "15",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.46"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15577,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15711,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 188163,
+                        "team": "Tondela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14196,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.16"
+                                }
+                            }
+                        ],
+                        "teamId": 188163,
+                        "team": "Tondela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1165477,
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-03-18T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "15",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "9",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.46"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.29"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.64"
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2023",
+                                "tournamentId": 23214,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.25"
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5888,
+                        "team": "Cape Verde",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.7
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.53
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.17
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.3
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.23
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.26
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "telmo-arcanjo",
+        "pageurl": "/players/1165477/telmo-arcanjo",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Telmo Arcanjo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo is 25 years old. Born on Thu Jun 21 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Telmo Arcanjo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Telmo Arcanjo born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo was born Thu Jun 21 2001 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Telmo Arcanjo's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Telmo Arcanjo's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo's transfer value is estimated to be around \u20ac1.9m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Telmo Arcanjo from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo is from Cape Verde."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Telmo Arcanjo scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Telmo Arcanjo has scored 1 goals in the Liga Portugal."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Telmo Arcanjo",
+            "birthDate": "2001-06-21T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1165477/telmo-arcanjo",
+            "nationality": {
+                "@type": "Country",
+                "name": "Cape Verde"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Vitoria de Guimaraes"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "79"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga Portugal 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/61/overview/liga-portugal-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Vitoria de Guimaraes",
+                    "item": "https://www.fotmob.com/teams/7844/overview/vitoria-de-guimaraes"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Telmo Arcanjo",
+                    "item": "https://www.fotmob.com/leagues/1165477/overview/telmo-arcanjo"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "League Cup",
+                    "tournamentId": 187,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Taca de Portugal",
+                    "tournamentId": 186,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League Qualification qualification",
+                    "tournamentId": 10615,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2025",
+            "tournaments": [
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 188,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.16803413230393613,
+                            "percentileRank": 23.91304347826087,
+                            "percentileRankPer90": 63.76811594202898,
+                            "statFormat": "fraction",
+                            "statValue": "0.10",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 19.285714285714285,
+                            "percentileRank": 2.898550724637681,
+                            "percentileRankPer90": 16.666666666666664,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 80,
+                            "percentileRank": 27.536231884057973,
+                            "percentileRankPer90": 27.536231884057973,
+                            "statFormat": "percent",
+                            "statValue": "80.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 3.214285714285714,
+                            "percentileRank": 42.7536231884058,
+                            "percentileRankPer90": 95.65217391304348,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 50,
+                            "percentileRank": 40.57971014492754,
+                            "percentileRankPer90": 40.57971014492754,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 3.214285714285714,
+                            "percentileRank": 27.536231884057973,
+                            "percentileRankPer90": 95.65217391304348,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "big_chance_created_team_title",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 54.347826086956516,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Big chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 38.405797101449274,
+                            "percentileRankPer90": 91.30434782608695,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 14.492753623188406,
+                            "percentileRankPer90": 61.59420289855072,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 3.214285714285714,
+                            "percentileRank": 4.3478260869565215,
+                            "percentileRankPer90": 22.463768115942027,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 50,
+                            "percentileRank": 65.21739130434783,
+                            "percentileRankPer90": 65.21739130434783,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 35.357142857142854,
+                            "percentileRank": 1.4492753623188406,
+                            "percentileRankPer90": 8.695652173913043,
+                            "statFormat": "number",
+                            "statValue": "22",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 6.521739130434782,
+                            "percentileRankPer90": 63.04347826086957,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 3.6231884057971016,
+                            "percentileRankPer90": 28.985507246376812,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "blocked_shots",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 78.98550724637681,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Blocked scoring attempt"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 1.607142857142857,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 3.6231884057971016,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 3.214285714285714,
+                            "percentileRank": 57.971014492753625,
+                            "percentileRankPer90": 6.521739130434782,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 3.6295713697160994,
+                            "percentileRank": 65.94202898550725,
+                            "percentileRankPer90": 0.7246376811594203,
+                            "statFormat": "fraction",
+                            "statValue": "2.26",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.29,
+                    "percentileRank": 10.869565217391305,
+                    "percentileRankPer90": 10.869565217391305,
+                    "statFormat": "fraction",
+                    "statValue": "6.29",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 2,
+                    "percentileRank": 3.6231884057971016,
+                    "percentileRankPer90": 3.6231884057971016,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 96.37681159420289,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 0.7246376811594203,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "56",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 59.21,
+                    "y": 24
+                },
+                {
+                    "x": 104.62,
+                    "y": 67.54
+                },
+                {
+                    "x": 32.54,
+                    "y": 17.83
+                },
+                {
+                    "x": 60.02,
+                    "y": 15.73
+                },
+                {
+                    "x": 57.99,
+                    "y": 20.99
+                },
+                {
+                    "x": 55.65,
+                    "y": 44.35
+                },
+                {
+                    "x": 15.8,
+                    "y": 44.28
+                },
+                {
+                    "x": 14.2,
+                    "y": 21.83
+                },
+                {
+                    "x": 43.66,
+                    "y": 61.44
+                },
+                {
+                    "x": 35.92,
+                    "y": 49.82
+                },
+                {
+                    "x": 59.31,
+                    "y": 63.41
+                },
+                {
+                    "x": 72.46,
+                    "y": 41.06
+                },
+                {
+                    "x": 21.39,
+                    "y": 45.96
+                },
+                {
+                    "x": 9.75,
+                    "y": 57.24
+                },
+                {
+                    "x": 48.94,
+                    "y": 65.7
+                },
+                {
+                    "x": 54.94,
+                    "y": 40.72
+                },
+                {
+                    "x": 48.43,
+                    "y": 63.15
+                },
+                {
+                    "x": 62.33,
+                    "y": 42
+                },
+                {
+                    "x": 57.99,
+                    "y": 39.21
+                },
+                {
+                    "x": 41.32,
+                    "y": 39.21
+                },
+                {
+                    "x": 22.63,
+                    "y": 42.18
+                },
+                {
+                    "x": 43.12,
+                    "y": 16.71
+                },
+                {
+                    "x": 37.83,
+                    "y": 41.31
+                },
+                {
+                    "x": 32.76,
+                    "y": 42.35
+                },
+                {
+                    "x": 38.39,
+                    "y": 43.23
+                },
+                {
+                    "x": 27.7,
+                    "y": 59.67
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 310000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 360000,
+                "currency": "EUR",
+                "lowerBound": 270000,
+                "upperBound": 450000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 340000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 300000,
+                "currency": "EUR",
+                "lowerBound": 230000,
+                "upperBound": 380000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 188163,
+                "teamName": "Tondela"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 880000,
+                "currency": "EUR",
+                "lowerBound": 660000,
+                "upperBound": 1100000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 960000,
+                "currency": "EUR",
+                "lowerBound": 720000,
+                "upperBound": 1200000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 980000,
+                "currency": "EUR",
+                "lowerBound": 740000,
+                "upperBound": 1230000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 850000,
+                "currency": "EUR",
+                "lowerBound": 640000,
+                "upperBound": 1060000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 760000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 950000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 700000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 870000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 650000,
+                "currency": "EUR",
+                "lowerBound": 490000,
+                "upperBound": 820000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 820000,
+                "currency": "EUR",
+                "lowerBound": 656000,
+                "upperBound": 984000,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 899698,
+                "currency": "EUR",
+                "lowerBound": 719758,
+                "upperBound": 1079638,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 899698,
+                "currency": "EUR",
+                "lowerBound": 719758,
+                "upperBound": 1079638,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 899698,
+                "currency": "EUR",
+                "lowerBound": 719758,
+                "upperBound": 1079638,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 899698,
+                "currency": "EUR",
+                "lowerBound": 719758,
+                "upperBound": 1079638,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 899698,
+                "currency": "EUR",
+                "lowerBound": 719758,
+                "upperBound": 1079638,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 868367,
+                "currency": "EUR",
+                "lowerBound": 694694,
+                "upperBound": 1042041,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 872365,
+                "currency": "EUR",
+                "lowerBound": 697892,
+                "upperBound": 1046838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 872365,
+                "currency": "EUR",
+                "lowerBound": 697892,
+                "upperBound": 1046838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 872365,
+                "currency": "EUR",
+                "lowerBound": 697892,
+                "upperBound": 1046838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 872365,
+                "currency": "EUR",
+                "lowerBound": 697892,
+                "upperBound": 1046838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 872365,
+                "currency": "EUR",
+                "lowerBound": 697892,
+                "upperBound": 1046838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 887810,
+                "currency": "EUR",
+                "lowerBound": 710248,
+                "upperBound": 1065372,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 859262,
+                "currency": "EUR",
+                "lowerBound": 687409,
+                "upperBound": 1031114,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 861532,
+                "currency": "EUR",
+                "lowerBound": 689225,
+                "upperBound": 1033838,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 1409542,
+                "currency": "EUR",
+                "lowerBound": 1127633,
+                "upperBound": 1691450,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 1428827,
+                "currency": "EUR",
+                "lowerBound": 1143062,
+                "upperBound": 1714593,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 1399840,
+                "currency": "EUR",
+                "lowerBound": 1119872,
+                "upperBound": 1679808,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 1399840,
+                "currency": "EUR",
+                "lowerBound": 1119872,
+                "upperBound": 1679808,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 1414351,
+                "currency": "EUR",
+                "lowerBound": 1131480,
+                "upperBound": 1697221,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 1356832,
+                "currency": "EUR",
+                "lowerBound": 1085466,
+                "upperBound": 1628199,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 1380170,
+                "currency": "EUR",
+                "lowerBound": 1104136,
+                "upperBound": 1656204,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 1375142,
+                "currency": "EUR",
+                "lowerBound": 1100114,
+                "upperBound": 1650171,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 1389292,
+                "currency": "EUR",
+                "lowerBound": 1111434,
+                "upperBound": 1667151,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 1373863,
+                "currency": "EUR",
+                "lowerBound": 1099091,
+                "upperBound": 1648636,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 1332165,
+                "currency": "EUR",
+                "lowerBound": 1065732,
+                "upperBound": 1598598,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 1312422,
+                "currency": "EUR",
+                "lowerBound": 1049938,
+                "upperBound": 1574907,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 1574907,
+                "currency": "EUR",
+                "lowerBound": 1259925,
+                "upperBound": 1889888,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 1889888,
+                "currency": "EUR",
+                "lowerBound": 1511910,
+                "upperBound": 2267865,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 1896676,
+                "currency": "EUR",
+                "lowerBound": 1517341,
+                "upperBound": 2276012,
+                "source": "scisports",
+                "teamId": 7844,
+                "teamName": "Vitoria de Guimaraes"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1458013,
+                "name": "Dieu-Merci Michel"
+            },
+            {
+                "id": 1325247,
+                "name": "Jo\u00e3o Oliveira"
+            },
+            {
+                "id": 1327518,
+                "name": "Lohann Doucet"
+            },
+            {
+                "id": 1417092,
+                "name": "Marco Cruz"
+            },
+            {
+                "id": 1117055,
+                "name": "Oliwier Zych"
+            },
+            {
+                "id": 1237656,
+                "name": "Vando F\u00e9lix"
+            },
+            {
+                "id": 1627205,
+                "name": "Yeimar Mosquera"
+            },
+            {
+                "id": 1282445,
+                "name": "Maga"
+            },
+            {
+                "id": 993805,
+                "name": "Miguel N\u00f3brega"
+            },
+            {
+                "id": 1323629,
+                "name": "\u00d3scar Rivas"
+            },
+            {
+                "id": 1553104,
+                "name": "Matija Mitrovic"
+            },
+            {
+                "id": 156556,
+                "name": "N\u00e9lson Oliveira"
+            },
+            {
+                "id": 1393510,
+                "name": "Gustavo Silva"
+            },
+            {
+                "id": 1285528,
+                "name": "Jo\u00e3o Mendes"
+            },
+            {
+                "id": 1372284,
+                "name": "Beni"
+            },
+            {
+                "id": 864304,
+                "name": "Orest Lebedenko"
+            },
+            {
+                "id": 1692879,
+                "name": "Oumar Camara"
+            },
+            {
+                "id": 1477865,
+                "name": "Juan Diego Castillo"
+            },
+            {
+                "id": 690223,
+                "name": "Rodrigo Abascal"
+            },
+            {
+                "id": 267361,
+                "name": "Charles"
+            },
+            {
+                "id": 1413628,
+                "name": "Gon\u00e7alo Nogueira"
+            },
+            {
+                "id": 1463449,
+                "name": "Tony Strata"
+            },
+            {
+                "id": 1558469,
+                "name": "Ricardo Rocha"
+            },
+            {
+                "id": 1793477,
+                "name": "Miguel Nogueira"
+            },
+            {
+                "id": 1190493,
+                "name": "Alioune Ndoye"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 422149,
+                "name": "Vozinha"
+            },
+            {
+                "id": 164062,
+                "name": "Stopira"
+            },
+            {
+                "id": 496648,
+                "name": "Diney Borges"
+            },
+            {
+                "id": 230134,
+                "name": "Roberto Lopes"
+            },
+            {
+                "id": 922877,
+                "name": "Logan Costa"
+            },
+            {
+                "id": 890503,
+                "name": "Kevin Pina"
+            },
+            {
+                "id": 785716,
+                "name": "Jovane Cabral"
+            },
+            {
+                "id": 1241301,
+                "name": "Jo\u00e3o Paulo"
+            },
+            {
+                "id": 1241302,
+                "name": "Gilson Benchimol"
+            },
+            {
+                "id": 680905,
+                "name": "Jamiro Monteiro"
+            },
+            {
+                "id": 302912,
+                "name": "Garry Rodrigues"
+            },
+            {
+                "id": 865144,
+                "name": "M\u00e1rcio Rosa"
+            },
+            {
+                "id": 1441786,
+                "name": "Sidny Lopes Cabral"
+            },
+            {
+                "id": 798069,
+                "name": "Deroy Duarte"
+            },
+            {
+                "id": 665167,
+                "name": "Laros Duarte"
+            },
+            {
+                "id": 1205410,
+                "name": "Yannick Semedo"
+            },
+            {
+                "id": 873832,
+                "name": "Willy Semedo"
+            },
+            {
+                "id": 1309634,
+                "name": "Dailon Livramento"
+            },
+            {
+                "id": 172615,
+                "name": "Ryan Mendes"
+            },
+            {
+                "id": 671326,
+                "name": "Nuno da Costa"
+            },
+            {
+                "id": 444000,
+                "name": "Steven Moreira"
+            },
+            {
+                "id": 1054027,
+                "name": "Carlos Dos Santos"
+            },
+            {
+                "id": 1460591,
+                "name": "Wagner Pina"
+            },
+            {
+                "id": 1175733,
+                "name": "Kelvin Pires"
+            },
+            {
+                "id": 1524518,
+                "name": "H\u00e9lio Varela"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5899094,
+        "homeId": 10203,
+        "awayId": 7844,
+        "homeName": "Nottingham Forest",
+        "awayName": "Vitoria de Guimaraes",
+        "matchDate": "2026-07-26T12:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-26T12:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {},
+        "matchUrl": "/matches/vitoria-de-guimaraes-vs-nottingham-forest/2oyqn8#5899094"
+    },
+    "dataProvider": "enet"
+}

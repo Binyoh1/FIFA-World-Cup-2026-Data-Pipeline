@@ -1,0 +1,4538 @@
+{
+    "id": 1073402,
+    "name": "Facundo Pellistri",
+    "birthDate": {
+        "utcTime": "2001-12-20T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 10200,
+        "teamName": "Panathinaikos",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#206830",
+            "colorAlternate": "#206830",
+            "colorAway": "#000000",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 3,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.45
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 6,
+                "position": "83",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 3,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.45
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 174,
+                "key": null,
+                "fallback": "174 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 28,
+                "options": {},
+                "key": null,
+                "fallback": 28
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "24"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Uruguay"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "URU"
+            },
+            "countryCode": "URU"
+        },
+        {
+            "value": {
+                "numberValue": 5768603,
+                "key": null,
+                "fallback": "\u20ac5.8m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 135,
+        "leagueName": "Super League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 2
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 3
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 8
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 320
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.58
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 133,
+                        "leagueName": "EFL Cup",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "URU",
+                "teamId": 8450,
+                "teamName": "Club Atletico Penarol",
+                "tournaments": [
+                    {
+                        "ccode": "URU",
+                        "leagueId": -1,
+                        "leagueName": "Liga AUF",
+                        "seasonsWon": [
+                            "2018"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2019"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": true,
+            "id": 4667802,
+            "matchDate": {
+                "utcTime": "2026-06-27T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-spain/1an22i#4667802",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 5888,
+            "opponentTeamName": "Cape Verde",
+            "isHomeTeam": true,
+            "id": 4667800,
+            "matchDate": {
+                "utcTime": "2026-06-21T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-cape-verde/14n97e#4667800",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": false,
+            "id": 4667799,
+            "matchDate": {
+                "utcTime": "2026-06-15T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-saudi-arabia/1izuvb#4667799",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8563,
+            "opponentTeamName": "AEK Athens",
+            "isHomeTeam": true,
+            "id": 5271278,
+            "matchDate": {
+                "utcTime": "2026-05-03T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-athens-vs-panathinaikos/2wt7o5#5271278",
+            "leagueId": 135,
+            "leagueName": "Super League Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8638,
+            "opponentTeamName": "Olympiacos",
+            "isHomeTeam": true,
+            "id": 5271277,
+            "matchDate": {
+                "utcTime": "2026-04-19T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/olympiacos-vs-panathinaikos/2xnfqz#5271277",
+            "leagueId": 135,
+            "leagueName": "Super League Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8619,
+            "opponentTeamName": "PAOK Thessaloniki",
+            "isHomeTeam": false,
+            "id": 5271275,
+            "matchDate": {
+                "utcTime": "2026-04-05T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paok-thessaloniki-vs-panathinaikos/2xfrox#5271275",
+            "leagueId": 135,
+            "leagueName": "Super League Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 6317,
+            "opponentTeamName": "Algeria",
+            "isHomeTeam": false,
+            "id": 5271629,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-algeria/17oobq#5271629",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 5124809,
+            "matchDate": {
+                "utcTime": "2026-03-27T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-england/1ortfn#5124809",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8603,
+            "opponentTeamName": "Real Betis",
+            "isHomeTeam": false,
+            "id": 5206102,
+            "matchDate": {
+                "utcTime": "2026-03-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/real-betis-vs-panathinaikos/2x9bft#5206102",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8603,
+            "opponentTeamName": "Real Betis",
+            "isHomeTeam": true,
+            "id": 5206094,
+            "matchDate": {
+                "utcTime": "2026-03-12T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/real-betis-vs-panathinaikos/2x9bft#5206094",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 4493,
+            "opponentTeamName": "Levadiakos",
+            "isHomeTeam": false,
+            "id": 4859163,
+            "matchDate": {
+                "utcTime": "2026-03-08T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/levadiakos-vs-panathinaikos/1s9tt8#4859163",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 7753,
+            "opponentTeamName": "OFI Crete",
+            "isHomeTeam": true,
+            "id": 4859003,
+            "matchDate": {
+                "utcTime": "2026-03-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ofi-crete-vs-panathinaikos/2nygze#4859003",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8239,
+            "opponentTeamName": "Aris Thessaloniki",
+            "isHomeTeam": true,
+            "id": 4859156,
+            "matchDate": {
+                "utcTime": "2026-03-01T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aris-thessaloniki-vs-panathinaikos/2t811n#4859156",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 6033,
+            "opponentTeamName": "Viktoria Plzen",
+            "isHomeTeam": false,
+            "id": 5161892,
+            "matchDate": {
+                "utcTime": "2026-02-26T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-panathinaikos/26g9u6#5161892",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 44,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 10187,
+            "opponentTeamName": "Atromitos",
+            "isHomeTeam": false,
+            "id": 4859121,
+            "matchDate": {
+                "utcTime": "2026-01-25T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/atromitos-vs-panathinaikos/3fqmq6#4859121",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8222,
+            "opponentTeamName": "Ferencvaros",
+            "isHomeTeam": false,
+            "id": 4947835,
+            "matchDate": {
+                "utcTime": "2026-01-22T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ferencvaros-vs-panathinaikos/2t1b9n#4947835",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8563,
+            "opponentTeamName": "AEK Athens",
+            "isHomeTeam": false,
+            "id": 4859111,
+            "matchDate": {
+                "utcTime": "2026-01-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-athens-vs-panathinaikos/2wt7o5#4859111",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8239,
+            "opponentTeamName": "Aris Thessaloniki",
+            "isHomeTeam": true,
+            "id": 5102850,
+            "matchDate": {
+                "utcTime": "2026-01-14T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/aris-thessaloniki-vs-panathinaikos/2t811n#5102850",
+            "leagueId": 145,
+            "leagueName": "Cup",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 104814,
+            "opponentTeamName": "Panserraikos FC",
+            "isHomeTeam": true,
+            "id": 4859109,
+            "matchDate": {
+                "utcTime": "2026-01-11T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/panathinaikos-vs-panserraikos-fc/31dyt9f#4859109",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8619,
+            "opponentTeamName": "PAOK Thessaloniki",
+            "isHomeTeam": true,
+            "id": 4859067,
+            "matchDate": {
+                "utcTime": "2025-11-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paok-thessaloniki-vs-panathinaikos/2xfrox#4859067",
+            "leagueId": 135,
+            "leagueName": "Super League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5796,
+            "teamName": "Uruguay",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 4196554,
+            "matchDate": {
+                "utcTime": "2025-09-04T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-peru/140su5#4196554",
+            "leagueId": 10199,
+            "leagueName": "World Cup Qualification CONMEBOL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 9750,
+            "opponentTeamName": "Samsunspor",
+            "isHomeTeam": false,
+            "id": 4912266,
+            "matchDate": {
+                "utcTime": "2025-08-28T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/samsunspor-vs-panathinaikos/3ahpkf#4912266",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 9750,
+            "opponentTeamName": "Samsunspor",
+            "isHomeTeam": true,
+            "id": 4912254,
+            "matchDate": {
+                "utcTime": "2025-08-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/samsunspor-vs-panathinaikos/3ahpkf#4912254",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 9728,
+            "opponentTeamName": "Shakhtar Donetsk",
+            "isHomeTeam": false,
+            "id": 4885184,
+            "matchDate": {
+                "utcTime": "2025-08-14T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shakhtar-donetsk-vs-panathinaikos/3a8b2k#4885184",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 101,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 9728,
+            "opponentTeamName": "Shakhtar Donetsk",
+            "isHomeTeam": true,
+            "id": 4885183,
+            "matchDate": {
+                "utcTime": "2025-08-07T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shakhtar-donetsk-vs-panathinaikos/3a8b2k#4885183",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": true,
+            "id": 4813917,
+            "matchDate": {
+                "utcTime": "2025-07-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rangers-vs-panathinaikos/2wn6kq#4813917",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10200,
+            "teamName": "Panathinaikos",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": false,
+            "id": 4813902,
+            "matchDate": {
+                "utcTime": "2025-07-22T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rangers-vs-panathinaikos/2wn6kq#4813902",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1073402,
+                        "teamId": 10200,
+                        "team": "Panathinaikos",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-21T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "53",
+                        "goals": "4",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2024-07-01T00:00:00",
+                        "endDate": "2024-08-21T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 7878,
+                        "team": "Granada",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2024-01-31T00:00:00",
+                        "endDate": "2024-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "15",
+                        "goals": "2",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2024-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "24",
+                        "goals": "0",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 9866,
+                        "team": "Deportivo Alaves",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-08-05T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "23",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2021-08-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 9866,
+                        "team": "Deportivo Alaves",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-01-31T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-05T00:00:00",
+                        "endDate": "2021-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 8450,
+                        "team": "Club Atletico Penarol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-05-01T00:00:00",
+                        "endDate": "2020-10-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "37",
+                        "goals": "2",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 8450,
+                        "team": "Club Atletico Penarol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2018-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "18",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.61"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 135,
+                                "leagueName": "Super League 1",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27184,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.58"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.64"
+                                }
+                            }
+                        ],
+                        "teamId": 10200,
+                        "team": "Panathinaikos",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "35",
+                        "goals": "4",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "6.69"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 135,
+                                "leagueName": "Super League 1",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23900,
+                                "goals": "1",
+                                "assists": "3",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.62"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 145,
+                                "leagueName": "Greece Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24113,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            }
+                        ],
+                        "teamId": 10200,
+                        "team": "Panathinaikos",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 247,
+                                "leagueName": "Community Shield",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 26704,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "15",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.74"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21053,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": "6.74"
+                                }
+                            }
+                        ],
+                        "teamId": 7878,
+                        "team": "Granada",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.58"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20720,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.52"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21876,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21054,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.39"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20961,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.49"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "10",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.52"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17664,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17927,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.25"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17837,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.02"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17700,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.61"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "23",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.28"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16520,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "21",
+                                "rating": {
+                                    "rating": "6.27"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17075,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            }
+                        ],
+                        "teamId": 9866,
+                        "team": "Deportivo Alaves",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.13"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15585,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "6.13"
+                                }
+                            }
+                        ],
+                        "teamId": 9866,
+                        "team": "Deportivo Alaves",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "17",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.62"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 45,
+                                "leagueName": "Copa Libertadores",
+                                "seasonName": "2020",
+                                "tournamentId": 14833,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.62"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Primera Divisi\u00f3n",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8450,
+                        "team": "Club Atletico Penarol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "20",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Primera Divisi\u00f3n",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8450,
+                        "team": "Club Atletico Penarol",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1073402,
+                        "teamId": 1070257,
+                        "team": "Manchester United U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-10-03T00:00:00",
+                        "endDate": "2023-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 1070257,
+                        "team": "Manchester United U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-11-17T00:00:00",
+                        "endDate": "2021-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1073402,
+                        "teamId": 357204,
+                        "team": "Manchester United U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-22T00:00:00",
+                        "endDate": "2021-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 142,
+                                "leagueName": "EFL Trophy",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17838,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1070257,
+                        "team": "Manchester United U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 142,
+                                "leagueName": "EFL Trophy",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15534,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1070257,
+                        "team": "Manchester United U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357204,
+                        "team": "Manchester United U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1073402,
+                        "teamId": 5796,
+                        "team": "Uruguay",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "39",
+                        "goals": "2",
+                        "assists": "8",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "19",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.12"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.12"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5796,
+                        "team": "Uruguay",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "8",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.04"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 44,
+                                "leagueName": "Copa America",
+                                "seasonName": "2024",
+                                "tournamentId": 22518,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.17"
+                                }
+                            }
+                        ],
+                        "teamId": 5796,
+                        "team": "Uruguay",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "8.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.16"
+                                }
+                            }
+                        ],
+                        "teamId": 5796,
+                        "team": "Uruguay",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "10",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.45"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.23"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.62"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL World Cup Qualifiers",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5796,
+                        "team": "Uruguay",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.52
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.35
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.62
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.16
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.1
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "facundo-pellistri",
+        "pageurl": "/players/1073402/facundo-pellistri",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Facundo Pellistri?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri is 24 years old. Born on Thu Dec 20 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Facundo Pellistri?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri is 174 cm tall. Or 5 ft 9 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Facundo Pellistri born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri was born Thu Dec 20 2001 and is now 24 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Facundo Pellistri's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Facundo Pellistri's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri's transfer value is estimated to be around \u20ac5.8m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Facundo Pellistri from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri is from Uruguay."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Facundo Pellistri scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Facundo Pellistri has scored 0 goals in the Super League Championship Group."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Facundo Pellistri",
+            "birthDate": "2001-12-20T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1073402/facundo-pellistri",
+            "nationality": {
+                "@type": "Country",
+                "name": "Uruguay"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Panathinaikos"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "174"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "65"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Super League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/135/overview/super-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Panathinaikos",
+                    "item": "https://www.fotmob.com/teams/10200/overview/panathinaikos"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Facundo Pellistri",
+                    "item": "https://www.fotmob.com/leagues/1073402/overview/facundo-pellistri"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Super League",
+                    "tournamentId": 135,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "0-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Super League",
+                    "tournamentId": 135,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa America",
+                    "tournamentId": 44,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League Qualification qualification",
+                    "tournamentId": 10615,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Community Shield",
+                    "tournamentId": 247,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-5",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONMEBOL qualification",
+                    "tournamentId": 10199,
+                    "entryId": "2-6",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa Libertadores",
+                    "tournamentId": 45,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONMEBOL qualification",
+                    "tournamentId": 10199,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2889018321,
+                "playerName": "Facundo Pellistri",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 10200,
+                "playerId": 1073402,
+                "x": 89.6,
+                "y": 36.5925,
+                "min": 20,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 104.1465517242,
+                "blockedY": 33.8475,
+                "goalCrossedY": 34.99125,
+                "goalCrossedZ": 0.3274736826,
+                "expectedGoals": 0.0951547622680664,
+                "expectedGoalsOnTarget": 0.11077494174242,
+                "onGoalShot": {
+                    "x": 0.73776455026455,
+                    "y": 0.0866332493650794,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 10200,
+                "awayTeamId": 104814,
+                "homeTeamName": "Panathinaikos",
+                "awayTeamName": "Panserraikos FC",
+                "homeScore": 3,
+                "awayScore": 0,
+                "matchId": 4859109,
+                "matchDate": "2026-01-11T19:00:00Z",
+                "teamColor": "#206830",
+                "teamColorDark": "#206830"
+            },
+            {
+                "id": 2890861229,
+                "playerName": "Facundo Pellistri",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "FromCorner",
+                "teamId": 10200,
+                "playerId": 1073402,
+                "x": 91.6,
+                "y": 48.9052229275,
+                "min": 21,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 103.4827586208,
+                "blockedY": 36.21125,
+                "goalCrossedY": 33.00875,
+                "goalCrossedZ": 1.4639999928,
+                "expectedGoals": 0.0233730562031269,
+                "expectedGoalsOnTarget": 0.0522496365010738,
+                "onGoalShot": {
+                    "x": 1.26223544973545,
+                    "y": 0.387301585396825,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8563,
+                "awayTeamId": 10200,
+                "homeTeamName": "AEK Athens",
+                "awayTeamName": "Panathinaikos",
+                "homeScore": 4,
+                "awayScore": 0,
+                "matchId": 4859111,
+                "matchDate": "2026-01-18T19:00:00Z",
+                "teamColor": "#206830",
+                "teamColorDark": "#206830"
+            },
+            {
+                "id": 2890886679,
+                "playerName": "Facundo Pellistri",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10200,
+                "playerId": 1073402,
+                "x": 87.8558823528,
+                "y": 41.3678125,
+                "min": 73,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 91,
+                "blockedY": 39.881190477,
+                "goalCrossedY": 34,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.060442578047514,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8563,
+                "awayTeamId": 10200,
+                "homeTeamName": "AEK Athens",
+                "awayTeamName": "Panathinaikos",
+                "homeScore": 4,
+                "awayScore": 0,
+                "matchId": 4859111,
+                "matchDate": "2026-01-18T19:00:00Z",
+                "teamColor": "#206830",
+                "teamColorDark": "#206830"
+            },
+            {
+                "id": 2920052109,
+                "playerName": "Facundo Pellistri",
+                "eventType": "AttemptSaved",
+                "shotType": "Header",
+                "situation": "RegularPlay",
+                "teamId": 10200,
+                "playerId": 1073402,
+                "x": 94.1929824545,
+                "y": 40.217380953,
+                "min": 42,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 96.5087719289,
+                "blockedY": 38.78857143,
+                "goalCrossedY": 34.68625,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0223857928067446,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.818452380952381,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8619,
+                "awayTeamId": 10200,
+                "homeTeamName": "PAOK Thessaloniki",
+                "awayTeamName": "Panathinaikos",
+                "homeScore": 0,
+                "awayScore": 0,
+                "matchId": 5271275,
+                "matchDate": "2026-04-05T16:00:00Z",
+                "teamColor": "#206830",
+                "teamColorDark": "#206830"
+            },
+            {
+                "id": 2926557735,
+                "playerName": "Facundo Pellistri",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10200,
+                "playerId": 1073402,
+                "x": 104.3362068966,
+                "y": 20.9864968186,
+                "min": 65,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 105,
+                "blockedY": 30.41625,
+                "goalCrossedY": 30.72125,
+                "goalCrossedZ": 1.380526309,
+                "expectedGoals": 0.0168219171464443,
+                "expectedGoalsOnTarget": 0.134597882628441,
+                "onGoalShot": {
+                    "x": 1.86739417989418,
+                    "y": 0.36521860026455,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 10200,
+                "awayTeamId": 8638,
+                "homeTeamName": "Panathinaikos",
+                "awayTeamName": "Olympiacos",
+                "homeScore": 0,
+                "awayScore": 2,
+                "matchId": 5271277,
+                "matchDate": "2026-04-19T18:00:00Z",
+                "teamColor": "#206830",
+                "teamColorDark": "#206830"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.061368751572445035,
+                            "percentileRank": 28.431372549019606,
+                            "percentileRankPer90": 48.03921568627451,
+                            "statFormat": "fraction",
+                            "statValue": "0.22",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.08370000030845404,
+                            "percentileRank": 43.13725490196079,
+                            "percentileRankPer90": 62.745098039215684,
+                            "statFormat": "fraction",
+                            "statValue": "0.30",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.061368751572445035,
+                            "percentileRank": 28.431372549019606,
+                            "percentileRankPer90": 49.01960784313725,
+                            "statFormat": "fraction",
+                            "statValue": "0.22",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.40625,
+                            "percentileRank": 26.47058823529412,
+                            "percentileRankPer90": 70.58823529411765,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.84375,
+                            "percentileRank": 48.03921568627451,
+                            "percentileRankPer90": 92.15686274509804,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Shots on target"
+                        },
+                        {
+                            "localizedTitleId": "headed_shots",
+                            "per90": 0.28125,
+                            "percentileRank": 56.86274509803921,
+                            "percentileRankPer90": 84.31372549019608,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Headed shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0.5625,
+                            "percentileRank": 79.41176470588235,
+                            "percentileRankPer90": 98.0392156862745,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.07377170934341848,
+                            "percentileRank": 28.431372549019606,
+                            "percentileRankPer90": 51.9607843137255,
+                            "statFormat": "fraction",
+                            "statValue": "0.26",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 18.5625,
+                            "percentileRank": 12.745098039215685,
+                            "percentileRankPer90": 13.725490196078432,
+                            "statFormat": "number",
+                            "statValue": "66",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 85.71428571428571,
+                            "percentileRank": 74.50980392156863,
+                            "percentileRankPer90": 74.50980392156863,
+                            "statFormat": "percent",
+                            "statValue": "85.7",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.6875,
+                            "percentileRank": 41.17647058823529,
+                            "percentileRankPer90": 91.17647058823529,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "big_chance_created_team_title",
+                            "per90": 0.28125,
+                            "percentileRank": 38.23529411764706,
+                            "percentileRankPer90": 84.31372549019608,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Big chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.5625,
+                            "percentileRank": 50,
+                            "percentileRankPer90": 76.47058823529412,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 22.22222222222222,
+                            "percentileRank": 58.82352941176471,
+                            "percentileRankPer90": 58.82352941176471,
+                            "statFormat": "percent",
+                            "statValue": "22.2",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1.9687499999999998,
+                            "percentileRank": 48.03921568627451,
+                            "percentileRankPer90": 91.17647058823529,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 46.666666666666664,
+                            "percentileRank": 37.254901960784316,
+                            "percentileRankPer90": 37.254901960784316,
+                            "statFormat": "percent",
+                            "statValue": "46.7",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 7.874999999999999,
+                            "percentileRank": 28.431372549019606,
+                            "percentileRankPer90": 91.17647058823529,
+                            "statFormat": "number",
+                            "statValue": "28",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 42.42424242424242,
+                            "percentileRank": 21.568627450980394,
+                            "percentileRankPer90": 21.568627450980394,
+                            "statFormat": "percent",
+                            "statValue": "42.4",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 1.40625,
+                            "percentileRank": 30.392156862745097,
+                            "percentileRankPer90": 73.52941176470588,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 41.666666666666664,
+                            "percentileRank": 40.19607843137255,
+                            "percentileRankPer90": 40.19607843137255,
+                            "statFormat": "percent",
+                            "statValue": "41.7",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 48.65625,
+                            "percentileRank": 18.627450980392158,
+                            "percentileRankPer90": 31.372549019607842,
+                            "statFormat": "number",
+                            "statValue": "173",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 4.78125,
+                            "percentileRank": 67.64705882352942,
+                            "percentileRankPer90": 95.09803921568627,
+                            "statFormat": "number",
+                            "statValue": "17",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 2.53125,
+                            "percentileRank": 35.294117647058826,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 2.53125,
+                            "percentileRank": 27.450980392156865,
+                            "percentileRankPer90": 80.3921568627451,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 2.8125,
+                            "percentileRank": 10.784313725490197,
+                            "percentileRankPer90": 16.666666666666664,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.9687499999999998,
+                            "percentileRank": 25.49019607843137,
+                            "percentileRankPer90": 62.745098039215684,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.84375,
+                            "percentileRank": 17.647058823529413,
+                            "percentileRankPer90": 51.9607843137255,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 2.8125,
+                            "percentileRank": 73.52941176470588,
+                            "percentileRankPer90": 12.745098039215685,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.9374999999999996,
+                            "percentileRank": 16.666666666666664,
+                            "percentileRankPer90": 30.392156862745097,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.84375,
+                            "percentileRank": 45.09803921568628,
+                            "percentileRankPer90": 92.15686274509804,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 1.40625,
+                            "percentileRank": 64.70588235294117,
+                            "percentileRankPer90": 15.686274509803921,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1.125,
+                            "percentileRank": 85.29411764705883,
+                            "percentileRankPer90": 63.725490196078425,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.8967656381428243,
+                            "percentileRank": 91.17647058823529,
+                            "percentileRankPer90": 85.29411764705883,
+                            "statFormat": "fraction",
+                            "statValue": "3.19",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0.5625,
+                    "percentileRank": 79.41176470588235,
+                    "percentileRankPer90": 98.0392156862745,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.581428571428572,
+                    "percentileRank": 43.13725490196079,
+                    "percentileRankPer90": 43.13725490196079,
+                    "statFormat": "fraction",
+                    "statValue": "6.58",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 8,
+                    "percentileRank": 11.76470588235294,
+                    "percentileRankPer90": 11.76470588235294,
+                    "statFormat": "number",
+                    "statValue": "8",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 3,
+                    "percentileRank": 15.686274509803921,
+                    "percentileRankPer90": 17.647058823529413,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 16.666666666666664,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "320",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 70.88,
+                    "y": 63.21
+                },
+                {
+                    "x": 80.8,
+                    "y": 63.34
+                },
+                {
+                    "x": 100.73,
+                    "y": 62.03
+                },
+                {
+                    "x": 47.11,
+                    "y": 57.77
+                },
+                {
+                    "x": 65.37,
+                    "y": 64.33
+                },
+                {
+                    "x": 97.67,
+                    "y": 58.16
+                },
+                {
+                    "x": 94.87,
+                    "y": 51.43
+                },
+                {
+                    "x": 64.69,
+                    "y": 61.7
+                },
+                {
+                    "x": 97.18,
+                    "y": 42.7
+                },
+                {
+                    "x": 9.84,
+                    "y": 61.57
+                },
+                {
+                    "x": 8.39,
+                    "y": 60.98
+                },
+                {
+                    "x": 23.42,
+                    "y": 55.6
+                },
+                {
+                    "x": 49.25,
+                    "y": 58.95
+                },
+                {
+                    "x": 49.25,
+                    "y": 58.95
+                },
+                {
+                    "x": 99.5,
+                    "y": 51.99
+                },
+                {
+                    "x": 104.05,
+                    "y": 51.57
+                },
+                {
+                    "x": 25.11,
+                    "y": 28.79
+                },
+                {
+                    "x": 26.46,
+                    "y": 27.45
+                },
+                {
+                    "x": 30.29,
+                    "y": 11.81
+                },
+                {
+                    "x": 46.4,
+                    "y": 41.48
+                },
+                {
+                    "x": 39.63,
+                    "y": 45.82
+                },
+                {
+                    "x": 59.62,
+                    "y": 20.22
+                },
+                {
+                    "x": 18.43,
+                    "y": 55.28
+                },
+                {
+                    "x": 18.43,
+                    "y": 55.28
+                },
+                {
+                    "x": 27.81,
+                    "y": 17.2
+                },
+                {
+                    "x": 47.42,
+                    "y": 11.15
+                },
+                {
+                    "x": 60.02,
+                    "y": 15.59
+                },
+                {
+                    "x": 94.77,
+                    "y": 66.16
+                },
+                {
+                    "x": 94.87,
+                    "y": 47.43
+                },
+                {
+                    "x": 61.76,
+                    "y": 49.33
+                },
+                {
+                    "x": 51.28,
+                    "y": 60.26
+                },
+                {
+                    "x": 14.6,
+                    "y": 66.1
+                },
+                {
+                    "x": 41.32,
+                    "y": 66.88
+                },
+                {
+                    "x": 99.97,
+                    "y": 59.01
+                },
+                {
+                    "x": 99.31,
+                    "y": 56.91
+                },
+                {
+                    "x": 46.71,
+                    "y": 43.65
+                },
+                {
+                    "x": 40.2,
+                    "y": 64.2
+                },
+                {
+                    "x": 30.06,
+                    "y": 44.14
+                },
+                {
+                    "x": 87.96,
+                    "y": 7.81
+                },
+                {
+                    "x": 48.23,
+                    "y": 37.43
+                },
+                {
+                    "x": 51.28,
+                    "y": 53.53
+                },
+                {
+                    "x": 62.1,
+                    "y": 47.08
+                },
+                {
+                    "x": 63.23,
+                    "y": 57.24
+                },
+                {
+                    "x": 60.94,
+                    "y": 57.05
+                },
+                {
+                    "x": 17.36,
+                    "y": 63.74
+                },
+                {
+                    "x": 18.11,
+                    "y": 61.44
+                },
+                {
+                    "x": 39.63,
+                    "y": 63.41
+                },
+                {
+                    "x": 32.09,
+                    "y": 65.51
+                },
+                {
+                    "x": 49.45,
+                    "y": 59.34
+                },
+                {
+                    "x": 44.88,
+                    "y": 62.88
+                },
+                {
+                    "x": 52.8,
+                    "y": 28.2
+                },
+                {
+                    "x": 79.44,
+                    "y": 24.96
+                },
+                {
+                    "x": 59.82,
+                    "y": 51.64
+                },
+                {
+                    "x": 65.93,
+                    "y": 44.77
+                },
+                {
+                    "x": 66.61,
+                    "y": 42.52
+                },
+                {
+                    "x": 76.74,
+                    "y": 42.7
+                },
+                {
+                    "x": 49.25,
+                    "y": 48.06
+                },
+                {
+                    "x": 36.25,
+                    "y": 27.28
+                },
+                {
+                    "x": 36.25,
+                    "y": 27.28
+                },
+                {
+                    "x": 76.52,
+                    "y": 10.23
+                },
+                {
+                    "x": 94.19,
+                    "y": 27.78
+                },
+                {
+                    "x": 94.19,
+                    "y": 27.78
+                },
+                {
+                    "x": 81.58,
+                    "y": 20.15
+                },
+                {
+                    "x": 69.08,
+                    "y": 41.95
+                },
+                {
+                    "x": 46.4,
+                    "y": 30.34
+                },
+                {
+                    "x": 72.69,
+                    "y": 29.46
+                },
+                {
+                    "x": 79.67,
+                    "y": 45.19
+                },
+                {
+                    "x": 101.78,
+                    "y": 60.78
+                },
+                {
+                    "x": 100.26,
+                    "y": 58.16
+                },
+                {
+                    "x": 13.4,
+                    "y": 64.98
+                },
+                {
+                    "x": 13.4,
+                    "y": 64.98
+                },
+                {
+                    "x": 23.75,
+                    "y": 64.92
+                },
+                {
+                    "x": 13.3,
+                    "y": 63.8
+                },
+                {
+                    "x": 21.28,
+                    "y": 59.47
+                },
+                {
+                    "x": 22.85,
+                    "y": 63.93
+                },
+                {
+                    "x": 99.69,
+                    "y": 57.96
+                },
+                {
+                    "x": 93.7,
+                    "y": 62.42
+                },
+                {
+                    "x": 63.56,
+                    "y": 60.39
+                },
+                {
+                    "x": 62.78,
+                    "y": 43.58
+                },
+                {
+                    "x": 31.98,
+                    "y": 60.19
+                },
+                {
+                    "x": 31.98,
+                    "y": 60.19
+                },
+                {
+                    "x": 80.46,
+                    "y": 18.67
+                },
+                {
+                    "x": 71.11,
+                    "y": 58.95
+                },
+                {
+                    "x": 104.34,
+                    "y": 47.01
+                },
+                {
+                    "x": 105,
+                    "y": 44.28
+                },
+                {
+                    "x": 68.18,
+                    "y": 38.96
+                },
+                {
+                    "x": 79.11,
+                    "y": 44.77
+                },
+                {
+                    "x": 94.96,
+                    "y": 55.87
+                },
+                {
+                    "x": 40.65,
+                    "y": 52.76
+                },
+                {
+                    "x": 75.16,
+                    "y": 59.93
+                },
+                {
+                    "x": 54.63,
+                    "y": 53.11
+                },
+                {
+                    "x": 82.48,
+                    "y": 68
+                },
+                {
+                    "x": 95.93,
+                    "y": 63.61
+                },
+                {
+                    "x": 93.8,
+                    "y": 55.21
+                },
+                {
+                    "x": 79.11,
+                    "y": 46.8
+                },
+                {
+                    "x": 79.11,
+                    "y": 46.8
+                },
+                {
+                    "x": 62.1,
+                    "y": 62.56
+                },
+                {
+                    "x": 9.94,
+                    "y": 5.12
+                },
+                {
+                    "x": 85.39,
+                    "y": 68
+                },
+                {
+                    "x": 91.5,
+                    "y": 59.8
+                },
+                {
+                    "x": 68.75,
+                    "y": 23.86
+                },
+                {
+                    "x": 75.39,
+                    "y": 15.66
+                },
+                {
+                    "x": 75.16,
+                    "y": 52.2
+                },
+                {
+                    "x": 27.58,
+                    "y": 36.52
+                },
+                {
+                    "x": 32.54,
+                    "y": 38.2
+                },
+                {
+                    "x": 104.15,
+                    "y": 6.95
+                },
+                {
+                    "x": 33.89,
+                    "y": 31.79
+                },
+                {
+                    "x": 97.96,
+                    "y": 51.71
+                },
+                {
+                    "x": 12.5,
+                    "y": 27.95
+                },
+                {
+                    "x": 22.06,
+                    "y": 30.95
+                },
+                {
+                    "x": 54.33,
+                    "y": 32.48
+                },
+                {
+                    "x": 33.55,
+                    "y": 56
+                },
+                {
+                    "x": 71.79,
+                    "y": 46.45
+                },
+                {
+                    "x": 78.32,
+                    "y": 48.91
+                },
+                {
+                    "x": 43.96,
+                    "y": 53.88
+                },
+                {
+                    "x": 29.5,
+                    "y": 57.64
+                },
+                {
+                    "x": 35.13,
+                    "y": 57.96
+                },
+                {
+                    "x": 45.59,
+                    "y": 61.57
+                },
+                {
+                    "x": 72.91,
+                    "y": 62.75
+                },
+                {
+                    "x": 56.77,
+                    "y": 35.22
+                },
+                {
+                    "x": 92.4,
+                    "y": 1.51
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 1400000,
+                "currency": "EUR",
+                "lowerBound": 1050000,
+                "upperBound": 1750000,
+                "source": "scisports",
+                "teamId": 8450,
+                "teamName": "Club Atletico Penarol",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 4260000,
+                "currency": "EUR",
+                "lowerBound": 3190000,
+                "upperBound": 5320000,
+                "source": "scisports",
+                "teamId": 8450,
+                "teamName": "Club Atletico Penarol"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 7120000,
+                "currency": "EUR",
+                "lowerBound": 5340000,
+                "upperBound": 8900000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 8820000,
+                "currency": "EUR",
+                "lowerBound": 6620000,
+                "upperBound": 11030000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 10520000,
+                "currency": "EUR",
+                "lowerBound": 7890000,
+                "upperBound": 13160000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 10070000,
+                "currency": "EUR",
+                "lowerBound": 7550000,
+                "upperBound": 12590000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 9810000,
+                "currency": "EUR",
+                "lowerBound": 7350000,
+                "upperBound": 12260000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 9440000,
+                "currency": "EUR",
+                "lowerBound": 7080000,
+                "upperBound": 11800000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 8970000,
+                "currency": "EUR",
+                "lowerBound": 6730000,
+                "upperBound": 11210000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 8910000,
+                "currency": "EUR",
+                "lowerBound": 6680000,
+                "upperBound": 11130000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 6850000,
+                "currency": "EUR",
+                "lowerBound": 5130000,
+                "upperBound": 8560000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 5920000,
+                "currency": "EUR",
+                "lowerBound": 4440000,
+                "upperBound": 7390000,
+                "source": "scisports",
+                "teamId": 9866,
+                "teamName": "Deportivo Alaves"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 5450000,
+                "currency": "EUR",
+                "lowerBound": 4090000,
+                "upperBound": 6810000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 5460000,
+                "currency": "EUR",
+                "lowerBound": 4090000,
+                "upperBound": 6820000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 5080000,
+                "currency": "EUR",
+                "lowerBound": 3810000,
+                "upperBound": 6350000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 5080000,
+                "currency": "EUR",
+                "lowerBound": 3810000,
+                "upperBound": 6350000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 5130000,
+                "currency": "EUR",
+                "lowerBound": 3850000,
+                "upperBound": 6420000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 3080000,
+                "currency": "EUR",
+                "lowerBound": 2310000,
+                "upperBound": 3850000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 3070000,
+                "currency": "EUR",
+                "lowerBound": 2300000,
+                "upperBound": 3830000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 3150000,
+                "currency": "EUR",
+                "lowerBound": 2360000,
+                "upperBound": 3940000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 3250000,
+                "currency": "EUR",
+                "lowerBound": 2440000,
+                "upperBound": 4060000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 3550000,
+                "currency": "EUR",
+                "lowerBound": 2670000,
+                "upperBound": 4440000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 3600000,
+                "currency": "EUR",
+                "lowerBound": 2700000,
+                "upperBound": 4490000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 4200000,
+                "currency": "EUR",
+                "lowerBound": 3150000,
+                "upperBound": 5260000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 4600000,
+                "currency": "EUR",
+                "lowerBound": 3450000,
+                "upperBound": 5750000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 4500000,
+                "currency": "EUR",
+                "lowerBound": 3380000,
+                "upperBound": 5620000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 4370000,
+                "currency": "EUR",
+                "lowerBound": 3280000,
+                "upperBound": 5460000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 4360000,
+                "currency": "EUR",
+                "lowerBound": 3270000,
+                "upperBound": 5450000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 5390000,
+                "currency": "EUR",
+                "lowerBound": 4040000,
+                "upperBound": 6740000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 5630000,
+                "currency": "EUR",
+                "lowerBound": 4230000,
+                "upperBound": 7040000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 5740000,
+                "currency": "EUR",
+                "lowerBound": 4300000,
+                "upperBound": 7170000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 6210000,
+                "currency": "EUR",
+                "lowerBound": 4660000,
+                "upperBound": 7760000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 7760000,
+                "currency": "EUR",
+                "lowerBound": 6596000,
+                "upperBound": 8924000,
+                "source": "scisports",
+                "teamId": 7878,
+                "teamName": "Granada",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 8924000,
+                "currency": "EUR",
+                "lowerBound": 7585400,
+                "upperBound": 10262600,
+                "source": "scisports",
+                "teamId": 7878,
+                "teamName": "Granada"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 10262600,
+                "currency": "EUR",
+                "lowerBound": 9236340,
+                "upperBound": 11288860,
+                "source": "scisports",
+                "teamId": 7878,
+                "teamName": "Granada"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 11288860,
+                "currency": "EUR",
+                "lowerBound": 10159974,
+                "upperBound": 12417746,
+                "source": "scisports",
+                "teamId": 7878,
+                "teamName": "Granada"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 12198123,
+                "currency": "EUR",
+                "lowerBound": 10978310,
+                "upperBound": 13417935,
+                "source": "scisports",
+                "teamId": 7878,
+                "teamName": "Granada"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 12198123,
+                "currency": "EUR",
+                "lowerBound": 10978310,
+                "upperBound": 13417935,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 12198123,
+                "currency": "EUR",
+                "lowerBound": 10978310,
+                "upperBound": 13417935,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 12198123,
+                "currency": "EUR",
+                "lowerBound": 10978310,
+                "upperBound": 13417935,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 12140845,
+                "currency": "EUR",
+                "lowerBound": 10926760,
+                "upperBound": 13354929,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 12110113,
+                "currency": "EUR",
+                "lowerBound": 10899102,
+                "upperBound": 13321125,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 12181209,
+                "currency": "EUR",
+                "lowerBound": 10963088,
+                "upperBound": 13399330,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 12181209,
+                "currency": "EUR",
+                "lowerBound": 10963088,
+                "upperBound": 13399330,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 12181209,
+                "currency": "EUR",
+                "lowerBound": 10963088,
+                "upperBound": 13399330,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 12181209,
+                "currency": "EUR",
+                "lowerBound": 10963088,
+                "upperBound": 13399330,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 12141168,
+                "currency": "EUR",
+                "lowerBound": 10927051,
+                "upperBound": 13355285,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 12141168,
+                "currency": "EUR",
+                "lowerBound": 10927051,
+                "upperBound": 13355285,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 11886940,
+                "currency": "EUR",
+                "lowerBound": 10698246,
+                "upperBound": 13075634,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 9546094,
+                "currency": "EUR",
+                "lowerBound": 8114180,
+                "upperBound": 10978008,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 9393207,
+                "currency": "EUR",
+                "lowerBound": 7984226,
+                "upperBound": 10802189,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 9393207,
+                "currency": "EUR",
+                "lowerBound": 7984226,
+                "upperBound": 10802189,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 9393207,
+                "currency": "EUR",
+                "lowerBound": 7984226,
+                "upperBound": 10802189,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 7984226,
+                "currency": "EUR",
+                "lowerBound": 6786592,
+                "upperBound": 9181859,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 6786592,
+                "currency": "EUR",
+                "lowerBound": 5768603,
+                "upperBound": 7804580,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 5768603,
+                "currency": "EUR",
+                "lowerBound": 4903312,
+                "upperBound": 6633893,
+                "source": "scisports",
+                "teamId": 10200,
+                "teamName": "Panathinaikos"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1791398,
+                "name": "Aidon Shehu"
+            },
+            {
+                "id": 1334837,
+                "name": "Christos Kryparakos"
+            },
+            {
+                "id": 1347804,
+                "name": "Elmin Rastoder"
+            },
+            {
+                "id": 1222191,
+                "name": "\u00c9tienne Camara"
+            },
+            {
+                "id": 259439,
+                "name": "Filip Mladenovic"
+            },
+            {
+                "id": 1387412,
+                "name": "Georgios Karakasidis"
+            },
+            {
+                "id": 1787030,
+                "name": "Iasonas Skarlatidis"
+            },
+            {
+                "id": 1782720,
+                "name": "Ilias Sgouros"
+            },
+            {
+                "id": 990996,
+                "name": "I\u00f1aki Pe\u00f1a"
+            },
+            {
+                "id": 1782735,
+                "name": "Markos Spatharis"
+            },
+            {
+                "id": 1422661,
+                "name": "Miguel Tavares"
+            },
+            {
+                "id": 1782733,
+                "name": "Odysseas Lazaris"
+            },
+            {
+                "id": 690302,
+                "name": "Rick van Drongelen"
+            },
+            {
+                "id": 1318666,
+                "name": "Triantafyllos Tsapras"
+            },
+            {
+                "id": 1211437,
+                "name": "Victor Kristiansen"
+            },
+            {
+                "id": 612755,
+                "name": "Davide Calabria"
+            },
+            {
+                "id": 1613657,
+                "name": "Georgios Katris"
+            },
+            {
+                "id": 680031,
+                "name": "Pedro Chirivella"
+            },
+            {
+                "id": 792653,
+                "name": "Ahmed Touba"
+            },
+            {
+                "id": 478388,
+                "name": "Manolis Siopis"
+            },
+            {
+                "id": 188555,
+                "name": "Stefan de Vrij"
+            },
+            {
+                "id": 1318701,
+                "name": "Andrews Tetteh"
+            },
+            {
+                "id": 1069536,
+                "name": "Anass Zaroury"
+            },
+            {
+                "id": 1680164,
+                "name": "Santino Andino Valencia"
+            },
+            {
+                "id": 200628,
+                "name": "Anastasios Bakasetas"
+            },
+            {
+                "id": 736344,
+                "name": "Lucas Abraham Ch\u00e1vez"
+            },
+            {
+                "id": 525133,
+                "name": "Erik Palmer-Brown"
+            },
+            {
+                "id": 213873,
+                "name": "Sverrir Ingi Ingason"
+            },
+            {
+                "id": 863156,
+                "name": "Adam Gnezda Cerin"
+            },
+            {
+                "id": 94550,
+                "name": "Moussa Sissoko"
+            },
+            {
+                "id": 1526975,
+                "name": "Sotiris Kontouris"
+            },
+            {
+                "id": 1280328,
+                "name": "Vicente Taborda"
+            },
+            {
+                "id": 427062,
+                "name": "Tin Jedvaj"
+            },
+            {
+                "id": 1418919,
+                "name": "Georgios Kyriopoulos"
+            },
+            {
+                "id": 1526934,
+                "name": "Pavlos Pantelidis"
+            },
+            {
+                "id": 526230,
+                "name": "Cyriel Dessers"
+            },
+            {
+                "id": 1899314,
+                "name": "Angelos Vyntra"
+            },
+            {
+                "id": 1785059,
+                "name": "Giannis Bokos"
+            },
+            {
+                "id": 1857610,
+                "name": "Sotirios Terzis"
+            },
+            {
+                "id": 304000,
+                "name": "Tonny Vilhena"
+            },
+            {
+                "id": 1872021,
+                "name": "Iason Nempis"
+            },
+            {
+                "id": 560841,
+                "name": "Kostas Kotsaris"
+            },
+            {
+                "id": 1121748,
+                "name": "Milos Pantovic"
+            },
+            {
+                "id": 1785062,
+                "name": "Rushit Zeka"
+            },
+            {
+                "id": 518633,
+                "name": "Giorgos Kyriakopoulos"
+            },
+            {
+                "id": 1515990,
+                "name": "Adriano Jagusic"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 553476,
+                "name": "Sergio Rochet"
+            },
+            {
+                "id": 474589,
+                "name": "Jos\u00e9 Gim\u00e9nez"
+            },
+            {
+                "id": 1020026,
+                "name": "Sebasti\u00e1n C\u00e1ceres"
+            },
+            {
+                "id": 921253,
+                "name": "Ronald Araujo"
+            },
+            {
+                "id": 1035614,
+                "name": "Manuel Ugarte"
+            },
+            {
+                "id": 620618,
+                "name": "Rodrigo Bentancur"
+            },
+            {
+                "id": 751198,
+                "name": "Nicol\u00e1s de la Cruz"
+            },
+            {
+                "id": 743533,
+                "name": "Federico Valverde"
+            },
+            {
+                "id": 950561,
+                "name": "Darwin N\u00fa\u00f1ez"
+            },
+            {
+                "id": 438647,
+                "name": "Giorgian De Arrascaeta"
+            },
+            {
+                "id": 848027,
+                "name": "Santiago Mele"
+            },
+            {
+                "id": 465614,
+                "name": "Guillermo Varela"
+            },
+            {
+                "id": 840212,
+                "name": "Agust\u00edn Canobbio"
+            },
+            {
+                "id": 1137909,
+                "name": "Emiliano Mart\u00ednez"
+            },
+            {
+                "id": 729093,
+                "name": "Math\u00edas Olivera"
+            },
+            {
+                "id": 840184,
+                "name": "Mat\u00edas Vi\u00f1a"
+            },
+            {
+                "id": 941660,
+                "name": "Brian Rodr\u00edguez"
+            },
+            {
+                "id": 401095,
+                "name": "Rodrigo Aguirre"
+            },
+            {
+                "id": 1031656,
+                "name": "Maxi Ara\u00fajo"
+            },
+            {
+                "id": 1032811,
+                "name": "Federico Vi\u00f1as"
+            },
+            {
+                "id": 861661,
+                "name": "Joaqu\u00edn Piquerez"
+            },
+            {
+                "id": 56829,
+                "name": "Fernando Muslera"
+            },
+            {
+                "id": 848034,
+                "name": "Santiago Bueno"
+            },
+            {
+                "id": 1053963,
+                "name": "Juan Sanabria"
+            },
+            {
+                "id": 1070776,
+                "name": "Rodrigo Zalazar"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1465803,
+                "name": "Josefina Villanueva"
+            },
+            {
+                "id": 1798444,
+                "name": "Romina Olmedo"
+            },
+            {
+                "id": 1464888,
+                "name": "Stephanie Lacoste"
+            },
+            {
+                "id": 1465799,
+                "name": "Daiana Far\u00edas"
+            },
+            {
+                "id": 1465794,
+                "name": "Sindy Ram\u00edrez"
+            },
+            {
+                "id": 1465795,
+                "name": "Ximena Velazco"
+            },
+            {
+                "id": 1044274,
+                "name": "Pamela Gonz\u00e1lez"
+            },
+            {
+                "id": 1466049,
+                "name": "Bel\u00e9n Aquino"
+            },
+            {
+                "id": 1466054,
+                "name": "Esperanza Pizarro"
+            },
+            {
+                "id": 1798448,
+                "name": "Agustina S\u00e1nchez"
+            },
+            {
+                "id": 1798784,
+                "name": "Alaides Paz"
+            },
+            {
+                "id": 1798449,
+                "name": "F\u00e1tima Barone"
+            },
+            {
+                "id": 1466051,
+                "name": "Roc\u00edo Mart\u00ednez"
+            },
+            {
+                "id": 1546928,
+                "name": "Yannel Correa"
+            },
+            {
+                "id": 1466052,
+                "name": "Pilar Gonz\u00e1lez"
+            },
+            {
+                "id": 1638991,
+                "name": "Solange Lemos"
+            },
+            {
+                "id": 1839419,
+                "name": "Sof\u00eda Oxandabarat"
+            },
+            {
+                "id": 1798781,
+                "name": "\u00c1ngela G\u00f3mez"
+            },
+            {
+                "id": 1798451,
+                "name": "Juliana Viera"
+            },
+            {
+                "id": 1835445,
+                "name": "Camila Baccaro"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5789175,
+        "homeId": 7986,
+        "awayId": 10200,
+        "homeName": "Paksi SE",
+        "awayName": "Panathinaikos",
+        "matchDate": "2026-07-23T18:00:00Z",
+        "statusId": 1,
+        "leagueId": 10615,
+        "parentLeagueId": 10615,
+        "leagueName": "Conference League Qualification",
+        "status": {
+            "utcTime": "2026-07-23T18:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Paksi FC Stadion",
+            "city": "Paks",
+            "lat": 46.633752241,
+            "long": 18.852460509
+        },
+        "matchUrl": "/matches/paksi-se-vs-panathinaikos/2qgpux#5789175"
+    },
+    "dataProvider": "enet"
+}

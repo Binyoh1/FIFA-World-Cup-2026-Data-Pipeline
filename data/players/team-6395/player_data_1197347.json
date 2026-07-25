@@ -1,0 +1,5319 @@
+{
+    "id": 1197347,
+    "name": "Nicolas Jackson",
+    "birthDate": {
+        "utcTime": "2001-06-20T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2033-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8455,
+        "teamName": "Chelsea",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#051495",
+            "colorAlternate": "#033cc1",
+            "colorAway": "#EAD73A",
+            "colorAwayAlternate": "#f2deb4"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 26,
+                "position": "104",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Striker",
+            "key": "striker"
+        },
+        "nonPrimaryPositions": []
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 187,
+                "key": null,
+                "fallback": "187 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Senegal"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "SEN"
+            },
+            "countryCode": "SEN"
+        },
+        {
+            "value": {
+                "numberValue": 39658770,
+                "key": null,
+                "fallback": "\u20ac39.7m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2033-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2033-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 54,
+        "leagueName": "Bundesliga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 8
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 1
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 12
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 23
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1004
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.96
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 1
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "GER",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen",
+                "tournaments": [
+                    {
+                        "ccode": "GER",
+                        "leagueId": 209,
+                        "leagueName": "DFB Pokal",
+                        "seasonsWon": [
+                            "2025/2026"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "GER",
+                        "leagueId": 54,
+                        "leagueName": "Bundesliga",
+                        "seasonsWon": [
+                            "2025/2026"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ENG",
+                "teamId": 8455,
+                "teamName": "Chelsea",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": -1,
+                        "leagueName": "Florida Cup",
+                        "seasonsWon": [
+                            "2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": -1,
+                        "leagueName": "Premier League Summer Series",
+                        "seasonsWon": [
+                            "2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 10216,
+                        "leagueName": "Conference League",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 78,
+                        "leagueName": "FIFA Club World Cup",
+                        "seasonsWon": [
+                            "2025 USA"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": false,
+            "id": 4653710,
+            "matchDate": {
+                "utcTime": "2026-07-01T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-belgium/1rywdm#4653710",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5819,
+            "opponentTeamName": "Iraq",
+            "isHomeTeam": true,
+            "id": 4667809,
+            "matchDate": {
+                "utcTime": "2026-06-26T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/iraq-vs-senegal/18f0co#4667809",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 33,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": false,
+            "id": 4667806,
+            "matchDate": {
+                "utcTime": "2026-06-23T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-norway/1tzewo#4667806",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 4667804,
+            "matchDate": {
+                "utcTime": "2026-06-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-france/1f8fvo#4667804",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": false,
+            "id": 5737639,
+            "matchDate": {
+                "utcTime": "2026-06-09T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-saudi-arabia/1ny764#5737639",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "5.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 5098971,
+            "matchDate": {
+                "utcTime": "2026-05-31T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-usa/1f5mor#5098971",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": true,
+            "id": 5197845,
+            "matchDate": {
+                "utcTime": "2026-05-23T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-vfb-stuttgart/3c6nc5#5197845",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "final",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": true,
+            "id": 4829613,
+            "matchDate": {
+                "utcTime": "2026-05-16T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/1-fc-koln-vs-bayern-munchen/2ue2rs#4829613",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 7,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": false,
+            "id": 4829611,
+            "matchDate": {
+                "utcTime": "2026-05-09T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolfsburg-vs-bayern-munchen/2udogn#4829611",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": true,
+            "id": 5205812,
+            "matchDate": {
+                "utcTime": "2026-05-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-paris-saint-germain/376tlg#5205812",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 94937,
+            "opponentTeamName": "FC Heidenheim",
+            "isHomeTeam": true,
+            "id": 4829595,
+            "matchDate": {
+                "utcTime": "2026-05-02T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-fc-heidenheim/2ir1tzv#4829595",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": false,
+            "id": 5205811,
+            "matchDate": {
+                "utcTime": "2026-04-28T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-paris-saint-germain/376tlg#5205811",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/2",
+            "homeScore": 5,
+            "awayScore": 4,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": false,
+            "id": 4829590,
+            "matchDate": {
+                "utcTime": "2026-04-25T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-mainz-05/37vb95#4829590",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": false,
+            "id": 5196580,
+            "matchDate": {
+                "utcTime": "2026-04-22T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-bayern-munchen/2oh0ew#5196580",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": true,
+            "id": 4829577,
+            "matchDate": {
+                "utcTime": "2026-04-19T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-vfb-stuttgart/3c6nc5#4829577",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8633,
+            "opponentTeamName": "Real Madrid",
+            "isHomeTeam": true,
+            "id": 5205792,
+            "matchDate": {
+                "utcTime": "2026-04-15T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/real-madrid-vs-bayern-munchen/2tes97#5205792",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/4",
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": false,
+            "id": 4829573,
+            "matchDate": {
+                "utcTime": "2026-04-11T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-bayern-munchen/2o6zj7#4829573",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8633,
+            "opponentTeamName": "Real Madrid",
+            "isHomeTeam": false,
+            "id": 5205791,
+            "matchDate": {
+                "utcTime": "2026-04-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/real-madrid-vs-bayern-munchen/2tes97#5205791",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5979,
+            "opponentTeamName": "Gambia",
+            "isHomeTeam": true,
+            "id": 5285787,
+            "matchDate": {
+                "utcTime": "2026-03-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/gambia-vs-senegal/19l66w#5285787",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5266832,
+            "matchDate": {
+                "utcTime": "2026-03-28T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-senegal/189ilo#5266832",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 67,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": true,
+            "id": 5205740,
+            "matchDate": {
+                "utcTime": "2026-03-18T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-bayern-munchen/2s7sk1#5205740",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": false,
+            "id": 4829540,
+            "matchDate": {
+                "utcTime": "2026-03-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-bayern-munchen/2oh0ew#4829540",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 42,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "5.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": false,
+            "id": 5205739,
+            "matchDate": {
+                "utcTime": "2026-03-10T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-bayern-munchen/2s7sk1#5205739",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 6,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": true,
+            "id": 4829531,
+            "matchDate": {
+                "utcTime": "2026-03-06T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-monchengladbach-vs-bayern-munchen/36hzfd#4829531",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": false,
+            "id": 4829525,
+            "matchDate": {
+                "utcTime": "2026-02-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-bayern-munchen/36iek5#4829525",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": true,
+            "id": 4829513,
+            "matchDate": {
+                "utcTime": "2026-02-21T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/eintracht-frankfurt-vs-bayern-munchen/36r8iw#4829513",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": false,
+            "id": 4829512,
+            "matchDate": {
+                "utcTime": "2026-02-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/werder-bremen-vs-bayern-munchen/2u459n#4829512",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8226,
+            "opponentTeamName": "Hoffenheim",
+            "isHomeTeam": true,
+            "id": 4829495,
+            "matchDate": {
+                "utcTime": "2026-02-08T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-bayern-munchen/2ozk0w#4829495",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": false,
+            "id": 4829490,
+            "matchDate": {
+                "utcTime": "2026-01-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hamburger-sv-vs-bayern-munchen/36itoy#4829490",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8640,
+            "opponentTeamName": "PSV Eindhoven",
+            "isHomeTeam": false,
+            "id": 4947106,
+            "matchDate": {
+                "utcTime": "2026-01-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/psv-eindhoven-vs-bayern-munchen/2thjyn#4947106",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8406,
+            "opponentTeamName": "Augsburg",
+            "isHomeTeam": true,
+            "id": 4829478,
+            "matchDate": {
+                "utcTime": "2026-01-24T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/augsburg-vs-bayern-munchen/2qxjee#4829478",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": true,
+            "id": 5073478,
+            "matchDate": {
+                "utcTime": "2026-01-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-senegal/1bp38k#5073478",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 93,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": true,
+            "id": 5073475,
+            "matchDate": {
+                "utcTime": "2026-01-14T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-egypt/2aj8he#5073475",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5815,
+            "opponentTeamName": "Mali",
+            "isHomeTeam": false,
+            "id": 5073471,
+            "matchDate": {
+                "utcTime": "2026-01-09T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mali-vs-senegal/18dynq#5073471",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/4",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5805,
+            "opponentTeamName": "Sudan",
+            "isHomeTeam": true,
+            "id": 5073456,
+            "matchDate": {
+                "utcTime": "2026-01-03T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sudan-vs-senegal/18bchb#5073456",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 53,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5883,
+            "opponentTeamName": "Benin",
+            "isHomeTeam": false,
+            "id": 4722005,
+            "matchDate": {
+                "utcTime": "2025-12-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/benin-vs-senegal/18vt48#4722005",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. D",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 6321,
+            "opponentTeamName": "DR Congo",
+            "isHomeTeam": true,
+            "id": 4722003,
+            "matchDate": {
+                "utcTime": "2025-12-27T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dr-congo-vs-senegal/1c54t5#4722003",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. D",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5887,
+            "opponentTeamName": "Botswana",
+            "isHomeTeam": true,
+            "id": 4722001,
+            "matchDate": {
+                "utcTime": "2025-12-23T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/botswana-vs-senegal/18wv0q#4722001",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. D",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": true,
+            "id": 4829433,
+            "matchDate": {
+                "utcTime": "2025-12-14T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-mainz-05/37vb95#4829433",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9768,
+            "opponentTeamName": "Sporting CP",
+            "isHomeTeam": true,
+            "id": 4947105,
+            "matchDate": {
+                "utcTime": "2025-12-09T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-bayern-munchen/369kxn#4947105",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 10269,
+            "opponentTeamName": "VfB Stuttgart",
+            "isHomeTeam": false,
+            "id": 4829430,
+            "matchDate": {
+                "utcTime": "2025-12-06T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-vfb-stuttgart/3c6nc5#4829430",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": false,
+            "id": 5038955,
+            "matchDate": {
+                "utcTime": "2025-12-03T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-bayern-munchen/2o5txd#5038955",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8152,
+            "opponentTeamName": "St. Pauli",
+            "isHomeTeam": true,
+            "id": 4829415,
+            "matchDate": {
+                "utcTime": "2025-11-29T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/st-pauli-vs-bayern-munchen/2o6zj7#4829415",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 7,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4947104,
+            "matchDate": {
+                "utcTime": "2025-11-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-arsenal/36xjup#4947104",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": true,
+            "id": 4829406,
+            "matchDate": {
+                "utcTime": "2025-11-22T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-bayern-munchen/2qet4e#4829406",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 2,
+            "minutesPlayed": 19,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 5017003,
+            "matchDate": {
+                "utcTime": "2025-11-15T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-brazil/1rwp7u#5017003",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 41,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8149,
+            "opponentTeamName": "Union Berlin",
+            "isHomeTeam": false,
+            "id": 4829403,
+            "matchDate": {
+                "utcTime": "2025-11-08T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/union-berlin-vs-bayern-munchen/2o5txd#4829403",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 2,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": false,
+            "id": 4947102,
+            "matchDate": {
+                "utcTime": "2025-11-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayern-munchen-vs-paris-saint-germain/376tlg#4947102",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": true,
+            "id": 4829388,
+            "matchDate": {
+                "utcTime": "2025-11-01T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-bayern-munchen/2oh0ew#4829388",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8722,
+            "opponentTeamName": "1. FC K\u00f6ln",
+            "isHomeTeam": false,
+            "id": 4951168,
+            "matchDate": {
+                "utcTime": "2025-10-29T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/1-fc-koln-vs-bayern-munchen/2ue2rs#4951168",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9788,
+            "opponentTeamName": "Borussia M\u00f6nchengladbach",
+            "isHomeTeam": false,
+            "id": 4829380,
+            "matchDate": {
+                "utcTime": "2025-10-25T13:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-monchengladbach-vs-bayern-munchen/36hzfd#4829380",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8342,
+            "opponentTeamName": "Club Brugge",
+            "isHomeTeam": true,
+            "id": 4947103,
+            "matchDate": {
+                "utcTime": "2025-10-22T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/club-brugge-vs-bayern-munchen/2q8kra#4947103",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 21,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": true,
+            "id": 4829369,
+            "matchDate": {
+                "utcTime": "2025-10-18T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/borussia-dortmund-vs-bayern-munchen/36iek5#4829369",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 68374,
+            "opponentTeamName": "Mauritania",
+            "isHomeTeam": true,
+            "id": 4341124,
+            "matchDate": {
+                "utcTime": "2025-10-14T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-mauritania/1a8950v#4341124",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. B",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 408231,
+            "opponentTeamName": "South Sudan",
+            "isHomeTeam": false,
+            "id": 4341141,
+            "matchDate": {
+                "utcTime": "2025-10-10T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-south-sudan/13hkx4b2#4341141",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 63,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4829364,
+            "matchDate": {
+                "utcTime": "2025-10-04T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/eintracht-frankfurt-vs-bayern-munchen/36r8iw#4829364",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 2137,
+            "opponentTeamName": "Pafos FC",
+            "isHomeTeam": false,
+            "id": 4947108,
+            "matchDate": {
+                "utcTime": "2025-09-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pafos-fc-vs-bayern-munchen/16l9zv#4947108",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 5,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8697,
+            "opponentTeamName": "Werder Bremen",
+            "isHomeTeam": true,
+            "id": 4829351,
+            "matchDate": {
+                "utcTime": "2025-09-26T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/werder-bremen-vs-bayern-munchen/2u459n#4829351",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8226,
+            "opponentTeamName": "Hoffenheim",
+            "isHomeTeam": false,
+            "id": 4829347,
+            "matchDate": {
+                "utcTime": "2025-09-20T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hoffenheim-vs-bayern-munchen/2ozk0w#4829347",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": true,
+            "id": 4947101,
+            "matchDate": {
+                "utcTime": "2025-09-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-bayern-munchen/2rgpk4#4947101",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9823,
+            "teamName": "Bayern M\u00fcnchen",
+            "opponentTeamId": 9790,
+            "opponentTeamName": "Hamburger SV",
+            "isHomeTeam": true,
+            "id": 4829331,
+            "matchDate": {
+                "utcTime": "2025-09-13T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hamburger-sv-vs-bayern-munchen/36itoy#4829331",
+            "leagueId": 54,
+            "leagueName": "Bundesliga",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 6321,
+            "opponentTeamName": "DR Congo",
+            "isHomeTeam": false,
+            "id": 4341156,
+            "matchDate": {
+                "utcTime": "2025-09-09T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dr-congo-vs-senegal/1c54t5#4341156",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 77,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6395,
+            "teamName": "Senegal",
+            "opponentTeamId": 5805,
+            "opponentTeamName": "Sudan",
+            "isHomeTeam": true,
+            "id": 4341157,
+            "matchDate": {
+                "utcTime": "2025-09-05T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sudan-vs-senegal/18bchb#4341157",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1197347,
+                        "teamId": 8455,
+                        "team": "Chelsea",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2026-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 9823,
+                        "team": "Bayern M\u00fcnchen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2025-09-01T00:00:00",
+                        "endDate": "2026-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "34",
+                        "goals": "11",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 8455,
+                        "team": "Chelsea",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-07-01T00:00:00",
+                        "endDate": "2025-09-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "81",
+                        "goals": "30",
+                        "assists": "12",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-10-01T00:00:00",
+                        "endDate": "2023-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "48",
+                        "goals": "13",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "27",
+                        "goals": "7",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 4032,
+                        "team": "CD Mirandes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2020-10-05T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "17",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1197347,
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-09-01T00:00:00",
+                        "endDate": "2020-10-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "34",
+                        "goals": "11",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26891,
+                                "goals": "8",
+                                "assists": "1",
+                                "appearances": "23",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26893,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            }
+                        ],
+                        "teamId": 9823,
+                        "team": "Bayern M\u00fcnchen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "37",
+                        "goals": "13",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.12"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23685,
+                                "goals": "10",
+                                "assists": "5",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.05"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24113,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.72"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 78,
+                                "leagueName": "FIFA Club World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 24449,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            }
+                        ],
+                        "teamId": 8455,
+                        "team": "Chelsea",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "44",
+                        "goals": "17",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.20"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20720,
+                                "goals": "14",
+                                "assists": "5",
+                                "appearances": "35",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21876,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.61"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21054,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.02"
+                                }
+                            }
+                        ],
+                        "teamId": 8455,
+                        "team": "Chelsea",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "38",
+                        "goals": "13",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "6.91"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17852,
+                                "goals": "12",
+                                "assists": "4",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18381,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.30"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17778,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.52"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "10",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.41"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16520,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.43"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17075,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.28"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "27",
+                        "goals": "7",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Primera Divisi\u00f3n RFEF",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "7",
+                                "assists": "undefined",
+                                "appearances": "27",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "17",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 140,
+                                "leagueName": "LaLiga2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15586,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "16",
+                                "rating": {
+                                    "rating": "6.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15839,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 4032,
+                        "team": "CD Mirandes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1197347,
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-09-16T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "38",
+                        "goals": "8",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "14",
+                        "goals": "3",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.24"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.95"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.56"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.53"
+                                }
+                            }
+                        ],
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "13",
+                        "goals": "5",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.29"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2025",
+                                "tournamentId": 24309,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.54"
+                                }
+                            }
+                        ],
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.61"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2023",
+                                "tournamentId": 22109,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.29"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2023",
+                                "tournamentId": 23214,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.91"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.03"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.03"
+                                }
+                            }
+                        ],
+                        "teamId": 6395,
+                        "team": "Senegal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_forwards",
+        "title": "Stats compared to other forwards",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.91
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.33
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.33
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.9
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.85
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.85
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "nicolas-jackson",
+        "pageurl": "/players/1197347/nicolas-jackson",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Nicolas Jackson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson is 25 years old. Born on Wed Jun 20 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Nicolas Jackson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson is 187 cm tall. Or 6 ft 2 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Nicolas Jackson born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson was born Wed Jun 20 2001 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Nicolas Jackson's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Nicolas Jackson's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson's transfer value is estimated to be around \u20ac39.7m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Nicolas Jackson from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nicolas Jackson is from Senegal."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Nicolas Jackson",
+            "birthDate": "2001-06-20T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1197347/nicolas-jackson",
+            "nationality": {
+                "@type": "Country",
+                "name": "Senegal"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Chelsea"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "187"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "78"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Bundesliga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/54/overview/bundesliga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Chelsea",
+                    "item": "https://www.fotmob.com/teams/8455/overview/chelsea"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Nicolas Jackson",
+                    "item": "https://www.fotmob.com/leagues/1197347/overview/nicolas-jackson"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "tournamentId": 78,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League Qualification qualification",
+                    "tournamentId": 10615,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "LaLiga2",
+                    "tournamentId": 140,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944782855,
+                "playerName": "Nicolas Jackson",
+                "eventType": "Post",
+                "shotType": "LeftFoot",
+                "situation": "FastBreak",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 95.0614035074,
+                "y": 47.0135031814,
+                "min": 25,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 37.684,
+                "goalCrossedZ": 0.3274736826,
+                "expectedGoals": 0.160117238759994,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.0253968253968261,
+                    "y": 0.0866332493650794,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6723,
+                "awayTeamId": 6395,
+                "homeTeamName": "France",
+                "awayTeamName": "Senegal",
+                "homeScore": 3,
+                "awayScore": 1,
+                "matchId": 4667804,
+                "matchDate": "2026-06-16T19:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945255039,
+                "playerName": "Nicolas Jackson",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 96.4122807008,
+                "y": 44.0007643265,
+                "min": 17,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 97.6666666661,
+                "blockedY": 42.7553125,
+                "goalCrossedY": 34.4575,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.125532984733582,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.878968253968253,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6395,
+                "homeTeamName": "Norway",
+                "awayTeamName": "Senegal",
+                "homeScore": 3,
+                "awayScore": 2,
+                "matchId": 4667806,
+                "matchDate": "2026-06-23T00:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945256015,
+                "playerName": "Nicolas Jackson",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 95.2543859636,
+                "y": 49.7459872591,
+                "min": 27,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 25.7071875,
+                "goalCrossedZ": 5.1842758704,
+                "expectedGoals": 0.0286272373050451,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.625152910475186,
+                    "zoomRatio": 0.455816407280401
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6395,
+                "homeTeamName": "Norway",
+                "awayTeamName": "Senegal",
+                "homeScore": 3,
+                "awayScore": 2,
+                "matchId": 4667806,
+                "matchDate": "2026-06-23T00:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945259083,
+                "playerName": "Nicolas Jackson",
+                "eventType": "AttemptSaved",
+                "shotType": "Header",
+                "situation": "RegularPlay",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 97.7631578942,
+                "y": 37.355,
+                "min": 52,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 103.577586207,
+                "blockedY": 35.0675,
+                "goalCrossedY": 34.07625,
+                "goalCrossedZ": 0.770526312,
+                "expectedGoals": 0.0912016406655312,
+                "expectedGoalsOnTarget": 0.0550249591469765,
+                "onGoalShot": {
+                    "x": 0.979828042328042,
+                    "y": 0.20384293968254,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6395,
+                "homeTeamName": "Norway",
+                "awayTeamName": "Senegal",
+                "homeScore": 3,
+                "awayScore": 2,
+                "matchId": 4667806,
+                "matchDate": "2026-06-23T00:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945496723,
+                "playerName": "Nicolas Jackson",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 94.7719298231,
+                "y": 31.1025,
+                "min": 77,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 96.2192982446,
+                "blockedY": 31.63625,
+                "goalCrossedY": 34.99125,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.109166339039803,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.73776455026455,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6395,
+                "awayTeamId": 5819,
+                "homeTeamName": "Senegal",
+                "awayTeamName": "Iraq",
+                "homeScore": 5,
+                "awayScore": 0,
+                "matchId": 4667809,
+                "matchDate": "2026-06-26T19:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945497053,
+                "playerName": "Nicolas Jackson",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 90.6,
+                "y": 44.0708280208,
+                "min": 79,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 103.103448276,
+                "blockedY": 35.3725,
+                "goalCrossedY": 37.355,
+                "goalCrossedZ": 1.1365263102,
+                "expectedGoals": 0.0509906262159348,
+                "expectedGoalsOnTarget": 0.516120493412018,
+                "onGoalShot": {
+                    "x": 0.112433862433861,
+                    "y": 0.300668336031746,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6395,
+                "awayTeamId": 5819,
+                "homeTeamName": "Senegal",
+                "awayTeamName": "Iraq",
+                "homeScore": 5,
+                "awayScore": 0,
+                "matchId": 4667809,
+                "matchDate": "2026-06-26T19:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            },
+            {
+                "id": 2945498329,
+                "playerName": "Nicolas Jackson",
+                "eventType": "AttemptSaved",
+                "shotType": "Header",
+                "situation": "SetPiece",
+                "teamId": 6395,
+                "playerId": 1197347,
+                "x": 95.0614035074,
+                "y": 31.4075,
+                "min": 90,
+                "minAdded": 1,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 103.9568965518,
+                "blockedY": 33.695,
+                "goalCrossedY": 33.5425,
+                "goalCrossedZ": 0.4045263138,
+                "expectedGoals": 0.077206626534462,
+                "expectedGoalsOnTarget": 0.0301042757928371,
+                "onGoalShot": {
+                    "x": 1.12103174603175,
+                    "y": 0.107017543333333,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6395,
+                "awayTeamId": 5819,
+                "homeTeamName": "Senegal",
+                "awayTeamName": "Iraq",
+                "homeScore": 5,
+                "awayScore": 0,
+                "matchId": 4667809,
+                "matchDate": "2026-06-26T19:00:00Z",
+                "teamColor": "#0c954e",
+                "teamColorDark": "#ffffff"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.23729741316417166,
+                            "percentileRank": 51.578947368421055,
+                            "percentileRankPer90": 51.578947368421055,
+                            "statFormat": "fraction",
+                            "statValue": "0.61",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.23322413193768468,
+                            "percentileRank": 53.68421052631579,
+                            "percentileRankPer90": 50.526315789473685,
+                            "statFormat": "fraction",
+                            "statValue": "0.60",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.23729741316417166,
+                            "percentileRank": 53.68421052631579,
+                            "percentileRankPer90": 53.68421052631579,
+                            "statFormat": "fraction",
+                            "statValue": "0.61",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 2.7155172413793105,
+                            "percentileRank": 67.36842105263158,
+                            "percentileRankPer90": 66.3157894736842,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 1.1637931034482758,
+                            "percentileRank": 63.1578947368421,
+                            "percentileRankPer90": 61.05263157894737,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Shots on target"
+                        },
+                        {
+                            "localizedTitleId": "headed_shots",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 69.47368421052632,
+                            "percentileRankPer90": 76.84210526315789,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Headed shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0.3879310344827586,
+                            "percentileRank": 78.94736842105263,
+                            "percentileRankPer90": 88.42105263157895,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.06625313793533835,
+                            "percentileRank": 66.3157894736842,
+                            "percentileRankPer90": 62.10526315789474,
+                            "statFormat": "fraction",
+                            "statValue": "0.17",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 13.577586206896552,
+                            "percentileRank": 64.21052631578948,
+                            "percentileRankPer90": 60,
+                            "statFormat": "number",
+                            "statValue": "35",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 70,
+                            "percentileRank": 31.57894736842105,
+                            "percentileRankPer90": 31.57894736842105,
+                            "statFormat": "percent",
+                            "statValue": "70.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.1637931034482758,
+                            "percentileRank": 67.36842105263158,
+                            "percentileRankPer90": 68.42105263157895,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "big_chance_created_team_title",
+                            "per90": 0.3879310344827586,
+                            "percentileRank": 75.78947368421053,
+                            "percentileRankPer90": 83.15789473684211,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Big chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 0.3879310344827586,
+                            "percentileRank": 45.26315789473684,
+                            "percentileRankPer90": 57.89473684210527,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 25,
+                            "percentileRank": 48.421052631578945,
+                            "percentileRankPer90": 48.421052631578945,
+                            "statFormat": "percent",
+                            "statValue": "25.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 4.655172413793103,
+                            "percentileRank": 54.736842105263165,
+                            "percentileRankPer90": 60,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 38.70967741935484,
+                            "percentileRank": 37.89473684210527,
+                            "percentileRankPer90": 37.89473684210527,
+                            "statFormat": "percent",
+                            "statValue": "38.7",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 3.491379310344828,
+                            "percentileRank": 80,
+                            "percentileRankPer90": 84.21052631578947,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 52.94117647058823,
+                            "percentileRank": 81.05263157894737,
+                            "percentileRankPer90": 81.05263157894737,
+                            "statFormat": "percent",
+                            "statValue": "52.9",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 33.362068965517246,
+                            "percentileRank": 64.21052631578948,
+                            "percentileRankPer90": 64.21052631578948,
+                            "statFormat": "number",
+                            "statValue": "86",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 6.206896551724138,
+                            "percentileRank": 76.84210526315789,
+                            "percentileRankPer90": 77.89473684210526,
+                            "statFormat": "number",
+                            "statValue": "16",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.9396551724137931,
+                            "percentileRank": 15.789473684210526,
+                            "percentileRankPer90": 18.947368421052634,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Dispossessed"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 1.9396551724137931,
+                            "percentileRank": 61.05263157894737,
+                            "percentileRankPer90": 60,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 49.473684210526315,
+                            "percentileRankPer90": 54.736842105263165,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.7758620689655172,
+                            "percentileRank": 49.473684210526315,
+                            "percentileRankPer90": 62.10526315789474,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 1.9396551724137931,
+                            "percentileRank": 55.78947368421052,
+                            "percentileRankPer90": 45.26315789473684,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 1.1637931034482758,
+                            "percentileRank": 85.26315789473684,
+                            "percentileRankPer90": 94.73684210526315,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.3879310344827586,
+                            "percentileRank": 35.78947368421053,
+                            "percentileRankPer90": 51.578947368421055,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1.1637931034482758,
+                            "percentileRank": 70.52631578947368,
+                            "percentileRankPer90": 76.84210526315789,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.3275862068965516,
+                            "percentileRank": 10.526315789473683,
+                            "percentileRankPer90": 23.157894736842106,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.8457758914807747,
+                            "percentileRank": 18.947368421052634,
+                            "percentileRankPer90": 21.052631578947366,
+                            "statFormat": "fraction",
+                            "statValue": "4.76",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0.3879310344827586,
+                    "percentileRank": 78.94736842105263,
+                    "percentileRankPer90": 88.42105263157895,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.56,
+                    "percentileRank": 52.63157894736842,
+                    "percentileRankPer90": 52.63157894736842,
+                    "statFormat": "fraction",
+                    "statValue": "6.56",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 53.68421052631579,
+                    "percentileRankPer90": 53.68421052631579,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 26.31578947368421,
+                    "percentileRankPer90": 7.368421052631578,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 57.89473684210527,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "232",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 73.02,
+                    "y": 18.88
+                },
+                {
+                    "x": 73.02,
+                    "y": 18.88
+                },
+                {
+                    "x": 69.08,
+                    "y": 17.69
+                },
+                {
+                    "x": 68.07,
+                    "y": 15.03
+                },
+                {
+                    "x": 66.49,
+                    "y": 47.29
+                },
+                {
+                    "x": 52.7,
+                    "y": 33.85
+                },
+                {
+                    "x": 68.52,
+                    "y": 16.5
+                },
+                {
+                    "x": 59.51,
+                    "y": 36.59
+                },
+                {
+                    "x": 59.51,
+                    "y": 36.59
+                },
+                {
+                    "x": 54.94,
+                    "y": 20.29
+                },
+                {
+                    "x": 73.14,
+                    "y": 16.29
+                },
+                {
+                    "x": 95.16,
+                    "y": 52.62
+                },
+                {
+                    "x": 101.59,
+                    "y": 49.19
+                },
+                {
+                    "x": 59.21,
+                    "y": 23.51
+                },
+                {
+                    "x": 86.89,
+                    "y": 34.53
+                },
+                {
+                    "x": 86.89,
+                    "y": 34.53
+                },
+                {
+                    "x": 60.02,
+                    "y": 16.85
+                },
+                {
+                    "x": 61.65,
+                    "y": 13.25
+                },
+                {
+                    "x": 91.5,
+                    "y": 41.23
+                },
+                {
+                    "x": 68.63,
+                    "y": 18.95
+                },
+                {
+                    "x": 73.81,
+                    "y": 42.81
+                },
+                {
+                    "x": 101.78,
+                    "y": 34.99
+                },
+                {
+                    "x": 65.03,
+                    "y": 54.49
+                },
+                {
+                    "x": 60.02,
+                    "y": 22.11
+                },
+                {
+                    "x": 64.69,
+                    "y": 23.51
+                },
+                {
+                    "x": 70.1,
+                    "y": 23.58
+                },
+                {
+                    "x": 56.26,
+                    "y": 31.71
+                },
+                {
+                    "x": 68.97,
+                    "y": 17.41
+                },
+                {
+                    "x": 64.24,
+                    "y": 19.02
+                },
+                {
+                    "x": 36.14,
+                    "y": 22.53
+                },
+                {
+                    "x": 28.6,
+                    "y": 23.58
+                },
+                {
+                    "x": 55.65,
+                    "y": 35.68
+                },
+                {
+                    "x": 1.99,
+                    "y": 27.78
+                },
+                {
+                    "x": 50.77,
+                    "y": 27.87
+                },
+                {
+                    "x": 60.73,
+                    "y": 34
+                },
+                {
+                    "x": 26.46,
+                    "y": 40.64
+                },
+                {
+                    "x": 50.67,
+                    "y": 29.8
+                },
+                {
+                    "x": 95.06,
+                    "y": 20.99
+                },
+                {
+                    "x": 98.92,
+                    "y": 26.11
+                },
+                {
+                    "x": 97.67,
+                    "y": 25.59
+                },
+                {
+                    "x": 72.01,
+                    "y": 1.77
+                },
+                {
+                    "x": 69.65,
+                    "y": 17.34
+                },
+                {
+                    "x": 71.67,
+                    "y": 18.53
+                },
+                {
+                    "x": 76.85,
+                    "y": 25.07
+                },
+                {
+                    "x": 96.32,
+                    "y": 18.67
+                },
+                {
+                    "x": 42.22,
+                    "y": 10.95
+                },
+                {
+                    "x": 66.04,
+                    "y": 19.52
+                },
+                {
+                    "x": 40.42,
+                    "y": 25.24
+                },
+                {
+                    "x": 45.38,
+                    "y": 37.13
+                },
+                {
+                    "x": 83.72,
+                    "y": 11.68
+                },
+                {
+                    "x": 90.4,
+                    "y": 16.15
+                },
+                {
+                    "x": 61.45,
+                    "y": 10.36
+                },
+                {
+                    "x": 61.45,
+                    "y": 10.36
+                },
+                {
+                    "x": 45.38,
+                    "y": 43.58
+                },
+                {
+                    "x": 95.54,
+                    "y": 20.08
+                },
+                {
+                    "x": 38.06,
+                    "y": 24.49
+                },
+                {
+                    "x": 17.68,
+                    "y": 44.56
+                },
+                {
+                    "x": 51.28,
+                    "y": 33.62
+                },
+                {
+                    "x": 36.59,
+                    "y": 12
+                },
+                {
+                    "x": 58.4,
+                    "y": 9.64
+                },
+                {
+                    "x": 14.7,
+                    "y": 30.72
+                },
+                {
+                    "x": 50.47,
+                    "y": 24.56
+                },
+                {
+                    "x": 5.6,
+                    "y": 32.32
+                },
+                {
+                    "x": 5.6,
+                    "y": 32.32
+                },
+                {
+                    "x": 71.9,
+                    "y": 12.79
+                },
+                {
+                    "x": 96.41,
+                    "y": 24
+                },
+                {
+                    "x": 89.7,
+                    "y": 18.11
+                },
+                {
+                    "x": 45.08,
+                    "y": 26.17
+                },
+                {
+                    "x": 91.2,
+                    "y": 23.09
+                },
+                {
+                    "x": 95.25,
+                    "y": 18.25
+                },
+                {
+                    "x": 68.97,
+                    "y": 14.89
+                },
+                {
+                    "x": 69.76,
+                    "y": 12.66
+                },
+                {
+                    "x": 75.16,
+                    "y": 8.4
+                },
+                {
+                    "x": 88.29,
+                    "y": 55.8
+                },
+                {
+                    "x": 83.39,
+                    "y": 49.26
+                },
+                {
+                    "x": 101.78,
+                    "y": 38.54
+                },
+                {
+                    "x": 41.1,
+                    "y": 13.05
+                },
+                {
+                    "x": 63.68,
+                    "y": 12.4
+                },
+                {
+                    "x": 52.5,
+                    "y": 34.3
+                },
+                {
+                    "x": 67.28,
+                    "y": 15.8
+                },
+                {
+                    "x": 52.3,
+                    "y": 34.15
+                },
+                {
+                    "x": 97.76,
+                    "y": 30.64
+                },
+                {
+                    "x": 97.76,
+                    "y": 30.64
+                },
+                {
+                    "x": 52.4,
+                    "y": 34.15
+                },
+                {
+                    "x": 57.18,
+                    "y": 23.02
+                },
+                {
+                    "x": 57.18,
+                    "y": 23.02
+                },
+                {
+                    "x": 58.6,
+                    "y": 18.25
+                },
+                {
+                    "x": 58.6,
+                    "y": 18.25
+                },
+                {
+                    "x": 69.76,
+                    "y": 0
+                },
+                {
+                    "x": 66.83,
+                    "y": 24.9
+                },
+                {
+                    "x": 68.41,
+                    "y": 24.21
+                },
+                {
+                    "x": 46.81,
+                    "y": 52.34
+                },
+                {
+                    "x": 45.59,
+                    "y": 53.04
+                },
+                {
+                    "x": 72.12,
+                    "y": 51.29
+                },
+                {
+                    "x": 74.15,
+                    "y": 48.55
+                },
+                {
+                    "x": 73.02,
+                    "y": 49.05
+                },
+                {
+                    "x": 89.1,
+                    "y": 34.08
+                },
+                {
+                    "x": 91.8,
+                    "y": 23.23
+                },
+                {
+                    "x": 63.34,
+                    "y": 20.29
+                },
+                {
+                    "x": 94.77,
+                    "y": 36.9
+                },
+                {
+                    "x": 80.57,
+                    "y": 11.41
+                },
+                {
+                    "x": 74.49,
+                    "y": 22.53
+                },
+                {
+                    "x": 80.12,
+                    "y": 24.9
+                },
+                {
+                    "x": 81.7,
+                    "y": 27.53
+                },
+                {
+                    "x": 81.13,
+                    "y": 21.48
+                },
+                {
+                    "x": 90.6,
+                    "y": 23.93
+                },
+                {
+                    "x": 97.86,
+                    "y": 27.78
+                },
+                {
+                    "x": 45.49,
+                    "y": 13.51
+                },
+                {
+                    "x": 45.49,
+                    "y": 13.51
+                },
+                {
+                    "x": 98.92,
+                    "y": 8.07
+                },
+                {
+                    "x": 95.06,
+                    "y": 36.59
+                },
+                {
+                    "x": 56.36,
+                    "y": 37.73
+                },
+                {
+                    "x": 63.79,
+                    "y": 50.31
+                },
+                {
+                    "x": 82.15,
+                    "y": 56.06
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 60000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 4032,
+                "teamName": "CD Mirandes",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 320000,
+                "source": "scisports",
+                "teamId": 161771,
+                "teamName": "Villarreal B",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 450000,
+                "currency": "EUR",
+                "lowerBound": 330000,
+                "upperBound": 560000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 410000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 510000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 380000,
+                "currency": "EUR",
+                "lowerBound": 280000,
+                "upperBound": 470000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 920000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 830000,
+                "currency": "EUR",
+                "lowerBound": 620000,
+                "upperBound": 1030000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 850000,
+                "currency": "EUR",
+                "lowerBound": 640000,
+                "upperBound": 1070000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 690000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 870000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 1150000,
+                "currency": "EUR",
+                "lowerBound": 870000,
+                "upperBound": 1440000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 1290000,
+                "currency": "EUR",
+                "lowerBound": 970000,
+                "upperBound": 1610000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 1750000,
+                "currency": "EUR",
+                "lowerBound": 1310000,
+                "upperBound": 2190000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 2650000,
+                "currency": "EUR",
+                "lowerBound": 1990000,
+                "upperBound": 3310000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 2730000,
+                "currency": "EUR",
+                "lowerBound": 2050000,
+                "upperBound": 3410000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 2820000,
+                "currency": "EUR",
+                "lowerBound": 2110000,
+                "upperBound": 3520000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 3040000,
+                "currency": "EUR",
+                "lowerBound": 2280000,
+                "upperBound": 3800000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 5160000,
+                "currency": "EUR",
+                "lowerBound": 3870000,
+                "upperBound": 6450000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 8440000,
+                "currency": "EUR",
+                "lowerBound": 6330000,
+                "upperBound": 10550000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 11460000,
+                "currency": "EUR",
+                "lowerBound": 8600000,
+                "upperBound": 14330000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 13820000,
+                "currency": "EUR",
+                "lowerBound": 10360000,
+                "upperBound": 17270000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 12110000,
+                "currency": "EUR",
+                "lowerBound": 9080000,
+                "upperBound": 15140000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 10710000,
+                "currency": "EUR",
+                "lowerBound": 8040000,
+                "upperBound": 13390000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 13200000,
+                "currency": "EUR",
+                "lowerBound": 9900000,
+                "upperBound": 16510000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 23840000,
+                "currency": "EUR",
+                "lowerBound": 17880000,
+                "upperBound": 29800000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 28750000,
+                "currency": "EUR",
+                "lowerBound": 21560000,
+                "upperBound": 35940000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 30600000,
+                "currency": "EUR",
+                "lowerBound": 22950000,
+                "upperBound": 38250000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 31040000,
+                "currency": "EUR",
+                "lowerBound": 23280000,
+                "upperBound": 38800000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 30620000,
+                "currency": "EUR",
+                "lowerBound": 22970000,
+                "upperBound": 38280000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 30650000,
+                "currency": "EUR",
+                "lowerBound": 22990000,
+                "upperBound": 38320000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 30460000,
+                "currency": "EUR",
+                "lowerBound": 22850000,
+                "upperBound": 38080000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 38080000,
+                "currency": "EUR",
+                "lowerBound": 34272000,
+                "upperBound": 41888000,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 41888000,
+                "currency": "EUR",
+                "lowerBound": 37699200,
+                "upperBound": 46076800,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 46076800,
+                "currency": "EUR",
+                "lowerBound": 41469120,
+                "upperBound": 50684480,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 50684480,
+                "currency": "EUR",
+                "lowerBound": 45616032,
+                "upperBound": 55752928,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 55752928,
+                "currency": "EUR",
+                "lowerBound": 50177635,
+                "upperBound": 61328220,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 61328220,
+                "currency": "EUR",
+                "lowerBound": 55195398,
+                "upperBound": 67461042,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 61717117,
+                "currency": "EUR",
+                "lowerBound": 55545405,
+                "upperBound": 67888829,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 67888829,
+                "currency": "EUR",
+                "lowerBound": 61099946,
+                "upperBound": 74677711,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 61099946,
+                "currency": "EUR",
+                "lowerBound": 54989951,
+                "upperBound": 67209940,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 67209940,
+                "currency": "EUR",
+                "lowerBound": 60488946,
+                "upperBound": 73930934,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 71200527,
+                "currency": "EUR",
+                "lowerBound": 64080475,
+                "upperBound": 78320580,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 73122514,
+                "currency": "EUR",
+                "lowerBound": 65810263,
+                "upperBound": 80434766,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 71773088,
+                "currency": "EUR",
+                "lowerBound": 64595780,
+                "upperBound": 78950397,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 69932521,
+                "currency": "EUR",
+                "lowerBound": 62939269,
+                "upperBound": 76925773,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 66896753,
+                "currency": "EUR",
+                "lowerBound": 60207077,
+                "upperBound": 73586428,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 66173881,
+                "currency": "EUR",
+                "lowerBound": 59556493,
+                "upperBound": 72791269,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 65651470,
+                "currency": "EUR",
+                "lowerBound": 59086323,
+                "upperBound": 72216617,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 65164814,
+                "currency": "EUR",
+                "lowerBound": 58648333,
+                "upperBound": 71681296,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 65164814,
+                "currency": "EUR",
+                "lowerBound": 58648333,
+                "upperBound": 71681296,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 65336357,
+                "currency": "EUR",
+                "lowerBound": 58802721,
+                "upperBound": 71869992,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 54374341,
+                "currency": "EUR",
+                "lowerBound": 48936907,
+                "upperBound": 59811775,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 53546089,
+                "currency": "EUR",
+                "lowerBound": 48191480,
+                "upperBound": 58900698,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 53678734,
+                "currency": "EUR",
+                "lowerBound": 48310861,
+                "upperBound": 59046608,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 55389032,
+                "currency": "EUR",
+                "lowerBound": 49850128,
+                "upperBound": 60927935,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 55389032,
+                "currency": "EUR",
+                "lowerBound": 49850128,
+                "upperBound": 60927935,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 54054086,
+                "currency": "EUR",
+                "lowerBound": 48648677,
+                "upperBound": 59459495,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 54401606,
+                "currency": "EUR",
+                "lowerBound": 48961445,
+                "upperBound": 59841766,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 48961445,
+                "currency": "EUR",
+                "lowerBound": 44065300,
+                "upperBound": 53857589,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 44065300,
+                "currency": "EUR",
+                "lowerBound": 39658770,
+                "upperBound": 48471830,
+                "source": "scisports",
+                "teamId": 9823,
+                "teamName": "Bayern M\u00fcnchen"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 39658770,
+                "currency": "EUR",
+                "lowerBound": 35692893,
+                "upperBound": 43624647,
+                "source": "scisports",
+                "teamId": 8455,
+                "teamName": "Chelsea",
+                "isPeriodStart": true
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1494947,
+                "name": "Aaron Anselmino"
+            },
+            {
+                "id": 696646,
+                "name": "Axel Disasi"
+            },
+            {
+                "id": 1170744,
+                "name": "Caleb Wiley"
+            },
+            {
+                "id": 1207581,
+                "name": "David Datro Fofana"
+            },
+            {
+                "id": 2062434,
+                "name": "Denner"
+            },
+            {
+                "id": 1183148,
+                "name": "Emanuel Emegha"
+            },
+            {
+                "id": 1530314,
+                "name": "Geovany Quenda"
+            },
+            {
+                "id": 1419974,
+                "name": "Ish\u00e9 Samuels-Smith"
+            },
+            {
+                "id": 1013046,
+                "name": "James Hillson"
+            },
+            {
+                "id": 1473806,
+                "name": "Marco Palestra"
+            },
+            {
+                "id": 1319972,
+                "name": "Mike Penders"
+            },
+            {
+                "id": 976506,
+                "name": "Mykhaylo Mudryk"
+            },
+            {
+                "id": 1315477,
+                "name": "Omari Kellyman"
+            },
+            {
+                "id": 789571,
+                "name": "Robert S\u00e1nchez"
+            },
+            {
+                "id": 683402,
+                "name": "Tosin Adarabioyo"
+            },
+            {
+                "id": 955376,
+                "name": "Beno\u00eet Badiashile"
+            },
+            {
+                "id": 1096400,
+                "name": "Levi Colwill"
+            },
+            {
+                "id": 843040,
+                "name": "Pedro Neto"
+            },
+            {
+                "id": 1137705,
+                "name": "Enzo Fern\u00e1ndez"
+            },
+            {
+                "id": 1113903,
+                "name": "Liam Delap"
+            },
+            {
+                "id": 1096353,
+                "name": "Cole Palmer"
+            },
+            {
+                "id": 1113692,
+                "name": "Jamie Gittens"
+            },
+            {
+                "id": 1200984,
+                "name": "Filip J\u00f6rgensen"
+            },
+            {
+                "id": 1239595,
+                "name": "D\u00e1rio Essugo"
+            },
+            {
+                "id": 1426170,
+                "name": "Mamadou Sarr"
+            },
+            {
+                "id": 1021382,
+                "name": "Jo\u00e3o Pedro"
+            },
+            {
+                "id": 1413846,
+                "name": "Jorrel Hato"
+            },
+            {
+                "id": 793907,
+                "name": "Trevoh Chalobah"
+            },
+            {
+                "id": 807729,
+                "name": "Reece James"
+            },
+            {
+                "id": 1137668,
+                "name": "Mois\u00e9s Caicedo"
+            },
+            {
+                "id": 1197250,
+                "name": "Malo Gusto"
+            },
+            {
+                "id": 917802,
+                "name": "Wesley Fofana"
+            },
+            {
+                "id": 1400216,
+                "name": "Josh Acheampong"
+            },
+            {
+                "id": 1412137,
+                "name": "Marc Guiu"
+            },
+            {
+                "id": 1580774,
+                "name": "Est\u00eav\u00e3o"
+            },
+            {
+                "id": 1031220,
+                "name": "Gaga Slonina"
+            },
+            {
+                "id": 1190867,
+                "name": "Rom\u00e9o Lavia"
+            },
+            {
+                "id": 1203665,
+                "name": "Alejandro Garnacho"
+            },
+            {
+                "id": 1346113,
+                "name": "Shumaira Mheuka"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 766574,
+                "name": "Yehvann Diouf"
+            },
+            {
+                "id": 1426170,
+                "name": "Mamadou Sarr"
+            },
+            {
+                "id": 210428,
+                "name": "Kalidou Koulibaly"
+            },
+            {
+                "id": 588626,
+                "name": "Abdoulaye Seck"
+            },
+            {
+                "id": 179410,
+                "name": "Idrissa Gana Gueye"
+            },
+            {
+                "id": 872396,
+                "name": "Path\u00e9 Ciss"
+            },
+            {
+                "id": 1434889,
+                "name": "Assane Diao"
+            },
+            {
+                "id": 1436305,
+                "name": "Lamine Camara"
+            },
+            {
+                "id": 1230848,
+                "name": "Bamba Dieng"
+            },
+            {
+                "id": 303339,
+                "name": "Sadio Man\u00e9"
+            },
+            {
+                "id": 819972,
+                "name": "Cherif Ndiaye"
+            },
+            {
+                "id": 965764,
+                "name": "Iliman Ndiaye"
+            },
+            {
+                "id": 906945,
+                "name": "Ismail Jakobs"
+            },
+            {
+                "id": 837061,
+                "name": "Kr\u00e9pin Diatta"
+            },
+            {
+                "id": 773229,
+                "name": "\u00c9douard Mendy"
+            },
+            {
+                "id": 1107280,
+                "name": "Pape Sarr"
+            },
+            {
+                "id": 771294,
+                "name": "Isma\u00efla Sarr"
+            },
+            {
+                "id": 592102,
+                "name": "Moussa Niakhat\u00e9"
+            },
+            {
+                "id": 1593857,
+                "name": "Ibrahim Mbaye"
+            },
+            {
+                "id": 1285866,
+                "name": "Habib Diarra"
+            },
+            {
+                "id": 1798782,
+                "name": "Bara Ndiaye"
+            },
+            {
+                "id": 466436,
+                "name": "Mory Diaw"
+            },
+            {
+                "id": 1254147,
+                "name": "Antoine Mendy"
+            },
+            {
+                "id": 1451265,
+                "name": "Malick Diouf"
+            },
+            {
+                "id": 844544,
+                "name": "Pape Gueye"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1798791,
+                "name": "Khady Faye"
+            },
+            {
+                "id": 1464988,
+                "name": "Mari\u00e8me Babou"
+            },
+            {
+                "id": 1464989,
+                "name": "Anta Demb\u00e9l\u00e9"
+            },
+            {
+                "id": 1798792,
+                "name": "A\u00efssatou Fall"
+            },
+            {
+                "id": 1798793,
+                "name": "Wolimata Ndiaye"
+            },
+            {
+                "id": 1798412,
+                "name": "Maty Cissokho"
+            },
+            {
+                "id": 1464993,
+                "name": "Mama Diop"
+            },
+            {
+                "id": 1798786,
+                "name": "Dieynaba Ndaw"
+            },
+            {
+                "id": 1464994,
+                "name": "Nguenar Ndiaye"
+            },
+            {
+                "id": 1464995,
+                "name": "Ndeye Diakhat\u00e9"
+            },
+            {
+                "id": 1464996,
+                "name": "Haby Bald\u00e9"
+            },
+            {
+                "id": 1463986,
+                "name": "Safi\u00e9tou Sagna"
+            },
+            {
+                "id": 1798795,
+                "name": "Adama San\u00e9"
+            },
+            {
+                "id": 1798789,
+                "name": "Sadigatou Diallo"
+            },
+            {
+                "id": 1798794,
+                "name": "Fatoumata Dram\u00e9"
+            },
+            {
+                "id": 1465004,
+                "name": "Tening S\u00e9ne"
+            },
+            {
+                "id": 1465001,
+                "name": "Hapsatou Diallo"
+            },
+            {
+                "id": 1465002,
+                "name": "M\u00e9ta Camara"
+            },
+            {
+                "id": 1465003,
+                "name": "Bineta Seck"
+            },
+            {
+                "id": 1463975,
+                "name": "Korka Fall"
+            },
+            {
+                "id": 1798787,
+                "name": "Nd\u00e8ye Casset"
+            },
+            {
+                "id": 1465008,
+                "name": "Pascaline Bassene"
+            },
+            {
+                "id": 1798790,
+                "name": "Adji Ndiaye"
+            },
+            {
+                "id": 1798785,
+                "name": "M\u00e9ta Kand\u00e9"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5199446,
+        "homeId": 323834,
+        "awayId": 8455,
+        "homeName": "Western Sydney Wanderers FC",
+        "awayName": "Chelsea",
+        "matchDate": "2026-07-28T09:45:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-28T09:45:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {},
+        "matchUrl": "/matches/chelsea-vs-western-sydney-wanderers-fc/pd1ik94#5199446"
+    },
+    "dataProvider": "enet"
+}

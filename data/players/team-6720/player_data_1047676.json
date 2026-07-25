@@ -1,0 +1,4861 @@
+{
+    "id": 1047676,
+    "name": "Y\u00e9remi Pino",
+    "birthDate": {
+        "utcTime": "2002-10-20T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9826,
+        "teamName": "Crystal Palace",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#0055A5",
+            "colorAlternate": "#0055A5",
+            "colorAway": "#E91D12",
+            "colorAwayAlternate": "#E91D12"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.24444444444444446
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.42,
+                    "ratio": 0.24444444444444446
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 31,
+                "position": "84",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 2,
+                "position": "103",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.24444444444444446
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "105",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 7,
+                "position": "107",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.35555555555555557
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Attacking Midfielder",
+            "key": "centerattackingmidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Left Midfielder",
+                "key": "leftmidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 172,
+                "key": null,
+                "fallback": "172 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 10,
+                "options": {},
+                "key": null,
+                "fallback": 10
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Spain"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "ESP"
+            },
+            "countryCode": "ESP"
+        },
+        {
+            "value": {
+                "numberValue": 44227398,
+                "key": null,
+                "fallback": "\u20ac44.2m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 47,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 2
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 26
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 34
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2091
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.71
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 4
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 9826,
+                "teamName": "Crystal Palace",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 10216,
+                        "leagueName": "Conference League",
+                        "seasonsWon": [
+                            "2025/2026"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "INT",
+                "teamId": 6720,
+                "teamName": "Spain",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9806,
+                        "leagueName": "UEFA Nations League A",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025",
+                            "2020/2021"
+                        ]
+                    }
+                ]
+            },
+            {
+                "ccode": "ESP",
+                "teamId": 10205,
+                "teamName": "Villarreal",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 73,
+                        "leagueName": "Europa League",
+                        "seasonsWon": [
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 6706,
+            "opponentTeamName": "Argentina",
+            "isHomeTeam": true,
+            "id": 4653858,
+            "matchDate": {
+                "utcTime": "2026-07-19T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-spain/1ho257#4653858",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 4653855,
+            "matchDate": {
+                "utcTime": "2026-07-14T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-france/1hsydl#4653855",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": true,
+            "id": 4653853,
+            "matchDate": {
+                "utcTime": "2026-07-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-belgium/1uu52b#4653853",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8361,
+            "opponentTeamName": "Portugal",
+            "isHomeTeam": false,
+            "id": 4653844,
+            "matchDate": {
+                "utcTime": "2026-07-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-portugal/1vppuu#4653844",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8255,
+            "opponentTeamName": "Austria",
+            "isHomeTeam": true,
+            "id": 4653708,
+            "matchDate": {
+                "utcTime": "2026-07-02T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-austria/1urklb#4653708",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 5796,
+            "opponentTeamName": "Uruguay",
+            "isHomeTeam": false,
+            "id": 4667802,
+            "matchDate": {
+                "utcTime": "2026-06-27T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-spain/1an22i#4667802",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": true,
+            "id": 4667801,
+            "matchDate": {
+                "utcTime": "2026-06-21T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-saudi-arabia/1qq6ht#4667801",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 5888,
+            "opponentTeamName": "Cape Verde",
+            "isHomeTeam": true,
+            "id": 4667798,
+            "matchDate": {
+                "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. H",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": false,
+            "id": 5293453,
+            "matchDate": {
+                "utcTime": "2026-06-09T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-spain/1anldx#5293453",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 5819,
+            "opponentTeamName": "Iraq",
+            "isHomeTeam": true,
+            "id": 5451161,
+            "matchDate": {
+                "utcTime": "2026-06-04T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/iraq-vs-spain/1at8ei#5451161",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8370,
+            "opponentTeamName": "Rayo Vallecano",
+            "isHomeTeam": true,
+            "id": 5206271,
+            "matchDate": {
+                "utcTime": "2026-05-27T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rayo-vallecano-vs-crystal-palace/2qknn8#5206271",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 4813747,
+            "matchDate": {
+                "utcTime": "2026-05-24T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-crystal-palace/36ytc8#4813747",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": false,
+            "id": 4813738,
+            "matchDate": {
+                "utcTime": "2026-05-17T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-brentford/38a4jj#4813738",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4813681,
+            "matchDate": {
+                "utcTime": "2026-05-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-crystal-palace/2ri9zd#4813681",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4813727,
+            "matchDate": {
+                "utcTime": "2026-05-10T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-crystal-palace/2tttz7#4813727",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9728,
+            "opponentTeamName": "Shakhtar Donetsk",
+            "isHomeTeam": true,
+            "id": 5206269,
+            "matchDate": {
+                "utcTime": "2026-05-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shakhtar-donetsk-vs-crystal-palace/35u251#5206269",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/2",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": false,
+            "id": 4813715,
+            "matchDate": {
+                "utcTime": "2026-05-03T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-crystal-palace/2txspy#4813715",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9728,
+            "opponentTeamName": "Shakhtar Donetsk",
+            "isHomeTeam": false,
+            "id": 5206267,
+            "matchDate": {
+                "utcTime": "2026-04-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shakhtar-donetsk-vs-crystal-palace/35u251#5206267",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4813710,
+            "matchDate": {
+                "utcTime": "2026-04-25T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-crystal-palace/2tmp8g#4813710",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4813698,
+            "matchDate": {
+                "utcTime": "2026-04-20T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-crystal-palace/2toa9m#4813698",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": false,
+            "id": 5206264,
+            "matchDate": {
+                "utcTime": "2026-04-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-crystal-palace/2sdatz#5206264",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": true,
+            "id": 4813689,
+            "matchDate": {
+                "utcTime": "2026-04-12T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-newcastle-united/3c4hty#4813689",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 76,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": true,
+            "id": 5206260,
+            "matchDate": {
+                "utcTime": "2026-04-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-crystal-palace/2sdatz#5206260",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": true,
+            "id": 5137675,
+            "matchDate": {
+                "utcTime": "2026-03-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-egypt/2dscyg#5137675",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8205,
+            "opponentTeamName": "Serbia",
+            "isHomeTeam": true,
+            "id": 5249576,
+            "matchDate": {
+                "utcTime": "2026-03-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-serbia/1ubjrc#5249576",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 7797,
+            "opponentTeamName": "AEK Larnaca",
+            "isHomeTeam": false,
+            "id": 5206225,
+            "matchDate": {
+                "utcTime": "2026-03-19T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-larnaca-vs-crystal-palace/2kgp3q#5206225",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 44,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8463,
+            "opponentTeamName": "Leeds United",
+            "isHomeTeam": true,
+            "id": 4813669,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-crystal-palace/2rl0qz#4813669",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 7797,
+            "opponentTeamName": "AEK Larnaca",
+            "isHomeTeam": true,
+            "id": 5206217,
+            "matchDate": {
+                "utcTime": "2026-03-12T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-larnaca-vs-crystal-palace/2kgp3q#5206217",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": false,
+            "id": 4813663,
+            "matchDate": {
+                "utcTime": "2026-03-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-crystal-palace/2sxee8#4813663",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": false,
+            "id": 4813652,
+            "matchDate": {
+                "utcTime": "2026-03-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-manchester-united/3c42bz#4813652",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10107,
+            "opponentTeamName": "Zrinjski Mostar",
+            "isHomeTeam": true,
+            "id": 5141724,
+            "matchDate": {
+                "utcTime": "2026-02-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-zrinjski-mostar/3aag1h#5141724",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": true,
+            "id": 4813638,
+            "matchDate": {
+                "utcTime": "2026-02-22T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-crystal-palace/2t3pt4#4813638",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10107,
+            "opponentTeamName": "Zrinjski Mostar",
+            "isHomeTeam": false,
+            "id": 5141716,
+            "matchDate": {
+                "utcTime": "2026-02-19T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-zrinjski-mostar/3aag1h#5141716",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813628,
+            "matchDate": {
+                "utcTime": "2026-02-11T19:40:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-crystal-palace/2on6r7#4813628",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": false,
+            "id": 4813617,
+            "matchDate": {
+                "utcTime": "2026-02-08T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-brighton-hove-albion/3bfzlv#4813617",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 56,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4813611,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-nottingham-forest/3bfk5h#4813611",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": true,
+            "id": 4813599,
+            "matchDate": {
+                "utcTime": "2026-01-25T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-crystal-palace/2rhvvj#4813599",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": false,
+            "id": 4813592,
+            "matchDate": {
+                "utcTime": "2026-01-17T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-crystal-palace/2rojsh#4813592",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8599,
+            "opponentTeamName": "Macclesfield FC",
+            "isHomeTeam": false,
+            "id": 5089921,
+            "matchDate": {
+                "utcTime": "2026-01-10T12:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/macclesfield-fc-vs-crystal-palace/2t2j5j#5089921",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": true,
+            "id": 4813579,
+            "matchDate": {
+                "utcTime": "2026-01-07T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-aston-villa/3c0md7#4813579",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4813572,
+            "matchDate": {
+                "utcTime": "2026-01-04T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-newcastle-united/3c4hty#4813572",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 87,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": true,
+            "id": 4813559,
+            "matchDate": {
+                "utcTime": "2026-01-01T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-fulham/37llbg#4813559",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": true,
+            "id": 4813549,
+            "matchDate": {
+                "utcTime": "2025-12-28T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-crystal-palace/2sxee8#4813549",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 5034192,
+            "matchDate": {
+                "utcTime": "2025-12-23T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-crystal-palace/36ytc8#5034192",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8463,
+            "opponentTeamName": "Leeds United",
+            "isHomeTeam": false,
+            "id": 4813540,
+            "matchDate": {
+                "utcTime": "2025-12-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-crystal-palace/2rl0qz#4813540",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 1693,
+            "opponentTeamName": "KuPS",
+            "isHomeTeam": true,
+            "id": 4947964,
+            "matchDate": {
+                "utcTime": "2025-12-18T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/kups-vs-crystal-palace/13ib4y#4947964",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": true,
+            "id": 4813529,
+            "matchDate": {
+                "utcTime": "2025-12-14T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-crystal-palace/2ri9zd#4813529",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 5751,
+            "opponentTeamName": "Shelbourne",
+            "isHomeTeam": false,
+            "id": 4948069,
+            "matchDate": {
+                "utcTime": "2025-12-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shelbourne-vs-crystal-palace/208ptz#4948069",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": false,
+            "id": 4813519,
+            "matchDate": {
+                "utcTime": "2025-12-07T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-fulham/37llbg#4813519",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": false,
+            "id": 4813508,
+            "matchDate": {
+                "utcTime": "2025-12-03T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-crystal-palace/2on6r7#4813508",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": true,
+            "id": 4813498,
+            "matchDate": {
+                "utcTime": "2025-11-30T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-manchester-united/3c42bz#4813498",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": false,
+            "id": 4948002,
+            "matchDate": {
+                "utcTime": "2025-11-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-strasbourg/378ibb#4948002",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813494,
+            "matchDate": {
+                "utcTime": "2025-11-22T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-crystal-palace/2t3pt4#4813494",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 81,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 6595,
+            "opponentTeamName": "Turkiye",
+            "isHomeTeam": true,
+            "id": 4689350,
+            "matchDate": {
+                "utcTime": "2025-11-18T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/turkiye-vs-spain/1gs8xy#4689350",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. E",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8268,
+            "opponentTeamName": "Georgia",
+            "isHomeTeam": false,
+            "id": 4689347,
+            "matchDate": {
+                "utcTime": "2025-11-15T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-georgia/1uvqvu#4689347",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. E",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": true,
+            "id": 4813478,
+            "matchDate": {
+                "utcTime": "2025-11-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-brighton-hove-albion/3bfzlv#4813478",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10229,
+            "opponentTeamName": "AZ Alkmaar",
+            "isHomeTeam": true,
+            "id": 4947963,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-az-alkmaar/3bqq8m#4947963",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": true,
+            "id": 4813467,
+            "matchDate": {
+                "utcTime": "2025-11-01T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-brentford/38a4jj#4813467",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4978149,
+            "matchDate": {
+                "utcTime": "2025-10-29T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-crystal-palace/2tmp8g#4978149",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813456,
+            "matchDate": {
+                "utcTime": "2025-10-26T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-crystal-palace/36ytc8#4813456",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 7797,
+            "opponentTeamName": "AEK Larnaca",
+            "isHomeTeam": true,
+            "id": 4947965,
+            "matchDate": {
+                "utcTime": "2025-10-23T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-larnaca-vs-crystal-palace/2kgp3q#4947965",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4813447,
+            "matchDate": {
+                "utcTime": "2025-10-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-crystal-palace/2txspy#4813447",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 10150,
+            "opponentTeamName": "Bulgaria",
+            "isHomeTeam": true,
+            "id": 4689346,
+            "matchDate": {
+                "utcTime": "2025-10-14T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-bulgaria/2cq9vp#4689346",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. E",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6720,
+            "teamName": "Spain",
+            "opponentTeamId": 8268,
+            "opponentTeamName": "Georgia",
+            "isHomeTeam": true,
+            "id": 4689344,
+            "matchDate": {
+                "utcTime": "2025-10-11T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-georgia/1uvqvu#4689344",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. E",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": false,
+            "id": 4813440,
+            "matchDate": {
+                "utcTime": "2025-10-05T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-crystal-palace/2tttz7#4813440",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8688,
+            "opponentTeamName": "Dynamo Kyiv",
+            "isHomeTeam": false,
+            "id": 4947960,
+            "matchDate": {
+                "utcTime": "2025-10-02T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/dynamo-kyiv-vs-crystal-palace/2u1rjh#4947960",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": true,
+            "id": 4813428,
+            "matchDate": {
+                "utcTime": "2025-09-27T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-crystal-palace/2tmp8g#4813428",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": false,
+            "id": 4813423,
+            "matchDate": {
+                "utcTime": "2025-09-20T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-crystal-palace/2toa9m#4813423",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 10004,
+            "opponentTeamName": "Millwall",
+            "isHomeTeam": true,
+            "id": 4945941,
+            "matchDate": {
+                "utcTime": "2025-09-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-millwall/392jwv#4945941",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9826,
+            "teamName": "Crystal Palace",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": true,
+            "id": 4813409,
+            "matchDate": {
+                "utcTime": "2025-09-13T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-crystal-palace/2rojsh#4813409",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1047676,
+                        "teamId": 9826,
+                        "team": "Crystal Palace",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-08-29T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "51",
+                        "goals": "5",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-17T00:00:00",
+                        "endDate": "2025-08-29T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "170",
+                        "goals": "22",
+                        "assists": "21",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": -1,
+                        "team": "Villarreal CF III",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2023-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-08-01T00:00:00",
+                        "endDate": "2020-08-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": -1,
+                        "team": "Villarreal CF III",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-01T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "20",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "51",
+                        "goals": "5",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "6.86"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "6.71"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28891,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.69"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27199,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28191,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            }
+                        ],
+                        "teamId": 9826,
+                        "team": "Crystal Palace",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.73"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27233,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.73"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "35",
+                        "goals": "4",
+                        "assists": "9",
+                        "rating": {
+                            "rating": "7.05"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23686,
+                                "goals": "4",
+                                "assists": "7",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24269,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.89"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "10",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.71"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21053,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.18"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "46",
+                        "goals": "4",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17852,
+                                "goals": "4",
+                                "assists": "5",
+                                "appearances": "36",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18381,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17778,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.50"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "40",
+                        "goals": "7",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "6.76"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16520,
+                                "goals": "6",
+                                "assists": "4",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "6.77"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17075,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16407,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.84"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 74,
+                                "leagueName": "UEFA Super Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17695,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "37",
+                        "goals": "7",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.75"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15585,
+                                "goals": "3",
+                                "assists": "1",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.69"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15839,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15238,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.59"
+                                }
+                            }
+                        ],
+                        "teamId": 10205,
+                        "team": "Villarreal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "20",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Tercera Divisi\u00f3n RFEF",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Villarreal CF III",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1047676,
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-12-17T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Premier League International Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 161771,
+                        "team": "Villarreal B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1047676,
+                        "teamId": 6720,
+                        "team": "Spain",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-06-07T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "25",
+                        "goals": "4",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": 8505,
+                        "team": "Spain U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-03-18T00:00:00",
+                        "endDate": "2021-10-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1047676,
+                        "teamId": 6585,
+                        "team": "Spain U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-10-08T00:00:00",
+                        "endDate": "2019-10-27T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "11",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "10",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.52"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "5.96"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            }
+                        ],
+                        "teamId": 6720,
+                        "team": "Spain",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.89"
+                                }
+                            }
+                        ],
+                        "teamId": 6720,
+                        "team": "Spain",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "7",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.67"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.67"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17161,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.89"
+                                }
+                            }
+                        ],
+                        "teamId": 6720,
+                        "team": "Spain",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.98"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15023,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            }
+                        ],
+                        "teamId": 6720,
+                        "team": "Spain",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "2",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8505,
+                        "team": "Spain U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2021",
+                                "tournamentId": 15894,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8505,
+                        "team": "Spain U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "11",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 301,
+                                "leagueName": "UEFA U17 Championship",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6585,
+                        "team": "Spain U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.86
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.77
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.78
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.24
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.46
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.66
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "yeremi-pino",
+        "pageurl": "/players/1047676/yeremi-pino",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Y\u00e9remi Pino?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino is 23 years old. Born on Sun Oct 20 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Y\u00e9remi Pino?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino is 172 cm tall. Or 5 ft 8 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Y\u00e9remi Pino born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino was born Sun Oct 20 2002 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Y\u00e9remi Pino's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Y\u00e9remi Pino's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino's transfer value is estimated to be around \u20ac44.2m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Y\u00e9remi Pino from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino is from Spain."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Y\u00e9remi Pino scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Y\u00e9remi Pino has scored 2 goals in the Premier League."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Y\u00e9remi Pino",
+            "birthDate": "2002-10-20T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1047676/yeremi-pino",
+            "nationality": {
+                "@type": "Country",
+                "name": "Spain"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Crystal Palace"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "172"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "70"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Crystal Palace",
+                    "item": "https://www.fotmob.com/teams/9826/overview/crystal-palace"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Y\u00e9remi Pino",
+                    "item": "https://www.fotmob.com/leagues/1047676/overview/yeremi-pino"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "1-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "5-3",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "6-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A playoff",
+                    "tournamentId": 9806,
+                    "entryId": "6-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Super Cup",
+                    "tournamentId": 74,
+                    "entryId": "6-4",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 5.955,
+                    "percentileRank": 15.688161693936479,
+                    "percentileRankPer90": 15.688161693936479,
+                    "statFormat": "fraction",
+                    "statValue": "5.96",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 2,
+                    "percentileRank": 18.38306063522618,
+                    "percentileRankPer90": 18.38306063522618,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 24.639076034648703,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "69",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 81.47,
+                    "y": 67.08
+                },
+                {
+                    "x": 57.38,
+                    "y": 66.36
+                },
+                {
+                    "x": 72.24,
+                    "y": 52.13
+                },
+                {
+                    "x": 75.73,
+                    "y": 37.95
+                },
+                {
+                    "x": 57.99,
+                    "y": 63.74
+                },
+                {
+                    "x": 74.6,
+                    "y": 64.26
+                },
+                {
+                    "x": 77.53,
+                    "y": 60.33
+                },
+                {
+                    "x": 66.15,
+                    "y": 56.59
+                },
+                {
+                    "x": 63.23,
+                    "y": 54.82
+                },
+                {
+                    "x": 86.57,
+                    "y": 43.86
+                },
+                {
+                    "x": 69.65,
+                    "y": 63.47
+                },
+                {
+                    "x": 71.22,
+                    "y": 63.67
+                },
+                {
+                    "x": 74.26,
+                    "y": 50.1
+                },
+                {
+                    "x": 95.35,
+                    "y": 3.35
+                },
+                {
+                    "x": 88.7,
+                    "y": 55.87
+                },
+                {
+                    "x": 86.25,
+                    "y": 48.91
+                },
+                {
+                    "x": 65.93,
+                    "y": 53.67
+                },
+                {
+                    "x": 12.3,
+                    "y": 63.74
+                },
+                {
+                    "x": 36.93,
+                    "y": 38.12
+                },
+                {
+                    "x": 59.21,
+                    "y": 23.09
+                },
+                {
+                    "x": 40.42,
+                    "y": 53.53
+                },
+                {
+                    "x": 37.16,
+                    "y": 48.91
+                },
+                {
+                    "x": 99.21,
+                    "y": 34.3
+                },
+                {
+                    "x": 76.29,
+                    "y": 59.41
+                },
+                {
+                    "x": 85.71,
+                    "y": 59.8
+                },
+                {
+                    "x": 76.07,
+                    "y": 63.34
+                },
+                {
+                    "x": 63.45,
+                    "y": 63.67
+                },
+                {
+                    "x": 74.49,
+                    "y": 63.74
+                },
+                {
+                    "x": 53.92,
+                    "y": 21.2
+                },
+                {
+                    "x": 27.25,
+                    "y": 2.49
+                },
+                {
+                    "x": 91.4,
+                    "y": 47.01
+                },
+                {
+                    "x": 90,
+                    "y": 62.56
+                },
+                {
+                    "x": 68.52,
+                    "y": 6.36
+                },
+                {
+                    "x": 72.91,
+                    "y": 4.26
+                },
+                {
+                    "x": 56.36,
+                    "y": 61.77
+                },
+                {
+                    "x": 34.12,
+                    "y": 58.29
+                },
+                {
+                    "x": 43.24,
+                    "y": 63.8
+                },
+                {
+                    "x": 26.68,
+                    "y": 60.65
+                },
+                {
+                    "x": 68.52,
+                    "y": 64.72
+                },
+                {
+                    "x": 64.8,
+                    "y": 51.43
+                },
+                {
+                    "x": 38.17,
+                    "y": 49.75
+                },
+                {
+                    "x": 38.17,
+                    "y": 49.75
+                },
+                {
+                    "x": 38.28,
+                    "y": 42.18
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 1090000,
+                "currency": "EUR",
+                "lowerBound": 820000,
+                "upperBound": 1370000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Villarreal CF III",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 2090000,
+                "currency": "EUR",
+                "lowerBound": 1570000,
+                "upperBound": 2620000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Villarreal CF III"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 5300000,
+                "currency": "EUR",
+                "lowerBound": 3970000,
+                "upperBound": 6620000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 8500000,
+                "currency": "EUR",
+                "lowerBound": 6380000,
+                "upperBound": 10630000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 12940000,
+                "currency": "EUR",
+                "lowerBound": 9700000,
+                "upperBound": 16170000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 17370000,
+                "currency": "EUR",
+                "lowerBound": 13030000,
+                "upperBound": 21720000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 32550000,
+                "currency": "EUR",
+                "lowerBound": 24410000,
+                "upperBound": 40690000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 35380000,
+                "currency": "EUR",
+                "lowerBound": 26530000,
+                "upperBound": 44220000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 35970000,
+                "currency": "EUR",
+                "lowerBound": 26980000,
+                "upperBound": 44970000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 44740000,
+                "currency": "EUR",
+                "lowerBound": 33550000,
+                "upperBound": 55920000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 46860000,
+                "currency": "EUR",
+                "lowerBound": 35140000,
+                "upperBound": 58570000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 49890000,
+                "currency": "EUR",
+                "lowerBound": 37410000,
+                "upperBound": 62360000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 45730000,
+                "currency": "EUR",
+                "lowerBound": 34300000,
+                "upperBound": 57160000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 48400000,
+                "currency": "EUR",
+                "lowerBound": 36300000,
+                "upperBound": 60500000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 44550000,
+                "currency": "EUR",
+                "lowerBound": 33420000,
+                "upperBound": 55690000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 48690000,
+                "currency": "EUR",
+                "lowerBound": 36520000,
+                "upperBound": 60860000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 51180000,
+                "currency": "EUR",
+                "lowerBound": 38380000,
+                "upperBound": 63970000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 43990000,
+                "currency": "EUR",
+                "lowerBound": 32990000,
+                "upperBound": 54990000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 43410000,
+                "currency": "EUR",
+                "lowerBound": 32560000,
+                "upperBound": 54270000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 44020000,
+                "currency": "EUR",
+                "lowerBound": 33020000,
+                "upperBound": 55030000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 43450000,
+                "currency": "EUR",
+                "lowerBound": 32590000,
+                "upperBound": 54310000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 42130000,
+                "currency": "EUR",
+                "lowerBound": 31600000,
+                "upperBound": 52670000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 39310000,
+                "currency": "EUR",
+                "lowerBound": 29480000,
+                "upperBound": 49140000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 37600000,
+                "currency": "EUR",
+                "lowerBound": 28200000,
+                "upperBound": 47000000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 37450000,
+                "currency": "EUR",
+                "lowerBound": 28090000,
+                "upperBound": 46820000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 36050000,
+                "currency": "EUR",
+                "lowerBound": 27040000,
+                "upperBound": 45060000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 40300000,
+                "currency": "EUR",
+                "lowerBound": 30220000,
+                "upperBound": 50380000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 41050000,
+                "currency": "EUR",
+                "lowerBound": 30790000,
+                "upperBound": 51310000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 48240000,
+                "currency": "EUR",
+                "lowerBound": 36180000,
+                "upperBound": 60300000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 45190000,
+                "currency": "EUR",
+                "lowerBound": 33890000,
+                "upperBound": 56480000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 41950000,
+                "currency": "EUR",
+                "lowerBound": 31460000,
+                "upperBound": 52440000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 41670000,
+                "currency": "EUR",
+                "lowerBound": 31260000,
+                "upperBound": 52090000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 41060000,
+                "currency": "EUR",
+                "lowerBound": 30800000,
+                "upperBound": 51330000,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 40122373,
+                "currency": "EUR",
+                "lowerBound": 36110136,
+                "upperBound": 44134611,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 39837795,
+                "currency": "EUR",
+                "lowerBound": 35854016,
+                "upperBound": 43821575,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 39363359,
+                "currency": "EUR",
+                "lowerBound": 35427023,
+                "upperBound": 43299695,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 38849540,
+                "currency": "EUR",
+                "lowerBound": 34964586,
+                "upperBound": 42734494,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 37286522,
+                "currency": "EUR",
+                "lowerBound": 33557869,
+                "upperBound": 41015174,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 37434119,
+                "currency": "EUR",
+                "lowerBound": 33690707,
+                "upperBound": 41177531,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 37434119,
+                "currency": "EUR",
+                "lowerBound": 33690707,
+                "upperBound": 41177531,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 37965237,
+                "currency": "EUR",
+                "lowerBound": 34168713,
+                "upperBound": 41761761,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 37965237,
+                "currency": "EUR",
+                "lowerBound": 34168713,
+                "upperBound": 41761761,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 37965237,
+                "currency": "EUR",
+                "lowerBound": 34168713,
+                "upperBound": 41761761,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 37882862,
+                "currency": "EUR",
+                "lowerBound": 34094576,
+                "upperBound": 41671148,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 37882862,
+                "currency": "EUR",
+                "lowerBound": 34094576,
+                "upperBound": 41671148,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 37434119,
+                "currency": "EUR",
+                "lowerBound": 33690707,
+                "upperBound": 41177531,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 37129904,
+                "currency": "EUR",
+                "lowerBound": 33416914,
+                "upperBound": 40842895,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 37610809,
+                "currency": "EUR",
+                "lowerBound": 33849728,
+                "upperBound": 41371890,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 37074998,
+                "currency": "EUR",
+                "lowerBound": 33367498,
+                "upperBound": 40782497,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 37678039,
+                "currency": "EUR",
+                "lowerBound": 33910235,
+                "upperBound": 41445843,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 34406446,
+                "currency": "EUR",
+                "lowerBound": 30965801,
+                "upperBound": 37847091,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 34406446,
+                "currency": "EUR",
+                "lowerBound": 30965801,
+                "upperBound": 37847091,
+                "source": "scisports",
+                "teamId": 10205,
+                "teamName": "Villarreal"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 34406446,
+                "currency": "EUR",
+                "lowerBound": 30965801,
+                "upperBound": 37847091,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 40315444,
+                "currency": "EUR",
+                "lowerBound": 36283900,
+                "upperBound": 44346989,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 41613983,
+                "currency": "EUR",
+                "lowerBound": 37452585,
+                "upperBound": 45775382,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 41743834,
+                "currency": "EUR",
+                "lowerBound": 37569450,
+                "upperBound": 45918217,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 41887082,
+                "currency": "EUR",
+                "lowerBound": 37698374,
+                "upperBound": 46075790,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 46075790,
+                "currency": "EUR",
+                "lowerBound": 41468211,
+                "upperBound": 50683369,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 45654788,
+                "currency": "EUR",
+                "lowerBound": 41089310,
+                "upperBound": 50220267,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 42417615,
+                "currency": "EUR",
+                "lowerBound": 38175854,
+                "upperBound": 46659377,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 46659377,
+                "currency": "EUR",
+                "lowerBound": 41993439,
+                "upperBound": 51325314,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 49141554,
+                "currency": "EUR",
+                "lowerBound": 44227398,
+                "upperBound": 54055709,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 44227398,
+                "currency": "EUR",
+                "lowerBound": 39804658,
+                "upperBound": 48650137,
+                "source": "scisports",
+                "teamId": 9826,
+                "teamName": "Crystal Palace"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1316124,
+                "name": "Matheus Fran\u00e7a"
+            },
+            {
+                "id": 719330,
+                "name": "Dean Henderson"
+            },
+            {
+                "id": 859282,
+                "name": "Daniel Mu\u00f1oz"
+            },
+            {
+                "id": 1120224,
+                "name": "Tyrick Mitchell"
+            },
+            {
+                "id": 950485,
+                "name": "Maxence Lacroix"
+            },
+            {
+                "id": 771294,
+                "name": "Isma\u00efla Sarr"
+            },
+            {
+                "id": 1226789,
+                "name": "Jesurun Rak-Sakyi"
+            },
+            {
+                "id": 1330872,
+                "name": "David Ozoh"
+            },
+            {
+                "id": 466672,
+                "name": "Jefferson Lerma"
+            },
+            {
+                "id": 860920,
+                "name": "Edward Nketiah"
+            },
+            {
+                "id": 1076756,
+                "name": "Brennan Johnson"
+            },
+            {
+                "id": 706297,
+                "name": "Jean-Philippe Mateta"
+            },
+            {
+                "id": 157838,
+                "name": "Nathaniel Clyne"
+            },
+            {
+                "id": 621515,
+                "name": "Daichi Kamada"
+            },
+            {
+                "id": 295067,
+                "name": "Will Hughes"
+            },
+            {
+                "id": 1296650,
+                "name": "Adam Wharton"
+            },
+            {
+                "id": 1428401,
+                "name": "Romain Esse"
+            },
+            {
+                "id": 1559636,
+                "name": "George King"
+            },
+            {
+                "id": 821100,
+                "name": "J\u00f8rgen Strand Larsen"
+            },
+            {
+                "id": 1664722,
+                "name": "Jaydee Canvot"
+            },
+            {
+                "id": 622091,
+                "name": "Borna Sosa"
+            },
+            {
+                "id": 950829,
+                "name": "Chris Richards"
+            },
+            {
+                "id": 951954,
+                "name": "Cheick Oumar Doucour\u00e9"
+            },
+            {
+                "id": 952095,
+                "name": "\u00d3scar Mingueza"
+            },
+            {
+                "id": 562726,
+                "name": "Remi Matthews"
+            },
+            {
+                "id": 1187506,
+                "name": "Chadi Riad"
+            },
+            {
+                "id": 1253868,
+                "name": "Joe Whitworth"
+            },
+            {
+                "id": 1244376,
+                "name": "Kaden Rodney"
+            },
+            {
+                "id": 448897,
+                "name": "Walter Ben\u00edtez"
+            },
+            {
+                "id": 1336751,
+                "name": "Justin Devenny"
+            },
+            {
+                "id": 1418099,
+                "name": "Caleb Kporha"
+            },
+            {
+                "id": 1422586,
+                "name": "Rio Cardines"
+            },
+            {
+                "id": 1690903,
+                "name": "Dean Benamar"
+            },
+            {
+                "id": 1700817,
+                "name": "Jo\u00e9l Drakes-Thomas"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 562727,
+                "name": "David Raya"
+            },
+            {
+                "id": 1323897,
+                "name": "Marc Pubill"
+            },
+            {
+                "id": 288406,
+                "name": "Alejandro Grimaldo"
+            },
+            {
+                "id": 940573,
+                "name": "Eric Garc\u00eda"
+            },
+            {
+                "id": 602563,
+                "name": "Marcos Llorente"
+            },
+            {
+                "id": 574645,
+                "name": "Mikel Merino"
+            },
+            {
+                "id": 881771,
+                "name": "Ferran Torres"
+            },
+            {
+                "id": 605654,
+                "name": "Fabi\u00e1n Ruiz"
+            },
+            {
+                "id": 1279040,
+                "name": "Gavi"
+            },
+            {
+                "id": 614834,
+                "name": "Dani Olmo"
+            },
+            {
+                "id": 941573,
+                "name": "Pedro Porro"
+            },
+            {
+                "id": 1167220,
+                "name": "Joan Garc\u00eda"
+            },
+            {
+                "id": 411617,
+                "name": "Aymeric Laporte"
+            },
+            {
+                "id": 942372,
+                "name": "\u00c1lex Baena"
+            },
+            {
+                "id": 675088,
+                "name": "Rodri"
+            },
+            {
+                "id": 1202110,
+                "name": "Nico Williams"
+            },
+            {
+                "id": 1031325,
+                "name": "Mart\u00edn Zubimendi"
+            },
+            {
+                "id": 1467236,
+                "name": "Lamine Yamal"
+            },
+            {
+                "id": 1083323,
+                "name": "Pedri"
+            },
+            {
+                "id": 678234,
+                "name": "Mikel Oyarzabal"
+            },
+            {
+                "id": 1532137,
+                "name": "Pau Cubars\u00ed"
+            },
+            {
+                "id": 660625,
+                "name": "Unai Sim\u00f3n"
+            },
+            {
+                "id": 873289,
+                "name": "Marc Cucurella"
+            },
+            {
+                "id": 1553105,
+                "name": "V\u00edctor Mu\u00f1oz"
+            },
+            {
+                "id": 609505,
+                "name": "Borja Iglesias"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1242064,
+                "name": "Andrea Medina"
+            },
+            {
+                "id": 887325,
+                "name": "Misa"
+            },
+            {
+                "id": 1044313,
+                "name": "Ona Batlle"
+            },
+            {
+                "id": 1178011,
+                "name": "Jana Fern\u00e1ndez"
+            },
+            {
+                "id": 298582,
+                "name": "Irene Paredes"
+            },
+            {
+                "id": 1098363,
+                "name": "Mar\u00eda M\u00e9ndez"
+            },
+            {
+                "id": 887411,
+                "name": "Aitana Bonmat\u00ed"
+            },
+            {
+                "id": 1043806,
+                "name": "Olga Carmona"
+            },
+            {
+                "id": 835903,
+                "name": "Mariona Caldentey"
+            },
+            {
+                "id": 1686783,
+                "name": "Clara Serrajordi"
+            },
+            {
+                "id": 857417,
+                "name": "Esther Gonz\u00e1lez"
+            },
+            {
+                "id": 1127396,
+                "name": "Athenea del Castillo"
+            },
+            {
+                "id": 462289,
+                "name": "Alexia Putellas"
+            },
+            {
+                "id": 887405,
+                "name": "Patri Guijarro"
+            },
+            {
+                "id": 1178008,
+                "name": "Cata Coll"
+            },
+            {
+                "id": 1345452,
+                "name": "Vicky L\u00f3pez"
+            },
+            {
+                "id": 1083800,
+                "name": "Laia Codina"
+            },
+            {
+                "id": 829862,
+                "name": "Mapi Le\u00f3n"
+            },
+            {
+                "id": 1473593,
+                "name": "Luc\u00eda Corrales"
+            },
+            {
+                "id": 1345439,
+                "name": "Salma Paralluelo"
+            },
+            {
+                "id": 1043818,
+                "name": "Eva Navarro"
+            },
+            {
+                "id": 1031791,
+                "name": "Cl\u00e0udia Pina"
+            },
+            {
+                "id": 1345374,
+                "name": "Fiamma Ben\u00edtez"
+            },
+            {
+                "id": 1546658,
+                "name": "Edna Imade"
+            },
+            {
+                "id": 1345395,
+                "name": "Adriana Nanclares"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5898864,
+        "homeId": 45729,
+        "awayId": 9826,
+        "homeName": "Bromley",
+        "awayName": "Crystal Palace",
+        "matchDate": "2026-07-25T14:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-25T14:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Copperjax Community Stadium",
+            "city": "London",
+            "lat": 51.390098079,
+            "long": 0.021055341
+        },
+        "matchUrl": "/matches/crystal-palace-vs-bromley/pishk8#5898864"
+    },
+    "dataProvider": "enet"
+}

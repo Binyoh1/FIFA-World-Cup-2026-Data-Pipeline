@@ -1,0 +1,4985 @@
+{
+    "id": 1395704,
+    "name": "Gu\u00e9la Dou\u00e9",
+    "birthDate": {
+        "utcTime": "2002-10-17T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9848,
+        "teamName": "Strasbourg",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#294A92",
+            "colorAlternate": "#294A92",
+            "colorAway": "#CF1C2B",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Back",
+                    "key": "rightback"
+                },
+                "strPosShort": {
+                    "label": "RB",
+                    "key": "rightback_short"
+                },
+                "occurences": 28,
+                "position": "32",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.74
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 8,
+                "position": "33",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.74,
+                    "ratio": 0.3904761904761905
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Back",
+                    "key": "leftback"
+                },
+                "strPosShort": {
+                    "label": "LB",
+                    "key": "leftback_short"
+                },
+                "occurences": 1,
+                "position": "38",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 4,
+                "position": "62",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.58,
+                    "ratio": 0.29523809523809524
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "71",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Back",
+            "key": "rightback"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Center Back",
+                "key": "centerback"
+            },
+            {
+                "label": "Right Wing-Back",
+                "key": "right_wing_back"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 187,
+                "key": null,
+                "fallback": "187 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 22,
+                "options": {},
+                "key": null,
+                "fallback": 22
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Ivory Coast"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CIV"
+            },
+            "countryCode": "CIV"
+        },
+        {
+            "value": {
+                "numberValue": 19413186,
+                "key": null,
+                "fallback": "\u20ac19.4m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 53,
+        "leagueName": "Ligue 1",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 6
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 23
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 24
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2063
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.3
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 3
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": null,
+    "recentMatches": [
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": true,
+            "id": 4653712,
+            "matchDate": {
+                "utcTime": "2026-06-30T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-norway/1wsny5#4653712",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 287981,
+            "opponentTeamName": "Curacao",
+            "isHomeTeam": false,
+            "id": 4667782,
+            "matchDate": {
+                "utcTime": "2026-06-25T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-curacao/jy3w4js#4667782",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8570,
+            "opponentTeamName": "Germany",
+            "isHomeTeam": false,
+            "id": 4667780,
+            "matchDate": {
+                "utcTime": "2026-06-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-germany/1xi59e#4667780",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6707,
+            "opponentTeamName": "Ecuador",
+            "isHomeTeam": true,
+            "id": 4667778,
+            "matchDate": {
+                "utcTime": "2026-06-14T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-ivory-coast/1hl6kp#4667778",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 5246832,
+            "matchDate": {
+                "utcTime": "2026-06-04T19:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-france/1hpsbj#5246832",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": true,
+            "id": 4830763,
+            "matchDate": {
+                "utcTime": "2026-05-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/monaco-vs-strasbourg/379ruz#4830763",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8521,
+            "opponentTeamName": "Brest",
+            "isHomeTeam": false,
+            "id": 4830711,
+            "matchDate": {
+                "utcTime": "2026-05-13T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brest-vs-strasbourg/2sgg7t#4830711",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8121,
+            "opponentTeamName": "Angers",
+            "isHomeTeam": false,
+            "id": 4830746,
+            "matchDate": {
+                "utcTime": "2026-05-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-strasbourg/2o4och#4830746",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8370,
+            "opponentTeamName": "Rayo Vallecano",
+            "isHomeTeam": true,
+            "id": 5206270,
+            "matchDate": {
+                "utcTime": "2026-05-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rayo-vallecano-vs-strasbourg/2qt8qn#5206270",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": false,
+            "id": 5206262,
+            "matchDate": {
+                "utcTime": "2026-04-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-mainz-05/385w26#5206262",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9831,
+            "opponentTeamName": "Nice",
+            "isHomeTeam": true,
+            "id": 4830709,
+            "matchDate": {
+                "utcTime": "2026-04-04T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nice-vs-strasbourg/37am88#4830709",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 5156668,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-scotland/1wumce#5156668",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 7804,
+            "opponentTeamName": "South Korea",
+            "isHomeTeam": false,
+            "id": 5267317,
+            "matchDate": {
+                "utcTime": "2026-03-28T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-south-korea/1qpk3p#5267317",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9830,
+            "opponentTeamName": "Nantes",
+            "isHomeTeam": false,
+            "id": 4830696,
+            "matchDate": {
+                "utcTime": "2026-03-22T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nantes-vs-strasbourg/37a71l#4830696",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 6379,
+            "opponentTeamName": "Paris FC",
+            "isHomeTeam": true,
+            "id": 4830691,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-fc-vs-strasbourg/26e9n2#4830691",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 10162,
+            "opponentTeamName": "Rijeka",
+            "isHomeTeam": false,
+            "id": 5206223,
+            "matchDate": {
+                "utcTime": "2026-03-12T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rijeka/3b7enz#5206223",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9837,
+            "opponentTeamName": "Reims",
+            "isHomeTeam": true,
+            "id": 5172615,
+            "matchDate": {
+                "utcTime": "2026-03-03T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/reims-vs-strasbourg/37d5cn#5172615",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8588,
+            "opponentTeamName": "Lens",
+            "isHomeTeam": true,
+            "id": 4830673,
+            "matchDate": {
+                "utcTime": "2026-02-27T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lens-vs-strasbourg/2t6vlu#4830673",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9748,
+            "opponentTeamName": "Lyon",
+            "isHomeTeam": true,
+            "id": 4830663,
+            "matchDate": {
+                "utcTime": "2026-02-22T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lyon-vs-strasbourg/36bojq#4830663",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": false,
+            "id": 4830651,
+            "matchDate": {
+                "utcTime": "2026-02-14T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/marseille-vs-strasbourg/2t8gik#4830651",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": true,
+            "id": 5138488,
+            "matchDate": {
+                "utcTime": "2026-02-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/monaco-vs-strasbourg/379ruz#5138488",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": true,
+            "id": 4830636,
+            "matchDate": {
+                "utcTime": "2026-02-01T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-saint-germain-vs-strasbourg/37hda8#4830636",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": false,
+            "id": 4830623,
+            "matchDate": {
+                "utcTime": "2026-01-25T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-strasbourg/2tr24c#4830623",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 76,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8550,
+            "opponentTeamName": "Metz",
+            "isHomeTeam": true,
+            "id": 4830618,
+            "matchDate": {
+                "utcTime": "2026-01-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/metz-vs-strasbourg/2srvl5#4830618",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": false,
+            "id": 5073474,
+            "matchDate": {
+                "utcTime": "2026-01-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-egypt/2docwv#5073474",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6323,
+            "opponentTeamName": "Burkina Faso",
+            "isHomeTeam": true,
+            "id": 5073463,
+            "matchDate": {
+                "utcTime": "2026-01-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burkina-faso-vs-ivory-coast/1ekc7d#5073463",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5889,
+            "opponentTeamName": "Gabon",
+            "isHomeTeam": false,
+            "id": 4722017,
+            "matchDate": {
+                "utcTime": "2025-12-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/gabon-vs-ivory-coast/1b94le#4722017",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6629,
+            "opponentTeamName": "Cameroon",
+            "isHomeTeam": true,
+            "id": 4722015,
+            "matchDate": {
+                "utcTime": "2025-12-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cameroon-vs-ivory-coast/1gytg4#4722015",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5965,
+            "opponentTeamName": "Mozambique",
+            "isHomeTeam": true,
+            "id": 4722013,
+            "matchDate": {
+                "utcTime": "2025-12-24T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/mozambique-vs-ivory-coast/1btpmg#4722013",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8689,
+            "opponentTeamName": "Lorient",
+            "isHomeTeam": true,
+            "id": 4830601,
+            "matchDate": {
+                "utcTime": "2025-12-14T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/lorient-vs-strasbourg/2uawc5#4830601",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8485,
+            "opponentTeamName": "Aberdeen",
+            "isHomeTeam": false,
+            "id": 4948027,
+            "matchDate": {
+                "utcTime": "2025-12-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aberdeen-vs-strasbourg/2s2agb#4948027",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9941,
+            "opponentTeamName": "Toulouse",
+            "isHomeTeam": false,
+            "id": 4830592,
+            "matchDate": {
+                "utcTime": "2025-12-06T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-toulouse/38l5ao#4830592",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8521,
+            "opponentTeamName": "Brest",
+            "isHomeTeam": true,
+            "id": 4830583,
+            "matchDate": {
+                "utcTime": "2025-11-30T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brest-vs-strasbourg/2sgg7t#4830583",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": true,
+            "id": 4948002,
+            "matchDate": {
+                "utcTime": "2025-11-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-strasbourg/378ibb#4948002",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8588,
+            "opponentTeamName": "Lens",
+            "isHomeTeam": false,
+            "id": 4830568,
+            "matchDate": {
+                "utcTime": "2025-11-22T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lens-vs-strasbourg/2t6vlu#4830568",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5824,
+            "opponentTeamName": "Oman",
+            "isHomeTeam": false,
+            "id": 5050779,
+            "matchDate": {
+                "utcTime": "2025-11-18T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oman-vs-ivory-coast/1armcs#5050779",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": false,
+            "id": 5050854,
+            "matchDate": {
+                "utcTime": "2025-11-14T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-saudi-arabia/1qmrc7#5050854",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": true,
+            "id": 4830565,
+            "matchDate": {
+                "utcTime": "2025-11-09T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-strasbourg/2tr24c#4830565",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8428,
+            "opponentTeamName": "H\u00e4cken",
+            "isHomeTeam": false,
+            "id": 4948055,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/hacken-vs-strasbourg/2rfxde#4948055",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9851,
+            "opponentTeamName": "Rennes",
+            "isHomeTeam": false,
+            "id": 4830555,
+            "matchDate": {
+                "utcTime": "2025-11-02T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rennes/37j22x#4830555",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8583,
+            "opponentTeamName": "Auxerre",
+            "isHomeTeam": true,
+            "id": 4830546,
+            "matchDate": {
+                "utcTime": "2025-10-29T20:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/auxerre-vs-strasbourg/2t4whk#4830546",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9748,
+            "opponentTeamName": "Lyon",
+            "isHomeTeam": false,
+            "id": 4830535,
+            "matchDate": {
+                "utcTime": "2025-10-26T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lyon-vs-strasbourg/36bojq#4830535",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 51,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 1957,
+            "opponentTeamName": "Jagiellonia Bia\u0142ystok",
+            "isHomeTeam": true,
+            "id": 4948003,
+            "matchDate": {
+                "utcTime": "2025-10-23T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/jagiellonia-biaystok-vs-strasbourg/15hstn#4948003",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": false,
+            "id": 4830527,
+            "matchDate": {
+                "utcTime": "2025-10-17T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-saint-germain-vs-strasbourg/37hda8#4830527",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5884,
+            "opponentTeamName": "Kenya",
+            "isHomeTeam": true,
+            "id": 4341289,
+            "matchDate": {
+                "utcTime": "2025-10-14T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/kenya-vs-ivory-coast/1b7rzy#4341289",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 87,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 121274,
+            "opponentTeamName": "Seychelles",
+            "isHomeTeam": false,
+            "id": 4341294,
+            "matchDate": {
+                "utcTime": "2025-10-10T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-seychelles/3rg1vb1#4341294",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 7,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8121,
+            "opponentTeamName": "Angers",
+            "isHomeTeam": true,
+            "id": 4830520,
+            "matchDate": {
+                "utcTime": "2025-10-05T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-strasbourg/2o4och#4830520",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 6019,
+            "opponentTeamName": "Slovan Bratislava",
+            "isHomeTeam": false,
+            "id": 4947949,
+            "matchDate": {
+                "utcTime": "2025-10-02T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovan-bratislava-vs-strasbourg/22yg02#4947949",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": true,
+            "id": 4830510,
+            "matchDate": {
+                "utcTime": "2025-09-26T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/marseille-vs-strasbourg/2t8gik#4830510",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 6379,
+            "opponentTeamName": "Paris FC",
+            "isHomeTeam": false,
+            "id": 4830502,
+            "matchDate": {
+                "utcTime": "2025-09-21T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-fc-vs-strasbourg/26e9n2#4830502",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 29,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1395704,
+                        "teamId": 9848,
+                        "team": "Strasbourg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-07-26T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "68",
+                        "goals": "3",
+                        "assists": "9",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1395704,
+                        "teamId": 9851,
+                        "team": "Rennes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2024-07-26T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "35",
+                        "goals": "0",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1395704,
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2024-07-25T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1395704,
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-01T00:00:00",
+                        "endDate": "2022-06-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "34",
+                        "goals": "2",
+                        "assists": "7",
+                        "rating": {
+                            "rating": "7.27"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27212,
+                                "goals": "2",
+                                "assists": "6",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "7.30"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28916,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.77"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28191,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            }
+                        ],
+                        "teamId": 9848,
+                        "team": "Strasbourg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "34",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.23"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23724,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.78"
+                                }
+                            }
+                        ],
+                        "teamId": 9848,
+                        "team": "Strasbourg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "33",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.99"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20868,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22192,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.27"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.94"
+                                }
+                            }
+                        ],
+                        "teamId": 9851,
+                        "team": "Rennes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17810,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9851,
+                        "team": "Rennes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213375,
+                        "team": "Rennes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1395704,
+                        "teamId": -1,
+                        "team": "Stade Rennais FC Under 19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-09-01T00:00:00",
+                        "endDate": "2024-07-25T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Stade Rennais FC Under 19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1395704,
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-03-11T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "24",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "10",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.28"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.41"
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "12",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.95"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2025",
+                                "tournamentId": 24309,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.17"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.40"
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_fullbacks",
+        "title": "Stats compared to other fullbacks",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.37
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.96
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.92
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.78
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.63
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.84
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "guela-doue",
+        "pageurl": "/players/1395704/guela-doue",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Gu\u00e9la Dou\u00e9?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9 is 23 years old. Born on Thu Oct 17 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Gu\u00e9la Dou\u00e9?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9 is 187 cm tall. Or 6 ft 2 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Gu\u00e9la Dou\u00e9 born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9 was born Thu Oct 17 2002 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Gu\u00e9la Dou\u00e9's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Gu\u00e9la Dou\u00e9's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9's transfer value is estimated to be around \u20ac19.4m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Gu\u00e9la Dou\u00e9 from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9 is from Ivory Coast."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Gu\u00e9la Dou\u00e9 scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gu\u00e9la Dou\u00e9 has scored 2 goals in the Ligue 1."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Gu\u00e9la Dou\u00e9",
+            "birthDate": "2002-10-17T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1395704/guela-doue",
+            "nationality": {
+                "@type": "Country",
+                "name": "Ivory Coast"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Strasbourg"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "187"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "78"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ligue 1 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/53/overview/ligue-1-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Strasbourg",
+                    "item": "https://www.fotmob.com/teams/9848/overview/strasbourg"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Gu\u00e9la Dou\u00e9",
+                    "item": "https://www.fotmob.com/leagues/1395704/overview/guela-doue"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945848063,
+                "playerName": "Gu\u00e9la Dou\u00e9",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "FromCorner",
+                "teamId": 6709,
+                "playerId": 1395704,
+                "x": 98.2456140347,
+                "y": 36.2875,
+                "min": 64,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 99.5000000004,
+                "blockedY": 37.58375,
+                "goalCrossedY": 43.16,
+                "goalCrossedZ": 0.3595789456,
+                "expectedGoals": 0.129150614142418,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0,
+                    "y": 0.0392553434061136,
+                    "zoomRatio": 0.412663755458516
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6709,
+                "awayTeamId": 8492,
+                "homeTeamName": "Ivory Coast",
+                "awayTeamName": "Norway",
+                "homeScore": 1,
+                "awayScore": 2,
+                "matchId": 4653712,
+                "matchDate": "2026-06-30T17:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.041978338242437865,
+                            "percentileRank": 74.64788732394366,
+                            "percentileRankPer90": 74.64788732394366,
+                            "statFormat": "fraction",
+                            "statValue": "0.13",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.041978338242437865,
+                            "percentileRank": 74.64788732394366,
+                            "percentileRankPer90": 74.64788732394366,
+                            "statFormat": "fraction",
+                            "statValue": "0.13",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.3249097472924188,
+                            "percentileRank": 33.80281690140845,
+                            "percentileRankPer90": 40.845070422535215,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.11147471756711333,
+                            "percentileRank": 70.4225352112676,
+                            "percentileRankPer90": 71.83098591549296,
+                            "statFormat": "fraction",
+                            "statValue": "0.34",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 40.938628158844764,
+                            "percentileRank": 69.71830985915493,
+                            "percentileRankPer90": 76.76056338028168,
+                            "statFormat": "number",
+                            "statValue": "126",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 90,
+                            "percentileRank": 83.09859154929578,
+                            "percentileRankPer90": 83.09859154929578,
+                            "statFormat": "percent",
+                            "statValue": "90.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 45.07042253521127,
+                            "percentileRankPer90": 42.25352112676056,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 75,
+                            "percentileRank": 89.43661971830986,
+                            "percentileRankPer90": 89.43661971830986,
+                            "statFormat": "percent",
+                            "statValue": "75.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 64.7887323943662,
+                            "percentileRankPer90": 66.19718309859155,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 1.6245487364620939,
+                            "percentileRank": 90.84507042253522,
+                            "percentileRankPer90": 95.07042253521126,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 41.666666666666664,
+                            "percentileRank": 88.73239436619718,
+                            "percentileRankPer90": 88.73239436619718,
+                            "statFormat": "percent",
+                            "statValue": "41.7",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 5.523465703971119,
+                            "percentileRank": 70.4225352112676,
+                            "percentileRankPer90": 71.83098591549296,
+                            "statFormat": "number",
+                            "statValue": "17",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 56.666666666666664,
+                            "percentileRank": 59.154929577464785,
+                            "percentileRankPer90": 59.154929577464785,
+                            "statFormat": "percent",
+                            "statValue": "56.7",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 1.9494584837545126,
+                            "percentileRank": 83.09859154929578,
+                            "percentileRankPer90": 85.2112676056338,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 75,
+                            "percentileRank": 82.3943661971831,
+                            "percentileRankPer90": 82.3943661971831,
+                            "statFormat": "percent",
+                            "statValue": "75.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 72.7797833935018,
+                            "percentileRank": 70.4225352112676,
+                            "percentileRankPer90": 80.98591549295774,
+                            "statFormat": "number",
+                            "statValue": "224",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 48.59154929577465,
+                            "percentileRankPer90": 45.774647887323944,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 11.971830985915492,
+                            "percentileRankPer90": 22.535211267605636,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.6245487364620939,
+                            "percentileRank": 84.50704225352112,
+                            "percentileRankPer90": 78.16901408450704,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 6.173285198555957,
+                            "percentileRank": 63.38028169014085,
+                            "percentileRankPer90": 50.70422535211267,
+                            "statFormat": "number",
+                            "statValue": "19",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.9494584837545126,
+                            "percentileRank": 54.22535211267606,
+                            "percentileRankPer90": 47.183098591549296,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 52.816901408450704,
+                            "percentileRankPer90": 43.66197183098591,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1.9494584837545126,
+                            "percentileRank": 13.380281690140844,
+                            "percentileRankPer90": 12.676056338028168,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 4.548736462093863,
+                            "percentileRank": 72.53521126760563,
+                            "percentileRankPer90": 72.53521126760563,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.6498194945848376,
+                            "percentileRank": 86.61971830985915,
+                            "percentileRankPer90": 83.80281690140845,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.3249097472924188,
+                            "percentileRank": 64.08450704225352,
+                            "percentileRankPer90": 75.35211267605634,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 3.2490974729241877,
+                            "percentileRank": 69.01408450704226,
+                            "percentileRankPer90": 68.30985915492957,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0.3249097472924188,
+                            "percentileRank": 65.49295774647888,
+                            "percentileRankPer90": 80.98591549295774,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.9747292418772563,
+                            "percentileRank": 51.40845070422535,
+                            "percentileRankPer90": 69.71830985915493,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.2335523801590131,
+                            "percentileRank": 42.25352112676056,
+                            "percentileRankPer90": 49.29577464788733,
+                            "statFormat": "fraction",
+                            "statValue": "3.80",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0.3249097472924188,
+                            "percentileRank": 4.225352112676056,
+                            "percentileRankPer90": 17.6056338028169,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 7.193333333333333,
+                    "percentileRank": 72.53521126760563,
+                    "percentileRankPer90": 72.53521126760563,
+                    "statFormat": "fraction",
+                    "statValue": "7.19",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 54.22535211267606,
+                    "percentileRankPer90": 54.22535211267606,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 3,
+                    "percentileRank": 42.25352112676056,
+                    "percentileRankPer90": 35.2112676056338,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 59.859154929577464,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "277",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 7.14,
+                    "y": 37.36
+                },
+                {
+                    "x": 55.35,
+                    "y": 64.33
+                },
+                {
+                    "x": 87.75,
+                    "y": 68
+                },
+                {
+                    "x": 98.05,
+                    "y": 61.18
+                },
+                {
+                    "x": 72.46,
+                    "y": 51.22
+                },
+                {
+                    "x": 80.8,
+                    "y": 55.67
+                },
+                {
+                    "x": 27.81,
+                    "y": 60.52
+                },
+                {
+                    "x": 37.72,
+                    "y": 64.52
+                },
+                {
+                    "x": 66.83,
+                    "y": 64.13
+                },
+                {
+                    "x": 36.37,
+                    "y": 58.69
+                },
+                {
+                    "x": 64.8,
+                    "y": 65.18
+                },
+                {
+                    "x": 37.38,
+                    "y": 68
+                },
+                {
+                    "x": 91.1,
+                    "y": 63.54
+                },
+                {
+                    "x": 97.38,
+                    "y": 57.37
+                },
+                {
+                    "x": 5.22,
+                    "y": 45.33
+                },
+                {
+                    "x": 7.82,
+                    "y": 68
+                },
+                {
+                    "x": 18.43,
+                    "y": 61.9
+                },
+                {
+                    "x": 10.42,
+                    "y": 65.64
+                },
+                {
+                    "x": 85.28,
+                    "y": 63.41
+                },
+                {
+                    "x": 96.7,
+                    "y": 62.62
+                },
+                {
+                    "x": 8.88,
+                    "y": 36.36
+                },
+                {
+                    "x": 41.77,
+                    "y": 59.54
+                },
+                {
+                    "x": 28.03,
+                    "y": 61.64
+                },
+                {
+                    "x": 102.06,
+                    "y": 31.71
+                },
+                {
+                    "x": 75.62,
+                    "y": 56.59
+                },
+                {
+                    "x": 6.46,
+                    "y": 60.65
+                },
+                {
+                    "x": 9.75,
+                    "y": 64.98
+                },
+                {
+                    "x": 13.5,
+                    "y": 68
+                },
+                {
+                    "x": 37.83,
+                    "y": 61.77
+                },
+                {
+                    "x": 28.03,
+                    "y": 61.83
+                },
+                {
+                    "x": 30.85,
+                    "y": 62.62
+                },
+                {
+                    "x": 55.45,
+                    "y": 64.72
+                },
+                {
+                    "x": 92.6,
+                    "y": 52.34
+                },
+                {
+                    "x": 72.69,
+                    "y": 63.54
+                },
+                {
+                    "x": 78.99,
+                    "y": 61.97
+                },
+                {
+                    "x": 65.93,
+                    "y": 58.62
+                },
+                {
+                    "x": 87.21,
+                    "y": 50.17
+                },
+                {
+                    "x": 85.6,
+                    "y": 53.95
+                },
+                {
+                    "x": 73.81,
+                    "y": 65.38
+                },
+                {
+                    "x": 18.33,
+                    "y": 55.67
+                },
+                {
+                    "x": 58.19,
+                    "y": 53.67
+                },
+                {
+                    "x": 17.14,
+                    "y": 31.03
+                },
+                {
+                    "x": 30.06,
+                    "y": 56.91
+                },
+                {
+                    "x": 24.77,
+                    "y": 59.01
+                },
+                {
+                    "x": 7.33,
+                    "y": 33.16
+                },
+                {
+                    "x": 7.33,
+                    "y": 33.16
+                },
+                {
+                    "x": 98.25,
+                    "y": 31.71
+                },
+                {
+                    "x": 55.24,
+                    "y": 57.18
+                },
+                {
+                    "x": 75.5,
+                    "y": 65.11
+                },
+                {
+                    "x": 3.79,
+                    "y": 37.95
+                },
+                {
+                    "x": 3.13,
+                    "y": 37.71
+                },
+                {
+                    "x": 63.9,
+                    "y": 49.96
+                },
+                {
+                    "x": 66.15,
+                    "y": 56.59
+                },
+                {
+                    "x": 64.8,
+                    "y": 65.97
+                },
+                {
+                    "x": 42.45,
+                    "y": 59.41
+                },
+                {
+                    "x": 4.36,
+                    "y": 50.45
+                },
+                {
+                    "x": 60.84,
+                    "y": 63.93
+                },
+                {
+                    "x": 48.33,
+                    "y": 49.4
+                },
+                {
+                    "x": 56.36,
+                    "y": 45.54
+                },
+                {
+                    "x": 19.18,
+                    "y": 27.7
+                },
+                {
+                    "x": 76.74,
+                    "y": 64.59
+                },
+                {
+                    "x": 82.6,
+                    "y": 61.38
+                },
+                {
+                    "x": 98.44,
+                    "y": 3.02
+                },
+                {
+                    "x": 81.36,
+                    "y": 54.75
+                },
+                {
+                    "x": 22.97,
+                    "y": 52.62
+                },
+                {
+                    "x": 73.36,
+                    "y": 65.77
+                },
+                {
+                    "x": 37.38,
+                    "y": 51.43
+                },
+                {
+                    "x": 38.17,
+                    "y": 52.13
+                },
+                {
+                    "x": 39.07,
+                    "y": 63.15
+                },
+                {
+                    "x": 43.45,
+                    "y": 57.77
+                },
+                {
+                    "x": 61.34,
+                    "y": 64.72
+                },
+                {
+                    "x": 19.61,
+                    "y": 68
+                },
+                {
+                    "x": 47.42,
+                    "y": 59.28
+                },
+                {
+                    "x": 50.87,
+                    "y": 60.19
+                },
+                {
+                    "x": 50.87,
+                    "y": 60.19
+                },
+                {
+                    "x": 39.18,
+                    "y": 58.62
+                },
+                {
+                    "x": 36.93,
+                    "y": 62.82
+                },
+                {
+                    "x": 50.57,
+                    "y": 64.2
+                },
+                {
+                    "x": 61.14,
+                    "y": 63.93
+                },
+                {
+                    "x": 59.31,
+                    "y": 61.83
+                },
+                {
+                    "x": 72.35,
+                    "y": 54.49
+                },
+                {
+                    "x": 93.4,
+                    "y": 64.59
+                },
+                {
+                    "x": 89,
+                    "y": 65.11
+                },
+                {
+                    "x": 44.57,
+                    "y": 58.36
+                },
+                {
+                    "x": 9.07,
+                    "y": 45.12
+                },
+                {
+                    "x": 9.65,
+                    "y": 49.75
+                },
+                {
+                    "x": 9.17,
+                    "y": 50.03
+                },
+                {
+                    "x": 48.33,
+                    "y": 45.75
+                },
+                {
+                    "x": 61.55,
+                    "y": 54.68
+                },
+                {
+                    "x": 70.1,
+                    "y": 65.31
+                },
+                {
+                    "x": 87.1,
+                    "y": 58.69
+                },
+                {
+                    "x": 84.4,
+                    "y": 57.18
+                },
+                {
+                    "x": 26.79,
+                    "y": 63.93
+                },
+                {
+                    "x": 25.67,
+                    "y": 63.93
+                },
+                {
+                    "x": 29.95,
+                    "y": 52.62
+                },
+                {
+                    "x": 19.72,
+                    "y": 49.75
+                },
+                {
+                    "x": 14.2,
+                    "y": 62.42
+                },
+                {
+                    "x": 34.9,
+                    "y": 43.93
+                },
+                {
+                    "x": 32.09,
+                    "y": 51.01
+                },
+                {
+                    "x": 59.62,
+                    "y": 64.46
+                },
+                {
+                    "x": 43.01,
+                    "y": 68
+                },
+                {
+                    "x": 30.74,
+                    "y": 64.52
+                },
+                {
+                    "x": 21.95,
+                    "y": 65.7
+                },
+                {
+                    "x": 17.36,
+                    "y": 66.43
+                },
+                {
+                    "x": 7.53,
+                    "y": 35.37
+                },
+                {
+                    "x": 63.56,
+                    "y": 48.91
+                },
+                {
+                    "x": 43.45,
+                    "y": 62.82
+                },
+                {
+                    "x": 85.71,
+                    "y": 68
+                },
+                {
+                    "x": 58.19,
+                    "y": 64.59
+                },
+                {
+                    "x": 27.7,
+                    "y": 46.8
+                },
+                {
+                    "x": 27.7,
+                    "y": 46.8
+                },
+                {
+                    "x": 64.58,
+                    "y": 61.38
+                },
+                {
+                    "x": 81.25,
+                    "y": 56.19
+                },
+                {
+                    "x": 43.66,
+                    "y": 60.98
+                },
+                {
+                    "x": 42.22,
+                    "y": 56
+                },
+                {
+                    "x": 40.42,
+                    "y": 60.72
+                },
+                {
+                    "x": 25.78,
+                    "y": 55.87
+                },
+                {
+                    "x": 12.4,
+                    "y": 65.51
+                },
+                {
+                    "x": 3.13,
+                    "y": 56.65
+                },
+                {
+                    "x": 25.67,
+                    "y": 68
+                },
+                {
+                    "x": 32.43,
+                    "y": 54.02
+                },
+                {
+                    "x": 80.8,
+                    "y": 62.42
+                },
+                {
+                    "x": 79.22,
+                    "y": 53.67
+                },
+                {
+                    "x": 23.3,
+                    "y": 54.16
+                },
+                {
+                    "x": 30.4,
+                    "y": 52.34
+                },
+                {
+                    "x": 30.62,
+                    "y": 52.2
+                },
+                {
+                    "x": 32.2,
+                    "y": 56.06
+                },
+                {
+                    "x": 37.27,
+                    "y": 57.64
+                },
+                {
+                    "x": 65.82,
+                    "y": 54.49
+                },
+                {
+                    "x": 68.75,
+                    "y": 56.26
+                },
+                {
+                    "x": 76.74,
+                    "y": 64.13
+                },
+                {
+                    "x": 53.21,
+                    "y": 57.05
+                },
+                {
+                    "x": 53.21,
+                    "y": 57.05
+                },
+                {
+                    "x": 56.16,
+                    "y": 64
+                },
+                {
+                    "x": 63,
+                    "y": 63.54
+                },
+                {
+                    "x": 65.93,
+                    "y": 52.48
+                },
+                {
+                    "x": 65.93,
+                    "y": 52.48
+                },
+                {
+                    "x": 46.3,
+                    "y": 68
+                },
+                {
+                    "x": 59.72,
+                    "y": 64.46
+                },
+                {
+                    "x": 60.53,
+                    "y": 68
+                },
+                {
+                    "x": 77.08,
+                    "y": 55.8
+                },
+                {
+                    "x": 52.09,
+                    "y": 64.52
+                },
+                {
+                    "x": 51.38,
+                    "y": 64.2
+                },
+                {
+                    "x": 57.07,
+                    "y": 56.85
+                },
+                {
+                    "x": 39.97,
+                    "y": 64.46
+                },
+                {
+                    "x": 47.01,
+                    "y": 38.03
+                },
+                {
+                    "x": 47.01,
+                    "y": 38.03
+                },
+                {
+                    "x": 34.9,
+                    "y": 65.64
+                },
+                {
+                    "x": 48.84,
+                    "y": 63.41
+                },
+                {
+                    "x": 46.71,
+                    "y": 65.51
+                },
+                {
+                    "x": 17.79,
+                    "y": 62.29
+                },
+                {
+                    "x": 77.19,
+                    "y": 62.62
+                },
+                {
+                    "x": 64.24,
+                    "y": 60.52
+                },
+                {
+                    "x": 91.2,
+                    "y": 27.28
+                },
+                {
+                    "x": 87.1,
+                    "y": 68
+                },
+                {
+                    "x": 38.28,
+                    "y": 55.01
+                },
+                {
+                    "x": 40.42,
+                    "y": 61.97
+                },
+                {
+                    "x": 29.05,
+                    "y": 59.21
+                },
+                {
+                    "x": 54.84,
+                    "y": 68
+                },
+                {
+                    "x": 26.68,
+                    "y": 50.17
+                },
+                {
+                    "x": 56.67,
+                    "y": 68
+                },
+                {
+                    "x": 34,
+                    "y": 65.38
+                },
+                {
+                    "x": 45.49,
+                    "y": 61.7
+                },
+                {
+                    "x": 72.01,
+                    "y": 64.79
+                },
+                {
+                    "x": 29.16,
+                    "y": 68
+                },
+                {
+                    "x": 27.36,
+                    "y": 65.97
+                },
+                {
+                    "x": 32.31,
+                    "y": 68
+                },
+                {
+                    "x": 46.71,
+                    "y": 58.23
+                },
+                {
+                    "x": 37.72,
+                    "y": 43.16
+                },
+                {
+                    "x": 9.07,
+                    "y": 63.93
+                },
+                {
+                    "x": 19.4,
+                    "y": 64.2
+                },
+                {
+                    "x": 15.1,
+                    "y": 68
+                },
+                {
+                    "x": 61.88,
+                    "y": 55.01
+                },
+                {
+                    "x": 26.46,
+                    "y": 35.37
+                },
+                {
+                    "x": 32.43,
+                    "y": 34.3
+                },
+                {
+                    "x": 56.16,
+                    "y": 49.4
+                },
+                {
+                    "x": 60.23,
+                    "y": 63.93
+                },
+                {
+                    "x": 46.6,
+                    "y": 61.05
+                },
+                {
+                    "x": 102.53,
+                    "y": 68
+                },
+                {
+                    "x": 48.23,
+                    "y": 45.82
+                },
+                {
+                    "x": 48.23,
+                    "y": 45.82
+                },
+                {
+                    "x": 55.65,
+                    "y": 60.39
+                },
+                {
+                    "x": 22.52,
+                    "y": 65.18
+                },
+                {
+                    "x": 51.79,
+                    "y": 62.42
+                },
+                {
+                    "x": 28.71,
+                    "y": 58.03
+                },
+                {
+                    "x": 24.77,
+                    "y": 57.83
+                },
+                {
+                    "x": 25.11,
+                    "y": 63.93
+                },
+                {
+                    "x": 28.37,
+                    "y": 68
+                },
+                {
+                    "x": 87,
+                    "y": 65.7
+                },
+                {
+                    "x": 99.31,
+                    "y": 61.77
+                },
+                {
+                    "x": 47.42,
+                    "y": 38.03
+                },
+                {
+                    "x": 50.16,
+                    "y": 61.83
+                },
+                {
+                    "x": 56.06,
+                    "y": 59.74
+                },
+                {
+                    "x": 56.46,
+                    "y": 57.83
+                },
+                {
+                    "x": 60.63,
+                    "y": 60.72
+                },
+                {
+                    "x": 56.46,
+                    "y": 59.21
+                },
+                {
+                    "x": 60.23,
+                    "y": 64.72
+                },
+                {
+                    "x": 57.79,
+                    "y": 65.11
+                },
+                {
+                    "x": 57.89,
+                    "y": 64.92
+                },
+                {
+                    "x": 61.55,
+                    "y": 59.54
+                },
+                {
+                    "x": 4.84,
+                    "y": 60.65
+                },
+                {
+                    "x": 4.84,
+                    "y": 59.21
+                },
+                {
+                    "x": 32.99,
+                    "y": 60.19
+                },
+                {
+                    "x": 49.96,
+                    "y": 68
+                },
+                {
+                    "x": 94.58,
+                    "y": 68
+                },
+                {
+                    "x": 75.62,
+                    "y": 58.23
+                },
+                {
+                    "x": 46.71,
+                    "y": 63.15
+                },
+                {
+                    "x": 60.12,
+                    "y": 64.39
+                },
+                {
+                    "x": 65.93,
+                    "y": 63.61
+                },
+                {
+                    "x": 47.32,
+                    "y": 62.42
+                },
+                {
+                    "x": 18.86,
+                    "y": 59.01
+                },
+                {
+                    "x": 21.84,
+                    "y": 54.29
+                },
+                {
+                    "x": 43.66,
+                    "y": 68
+                },
+                {
+                    "x": 72.69,
+                    "y": 55.93
+                },
+                {
+                    "x": 69.08,
+                    "y": 55.87
+                },
+                {
+                    "x": 56.77,
+                    "y": 68
+                },
+                {
+                    "x": 71.79,
+                    "y": 68
+                },
+                {
+                    "x": 93.4,
+                    "y": 68
+                },
+                {
+                    "x": 35.69,
+                    "y": 54.09
+                },
+                {
+                    "x": 40.98,
+                    "y": 42.12
+                },
+                {
+                    "x": 45.59,
+                    "y": 53.25
+                },
+                {
+                    "x": 68.63,
+                    "y": 62.49
+                },
+                {
+                    "x": 55.96,
+                    "y": 64.98
+                },
+                {
+                    "x": 38.28,
+                    "y": 62.75
+                },
+                {
+                    "x": 53.21,
+                    "y": 64.52
+                },
+                {
+                    "x": 95.45,
+                    "y": 60.46
+                },
+                {
+                    "x": 47.93,
+                    "y": 68
+                },
+                {
+                    "x": 37.04,
+                    "y": 65.18
+                },
+                {
+                    "x": 54.02,
+                    "y": 59.41
+                },
+                {
+                    "x": 84.29,
+                    "y": 63.41
+                },
+                {
+                    "x": 98.25,
+                    "y": 61.24
+                },
+                {
+                    "x": 75.28,
+                    "y": 68
+                },
+                {
+                    "x": 101.49,
+                    "y": 58.42
+                },
+                {
+                    "x": 93.2,
+                    "y": 65.11
+                },
+                {
+                    "x": 16.2,
+                    "y": 63.15
+                },
+                {
+                    "x": 24.65,
+                    "y": 60.39
+                },
+                {
+                    "x": 61.99,
+                    "y": 61.44
+                },
+                {
+                    "x": 80.57,
+                    "y": 52.97
+                },
+                {
+                    "x": 82.6,
+                    "y": 58.36
+                },
+                {
+                    "x": 22.63,
+                    "y": 60.98
+                },
+                {
+                    "x": 16.3,
+                    "y": 59.34
+                },
+                {
+                    "x": 38.17,
+                    "y": 62.23
+                },
+                {
+                    "x": 22.63,
+                    "y": 51.85
+                },
+                {
+                    "x": 79.33,
+                    "y": 54.29
+                },
+                {
+                    "x": 90.6,
+                    "y": 68
+                },
+                {
+                    "x": 79.78,
+                    "y": 65.18
+                },
+                {
+                    "x": 89.1,
+                    "y": 65.51
+                },
+                {
+                    "x": 55.24,
+                    "y": 6.82
+                },
+                {
+                    "x": 6.27,
+                    "y": 7.41
+                },
+                {
+                    "x": 12,
+                    "y": 7.22
+                },
+                {
+                    "x": 10.23,
+                    "y": 37.43
+                },
+                {
+                    "x": 19.83,
+                    "y": 47.08
+                },
+                {
+                    "x": 84.74,
+                    "y": 65.18
+                },
+                {
+                    "x": 12.1,
+                    "y": 50.87
+                },
+                {
+                    "x": 13.5,
+                    "y": 44.77
+                },
+                {
+                    "x": 18.97,
+                    "y": 50.24
+                },
+                {
+                    "x": 37.72,
+                    "y": 63.21
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 213375,
+                "teamName": "Rennes B"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Stade Rennais FC Under 19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 980000,
+                "currency": "EUR",
+                "lowerBound": 730000,
+                "upperBound": 1220000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 860000,
+                "currency": "EUR",
+                "lowerBound": 640000,
+                "upperBound": 1080000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 700000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 870000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 860000,
+                "currency": "EUR",
+                "lowerBound": 640000,
+                "upperBound": 1070000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 1010000,
+                "currency": "EUR",
+                "lowerBound": 750000,
+                "upperBound": 1260000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 1340000,
+                "currency": "EUR",
+                "lowerBound": 1000000,
+                "upperBound": 1670000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 1710000,
+                "currency": "EUR",
+                "lowerBound": 1290000,
+                "upperBound": 2140000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 2190000,
+                "currency": "EUR",
+                "lowerBound": 1650000,
+                "upperBound": 2740000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 2740000,
+                "currency": "EUR",
+                "lowerBound": 2192000,
+                "upperBound": 3288000,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 3288000,
+                "currency": "EUR",
+                "lowerBound": 2630400,
+                "upperBound": 3945600,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 3945600,
+                "currency": "EUR",
+                "lowerBound": 3156480,
+                "upperBound": 4734720,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 4734720,
+                "currency": "EUR",
+                "lowerBound": 3787776,
+                "upperBound": 5681664,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 5681664,
+                "currency": "EUR",
+                "lowerBound": 4829414,
+                "upperBound": 6533913,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 6533913,
+                "currency": "EUR",
+                "lowerBound": 5553826,
+                "upperBound": 7513999,
+                "source": "scisports",
+                "teamId": 9851,
+                "teamName": "Rennes"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 7513999,
+                "currency": "EUR",
+                "lowerBound": 6386899,
+                "upperBound": 8641098,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 8641098,
+                "currency": "EUR",
+                "lowerBound": 7344933,
+                "upperBound": 9937262,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 9514003,
+                "currency": "EUR",
+                "lowerBound": 8086902,
+                "upperBound": 10941104,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 9514003,
+                "currency": "EUR",
+                "lowerBound": 8086902,
+                "upperBound": 10941104,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 9514003,
+                "currency": "EUR",
+                "lowerBound": 8086902,
+                "upperBound": 10941104,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 9514003,
+                "currency": "EUR",
+                "lowerBound": 8086902,
+                "upperBound": 10941104,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 9243666,
+                "currency": "EUR",
+                "lowerBound": 7857116,
+                "upperBound": 10630216,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 9212935,
+                "currency": "EUR",
+                "lowerBound": 7830994,
+                "upperBound": 10594875,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 15370315,
+                "currency": "EUR",
+                "lowerBound": 13833283,
+                "upperBound": 16907346,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 15370315,
+                "currency": "EUR",
+                "lowerBound": 13833283,
+                "upperBound": 16907346,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 15401046,
+                "currency": "EUR",
+                "lowerBound": 13860942,
+                "upperBound": 16941151,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 16552598,
+                "currency": "EUR",
+                "lowerBound": 14897338,
+                "upperBound": 18207858,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 21570207,
+                "currency": "EUR",
+                "lowerBound": 19413186,
+                "upperBound": 23727228,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 21700058,
+                "currency": "EUR",
+                "lowerBound": 19530052,
+                "upperBound": 23870063,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 21570207,
+                "currency": "EUR",
+                "lowerBound": 19413186,
+                "upperBound": 23727228,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 21700058,
+                "currency": "EUR",
+                "lowerBound": 19530052,
+                "upperBound": 23870063,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 21570207,
+                "currency": "EUR",
+                "lowerBound": 19413186,
+                "upperBound": 23727228,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 21551426,
+                "currency": "EUR",
+                "lowerBound": 19396283,
+                "upperBound": 23706569,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 21570207,
+                "currency": "EUR",
+                "lowerBound": 19413186,
+                "upperBound": 23727228,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 19413186,
+                "currency": "EUR",
+                "lowerBound": 17471867,
+                "upperBound": 21354504,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1359613,
+                "name": "Abakar Sylla"
+            },
+            {
+                "id": 1611469,
+                "name": "Benjamin Brantlind"
+            },
+            {
+                "id": 1701117,
+                "name": "Diogo Sousa"
+            },
+            {
+                "id": 1873054,
+                "name": "Jean-Baptiste Bosey"
+            },
+            {
+                "id": 1336846,
+                "name": "Mateo Del Blanco"
+            },
+            {
+                "id": 1370590,
+                "name": "Milos Lukovic"
+            },
+            {
+                "id": 1283393,
+                "name": "Milosz Piekutowski"
+            },
+            {
+                "id": 1433034,
+                "name": "\u00d3scar Perea"
+            },
+            {
+                "id": 1417802,
+                "name": "Pape Demba Diop"
+            },
+            {
+                "id": 1536974,
+                "name": "Pape Diong"
+            },
+            {
+                "id": 1609064,
+                "name": "Rabby Nzingoula"
+            },
+            {
+                "id": 1635507,
+                "name": "Rayane Messi"
+            },
+            {
+                "id": 1180730,
+                "name": "Sa\u00efdou Sow"
+            },
+            {
+                "id": 1177312,
+                "name": "S\u00e9kou Mara"
+            },
+            {
+                "id": 1975804,
+                "name": "Yaya Dieme"
+            },
+            {
+                "id": 1515498,
+                "name": "Yoni Gomis"
+            },
+            {
+                "id": 150021,
+                "name": "Karl-Johan Johnsson"
+            },
+            {
+                "id": 1050822,
+                "name": "Andrew Omobamidele"
+            },
+            {
+                "id": 672469,
+                "name": "Ben Chilwell"
+            },
+            {
+                "id": 1178332,
+                "name": "Isma\u00ebl Doukour\u00e9"
+            },
+            {
+                "id": 1342754,
+                "name": "Diego Moreira"
+            },
+            {
+                "id": 1355526,
+                "name": "Maxi Oyedele"
+            },
+            {
+                "id": 1408580,
+                "name": "Joaqu\u00edn Panichelli"
+            },
+            {
+                "id": 1156569,
+                "name": "Sebastian Nanasi"
+            },
+            {
+                "id": 1581053,
+                "name": "Mathis Amougou"
+            },
+            {
+                "id": 1362622,
+                "name": "Junior Mwanga"
+            },
+            {
+                "id": 1073742,
+                "name": "Julio Enciso"
+            },
+            {
+                "id": 1302715,
+                "name": "Martial Godo"
+            },
+            {
+                "id": 1436942,
+                "name": "Lucas H\u00f8gsberg"
+            },
+            {
+                "id": 1418073,
+                "name": "Samuel Amo-Ameyaw"
+            },
+            {
+                "id": 1900030,
+                "name": "Tyrese Noubissie"
+            },
+            {
+                "id": 1598170,
+                "name": "Samir El Mourabet"
+            },
+            {
+                "id": 1272440,
+                "name": "Valent\u00edn Barco"
+            },
+            {
+                "id": 1343053,
+                "name": "Abdoul Ouattara"
+            },
+            {
+                "id": 1901862,
+                "name": "Yoann Becker"
+            },
+            {
+                "id": 1926771,
+                "name": "Max Marechal"
+            },
+            {
+                "id": 1078908,
+                "name": "Stefan Bajic"
+            },
+            {
+                "id": 1603755,
+                "name": "Gessime Yassine"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 873566,
+                "name": "Yahia Fofana"
+            },
+            {
+                "id": 1425182,
+                "name": "Ousmane Diomande"
+            },
+            {
+                "id": 740997,
+                "name": "Ghislain Konan"
+            },
+            {
+                "id": 470539,
+                "name": "Jean Micha\u00ebl Seri"
+            },
+            {
+                "id": 1027472,
+                "name": "Wilfried Singo"
+            },
+            {
+                "id": 602211,
+                "name": "Seko Fofana"
+            },
+            {
+                "id": 1014496,
+                "name": "Odilon Kossounou"
+            },
+            {
+                "id": 579747,
+                "name": "Franck Kessi\u00e9"
+            },
+            {
+                "id": 1199383,
+                "name": "Ange-Yoan Bonny"
+            },
+            {
+                "id": 1227012,
+                "name": "Simon Adingra"
+            },
+            {
+                "id": 1735453,
+                "name": "Yan Diomande"
+            },
+            {
+                "id": 1213430,
+                "name": "Elye Wahi"
+            },
+            {
+                "id": 802462,
+                "name": "Christopher Op\u00e9ri"
+            },
+            {
+                "id": 1328540,
+                "name": "Oumar Diakit\u00e9"
+            },
+            {
+                "id": 1070052,
+                "name": "Amad Diallo"
+            },
+            {
+                "id": 1280201,
+                "name": "Mohamed Kon\u00e9"
+            },
+            {
+                "id": 795371,
+                "name": "Ibrahim Sangar\u00e9"
+            },
+            {
+                "id": 575735,
+                "name": "Nicolas P\u00e9p\u00e9"
+            },
+            {
+                "id": 1114979,
+                "name": "Emmanuel Agbadou"
+            },
+            {
+                "id": 787242,
+                "name": "Evan N'Dicka"
+            },
+            {
+                "id": 1087966,
+                "name": "Evann Guessand"
+            },
+            {
+                "id": 698273,
+                "name": "Alban Lafont"
+            },
+            {
+                "id": 1624586,
+                "name": "Bazoumana Tour\u00e9"
+            },
+            {
+                "id": 1186770,
+                "name": "Parfait Guiagon"
+            },
+            {
+                "id": 1666494,
+                "name": "Christ Inao Oula\u00ef"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 645946,
+                "name": "Lydie Saki"
+            },
+            {
+                "id": 645947,
+                "name": "Fatou Coulibaly"
+            },
+            {
+                "id": 645948,
+                "name": "Djelika Coulibaly"
+            },
+            {
+                "id": 645949,
+                "name": "Nina Kpaho"
+            },
+            {
+                "id": 645950,
+                "name": "Mariam Diakit\u00e9"
+            },
+            {
+                "id": 645951,
+                "name": "Rita Akaffou"
+            },
+            {
+                "id": 645952,
+                "name": "Nadege Essoh"
+            },
+            {
+                "id": 645953,
+                "name": "Ines Nrehy"
+            },
+            {
+                "id": 645954,
+                "name": "Sandrine Niamien"
+            },
+            {
+                "id": 645955,
+                "name": "Ange N'Guessan"
+            },
+            {
+                "id": 645956,
+                "name": "R\u00e9becca Elloh"
+            },
+            {
+                "id": 645957,
+                "name": "Ida Guehai"
+            },
+            {
+                "id": 645958,
+                "name": "Fernande Tchetche"
+            },
+            {
+                "id": 645959,
+                "name": "Josee Nahi"
+            },
+            {
+                "id": 645960,
+                "name": "Christine Lohoues"
+            },
+            {
+                "id": 645961,
+                "name": "Dominique Thiamale"
+            },
+            {
+                "id": 645962,
+                "name": "Nad\u00e8ge Ciss\u00e9"
+            },
+            {
+                "id": 645963,
+                "name": "Binta Diakit\u00e9"
+            },
+            {
+                "id": 645964,
+                "name": "Jessica Aby"
+            },
+            {
+                "id": 645965,
+                "name": "Aminata Haidara"
+            },
+            {
+                "id": 645966,
+                "name": "Sophie Aguie"
+            },
+            {
+                "id": 645967,
+                "name": "Raymonde Kacou"
+            },
+            {
+                "id": 645968,
+                "name": "Cynthia Djohore"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5900292,
+        "homeId": 9768,
+        "awayId": 9848,
+        "homeName": "Sporting CP",
+        "awayName": "Strasbourg",
+        "matchDate": "2026-07-20T19:15:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-20T19:15:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Est\u00e1dio do Algarve",
+            "city": "Almancil",
+            "lat": 37.088262822,
+            "long": -7.974722385
+        },
+        "matchUrl": "/matches/sporting-cp-vs-strasbourg/36k348#5900292"
+    },
+    "dataProvider": "enet"
+}

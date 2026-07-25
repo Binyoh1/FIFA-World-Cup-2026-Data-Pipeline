@@ -1,0 +1,4965 @@
+{
+    "id": 1185748,
+    "name": "Amadou Onana",
+    "birthDate": {
+        "utcTime": "2001-08-16T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 10252,
+        "teamName": "Aston Villa",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#7D1142",
+            "colorAlternate": "#9d2358",
+            "colorAway": "#7caddd",
+            "colorAwayAlternate": "#95BFE5"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "35",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 40,
+                "position": "64",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 1,
+                "position": "76",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Defensive Midfielder",
+            "key": "centerdefensivemidfielder"
+        },
+        "nonPrimaryPositions": []
+    },
+    "injuryInformation": {
+        "name": "Cruciate ligament injury",
+        "key": "injury_76",
+        "expectedReturn": {
+            "expectedReturnKey": "expected_return_date_late",
+            "expectedReturnDateParam": "March 2027",
+            "expectedReturnFallback": "Late March 2027"
+        },
+        "lastUpdated": {
+            "utcTime": "2026-07-07T00:00:00.000Z",
+            "timezone": null
+        }
+    },
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 195,
+                "key": null,
+                "fallback": "195 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {},
+                "key": null,
+                "fallback": 24
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "24"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Belgium"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "BEL"
+            },
+            "countryCode": "BEL"
+        },
+        {
+            "value": {
+                "numberValue": 46621019,
+                "key": null,
+                "fallback": "\u20ac46.6m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 47,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 21
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 25
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1764
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.91
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 3
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 10252,
+                "teamName": "Aston Villa",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 73,
+                        "leagueName": "Europa League",
+                        "seasonsWon": [
+                            "2025/2026"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 4653845,
+            "matchDate": {
+                "utcTime": "2026-07-07T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-vs-belgium/1urw5j#4653845",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6395,
+            "opponentTeamName": "Senegal",
+            "isHomeTeam": true,
+            "id": 4653710,
+            "matchDate": {
+                "utcTime": "2026-07-01T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-belgium/1rywdm#4653710",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": false,
+            "id": 4667794,
+            "matchDate": {
+                "utcTime": "2026-06-27T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-belgium/1n1sct#4667794",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 5,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6711,
+            "opponentTeamName": "Iran",
+            "isHomeTeam": true,
+            "id": 4667793,
+            "matchDate": {
+                "utcTime": "2026-06-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/iran-vs-belgium/1ur91k#4667793",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": true,
+            "id": 4667790,
+            "matchDate": {
+                "utcTime": "2026-06-15T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-egypt/2u3bhg#4667790",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 56,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 5154126,
+            "matchDate": {
+                "utcTime": "2026-06-06T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tunisia-vs-belgium/1utti4#5154126",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 10155,
+            "opponentTeamName": "Croatia",
+            "isHomeTeam": false,
+            "id": 5147839,
+            "matchDate": {
+                "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 35,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4813750,
+            "matchDate": {
+                "utcTime": "2026-05-24T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-aston-villa/2w74gq#4813750",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": false,
+            "id": 5206177,
+            "matchDate": {
+                "utcTime": "2026-05-20T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/freiburg-vs-aston-villa/2v3xep#5206177",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 5206174,
+            "matchDate": {
+                "utcTime": "2026-04-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nottingham-forest-vs-aston-villa/3gke9k#5206174",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": true,
+            "id": 4813695,
+            "matchDate": {
+                "utcTime": "2026-04-19T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-aston-villa/2wdjjm#4813695",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9857,
+            "opponentTeamName": "Bologna",
+            "isHomeTeam": true,
+            "id": 5206172,
+            "matchDate": {
+                "utcTime": "2026-04-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bologna-vs-aston-villa/3cdz18#5206172",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/4",
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4813692,
+            "matchDate": {
+                "utcTime": "2026-04-12T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nottingham-forest-vs-aston-villa/3gke9k#4813692",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9857,
+            "opponentTeamName": "Bologna",
+            "isHomeTeam": false,
+            "id": 5206168,
+            "matchDate": {
+                "utcTime": "2026-04-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bologna-vs-aston-villa/3cdz18#5206168",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": false,
+            "id": 5124813,
+            "matchDate": {
+                "utcTime": "2026-04-01T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-belgium/1uqxhm#5124813",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 5124810,
+            "matchDate": {
+                "utcTime": "2026-03-28T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-vs-belgium/1urw5j#5124810",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 5,
+            "minutesPlayed": 70,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4813676,
+            "matchDate": {
+                "utcTime": "2026-03-22T14:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-aston-villa/2yexzh#4813676",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": true,
+            "id": 5206105,
+            "matchDate": {
+                "utcTime": "2026-03-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-aston-villa/2y8v8h#5206105",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": false,
+            "id": 4813671,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-manchester-united/3h9f6s#4813671",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": false,
+            "id": 5206097,
+            "matchDate": {
+                "utcTime": "2026-03-12T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-aston-villa/2y8v8h#5206097",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": true,
+            "id": 4813656,
+            "matchDate": {
+                "utcTime": "2026-03-04T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-aston-villa/2w6q11#4813656",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813654,
+            "matchDate": {
+                "utcTime": "2026-02-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-aston-villa/2xtwe7#4813654",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8463,
+            "opponentTeamName": "Leeds United",
+            "isHomeTeam": true,
+            "id": 4813635,
+            "matchDate": {
+                "utcTime": "2026-02-21T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-aston-villa/2w9xjd#4813635",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": true,
+            "id": 5135174,
+            "matchDate": {
+                "utcTime": "2026-02-14T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-newcastle-united/3h9v0m#5135174",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": true,
+            "id": 4813625,
+            "matchDate": {
+                "utcTime": "2026-02-11T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/brighton-hove-albion-vs-aston-villa/3gku1s#4813625",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": false,
+            "id": 4813615,
+            "matchDate": {
+                "utcTime": "2026-02-07T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-aston-villa/2yooch#4813615",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": true,
+            "id": 4813605,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brentford-vs-aston-villa/3dciw4#4813605",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10013,
+            "opponentTeamName": "Salzburg",
+            "isHomeTeam": true,
+            "id": 4947804,
+            "matchDate": {
+                "utcTime": "2026-01-29T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/salzburg-vs-aston-villa/3e9hbd#4947804",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4813603,
+            "matchDate": {
+                "utcTime": "2026-01-25T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-newcastle-united/3h9v0m#4813603",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8695,
+            "opponentTeamName": "Fenerbah\u00e7e",
+            "isHomeTeam": false,
+            "id": 4947808,
+            "matchDate": {
+                "utcTime": "2026-01-22T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/fenerbahce-vs-aston-villa/2yvksd#4947808",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813555,
+            "matchDate": {
+                "utcTime": "2025-12-30T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-aston-villa/3c06vg#4813555",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": false,
+            "id": 4813548,
+            "matchDate": {
+                "utcTime": "2025-12-27T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-aston-villa/2w6q11#4813548",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": true,
+            "id": 4813536,
+            "matchDate": {
+                "utcTime": "2025-12-21T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-manchester-united/3h9f6s#4813536",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": false,
+            "id": 4813534,
+            "matchDate": {
+                "utcTime": "2025-12-14T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-aston-villa/2yexzh#4813534",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9931,
+            "opponentTeamName": "Basel",
+            "isHomeTeam": false,
+            "id": 4947848,
+            "matchDate": {
+                "utcTime": "2025-12-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/basel-vs-aston-villa/3d9xfj#4947848",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 4813516,
+            "matchDate": {
+                "utcTime": "2025-12-06T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-aston-villa/3c06vg#4813516",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": false,
+            "id": 4813507,
+            "matchDate": {
+                "utcTime": "2025-12-03T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/brighton-hove-albion-vs-aston-villa/3gku1s#4813507",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": true,
+            "id": 4813495,
+            "matchDate": {
+                "utcTime": "2025-11-30T14:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-aston-villa/2xtwe7#4813495",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10192,
+            "opponentTeamName": "Young Boys",
+            "isHomeTeam": true,
+            "id": 4947806,
+            "matchDate": {
+                "utcTime": "2025-11-27T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/young-boys-vs-aston-villa/3gfkoy#4947806",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 8265,
+            "opponentTeamName": "Kazakhstan",
+            "isHomeTeam": false,
+            "id": 4689450,
+            "matchDate": {
+                "utcTime": "2025-11-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-kazakhstan/29bw9d#4689450",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. J",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4813475,
+            "matchDate": {
+                "utcTime": "2025-11-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-aston-villa/2yooch#4813475",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 7855,
+            "opponentTeamName": "Maccabi Tel Aviv",
+            "isHomeTeam": true,
+            "id": 4947805,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/maccabi-tel-aviv-vs-aston-villa/2plzkp#4947805",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4813469,
+            "matchDate": {
+                "utcTime": "2025-11-01T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-aston-villa/2ydbmv#4813469",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": true,
+            "id": 4813457,
+            "matchDate": {
+                "utcTime": "2025-10-26T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-aston-villa/2w74gq#4813457",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 6433,
+            "opponentTeamName": "Go Ahead Eagles",
+            "isHomeTeam": false,
+            "id": 4947901,
+            "matchDate": {
+                "utcTime": "2025-10-23T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/go-ahead-eagles-vs-aston-villa/2avqng#4947901",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": false,
+            "id": 4813453,
+            "matchDate": {
+                "utcTime": "2025-10-19T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-aston-villa/2xnfpj#4813453",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 5790,
+            "opponentTeamName": "Wales",
+            "isHomeTeam": false,
+            "id": 4689449,
+            "matchDate": {
+                "utcTime": "2025-10-13T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/wales-vs-belgium/1msqp2#4689449",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. J",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 4,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8263,
+            "teamName": "Belgium",
+            "opponentTeamId": 8260,
+            "opponentTeamName": "North Macedonia",
+            "isHomeTeam": true,
+            "id": 4689447,
+            "matchDate": {
+                "utcTime": "2025-10-10T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/north-macedonia-vs-belgium/29a4i1#4689447",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. J",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813437,
+            "matchDate": {
+                "utcTime": "2025-10-05T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-aston-villa/2t9lxd#4813437",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": false,
+            "id": 4813387,
+            "matchDate": {
+                "utcTime": "2025-08-23T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brentford-vs-aston-villa/3dciw4#4813387",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": true,
+            "id": 4813375,
+            "matchDate": {
+                "utcTime": "2025-08-16T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-newcastle-united/3h9v0m#4813375",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 10205,
+            "opponentTeamName": "Villarreal",
+            "isHomeTeam": false,
+            "id": 4885158,
+            "matchDate": {
+                "utcTime": "2025-08-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/villarreal-vs-aston-villa/3gl9u1#4885158",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": false,
+            "id": 4877513,
+            "matchDate": {
+                "utcTime": "2025-08-09T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/marseille-vs-aston-villa/2xpuxy#4877513",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 8686,
+            "opponentTeamName": "Roma",
+            "isHomeTeam": true,
+            "id": 4811179,
+            "matchDate": {
+                "utcTime": "2025-08-06T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/roma-vs-aston-villa/2yrx8d#4811179",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 915807,
+            "opponentTeamName": "Nashville SC",
+            "isHomeTeam": false,
+            "id": 4796442,
+            "matchDate": {
+                "utcTime": "2025-08-02T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-nashville-sc/5gzgvv5d#4796442",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 1427963,
+            "opponentTeamName": "St. Louis City",
+            "isHomeTeam": false,
+            "id": 4796441,
+            "matchDate": {
+                "utcTime": "2025-07-31T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-st-louis-city/d74btslz#4796441",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10252,
+            "teamName": "Aston Villa",
+            "opponentTeamId": 9810,
+            "opponentTeamName": "Eintracht Frankfurt",
+            "isHomeTeam": false,
+            "id": 4811177,
+            "matchDate": {
+                "utcTime": "2025-07-26T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/eintracht-frankfurt-vs-aston-villa/3btqkj#4811177",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1185748,
+                        "teamId": 10252,
+                        "team": "Aston Villa",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-07-22T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "72",
+                        "goals": "7",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 8668,
+                        "team": "Everton",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-08-09T00:00:00",
+                        "endDate": "2024-07-22T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "72",
+                        "goals": "4",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 8639,
+                        "team": "Lille",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-08-05T00:00:00",
+                        "endDate": "2022-08-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "43",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 9790,
+                        "team": "Hamburger SV",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-07-01T00:00:00",
+                        "endDate": "2021-08-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "26",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 94940,
+                        "team": "Hoffenheim II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-03-12T00:00:00",
+                        "endDate": "2019-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "38",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.98"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "6.91"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28891,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            }
+                        ],
+                        "teamId": 10252,
+                        "team": "Aston Villa",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "34",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23685,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24289,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.22"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23747,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.76"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.01"
+                                }
+                            }
+                        ],
+                        "teamId": 10252,
+                        "team": "Aston Villa",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "37",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.12"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20720,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21876,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21054,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.61"
+                                }
+                            }
+                        ],
+                        "teamId": 8668,
+                        "team": "Everton",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "35",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.04"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17664,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.01"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17927,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17837,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.00"
+                                }
+                            }
+                        ],
+                        "teamId": 8668,
+                        "team": "Everton",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "43",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.86"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16499,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "6.86"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16985,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.62"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16407,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.48"
+                                }
+                            }
+                        ],
+                        "teamId": 8639,
+                        "team": "Lille",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "26",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.82"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15482,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15391,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9790,
+                        "team": "Hamburger SV",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 512,
+                                "leagueName": "Regionalliga",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 94940,
+                        "team": "Hoffenheim II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1185748,
+                        "teamId": 676996,
+                        "team": "Hoffenheim U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2020-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "44",
+                        "goals": "4",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "15",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U19 Bundesliga",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 676996,
+                        "team": "Hoffenheim U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "29",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U19 Bundesliga",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 676996,
+                        "team": "Hoffenheim U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1185748,
+                        "teamId": 8263,
+                        "team": "Belgium",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-05-18T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "33",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 8506,
+                        "team": "Belgium U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-05-17T00:00:00",
+                        "endDate": "2022-05-18T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": -1,
+                        "team": "Belgium Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-11-01T00:00:00",
+                        "endDate": "2021-10-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 5928,
+                        "team": "Belgium U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-08T00:00:00",
+                        "endDate": "2020-09-06T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1185748,
+                        "teamId": 6589,
+                        "team": "Belgium U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-03-04T00:00:00",
+                        "endDate": "2018-09-10T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "13",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.92"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.83"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.51"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            }
+                        ],
+                        "teamId": 8263,
+                        "team": "Belgium",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "15",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 50,
+                                "leagueName": "EURO",
+                                "seasonName": "2024",
+                                "tournamentId": 18307,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.90"
+                                }
+                            }
+                        ],
+                        "teamId": 8263,
+                        "team": "Belgium",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.63"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.63"
+                                }
+                            }
+                        ],
+                        "teamId": 8263,
+                        "team": "Belgium",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.66"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.66"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17161,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.57"
+                                }
+                            }
+                        ],
+                        "teamId": 8263,
+                        "team": "Belgium",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8506,
+                        "team": "Belgium U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U18 National Team Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Belgium Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 287,
+                                "leagueName": "UEFA U19 Championship",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5928,
+                        "team": "Belgium U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 301,
+                                "leagueName": "UEFA U17 Championship",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6589,
+                        "team": "Belgium U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.06
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.95
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.94
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.52
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.38
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.52
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "amadou-onana",
+        "pageurl": "/players/1185748/amadou-onana",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Amadou Onana?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana is 24 years old. Born on Thu Aug 16 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Amadou Onana?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana is 195 cm tall. Or 6 ft 5 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Amadou Onana born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana was born Thu Aug 16 2001 and is now 24 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Amadou Onana's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Amadou Onana's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana's transfer value is estimated to be around \u20ac46.6m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Amadou Onana from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana is from Belgium."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Amadou Onana scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amadou Onana has scored 2 goals in the Premier League."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Amadou Onana",
+            "birthDate": "2001-08-16T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1185748/amadou-onana",
+            "nationality": {
+                "@type": "Country",
+                "name": "Belgium"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Aston Villa"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "195"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "87"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Aston Villa",
+                    "item": "https://www.fotmob.com/teams/10252/overview/aston-villa"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Amadou Onana",
+                    "item": "https://www.fotmob.com/leagues/1185748/overview/amadou-onana"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO",
+                    "tournamentId": 50,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945524769,
+                "playerName": "Amadou Onana",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "FastBreak",
+                "teamId": 8263,
+                "playerId": 1185748,
+                "x": 78.655825244,
+                "y": 36.135,
+                "min": 74,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 89.3,
+                "blockedY": 34.83875,
+                "goalCrossedY": 32.6275,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.034480232745409,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.36309523809524,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 5820,
+                "awayTeamId": 8263,
+                "homeTeamName": "New Zealand",
+                "awayTeamName": "Belgium",
+                "homeScore": 1,
+                "awayScore": 5,
+                "matchId": 4667794,
+                "matchDate": "2026-06-27T03:00:00Z",
+                "teamColor": "#9f2533",
+                "teamColorDark": "#9f2533"
+            },
+            {
+                "id": 2945526071,
+                "playerName": "Amadou Onana",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "SetPiece",
+                "teamId": 8263,
+                "playerId": 1185748,
+                "x": 75.1645631088,
+                "y": 33.77125,
+                "min": 90,
+                "minAdded": 0,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 42.0615625,
+                "goalCrossedZ": 0.1797894728,
+                "expectedGoals": 0.0179156921803951,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0,
+                    "y": 0.022302062757685,
+                    "zoomRatio": 0.468891731596698
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 5820,
+                "awayTeamId": 8263,
+                "homeTeamName": "New Zealand",
+                "awayTeamName": "Belgium",
+                "homeScore": 1,
+                "awayScore": 5,
+                "matchId": 4667794,
+                "matchDate": "2026-06-27T03:00:00Z",
+                "teamColor": "#9f2533",
+                "teamColorDark": "#9f2533"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.04449056637174678,
+                            "percentileRank": 29.896907216494846,
+                            "percentileRankPer90": 50,
+                            "statFormat": "fraction",
+                            "statValue": "0.05",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.04449056637174678,
+                            "percentileRank": 29.896907216494846,
+                            "percentileRankPer90": 51.03092783505154,
+                            "statFormat": "fraction",
+                            "statValue": "0.05",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.6981132075471697,
+                            "percentileRank": 34.5360824742268,
+                            "percentileRankPer90": 76.80412371134021,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.20500049645186597,
+                            "percentileRank": 61.855670103092784,
+                            "percentileRankPer90": 87.11340206185567,
+                            "statFormat": "fraction",
+                            "statValue": "0.24",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 49.24528301886792,
+                            "percentileRank": 35.56701030927835,
+                            "percentileRankPer90": 70.10309278350515,
+                            "statFormat": "number",
+                            "statValue": "58",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 87.87878787878788,
+                            "percentileRank": 63.4020618556701,
+                            "percentileRankPer90": 63.4020618556701,
+                            "statFormat": "percent",
+                            "statValue": "87.9",
+                            "title": "Pass accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 7.641509433962264,
+                            "percentileRank": 34.5360824742268,
+                            "percentileRankPer90": 90.20618556701031,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 81.81818181818181,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "81.8",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 1.6981132075471697,
+                            "percentileRank": 44.329896907216494,
+                            "percentileRankPer90": 87.62886597938144,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 73.86792452830188,
+                            "percentileRank": 24.742268041237114,
+                            "percentileRankPer90": 76.28865979381443,
+                            "statFormat": "number",
+                            "statValue": "87",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 0.8490566037735848,
+                            "percentileRank": 16.49484536082474,
+                            "percentileRankPer90": 38.659793814432994,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0.8490566037735848,
+                            "percentileRank": 58.24742268041238,
+                            "percentileRankPer90": 44.84536082474227,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 2.547169811320755,
+                            "percentileRank": 49.48453608247423,
+                            "percentileRankPer90": 94.84536082474226,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 7.641509433962264,
+                            "percentileRank": 38.659793814432994,
+                            "percentileRankPer90": 90.20618556701031,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 3.3962264150943393,
+                            "percentileRank": 44.329896907216494,
+                            "percentileRankPer90": 89.17525773195877,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 1.6981132075471697,
+                            "percentileRank": 37.11340206185567,
+                            "percentileRankPer90": 82.4742268041237,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "blocked_shots",
+                            "per90": 0.8490566037735848,
+                            "percentileRank": 53.09278350515464,
+                            "percentileRankPer90": 87.11340206185567,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Blocked scoring attempt"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.8490566037735848,
+                            "percentileRank": 74.22680412371135,
+                            "percentileRankPer90": 67.5257731958763,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 7.641509433962264,
+                            "percentileRank": 38.659793814432994,
+                            "percentileRankPer90": 97.42268041237114,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1.6981132075471697,
+                            "percentileRank": 30.412371134020617,
+                            "percentileRankPer90": 64.94845360824742,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1.6981132075471697,
+                            "percentileRank": 72.16494845360825,
+                            "percentileRankPer90": 40.72164948453608,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.1118396554353103,
+                            "percentileRank": 85.56701030927834,
+                            "percentileRankPer90": 60.30927835051546,
+                            "statFormat": "fraction",
+                            "statValue": "1.31",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.51,
+                    "percentileRank": 31.443298969072163,
+                    "percentileRankPer90": 31.443298969072163,
+                    "statFormat": "fraction",
+                    "statValue": "6.51",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 54.63917525773196,
+                    "percentileRankPer90": 54.63917525773196,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 19.587628865979383,
+                    "percentileRankPer90": 97.42268041237114,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 10.824742268041238,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "106",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 57.68,
+                    "y": 36.82
+                },
+                {
+                    "x": 47.72,
+                    "y": 52.48
+                },
+                {
+                    "x": 47.72,
+                    "y": 39.38
+                },
+                {
+                    "x": 57.99,
+                    "y": 36.82
+                },
+                {
+                    "x": 55.75,
+                    "y": 28.37
+                },
+                {
+                    "x": 57.28,
+                    "y": 39.55
+                },
+                {
+                    "x": 75.5,
+                    "y": 17.97
+                },
+                {
+                    "x": 75.16,
+                    "y": 15.73
+                },
+                {
+                    "x": 7.91,
+                    "y": 36.74
+                },
+                {
+                    "x": 15.9,
+                    "y": 24.35
+                },
+                {
+                    "x": 44.98,
+                    "y": 51.15
+                },
+                {
+                    "x": 32.65,
+                    "y": 60.98
+                },
+                {
+                    "x": 34,
+                    "y": 56.46
+                },
+                {
+                    "x": 58.9,
+                    "y": 20.22
+                },
+                {
+                    "x": 30.29,
+                    "y": 31.94
+                },
+                {
+                    "x": 36.82,
+                    "y": 48.77
+                },
+                {
+                    "x": 24.54,
+                    "y": 39.04
+                },
+                {
+                    "x": 46.5,
+                    "y": 67.08
+                },
+                {
+                    "x": 27.58,
+                    "y": 60
+                },
+                {
+                    "x": 27.58,
+                    "y": 60
+                },
+                {
+                    "x": 55.75,
+                    "y": 16.36
+                },
+                {
+                    "x": 62.78,
+                    "y": 49.12
+                },
+                {
+                    "x": 62.21,
+                    "y": 50.45
+                },
+                {
+                    "x": 57.48,
+                    "y": 46.59
+                },
+                {
+                    "x": 57.48,
+                    "y": 46.59
+                },
+                {
+                    "x": 33.44,
+                    "y": 23.93
+                },
+                {
+                    "x": 81.58,
+                    "y": 50.59
+                },
+                {
+                    "x": 82.94,
+                    "y": 49.19
+                },
+                {
+                    "x": 56.06,
+                    "y": 23.65
+                },
+                {
+                    "x": 50.26,
+                    "y": 13.98
+                },
+                {
+                    "x": 78.43,
+                    "y": 66.03
+                },
+                {
+                    "x": 69.31,
+                    "y": 64.85
+                },
+                {
+                    "x": 39.97,
+                    "y": 57.31
+                },
+                {
+                    "x": 60.53,
+                    "y": 26.63
+                },
+                {
+                    "x": 73.02,
+                    "y": 44.35
+                },
+                {
+                    "x": 71.56,
+                    "y": 55.34
+                },
+                {
+                    "x": 57.38,
+                    "y": 24.7
+                },
+                {
+                    "x": 49.15,
+                    "y": 29.72
+                },
+                {
+                    "x": 55.96,
+                    "y": 45.19
+                },
+                {
+                    "x": 15.3,
+                    "y": 11.28
+                },
+                {
+                    "x": 15.9,
+                    "y": 10.49
+                },
+                {
+                    "x": 66.72,
+                    "y": 53.18
+                },
+                {
+                    "x": 68.41,
+                    "y": 55.14
+                },
+                {
+                    "x": 56.77,
+                    "y": 54.62
+                },
+                {
+                    "x": 72.8,
+                    "y": 42.52
+                },
+                {
+                    "x": 48.84,
+                    "y": 32.02
+                },
+                {
+                    "x": 66.83,
+                    "y": 44.91
+                },
+                {
+                    "x": 68.07,
+                    "y": 26.63
+                },
+                {
+                    "x": 56.16,
+                    "y": 15.1
+                },
+                {
+                    "x": 55.45,
+                    "y": 34.61
+                },
+                {
+                    "x": 57.07,
+                    "y": 36.82
+                },
+                {
+                    "x": 57.99,
+                    "y": 29.46
+                },
+                {
+                    "x": 46.91,
+                    "y": 28.37
+                },
+                {
+                    "x": 55.14,
+                    "y": 29.21
+                },
+                {
+                    "x": 73.14,
+                    "y": 16.5
+                },
+                {
+                    "x": 58.9,
+                    "y": 21.97
+                },
+                {
+                    "x": 67.06,
+                    "y": 24.56
+                },
+                {
+                    "x": 31.75,
+                    "y": 35.22
+                },
+                {
+                    "x": 56.06,
+                    "y": 27.61
+                },
+                {
+                    "x": 83.05,
+                    "y": 39.63
+                },
+                {
+                    "x": 75.05,
+                    "y": 41.54
+                },
+                {
+                    "x": 58.7,
+                    "y": 32.7
+                },
+                {
+                    "x": 45.89,
+                    "y": 38.28
+                },
+                {
+                    "x": 47.62,
+                    "y": 38.12
+                },
+                {
+                    "x": 49.76,
+                    "y": 30.42
+                },
+                {
+                    "x": 60.53,
+                    "y": 21.76
+                },
+                {
+                    "x": 66.38,
+                    "y": 54.49
+                },
+                {
+                    "x": 63.56,
+                    "y": 9.97
+                },
+                {
+                    "x": 21.39,
+                    "y": 37.2
+                },
+                {
+                    "x": 69.2,
+                    "y": 21.13
+                },
+                {
+                    "x": 69.2,
+                    "y": 21.13
+                },
+                {
+                    "x": 97.86,
+                    "y": 28.71
+                },
+                {
+                    "x": 97.86,
+                    "y": 28.71
+                },
+                {
+                    "x": 57.99,
+                    "y": 39.29
+                },
+                {
+                    "x": 73.7,
+                    "y": 27.87
+                },
+                {
+                    "x": 18.33,
+                    "y": 33.31
+                },
+                {
+                    "x": 9.26,
+                    "y": 22.81
+                },
+                {
+                    "x": 40.53,
+                    "y": 45.26
+                },
+                {
+                    "x": 1.04,
+                    "y": 65.84
+                },
+                {
+                    "x": 10.23,
+                    "y": 35.75
+                },
+                {
+                    "x": 39.97,
+                    "y": 25.42
+                },
+                {
+                    "x": 63.11,
+                    "y": 37.76
+                },
+                {
+                    "x": 65.03,
+                    "y": 40.13
+                },
+                {
+                    "x": 13.2,
+                    "y": 64.92
+                },
+                {
+                    "x": 41.89,
+                    "y": 45.75
+                },
+                {
+                    "x": 37.83,
+                    "y": 57.77
+                },
+                {
+                    "x": 66.38,
+                    "y": 52.34
+                },
+                {
+                    "x": 43.35,
+                    "y": 58.75
+                },
+                {
+                    "x": 35.02,
+                    "y": 60.26
+                },
+                {
+                    "x": 34,
+                    "y": 56.72
+                },
+                {
+                    "x": 78.66,
+                    "y": 31.86
+                },
+                {
+                    "x": 35.02,
+                    "y": 27.45
+                },
+                {
+                    "x": 35.8,
+                    "y": 32.55
+                },
+                {
+                    "x": 38.06,
+                    "y": 21.06
+                },
+                {
+                    "x": 44.27,
+                    "y": 43.23
+                },
+                {
+                    "x": 63.79,
+                    "y": 32.32
+                },
+                {
+                    "x": 68.29,
+                    "y": 48.27
+                },
+                {
+                    "x": 49.45,
+                    "y": 51.5
+                },
+                {
+                    "x": 75.16,
+                    "y": 34.23
+                },
+                {
+                    "x": 41.21,
+                    "y": 46.87
+                },
+                {
+                    "x": 37.61,
+                    "y": 33.16
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 676996,
+                "teamName": "Hoffenheim U19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": 676996,
+                "teamName": "Hoffenheim U19"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 280000,
+                "source": "scisports",
+                "teamId": 676996,
+                "teamName": "Hoffenheim U19"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 490000,
+                "currency": "EUR",
+                "lowerBound": 370000,
+                "upperBound": 610000,
+                "source": "scisports",
+                "teamId": 9790,
+                "teamName": "Hamburger SV",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 750000,
+                "currency": "EUR",
+                "lowerBound": 560000,
+                "upperBound": 940000,
+                "source": "scisports",
+                "teamId": 9790,
+                "teamName": "Hamburger SV"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 3990000,
+                "currency": "EUR",
+                "lowerBound": 2990000,
+                "upperBound": 4990000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 7230000,
+                "currency": "EUR",
+                "lowerBound": 5420000,
+                "upperBound": 9040000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 8300000,
+                "currency": "EUR",
+                "lowerBound": 6230000,
+                "upperBound": 10380000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 8720000,
+                "currency": "EUR",
+                "lowerBound": 6540000,
+                "upperBound": 10910000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 8680000,
+                "currency": "EUR",
+                "lowerBound": 6510000,
+                "upperBound": 10850000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 8380000,
+                "currency": "EUR",
+                "lowerBound": 6280000,
+                "upperBound": 10470000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 8030000,
+                "currency": "EUR",
+                "lowerBound": 6030000,
+                "upperBound": 10040000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 13040000,
+                "currency": "EUR",
+                "lowerBound": 9780000,
+                "upperBound": 16300000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 15540000,
+                "currency": "EUR",
+                "lowerBound": 11650000,
+                "upperBound": 19420000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 16660000,
+                "currency": "EUR",
+                "lowerBound": 12490000,
+                "upperBound": 20820000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 17540000,
+                "currency": "EUR",
+                "lowerBound": 13150000,
+                "upperBound": 21920000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 25700000,
+                "currency": "EUR",
+                "lowerBound": 19280000,
+                "upperBound": 32130000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 24760000,
+                "currency": "EUR",
+                "lowerBound": 18570000,
+                "upperBound": 30940000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 24760000,
+                "currency": "EUR",
+                "lowerBound": 18570000,
+                "upperBound": 30950000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 23330000,
+                "currency": "EUR",
+                "lowerBound": 17500000,
+                "upperBound": 29160000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 24850000,
+                "currency": "EUR",
+                "lowerBound": 18640000,
+                "upperBound": 31060000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 26330000,
+                "currency": "EUR",
+                "lowerBound": 19750000,
+                "upperBound": 32910000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 27330000,
+                "currency": "EUR",
+                "lowerBound": 20500000,
+                "upperBound": 34160000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 29530000,
+                "currency": "EUR",
+                "lowerBound": 22140000,
+                "upperBound": 36910000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 29530000,
+                "currency": "EUR",
+                "lowerBound": 22150000,
+                "upperBound": 36920000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 27660000,
+                "currency": "EUR",
+                "lowerBound": 20740000,
+                "upperBound": 34570000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 25550000,
+                "currency": "EUR",
+                "lowerBound": 19160000,
+                "upperBound": 31940000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 22830000,
+                "currency": "EUR",
+                "lowerBound": 17120000,
+                "upperBound": 28540000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 21030000,
+                "currency": "EUR",
+                "lowerBound": 15770000,
+                "upperBound": 26280000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 20720000,
+                "currency": "EUR",
+                "lowerBound": 15540000,
+                "upperBound": 25900000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 19680000,
+                "currency": "EUR",
+                "lowerBound": 14760000,
+                "upperBound": 24610000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 18220000,
+                "currency": "EUR",
+                "lowerBound": 13670000,
+                "upperBound": 22780000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 20730000,
+                "currency": "EUR",
+                "lowerBound": 15550000,
+                "upperBound": 25920000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 18890000,
+                "currency": "EUR",
+                "lowerBound": 14170000,
+                "upperBound": 23620000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 23620000,
+                "currency": "EUR",
+                "lowerBound": 21258000,
+                "upperBound": 25982000,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 25982000,
+                "currency": "EUR",
+                "lowerBound": 23383800,
+                "upperBound": 28580200,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 28580200,
+                "currency": "EUR",
+                "lowerBound": 25722180,
+                "upperBound": 31438220,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 31438220,
+                "currency": "EUR",
+                "lowerBound": 28294398,
+                "upperBound": 34582042,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 34582042,
+                "currency": "EUR",
+                "lowerBound": 31123837,
+                "upperBound": 38040246,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 38040246,
+                "currency": "EUR",
+                "lowerBound": 34236221,
+                "upperBound": 41844270,
+                "source": "scisports",
+                "teamId": 8668,
+                "teamName": "Everton"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 41844270,
+                "currency": "EUR",
+                "lowerBound": 37659843,
+                "upperBound": 46028697,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 46028697,
+                "currency": "EUR",
+                "lowerBound": 41425827,
+                "upperBound": 50631566,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 50631566,
+                "currency": "EUR",
+                "lowerBound": 45568409,
+                "upperBound": 55694722,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 55694722,
+                "currency": "EUR",
+                "lowerBound": 50125249,
+                "upperBound": 61264194,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 61264194,
+                "currency": "EUR",
+                "lowerBound": 55137774,
+                "upperBound": 67390613,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 65310397,
+                "currency": "EUR",
+                "lowerBound": 58779357,
+                "upperBound": 71841437,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 64472445,
+                "currency": "EUR",
+                "lowerBound": 58025201,
+                "upperBound": 70919690,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 64472445,
+                "currency": "EUR",
+                "lowerBound": 58025201,
+                "upperBound": 70919690,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 64354187,
+                "currency": "EUR",
+                "lowerBound": 57918769,
+                "upperBound": 70789606,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 62124370,
+                "currency": "EUR",
+                "lowerBound": 55911933,
+                "upperBound": 68336807,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 61665313,
+                "currency": "EUR",
+                "lowerBound": 55498782,
+                "upperBound": 67831845,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 60169317,
+                "currency": "EUR",
+                "lowerBound": 54152385,
+                "upperBound": 66186248,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 60169317,
+                "currency": "EUR",
+                "lowerBound": 54152385,
+                "upperBound": 66186248,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 60592058,
+                "currency": "EUR",
+                "lowerBound": 54532852,
+                "upperBound": 66651264,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 60764101,
+                "currency": "EUR",
+                "lowerBound": 54687691,
+                "upperBound": 66840511,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 48725628,
+                "currency": "EUR",
+                "lowerBound": 43853065,
+                "upperBound": 53598190,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 47791526,
+                "currency": "EUR",
+                "lowerBound": 43012373,
+                "upperBound": 52570678,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 47791526,
+                "currency": "EUR",
+                "lowerBound": 43012373,
+                "upperBound": 52570678,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 47658880,
+                "currency": "EUR",
+                "lowerBound": 42892992,
+                "upperBound": 52424768,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 48242903,
+                "currency": "EUR",
+                "lowerBound": 43418613,
+                "upperBound": 53067193,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 49037207,
+                "currency": "EUR",
+                "lowerBound": 44133487,
+                "upperBound": 53940928,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 49745309,
+                "currency": "EUR",
+                "lowerBound": 44770778,
+                "upperBound": 54719840,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 51801133,
+                "currency": "EUR",
+                "lowerBound": 46621019,
+                "upperBound": 56981246,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 46621019,
+                "currency": "EUR",
+                "lowerBound": 41958917,
+                "upperBound": 51283120,
+                "source": "scisports",
+                "teamId": 10252,
+                "teamName": "Aston Villa"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1729841,
+                "name": "Brian Madjo"
+            },
+            {
+                "id": 1087966,
+                "name": "Evann Guessand"
+            },
+            {
+                "id": 970296,
+                "name": "Joe Gauci"
+            },
+            {
+                "id": 1520063,
+                "name": "Johan Manzambi"
+            },
+            {
+                "id": 1513910,
+                "name": "Kosta Nedeljkovic"
+            },
+            {
+                "id": 1714552,
+                "name": "Modou Ciss\u00e9"
+            },
+            {
+                "id": 1368061,
+                "name": "Samuel Iling-Junior"
+            },
+            {
+                "id": 729731,
+                "name": "Matty Cash"
+            },
+            {
+                "id": 258269,
+                "name": "Victor Nilsson Lindel\u00f6f"
+            },
+            {
+                "id": 710159,
+                "name": "Ezri Konsa"
+            },
+            {
+                "id": 419664,
+                "name": "Tyrone Mings"
+            },
+            {
+                "id": 215384,
+                "name": "Ross Barkley"
+            },
+            {
+                "id": 356406,
+                "name": "John McGinn"
+            },
+            {
+                "id": 610184,
+                "name": "Emiliano Buend\u00eda"
+            },
+            {
+                "id": 540088,
+                "name": "Ollie Watkins"
+            },
+            {
+                "id": 210111,
+                "name": "Lucas Digne"
+            },
+            {
+                "id": 792645,
+                "name": "Pau Torres"
+            },
+            {
+                "id": 749661,
+                "name": "Tammy Abraham"
+            },
+            {
+                "id": 966026,
+                "name": "Ian Maatsen"
+            },
+            {
+                "id": 268375,
+                "name": "Emiliano Mart\u00ednez"
+            },
+            {
+                "id": 1190033,
+                "name": "Lamare Bogarde"
+            },
+            {
+                "id": 883080,
+                "name": "Morgan Rogers"
+            },
+            {
+                "id": 671331,
+                "name": "Leon Bailey"
+            },
+            {
+                "id": 195782,
+                "name": "Marco Bizot"
+            },
+            {
+                "id": 816325,
+                "name": "Boubacar Kamara"
+            },
+            {
+                "id": 1656860,
+                "name": "Alysson Edward"
+            },
+            {
+                "id": 1683824,
+                "name": "Ronnie Hollingshead"
+            },
+            {
+                "id": 1818295,
+                "name": "Rhys Oakley"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 170323,
+                "name": "Thibaut Courtois"
+            },
+            {
+                "id": 1232172,
+                "name": "Zeno Debast"
+            },
+            {
+                "id": 1173250,
+                "name": "Arthur Theate"
+            },
+            {
+                "id": 445873,
+                "name": "Brandon Mechele"
+            },
+            {
+                "id": 1134871,
+                "name": "Maxim De Cuyper"
+            },
+            {
+                "id": 39591,
+                "name": "Axel Witsel"
+            },
+            {
+                "id": 169200,
+                "name": "Kevin De Bruyne"
+            },
+            {
+                "id": 465960,
+                "name": "Youri Tielemans"
+            },
+            {
+                "id": 181276,
+                "name": "Romelu Lukaku"
+            },
+            {
+                "id": 318615,
+                "name": "Leandro Trossard"
+            },
+            {
+                "id": 942368,
+                "name": "J\u00e9r\u00e9my Doku"
+            },
+            {
+                "id": 1178602,
+                "name": "Senne Lammens"
+            },
+            {
+                "id": 1319972,
+                "name": "Mike Penders"
+            },
+            {
+                "id": 688876,
+                "name": "Dodi Luk\u00e9bakio"
+            },
+            {
+                "id": 277771,
+                "name": "Thomas Meunier"
+            },
+            {
+                "id": 1200630,
+                "name": "Koni De Winter"
+            },
+            {
+                "id": 1095432,
+                "name": "Charles De Ketelaere"
+            },
+            {
+                "id": 1489449,
+                "name": "Joaquin Seys"
+            },
+            {
+                "id": 1342754,
+                "name": "Diego Moreira"
+            },
+            {
+                "id": 203666,
+                "name": "Hans Vanaken"
+            },
+            {
+                "id": 465750,
+                "name": "Timothy Castagne"
+            },
+            {
+                "id": 921341,
+                "name": "Alexis Saelemaekers"
+            },
+            {
+                "id": 863869,
+                "name": "Nicolas Raskin"
+            },
+            {
+                "id": 1252070,
+                "name": "Nathan Ngoy"
+            },
+            {
+                "id": 1444231,
+                "name": "Matias Fernandez-Pardo"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5847098,
+        "homeId": 10006,
+        "awayId": 10252,
+        "homeName": "Walsall",
+        "awayName": "Aston Villa",
+        "matchDate": "2026-07-21T18:30:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-21T18:30:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Pallet-Track Bescot Stadium",
+            "city": "Walsall, West Midlands",
+            "lat": 52.565390156,
+            "long": -1.990437806
+        },
+        "matchUrl": "/matches/walsall-vs-aston-villa/3e6fvj#5847098"
+    },
+    "dataProvider": "enet"
+}

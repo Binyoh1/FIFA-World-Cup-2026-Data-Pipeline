@@ -1,0 +1,5424 @@
+{
+    "id": 1113790,
+    "name": "Oscar Bobb",
+    "birthDate": {
+        "utcTime": "2003-07-12T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2031-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9879,
+        "teamName": "Fulham",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#000000",
+            "colorAlternate": "#ffffff",
+            "colorAway": "#C90000",
+            "colorAwayAlternate": "#C90000"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 4,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.36
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 1,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 16,
+                "position": "82",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 4,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.36
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 174,
+                "key": null,
+                "fallback": "174 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 14,
+                "options": {},
+                "key": null,
+                "fallback": 14
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Norway"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "NOR"
+            },
+            "countryCode": "NOR"
+        },
+        {
+            "value": {
+                "numberValue": 33223348,
+                "key": null,
+                "fallback": "\u20ac33.2m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2031-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2031-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 47,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 1
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 11
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 23
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1037
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.69
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 8456,
+                "teamName": "Manchester City",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 132,
+                        "leagueName": "FA Cup",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025",
+                            "2023/2024"
+                        ]
+                    },
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 47,
+                        "leagueName": "Premier League",
+                        "seasonsWon": [
+                            "2023/2024",
+                            "2022/2023",
+                            "2021/2022"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": -1,
+                        "leagueName": "J.League World Challenge",
+                        "seasonsWon": [
+                            "2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 42,
+                        "leagueName": "Champions League",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 74,
+                        "leagueName": "UEFA Super Cup",
+                        "seasonsWon": [
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 78,
+                        "leagueName": "FIFA Club World Cup",
+                        "seasonsWon": [
+                            "2023 Saudi Arabia"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 247,
+                        "leagueName": "Community Shield",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2023/2024",
+                            "2022/2023"
+                        ]
+                    }
+                ]
+            },
+            {
+                "ccode": "ENG",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": -1,
+                        "leagueName": "U18 Premier League",
+                        "seasonsWon": [
+                            "2021/2022",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ENG",
+                        "leagueId": -1,
+                        "leagueName": "FA Youth Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ENG",
+                        "leagueId": -1,
+                        "leagueName": "U18 Premier League Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ENG",
+                "teamId": 357215,
+                "teamName": "Manchester City U23",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 9084,
+                        "leagueName": "Premier League 2",
+                        "seasonsWon": [
+                            "2021/2022",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ENG",
+                "teamId": 860800,
+                "teamName": "Manchester City U21",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 9084,
+                        "leagueName": "Premier League 2",
+                        "seasonsWon": [
+                            "2024/2025",
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": true,
+            "id": 4653852,
+            "matchDate": {
+                "utcTime": "2026-07-11T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/england-vs-norway/2dvb4w#4653852",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 52,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4653846,
+            "matchDate": {
+                "utcTime": "2026-07-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-vs-norway/2bicve#4653846",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6709,
+            "opponentTeamName": "Ivory Coast",
+            "isHomeTeam": false,
+            "id": 4653712,
+            "matchDate": {
+                "utcTime": "2026-06-30T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-norway/1wsny5#4653712",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": true,
+            "id": 4667808,
+            "matchDate": {
+                "utcTime": "2026-06-26T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/france-vs-norway/1wx88k#4667808",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6395,
+            "opponentTeamName": "Senegal",
+            "isHomeTeam": true,
+            "id": 4667806,
+            "matchDate": {
+                "utcTime": "2026-06-23T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-norway/1tzewo#4667806",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 6,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 5819,
+            "opponentTeamName": "Iraq",
+            "isHomeTeam": false,
+            "id": 4667805,
+            "matchDate": {
+                "utcTime": "2026-06-16T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/iraq-vs-norway/1oz68o#4667805",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 5333656,
+            "matchDate": {
+                "utcTime": "2026-06-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-norway/1st5xb#5333656",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8520,
+            "opponentTeamName": "Sweden",
+            "isHomeTeam": true,
+            "id": 5269692,
+            "matchDate": {
+                "utcTime": "2026-06-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/norway-vs-sweden/2e5vii#5269692",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": true,
+            "id": 4813748,
+            "matchDate": {
+                "utcTime": "2026-05-24T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-newcastle-united/3crcfp#4813748",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813744,
+            "matchDate": {
+                "utcTime": "2026-05-17T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-fulham/2tookg#4813744",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4813728,
+            "matchDate": {
+                "utcTime": "2026-05-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-fulham/2uiul6#4813728",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813716,
+            "matchDate": {
+                "utcTime": "2026-05-02T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-fulham/37l643#4813716",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": true,
+            "id": 4813709,
+            "matchDate": {
+                "utcTime": "2026-04-25T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-aston-villa/3cnglp#4813709",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": false,
+            "id": 4813696,
+            "matchDate": {
+                "utcTime": "2026-04-18T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-brentford/38wlut#4813696",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4813690,
+            "matchDate": {
+                "utcTime": "2026-04-11T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-fulham/2u7pyg#4813690",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": true,
+            "id": 5124811,
+            "matchDate": {
+                "utcTime": "2026-03-31T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-norway/1wv9t5#5124811",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 5110541,
+            "matchDate": {
+                "utcTime": "2026-03-27T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-norway/1wsc7w#5110541",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813679,
+            "matchDate": {
+                "utcTime": "2026-03-21T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-fulham/2p7opg#4813679",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4813672,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-nottingham-forest/3c2cdu#4813672",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8466,
+            "opponentTeamName": "Southampton",
+            "isHomeTeam": true,
+            "id": 5186378,
+            "matchDate": {
+                "utcTime": "2026-03-08T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/southampton-vs-fulham/2s70ac#5186378",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4813659,
+            "matchDate": {
+                "utcTime": "2026-03-04T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-fulham/2u9b5i#4813659",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": true,
+            "id": 4813649,
+            "matchDate": {
+                "utcTime": "2026-03-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-fulham/2tici0#4813649",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": false,
+            "id": 4813642,
+            "matchDate": {
+                "utcTime": "2026-02-22T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-fulham/2s9d8f#4813642",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 10194,
+            "opponentTeamName": "Stoke City",
+            "isHomeTeam": false,
+            "id": 5135161,
+            "matchDate": {
+                "utcTime": "2026-02-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-stoke-city/3bygyc#5135161",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4813630,
+            "matchDate": {
+                "utcTime": "2026-02-11T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-fulham/2s32rr#4813630",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9879,
+            "teamName": "Fulham",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4813619,
+            "matchDate": {
+                "utcTime": "2026-02-07T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-fulham/2uevfp#4813619",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": true,
+            "id": 5034194,
+            "matchDate": {
+                "utcTime": "2025-12-17T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-brentford/2spwom#5034194",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": false,
+            "id": 4813529,
+            "matchDate": {
+                "utcTime": "2025-12-14T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-crystal-palace/2ri9zd#4813529",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8633,
+            "opponentTeamName": "Real Madrid",
+            "isHomeTeam": false,
+            "id": 4947116,
+            "matchDate": {
+                "utcTime": "2025-12-10T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-real-madrid/2ey0nu#4947116",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": true,
+            "id": 4813521,
+            "matchDate": {
+                "utcTime": "2025-12-06T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-sunderland/2dbbjc#4813521",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8178,
+            "opponentTeamName": "Bayer Leverkusen",
+            "isHomeTeam": true,
+            "id": 4947160,
+            "matchDate": {
+                "utcTime": "2025-11-25T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bayer-leverkusen-vs-manchester-city/2adklz#4947160",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4813493,
+            "matchDate": {
+                "utcTime": "2025-11-22T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-newcastle-united/2waqez#4813493",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8204,
+            "opponentTeamName": "Italy",
+            "isHomeTeam": false,
+            "id": 4689494,
+            "matchDate": {
+                "utcTime": "2025-11-16T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/italy-vs-norway/2azpwo#4689494",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8261,
+            "opponentTeamName": "Estonia",
+            "isHomeTeam": true,
+            "id": 4689491,
+            "matchDate": {
+                "utcTime": "2025-11-13T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/estonia-vs-norway/2bk5hx#4689491",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": true,
+            "id": 4813480,
+            "matchDate": {
+                "utcTime": "2025-11-09T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-liverpool/2f48yd#4813480",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9789,
+            "opponentTeamName": "Borussia Dortmund",
+            "isHomeTeam": true,
+            "id": 4947132,
+            "matchDate": {
+                "utcTime": "2025-11-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-borussia-dortmund/2r3sj0#4947132",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10003,
+            "opponentTeamName": "Swansea City",
+            "isHomeTeam": false,
+            "id": 4978146,
+            "matchDate": {
+                "utcTime": "2025-10-29T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-swansea-city/2tfxxe#4978146",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": false,
+            "id": 4813457,
+            "matchDate": {
+                "utcTime": "2025-10-26T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-aston-villa/2w74gq#4813457",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10205,
+            "opponentTeamName": "Villarreal",
+            "isHomeTeam": false,
+            "id": 4947161,
+            "matchDate": {
+                "utcTime": "2025-10-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-villarreal/2voauf#4947161",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4813450,
+            "matchDate": {
+                "utcTime": "2025-10-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-everton/2fauom#4813450",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": true,
+            "id": 4739662,
+            "matchDate": {
+                "utcTime": "2025-10-14T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-norway/1ozha8#4739662",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 8567,
+            "opponentTeamName": "Israel",
+            "isHomeTeam": true,
+            "id": 4689487,
+            "matchDate": {
+                "utcTime": "2025-10-11T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/norway-vs-israel/2en1d9#4689487",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": false,
+            "id": 4813438,
+            "matchDate": {
+                "utcTime": "2025-10-05T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-brentford/2spwom#4813438",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 76,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": false,
+            "id": 4947165,
+            "matchDate": {
+                "utcTime": "2025-10-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-monaco/2rjgb4#4947165",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813431,
+            "matchDate": {
+                "utcTime": "2025-09-27T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-manchester-city/2ai7j8#4813431",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9796,
+            "opponentTeamName": "Huddersfield Town",
+            "isHomeTeam": false,
+            "id": 4945937,
+            "matchDate": {
+                "utcTime": "2025-09-24T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-huddersfield-town/2r6j3m#4945937",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813416,
+            "matchDate": {
+                "utcTime": "2025-09-21T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-arsenal/2rhvvi#4813416",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": true,
+            "id": 4947162,
+            "matchDate": {
+                "utcTime": "2025-09-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-napoli/2s1i6l#4947162",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": true,
+            "id": 4813412,
+            "matchDate": {
+                "utcTime": "2025-09-14T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-manchester-united/2wabz2#4813412",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 5794,
+            "opponentTeamName": "Moldova",
+            "isHomeTeam": true,
+            "id": 4689486,
+            "matchDate": {
+                "utcTime": "2025-09-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/moldova-vs-norway/1oriet#4689486",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+            "stage": null,
+            "homeScore": 11,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8492,
+            "teamName": "Norway",
+            "opponentTeamId": 7871,
+            "opponentTeamName": "Finland",
+            "isHomeTeam": true,
+            "id": 4744521,
+            "matchDate": {
+                "utcTime": "2025-09-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/finland-vs-norway/27pqm6#4744521",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": false,
+            "id": 4813396,
+            "matchDate": {
+                "utcTime": "2025-08-31T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-brighton-hove-albion/2vnwg2#4813396",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": true,
+            "id": 4813392,
+            "matchDate": {
+                "utcTime": "2025-08-23T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-tottenham-hotspur/2egtpx#4813392",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813380,
+            "matchDate": {
+                "utcTime": "2025-08-16T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-wolverhampton-wanderers/2emo8d#4813380",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8456,
+            "teamName": "Manchester City",
+            "opponentTeamId": 8540,
+            "opponentTeamName": "Palermo",
+            "isHomeTeam": false,
+            "id": 4889698,
+            "matchDate": {
+                "utcTime": "2025-08-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-palermo/2e01li#4889698",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1113790,
+                        "teamId": 9879,
+                        "team": "Fulham",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2026-01-30T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 8456,
+                        "team": "Manchester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-01-07T00:00:00",
+                        "endDate": "2026-01-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "47",
+                        "goals": "3",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.76"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": "6.69"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28891,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            }
+                        ],
+                        "teamId": 9879,
+                        "team": "Fulham",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "17",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.70"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.69"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27199,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.05"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.40"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 78,
+                                "leagueName": "FIFA Club World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 24449,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.80"
+                                }
+                            }
+                        ],
+                        "teamId": 8456,
+                        "team": "Manchester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23685,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 247,
+                                "leagueName": "Community Shield",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 26704,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8456,
+                        "team": "Manchester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "26",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.76"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20720,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": "6.65"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21876,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21054,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20961,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.29"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10703,
+                                "leagueName": "FIFA Intercontinental Cup",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8456,
+                        "team": "Manchester City",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1113790,
+                        "teamId": 357215,
+                        "team": "Manchester City U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-09-03T00:00:00",
+                        "endDate": "2026-01-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "28",
+                        "goals": "7",
+                        "assists": "10",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 860800,
+                        "team": "Manchester City U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-09-07T00:00:00",
+                        "endDate": "2025-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "33",
+                        "goals": "6",
+                        "assists": "18",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 394199,
+                        "team": "Manchester City U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2023-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "13",
+                        "goals": "3",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 1113543,
+                        "team": "Manchester City U18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-12T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "46",
+                        "goals": "17",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "26",
+                        "goals": "7",
+                        "assists": "10",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "7",
+                                "assists": "10",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357215,
+                        "team": "Manchester City U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357215,
+                        "team": "Manchester City U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 860800,
+                        "team": "Manchester City U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "28",
+                        "goals": "6",
+                        "assists": "18",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "6",
+                                "assists": "17",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 142,
+                                "leagueName": "EFL Trophy",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17838,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 860800,
+                        "team": "Manchester City U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 142,
+                                "leagueName": "EFL Trophy",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16501,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 860800,
+                        "team": "Manchester City U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 142,
+                                "leagueName": "EFL Trophy",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15534,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 860800,
+                        "team": "Manchester City U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "7",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 394199,
+                        "team": "Manchester City U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 394199,
+                        "team": "Manchester City U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "24",
+                        "goals": "11",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U18 Premier League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "10",
+                                "assists": "1",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FA Youth Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1113543,
+                        "team": "Manchester City U18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "22",
+                        "goals": "6",
+                        "assists": "5",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U18 Premier League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "2",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FA Youth Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U18 Premier League Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "3",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1113543,
+                        "team": "Manchester City U18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1113790,
+                        "teamId": 8492,
+                        "team": "Norway",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-10-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "26",
+                        "goals": "2",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 423361,
+                        "team": "Norway U16",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-02-01T00:00:00",
+                        "endDate": "2023-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 5830,
+                        "team": "Norway U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-03-14T00:00:00",
+                        "endDate": "2023-10-03T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 5964,
+                        "team": "Norway U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-09-21T00:00:00",
+                        "endDate": "2022-11-07T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1113790,
+                        "teamId": 401900,
+                        "team": "Norway U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-01T00:00:00",
+                        "endDate": "2021-09-21T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.80"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.90"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.63"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            }
+                        ],
+                        "teamId": 8492,
+                        "team": "Norway",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.88"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.88"
+                                }
+                            }
+                        ],
+                        "teamId": 8492,
+                        "team": "Norway",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            }
+                        ],
+                        "teamId": 8492,
+                        "team": "Norway",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "8.73"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.73"
+                                }
+                            }
+                        ],
+                        "teamId": 8492,
+                        "team": "Norway",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U16 National Team Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 423361,
+                        "team": "Norway U16",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5830,
+                        "team": "Norway U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.14"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2023",
+                                "tournamentId": 18334,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.14"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U21 National Team Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5830,
+                        "team": "Norway U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U19 Championship Qualificat",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5964,
+                        "team": "Norway U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 301,
+                                "leagueName": "UEFA U17 Championship",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 401900,
+                        "team": "Norway U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.69
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.19
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.35
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.07
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.8
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "oscar-bobb",
+        "pageurl": "/players/1113790/oscar-bobb",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Oscar Bobb?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb is 23 years old. Born on Sat Jul 12 2003."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Oscar Bobb?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb is 174 cm tall. Or 5 ft 9 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Oscar Bobb born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb was born Sat Jul 12 2003 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Oscar Bobb's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Oscar Bobb's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb's transfer value is estimated to be around \u20ac33.2m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Oscar Bobb from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb is from Norway."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Oscar Bobb scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oscar Bobb has scored 0 goals in the Premier League."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Oscar Bobb",
+            "birthDate": "2003-07-12T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1113790/oscar-bobb",
+            "nationality": {
+                "@type": "Country",
+                "name": "Norway"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Fulham"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "174"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Fulham",
+                    "item": "https://www.fotmob.com/teams/9879/overview/fulham"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Oscar Bobb",
+                    "item": "https://www.fotmob.com/leagues/1113790/overview/oscar-bobb"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "tournamentId": 78,
+                    "entryId": "1-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Community Shield",
+                    "tournamentId": 247,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-5",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "3-6",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "tournamentId": 78,
+                    "entryId": "3-7",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2946864459,
+                "playerName": "Oscar Bobb",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "FromCorner",
+                "teamId": 8492,
+                "playerId": 1113790,
+                "x": 92.2,
+                "y": 32.0175,
+                "min": 114,
+                "period": "SecondHalfExtra",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 37.43125,
+                "goalCrossedZ": 6.2704827704,
+                "expectedGoals": 0.0427162423729897,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.629405006137783,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.408262026025262
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 8491,
+                "homeTeamName": "Norway",
+                "awayTeamName": "England",
+                "homeScore": 1,
+                "awayScore": 2,
+                "matchId": 4653852,
+                "matchDate": "2026-07-11T21:00:00Z",
+                "teamColor": "#b53032",
+                "teamColorDark": "#b53032"
+            },
+            {
+                "id": 2945260129,
+                "playerName": "Oscar Bobb",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 8492,
+                "playerId": 1113790,
+                "x": 94.675438595,
+                "y": 32.55125,
+                "min": 90,
+                "minAdded": 0,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": true,
+                "isFromInsideBox": true,
+                "blockedX": 103.9568965518,
+                "blockedY": 35.3725,
+                "goalCrossedY": 35.6775,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.182970851659775,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.556216931216931,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6395,
+                "homeTeamName": "Norway",
+                "awayTeamName": "Senegal",
+                "homeScore": 3,
+                "awayScore": 2,
+                "matchId": 4667806,
+                "matchDate": "2026-06-23T00:00:00Z",
+                "teamColor": "#b53032",
+                "teamColorDark": "#b53032"
+            },
+            {
+                "id": 2945494285,
+                "playerName": "Oscar Bobb",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 8492,
+                "playerId": 1113790,
+                "x": 92.7,
+                "y": 21.8272611502,
+                "min": 63,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 93.5,
+                "blockedY": 22.5979617875,
+                "goalCrossedY": 34,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0315998569130898,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6723,
+                "homeTeamName": "Norway",
+                "awayTeamName": "France",
+                "homeScore": 1,
+                "awayScore": 4,
+                "matchId": 4667808,
+                "matchDate": "2026-06-26T19:00:00Z",
+                "teamColor": "#b53032",
+                "teamColorDark": "#b53032"
+            },
+            {
+                "id": 2945495697,
+                "playerName": "Oscar Bobb",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 8492,
+                "playerId": 1113790,
+                "x": 93.7,
+                "y": 26.4009375,
+                "min": 72,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 101.8706896554,
+                "blockedY": 30.56875,
+                "goalCrossedY": 35.525,
+                "goalCrossedZ": 0.1219999994,
+                "expectedGoals": 0.290117144584656,
+                "expectedGoalsOnTarget": 0.488592028617859,
+                "onGoalShot": {
+                    "x": 0.596560846560845,
+                    "y": 0.0322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8492,
+                "awayTeamId": 6723,
+                "homeTeamName": "Norway",
+                "awayTeamName": "France",
+                "homeScore": 1,
+                "awayScore": 4,
+                "matchId": 4667808,
+                "matchDate": "2026-06-26T19:00:00Z",
+                "teamColor": "#b53032",
+                "teamColorDark": "#b53032"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.22191892101152522,
+                            "percentileRank": 61.59420289855072,
+                            "percentileRankPer90": 63.04347826086957,
+                            "statFormat": "fraction",
+                            "statValue": "0.55",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.19808107533970393,
+                            "percentileRank": 60.86956521739131,
+                            "percentileRankPer90": 63.76811594202898,
+                            "statFormat": "fraction",
+                            "statValue": "0.49",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.22191892101152522,
+                            "percentileRank": 62.31884057971014,
+                            "percentileRankPer90": 63.76811594202898,
+                            "statFormat": "fraction",
+                            "statValue": "0.55",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.6216216216216217,
+                            "percentileRank": 45.65217391304348,
+                            "percentileRankPer90": 47.10144927536232,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.8108108108108109,
+                            "percentileRank": 56.52173913043478,
+                            "percentileRankPer90": 69.56521739130434,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.1944390039991688,
+                            "percentileRank": 63.76811594202898,
+                            "percentileRankPer90": 70.28985507246377,
+                            "statFormat": "fraction",
+                            "statValue": "0.48",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 40.13513513513514,
+                            "percentileRank": 71.73913043478261,
+                            "percentileRankPer90": 83.33333333333334,
+                            "statFormat": "number",
+                            "statValue": "99",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 92.5233644859813,
+                            "percentileRank": 92.7536231884058,
+                            "percentileRankPer90": 92.7536231884058,
+                            "statFormat": "percent",
+                            "statValue": "92.5",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.8108108108108109,
+                            "percentileRank": 42.7536231884058,
+                            "percentileRankPer90": 46.3768115942029,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.2162162162162162,
+                            "percentileRank": 41.30434782608695,
+                            "percentileRankPer90": 47.10144927536232,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1.2162162162162162,
+                            "percentileRank": 40.57971014492754,
+                            "percentileRankPer90": 43.47826086956522,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 33.333333333333336,
+                            "percentileRank": 26.811594202898554,
+                            "percentileRankPer90": 26.811594202898554,
+                            "statFormat": "percent",
+                            "statValue": "33.3",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 4.864864864864865,
+                            "percentileRank": 48.55072463768116,
+                            "percentileRankPer90": 57.2463768115942,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 44.44444444444444,
+                            "percentileRank": 45.65217391304348,
+                            "percentileRankPer90": 45.65217391304348,
+                            "statFormat": "percent",
+                            "statValue": "44.4",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 64.86486486486486,
+                            "percentileRank": 60.86956521739131,
+                            "percentileRankPer90": 76.08695652173914,
+                            "statFormat": "number",
+                            "statValue": "160",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 6.486486486486487,
+                            "percentileRank": 73.18840579710145,
+                            "percentileRankPer90": 84.78260869565217,
+                            "statFormat": "number",
+                            "statValue": "16",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0.8108108108108109,
+                            "percentileRank": 63.76811594202898,
+                            "percentileRankPer90": 78.26086956521739,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.6216216216216217,
+                            "percentileRank": 55.79710144927537,
+                            "percentileRankPer90": 65.21739130434783,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Fouls won"
+                        },
+                        {
+                            "localizedTitleId": "penalty_won_title",
+                            "per90": 0.40540540540540543,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 98.55072463768117,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Penalties awarded"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 3.2432432432432434,
+                            "percentileRank": 58.69565217391305,
+                            "percentileRankPer90": 65.94202898550725,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.0270270270270268,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 72.46376811594203,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.8108108108108109,
+                            "percentileRank": 56.52173913043478,
+                            "percentileRankPer90": 68.84057971014492,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.40540540540540543,
+                            "percentileRank": 71.01449275362319,
+                            "percentileRankPer90": 78.26086956521739,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.6486486486486487,
+                            "percentileRank": 52.17391304347826,
+                            "percentileRankPer90": 50.72463768115942,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.40540540540540543,
+                            "percentileRank": 29.71014492753623,
+                            "percentileRankPer90": 41.30434782608695,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 1.6216216216216217,
+                            "percentileRank": 18.84057971014493,
+                            "percentileRankPer90": 12.318840579710146,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 0.40540540540540543,
+                            "percentileRank": 34.05797101449276,
+                            "percentileRankPer90": 47.82608695652174,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.8378378378378377,
+                            "percentileRank": 5.072463768115942,
+                            "percentileRankPer90": 7.971014492753622,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.993621587753296,
+                            "percentileRank": 19.565217391304348,
+                            "percentileRankPer90": 13.768115942028986,
+                            "statFormat": "fraction",
+                            "statValue": "4.92",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.626,
+                    "percentileRank": 30.434782608695656,
+                    "percentileRankPer90": 30.434782608695656,
+                    "statFormat": "fraction",
+                    "statValue": "6.63",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 6,
+                    "percentileRank": 83.33333333333334,
+                    "percentileRankPer90": 83.33333333333334,
+                    "statFormat": "number",
+                    "statValue": "6",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0.7246376811594203,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 44.927536231884055,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "222",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 27.81,
+                    "y": 60.06
+                },
+                {
+                    "x": 93.7,
+                    "y": 49.61
+                },
+                {
+                    "x": 82.6,
+                    "y": 63.87
+                },
+                {
+                    "x": 89.9,
+                    "y": 63.67
+                },
+                {
+                    "x": 85.49,
+                    "y": 62.29
+                },
+                {
+                    "x": 90.8,
+                    "y": 53.18
+                },
+                {
+                    "x": 93.1,
+                    "y": 63.8
+                },
+                {
+                    "x": 79.44,
+                    "y": 68
+                },
+                {
+                    "x": 79.44,
+                    "y": 63.41
+                },
+                {
+                    "x": 66.15,
+                    "y": 54.42
+                },
+                {
+                    "x": 36.48,
+                    "y": 60.06
+                },
+                {
+                    "x": 87.75,
+                    "y": 51.92
+                },
+                {
+                    "x": 91.1,
+                    "y": 63.93
+                },
+                {
+                    "x": 13.2,
+                    "y": 53.6
+                },
+                {
+                    "x": 13.2,
+                    "y": 53.6
+                },
+                {
+                    "x": 92.7,
+                    "y": 62.03
+                },
+                {
+                    "x": 71.11,
+                    "y": 63.28
+                },
+                {
+                    "x": 60.33,
+                    "y": 61.44
+                },
+                {
+                    "x": 36.37,
+                    "y": 57.96
+                },
+                {
+                    "x": 47.62,
+                    "y": 55.54
+                },
+                {
+                    "x": 97.28,
+                    "y": 52.83
+                },
+                {
+                    "x": 41.32,
+                    "y": 59.21
+                },
+                {
+                    "x": 74.83,
+                    "y": 61.24
+                },
+                {
+                    "x": 68.75,
+                    "y": 56.78
+                },
+                {
+                    "x": 65.59,
+                    "y": 62.56
+                },
+                {
+                    "x": 76.74,
+                    "y": 63.01
+                },
+                {
+                    "x": 71.67,
+                    "y": 61.05
+                },
+                {
+                    "x": 73.36,
+                    "y": 63.41
+                },
+                {
+                    "x": 43.55,
+                    "y": 62.03
+                },
+                {
+                    "x": 73.48,
+                    "y": 55.93
+                },
+                {
+                    "x": 71.67,
+                    "y": 32.17
+                },
+                {
+                    "x": 84.62,
+                    "y": 58.95
+                },
+                {
+                    "x": 78.66,
+                    "y": 60.72
+                },
+                {
+                    "x": 96.41,
+                    "y": 46.03
+                },
+                {
+                    "x": 14.3,
+                    "y": 37.05
+                },
+                {
+                    "x": 10.32,
+                    "y": 61.31
+                },
+                {
+                    "x": 43.96,
+                    "y": 59.41
+                },
+                {
+                    "x": 54.74,
+                    "y": 61.44
+                },
+                {
+                    "x": 61.24,
+                    "y": 60.33
+                },
+                {
+                    "x": 61.99,
+                    "y": 60.19
+                },
+                {
+                    "x": 73.59,
+                    "y": 16.57
+                },
+                {
+                    "x": 83.16,
+                    "y": 5.38
+                },
+                {
+                    "x": 79.56,
+                    "y": 19.94
+                },
+                {
+                    "x": 39.3,
+                    "y": 60.98
+                },
+                {
+                    "x": 62.78,
+                    "y": 58.16
+                },
+                {
+                    "x": 62.78,
+                    "y": 58.16
+                },
+                {
+                    "x": 66.94,
+                    "y": 52.76
+                },
+                {
+                    "x": 74.49,
+                    "y": 24.7
+                },
+                {
+                    "x": 86.03,
+                    "y": 62.16
+                },
+                {
+                    "x": 8.88,
+                    "y": 61.44
+                },
+                {
+                    "x": 4.36,
+                    "y": 59.47
+                },
+                {
+                    "x": 33.44,
+                    "y": 42.29
+                },
+                {
+                    "x": 51.08,
+                    "y": 37.73
+                },
+                {
+                    "x": 82.94,
+                    "y": 24.49
+                },
+                {
+                    "x": 77.53,
+                    "y": 28.29
+                },
+                {
+                    "x": 89.7,
+                    "y": 60.59
+                },
+                {
+                    "x": 86.46,
+                    "y": 58.62
+                },
+                {
+                    "x": 99.11,
+                    "y": 64.2
+                },
+                {
+                    "x": 21.05,
+                    "y": 46.31
+                },
+                {
+                    "x": 94.58,
+                    "y": 59.93
+                },
+                {
+                    "x": 78.99,
+                    "y": 49.19
+                },
+                {
+                    "x": 27.13,
+                    "y": 36.97
+                },
+                {
+                    "x": 82.48,
+                    "y": 50.94
+                },
+                {
+                    "x": 81.47,
+                    "y": 51.57
+                },
+                {
+                    "x": 98.82,
+                    "y": 43.44
+                },
+                {
+                    "x": 94.87,
+                    "y": 52.27
+                },
+                {
+                    "x": 96.32,
+                    "y": 41.66
+                },
+                {
+                    "x": 25.33,
+                    "y": 48.13
+                },
+                {
+                    "x": 73.25,
+                    "y": 47.08
+                },
+                {
+                    "x": 85.17,
+                    "y": 65.18
+                },
+                {
+                    "x": 84.4,
+                    "y": 64
+                },
+                {
+                    "x": 89.6,
+                    "y": 65.97
+                },
+                {
+                    "x": 79.56,
+                    "y": 62.29
+                },
+                {
+                    "x": 84.4,
+                    "y": 61.7
+                },
+                {
+                    "x": 80.57,
+                    "y": 68
+                },
+                {
+                    "x": 94.1,
+                    "y": 51.85
+                },
+                {
+                    "x": 95.93,
+                    "y": 51.08
+                },
+                {
+                    "x": 66.38,
+                    "y": 56.13
+                },
+                {
+                    "x": 86.89,
+                    "y": 65.05
+                },
+                {
+                    "x": 79.33,
+                    "y": 59.15
+                },
+                {
+                    "x": 96.32,
+                    "y": 58.75
+                },
+                {
+                    "x": 65.82,
+                    "y": 60.98
+                },
+                {
+                    "x": 44.06,
+                    "y": 62.49
+                },
+                {
+                    "x": 52.2,
+                    "y": 64.65
+                },
+                {
+                    "x": 77.98,
+                    "y": 61.31
+                },
+                {
+                    "x": 84.85,
+                    "y": 62.29
+                },
+                {
+                    "x": 88.5,
+                    "y": 61.11
+                },
+                {
+                    "x": 90.1,
+                    "y": 58.69
+                },
+                {
+                    "x": 88.18,
+                    "y": 60.72
+                },
+                {
+                    "x": 70.43,
+                    "y": 35.75
+                },
+                {
+                    "x": 46.6,
+                    "y": 58.16
+                },
+                {
+                    "x": 76.18,
+                    "y": 26.46
+                },
+                {
+                    "x": 80.23,
+                    "y": 64.2
+                },
+                {
+                    "x": 81.02,
+                    "y": 51.85
+                },
+                {
+                    "x": 90.8,
+                    "y": 60.26
+                },
+                {
+                    "x": 92.2,
+                    "y": 35.98
+                },
+                {
+                    "x": 60.02,
+                    "y": 54.42
+                },
+                {
+                    "x": 76.52,
+                    "y": 61.31
+                },
+                {
+                    "x": 80.68,
+                    "y": 37.78
+                },
+                {
+                    "x": 83.39,
+                    "y": 36.44
+                },
+                {
+                    "x": 48.54,
+                    "y": 54.68
+                },
+                {
+                    "x": 70.43,
+                    "y": 58.42
+                },
+                {
+                    "x": 84.29,
+                    "y": 62.42
+                },
+                {
+                    "x": 80.91,
+                    "y": 62.1
+                },
+                {
+                    "x": 100.16,
+                    "y": 60.72
+                },
+                {
+                    "x": 102.25,
+                    "y": 47.43
+                },
+                {
+                    "x": 44.77,
+                    "y": 60.33
+                },
+                {
+                    "x": 32.65,
+                    "y": 46.45
+                },
+                {
+                    "x": 32.76,
+                    "y": 46.45
+                },
+                {
+                    "x": 42.34,
+                    "y": 61.24
+                },
+                {
+                    "x": 42.34,
+                    "y": 61.24
+                },
+                {
+                    "x": 44.06,
+                    "y": 62.62
+                },
+                {
+                    "x": 45.59,
+                    "y": 61.11
+                },
+                {
+                    "x": 78.66,
+                    "y": 65.31
+                },
+                {
+                    "x": 77.87,
+                    "y": 64.46
+                },
+                {
+                    "x": 78.66,
+                    "y": 61.18
+                },
+                {
+                    "x": 64.92,
+                    "y": 61.83
+                },
+                {
+                    "x": 67.62,
+                    "y": 64.39
+                },
+                {
+                    "x": 56.57,
+                    "y": 60.65
+                },
+                {
+                    "x": 56.87,
+                    "y": 65.77
+                },
+                {
+                    "x": 48.64,
+                    "y": 65.05
+                },
+                {
+                    "x": 62.89,
+                    "y": 54.16
+                },
+                {
+                    "x": 68.29,
+                    "y": 30.26
+                },
+                {
+                    "x": 67.73,
+                    "y": 64
+                },
+                {
+                    "x": 78.99,
+                    "y": 62.82
+                },
+                {
+                    "x": 66.94,
+                    "y": 64
+                },
+                {
+                    "x": 61.65,
+                    "y": 65.77
+                },
+                {
+                    "x": 75.5,
+                    "y": 63.8
+                },
+                {
+                    "x": 67.96,
+                    "y": 61.51
+                },
+                {
+                    "x": 51.18,
+                    "y": 56.59
+                },
+                {
+                    "x": 94.68,
+                    "y": 35.45
+                },
+                {
+                    "x": 101.4,
+                    "y": 30.34
+                },
+                {
+                    "x": 19.29,
+                    "y": 54.42
+                },
+                {
+                    "x": 71.67,
+                    "y": 60.26
+                },
+                {
+                    "x": 52.4,
+                    "y": 34.08
+                },
+                {
+                    "x": 69.2,
+                    "y": 34.76
+                },
+                {
+                    "x": 54.53,
+                    "y": 65.57
+                },
+                {
+                    "x": 52.3,
+                    "y": 33.85
+                },
+                {
+                    "x": 39.41,
+                    "y": 58.29
+                },
+                {
+                    "x": 40.2,
+                    "y": 56.65
+                },
+                {
+                    "x": 69.87,
+                    "y": 41.54
+                },
+                {
+                    "x": 34.68,
+                    "y": 39.46
+                },
+                {
+                    "x": 65.37,
+                    "y": 61.83
+                },
+                {
+                    "x": 72.12,
+                    "y": 59.47
+                },
+                {
+                    "x": 68.41,
+                    "y": 46.03
+                },
+                {
+                    "x": 63.56,
+                    "y": 68
+                },
+                {
+                    "x": 14.6,
+                    "y": 50.17
+                },
+                {
+                    "x": 14.6,
+                    "y": 50.17
+                },
+                {
+                    "x": 23.19,
+                    "y": 57.24
+                },
+                {
+                    "x": 38.96,
+                    "y": 60.85
+                },
+                {
+                    "x": 38.96,
+                    "y": 60.85
+                },
+                {
+                    "x": 78.99,
+                    "y": 54.02
+                },
+                {
+                    "x": 94.39,
+                    "y": 57.18
+                },
+                {
+                    "x": 58.5,
+                    "y": 68
+                },
+                {
+                    "x": 81.13,
+                    "y": 41.37
+                },
+                {
+                    "x": 96.51,
+                    "y": 54.09
+                },
+                {
+                    "x": 96.41,
+                    "y": 50.17
+                },
+                {
+                    "x": 97.86,
+                    "y": 54.23
+                },
+                {
+                    "x": 92.5,
+                    "y": 51.08
+                },
+                {
+                    "x": 70.43,
+                    "y": 56.78
+                },
+                {
+                    "x": 80.91,
+                    "y": 58.69
+                },
+                {
+                    "x": 81.7,
+                    "y": 54.75
+                },
+                {
+                    "x": 96.12,
+                    "y": 53.04
+                },
+                {
+                    "x": 64.8,
+                    "y": 63.28
+                },
+                {
+                    "x": 66.15,
+                    "y": 59.74
+                },
+                {
+                    "x": 32.99,
+                    "y": 61.51
+                },
+                {
+                    "x": 92.7,
+                    "y": 46.17
+                },
+                {
+                    "x": 93.7,
+                    "y": 41.6
+                },
+                {
+                    "x": 80.23,
+                    "y": 45.33
+                },
+                {
+                    "x": 90.6,
+                    "y": 65.05
+                },
+                {
+                    "x": 82.15,
+                    "y": 63.21
+                },
+                {
+                    "x": 82.15,
+                    "y": 65.18
+                },
+                {
+                    "x": 85.17,
+                    "y": 62.42
+                },
+                {
+                    "x": 84.74,
+                    "y": 21.62
+                },
+                {
+                    "x": 87.32,
+                    "y": 23.72
+                },
+                {
+                    "x": 73.81,
+                    "y": 46.87
+                },
+                {
+                    "x": 80.12,
+                    "y": 48.91
+                },
+                {
+                    "x": 59.62,
+                    "y": 54.88
+                },
+                {
+                    "x": 66.72,
+                    "y": 61.83
+                },
+                {
+                    "x": 97.96,
+                    "y": 49.96
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 920000,
+                "currency": "EUR",
+                "lowerBound": 690000,
+                "upperBound": 1150000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 1770000,
+                "currency": "EUR",
+                "lowerBound": 1320000,
+                "upperBound": 2210000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 2980000,
+                "currency": "EUR",
+                "lowerBound": 2230000,
+                "upperBound": 3720000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 4190000,
+                "currency": "EUR",
+                "lowerBound": 3140000,
+                "upperBound": 5230000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 4850000,
+                "currency": "EUR",
+                "lowerBound": 3630000,
+                "upperBound": 6060000,
+                "source": "scisports",
+                "teamId": 1113543,
+                "teamName": "Manchester City U18"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 5670000,
+                "currency": "EUR",
+                "lowerBound": 4260000,
+                "upperBound": 7090000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 6070000,
+                "currency": "EUR",
+                "lowerBound": 4550000,
+                "upperBound": 7590000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 6380000,
+                "currency": "EUR",
+                "lowerBound": 4780000,
+                "upperBound": 7970000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 6230000,
+                "currency": "EUR",
+                "lowerBound": 4670000,
+                "upperBound": 7790000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 390000,
+                "currency": "EUR",
+                "lowerBound": 290000,
+                "upperBound": 490000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 1020000,
+                "currency": "EUR",
+                "lowerBound": 760000,
+                "upperBound": 1280000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 1200000,
+                "currency": "EUR",
+                "lowerBound": 900000,
+                "upperBound": 1500000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 1230000,
+                "currency": "EUR",
+                "lowerBound": 920000,
+                "upperBound": 1530000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 3580000,
+                "currency": "EUR",
+                "lowerBound": 2680000,
+                "upperBound": 4470000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 4580000,
+                "currency": "EUR",
+                "lowerBound": 3430000,
+                "upperBound": 5720000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 5420000,
+                "currency": "EUR",
+                "lowerBound": 4060000,
+                "upperBound": 6770000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 7130000,
+                "currency": "EUR",
+                "lowerBound": 5350000,
+                "upperBound": 8920000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 8920000,
+                "currency": "EUR",
+                "lowerBound": 7582000,
+                "upperBound": 10258000,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 10258000,
+                "currency": "EUR",
+                "lowerBound": 9232200,
+                "upperBound": 11283800,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 11283800,
+                "currency": "EUR",
+                "lowerBound": 10155420,
+                "upperBound": 12412180,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 12412180,
+                "currency": "EUR",
+                "lowerBound": 11170962,
+                "upperBound": 13653398,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 13653398,
+                "currency": "EUR",
+                "lowerBound": 12288058,
+                "upperBound": 15018737,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 15018737,
+                "currency": "EUR",
+                "lowerBound": 13516863,
+                "upperBound": 16520610,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 16520610,
+                "currency": "EUR",
+                "lowerBound": 14868549,
+                "upperBound": 18172671,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 18172671,
+                "currency": "EUR",
+                "lowerBound": 16355403,
+                "upperBound": 19989938,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 19989938,
+                "currency": "EUR",
+                "lowerBound": 17990944,
+                "upperBound": 21988931,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 21988931,
+                "currency": "EUR",
+                "lowerBound": 19790037,
+                "upperBound": 24187824,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 24187824,
+                "currency": "EUR",
+                "lowerBound": 21769041,
+                "upperBound": 26606606,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 26606606,
+                "currency": "EUR",
+                "lowerBound": 23945945,
+                "upperBound": 29267266,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 28224043,
+                "currency": "EUR",
+                "lowerBound": 25401639,
+                "upperBound": 31046447,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 29177963,
+                "currency": "EUR",
+                "lowerBound": 26260167,
+                "upperBound": 32095760,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 29177963,
+                "currency": "EUR",
+                "lowerBound": 26260167,
+                "upperBound": 32095760,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 27940234,
+                "currency": "EUR",
+                "lowerBound": 25146210,
+                "upperBound": 30734257,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 27940234,
+                "currency": "EUR",
+                "lowerBound": 25146210,
+                "upperBound": 30734257,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 27940234,
+                "currency": "EUR",
+                "lowerBound": 25146210,
+                "upperBound": 30734257,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 27940234,
+                "currency": "EUR",
+                "lowerBound": 25146210,
+                "upperBound": 30734257,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 27940234,
+                "currency": "EUR",
+                "lowerBound": 25146210,
+                "upperBound": 30734257,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 27679301,
+                "currency": "EUR",
+                "lowerBound": 24911371,
+                "upperBound": 30447231,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 8456,
+                "teamName": "Manchester City"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 38586769,
+                "currency": "EUR",
+                "lowerBound": 34728092,
+                "upperBound": 42445446,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 37179082,
+                "currency": "EUR",
+                "lowerBound": 33461173,
+                "upperBound": 40896990,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 36914831,
+                "currency": "EUR",
+                "lowerBound": 33223348,
+                "upperBound": 40606314,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 33223348,
+                "currency": "EUR",
+                "lowerBound": 29901013,
+                "upperBound": 36545682,
+                "source": "scisports",
+                "teamId": 9879,
+                "teamName": "Fulham"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1199712,
+                "name": "Luke Harris"
+            },
+            {
+                "id": 215168,
+                "name": "Bernd Leno"
+            },
+            {
+                "id": 469804,
+                "name": "Kenny Tete"
+            },
+            {
+                "id": 877401,
+                "name": "Calvin Bassey"
+            },
+            {
+                "id": 503659,
+                "name": "Joachim Andersen"
+            },
+            {
+                "id": 502420,
+                "name": "Harrison Reed"
+            },
+            {
+                "id": 1128945,
+                "name": "Rodrigo Muniz"
+            },
+            {
+                "id": 182962,
+                "name": "Tom Cairney"
+            },
+            {
+                "id": 821728,
+                "name": "Jorge Cuenca"
+            },
+            {
+                "id": 540963,
+                "name": "Sander Berge"
+            },
+            {
+                "id": 604785,
+                "name": "Alex Iwobi"
+            },
+            {
+                "id": 1532672,
+                "name": "Jonah Kusi-Asare"
+            },
+            {
+                "id": 556972,
+                "name": "Sasa Lukic"
+            },
+            {
+                "id": 465750,
+                "name": "Timothy Castagne"
+            },
+            {
+                "id": 1318400,
+                "name": "Kevin"
+            },
+            {
+                "id": 210114,
+                "name": "Benjamin Lecomte"
+            },
+            {
+                "id": 1422593,
+                "name": "Joshua King"
+            },
+            {
+                "id": 773991,
+                "name": "Ryan Sessegnon"
+            },
+            {
+                "id": 696443,
+                "name": "Issa Diop"
+            },
+            {
+                "id": 889534,
+                "name": "Emile Smith Rowe"
+            },
+            {
+                "id": 662428,
+                "name": "Antonee Robinson"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 73409,
+                "name": "\u00d8rjan H\u00e5skjold Nyland"
+            },
+            {
+                "id": 439148,
+                "name": "Morten Thorsby"
+            },
+            {
+                "id": 552718,
+                "name": "Kristoffer Ajer"
+            },
+            {
+                "id": 740944,
+                "name": "Leo \u00d8stigard"
+            },
+            {
+                "id": 1049679,
+                "name": "David M\u00f8ller Wolfe"
+            },
+            {
+                "id": 530635,
+                "name": "Patrick Berg"
+            },
+            {
+                "id": 440330,
+                "name": "Alexander S\u00f8rloth"
+            },
+            {
+                "id": 540963,
+                "name": "Sander Berge"
+            },
+            {
+                "id": 737066,
+                "name": "Erling Haaland"
+            },
+            {
+                "id": 534670,
+                "name": "Martin \u00d8degaard"
+            },
+            {
+                "id": 821100,
+                "name": "J\u00f8rgen Strand Larsen"
+            },
+            {
+                "id": 1145714,
+                "name": "Sander Tangvik"
+            },
+            {
+                "id": 631757,
+                "name": "Egil Selvik"
+            },
+            {
+                "id": 310768,
+                "name": "Fredrik Aursnes"
+            },
+            {
+                "id": 630228,
+                "name": "Fredrik Andr\u00e9 Bj\u00f8rkan"
+            },
+            {
+                "id": 935622,
+                "name": "Marcus Holmgren Pedersen"
+            },
+            {
+                "id": 935550,
+                "name": "Torbj\u00f8rn Heggem"
+            },
+            {
+                "id": 921921,
+                "name": "Kristian Thorstvedt"
+            },
+            {
+                "id": 1184468,
+                "name": "Thelo Aasgaard"
+            },
+            {
+                "id": 1248482,
+                "name": "Antonio Nusa"
+            },
+            {
+                "id": 1228558,
+                "name": "Andreas Schjelderup"
+            },
+            {
+                "id": 741397,
+                "name": "Jens Petter Hauge"
+            },
+            {
+                "id": 1127585,
+                "name": "Sondre Klingen Lang\u00e5s"
+            },
+            {
+                "id": 1110550,
+                "name": "Henrik Falchener"
+            },
+            {
+                "id": 659272,
+                "name": "Julian Ryerson"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "dataProvider": "enet"
+}

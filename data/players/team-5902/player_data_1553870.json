@@ -1,0 +1,2770 @@
+{
+    "id": 1553870,
+    "name": "Mohammad Al Manai",
+    "birthDate": {
+        "utcTime": "2002-10-25T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 101904,
+        "teamName": "Al-Shamal",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#333333",
+            "colorAlternate": "#DDDDDD",
+            "colorAway": "#333333",
+            "colorAwayAlternate": "#DDDDDD"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "34",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 6,
+                "position": "66",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58,
+                    "ratio": 0.4608695652173913
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 12,
+                "position": "84",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 4,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1,
+                    "ratio": 0.3739130434782609
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Attacking Midfielder",
+            "key": "centerattackingmidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Defensive Midfielder",
+                "key": "centerdefensivemidfielder"
+            },
+            {
+                "label": "Striker",
+                "key": "striker"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 12,
+                "options": {},
+                "key": null,
+                "fallback": 12
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Qatar"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "QAT"
+            },
+            "countryCode": "QAT"
+        },
+        {
+            "value": {
+                "numberValue": 515927,
+                "key": null,
+                "fallback": "\u20ac515.9k"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 11018,
+        "leagueName": "Amir of Qatar Cup",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 1
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 1
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 90
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "QAT",
+                "teamId": 0,
+                "teamName": "Al Markhiya II",
+                "tournaments": [
+                    {
+                        "ccode": "QAT",
+                        "leagueId": -1,
+                        "leagueName": "Reserve League",
+                        "seasonsWon": [
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "QAT",
+                "teamId": 101895,
+                "teamName": "Al-Sadd",
+                "tournaments": [
+                    {
+                        "ccode": "QAT",
+                        "leagueId": 11017,
+                        "leagueName": "QSL Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "QAT",
+                        "leagueId": 11018,
+                        "leagueName": "Amir of Qatar Cup",
+                        "seasonsWon": [
+                            "2021",
+                            "2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "QAT",
+                        "leagueId": 11016,
+                        "leagueName": "Qatar Cup",
+                        "seasonsWon": [
+                            "2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "QAT",
+                        "leagueId": 535,
+                        "leagueName": "Qatar Stars League",
+                        "seasonsWon": [
+                            "2021/2022",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 10106,
+            "opponentTeamName": "Bosnia and Herzegovina",
+            "isHomeTeam": false,
+            "id": 4667762,
+            "matchDate": {
+                "utcTime": "2026-06-24T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-bosnia-herzegovina/24aiya#4667762",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 5810,
+            "opponentTeamName": "Canada",
+            "isHomeTeam": false,
+            "id": 4667760,
+            "matchDate": {
+                "utcTime": "2026-06-18T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/canada-vs-qatar/14u9ym#4667760",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "4.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": true,
+            "id": 4667758,
+            "matchDate": {
+                "utcTime": "2026-06-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-switzerland/1beswv#4667758",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6327,
+            "opponentTeamName": "El Salvador",
+            "isHomeTeam": true,
+            "id": 5406266,
+            "matchDate": {
+                "utcTime": "2026-06-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-el-salvador/18ixra#5406266",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 5791,
+            "opponentTeamName": "Ireland",
+            "isHomeTeam": false,
+            "id": 5213041,
+            "matchDate": {
+                "utcTime": "2026-05-28T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ireland-vs-qatar/14pie1#5213041",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101895,
+            "opponentTeamName": "Al-Sadd",
+            "isHomeTeam": true,
+            "id": 1000010991,
+            "matchDate": {
+                "utcTime": "2026-05-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-sadd-vs-al-shamal/9jg9lic#1000010991",
+            "leagueId": 11018,
+            "leagueName": "Amir of Qatar Cup",
+            "stage": "Quarter-finals",
+            "homeScore": 4,
+            "awayScore": 6,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101895,
+            "opponentTeamName": "Al-Sadd",
+            "isHomeTeam": false,
+            "id": 5126736,
+            "matchDate": {
+                "utcTime": "2026-04-27T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-sadd-vs-al-shamal/9jg9lic#5126736",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101900,
+            "opponentTeamName": "Qatar SC",
+            "isHomeTeam": true,
+            "id": 5099029,
+            "matchDate": {
+                "utcTime": "2026-04-13T14:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-sc-vs-al-shamal/9jgvfs6#5099029",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 568590,
+            "opponentTeamName": "Al-Shahaniya",
+            "isHomeTeam": false,
+            "id": 5099052,
+            "matchDate": {
+                "utcTime": "2026-04-08T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-shahaniya/2v9hehr3#5099052",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101903,
+            "opponentTeamName": "Umm Salal",
+            "isHomeTeam": true,
+            "id": 5099046,
+            "matchDate": {
+                "utcTime": "2026-04-04T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/umm-salal-vs-al-shamal/9jh8jk0#5099046",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 76,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101897,
+            "opponentTeamName": "Al-Gharafa",
+            "isHomeTeam": false,
+            "id": 5099021,
+            "matchDate": {
+                "utcTime": "2026-02-22T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-gharafa-vs-al-shamal/9jgic0l#5099021",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 57,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101899,
+            "opponentTeamName": "Al-Arabi",
+            "isHomeTeam": false,
+            "id": 5099017,
+            "matchDate": {
+                "utcTime": "2026-02-05T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-arabi-vs-al-shamal/9jgr2iy#5099017",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101905,
+            "opponentTeamName": "Al-Sailiya",
+            "isHomeTeam": true,
+            "id": 5099008,
+            "matchDate": {
+                "utcTime": "2026-01-30T14:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-sailiya/9jhha2q#5099008",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101898,
+            "opponentTeamName": "Al-Rayyan",
+            "isHomeTeam": false,
+            "id": 5099004,
+            "matchDate": {
+                "utcTime": "2026-01-17T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-rayyan-vs-al-shamal/9jgmp9r#5099004",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 179097,
+            "opponentTeamName": "Al-Ahli",
+            "isHomeTeam": false,
+            "id": 5098996,
+            "matchDate": {
+                "utcTime": "2026-01-07T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-ahli/i4y106u#5098996",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101895,
+            "opponentTeamName": "Al-Sadd",
+            "isHomeTeam": true,
+            "id": 4821394,
+            "matchDate": {
+                "utcTime": "2025-12-29T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-sadd-vs-al-shamal/9jg9lic#4821394",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 1000004646,
+            "matchDate": {
+                "utcTime": "2025-12-07T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-tunisia/1bfce2#1000004646",
+            "leagueId": 10242,
+            "leagueName": "FIFA Arab Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6320,
+            "opponentTeamName": "Syria",
+            "isHomeTeam": false,
+            "id": 1000005157,
+            "matchDate": {
+                "utcTime": "2025-12-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-syria/18h3pt#1000005157",
+            "leagueId": 10242,
+            "leagueName": "FIFA Arab Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6333,
+            "opponentTeamName": "Palestine",
+            "isHomeTeam": true,
+            "id": 1000005159,
+            "matchDate": {
+                "utcTime": "2025-12-01T15:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-palestine/18kie7#1000005159",
+            "leagueId": 10242,
+            "leagueName": "FIFA Arab Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 568590,
+            "opponentTeamName": "Al-Shahaniya",
+            "isHomeTeam": true,
+            "id": 4821387,
+            "matchDate": {
+                "utcTime": "2025-11-23T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-shahaniya/2v9hehr3#4821387",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 33,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 6290,
+            "opponentTeamName": "Zimbabwe",
+            "isHomeTeam": true,
+            "id": 5061366,
+            "matchDate": {
+                "utcTime": "2025-11-17T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-zimbabwe/189942#5061366",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101901,
+            "opponentTeamName": "Al-Wakrah",
+            "isHomeTeam": true,
+            "id": 4821369,
+            "matchDate": {
+                "utcTime": "2025-11-07T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-wakrah-vs-al-shamal/9jgzt1f#4821369",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101903,
+            "opponentTeamName": "Umm Salal",
+            "isHomeTeam": false,
+            "id": 4821382,
+            "matchDate": {
+                "utcTime": "2025-11-01T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/umm-salal-vs-al-shamal/9jh8jk0#4821382",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 203826,
+            "opponentTeamName": "Al-Duhail SC",
+            "isHomeTeam": false,
+            "id": 4821373,
+            "matchDate": {
+                "utcTime": "2025-10-25T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-duhail-sc/lgx9tcl#4821373",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 5789,
+            "opponentTeamName": "UAE",
+            "isHomeTeam": true,
+            "id": 4877426,
+            "matchDate": {
+                "utcTime": "2025-10-14T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uae-vs-qatar/14p0cg#4877426",
+            "leagueId": 10197,
+            "leagueName": "World Cup Qualification AFC 4th Round Grp. A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 5824,
+            "opponentTeamName": "Oman",
+            "isHomeTeam": false,
+            "id": 4877424,
+            "matchDate": {
+                "utcTime": "2025-10-08T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oman-vs-qatar/14xsk7#4877424",
+            "leagueId": 10197,
+            "leagueName": "World Cup Qualification AFC 4th Round Grp. A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101900,
+            "opponentTeamName": "Qatar SC",
+            "isHomeTeam": false,
+            "id": 4821364,
+            "matchDate": {
+                "utcTime": "2025-09-27T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-sc-vs-al-shamal/9jgvfs6#4821364",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101899,
+            "opponentTeamName": "Al-Arabi",
+            "isHomeTeam": true,
+            "id": 4821352,
+            "matchDate": {
+                "utcTime": "2025-09-13T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-arabi-vs-al-shamal/9jgr2iy#4821352",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5902,
+            "teamName": "Qatar",
+            "opponentTeamId": 8713,
+            "opponentTeamName": "Russia",
+            "isHomeTeam": true,
+            "id": 4928645,
+            "matchDate": {
+                "utcTime": "2025-09-07T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/qatar-vs-russia/1rlf31#4928645",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101905,
+            "opponentTeamName": "Al-Sailiya",
+            "isHomeTeam": false,
+            "id": 4821345,
+            "matchDate": {
+                "utcTime": "2025-08-30T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-sailiya/9jhha2q#4821345",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 101898,
+            "opponentTeamName": "Al-Rayyan",
+            "isHomeTeam": true,
+            "id": 4821338,
+            "matchDate": {
+                "utcTime": "2025-08-22T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-rayyan-vs-al-shamal/9jgmp9r#4821338",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101904,
+            "teamName": "Al-Shamal",
+            "opponentTeamId": 179097,
+            "opponentTeamName": "Al-Ahli",
+            "isHomeTeam": true,
+            "id": 4821330,
+            "matchDate": {
+                "utcTime": "2025-08-14T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-shamal-vs-al-ahli/i4y106u#4821330",
+            "leagueId": 535,
+            "leagueName": "Qatar Stars League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1553870,
+                        "teamId": 101904,
+                        "team": "Al-Shamal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-09T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "40",
+                        "goals": "6",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1553870,
+                        "teamId": -1,
+                        "team": "Al Markhiya II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-03-29T00:00:00Z",
+                        "endDate": "2024-08-09T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1553870,
+                        "teamId": 582508,
+                        "team": "Al Markhiya",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-01-28T00:00:00Z",
+                        "endDate": "2024-08-09T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1553870,
+                        "teamId": 101895,
+                        "team": "Al-Sadd",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-05T00:00:00Z",
+                        "endDate": "2023-01-28T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "20",
+                        "goals": "5",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": -1,
+                                "goals": "5",
+                                "assists": "1",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11018,
+                                "leagueName": "Amir of Qatar Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 1000000369,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 101904,
+                        "team": "Al-Shamal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "20",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11017,
+                                "leagueName": "QSL Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11018,
+                                "leagueName": "Amir of Qatar Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000368,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 101904,
+                        "team": "Al-Shamal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11017,
+                                "leagueName": "QSL Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11018,
+                                "leagueName": "Amir of Qatar Cup",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 582508,
+                        "team": "Al Markhiya",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 582508,
+                        "team": "Al Markhiya",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 101895,
+                        "team": "Al-Sadd",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 101895,
+                        "team": "Al-Sadd",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 535,
+                                "leagueName": "Qatar Stars League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11017,
+                                "leagueName": "QSL Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 101895,
+                        "team": "Al-Sadd",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1553870,
+                        "teamId": 5902,
+                        "team": "Qatar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-05-25T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1553870,
+                        "teamId": 304032,
+                        "team": "Qatar U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-03-13T00:00:00Z",
+                        "endDate": "2024-11-06T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "8",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1553870,
+                        "teamId": 675050,
+                        "team": "Qatar U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-11-14T00:00:00Z",
+                        "endDate": "2021-10-07T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.74"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10197,
+                                "leagueName": "World Cup Qualification AFC",
+                                "seasonName": "2026",
+                                "tournamentId": 1000000104,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.08"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "5.22"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.04"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "Hybrid Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5902,
+                        "team": "Qatar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10242,
+                                "leagueName": "FIFA Arab Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000316,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.35"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000213,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.86"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "Hybrid Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5902,
+                        "team": "Qatar",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "3",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9571,
+                                "leagueName": "AFC U23 Asian Cup",
+                                "seasonName": "2024",
+                                "tournamentId": 1000000287,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 304032,
+                        "team": "Qatar U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U23 National Team Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Tournoi Maurice Revello",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 304032,
+                        "team": "Qatar U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": null,
+    "meta": {
+        "seopath": "mohammad-al-manai",
+        "pageurl": "/players/1553870/mohammad-al-manai",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Mohammad Al Manai?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai is 23 years old. Born on Fri Oct 25 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Mohammad Al Manai?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Mohammad Al Manai born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai was born Fri Oct 25 2002 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Mohammad Al Manai's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Mohammad Al Manai's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai's transfer value is estimated to be around \u20ac515.9k."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Mohammad Al Manai from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mohammad Al Manai is from Qatar."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Mohammad Al Manai",
+            "birthDate": "2002-10-25T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1553870/mohammad-al-manai",
+            "nationality": {
+                "@type": "Country",
+                "name": "Qatar"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Al-Shamal"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Amir of Qatar Cup 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/11018/overview/amir-qatar-cup-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Al-Shamal",
+                    "item": "https://www.fotmob.com/teams/101904/overview/al-shamal"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Mohammad Al Manai",
+                    "item": "https://www.fotmob.com/leagues/1553870/overview/mohammad-al-manai"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Amir of Qatar Cup",
+                    "tournamentId": 11018,
+                    "entryId": "1-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "FIFA Arab Cup",
+                    "tournamentId": 10242,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Amir of Qatar Cup",
+                    "tournamentId": 11018,
+                    "entryId": "2-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2025",
+            "tournaments": [
+                {
+                    "name": "World Cup AFC qualification",
+                    "tournamentId": 10197,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 5.216666666666667,
+                    "percentileRank": 7.41097208854668,
+                    "percentileRankPer90": 7.41097208854668,
+                    "statFormat": "fraction",
+                    "statValue": "5.22",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 35.99615014436959,
+                    "percentileRankPer90": 35.99615014436959,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 24.542829643888354,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "67",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 44.27,
+                    "y": 32.17
+                },
+                {
+                    "x": 24.88,
+                    "y": 29.38
+                },
+                {
+                    "x": 28.93,
+                    "y": 21.41
+                },
+                {
+                    "x": 30.17,
+                    "y": 50.17
+                },
+                {
+                    "x": 26.01,
+                    "y": 40.64
+                },
+                {
+                    "x": 16.71,
+                    "y": 35.14
+                },
+                {
+                    "x": 54.84,
+                    "y": 44
+                },
+                {
+                    "x": 37.61,
+                    "y": 56.98
+                },
+                {
+                    "x": 19.4,
+                    "y": 41.23
+                },
+                {
+                    "x": 61.14,
+                    "y": 56.46
+                },
+                {
+                    "x": 61.88,
+                    "y": 63.54
+                },
+                {
+                    "x": 64.35,
+                    "y": 65.11
+                },
+                {
+                    "x": 26.34,
+                    "y": 4.92
+                },
+                {
+                    "x": 2.84,
+                    "y": 16.15
+                },
+                {
+                    "x": 3.03,
+                    "y": 15.87
+                },
+                {
+                    "x": 4.55,
+                    "y": 22.74
+                },
+                {
+                    "x": 7.24,
+                    "y": 17.48
+                },
+                {
+                    "x": 60.43,
+                    "y": 51.57
+                },
+                {
+                    "x": 4.46,
+                    "y": 27.95
+                },
+                {
+                    "x": 2.56,
+                    "y": 31.26
+                },
+                {
+                    "x": 2.28,
+                    "y": 31.79
+                },
+                {
+                    "x": 52.7,
+                    "y": 34.08
+                },
+                {
+                    "x": 76.97,
+                    "y": 61.97
+                },
+                {
+                    "x": 10.04,
+                    "y": 15.87
+                },
+                {
+                    "x": 78.54,
+                    "y": 51.36
+                },
+                {
+                    "x": 54.43,
+                    "y": 62.95
+                },
+                {
+                    "x": 65.7,
+                    "y": 60.98
+                },
+                {
+                    "x": 55.14,
+                    "y": 53.67
+                },
+                {
+                    "x": 29.72,
+                    "y": 33.31
+                },
+                {
+                    "x": 29.72,
+                    "y": 33.31
+                },
+                {
+                    "x": 62.55,
+                    "y": 45.68
+                },
+                {
+                    "x": 78.54,
+                    "y": 15.94
+                },
+                {
+                    "x": 90,
+                    "y": 68
+                },
+                {
+                    "x": 97.86,
+                    "y": 58.88
+                },
+                {
+                    "x": 97.76,
+                    "y": 56
+                },
+                {
+                    "x": 46.4,
+                    "y": 7.54
+                },
+                {
+                    "x": 57.38,
+                    "y": 49.19
+                },
+                {
+                    "x": 8.49,
+                    "y": 35.52
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 466029,
+                "currency": "EUR",
+                "lowerBound": 372823,
+                "upperBound": 559235,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 466029,
+                "currency": "EUR",
+                "lowerBound": 372823,
+                "upperBound": 559235,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 458953,
+                "currency": "EUR",
+                "lowerBound": 367162,
+                "upperBound": 550744,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 443610,
+                "currency": "EUR",
+                "lowerBound": 354888,
+                "upperBound": 532333,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 421061,
+                "currency": "EUR",
+                "lowerBound": 336849,
+                "upperBound": 505273,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 417120,
+                "currency": "EUR",
+                "lowerBound": 333696,
+                "upperBound": 500544,
+                "source": "scisports",
+                "teamId": 582508,
+                "teamName": "Al Markhiya"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 417120,
+                "currency": "EUR",
+                "lowerBound": 333696,
+                "upperBound": 500544,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 333696,
+                "currency": "EUR",
+                "lowerBound": 266956,
+                "upperBound": 400435,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 305724,
+                "currency": "EUR",
+                "lowerBound": 244579,
+                "upperBound": 366869,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 302853,
+                "currency": "EUR",
+                "lowerBound": 242282,
+                "upperBound": 363423,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 319300,
+                "currency": "EUR",
+                "lowerBound": 255440,
+                "upperBound": 383161,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 378751,
+                "currency": "EUR",
+                "lowerBound": 303001,
+                "upperBound": 454501,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 412079,
+                "currency": "EUR",
+                "lowerBound": 329663,
+                "upperBound": 494494,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 435200,
+                "currency": "EUR",
+                "lowerBound": 348160,
+                "upperBound": 522240,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 435200,
+                "currency": "EUR",
+                "lowerBound": 348160,
+                "upperBound": 522240,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 433973,
+                "currency": "EUR",
+                "lowerBound": 347178,
+                "upperBound": 520768,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 433973,
+                "currency": "EUR",
+                "lowerBound": 347178,
+                "upperBound": 520768,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 387771,
+                "currency": "EUR",
+                "lowerBound": 310217,
+                "upperBound": 465325,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 374213,
+                "currency": "EUR",
+                "lowerBound": 299370,
+                "upperBound": 449055,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 374676,
+                "currency": "EUR",
+                "lowerBound": 299741,
+                "upperBound": 449611,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 416095,
+                "currency": "EUR",
+                "lowerBound": 332876,
+                "upperBound": 499315,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 406305,
+                "currency": "EUR",
+                "lowerBound": 325044,
+                "upperBound": 487566,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 395845,
+                "currency": "EUR",
+                "lowerBound": 316676,
+                "upperBound": 475014,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 391624,
+                "currency": "EUR",
+                "lowerBound": 313299,
+                "upperBound": 469949,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 384848,
+                "currency": "EUR",
+                "lowerBound": 307878,
+                "upperBound": 461817,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 461817,
+                "currency": "EUR",
+                "lowerBound": 369453,
+                "upperBound": 554180,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 484367,
+                "currency": "EUR",
+                "lowerBound": 387494,
+                "upperBound": 581241,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 430603,
+                "currency": "EUR",
+                "lowerBound": 344483,
+                "upperBound": 516724,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 516724,
+                "currency": "EUR",
+                "lowerBound": 413379,
+                "upperBound": 620068,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 515927,
+                "currency": "EUR",
+                "lowerBound": 412742,
+                "upperBound": 619113,
+                "source": "scisports",
+                "teamId": 101904,
+                "teamName": "Al-Shamal"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 251923,
+                "name": "Abdelkarim Hassan"
+            },
+            {
+                "id": 933050,
+                "name": "Adel Bader Al Ahmad"
+            },
+            {
+                "id": 927144,
+                "name": "Ahmed Sayyar"
+            },
+            {
+                "id": 524005,
+                "name": "Ali Assadalla"
+            },
+            {
+                "id": 1350106,
+                "name": "Ali Mohammed"
+            },
+            {
+                "id": 523763,
+                "name": "Saoud Al Khater"
+            },
+            {
+                "id": 445856,
+                "name": "Wesley Sa\u00efd"
+            },
+            {
+                "id": 1426808,
+                "name": "Younes El Hannach"
+            },
+            {
+                "id": 1028129,
+                "name": "Moufak Awad"
+            },
+            {
+                "id": 737823,
+                "name": "Michel Termanini"
+            },
+            {
+                "id": 1557226,
+                "name": "Omar Mohamed"
+            },
+            {
+                "id": 929834,
+                "name": "\u00c1lex Collado"
+            },
+            {
+                "id": 973207,
+                "name": "Ali Qadry"
+            },
+            {
+                "id": 684978,
+                "name": "Adam Ounas"
+            },
+            {
+                "id": 291214,
+                "name": "Baghdad Bounedjah"
+            },
+            {
+                "id": 1104407,
+                "name": "Omar Ali"
+            },
+            {
+                "id": 1247398,
+                "name": "Jassim Al Mehairi"
+            },
+            {
+                "id": 648914,
+                "name": "Tamer Seyam"
+            },
+            {
+                "id": 1330127,
+                "name": "Adel Al Sulimane"
+            },
+            {
+                "id": 1118885,
+                "name": "Faisal Azadi"
+            },
+            {
+                "id": 167430,
+                "name": "Mohammed Musa"
+            },
+            {
+                "id": 301456,
+                "name": "Jeison Murillo"
+            },
+            {
+                "id": 252352,
+                "name": "Oumar Barry"
+            },
+            {
+                "id": 1844946,
+                "name": "Abdelaziz Osama"
+            },
+            {
+                "id": 1047653,
+                "name": "Mohamed Al Rabiei"
+            },
+            {
+                "id": 1839272,
+                "name": "Abdullah El Rady"
+            },
+            {
+                "id": 1839727,
+                "name": "Shahin Shah"
+            },
+            {
+                "id": 524007,
+                "name": "Musaab Khidir"
+            },
+            {
+                "id": 956864,
+                "name": "Akram Tawfik"
+            },
+            {
+                "id": 1397149,
+                "name": "Ahmad Al Saeed"
+            },
+            {
+                "id": 1711238,
+                "name": "Babacar Seck"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1213141,
+                "name": "Mahmoud Abunada"
+            },
+            {
+                "id": 1053982,
+                "name": "Salah Zakaria"
+            },
+            {
+                "id": 734637,
+                "name": "Pedro Miguel"
+            },
+            {
+                "id": 1642780,
+                "name": "Al Hashmi Al Hussain"
+            },
+            {
+                "id": 1839745,
+                "name": "Issa Laye"
+            },
+            {
+                "id": 308909,
+                "name": "Abdulaziz Hatem"
+            },
+            {
+                "id": 898424,
+                "name": "Ahmed Fathy"
+            },
+            {
+                "id": 264096,
+                "name": "Ahmed Alaa"
+            },
+            {
+                "id": 365245,
+                "name": "Edm\u00edlson Junior"
+            },
+            {
+                "id": 1195865,
+                "name": "Jassem Gaber"
+            },
+            {
+                "id": 431151,
+                "name": "Mohammed Muntari"
+            },
+            {
+                "id": 613792,
+                "name": "Akram Afif"
+            },
+            {
+                "id": 117539,
+                "name": "Hassan Al Haydos"
+            },
+            {
+                "id": 1053987,
+                "name": "Yusuf Abdurisag"
+            },
+            {
+                "id": 309153,
+                "name": "Karim Boudiaf"
+            },
+            {
+                "id": 149583,
+                "name": "Lucas Mendes"
+            },
+            {
+                "id": 1432180,
+                "name": "Ayoub Al Oui"
+            },
+            {
+                "id": 937414,
+                "name": "Homam El Amin"
+            },
+            {
+                "id": 308921,
+                "name": "Boualem Khoukhi"
+            },
+            {
+                "id": 1210913,
+                "name": "Ahmed Al Ganehi"
+            },
+            {
+                "id": 644014,
+                "name": "Sultan Al Brake"
+            },
+            {
+                "id": 644017,
+                "name": "Almoez Ali"
+            },
+            {
+                "id": 922387,
+                "name": "Meshaal Barsham"
+            },
+            {
+                "id": 615414,
+                "name": "Assim Madibo"
+            },
+            {
+                "id": 1648351,
+                "name": "Tahsin Mohammed"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "dataProvider": "opta"
+}

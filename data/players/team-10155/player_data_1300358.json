@@ -1,0 +1,4442 @@
+{
+    "id": 1300358,
+    "name": "Toni Fruk",
+    "birthDate": {
+        "utcTime": "2001-03-09T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-15T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 10162,
+        "teamName": "Rijeka",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#53b2e3",
+            "colorAlternate": "#58B6E7",
+            "colorAway": "#ffffff",
+            "colorAwayAlternate": "#c8a364"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 2,
+                "position": "74",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.24545454545454548
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 1,
+                "position": "82",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 29,
+                "position": "84",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 2,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.24545454545454548
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 10,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1,
+                    "ratio": 0.42727272727272725
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Attacking Midfielder",
+            "key": "centerattackingmidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            },
+            {
+                "label": "Striker",
+                "key": "striker"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 178,
+                "key": null,
+                "fallback": "178 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 10,
+                "options": {},
+                "key": null,
+                "fallback": 10
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Croatia"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CRO"
+            },
+            "countryCode": "CRO"
+        },
+        {
+            "value": {
+                "numberValue": 7580516,
+                "key": null,
+                "fallback": "\u20ac7.6m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-15",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-15T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 252,
+        "leagueName": "HNL",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 12
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 27
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 31
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2130
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.29
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "CRO",
+                "teamId": 10162,
+                "teamName": "Rijeka",
+                "tournaments": [
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 252,
+                        "leagueName": "HNL",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2023/2024"
+                        ]
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 275,
+                        "leagueName": "Croatian Cup",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2025/2026",
+                            "2023/2024"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8361,
+            "opponentTeamName": "Portugal",
+            "isHomeTeam": false,
+            "id": 4653707,
+            "matchDate": {
+                "utcTime": "2026-07-02T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-croatia/2u2izf#4653707",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 6714,
+            "opponentTeamName": "Ghana",
+            "isHomeTeam": true,
+            "id": 4667830,
+            "matchDate": {
+                "utcTime": "2026-06-27T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ghana-vs-croatia/2cpwux#4667830",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5922,
+            "opponentTeamName": "Panama",
+            "isHomeTeam": false,
+            "id": 4667827,
+            "matchDate": {
+                "utcTime": "2026-06-23T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/panama-vs-croatia/24y93x#4667827",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 4667825,
+            "matchDate": {
+                "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/england-vs-croatia/2viayw#4667825",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": true,
+            "id": 5159769,
+            "matchDate": {
+                "utcTime": "2026-06-07T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-croatia/23nxao#5159769",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": true,
+            "id": 5147839,
+            "matchDate": {
+                "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 206560,
+            "opponentTeamName": "HNK Gorica",
+            "isHomeTeam": true,
+            "id": 4814303,
+            "matchDate": {
+                "utcTime": "2026-05-23T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-hnk-gorica/ase2xfv#4814303",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 6038,
+            "opponentTeamName": "NK Istra 1961",
+            "isHomeTeam": false,
+            "id": 4814297,
+            "matchDate": {
+                "utcTime": "2026-05-17T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nk-istra-1961-vs-rijeka/264swq#4814297",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": false,
+            "id": 1000010972,
+            "matchDate": {
+                "utcTime": "2026-05-13T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dinamo-zagreb-vs-rijeka/3ewj37#1000010972",
+            "leagueId": 275,
+            "leagueName": "Croatian Cup",
+            "stage": "Final",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": -1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 45228,
+            "opponentTeamName": "Vukovar 91",
+            "isHomeTeam": true,
+            "id": 4814292,
+            "matchDate": {
+                "utcTime": "2026-05-08T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-vukovar-91/pdd2cd#4814292",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 35,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 175388,
+            "opponentTeamName": "NK Lokomotiva",
+            "isHomeTeam": false,
+            "id": 4814288,
+            "matchDate": {
+                "utcTime": "2026-05-03T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-lokomotiva/7wp63xh#4814288",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10157,
+            "opponentTeamName": "Osijek",
+            "isHomeTeam": true,
+            "id": 4814269,
+            "matchDate": {
+                "utcTime": "2026-04-12T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/osijek-vs-rijeka/3ewyrm#4814269",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 1581,
+            "opponentTeamName": "Slaven",
+            "isHomeTeam": true,
+            "id": 1000010254,
+            "matchDate": {
+                "utcTime": "2026-04-08T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/slaven-vs-rijeka/151z5p#1000010254",
+            "leagueId": 275,
+            "leagueName": "Croatian Cup",
+            "stage": "Semi-finals",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 87,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": -1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 1581,
+            "opponentTeamName": "Slaven",
+            "isHomeTeam": false,
+            "id": 4814261,
+            "matchDate": {
+                "utcTime": "2026-04-04T15:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slaven-vs-rijeka/151z5p#4814261",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 81,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 5110104,
+            "matchDate": {
+                "utcTime": "2026-04-01T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-vs-croatia/2swyz6#5110104",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8258,
+            "opponentTeamName": "Colombia",
+            "isHomeTeam": false,
+            "id": 5147840,
+            "matchDate": {
+                "utcTime": "2026-03-26T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/colombia-vs-croatia/2sxre5#5147840",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 206560,
+            "opponentTeamName": "HNK Gorica",
+            "isHomeTeam": false,
+            "id": 4814258,
+            "matchDate": {
+                "utcTime": "2026-03-22T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-hnk-gorica/ase2xfv#4814258",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": false,
+            "id": 5206231,
+            "matchDate": {
+                "utcTime": "2026-03-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rijeka/3b7enz#5206231",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 6038,
+            "opponentTeamName": "NK Istra 1961",
+            "isHomeTeam": true,
+            "id": 4814252,
+            "matchDate": {
+                "utcTime": "2026-03-15T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nk-istra-1961-vs-rijeka/264swq#4814252",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": true,
+            "id": 5206223,
+            "matchDate": {
+                "utcTime": "2026-03-12T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rijeka/3b7enz#5206223",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 45228,
+            "opponentTeamName": "Vukovar 91",
+            "isHomeTeam": false,
+            "id": 4814247,
+            "matchDate": {
+                "utcTime": "2026-03-08T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-vukovar-91/pdd2cd#4814247",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10154,
+            "opponentTeamName": "Hajduk Split",
+            "isHomeTeam": true,
+            "id": 5092808,
+            "matchDate": {
+                "utcTime": "2026-03-04T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/hajduk-split-vs-rijeka/3evnqg#5092808",
+            "leagueId": 275,
+            "leagueName": "Croatian Cup",
+            "stage": "Quarter-finals",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": -1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 175388,
+            "opponentTeamName": "NK Lokomotiva",
+            "isHomeTeam": true,
+            "id": 4814243,
+            "matchDate": {
+                "utcTime": "2026-03-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-lokomotiva/7wp63xh#4814243",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 8044,
+            "opponentTeamName": "Omonia Nicosia",
+            "isHomeTeam": true,
+            "id": 5141731,
+            "matchDate": {
+                "utcTime": "2026-02-26T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/omonia-nicosia-vs-rijeka/2qoipp#5141731",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 81,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10154,
+            "opponentTeamName": "Hajduk Split",
+            "isHomeTeam": false,
+            "id": 4814236,
+            "matchDate": {
+                "utcTime": "2026-02-22T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/hajduk-split-vs-rijeka/3evnqg#4814236",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 8044,
+            "opponentTeamName": "Omonia Nicosia",
+            "isHomeTeam": false,
+            "id": 5141723,
+            "matchDate": {
+                "utcTime": "2026-02-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/omonia-nicosia-vs-rijeka/2qoipp#5141723",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/16",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 95,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10165,
+            "opponentTeamName": "NK Varazdin",
+            "isHomeTeam": true,
+            "id": 4814234,
+            "matchDate": {
+                "utcTime": "2026-02-14T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-varazdin/3f0g81#4814234",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": true,
+            "id": 4814225,
+            "matchDate": {
+                "utcTime": "2026-02-08T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/dinamo-zagreb-vs-rijeka/3ewj37#4814225",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10157,
+            "opponentTeamName": "Osijek",
+            "isHomeTeam": false,
+            "id": 4814224,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/osijek-vs-rijeka/3ewyrm#4814224",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 6038,
+            "opponentTeamName": "NK Istra 1961",
+            "isHomeTeam": false,
+            "id": 4814207,
+            "matchDate": {
+                "utcTime": "2026-01-20T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nk-istra-1961-vs-rijeka/264swq#4814207",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 206560,
+            "opponentTeamName": "HNK Gorica",
+            "isHomeTeam": true,
+            "id": 4814213,
+            "matchDate": {
+                "utcTime": "2025-12-21T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-hnk-gorica/ase2xfv#4814213",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 9728,
+            "opponentTeamName": "Shakhtar Donetsk",
+            "isHomeTeam": false,
+            "id": 4947946,
+            "matchDate": {
+                "utcTime": "2025-12-18T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/shakhtar-donetsk-vs-rijeka/39s3az#4947946",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 4622,
+            "opponentTeamName": "NK Celje",
+            "isHomeTeam": true,
+            "id": 4948012,
+            "matchDate": {
+                "utcTime": "2025-12-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nk-celje-vs-rijeka/1t2ktq#4948012",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 45228,
+            "opponentTeamName": "Vukovar 91",
+            "isHomeTeam": true,
+            "id": 4814202,
+            "matchDate": {
+                "utcTime": "2025-12-06T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-vukovar-91/pdd2cd#4814202",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 578704,
+            "opponentTeamName": "Mladost Zdralovi",
+            "isHomeTeam": false,
+            "id": 1000004345,
+            "matchDate": {
+                "utcTime": "2025-12-03T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-mladost-zdralovi/27nffrcj#1000004345",
+            "leagueId": 275,
+            "leagueName": "Croatian Cup",
+            "stage": "8th Finals",
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": -1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 175388,
+            "opponentTeamName": "NK Lokomotiva",
+            "isHomeTeam": false,
+            "id": 4814198,
+            "matchDate": {
+                "utcTime": "2025-11-30T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-lokomotiva/7wp63xh#4814198",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 7797,
+            "opponentTeamName": "AEK Larnaca",
+            "isHomeTeam": true,
+            "id": 4948013,
+            "matchDate": {
+                "utcTime": "2025-11-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aek-larnaca-vs-rijeka/2o0s5d#4948013",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10154,
+            "opponentTeamName": "Hajduk Split",
+            "isHomeTeam": true,
+            "id": 4814191,
+            "matchDate": {
+                "utcTime": "2025-11-22T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/hajduk-split-vs-rijeka/3evnqg#4814191",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 3,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": false,
+            "id": 4689382,
+            "matchDate": {
+                "utcTime": "2025-11-17T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-montenegro/td71cx#4689382",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": true,
+            "id": 4689380,
+            "matchDate": {
+                "utcTime": "2025-11-14T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-croatia/2t23qh#4689380",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10165,
+            "opponentTeamName": "NK Varazdin",
+            "isHomeTeam": false,
+            "id": 4814189,
+            "matchDate": {
+                "utcTime": "2025-11-09T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-varazdin/3f0g81#4814189",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 545012,
+            "opponentTeamName": "Lincoln Red Imps FC",
+            "isHomeTeam": false,
+            "id": 4948018,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-lincoln-red-imps-fc/1ysp25uh#4948018",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": false,
+            "id": 4814180,
+            "matchDate": {
+                "utcTime": "2025-11-01T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dinamo-zagreb-vs-rijeka/3ewj37#4814180",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10157,
+            "opponentTeamName": "Osijek",
+            "isHomeTeam": true,
+            "id": 4814179,
+            "matchDate": {
+                "utcTime": "2025-10-27T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/osijek-vs-rijeka/3ewyrm#4814179",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10247,
+            "opponentTeamName": "Sparta Prague",
+            "isHomeTeam": true,
+            "id": 4948011,
+            "matchDate": {
+                "utcTime": "2025-10-24T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-sparta-prague/3g0918#4948011",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 95,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 1581,
+            "opponentTeamName": "Slaven",
+            "isHomeTeam": false,
+            "id": 4814171,
+            "matchDate": {
+                "utcTime": "2025-10-18T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/slaven-vs-rijeka/151z5p#4814171",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 507764,
+            "opponentTeamName": "Gibraltar",
+            "isHomeTeam": true,
+            "id": 4689378,
+            "matchDate": {
+                "utcTime": "2025-10-12T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-gibraltar/1pm42gv8#4689378",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8496,
+            "opponentTeamName": "Czechia",
+            "isHomeTeam": false,
+            "id": 4689375,
+            "matchDate": {
+                "utcTime": "2025-10-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-croatia/2vkax6#4689375",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 206560,
+            "opponentTeamName": "HNK Gorica",
+            "isHomeTeam": false,
+            "id": 4814168,
+            "matchDate": {
+                "utcTime": "2025-10-05T13:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-hnk-gorica/ase2xfv#4814168",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 69,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 866111,
+            "opponentTeamName": "FC Noah",
+            "isHomeTeam": false,
+            "id": 4948067,
+            "matchDate": {
+                "utcTime": "2025-10-02T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-fc-noah/4wdh3yg8#4948067",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 6038,
+            "opponentTeamName": "NK Istra 1961",
+            "isHomeTeam": true,
+            "id": 4814162,
+            "matchDate": {
+                "utcTime": "2025-09-27T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nk-istra-1961-vs-rijeka/264swq#4814162",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 45228,
+            "opponentTeamName": "Vukovar 91",
+            "isHomeTeam": false,
+            "id": 4814157,
+            "matchDate": {
+                "utcTime": "2025-09-22T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-vukovar-91/pdd2cd#4814157",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 175388,
+            "opponentTeamName": "NK Lokomotiva",
+            "isHomeTeam": true,
+            "id": 4814153,
+            "matchDate": {
+                "utcTime": "2025-09-13T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-lokomotiva/7wp63xh#4814153",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 95,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": true,
+            "id": 4689374,
+            "matchDate": {
+                "utcTime": "2025-09-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-montenegro/td71cx#4689374",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": false,
+            "id": 4689371,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-croatia/2t23qh#4689371",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10154,
+            "opponentTeamName": "Hajduk Split",
+            "isHomeTeam": false,
+            "id": 4814146,
+            "matchDate": {
+                "utcTime": "2025-08-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/hajduk-split-vs-rijeka/3evnqg#4814146",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 8619,
+            "opponentTeamName": "PAOK Thessaloniki",
+            "isHomeTeam": false,
+            "id": 4912273,
+            "matchDate": {
+                "utcTime": "2025-08-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/paok-thessaloniki-vs-rijeka/2x0gfy#4912273",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10165,
+            "opponentTeamName": "NK Varazdin",
+            "isHomeTeam": true,
+            "id": 4814144,
+            "matchDate": {
+                "utcTime": "2025-08-24T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-nk-varazdin/3f0g81#4814144",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 8619,
+            "opponentTeamName": "PAOK Thessaloniki",
+            "isHomeTeam": true,
+            "id": 4912261,
+            "matchDate": {
+                "utcTime": "2025-08-21T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/paok-thessaloniki-vs-rijeka/2x0gfy#4912261",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10156,
+            "opponentTeamName": "Dinamo Zagreb",
+            "isHomeTeam": true,
+            "id": 4814135,
+            "matchDate": {
+                "utcTime": "2025-08-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dinamo-zagreb-vs-rijeka/3ewj37#4814135",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 5751,
+            "opponentTeamName": "Shelbourne",
+            "isHomeTeam": false,
+            "id": 4885162,
+            "matchDate": {
+                "utcTime": "2025-08-12T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/shelbourne-vs-rijeka/23e0us#4885162",
+            "leagueId": 10613,
+            "leagueName": "Europa League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 10157,
+            "opponentTeamName": "Osijek",
+            "isHomeTeam": false,
+            "id": 4814134,
+            "matchDate": {
+                "utcTime": "2025-08-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/osijek-vs-rijeka/3ewyrm#4814134",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 1581,
+            "opponentTeamName": "Slaven",
+            "isHomeTeam": true,
+            "id": 4814126,
+            "matchDate": {
+                "utcTime": "2025-08-03T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slaven-vs-rijeka/151z5p#4814126",
+            "leagueId": 252,
+            "leagueName": "HNL",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": false,
+            "id": 4813910,
+            "matchDate": {
+                "utcTime": "2025-07-30T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-ludogorets-razgrad/b5g5p9h#4813910",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10162,
+            "teamName": "Rijeka",
+            "opponentTeamId": 210173,
+            "opponentTeamName": "Ludogorets Razgrad",
+            "isHomeTeam": true,
+            "id": 4813895,
+            "matchDate": {
+                "utcTime": "2025-07-22T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/rijeka-vs-ludogorets-razgrad/b5g5p9h#4813895",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1300358,
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-07-12T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "138",
+                        "goals": "37",
+                        "assists": "28",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 206560,
+                        "team": "HNK Gorica",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-07-01T00:00:00Z",
+                        "endDate": "2023-06-30T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "24",
+                        "goals": "7",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 8535,
+                        "team": "Fiorentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-07-01T00:00:00Z",
+                        "endDate": "2022-07-01T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 206560,
+                        "team": "HNK Gorica",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-06-24T00:00:00Z",
+                        "endDate": "2022-06-30T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "32",
+                        "goals": "5",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": -1,
+                        "team": "NK Dubrava Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2020-10-15T00:00:00Z",
+                        "endDate": "2021-06-23T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "24",
+                        "goals": "8",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 8535,
+                        "team": "Fiorentina",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-10-10T00:00:00Z",
+                        "endDate": "2020-10-11T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "50",
+                        "goals": "19",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27123,
+                                "goals": "12",
+                                "assists": "3",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.29"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 1000000298,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28191,
+                                "goals": "5",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            }
+                        ],
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "45",
+                        "goals": "14",
+                        "assists": "10",
+                        "rating": {
+                            "rating": "7.20"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000173,
+                                "goals": "10",
+                                "assists": "10",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "undefined",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000174,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000151,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "43",
+                        "goals": "4",
+                        "assists": "15",
+                        "rating": {
+                            "rating": "7.40"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20941,
+                                "goals": "3",
+                                "assists": "15",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.40"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21016,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10162,
+                        "team": "Rijeka",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "24",
+                        "goals": "7",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.96"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17759,
+                                "goals": "7",
+                                "assists": "1",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            }
+                        ],
+                        "teamId": 206560,
+                        "team": "HNK Gorica",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "32",
+                        "goals": "5",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.76"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16422,
+                                "goals": "5",
+                                "assists": "2",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.76"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 206560,
+                        "team": "HNK Gorica",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "24",
+                        "goals": "8",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "First NL",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "8",
+                                "assists": "undefined",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "NK Dubrava Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1300358,
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-03-03T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-11-01T00:00:00Z",
+                        "endDate": "2023-08-23T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1300358,
+                        "teamId": 5941,
+                        "team": "Croatia U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-10-01T00:00:00Z",
+                        "endDate": "2018-10-22T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.08"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 1000000195,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2023",
+                                "tournamentId": 18334,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 301,
+                                "leagueName": "UEFA U17 Championship",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5941,
+                        "team": "Croatia U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.7
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.44
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.16
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.93
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.93
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.57
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "toni-fruk",
+        "pageurl": "/players/1300358/toni-fruk",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Toni Fruk?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk is 25 years old. Born on Fri Mar 09 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Toni Fruk?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk is 178 cm tall. Or 5 ft 10 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Toni Fruk born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk was born Fri Mar 09 2001 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Toni Fruk's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Toni Fruk's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk's transfer value is estimated to be around \u20ac7.6m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Toni Fruk from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk is from Croatia."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Toni Fruk scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Toni Fruk has scored 12 goals in the HNL."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Toni Fruk",
+            "birthDate": "2001-03-09T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1300358/toni-fruk",
+            "nationality": {
+                "@type": "Country",
+                "name": "Croatia"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Rijeka"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "178"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "74"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "HNL 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/252/overview/hnl-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Rijeka",
+                    "item": "https://www.fotmob.com/teams/10162/overview/rijeka"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Toni Fruk",
+                    "item": "https://www.fotmob.com/leagues/1300358/overview/toni-fruk"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "0-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "0-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League Qualification qualification",
+                    "tournamentId": 10615,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League Qualification qualification",
+                    "tournamentId": 10613,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "1. Division",
+                    "tournamentId": 252,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0.5070422535211268,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 94.02985074626866,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "goals_subtitle",
+                            "per90": 0.16901408450704225,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Penalty goals"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 3.1267605633802815,
+                            "percentileRank": 97.01492537313433,
+                            "percentileRankPer90": 91.04477611940298,
+                            "statFormat": "number",
+                            "statValue": "74",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 1.056338028169014,
+                            "percentileRank": 94.02985074626866,
+                            "percentileRankPer90": 89.55223880597015,
+                            "statFormat": "number",
+                            "statValue": "25",
+                            "title": "Shots on target"
+                        },
+                        {
+                            "localizedTitleId": "headed_shots",
+                            "per90": 0.16901408450704225,
+                            "percentileRank": 70.1492537313433,
+                            "percentileRankPer90": 44.776119402985074,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Headed shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0.1267605633802817,
+                            "percentileRank": 79.1044776119403,
+                            "percentileRankPer90": 58.2089552238806,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 23.7887323943662,
+                            "percentileRank": 89.55223880597015,
+                            "percentileRankPer90": 73.13432835820896,
+                            "statFormat": "number",
+                            "statValue": "563",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 78.96213183730715,
+                            "percentileRank": 65.67164179104478,
+                            "percentileRankPer90": 65.67164179104478,
+                            "statFormat": "percent",
+                            "statValue": "79.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 1.8591549295774648,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 89.55223880597015,
+                            "statFormat": "number",
+                            "statValue": "44",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 59.45945945945946,
+                            "percentileRank": 70.1492537313433,
+                            "percentileRankPer90": 70.1492537313433,
+                            "statFormat": "percent",
+                            "statValue": "59.5",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.9014084507042253,
+                            "percentileRank": 97.01492537313433,
+                            "percentileRankPer90": 83.5820895522388,
+                            "statFormat": "number",
+                            "statValue": "45",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "big_chance_created_team_title",
+                            "per90": 0.6338028169014085,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 94.02985074626866,
+                            "statFormat": "number",
+                            "statValue": "15",
+                            "title": "Big chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.5915492957746479,
+                            "percentileRank": 77.61194029850746,
+                            "percentileRankPer90": 61.19402985074627,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 22.950819672131146,
+                            "percentileRank": 59.70149253731343,
+                            "percentileRankPer90": 59.70149253731343,
+                            "statFormat": "percent",
+                            "statValue": "23.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1.6901408450704225,
+                            "percentileRank": 89.55223880597015,
+                            "percentileRankPer90": 79.1044776119403,
+                            "statFormat": "number",
+                            "statValue": "40",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 51.94805194805195,
+                            "percentileRank": 86.56716417910447,
+                            "percentileRankPer90": 86.56716417910447,
+                            "statFormat": "percent",
+                            "statValue": "51.9",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 6.295774647887324,
+                            "percentileRank": 89.55223880597015,
+                            "percentileRankPer90": 79.1044776119403,
+                            "statFormat": "number",
+                            "statValue": "149",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 52.0979020979021,
+                            "percentileRank": 86.56716417910447,
+                            "percentileRankPer90": 86.56716417910447,
+                            "statFormat": "percent",
+                            "statValue": "52.1",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.5492957746478874,
+                            "percentileRank": 67.16417910447761,
+                            "percentileRankPer90": 32.83582089552239,
+                            "statFormat": "number",
+                            "statValue": "13",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 28.26086956521739,
+                            "percentileRank": 26.865671641791046,
+                            "percentileRankPer90": 26.865671641791046,
+                            "statFormat": "percent",
+                            "statValue": "28.3",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 52.183098591549296,
+                            "percentileRank": 89.55223880597015,
+                            "percentileRankPer90": 77.61194029850746,
+                            "statFormat": "number",
+                            "statValue": "1235",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 3.971830985915493,
+                            "percentileRank": 91.04477611940298,
+                            "percentileRankPer90": 67.16417910447761,
+                            "statFormat": "number",
+                            "statValue": "94",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.816901408450704,
+                            "percentileRank": 5.970149253731343,
+                            "percentileRankPer90": 23.88059701492537,
+                            "statFormat": "number",
+                            "statValue": "43",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 2.492957746478873,
+                            "percentileRank": 92.53731343283582,
+                            "percentileRankPer90": 83.5820895522388,
+                            "statFormat": "number",
+                            "statValue": "59",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 2.3661971830985915,
+                            "percentileRank": 76.11940298507463,
+                            "percentileRankPer90": 32.83582089552239,
+                            "statFormat": "number",
+                            "statValue": "56",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.5633802816901408,
+                            "percentileRank": 86.56716417910447,
+                            "percentileRankPer90": 56.71641791044776,
+                            "statFormat": "number",
+                            "statValue": "37",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.4225352112676056,
+                            "percentileRank": 71.64179104477611,
+                            "percentileRankPer90": 32.83582089552239,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "blocked_shots",
+                            "per90": 0.04225352112676056,
+                            "percentileRank": 47.76119402985074,
+                            "percentileRankPer90": 49.25373134328358,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Blocked scoring attempt"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.76056338028169,
+                            "percentileRank": 26.865671641791046,
+                            "percentileRankPer90": 83.5820895522388,
+                            "statFormat": "number",
+                            "statValue": "18",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 4.901408450704225,
+                            "percentileRank": 91.04477611940298,
+                            "percentileRankPer90": 76.11940298507463,
+                            "statFormat": "number",
+                            "statValue": "116",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 1.1408450704225352,
+                            "percentileRank": 95.52238805970148,
+                            "percentileRankPer90": 92.53731343283582,
+                            "statFormat": "number",
+                            "statValue": "27",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.4225352112676056,
+                            "percentileRank": 43.28358208955223,
+                            "percentileRankPer90": 82.08955223880598,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 0.3380281690140845,
+                            "percentileRank": 47.76119402985074,
+                            "percentileRankPer90": 16.417910447761194,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0.16901408450704225,
+                            "percentileRank": 92.53731343283582,
+                            "percentileRankPer90": 88.05970149253731,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.9295774647887324,
+                            "percentileRank": 25.37313432835821,
+                            "percentileRankPer90": 77.61194029850746,
+                            "statFormat": "number",
+                            "statValue": "22",
+                            "title": "Goals conceded while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0.08450704225352113,
+                            "percentileRank": 32.83582089552239,
+                            "percentileRankPer90": 67.16417910447761,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0.5070422535211268,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 94.02985074626866,
+                    "statFormat": "number",
+                    "statValue": "12",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0.1267605633802817,
+                    "percentileRank": 79.1044776119403,
+                    "percentileRankPer90": 58.2089552238806,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 7.287096774193548,
+                    "percentileRank": 95.52238805970148,
+                    "percentileRankPer90": 95.52238805970148,
+                    "statFormat": "fraction",
+                    "statValue": "7.29",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 31,
+                    "percentileRank": 82.08955223880598,
+                    "percentileRankPer90": 82.08955223880598,
+                    "statFormat": "number",
+                    "statValue": "31",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 27,
+                    "percentileRank": 86.56716417910447,
+                    "percentileRankPer90": 88.05970149253731,
+                    "statFormat": "number",
+                    "statValue": "27",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 86.56716417910447,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "2130",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "NK Dubrava Zagreb",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 340000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "NK Dubrava Zagreb"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 280000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 340000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 280000,
+                "currency": "EUR",
+                "lowerBound": 210000,
+                "upperBound": 350000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 170000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 300000,
+                "currency": "EUR",
+                "lowerBound": 230000,
+                "upperBound": 380000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 350000,
+                "currency": "EUR",
+                "lowerBound": 260000,
+                "upperBound": 440000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 330000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 330000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 330000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 410000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 300000,
+                "currency": "EUR",
+                "lowerBound": 220000,
+                "upperBound": 370000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 280000,
+                "currency": "EUR",
+                "lowerBound": 210000,
+                "upperBound": 350000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 260000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 206560,
+                "teamName": "HNK Gorica"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 630000,
+                "currency": "EUR",
+                "lowerBound": 470000,
+                "upperBound": 780000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 690000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 860000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 920000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 750000,
+                "currency": "EUR",
+                "lowerBound": 560000,
+                "upperBound": 940000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 800000,
+                "currency": "EUR",
+                "lowerBound": 600000,
+                "upperBound": 990000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 810000,
+                "currency": "EUR",
+                "lowerBound": 610000,
+                "upperBound": 1010000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1010000,
+                "currency": "EUR",
+                "lowerBound": 808000,
+                "upperBound": 1212000,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 1212000,
+                "currency": "EUR",
+                "lowerBound": 969600,
+                "upperBound": 1454400,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 1454400,
+                "currency": "EUR",
+                "lowerBound": 1163520,
+                "upperBound": 1745280,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 1745280,
+                "currency": "EUR",
+                "lowerBound": 1396224,
+                "upperBound": 2094336,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 2094336,
+                "currency": "EUR",
+                "lowerBound": 1675468,
+                "upperBound": 2513203,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 2513203,
+                "currency": "EUR",
+                "lowerBound": 2010562,
+                "upperBound": 3015843,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 3015843,
+                "currency": "EUR",
+                "lowerBound": 2412674,
+                "upperBound": 3619011,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 3619011,
+                "currency": "EUR",
+                "lowerBound": 2895208,
+                "upperBound": 4342813,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 4342813,
+                "currency": "EUR",
+                "lowerBound": 3474250,
+                "upperBound": 5211375,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 5132716,
+                "currency": "EUR",
+                "lowerBound": 4362809,
+                "upperBound": 5902624,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 5136591,
+                "currency": "EUR",
+                "lowerBound": 4366103,
+                "upperBound": 5907080,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 4840418,
+                "currency": "EUR",
+                "lowerBound": 3872335,
+                "upperBound": 5808502,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 4721343,
+                "currency": "EUR",
+                "lowerBound": 3777075,
+                "upperBound": 5665612,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 4717283,
+                "currency": "EUR",
+                "lowerBound": 3773827,
+                "upperBound": 5660740,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 4707630,
+                "currency": "EUR",
+                "lowerBound": 3766104,
+                "upperBound": 5649157,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 6657327,
+                "currency": "EUR",
+                "lowerBound": 5658727,
+                "upperBound": 7655926,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 6756865,
+                "currency": "EUR",
+                "lowerBound": 5743335,
+                "upperBound": 7770394,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 10561321,
+                "currency": "EUR",
+                "lowerBound": 9505189,
+                "upperBound": 11617453,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 10572560,
+                "currency": "EUR",
+                "lowerBound": 9515304,
+                "upperBound": 11629816,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 10542540,
+                "currency": "EUR",
+                "lowerBound": 9488286,
+                "upperBound": 11596794,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 10311222,
+                "currency": "EUR",
+                "lowerBound": 9280100,
+                "upperBound": 11342345,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 9103561,
+                "currency": "EUR",
+                "lowerBound": 7738026,
+                "upperBound": 10469095,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 8918255,
+                "currency": "EUR",
+                "lowerBound": 7580516,
+                "upperBound": 10255993,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 8918255,
+                "currency": "EUR",
+                "lowerBound": 7580516,
+                "upperBound": 10255993,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 8918255,
+                "currency": "EUR",
+                "lowerBound": 7580516,
+                "upperBound": 10255993,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 7704814,
+                "currency": "EUR",
+                "lowerBound": 6549092,
+                "upperBound": 8860536,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 8802705,
+                "currency": "EUR",
+                "lowerBound": 7482299,
+                "upperBound": 10123110,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 9188592,
+                "currency": "EUR",
+                "lowerBound": 7810303,
+                "upperBound": 10566880,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 8918255,
+                "currency": "EUR",
+                "lowerBound": 7580516,
+                "upperBound": 10255993,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 7580516,
+                "currency": "EUR",
+                "lowerBound": 6443438,
+                "upperBound": 8717593,
+                "source": "scisports",
+                "teamId": 10162,
+                "teamName": "Rijeka"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1714775,
+                "name": "Cherno Saho"
+            },
+            {
+                "id": 1688460,
+                "name": "Domagoj Maric"
+            },
+            {
+                "id": 1677267,
+                "name": "Dominik Dogan"
+            },
+            {
+                "id": 1284461,
+                "name": "Ivan Cubelic"
+            },
+            {
+                "id": 308350,
+                "name": "Jakov Puljic"
+            },
+            {
+                "id": 1300406,
+                "name": "Jovan Manev"
+            },
+            {
+                "id": 1505885,
+                "name": "Moreno Zivkovic"
+            },
+            {
+                "id": 1270116,
+                "name": "Niko Jankovic"
+            },
+            {
+                "id": 1714777,
+                "name": "Petar Raguz"
+            },
+            {
+                "id": 1695841,
+                "name": "Vito Kovac"
+            },
+            {
+                "id": 1607523,
+                "name": "Lovro Kitin"
+            },
+            {
+                "id": 1177441,
+                "name": "Tornike Morchiladze"
+            },
+            {
+                "id": 1645684,
+                "name": "Branko Pavic"
+            },
+            {
+                "id": 527683,
+                "name": "Amer Gojak"
+            },
+            {
+                "id": 1701794,
+                "name": "Dominik Thaqi"
+            },
+            {
+                "id": 1427857,
+                "name": "Daniel Adu-Adjei"
+            },
+            {
+                "id": 1251988,
+                "name": "Samuele Vignato"
+            },
+            {
+                "id": 650209,
+                "name": "Merveil Ndockyt"
+            },
+            {
+                "id": 1178132,
+                "name": "Ante Orec"
+            },
+            {
+                "id": 652962,
+                "name": "Justas Lasickas"
+            },
+            {
+                "id": 1379866,
+                "name": "Dimitri Legbo"
+            },
+            {
+                "id": 955554,
+                "name": "Tiago Dantas"
+            },
+            {
+                "id": 1724555,
+                "name": "T\u00e9o Barisic"
+            },
+            {
+                "id": 1093756,
+                "name": "Mladen Devetak"
+            },
+            {
+                "id": 1386766,
+                "name": "Gabriel Rukavina"
+            },
+            {
+                "id": 464334,
+                "name": "Ante Majstorovic"
+            },
+            {
+                "id": 703529,
+                "name": "Anel Husic"
+            },
+            {
+                "id": 1276864,
+                "name": "Alfonso Barco"
+            },
+            {
+                "id": 1516401,
+                "name": "Ante Juric"
+            },
+            {
+                "id": 1896543,
+                "name": "Alasana Samateh"
+            },
+            {
+                "id": 1428042,
+                "name": "Noel Bodetic"
+            },
+            {
+                "id": 1531103,
+                "name": "Aleksa Todorovic"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 383971,
+                "name": "Dominik Livakovic"
+            },
+            {
+                "id": 950824,
+                "name": "Josip Stanisic"
+            },
+            {
+                "id": 831474,
+                "name": "Marin Pongracic"
+            },
+            {
+                "id": 1070712,
+                "name": "Josko Gvardiol"
+            },
+            {
+                "id": 557799,
+                "name": "Duje Caleta-Car"
+            },
+            {
+                "id": 1186228,
+                "name": "Josip Sutalo"
+            },
+            {
+                "id": 641595,
+                "name": "Nikola Moro"
+            },
+            {
+                "id": 239219,
+                "name": "Mateo Kovacic"
+            },
+            {
+                "id": 173461,
+                "name": "Andrej Kramaric"
+            },
+            {
+                "id": 31097,
+                "name": "Luka Modric"
+            },
+            {
+                "id": 251269,
+                "name": "Ante Budimir"
+            },
+            {
+                "id": 1077684,
+                "name": "Ivor Pandur"
+            },
+            {
+                "id": 557677,
+                "name": "Nikola Vlasic"
+            },
+            {
+                "id": 163670,
+                "name": "Ivan Perisic"
+            },
+            {
+                "id": 446266,
+                "name": "Mario Pasalic"
+            },
+            {
+                "id": 1215064,
+                "name": "Martin Baturina"
+            },
+            {
+                "id": 1382000,
+                "name": "Petar Sucic"
+            },
+            {
+                "id": 643448,
+                "name": "Kristijan Jakic"
+            },
+            {
+                "id": 1210893,
+                "name": "Igor Matanovic"
+            },
+            {
+                "id": 959597,
+                "name": "Luka Sucic"
+            },
+            {
+                "id": 1413996,
+                "name": "Luka Vuskovic"
+            },
+            {
+                "id": 873557,
+                "name": "Dominik Kotarski"
+            },
+            {
+                "id": 1199714,
+                "name": "Marco Pasalic"
+            },
+            {
+                "id": 616170,
+                "name": "Martin Erlic"
+            },
+            {
+                "id": 709796,
+                "name": "Petar Musa"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5789147,
+        "homeId": 10162,
+        "awayId": 8338,
+        "homeName": "Rijeka",
+        "awayName": "Derry City",
+        "matchDate": "2026-07-23T18:45:00Z",
+        "statusId": 1,
+        "leagueId": 10615,
+        "parentLeagueId": 10615,
+        "leagueName": "Conference League Qualification",
+        "status": {
+            "utcTime": "2026-07-23T18:45:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Stadion HNK Rijeka",
+            "city": "Rijeka",
+            "lat": 45.347873058,
+            "long": 14.402203156
+        },
+        "matchUrl": "/matches/derry-city-vs-rijeka/2tw6gs#5789147"
+    },
+    "dataProvider": "opta"
+}

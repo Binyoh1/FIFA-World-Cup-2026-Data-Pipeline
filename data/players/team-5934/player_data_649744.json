@@ -1,0 +1,3306 @@
+{
+    "id": 649744,
+    "name": "Duke Lacroix",
+    "birthDate": {
+        "utcTime": "1993-10-14T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2026-11-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 614321,
+        "teamName": "Colorado Springs Switchbacks FC",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#00B5EF",
+            "colorAlternate": "#1bbbf5",
+            "colorAway": "#101010",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Back",
+                    "key": "rightback"
+                },
+                "strPosShort": {
+                    "label": "RB",
+                    "key": "rightback_short"
+                },
+                "occurences": 2,
+                "position": "32",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.74,
+                    "ratio": 0.3176470588235294
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 4,
+                "position": "36",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.74,
+                    "ratio": 0.43529411764705883
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Back",
+                    "key": "leftback"
+                },
+                "strPosShort": {
+                    "label": "LB",
+                    "key": "leftback_short"
+                },
+                "occurences": 11,
+                "position": "38",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.74
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Left Back",
+            "key": "leftback"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Back",
+                "key": "rightback"
+            },
+            {
+                "label": "Center Back",
+                "key": "centerback"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 175,
+                "key": null,
+                "fallback": "175 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 14,
+                "options": {},
+                "key": null,
+                "fallback": 14
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 32,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "32"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Haiti"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "HAI"
+            },
+            "countryCode": "HAI"
+        },
+        {
+            "value": {
+                "numberValue": 50000,
+                "key": null,
+                "fallback": "\u20ac50k"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2026-11-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2026-11-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 8972,
+        "leagueName": "USL Championship",
+        "season": "2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 0
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 1
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 4
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "USA",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC",
+                "tournaments": [
+                    {
+                        "ccode": "USA",
+                        "leagueId": 8972,
+                        "leagueName": "USL Championship",
+                        "seasonsWon": [
+                            "2024"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 267813,
+            "opponentTeamName": "Orange County SC",
+            "isHomeTeam": false,
+            "id": 5201599,
+            "matchDate": {
+                "utcTime": "2026-07-12T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/orange-county-sc-vs-colorado-springs-switchbacks-fc/4yqoxjpq#5201599",
+            "leagueId": 10654,
+            "leagueName": "USL Cup Grp. 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667767,
+            "matchDate": {
+                "utcTime": "2026-06-20T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-brazil/1ny7ix#4667767",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 4667765,
+            "matchDate": {
+                "utcTime": "2026-06-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-scotland/1q0g2q#4667765",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5729844,
+            "matchDate": {
+                "utcTime": "2026-06-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-haiti/14zaw0#5729844",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1003208,
+            "opponentTeamName": "New Mexico United",
+            "isHomeTeam": true,
+            "id": 5201552,
+            "matchDate": {
+                "utcTime": "2026-05-17T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-new-mexico-united/goz9dbpi#5201552",
+            "leagueId": 10654,
+            "leagueName": "USL Cup Grp. 2",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5159768,
+            "matchDate": {
+                "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-iceland/1qc7u5#5159768",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 5154124,
+            "matchDate": {
+                "utcTime": "2026-03-29T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-tunisia/1bo0fe#5154124",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 839081,
+            "opponentTeamName": "Azteca FC",
+            "isHomeTeam": true,
+            "id": 5201344,
+            "matchDate": {
+                "utcTime": "2026-03-18T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-azteca-fc/dh7gemnc#5201344",
+            "leagueId": 9441,
+            "leagueName": "US Open Cup",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1003209,
+            "opponentTeamName": "El Paso Locomotive FC",
+            "isHomeTeam": false,
+            "id": 5109654,
+            "matchDate": {
+                "utcTime": "2026-03-08T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-el-paso-locomotive-fc/gozabzsw#5109654",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": true,
+            "id": 4822558,
+            "matchDate": {
+                "utcTime": "2025-11-19T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822558",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": true,
+            "id": 4822555,
+            "matchDate": {
+                "utcTime": "2025-11-14T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822555",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 614325,
+            "opponentTeamName": "FC Tulsa",
+            "isHomeTeam": false,
+            "id": 5028814,
+            "matchDate": {
+                "utcTime": "2025-11-02T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-fc-tulsa/9mqsj0l6#5028814",
+            "leagueId": 8972,
+            "leagueName": "USL Championship Playoff",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 120,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 614325,
+            "opponentTeamName": "FC Tulsa",
+            "isHomeTeam": false,
+            "id": 4699217,
+            "matchDate": {
+                "utcTime": "2025-10-26T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-fc-tulsa/9mqsj0l6#4699217",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 915809,
+            "opponentTeamName": "Las Vegas Lights FC",
+            "isHomeTeam": true,
+            "id": 4699231,
+            "matchDate": {
+                "utcTime": "2025-10-19T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-las-vegas-lights-fc/exsf4vpo#4699231",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": false,
+            "id": 4822554,
+            "matchDate": {
+                "utcTime": "2025-10-14T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822554",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": false,
+            "id": 4822552,
+            "matchDate": {
+                "utcTime": "2025-10-10T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822552",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 722269,
+            "opponentTeamName": "San Antonio FC",
+            "isHomeTeam": true,
+            "id": 4699184,
+            "matchDate": {
+                "utcTime": "2025-10-05T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-san-antonio-fc/beciq53a#4699184",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1003206,
+            "opponentTeamName": "Hartford Athletic",
+            "isHomeTeam": true,
+            "id": 4699207,
+            "matchDate": {
+                "utcTime": "2025-09-28T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-hartford-athletic/goz7fzit#4699207",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1003208,
+            "opponentTeamName": "New Mexico United",
+            "isHomeTeam": true,
+            "id": 4698949,
+            "matchDate": {
+                "utcTime": "2025-09-25T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-new-mexico-united/goz9dbpi#4698949",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 521004,
+            "opponentTeamName": "Sacramento Republic FC",
+            "isHomeTeam": true,
+            "id": 4699196,
+            "matchDate": {
+                "utcTime": "2025-09-21T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sacramento-republic-fc-vs-colorado-springs-switchbacks-fc/882kb0ck#4699196",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 197328,
+            "opponentTeamName": "Tampa Bay Rowdies",
+            "isHomeTeam": false,
+            "id": 4699171,
+            "matchDate": {
+                "utcTime": "2025-09-13T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/tampa-bay-rowdies-vs-colorado-springs-switchbacks-fc/47bh5h82#4699171",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": false,
+            "id": 4822549,
+            "matchDate": {
+                "utcTime": "2025-09-10T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822549",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": true,
+            "id": 4822548,
+            "matchDate": {
+                "utcTime": "2025-09-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822548",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 614325,
+            "opponentTeamName": "FC Tulsa",
+            "isHomeTeam": true,
+            "id": 4699154,
+            "matchDate": {
+                "utcTime": "2025-08-31T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-fc-tulsa/9mqsj0l6#4699154",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 34,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1130413,
+            "opponentTeamName": "Oakland Roots SC",
+            "isHomeTeam": false,
+            "id": 4699080,
+            "matchDate": {
+                "utcTime": "2025-08-10T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-oakland-roots-sc/jf7x6m5e#4699080",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 36,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1430405,
+            "opponentTeamName": "Lexington SC",
+            "isHomeTeam": true,
+            "id": 4699067,
+            "matchDate": {
+                "utcTime": "2025-08-02T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-lexington-sc/qoca8tfi#4699067",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1701884,
+            "opponentTeamName": "Texoma",
+            "isHomeTeam": true,
+            "id": 4700048,
+            "matchDate": {
+                "utcTime": "2025-07-27T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-texoma/y8a2fbb0#4700048",
+            "leagueId": 10654,
+            "leagueName": "USL Cup Grp. 2",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 36,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 614321,
+            "teamName": "Colorado Springs Switchbacks FC",
+            "opponentTeamId": 1003207,
+            "opponentTeamName": "Birmingham Legion FC",
+            "isHomeTeam": false,
+            "id": 4699099,
+            "matchDate": {
+                "utcTime": "2025-07-20T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-springs-switchbacks-fc-vs-birmingham-legion-fc/goz8enm5#4699099",
+            "leagueId": 8972,
+            "leagueName": "USL Championship",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 649744,
+                        "teamId": 614321,
+                        "team": "Colorado Springs Switchbacks FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2022-12-14T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "88",
+                        "goals": "2",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 521004,
+                        "team": "Sacramento Republic FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-12-08T00:00:00",
+                        "endDate": "2022-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "68",
+                        "goals": "4",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 614315,
+                        "team": "Charlotte Independence",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-02-10T00:00:00",
+                        "endDate": "2020-12-08T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 820416,
+                        "team": "Reno 1868 FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-04-19T00:00:00",
+                        "endDate": "2020-02-10T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "64",
+                        "goals": "4",
+                        "assists": "12",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 267813,
+                        "team": "Orange County SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        },
+                        "startDate": "2017-03-15T00:00:00",
+                        "endDate": "2018-02-28T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "2",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 514649,
+                        "team": "Indy Eleven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-05-21T00:00:00",
+                        "endDate": "2016-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "46",
+                        "goals": "4",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 649744,
+                        "teamId": 540876,
+                        "team": "Ocean City Nor'easters",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2013-02-01T00:00:00",
+                        "endDate": "2013-05-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.66"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2026",
+                                "tournamentId": 30301,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10654,
+                                "leagueName": "USL Cup",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 31883,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.66"
+                                }
+                            }
+                        ],
+                        "teamId": 614321,
+                        "team": "Colorado Springs Switchbacks FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "26",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.61"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2025",
+                                "tournamentId": 24597,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "21",
+                                "rating": {
+                                    "rating": "6.64"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10654,
+                                "leagueName": "USL Cup",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25053,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.40"
+                                }
+                            }
+                        ],
+                        "teamId": 614321,
+                        "team": "Colorado Springs Switchbacks FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "33",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.83"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2024",
+                                "tournamentId": 22596,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "6.85"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2024",
+                                "tournamentId": 22986,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            }
+                        ],
+                        "teamId": 614321,
+                        "team": "Colorado Springs Switchbacks FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "25",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.90"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2023",
+                                "tournamentId": 18605,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 18753,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.25"
+                                }
+                            }
+                        ],
+                        "teamId": 614321,
+                        "team": "Colorado Springs Switchbacks FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "37",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.02"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2022",
+                                "tournamentId": 17195,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 17404,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            }
+                        ],
+                        "teamId": 521004,
+                        "team": "Sacramento Republic FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "31",
+                        "goals": "1",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.11"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2021",
+                                "tournamentId": 16193,
+                                "goals": "1",
+                                "assists": "4",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.11"
+                                }
+                            }
+                        ],
+                        "teamId": 521004,
+                        "team": "Sacramento Republic FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.48"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2020",
+                                "tournamentId": 14896,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": "6.48"
+                                }
+                            }
+                        ],
+                        "teamId": 614315,
+                        "team": "Charlotte Independence",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "34",
+                        "goals": "3",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "6.96"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2019",
+                                "tournamentId": 13470,
+                                "goals": "3",
+                                "assists": "6",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            }
+                        ],
+                        "teamId": 820416,
+                        "team": "Reno 1868 FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "6",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "5",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2018",
+                                "tournamentId": 12584,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 820416,
+                        "team": "Reno 1868 FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "5",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 8972,
+                                "leagueName": "USL Championship",
+                                "seasonName": "2017",
+                                "tournamentId": 11245,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 267813,
+                        "team": "Orange County SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2016",
+                        "appearances": "27",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2016",
+                                "tournamentId": 10293,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NASL",
+                                "seasonName": "2016",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 514649,
+                        "team": "Indy Eleven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015",
+                        "appearances": "19",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2015",
+                                "tournamentId": 9401,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "NASL",
+                                "seasonName": "2015",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 514649,
+                        "team": "Indy Eleven",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9441,
+                                "leagueName": "Open Cup",
+                                "seasonName": "2013",
+                                "tournamentId": 10316,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 540876,
+                        "team": "Ocean City Nor'easters",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 649744,
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-05-26T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "15",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "11",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.22"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.22"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "3",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.65"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9821,
+                                "leagueName": "CONCACAF Nations League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23542,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.65"
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_fullbacks",
+        "title": "Stats compared to other fullbacks",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.53
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.65
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.26
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.08
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.27
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "duke-lacroix",
+        "pageurl": "/players/649744/duke-lacroix",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Duke Lacroix?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix is 32 years old. Born on Thu Oct 14 1993."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Duke Lacroix?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix is 175 cm tall. Or 5 ft 9 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Duke Lacroix born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix was born Thu Oct 14 1993 and is now 32 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Duke Lacroix's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Duke Lacroix's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix's transfer value is estimated to be around \u20ac50k."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Duke Lacroix from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix is from Haiti."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Duke Lacroix scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Duke Lacroix has scored 0 goals in the USL Championship."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Duke Lacroix",
+            "birthDate": "1993-10-14T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/649744/duke-lacroix",
+            "nationality": {
+                "@type": "Country",
+                "name": "Haiti"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Colorado Springs Switchbacks FC"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "175"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "79"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "USL Championship 2026",
+                    "item": "https://www.fotmob.com/leagues/8972/overview/usl-championship-2026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Colorado Springs Switchbacks FC",
+                    "item": "https://www.fotmob.com/teams/614321/overview/colorado-springs-switchbacks-fc"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Duke Lacroix",
+                    "item": "https://www.fotmob.com/leagues/649744/overview/duke-lacroix"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "USL Cup Grp. 2",
+                    "tournamentId": 10654,
+                    "entryId": "0-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "US Open Cup",
+                    "tournamentId": 9441,
+                    "entryId": "0-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "USL Cup Grp. 2",
+                    "tournamentId": 10654,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "US Open Cup",
+                    "tournamentId": 9441,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "US Open Cup",
+                    "tournamentId": 9441,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONCACAF qualification",
+                    "tournamentId": 10198,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Nations League",
+                    "tournamentId": 9821,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "US Open Cup",
+                    "tournamentId": 9441,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "US Open Cup",
+                    "tournamentId": 9441,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019",
+            "tournaments": [
+                {
+                    "name": "USL Championship",
+                    "tournamentId": 8972,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 1.0380622837370241,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2014-12-31T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 514649,
+                "teamName": "Indy Eleven",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-06-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 514649,
+                "teamName": "Indy Eleven"
+            },
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 514649,
+                "teamName": "Indy Eleven"
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 514649,
+                "teamName": "Indy Eleven"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 60000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 267813,
+                "teamName": "Orange County SC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 267813,
+                "teamName": "Orange County SC"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 820416,
+                "teamName": "Reno 1868 FC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 820416,
+                "teamName": "Reno 1868 FC"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 820416,
+                "teamName": "Reno 1868 FC"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 820416,
+                "teamName": "Reno 1868 FC"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 614315,
+                "teamName": "Charlotte Independence",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 614315,
+                "teamName": "Charlotte Independence"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 300000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 310000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 170000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 521004,
+                "teamName": "Sacramento Republic FC"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 170000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 122870,
+                "currency": "EUR",
+                "lowerBound": 98296,
+                "upperBound": 147444,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 122870,
+                "currency": "EUR",
+                "lowerBound": 98296,
+                "upperBound": 147444,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 122870,
+                "currency": "EUR",
+                "lowerBound": 98296,
+                "upperBound": 147444,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 137975,
+                "currency": "EUR",
+                "lowerBound": 110380,
+                "upperBound": 165570,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 136096,
+                "currency": "EUR",
+                "lowerBound": 108876,
+                "upperBound": 163315,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 136096,
+                "currency": "EUR",
+                "lowerBound": 108876,
+                "upperBound": 163315,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 136096,
+                "currency": "EUR",
+                "lowerBound": 108876,
+                "upperBound": 163315,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 132577,
+                "currency": "EUR",
+                "lowerBound": 106062,
+                "upperBound": 159093,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 106062,
+                "currency": "EUR",
+                "lowerBound": 84849,
+                "upperBound": 127274,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 91835,
+                "currency": "EUR",
+                "lowerBound": 73468,
+                "upperBound": 110202,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 73468,
+                "currency": "EUR",
+                "lowerBound": 58774,
+                "upperBound": 88161,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 58774,
+                "currency": "EUR",
+                "lowerBound": 47019,
+                "upperBound": 70528,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 60000,
+                "source": "scisports",
+                "teamId": 614321,
+                "teamName": "Colorado Springs Switchbacks FC"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1082233,
+                "name": "Christian Herrera"
+            },
+            {
+                "id": 1780441,
+                "name": "Mukisa Kiingi"
+            },
+            {
+                "id": 1469354,
+                "name": "Tyler Clegg"
+            },
+            {
+                "id": 945641,
+                "name": "Matthew Mahoney"
+            },
+            {
+                "id": 1269365,
+                "name": "Samuel Williams"
+            },
+            {
+                "id": 538520,
+                "name": "Jonas Fjeldberg"
+            },
+            {
+                "id": 1252846,
+                "name": "Frank Daroma"
+            },
+            {
+                "id": 1026083,
+                "name": "Adrien P\u00e9rez"
+            },
+            {
+                "id": 1439929,
+                "name": "Levonte Johnson"
+            },
+            {
+                "id": 1341149,
+                "name": "Isaiah Foster"
+            },
+            {
+                "id": 1252220,
+                "name": "Steven Echevarria"
+            },
+            {
+                "id": 1772462,
+                "name": "Chase Gozdieski"
+            },
+            {
+                "id": 1886516,
+                "name": "Sadam Masereka"
+            },
+            {
+                "id": 1450959,
+                "name": "Aidan Rocha"
+            },
+            {
+                "id": 1460329,
+                "name": "Marco Rios"
+            },
+            {
+                "id": 1348316,
+                "name": "Yosuke Hanya"
+            },
+            {
+                "id": 924483,
+                "name": "Anthony Fontana"
+            },
+            {
+                "id": 1058359,
+                "name": "Tyreek Magee"
+            },
+            {
+                "id": 1257960,
+                "name": "Colin Shutler"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1302830,
+                "name": "Talen Maples"
+            },
+            {
+                "id": 1048898,
+                "name": "Juan Tejada"
+            },
+            {
+                "id": 1520240,
+                "name": "Brennan Creek"
+            },
+            {
+                "id": 1921662,
+                "name": "Dane Valenti"
+            },
+            {
+                "id": 1946334,
+                "name": "Griffin Price"
+            },
+            {
+                "id": 1928364,
+                "name": "Rashed Jahan"
+            },
+            {
+                "id": 671835,
+                "name": "Devon Williams"
+            },
+            {
+                "id": 940300,
+                "name": "Khori Bennett"
+            },
+            {
+                "id": 505079,
+                "name": "Kyle Vassell"
+            },
+            {
+                "id": 802493,
+                "name": "Patrick Burner"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 103468,
+                "name": "Johny Placide"
+            },
+            {
+                "id": 634110,
+                "name": "Carlens Arcus"
+            },
+            {
+                "id": 1807873,
+                "name": "Keeto Thermoncy"
+            },
+            {
+                "id": 532700,
+                "name": "Ricardo Ad\u00e9"
+            },
+            {
+                "id": 822716,
+                "name": "Hannes Delcroix"
+            },
+            {
+                "id": 1107287,
+                "name": "Carl Saint\u00e9"
+            },
+            {
+                "id": 643482,
+                "name": "Derrick Etienne"
+            },
+            {
+                "id": 1181438,
+                "name": "Martin Exp\u00e9rience"
+            },
+            {
+                "id": 525445,
+                "name": "Duckens Nazon"
+            },
+            {
+                "id": 769166,
+                "name": "Jean-Ricner Bellegarde"
+            },
+            {
+                "id": 1079194,
+                "name": "Don Deedson Louicius"
+            },
+            {
+                "id": 1209244,
+                "name": "Alexandre Pierre"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1200016,
+                "name": "Ruben Providence"
+            },
+            {
+                "id": 1242314,
+                "name": "Lenny Joseph"
+            },
+            {
+                "id": 1329461,
+                "name": "Danley Jean Jacques"
+            },
+            {
+                "id": 887703,
+                "name": "Wilson Isidor"
+            },
+            {
+                "id": 759569,
+                "name": "Yassin Fortun\u00e9"
+            },
+            {
+                "id": 833641,
+                "name": "Frantzdy Pierrot"
+            },
+            {
+                "id": 1199382,
+                "name": "Josu\u00e9 Casimir"
+            },
+            {
+                "id": 769168,
+                "name": "Jean-K\u00e9vin Duverne"
+            },
+            {
+                "id": 899023,
+                "name": "Josu\u00e9 Duverger"
+            },
+            {
+                "id": 1394254,
+                "name": "Wilguens Paugain"
+            },
+            {
+                "id": 1356595,
+                "name": "Dominique Simon"
+            },
+            {
+                "id": 1447452,
+                "name": "Olivier Pierre"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1937484,
+                "name": "Alyssa Manasse"
+            },
+            {
+                "id": 1081279,
+                "name": "Amandine Pierre-Louis"
+            },
+            {
+                "id": 1729585,
+                "name": "Anyssa Ibrahim"
+            },
+            {
+                "id": 1966108,
+                "name": "Cassandra Decombe"
+            },
+            {
+                "id": 1807266,
+                "name": "Chelsea Domond"
+            },
+            {
+                "id": 1807450,
+                "name": "D\u00e9borah Bien-Aim\u00e9"
+            },
+            {
+                "id": 1591676,
+                "name": "Jos\u00e9phine Vanuxeem"
+            },
+            {
+                "id": 1866960,
+                "name": "Ka\u00efna Pietrus"
+            },
+            {
+                "id": 1807235,
+                "name": "Lourdjina \u00c9tienne"
+            },
+            {
+                "id": 1966107,
+                "name": "Nya Jean-Baptiste"
+            },
+            {
+                "id": 1345962,
+                "name": "Oc\u00e9ane Toussaint"
+            },
+            {
+                "id": 1468679,
+                "name": "Jennyfer Limage"
+            },
+            {
+                "id": 1468681,
+                "name": "Tabita Joseph"
+            },
+            {
+                "id": 1130847,
+                "name": "Melchie Dumornay"
+            },
+            {
+                "id": 1382527,
+                "name": "Sherly Jeudy"
+            },
+            {
+                "id": 887722,
+                "name": "Nerilia Mondesir"
+            },
+            {
+                "id": 1468676,
+                "name": "Roseline \u00c9loissaint"
+            },
+            {
+                "id": 1468674,
+                "name": "Betina Petit-Fr\u00e8re"
+            },
+            {
+                "id": 1468673,
+                "name": "Claire Constant"
+            },
+            {
+                "id": 1468671,
+                "name": "Milan Pierre-J\u00e9r\u00f4me"
+            },
+            {
+                "id": 1468669,
+                "name": "Dayana Pierre-Louis"
+            },
+            {
+                "id": 1261791,
+                "name": "Kethna Louis"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5109842,
+        "homeId": 614321,
+        "awayId": 721896,
+        "homeName": "Colorado Springs Switchbacks FC",
+        "awayName": "Miami FC",
+        "matchDate": "2026-07-23T01:00:00Z",
+        "statusId": 1,
+        "leagueId": 8972,
+        "parentLeagueId": -1,
+        "leagueName": "USL Championship",
+        "status": {
+            "utcTime": "2026-07-23T01:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Weidner Field",
+            "city": "Colorado Springs",
+            "lat": 38.895441,
+            "long": -104.711544
+        },
+        "matchUrl": "/matches/colorado-springs-switchbacks-fc-vs-miami-fc/be49y06l#5109842"
+    },
+    "dataProvider": "enet"
+}

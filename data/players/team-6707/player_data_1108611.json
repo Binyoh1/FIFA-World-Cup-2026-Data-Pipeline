@@ -1,0 +1,4993 @@
+{
+    "id": 1108611,
+    "name": "Pedro Vite",
+    "birthDate": {
+        "utcTime": "2002-03-09T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-07-18T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 1946,
+        "teamName": "Pumas",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#122247",
+            "colorAlternate": "#34497b",
+            "colorAway": "#CBAB57",
+            "colorAwayAlternate": "#CBAB57"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 11,
+                "position": "64",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58,
+                    "ratio": 0.4291666666666667
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.24166666666666667
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 21,
+                "position": "74",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 8,
+                "position": "82",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.3666666666666667
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 5,
+                "position": "85",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.3041666666666667
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "106",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Central Midfielder",
+            "key": "centermidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Defensive Midfielder",
+                "key": "centerdefensivemidfielder"
+            },
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 172,
+                "key": null,
+                "fallback": "172 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 45,
+                "options": {},
+                "key": null,
+                "fallback": 45
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "24"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Ecuador"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "ECU"
+            },
+            "countryCode": "ECU"
+        },
+        {
+            "value": {
+                "numberValue": 7050369,
+                "key": null,
+                "fallback": "\u20ac7.1m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-07-18",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-07-18T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 230,
+        "leagueName": "Liga MX",
+        "season": "2026/2027",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 1
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 1
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 90
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.6
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "CAN",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps",
+                "tournaments": [
+                    {
+                        "ccode": "CAN",
+                        "leagueId": 9837,
+                        "leagueName": "Canadian Championship",
+                        "seasonsWon": [
+                            "2024",
+                            "2023",
+                            "2022"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ECU",
+                "teamId": 0,
+                "teamName": "CSD Independiente del Valle Unde",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 11022,
+                        "leagueName": "Copa Libertadores U20",
+                        "seasonsWon": [
+                            "2020 Paraguay"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": true,
+            "id": 1000014504,
+            "matchDate": {
+                "utcTime": "2026-07-18T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#1000014504",
+            "leagueId": 230,
+            "leagueName": "Liga MX",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": false,
+            "id": 4653713,
+            "matchDate": {
+                "utcTime": "2026-07-01T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-mexico/1hlgxf#4653713",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 8570,
+            "opponentTeamName": "Germany",
+            "isHomeTeam": true,
+            "id": 4667781,
+            "matchDate": {
+                "utcTime": "2026-06-25T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-germany/1xhhol#4667781",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 287981,
+            "opponentTeamName": "Curacao",
+            "isHomeTeam": true,
+            "id": 4667779,
+            "matchDate": {
+                "utcTime": "2026-06-21T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-curacao/jy3jhs3#4667779",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6709,
+            "opponentTeamName": "Ivory Coast",
+            "isHomeTeam": false,
+            "id": 4667778,
+            "matchDate": {
+                "utcTime": "2026-06-14T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-ivory-coast/1hl6kp#4667778",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 5858,
+            "opponentTeamName": "Guatemala",
+            "isHomeTeam": true,
+            "id": 5349852,
+            "matchDate": {
+                "utcTime": "2026-06-07T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/guatemala-vs-ecuador/1b087u#5349852",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6578,
+            "opponentTeamName": "Cruz Azul",
+            "isHomeTeam": true,
+            "id": 5636989,
+            "matchDate": {
+                "utcTime": "2026-05-25T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cruz-azul/lmw80#5636989",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6578,
+            "opponentTeamName": "Cruz Azul",
+            "isHomeTeam": false,
+            "id": 5647377,
+            "matchDate": {
+                "utcTime": "2026-05-22T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cruz-azul/lmw80#5647377",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": true,
+            "id": 5499498,
+            "matchDate": {
+                "utcTime": "2026-05-18T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#5499498",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": false,
+            "id": 5499496,
+            "matchDate": {
+                "utcTime": "2026-05-15T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#5499496",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6576,
+            "opponentTeamName": "CF America",
+            "isHomeTeam": true,
+            "id": 5407889,
+            "matchDate": {
+                "utcTime": "2026-05-11T01:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cf-america/lmj2f#5407889",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6576,
+            "opponentTeamName": "CF America",
+            "isHomeTeam": false,
+            "id": 5407884,
+            "matchDate": {
+                "utcTime": "2026-05-03T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cf-america/lmj2f#5407884",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura Playoff",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": false,
+            "id": 5101860,
+            "matchDate": {
+                "utcTime": "2026-04-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#5101860",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 649424,
+            "opponentTeamName": "FC Juarez",
+            "isHomeTeam": true,
+            "id": 5101851,
+            "matchDate": {
+                "utcTime": "2026-04-22T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-fc-juarez/2pgg45x3#5101851",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6358,
+            "opponentTeamName": "Atletico de San Luis",
+            "isHomeTeam": false,
+            "id": 5101841,
+            "matchDate": {
+                "utcTime": "2026-04-18T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-atletico-de-san-luis/kj7ny#5101841",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1170234,
+            "opponentTeamName": "Mazatlan FC",
+            "isHomeTeam": true,
+            "id": 5101839,
+            "matchDate": {
+                "utcTime": "2026-04-12T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-mazatlan-fc/8rls6mrw#5101839",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7807,
+            "opponentTeamName": "Chivas",
+            "isHomeTeam": false,
+            "id": 5101831,
+            "matchDate": {
+                "utcTime": "2026-04-06T02:07:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-chivas/sbnpg#5101831",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 5110542,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-netherlands/1hkw80#5110542",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 5217275,
+            "matchDate": {
+                "utcTime": "2026-03-27T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-ecuador/1e2s7k#5217275",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6576,
+            "opponentTeamName": "CF America",
+            "isHomeTeam": true,
+            "id": 5101820,
+            "matchDate": {
+                "utcTime": "2026-03-22T03:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cf-america/lmj2f#5101820",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6578,
+            "opponentTeamName": "Cruz Azul",
+            "isHomeTeam": true,
+            "id": 5101811,
+            "matchDate": {
+                "utcTime": "2026-03-15T03:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cruz-azul/lmw80#5101811",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1842,
+            "opponentTeamName": "Necaxa",
+            "isHomeTeam": false,
+            "id": 5101796,
+            "matchDate": {
+                "utcTime": "2026-03-07T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/necaxa-vs-pumas/49utk#5101796",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6618,
+            "opponentTeamName": "Toluca",
+            "isHomeTeam": true,
+            "id": 5101790,
+            "matchDate": {
+                "utcTime": "2026-03-04T03:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-toluca/lu7z0#5101790",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 162418,
+            "opponentTeamName": "Tijuana",
+            "isHomeTeam": false,
+            "id": 5101780,
+            "matchDate": {
+                "utcTime": "2026-02-28T03:06:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-tijuana/67e80yw#5101780",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7849,
+            "opponentTeamName": "Monterrey",
+            "isHomeTeam": true,
+            "id": 5101775,
+            "matchDate": {
+                "utcTime": "2026-02-22T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-monterrey/skgi7#5101775",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7847,
+            "opponentTeamName": "Puebla",
+            "isHomeTeam": false,
+            "id": 5101760,
+            "matchDate": {
+                "utcTime": "2026-02-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-puebla/sk1e0#5101760",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1701119,
+            "opponentTeamName": "San Diego FC",
+            "isHomeTeam": true,
+            "id": 5098869,
+            "matchDate": {
+                "utcTime": "2026-02-11T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-san-diego-fc/ii7x6y73#5098869",
+            "leagueId": 297,
+            "leagueName": "CONCACAF Champions Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6577,
+            "opponentTeamName": "Atlas",
+            "isHomeTeam": false,
+            "id": 5101757,
+            "matchDate": {
+                "utcTime": "2026-02-08T01:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-atlas/lmpn7#5101757",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1701119,
+            "opponentTeamName": "San Diego FC",
+            "isHomeTeam": false,
+            "id": 5098858,
+            "matchDate": {
+                "utcTime": "2026-02-04T04:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-san-diego-fc/ii7x6y73#5098858",
+            "leagueId": 297,
+            "leagueName": "CONCACAF Champions Cup",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7857,
+            "opponentTeamName": "Santos Laguna",
+            "isHomeTeam": true,
+            "id": 5101744,
+            "matchDate": {
+                "utcTime": "2026-01-31T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-santos-laguna/sm503#5101744",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1841,
+            "opponentTeamName": "Leon",
+            "isHomeTeam": true,
+            "id": 5101739,
+            "matchDate": {
+                "utcTime": "2026-01-18T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leon-vs-pumas/49rwc#5101739",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 8561,
+            "opponentTeamName": "Tigres",
+            "isHomeTeam": false,
+            "id": 5101731,
+            "matchDate": {
+                "utcTime": "2026-01-15T03:06:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-tigres/wve43#5101731",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1943,
+            "opponentTeamName": "Queretaro FC",
+            "isHomeTeam": true,
+            "id": 5101722,
+            "matchDate": {
+                "utcTime": "2026-01-11T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/queretaro-fc-vs-pumas/4i603#5101722",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": false,
+            "id": 5056634,
+            "matchDate": {
+                "utcTime": "2025-11-21T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#5056634",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura Play-In Stage",
+            "stage": "1/2",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": true,
+            "id": 5031709,
+            "matchDate": {
+                "utcTime": "2025-11-19T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-ecuador/1aq0cb#5031709",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 5810,
+            "opponentTeamName": "Canada",
+            "isHomeTeam": false,
+            "id": 4960815,
+            "matchDate": {
+                "utcTime": "2025-11-14T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/canada-vs-ecuador/1anbpu#4960815",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6578,
+            "opponentTeamName": "Cruz Azul",
+            "isHomeTeam": false,
+            "id": 4804187,
+            "matchDate": {
+                "utcTime": "2025-11-09T03:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cruz-azul/lmw80#4804187",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 162418,
+            "opponentTeamName": "Tijuana",
+            "isHomeTeam": true,
+            "id": 4804177,
+            "matchDate": {
+                "utcTime": "2025-11-02T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-tijuana/67e80yw#4804177",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1841,
+            "opponentTeamName": "Leon",
+            "isHomeTeam": false,
+            "id": 4804165,
+            "matchDate": {
+                "utcTime": "2025-10-26T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leon-vs-pumas/49rwc#4804165",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6358,
+            "opponentTeamName": "Atletico de San Luis",
+            "isHomeTeam": true,
+            "id": 4804161,
+            "matchDate": {
+                "utcTime": "2025-10-23T03:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-atletico-de-san-luis/kj7ny#4804161",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": false,
+            "id": 4928674,
+            "matchDate": {
+                "utcTime": "2025-10-15T02:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-mexico/1hlgxf#4928674",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 4928743,
+            "matchDate": {
+                "utcTime": "2025-10-11T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-usa/1hmbzr#4928743",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7807,
+            "opponentTeamName": "Chivas",
+            "isHomeTeam": true,
+            "id": 4804142,
+            "matchDate": {
+                "utcTime": "2025-10-06T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-chivas/sbnpg#4804142",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6576,
+            "opponentTeamName": "CF America",
+            "isHomeTeam": false,
+            "id": 4804131,
+            "matchDate": {
+                "utcTime": "2025-09-28T03:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-cf-america/lmj2f#4804131",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 649424,
+            "opponentTeamName": "FC Juarez",
+            "isHomeTeam": false,
+            "id": 4804120,
+            "matchDate": {
+                "utcTime": "2025-09-24T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-fc-juarez/2pgg45x3#4804120",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 8561,
+            "opponentTeamName": "Tigres",
+            "isHomeTeam": true,
+            "id": 4804114,
+            "matchDate": {
+                "utcTime": "2025-09-21T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-tigres/wve43#4804114",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1170234,
+            "opponentTeamName": "Mazatlan FC",
+            "isHomeTeam": false,
+            "id": 4804100,
+            "matchDate": {
+                "utcTime": "2025-09-13T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-mazatlan-fc/8rls6mrw#4804100",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6706,
+            "opponentTeamName": "Argentina",
+            "isHomeTeam": true,
+            "id": 4196581,
+            "matchDate": {
+                "utcTime": "2025-09-09T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-ecuador/1hkbiq#4196581",
+            "leagueId": 10199,
+            "leagueName": "World Cup Qualification CONMEBOL",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6707,
+            "teamName": "Ecuador",
+            "opponentTeamId": 6724,
+            "opponentTeamName": "Paraguay",
+            "isHomeTeam": false,
+            "id": 4196557,
+            "matchDate": {
+                "utcTime": "2025-09-04T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-paraguay/1hphyg#4196557",
+            "leagueId": 10199,
+            "leagueName": "World Cup Qualification CONMEBOL",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6577,
+            "opponentTeamName": "Atlas",
+            "isHomeTeam": true,
+            "id": 4804096,
+            "matchDate": {
+                "utcTime": "2025-08-31T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-atlas/lmpn7#4804096",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7847,
+            "opponentTeamName": "Puebla",
+            "isHomeTeam": true,
+            "id": 4804087,
+            "matchDate": {
+                "utcTime": "2025-08-24T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-puebla/sk1e0#4804087",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 6618,
+            "opponentTeamName": "Toluca",
+            "isHomeTeam": false,
+            "id": 4804074,
+            "matchDate": {
+                "utcTime": "2025-08-17T03:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-toluca/lu7z0#4804074",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1842,
+            "opponentTeamName": "Necaxa",
+            "isHomeTeam": true,
+            "id": 4804066,
+            "matchDate": {
+                "utcTime": "2025-08-11T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/necaxa-vs-pumas/49utk#4804066",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 960720,
+            "opponentTeamName": "Inter Miami CF",
+            "isHomeTeam": false,
+            "id": 4736064,
+            "matchDate": {
+                "utcTime": "2025-08-06T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-inter-miami-cf/5wv7696f#4736064",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 773958,
+            "opponentTeamName": "Atlanta United",
+            "isHomeTeam": true,
+            "id": 4736045,
+            "matchDate": {
+                "utcTime": "2025-08-03T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-atlanta-united/3ua8d29i#4736045",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 267810,
+            "opponentTeamName": "Orlando City",
+            "isHomeTeam": true,
+            "id": 4736027,
+            "matchDate": {
+                "utcTime": "2025-07-31T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-orlando-city/gpqf8co#4736027",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 1943,
+            "opponentTeamName": "Queretaro FC",
+            "isHomeTeam": false,
+            "id": 4804054,
+            "matchDate": {
+                "utcTime": "2025-07-26T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/queretaro-fc-vs-pumas/4i603#4804054",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1946,
+            "teamName": "Pumas",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": true,
+            "id": 4804052,
+            "matchDate": {
+                "utcTime": "2025-07-20T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pumas-vs-pachuca/sk8y3#4804052",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 36,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1108611,
+                        "teamId": 1946,
+                        "team": "Pumas",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-07-18T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "44",
+                        "goals": "4",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": 307691,
+                        "team": "Vancouver Whitecaps",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-08-05T00:00:00Z",
+                        "endDate": "2025-07-18T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "140",
+                        "goals": "15",
+                        "assists": "9",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": 614326,
+                        "team": "Vancouver Whitecaps 2",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-04-25T00:00:00Z",
+                        "endDate": "2022-12-31T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": 192875,
+                        "team": "Independiente del Valle",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-02-10T00:00:00Z",
+                        "endDate": "2021-08-04T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "25",
+                        "goals": "3",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": -1,
+                        "team": "CD Independiente Juniors",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-07-30T00:00:00Z",
+                        "endDate": "2021-08-04T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "0",
+                        "goals": "5",
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026/2027",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 230,
+                                "leagueName": "Liga MX",
+                                "seasonName": "2026/2027",
+                                "tournamentId": 1000000459,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            }
+                        ],
+                        "teamId": 1946,
+                        "team": "Pumas",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2026",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.54"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 297,
+                                "leagueName": "CONCACAF Champions Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 30052,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.54"
+                                }
+                            }
+                        ],
+                        "teamId": 1946,
+                        "team": "Pumas",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "38",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.01"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 230,
+                                "leagueName": "Liga MX",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27048,
+                                "goals": "3",
+                                "assists": "1",
+                                "appearances": "38",
+                                "rating": {
+                                    "rating": "7.01"
+                                }
+                            }
+                        ],
+                        "teamId": 1946,
+                        "team": "Pumas",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10043,
+                                "leagueName": "Leagues Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25098,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.25"
+                                }
+                            }
+                        ],
+                        "teamId": 1946,
+                        "team": "Pumas",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "29",
+                        "goals": "5",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.33"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 130,
+                                "leagueName": "MLS",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000204,
+                                "goals": "4",
+                                "assists": "2",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": "7.36"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9837,
+                                "leagueName": "Canadian Championship",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000223,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.37"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 297,
+                                "leagueName": "CONCACAF Champions Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000190,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            }
+                        ],
+                        "teamId": 307691,
+                        "team": "Vancouver Whitecaps",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "41",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.03"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 130,
+                                "leagueName": "MLS",
+                                "seasonName": "2024",
+                                "tournamentId": 1000000109,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9837,
+                                "leagueName": "Canadian Championship",
+                                "seasonName": "2024",
+                                "tournamentId": 1000000031,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10043,
+                                "leagueName": "Leagues Cup",
+                                "seasonName": "2024",
+                                "tournamentId": 1000000166,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 297,
+                                "leagueName": "CONCACAF Champions Cup",
+                                "seasonName": "2024",
+                                "tournamentId": 1000000094,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.67"
+                                }
+                            }
+                        ],
+                        "teamId": 307691,
+                        "team": "Vancouver Whitecaps",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "45",
+                        "goals": "6",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 130,
+                                "leagueName": "MLS",
+                                "seasonName": "2023",
+                                "tournamentId": 18572,
+                                "goals": "4",
+                                "assists": "0",
+                                "appearances": "36",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9837,
+                                "leagueName": "Canadian Championship",
+                                "seasonName": "2023",
+                                "tournamentId": 18749,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.23"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10043,
+                                "leagueName": "Leagues Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 19154,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.58"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 297,
+                                "leagueName": "CONCACAF Champions Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 18440,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.85"
+                                }
+                            }
+                        ],
+                        "teamId": 307691,
+                        "team": "Vancouver Whitecaps",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "25",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.87"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 130,
+                                "leagueName": "MLS",
+                                "seasonName": "2022",
+                                "tournamentId": 17185,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "6.89"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9837,
+                                "leagueName": "Canadian Championship",
+                                "seasonName": "2022",
+                                "tournamentId": 17491,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.40"
+                                }
+                            }
+                        ],
+                        "teamId": 307691,
+                        "team": "Vancouver Whitecaps",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10282,
+                                "leagueName": "MLS Next Pro",
+                                "seasonName": "2022",
+                                "tournamentId": 17494,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            }
+                        ],
+                        "teamId": 614326,
+                        "team": "Vancouver Whitecaps 2",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "25",
+                        "goals": "3",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.04"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 45,
+                                "leagueName": "Copa Libertadores",
+                                "seasonName": "2021",
+                                "tournamentId": 16073,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 246,
+                                "leagueName": "Serie A",
+                                "seasonName": "2021",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "4",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11035,
+                                "leagueName": "Supercopa de Ecuador",
+                                "seasonName": "2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 192875,
+                        "team": "Independiente del Valle",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": null,
+                        "goals": "1",
+                        "assists": null,
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Liga Pro Serie B",
+                                "seasonName": "2021",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": null,
+                                "appearances": null,
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "CD Independiente Juniors",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": null,
+                        "goals": "4",
+                        "assists": null,
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Liga Pro Serie B",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": null,
+                                "appearances": null,
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "CD Independiente Juniors",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1108611,
+                        "teamId": -1,
+                        "team": "CSD Independiente del Valle Under 20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-01-01T00:00:00Z",
+                        "endDate": "2021-08-04T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2020",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 11022,
+                                "leagueName": "Copa Libertadores U20",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "CSD Independiente del Valle Under 20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1108611,
+                        "teamId": 6707,
+                        "team": "Ecuador",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-06-10T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "21",
+                        "goals": "1",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": -1,
+                        "team": "Ecuador Under 23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-01-01T00:00:00Z",
+                        "endDate": "2026-06-01T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1108611,
+                        "teamId": 265236,
+                        "team": "Ecuador U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-03-10T00:00:00Z",
+                        "endDate": "2023-03-15T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "16",
+                        "goals": "0",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.40"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.72"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.98"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": 1000000103,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6707,
+                        "team": "Ecuador",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.92"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000213,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.92"
+                                }
+                            }
+                        ],
+                        "teamId": 6707,
+                        "team": "Ecuador",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.04"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            }
+                        ],
+                        "teamId": 6707,
+                        "team": "Ecuador",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "4",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL Pre-Olympic Tournament",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "4",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Ecuador Under 23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "12",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 306,
+                                "leagueName": "World Cup U17",
+                                "seasonName": "2019",
+                                "tournamentId": 14228,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "CONMEBOL U17",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 265236,
+                        "team": "Ecuador U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.82
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.24
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.34
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.56
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.36
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.9
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "pedro-vite",
+        "pageurl": "/players/1108611/pedro-vite",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Pedro Vite?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite is 24 years old. Born on Sat Mar 09 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Pedro Vite?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite is 172 cm tall. Or 5 ft 8 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Pedro Vite born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite was born Sat Mar 09 2002 and is now 24 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Pedro Vite's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Pedro Vite's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite's transfer value is estimated to be around \u20ac7.1m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Pedro Vite from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite is from Ecuador."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Pedro Vite scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pedro Vite has scored 0 goals in the Liga MX."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Pedro Vite",
+            "birthDate": "2002-03-09T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1108611/pedro-vite",
+            "nationality": {
+                "@type": "Country",
+                "name": "Ecuador"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Pumas"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "172"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga MX 2026/2027",
+                    "item": "https://www.fotmob.com/leagues/230/overview/liga-mx-20262027"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Pumas",
+                    "item": "https://www.fotmob.com/teams/1946/overview/pumas"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Pedro Vite",
+                    "item": "https://www.fotmob.com/leagues/1108611/overview/pedro-vite"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026/2027",
+            "tournaments": [
+                {
+                    "name": "Liga MX",
+                    "tournamentId": 230,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Champions Cup",
+                    "tournamentId": 297,
+                    "entryId": "0-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga MX Apertura",
+                    "tournamentId": 230,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga MX Clausura",
+                    "tournamentId": 230,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025",
+            "tournaments": [
+                {
+                    "name": "Major League Soccer",
+                    "tournamentId": 130,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga MX Apertura Play-In Stage",
+                    "tournamentId": 230,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga MX Clausura Playoff",
+                    "tournamentId": 230,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Canadian Championship",
+                    "tournamentId": 9837,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Champions Cup",
+                    "tournamentId": 297,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Leagues Cup",
+                    "tournamentId": 10043,
+                    "entryId": "2-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024",
+            "tournaments": [
+                {
+                    "name": "Major League Soccer",
+                    "tournamentId": 130,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Canadian Championship",
+                    "tournamentId": 9837,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Champions Cup",
+                    "tournamentId": 297,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Leagues Cup",
+                    "tournamentId": 10043,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023",
+            "tournaments": [
+                {
+                    "name": "Major League Soccer",
+                    "tournamentId": 130,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Canadian Championship",
+                    "tournamentId": 9837,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Champions Cup",
+                    "tournamentId": 297,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Leagues Cup",
+                    "tournamentId": 10043,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONMEBOL qualification",
+                    "tournamentId": 10199,
+                    "entryId": "4-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022",
+            "tournaments": [
+                {
+                    "name": "Major League Soccer",
+                    "tournamentId": 130,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "MLS NEXT Pro",
+                    "tournamentId": 10282,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Canadian Championship",
+                    "tournamentId": 9837,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021",
+            "tournaments": [
+                {
+                    "name": "Copa Libertadores Qualification qualification",
+                    "tournamentId": 10618,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa Libertadores",
+                    "tournamentId": 45,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.0261834,
+                            "percentileRank": 47.22222222222222,
+                            "percentileRankPer90": 44.44444444444444,
+                            "statFormat": "fraction",
+                            "statValue": "0.03",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 72,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "72",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 88.88888888888889,
+                            "percentileRank": 63.888888888888886,
+                            "percentileRankPer90": 63.888888888888886,
+                            "statFormat": "percent",
+                            "statValue": "88.9",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 3,
+                            "percentileRank": 72.22222222222221,
+                            "percentileRankPer90": 69.44444444444444,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 60,
+                            "percentileRank": 58.333333333333336,
+                            "percentileRankPer90": 58.333333333333336,
+                            "statFormat": "percent",
+                            "statValue": "60.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1,
+                            "percentileRank": 36.11111111111111,
+                            "percentileRankPer90": 36.11111111111111,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1,
+                            "percentileRank": 63.888888888888886,
+                            "percentileRankPer90": 63.888888888888886,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 5,
+                            "percentileRank": 55.55555555555556,
+                            "percentileRankPer90": 47.22222222222222,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 45.45454545454545,
+                            "percentileRank": 38.88888888888889,
+                            "percentileRankPer90": 38.88888888888889,
+                            "statFormat": "percent",
+                            "statValue": "45.5",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 2,
+                            "percentileRank": 83.33333333333334,
+                            "percentileRankPer90": 80.55555555555556,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 66.66666666666667,
+                            "percentileRank": 58.333333333333336,
+                            "percentileRankPer90": 58.333333333333336,
+                            "statFormat": "percent",
+                            "statValue": "66.7",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 91,
+                            "percentileRank": 94.44444444444444,
+                            "percentileRankPer90": 94.44444444444444,
+                            "statFormat": "number",
+                            "statValue": "91",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 5,
+                            "percentileRank": 52.77777777777778,
+                            "percentileRankPer90": 52.77777777777778,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2,
+                            "percentileRank": 55.55555555555556,
+                            "percentileRankPer90": 52.77777777777778,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 2,
+                            "percentileRank": 58.333333333333336,
+                            "percentileRankPer90": 55.55555555555556,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 4,
+                            "percentileRank": 2.7777777777777777,
+                            "percentileRankPer90": 2.7777777777777777,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 10,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 2,
+                            "percentileRank": 5.555555555555555,
+                            "percentileRankPer90": 8.333333333333332,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1,
+                            "percentileRank": 44.44444444444444,
+                            "percentileRankPer90": 44.44444444444444,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 3,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 8.333333333333332,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.1351,
+                            "percentileRank": 47.22222222222222,
+                            "percentileRankPer90": 55.55555555555556,
+                            "statFormat": "fraction",
+                            "statValue": "1.14",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 1,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.6,
+                    "percentileRank": 30.555555555555557,
+                    "percentileRankPer90": 30.555555555555557,
+                    "statFormat": "fraction",
+                    "statValue": "6.60",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 1,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 100,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "90",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 77.08,
+                    "y": 45.4
+                },
+                {
+                    "x": 50.87,
+                    "y": 41.43
+                },
+                {
+                    "x": 43.24,
+                    "y": 13.98
+                },
+                {
+                    "x": 45.79,
+                    "y": 6.95
+                },
+                {
+                    "x": 45.28,
+                    "y": 13.51
+                },
+                {
+                    "x": 13.5,
+                    "y": 19.52
+                },
+                {
+                    "x": 13.5,
+                    "y": 19.52
+                },
+                {
+                    "x": 36.82,
+                    "y": 12.33
+                },
+                {
+                    "x": 38.96,
+                    "y": 35.14
+                },
+                {
+                    "x": 23.3,
+                    "y": 25.48
+                },
+                {
+                    "x": 45.59,
+                    "y": 12.13
+                },
+                {
+                    "x": 48.33,
+                    "y": 12.53
+                },
+                {
+                    "x": 54.74,
+                    "y": 44.98
+                },
+                {
+                    "x": 50.87,
+                    "y": 39.46
+                },
+                {
+                    "x": 47.72,
+                    "y": 25.01
+                },
+                {
+                    "x": 49.65,
+                    "y": 13.18
+                },
+                {
+                    "x": 56.87,
+                    "y": 23.65
+                },
+                {
+                    "x": 40.42,
+                    "y": 13.58
+                },
+                {
+                    "x": 33.44,
+                    "y": 42.35
+                },
+                {
+                    "x": 65.59,
+                    "y": 11.74
+                },
+                {
+                    "x": 68.41,
+                    "y": 20.29
+                },
+                {
+                    "x": 65.7,
+                    "y": 20.78
+                },
+                {
+                    "x": 58.09,
+                    "y": 14.61
+                },
+                {
+                    "x": 75.73,
+                    "y": 30.27
+                },
+                {
+                    "x": 56.57,
+                    "y": 28.45
+                },
+                {
+                    "x": 69.2,
+                    "y": 8.66
+                },
+                {
+                    "x": 34.57,
+                    "y": 26.77
+                },
+                {
+                    "x": 48.54,
+                    "y": 53.04
+                },
+                {
+                    "x": 57.99,
+                    "y": 22.46
+                },
+                {
+                    "x": 58.29,
+                    "y": 19.23
+                },
+                {
+                    "x": 45.99,
+                    "y": 34.23
+                },
+                {
+                    "x": 93.8,
+                    "y": 5.58
+                },
+                {
+                    "x": 85.6,
+                    "y": 8.72
+                },
+                {
+                    "x": 33.78,
+                    "y": 38.54
+                },
+                {
+                    "x": 38.62,
+                    "y": 12.72
+                },
+                {
+                    "x": 9.65,
+                    "y": 29.46
+                },
+                {
+                    "x": 35.58,
+                    "y": 33.54
+                },
+                {
+                    "x": 36.37,
+                    "y": 44.14
+                },
+                {
+                    "x": 65.82,
+                    "y": 31.03
+                },
+                {
+                    "x": 65.82,
+                    "y": 31.03
+                },
+                {
+                    "x": 42.45,
+                    "y": 58.03
+                },
+                {
+                    "x": 43.55,
+                    "y": 51.85
+                },
+                {
+                    "x": 48.74,
+                    "y": 52.83
+                },
+                {
+                    "x": 65.82,
+                    "y": 25.48
+                },
+                {
+                    "x": 73.36,
+                    "y": 34.46
+                },
+                {
+                    "x": 44.88,
+                    "y": 13.38
+                },
+                {
+                    "x": 42.45,
+                    "y": 37.7
+                },
+                {
+                    "x": 43.96,
+                    "y": 42
+                },
+                {
+                    "x": 50.67,
+                    "y": 43.23
+                },
+                {
+                    "x": 75.84,
+                    "y": 34
+                },
+                {
+                    "x": 41.21,
+                    "y": 37.78
+                },
+                {
+                    "x": 42.9,
+                    "y": 38.45
+                },
+                {
+                    "x": 38.85,
+                    "y": 33.47
+                },
+                {
+                    "x": 64.02,
+                    "y": 44.91
+                },
+                {
+                    "x": 83.16,
+                    "y": 19.66
+                },
+                {
+                    "x": 68.41,
+                    "y": 20.29
+                },
+                {
+                    "x": 42.11,
+                    "y": 51.64
+                },
+                {
+                    "x": 28.15,
+                    "y": 55.87
+                },
+                {
+                    "x": 12,
+                    "y": 59.54
+                },
+                {
+                    "x": 3.89,
+                    "y": 61.7
+                },
+                {
+                    "x": 72.57,
+                    "y": 59.93
+                },
+                {
+                    "x": 21.16,
+                    "y": 22.04
+                },
+                {
+                    "x": 31.52,
+                    "y": 46.38
+                },
+                {
+                    "x": 60.84,
+                    "y": 10.49
+                },
+                {
+                    "x": 29.27,
+                    "y": 40.3
+                },
+                {
+                    "x": 29.27,
+                    "y": 40.3
+                },
+                {
+                    "x": 38.96,
+                    "y": 52.34
+                },
+                {
+                    "x": 61.14,
+                    "y": 48.77
+                },
+                {
+                    "x": 68.18,
+                    "y": 57.96
+                },
+                {
+                    "x": 50.87,
+                    "y": 51.99
+                },
+                {
+                    "x": 46.81,
+                    "y": 25.36
+                },
+                {
+                    "x": 60.94,
+                    "y": 15.03
+                },
+                {
+                    "x": 55.75,
+                    "y": 10.56
+                },
+                {
+                    "x": 55.75,
+                    "y": 39.8
+                },
+                {
+                    "x": 63.11,
+                    "y": 59.93
+                },
+                {
+                    "x": 26.34,
+                    "y": 26.69
+                },
+                {
+                    "x": 26.34,
+                    "y": 26.69
+                },
+                {
+                    "x": 26.57,
+                    "y": 19.09
+                },
+                {
+                    "x": 26.57,
+                    "y": 19.09
+                },
+                {
+                    "x": 60.53,
+                    "y": 19.02
+                },
+                {
+                    "x": 59.21,
+                    "y": 31.48
+                },
+                {
+                    "x": 35.13,
+                    "y": 24.96
+                },
+                {
+                    "x": 55.96,
+                    "y": 27.78
+                },
+                {
+                    "x": 60.02,
+                    "y": 46.03
+                },
+                {
+                    "x": 60.84,
+                    "y": 44.35
+                },
+                {
+                    "x": 24.65,
+                    "y": 49.4
+                },
+                {
+                    "x": 70.66,
+                    "y": 61.44
+                },
+                {
+                    "x": 37.94,
+                    "y": 41.48
+                },
+                {
+                    "x": 34.79,
+                    "y": 43.44
+                },
+                {
+                    "x": 49.25,
+                    "y": 18.25
+                },
+                {
+                    "x": 56.87,
+                    "y": 28.54
+                },
+                {
+                    "x": 57.68,
+                    "y": 46.45
+                },
+                {
+                    "x": 32.43,
+                    "y": 46.8
+                },
+                {
+                    "x": 38.73,
+                    "y": 18.25
+                },
+                {
+                    "x": 58.8,
+                    "y": 23.3
+                },
+                {
+                    "x": 40.08,
+                    "y": 21.2
+                },
+                {
+                    "x": 12.1,
+                    "y": 47.71
+                },
+                {
+                    "x": 13.7,
+                    "y": 47.64
+                },
+                {
+                    "x": 59.82,
+                    "y": 17.41
+                },
+                {
+                    "x": 41.55,
+                    "y": 49.19
+                },
+                {
+                    "x": 31.52,
+                    "y": 51.22
+                },
+                {
+                    "x": 37.72,
+                    "y": 48.98
+                },
+                {
+                    "x": 46.71,
+                    "y": 28.03
+                },
+                {
+                    "x": 45.49,
+                    "y": 29.21
+                },
+                {
+                    "x": 65.82,
+                    "y": 31.71
+                },
+                {
+                    "x": 61.04,
+                    "y": 9.45
+                },
+                {
+                    "x": 63.56,
+                    "y": 4.66
+                },
+                {
+                    "x": 55.96,
+                    "y": 43.04
+                },
+                {
+                    "x": 67.39,
+                    "y": 55.47
+                },
+                {
+                    "x": 65.7,
+                    "y": 47.22
+                },
+                {
+                    "x": 42.45,
+                    "y": 58.42
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 5180000,
+                "currency": "EUR",
+                "lowerBound": 3880000,
+                "upperBound": 6470000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 5570000,
+                "currency": "EUR",
+                "lowerBound": 4170000,
+                "upperBound": 6960000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 5560000,
+                "currency": "EUR",
+                "lowerBound": 4170000,
+                "upperBound": 6950000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 5090000,
+                "currency": "EUR",
+                "lowerBound": 3820000,
+                "upperBound": 6360000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 5790000,
+                "currency": "EUR",
+                "lowerBound": 4340000,
+                "upperBound": 7230000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 3510000,
+                "currency": "EUR",
+                "lowerBound": 2630000,
+                "upperBound": 4390000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 3510000,
+                "currency": "EUR",
+                "lowerBound": 2630000,
+                "upperBound": 4390000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 1390000,
+                "currency": "EUR",
+                "lowerBound": 1050000,
+                "upperBound": 1740000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 1680000,
+                "currency": "EUR",
+                "lowerBound": 1260000,
+                "upperBound": 2100000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 1770000,
+                "currency": "EUR",
+                "lowerBound": 1320000,
+                "upperBound": 2210000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 1780000,
+                "currency": "EUR",
+                "lowerBound": 1340000,
+                "upperBound": 2230000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 1790000,
+                "currency": "EUR",
+                "lowerBound": 1340000,
+                "upperBound": 2240000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 1680000,
+                "currency": "EUR",
+                "lowerBound": 1260000,
+                "upperBound": 2090000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 1500000,
+                "currency": "EUR",
+                "lowerBound": 1120000,
+                "upperBound": 1880000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 1290000,
+                "currency": "EUR",
+                "lowerBound": 970000,
+                "upperBound": 1610000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 1020000,
+                "currency": "EUR",
+                "lowerBound": 760000,
+                "upperBound": 1270000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 830000,
+                "currency": "EUR",
+                "lowerBound": 620000,
+                "upperBound": 1030000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 690000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 860000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 620000,
+                "currency": "EUR",
+                "lowerBound": 460000,
+                "upperBound": 770000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 1460000,
+                "currency": "EUR",
+                "lowerBound": 1100000,
+                "upperBound": 1820000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 1820000,
+                "currency": "EUR",
+                "lowerBound": 1370000,
+                "upperBound": 2280000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 1930000,
+                "currency": "EUR",
+                "lowerBound": 1450000,
+                "upperBound": 2410000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 2040000,
+                "currency": "EUR",
+                "lowerBound": 1530000,
+                "upperBound": 2560000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 2080000,
+                "currency": "EUR",
+                "lowerBound": 1560000,
+                "upperBound": 2600000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 2090000,
+                "currency": "EUR",
+                "lowerBound": 1570000,
+                "upperBound": 2610000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 2000000,
+                "currency": "EUR",
+                "lowerBound": 1500000,
+                "upperBound": 2490000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 2490000,
+                "currency": "EUR",
+                "lowerBound": 1992000,
+                "upperBound": 2988000,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 2988000,
+                "currency": "EUR",
+                "lowerBound": 2390400,
+                "upperBound": 3585600,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 3585600,
+                "currency": "EUR",
+                "lowerBound": 2868480,
+                "upperBound": 4302720,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 3852172,
+                "currency": "EUR",
+                "lowerBound": 3081738,
+                "upperBound": 4622607,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 3951468,
+                "currency": "EUR",
+                "lowerBound": 3161174,
+                "upperBound": 4741762,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 3592641,
+                "currency": "EUR",
+                "lowerBound": 2874112,
+                "upperBound": 4311169,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 2874112,
+                "currency": "EUR",
+                "lowerBound": 2299289,
+                "upperBound": 3448934,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 2508155,
+                "currency": "EUR",
+                "lowerBound": 2006524,
+                "upperBound": 3009786,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 2429855,
+                "currency": "EUR",
+                "lowerBound": 1943884,
+                "upperBound": 2915826,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 2428130,
+                "currency": "EUR",
+                "lowerBound": 1942504,
+                "upperBound": 2913756,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 2404374,
+                "currency": "EUR",
+                "lowerBound": 1923499,
+                "upperBound": 2885248,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 2069752,
+                "currency": "EUR",
+                "lowerBound": 1655801,
+                "upperBound": 2483702,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 2151550,
+                "currency": "EUR",
+                "lowerBound": 1721240,
+                "upperBound": 2581860,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 2151550,
+                "currency": "EUR",
+                "lowerBound": 1721240,
+                "upperBound": 2581860,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 2032739,
+                "currency": "EUR",
+                "lowerBound": 1626191,
+                "upperBound": 2439287,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 3657601,
+                "currency": "EUR",
+                "lowerBound": 2926081,
+                "upperBound": 4389121,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 3636164,
+                "currency": "EUR",
+                "lowerBound": 2908931,
+                "upperBound": 4363396,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 3698954,
+                "currency": "EUR",
+                "lowerBound": 2959163,
+                "upperBound": 4438745,
+                "source": "scisports",
+                "teamId": 307691,
+                "teamName": "Vancouver Whitecaps"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 3688860,
+                "currency": "EUR",
+                "lowerBound": 2951088,
+                "upperBound": 4426632,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 6626061,
+                "currency": "EUR",
+                "lowerBound": 5632152,
+                "upperBound": 7619970,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 6596460,
+                "currency": "EUR",
+                "lowerBound": 5606991,
+                "upperBound": 7585929,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 6596460,
+                "currency": "EUR",
+                "lowerBound": 5606991,
+                "upperBound": 7585929,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 6589570,
+                "currency": "EUR",
+                "lowerBound": 5601134,
+                "upperBound": 7578005,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 6364482,
+                "currency": "EUR",
+                "lowerBound": 5409809,
+                "upperBound": 7319154,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 6314754,
+                "currency": "EUR",
+                "lowerBound": 5367541,
+                "upperBound": 7261967,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 6507426,
+                "currency": "EUR",
+                "lowerBound": 5531312,
+                "upperBound": 7483540,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 6404412,
+                "currency": "EUR",
+                "lowerBound": 5443750,
+                "upperBound": 7365074,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 7212654,
+                "currency": "EUR",
+                "lowerBound": 6130756,
+                "upperBound": 8294552,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 8294552,
+                "currency": "EUR",
+                "lowerBound": 7050369,
+                "upperBound": 9538734,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 7050369,
+                "currency": "EUR",
+                "lowerBound": 5992813,
+                "upperBound": 8107924,
+                "source": "scisports",
+                "teamId": 1946,
+                "teamName": "Pumas"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1251269,
+                "name": "Piero Quispe"
+            },
+            {
+                "id": 51949,
+                "name": "Keylor Navas"
+            },
+            {
+                "id": 1169770,
+                "name": "Pablo Bennevendo"
+            },
+            {
+                "id": 358138,
+                "name": "Rub\u00e9n Duarte"
+            },
+            {
+                "id": 754495,
+                "name": "Nathan Silva"
+            },
+            {
+                "id": 1381368,
+                "name": "Rodrigo L\u00f3pez"
+            },
+            {
+                "id": 643682,
+                "name": "Adalberto Carrasquilla"
+            },
+            {
+                "id": 558539,
+                "name": "Guillermo Mart\u00ednez"
+            },
+            {
+                "id": 861901,
+                "name": "Jos\u00e9 Mac\u00edas"
+            },
+            {
+                "id": 748811,
+                "name": "Cristian Calder\u00f3n"
+            },
+            {
+                "id": 1440801,
+                "name": "Pablo Monroy"
+            },
+            {
+                "id": 533769,
+                "name": "Ul\u00edses Rivas"
+            },
+            {
+                "id": 915602,
+                "name": "Sebasti\u00e1n C\u00f3rdova"
+            },
+            {
+                "id": 1448133,
+                "name": "V\u00edctor Arteaga"
+            },
+            {
+                "id": 1125755,
+                "name": "Jes\u00fas Rivas"
+            },
+            {
+                "id": 1304418,
+                "name": "Santiago Trigos"
+            },
+            {
+                "id": 767021,
+                "name": "Uriel Antuna"
+            },
+            {
+                "id": 862174,
+                "name": "Alan Medina"
+            },
+            {
+                "id": 728409,
+                "name": "Juninho"
+            },
+            {
+                "id": 1166559,
+                "name": "Tony Leone"
+            },
+            {
+                "id": 1658881,
+                "name": "\u00c1ngel Rico"
+            },
+            {
+                "id": 1607678,
+                "name": "Santiago L\u00f3pez"
+            },
+            {
+                "id": 1211598,
+                "name": "Robert Morales"
+            },
+            {
+                "id": 1457903,
+                "name": "Miguel Paul"
+            },
+            {
+                "id": 1720655,
+                "name": "Angel Azuaje"
+            },
+            {
+                "id": 1608419,
+                "name": "Pablo Lara"
+            },
+            {
+                "id": 860780,
+                "name": "\u00c1lvaro Angulo"
+            },
+            {
+                "id": 1783533,
+                "name": "Dennis Ram\u00edrez"
+            },
+            {
+                "id": 1713660,
+                "name": "Kl\u00e9ber Carranza"
+            },
+            {
+                "id": 1813204,
+                "name": "Stanley Garc\u00eda"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 146801,
+                "name": "Hern\u00e1n Galindez"
+            },
+            {
+                "id": 825641,
+                "name": "F\u00e9lix Torres"
+            },
+            {
+                "id": 1137667,
+                "name": "Piero Hincapi\u00e9"
+            },
+            {
+                "id": 1354085,
+                "name": "Joel Ord\u00f3\u00f1ez"
+            },
+            {
+                "id": 950396,
+                "name": "Jordy Alc\u00edvar"
+            },
+            {
+                "id": 1137670,
+                "name": "Willian Pacho"
+            },
+            {
+                "id": 688278,
+                "name": "Pervis Estupin\u00e1n"
+            },
+            {
+                "id": 1353364,
+                "name": "Anthony Valencia"
+            },
+            {
+                "id": 845368,
+                "name": "John Yeboah"
+            },
+            {
+                "id": 1443464,
+                "name": "Kendry P\u00e1ez"
+            },
+            {
+                "id": 1421270,
+                "name": "Kevin Rodr\u00edguez"
+            },
+            {
+                "id": 978290,
+                "name": "Mois\u00e9s Ramirez"
+            },
+            {
+                "id": 195927,
+                "name": "Enner Valencia"
+            },
+            {
+                "id": 1274400,
+                "name": "Alan Minda"
+            },
+            {
+                "id": 766159,
+                "name": "Jordy Caicedo"
+            },
+            {
+                "id": 848593,
+                "name": "\u00c1ngelo Preciado"
+            },
+            {
+                "id": 1477417,
+                "name": "Denil Castillo"
+            },
+            {
+                "id": 980311,
+                "name": "Gonzalo Plata"
+            },
+            {
+                "id": 1287010,
+                "name": "Nilson Angulo"
+            },
+            {
+                "id": 832171,
+                "name": "Alan Franco"
+            },
+            {
+                "id": 1614051,
+                "name": "Gonzalo Valle"
+            },
+            {
+                "id": 1137668,
+                "name": "Mois\u00e9s Caicedo"
+            },
+            {
+                "id": 1418122,
+                "name": "Jeremy Ar\u00e9valo"
+            },
+            {
+                "id": 1032039,
+                "name": "Jackson Porozo"
+            },
+            {
+                "id": 1391753,
+                "name": "Yaimar Medina"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1819092,
+                "name": "Dom\u00e9nica Arboleda"
+            },
+            {
+                "id": 1798884,
+                "name": "Karen Litardo"
+            },
+            {
+                "id": 1798886,
+                "name": "Kathya Mendoza"
+            },
+            {
+                "id": 1798880,
+                "name": "Mayerli Rodr\u00edguez"
+            },
+            {
+                "id": 1465907,
+                "name": "Justine Cuadra"
+            },
+            {
+                "id": 1466025,
+                "name": "Stefany Cede\u00f1o"
+            },
+            {
+                "id": 1466023,
+                "name": "Emily Arias"
+            },
+            {
+                "id": 1466021,
+                "name": "Nayely Bola\u00f1os"
+            },
+            {
+                "id": 1466020,
+                "name": "Karen Flores"
+            },
+            {
+                "id": 1466019,
+                "name": "Andrea Mor\u00e1n"
+            },
+            {
+                "id": 1465904,
+                "name": "Nicole Charcopa"
+            },
+            {
+                "id": 1798883,
+                "name": "Fiorella Pico"
+            },
+            {
+                "id": 1466024,
+                "name": "Manoly Baquerizo"
+            },
+            {
+                "id": 646013,
+                "name": "Ligia Moreira"
+            },
+            {
+                "id": 1798891,
+                "name": "Mayl\u00edn Arreaga"
+            },
+            {
+                "id": 1798882,
+                "name": "Rosa Flores"
+            },
+            {
+                "id": 1691770,
+                "name": "Danna Pes\u00e1ntez"
+            },
+            {
+                "id": 1798890,
+                "name": "Milagro Barahona"
+            },
+            {
+                "id": 1798889,
+                "name": "Liceth Su\u00e1rez"
+            },
+            {
+                "id": 1798888,
+                "name": "Jessy Caicedo"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 1000014509,
+        "homeId": 6618,
+        "awayId": 1946,
+        "homeName": "Toluca",
+        "awayName": "Pumas",
+        "matchDate": "2026-07-22T03:05:00Z",
+        "statusId": 1,
+        "leagueId": 230,
+        "parentLeagueId": -1,
+        "leagueName": "Liga MX",
+        "status": {
+            "utcTime": "2026-07-22T03:05:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Estadio Nemesio D\u00edez",
+            "city": "Toluca de Lerdo",
+            "lat": 19.287296781,
+            "long": -99.666831493
+        },
+        "matchUrl": "/matches/pumas-vs-toluca/lu7z0#1000014509"
+    },
+    "dataProvider": "opta"
+}

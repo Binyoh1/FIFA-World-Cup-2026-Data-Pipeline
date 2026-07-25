@@ -1,0 +1,3684 @@
+{
+    "id": 1603755,
+    "name": "Gessime Yassine",
+    "birthDate": {
+        "utcTime": "2005-11-22T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 9848,
+        "teamName": "Strasbourg",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#294A92",
+            "colorAlternate": "#294A92",
+            "colorAway": "#CF1C2B",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.42,
+                    "ratio": 0.27692307692307694
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 18,
+                "position": "82",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 4,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.35384615384615387
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Left Midfielder",
+                "key": "leftmidfielder"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 172,
+                "key": null,
+                "fallback": "172 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 80,
+                "options": {},
+                "key": null,
+                "fallback": 80
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 20,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "20"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Morocco"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "MAR"
+            },
+            "countryCode": "MAR"
+        },
+        {
+            "value": {
+                "numberValue": 8432368,
+                "key": null,
+                "fallback": "\u20ac8.4m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 53,
+        "leagueName": "Ligue 1",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 1
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 6
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 12
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 509
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.79
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": null,
+    "recentMatches": [
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 4653851,
+            "matchDate": {
+                "utcTime": "2026-07-09T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-france/1e78fs#4653851",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 5810,
+            "opponentTeamName": "Canada",
+            "isHomeTeam": false,
+            "id": 4653843,
+            "matchDate": {
+                "utcTime": "2026-07-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/canada-vs-morocco/17e1pm#4653843",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 4653706,
+            "matchDate": {
+                "utcTime": "2026-06-30T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-netherlands/1e327v#4653706",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 41,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 5934,
+            "opponentTeamName": "Haiti",
+            "isHomeTeam": true,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 20,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": false,
+            "id": 4667766,
+            "matchDate": {
+                "utcTime": "2026-06-19T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-scotland/1sv292#4667766",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667764,
+            "matchDate": {
+                "utcTime": "2026-06-13T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-brazil/1qr4gd#4667764",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": true,
+            "id": 5333656,
+            "matchDate": {
+                "utcTime": "2026-06-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-norway/1st5xb#5333656",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 5809,
+            "opponentTeamName": "Madagascar",
+            "isHomeTeam": true,
+            "id": 5604660,
+            "matchDate": {
+                "utcTime": "2026-06-02T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/madagascar-vs-morocco/17dsea#5604660",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": true,
+            "id": 4830763,
+            "matchDate": {
+                "utcTime": "2026-05-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/monaco-vs-strasbourg/379ruz#4830763",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 4,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8521,
+            "opponentTeamName": "Brest",
+            "isHomeTeam": false,
+            "id": 4830711,
+            "matchDate": {
+                "utcTime": "2026-05-13T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brest-vs-strasbourg/2sgg7t#4830711",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8121,
+            "opponentTeamName": "Angers",
+            "isHomeTeam": false,
+            "id": 4830746,
+            "matchDate": {
+                "utcTime": "2026-05-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-strasbourg/2o4och#4830746",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8370,
+            "opponentTeamName": "Rayo Vallecano",
+            "isHomeTeam": true,
+            "id": 5206270,
+            "matchDate": {
+                "utcTime": "2026-05-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rayo-vallecano-vs-strasbourg/2qt8qn#5206270",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9941,
+            "opponentTeamName": "Toulouse",
+            "isHomeTeam": true,
+            "id": 4830745,
+            "matchDate": {
+                "utcTime": "2026-05-03T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-toulouse/38l5ao#4830745",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8370,
+            "opponentTeamName": "Rayo Vallecano",
+            "isHomeTeam": false,
+            "id": 5206268,
+            "matchDate": {
+                "utcTime": "2026-04-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/rayo-vallecano-vs-strasbourg/2qt8qn#5206268",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8689,
+            "opponentTeamName": "Lorient",
+            "isHomeTeam": false,
+            "id": 4830731,
+            "matchDate": {
+                "utcTime": "2026-04-26T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lorient-vs-strasbourg/2uawc5#4830731",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9831,
+            "opponentTeamName": "Nice",
+            "isHomeTeam": true,
+            "id": 5223979,
+            "matchDate": {
+                "utcTime": "2026-04-22T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nice-vs-strasbourg/37am88#5223979",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9851,
+            "opponentTeamName": "Rennes",
+            "isHomeTeam": true,
+            "id": 4830727,
+            "matchDate": {
+                "utcTime": "2026-04-19T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rennes/37j22x#4830727",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 57,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": true,
+            "id": 5206266,
+            "matchDate": {
+                "utcTime": "2026-04-16T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-mainz-05/385w26#5206266",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/4",
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 11,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9905,
+            "opponentTeamName": "Mainz 05",
+            "isHomeTeam": false,
+            "id": 5206262,
+            "matchDate": {
+                "utcTime": "2026-04-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-mainz-05/385w26#5206262",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9831,
+            "opponentTeamName": "Nice",
+            "isHomeTeam": true,
+            "id": 4830709,
+            "matchDate": {
+                "utcTime": "2026-04-04T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nice-vs-strasbourg/37am88#4830709",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 6724,
+            "opponentTeamName": "Paraguay",
+            "isHomeTeam": true,
+            "id": 5217276,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-paraguay/1e7igj#5217276",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6262,
+            "teamName": "Morocco",
+            "opponentTeamId": 6707,
+            "opponentTeamName": "Ecuador",
+            "isHomeTeam": true,
+            "id": 5217275,
+            "matchDate": {
+                "utcTime": "2026-03-27T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-vs-ecuador/1e2s7k#5217275",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9830,
+            "opponentTeamName": "Nantes",
+            "isHomeTeam": false,
+            "id": 4830696,
+            "matchDate": {
+                "utcTime": "2026-03-22T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nantes-vs-strasbourg/37a71l#4830696",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 10162,
+            "opponentTeamName": "Rijeka",
+            "isHomeTeam": true,
+            "id": 5206231,
+            "matchDate": {
+                "utcTime": "2026-03-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rijeka/3b7enz#5206231",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 6379,
+            "opponentTeamName": "Paris FC",
+            "isHomeTeam": true,
+            "id": 4830691,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-fc-vs-strasbourg/26e9n2#4830691",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 10162,
+            "opponentTeamName": "Rijeka",
+            "isHomeTeam": false,
+            "id": 5206223,
+            "matchDate": {
+                "utcTime": "2026-03-12T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-rijeka/3b7enz#5206223",
+            "leagueId": 10216,
+            "leagueName": "Conference League",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8583,
+            "opponentTeamName": "Auxerre",
+            "isHomeTeam": false,
+            "id": 4830674,
+            "matchDate": {
+                "utcTime": "2026-03-07T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/auxerre-vs-strasbourg/2t4whk#4830674",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9837,
+            "opponentTeamName": "Reims",
+            "isHomeTeam": true,
+            "id": 5172615,
+            "matchDate": {
+                "utcTime": "2026-03-03T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/reims-vs-strasbourg/37d5cn#5172615",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8588,
+            "opponentTeamName": "Lens",
+            "isHomeTeam": true,
+            "id": 4830673,
+            "matchDate": {
+                "utcTime": "2026-02-27T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lens-vs-strasbourg/2t6vlu#4830673",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9748,
+            "opponentTeamName": "Lyon",
+            "isHomeTeam": true,
+            "id": 4830663,
+            "matchDate": {
+                "utcTime": "2026-02-22T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lyon-vs-strasbourg/36bojq#4830663",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": false,
+            "id": 4830651,
+            "matchDate": {
+                "utcTime": "2026-02-14T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/marseille-vs-strasbourg/2t8gik#4830651",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9746,
+            "opponentTeamName": "Le Havre",
+            "isHomeTeam": false,
+            "id": 4830641,
+            "matchDate": {
+                "utcTime": "2026-02-08T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/le-havre-vs-strasbourg/36aub3#4830641",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": true,
+            "id": 5138488,
+            "matchDate": {
+                "utcTime": "2026-02-05T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/monaco-vs-strasbourg/379ruz#5138488",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": true,
+            "id": 4830636,
+            "matchDate": {
+                "utcTime": "2026-02-01T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-saint-germain-vs-strasbourg/37hda8#4830636",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": false,
+            "id": 4830623,
+            "matchDate": {
+                "utcTime": "2026-01-25T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lille-vs-strasbourg/2tr24c#4830623",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9848,
+            "teamName": "Strasbourg",
+            "opponentTeamId": 8550,
+            "opponentTeamName": "Metz",
+            "isHomeTeam": true,
+            "id": 4830618,
+            "matchDate": {
+                "utcTime": "2026-01-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/metz-vs-strasbourg/2srvl5#4830618",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 10249,
+            "opponentTeamName": "Montpellier",
+            "isHomeTeam": false,
+            "id": 4832025,
+            "matchDate": {
+                "utcTime": "2026-01-05T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/montpellier-vs-dunkerque/rb08ya#4832025",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 81,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": false,
+            "id": 5078994,
+            "matchDate": {
+                "utcTime": "2025-12-21T13:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/strasbourg-vs-dunkerque/qxba65#5078994",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/32",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 7853,
+            "opponentTeamName": "Laval",
+            "isHomeTeam": false,
+            "id": 4832014,
+            "matchDate": {
+                "utcTime": "2025-12-12T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/laval-vs-dunkerque/p2pwvb#4832014",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 4170,
+            "opponentTeamName": "Boulogne",
+            "isHomeTeam": true,
+            "id": 4916413,
+            "matchDate": {
+                "utcTime": "2025-11-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/boulogne-vs-dunkerque/lu14h6#4916413",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 9837,
+            "opponentTeamName": "Reims",
+            "isHomeTeam": false,
+            "id": 4831983,
+            "matchDate": {
+                "utcTime": "2025-11-01T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/reims-vs-dunkerque/qwxtvr#4831983",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 6390,
+            "opponentTeamName": "Red Star",
+            "isHomeTeam": true,
+            "id": 4831968,
+            "matchDate": {
+                "utcTime": "2025-10-28T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/red-star-vs-dunkerque/nre240#4831968",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 6355,
+            "opponentTeamName": "Pau",
+            "isHomeTeam": false,
+            "id": 4831963,
+            "matchDate": {
+                "utcTime": "2025-10-24T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pau-vs-dunkerque/nq9uwk#4831963",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 17,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5860,
+            "opponentTeamName": "Argentina U20",
+            "isHomeTeam": false,
+            "id": 4798345,
+            "matchDate": {
+                "utcTime": "2025-10-19T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-u20-vs-morocco-u20/15j8hh#4798345",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 6636,
+            "opponentTeamName": "France U20",
+            "isHomeTeam": true,
+            "id": 4798342,
+            "matchDate": {
+                "utcTime": "2025-10-15T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/morocco-u20-vs-france-u20/1b65ni#4798342",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 119,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5876,
+            "opponentTeamName": "USA U20",
+            "isHomeTeam": false,
+            "id": 4798340,
+            "matchDate": {
+                "utcTime": "2025-10-12T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-u20-vs-morocco-u20/15nael#4798340",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5879,
+            "opponentTeamName": "South Korea U20",
+            "isHomeTeam": true,
+            "id": 4798337,
+            "matchDate": {
+                "utcTime": "2025-10-09T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/south-korea-u20-vs-morocco-u20/15o1sc#4798337",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5880,
+            "opponentTeamName": "Mexico U20",
+            "isHomeTeam": false,
+            "id": 4798307,
+            "matchDate": {
+                "utcTime": "2025-10-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-u20-vs-morocco-u20/15oawz#4798307",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5864,
+            "opponentTeamName": "Brazil U20",
+            "isHomeTeam": false,
+            "id": 4798305,
+            "matchDate": {
+                "utcTime": "2025-10-01T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-u20-vs-morocco-u20/15k8y3#4798305",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5951,
+            "teamName": "Morocco U20",
+            "opponentTeamId": 5861,
+            "opponentTeamName": "Spain U20",
+            "isHomeTeam": true,
+            "id": 4798302,
+            "matchDate": {
+                "utcTime": "2025-09-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-u20-vs-morocco-u20/15jhll#4798302",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 87,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 9747,
+            "opponentTeamName": "Guingamp",
+            "isHomeTeam": false,
+            "id": 4831924,
+            "matchDate": {
+                "utcTime": "2025-09-23T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/guingamp-vs-dunkerque/qtvv10#4831924",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 8682,
+            "opponentTeamName": "Le Mans",
+            "isHomeTeam": true,
+            "id": 4831913,
+            "matchDate": {
+                "utcTime": "2025-09-19T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/le-mans-vs-dunkerque/pu3r5i#4831913",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 9855,
+            "opponentTeamName": "Grenoble",
+            "isHomeTeam": false,
+            "id": 4831907,
+            "matchDate": {
+                "utcTime": "2025-09-13T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/grenoble-vs-dunkerque/qxjuei#4831907",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 10242,
+            "opponentTeamName": "Troyes",
+            "isHomeTeam": true,
+            "id": 4831895,
+            "matchDate": {
+                "utcTime": "2025-08-29T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/troyes-vs-dunkerque/rarmli#4831895",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 8481,
+            "opponentTeamName": "Nancy",
+            "isHomeTeam": true,
+            "id": 4831888,
+            "matchDate": {
+                "utcTime": "2025-08-22T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nancy-vs-dunkerque/pnfdg9#4831888",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 293352,
+            "opponentTeamName": "Annecy FC",
+            "isHomeTeam": false,
+            "id": 4831876,
+            "matchDate": {
+                "utcTime": "2025-08-16T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dunkerque-vs-annecy-fc/qn3fci3#4831876",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 60,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 47214,
+            "teamName": "Dunkerque",
+            "opponentTeamId": 8311,
+            "opponentTeamName": "Clermont Foot",
+            "isHomeTeam": true,
+            "id": 4831869,
+            "matchDate": {
+                "utcTime": "2025-08-09T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/clermont-foot-vs-dunkerque/phsqqe#4831869",
+            "leagueId": 110,
+            "leagueName": "Ligue 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1603755,
+                        "teamId": 9848,
+                        "team": "Strasbourg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2026-01-17T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "19",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1603755,
+                        "teamId": 47214,
+                        "team": "Dunkerque",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-01-04T00:00:00",
+                        "endDate": "2026-01-17T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "72",
+                        "goals": "8",
+                        "assists": "7",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1603755,
+                        "teamId": 10178,
+                        "team": "Istres",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-05-27T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "19",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.89"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27212,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "6.79"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28916,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.29"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28191,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            }
+                        ],
+                        "teamId": 9848,
+                        "team": "Strasbourg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "15",
+                        "goals": "3",
+                        "assists": "6",
+                        "rating": {
+                            "rating": "7.35"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27215,
+                                "goals": "2",
+                                "assists": "6",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": "7.37"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28916,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.29"
+                                }
+                            }
+                        ],
+                        "teamId": 47214,
+                        "team": "Dunkerque",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "37",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.83"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23725,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "6.80"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.04"
+                                }
+                            }
+                        ],
+                        "teamId": 47214,
+                        "team": "Dunkerque",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "20",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.10"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20971,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": "7.14"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22192,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.50"
+                                }
+                            }
+                        ],
+                        "teamId": 47214,
+                        "team": "Dunkerque",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10178,
+                        "team": "Istres",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1603755,
+                        "teamId": 6262,
+                        "team": "Morocco",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2026-03-19T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1603755,
+                        "teamId": 5951,
+                        "team": "Morocco U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-09-02T00:00:00",
+                        "endDate": "2026-03-19T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "2",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.62"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.84"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.41"
+                                }
+                            }
+                        ],
+                        "teamId": 6262,
+                        "team": "Morocco",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "7",
+                        "goals": "2",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FIFA U20 World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "3",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5951,
+                        "team": "Morocco U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.27
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.08
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.92
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.35
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.43
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.71
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "gessime-yassine",
+        "pageurl": "/players/1603755/gessime-yassine",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Gessime Yassine?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine is 20 years old. Born on Tue Nov 22 2005."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Gessime Yassine?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine is 172 cm tall. Or 5 ft 8 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Gessime Yassine born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine was born Tue Nov 22 2005 and is now 20 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Gessime Yassine's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Gessime Yassine's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine's transfer value is estimated to be around \u20ac8.4m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Gessime Yassine from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine is from Morocco."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Gessime Yassine scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gessime Yassine has scored 0 goals in the Ligue 1."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Gessime Yassine",
+            "birthDate": "2005-11-22T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1603755/gessime-yassine",
+            "nationality": {
+                "@type": "Country",
+                "name": "Morocco"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Strasbourg"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "172"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ligue 1 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/53/overview/ligue-1-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Strasbourg",
+                    "item": "https://www.fotmob.com/teams/9848/overview/strasbourg"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Gessime Yassine",
+                    "item": "https://www.fotmob.com/leagues/1603755/overview/gessime-yassine"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup U20",
+                    "tournamentId": 296,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2946663741,
+                "playerName": "Gessime Yassine",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6262,
+                "playerId": 1603755,
+                "x": 58.7016666657,
+                "y": 17.2731210207,
+                "min": 90,
+                "minAdded": 5,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 33.31375,
+                "goalCrossedZ": 4.8280000072,
+                "expectedGoals": 0.0156032415106893,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.09626385751218,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.530240264329385
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6723,
+                "awayTeamId": 6262,
+                "homeTeamName": "France",
+                "awayTeamName": "Morocco",
+                "homeScore": 2,
+                "awayScore": 0,
+                "matchId": 4653851,
+                "matchDate": "2026-07-09T20:00:00Z",
+                "teamColor": "#E6251E",
+                "teamColorDark": "#E6251E"
+            },
+            {
+                "id": 2945380975,
+                "playerName": "Gessime Yassine",
+                "eventType": "Goal",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6262,
+                "playerId": 1603755,
+                "x": 98.8245614033,
+                "y": 31.1025,
+                "min": 89,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 33.16125,
+                "goalCrossedZ": 0.7319999964,
+                "expectedGoals": 0.903030395507812,
+                "expectedGoalsOnTarget": 0.993209898471832,
+                "onGoalShot": {
+                    "x": 1.22189153439154,
+                    "y": 0.193650792698413,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6262,
+                "awayTeamId": 5934,
+                "homeTeamName": "Morocco",
+                "awayTeamName": "Haiti",
+                "homeScore": 4,
+                "awayScore": 2,
+                "matchId": 4667769,
+                "matchDate": "2026-06-24T22:00:00Z",
+                "teamColor": "#E6251E",
+                "teamColorDark": "#E6251E"
+            }
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 1.168831168831169,
+                    "percentileRank": 82.86814244465832,
+                    "percentileRankPer90": 97.78633301251203,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.84,
+                    "percentileRank": 64.58132820019249,
+                    "percentileRankPer90": 64.58132820019249,
+                    "statFormat": "fraction",
+                    "statValue": "6.84",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 35.99615014436959,
+                    "percentileRankPer90": 35.99615014436959,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 26.756496631376326,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "77",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 79.33,
+                    "y": 64
+                },
+                {
+                    "x": 67.28,
+                    "y": 58.49
+                },
+                {
+                    "x": 77.42,
+                    "y": 61.9
+                },
+                {
+                    "x": 65.25,
+                    "y": 64
+                },
+                {
+                    "x": 75.05,
+                    "y": 63.01
+                },
+                {
+                    "x": 77.19,
+                    "y": 62.56
+                },
+                {
+                    "x": 29.16,
+                    "y": 25.42
+                },
+                {
+                    "x": 25.89,
+                    "y": 37.67
+                },
+                {
+                    "x": 65.59,
+                    "y": 58.82
+                },
+                {
+                    "x": 76.52,
+                    "y": 60.72
+                },
+                {
+                    "x": 72.91,
+                    "y": 43.23
+                },
+                {
+                    "x": 79.56,
+                    "y": 61.83
+                },
+                {
+                    "x": 41.44,
+                    "y": 66.29
+                },
+                {
+                    "x": 27.36,
+                    "y": 34.84
+                },
+                {
+                    "x": 32.09,
+                    "y": 30.42
+                },
+                {
+                    "x": 37.83,
+                    "y": 26.77
+                },
+                {
+                    "x": 72.35,
+                    "y": 63.93
+                },
+                {
+                    "x": 71.22,
+                    "y": 49.96
+                },
+                {
+                    "x": 71.11,
+                    "y": 59.54
+                },
+                {
+                    "x": 75.95,
+                    "y": 64.26
+                },
+                {
+                    "x": 64.02,
+                    "y": 57.37
+                },
+                {
+                    "x": 69.2,
+                    "y": 60.46
+                },
+                {
+                    "x": 68.86,
+                    "y": 62.75
+                },
+                {
+                    "x": 68.07,
+                    "y": 63.21
+                },
+                {
+                    "x": 36.14,
+                    "y": 63.21
+                },
+                {
+                    "x": 36.03,
+                    "y": 63.34
+                },
+                {
+                    "x": 37.72,
+                    "y": 60.78
+                },
+                {
+                    "x": 38.85,
+                    "y": 64.06
+                },
+                {
+                    "x": 29.16,
+                    "y": 40.55
+                },
+                {
+                    "x": 72.01,
+                    "y": 64.79
+                },
+                {
+                    "x": 67.17,
+                    "y": 59.41
+                },
+                {
+                    "x": 70.66,
+                    "y": 48.41
+                },
+                {
+                    "x": 74.49,
+                    "y": 63.8
+                },
+                {
+                    "x": 71.67,
+                    "y": 64.92
+                },
+                {
+                    "x": 35.8,
+                    "y": 39.38
+                },
+                {
+                    "x": 69.2,
+                    "y": 38.12
+                },
+                {
+                    "x": 71.67,
+                    "y": 41.77
+                },
+                {
+                    "x": 47.82,
+                    "y": 64.39
+                },
+                {
+                    "x": 64.35,
+                    "y": 63.01
+                },
+                {
+                    "x": 29.27,
+                    "y": 51.22
+                },
+                {
+                    "x": 34.57,
+                    "y": 46.38
+                },
+                {
+                    "x": 35.69,
+                    "y": 48.77
+                },
+                {
+                    "x": 64.35,
+                    "y": 61.57
+                },
+                {
+                    "x": 30.74,
+                    "y": 9.71
+                },
+                {
+                    "x": 84.4,
+                    "y": 58.03
+                },
+                {
+                    "x": 76.97,
+                    "y": 50.73
+                },
+                {
+                    "x": 56.06,
+                    "y": 54.02
+                },
+                {
+                    "x": 68.75,
+                    "y": 63.15
+                },
+                {
+                    "x": 87.21,
+                    "y": 25.53
+                },
+                {
+                    "x": 101.59,
+                    "y": 49.82
+                },
+                {
+                    "x": 46.81,
+                    "y": 47.29
+                },
+                {
+                    "x": 58.7,
+                    "y": 50.73
+                },
+                {
+                    "x": 39.75,
+                    "y": 50.24
+                },
+                {
+                    "x": 97.96,
+                    "y": 51.36
+                },
+                {
+                    "x": 63.11,
+                    "y": 51.78
+                },
+                {
+                    "x": 66.38,
+                    "y": 46.59
+                },
+                {
+                    "x": 66.15,
+                    "y": 64.72
+                },
+                {
+                    "x": 67.39,
+                    "y": 54.29
+                },
+                {
+                    "x": 91.1,
+                    "y": 52.97
+                },
+                {
+                    "x": 73.7,
+                    "y": 56.85
+                },
+                {
+                    "x": 46.71,
+                    "y": 61.83
+                },
+                {
+                    "x": 45.79,
+                    "y": 52.97
+                },
+                {
+                    "x": 61.76,
+                    "y": 48.77
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 98.82,
+                    "y": 36.9
+                },
+                {
+                    "x": 42.11,
+                    "y": 58.1
+                },
+                {
+                    "x": 48.43,
+                    "y": 59.6
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1700221,
+                "currency": "EUR",
+                "lowerBound": 1360177,
+                "upperBound": 2040265,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 1801786,
+                "currency": "EUR",
+                "lowerBound": 1441428,
+                "upperBound": 2162143,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 1845930,
+                "currency": "EUR",
+                "lowerBound": 1476744,
+                "upperBound": 2215116,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 2073782,
+                "currency": "EUR",
+                "lowerBound": 1659025,
+                "upperBound": 2488538,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 2242937,
+                "currency": "EUR",
+                "lowerBound": 1794349,
+                "upperBound": 2691524,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 2145389,
+                "currency": "EUR",
+                "lowerBound": 1716311,
+                "upperBound": 2574467,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 2095646,
+                "currency": "EUR",
+                "lowerBound": 1676517,
+                "upperBound": 2514775,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 1929738,
+                "currency": "EUR",
+                "lowerBound": 1543790,
+                "upperBound": 2315685,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 1965334,
+                "currency": "EUR",
+                "lowerBound": 1572267,
+                "upperBound": 2358401,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 1965334,
+                "currency": "EUR",
+                "lowerBound": 1572267,
+                "upperBound": 2358401,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 1957868,
+                "currency": "EUR",
+                "lowerBound": 1566294,
+                "upperBound": 2349442,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 1957868,
+                "currency": "EUR",
+                "lowerBound": 1566294,
+                "upperBound": 2349442,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 2147258,
+                "currency": "EUR",
+                "lowerBound": 1717806,
+                "upperBound": 2576709,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 2149813,
+                "currency": "EUR",
+                "lowerBound": 1719850,
+                "upperBound": 2579776,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 2332035,
+                "currency": "EUR",
+                "lowerBound": 1865628,
+                "upperBound": 2798442,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 2332035,
+                "currency": "EUR",
+                "lowerBound": 1865628,
+                "upperBound": 2798442,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 2302113,
+                "currency": "EUR",
+                "lowerBound": 1841690,
+                "upperBound": 2762536,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 2561255,
+                "currency": "EUR",
+                "lowerBound": 2049004,
+                "upperBound": 3073506,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 2461351,
+                "currency": "EUR",
+                "lowerBound": 1969081,
+                "upperBound": 2953621,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 2452854,
+                "currency": "EUR",
+                "lowerBound": 1962283,
+                "upperBound": 2943425,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 2460037,
+                "currency": "EUR",
+                "lowerBound": 1968029,
+                "upperBound": 2952044,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 5123560,
+                "currency": "EUR",
+                "lowerBound": 4355026,
+                "upperBound": 5892094,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 6073772,
+                "currency": "EUR",
+                "lowerBound": 5162706,
+                "upperBound": 6984838,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 6040140,
+                "currency": "EUR",
+                "lowerBound": 5134119,
+                "upperBound": 6946161,
+                "source": "scisports",
+                "teamId": 47214,
+                "teamName": "Dunkerque"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 5969513,
+                "currency": "EUR",
+                "lowerBound": 5074086,
+                "upperBound": 6864940,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 5778919,
+                "currency": "EUR",
+                "lowerBound": 4912081,
+                "upperBound": 6645757,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 5544419,
+                "currency": "EUR",
+                "lowerBound": 4712756,
+                "upperBound": 6376082,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 6376082,
+                "currency": "EUR",
+                "lowerBound": 5419669,
+                "upperBound": 7332494,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 7332494,
+                "currency": "EUR",
+                "lowerBound": 6232619,
+                "upperBound": 8432368,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 8432368,
+                "currency": "EUR",
+                "lowerBound": 7167512,
+                "upperBound": 9697223,
+                "source": "scisports",
+                "teamId": 9848,
+                "teamName": "Strasbourg"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1359613,
+                "name": "Abakar Sylla"
+            },
+            {
+                "id": 1611469,
+                "name": "Benjamin Brantlind"
+            },
+            {
+                "id": 1701117,
+                "name": "Diogo Sousa"
+            },
+            {
+                "id": 1873054,
+                "name": "Jean-Baptiste Bosey"
+            },
+            {
+                "id": 1336846,
+                "name": "Mateo Del Blanco"
+            },
+            {
+                "id": 1370590,
+                "name": "Milos Lukovic"
+            },
+            {
+                "id": 1283393,
+                "name": "Milosz Piekutowski"
+            },
+            {
+                "id": 1433034,
+                "name": "\u00d3scar Perea"
+            },
+            {
+                "id": 1417802,
+                "name": "Pape Demba Diop"
+            },
+            {
+                "id": 1536974,
+                "name": "Pape Diong"
+            },
+            {
+                "id": 1609064,
+                "name": "Rabby Nzingoula"
+            },
+            {
+                "id": 1635507,
+                "name": "Rayane Messi"
+            },
+            {
+                "id": 1180730,
+                "name": "Sa\u00efdou Sow"
+            },
+            {
+                "id": 1177312,
+                "name": "S\u00e9kou Mara"
+            },
+            {
+                "id": 1975804,
+                "name": "Yaya Dieme"
+            },
+            {
+                "id": 1515498,
+                "name": "Yoni Gomis"
+            },
+            {
+                "id": 150021,
+                "name": "Karl-Johan Johnsson"
+            },
+            {
+                "id": 1050822,
+                "name": "Andrew Omobamidele"
+            },
+            {
+                "id": 672469,
+                "name": "Ben Chilwell"
+            },
+            {
+                "id": 1178332,
+                "name": "Isma\u00ebl Doukour\u00e9"
+            },
+            {
+                "id": 1342754,
+                "name": "Diego Moreira"
+            },
+            {
+                "id": 1355526,
+                "name": "Maxi Oyedele"
+            },
+            {
+                "id": 1408580,
+                "name": "Joaqu\u00edn Panichelli"
+            },
+            {
+                "id": 1156569,
+                "name": "Sebastian Nanasi"
+            },
+            {
+                "id": 1581053,
+                "name": "Mathis Amougou"
+            },
+            {
+                "id": 1362622,
+                "name": "Junior Mwanga"
+            },
+            {
+                "id": 1073742,
+                "name": "Julio Enciso"
+            },
+            {
+                "id": 1302715,
+                "name": "Martial Godo"
+            },
+            {
+                "id": 1395704,
+                "name": "Gu\u00e9la Dou\u00e9"
+            },
+            {
+                "id": 1436942,
+                "name": "Lucas H\u00f8gsberg"
+            },
+            {
+                "id": 1418073,
+                "name": "Samuel Amo-Ameyaw"
+            },
+            {
+                "id": 1900030,
+                "name": "Tyrese Noubissie"
+            },
+            {
+                "id": 1598170,
+                "name": "Samir El Mourabet"
+            },
+            {
+                "id": 1272440,
+                "name": "Valent\u00edn Barco"
+            },
+            {
+                "id": 1343053,
+                "name": "Abdoul Ouattara"
+            },
+            {
+                "id": 1901862,
+                "name": "Yoann Becker"
+            },
+            {
+                "id": 1926771,
+                "name": "Max Marechal"
+            },
+            {
+                "id": 1078908,
+                "name": "Stefan Bajic"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 340020,
+                "name": "Yassine Bounou"
+            },
+            {
+                "id": 770881,
+                "name": "Achraf Hakimi"
+            },
+            {
+                "id": 775539,
+                "name": "Noussair Mazraoui"
+            },
+            {
+                "id": 593116,
+                "name": "Sofyan Amrabat"
+            },
+            {
+                "id": 614912,
+                "name": "Marwane Saadane"
+            },
+            {
+                "id": 1561552,
+                "name": "Ayyoub Bouaddi"
+            },
+            {
+                "id": 1073143,
+                "name": "Azzedine Ounahi"
+            },
+            {
+                "id": 988749,
+                "name": "Soufiane Rahimi"
+            },
+            {
+                "id": 750027,
+                "name": "Brahim D\u00edaz"
+            },
+            {
+                "id": 1180288,
+                "name": "Ismael Saibari"
+            },
+            {
+                "id": 573787,
+                "name": "Munir El Kajoui"
+            },
+            {
+                "id": 1287871,
+                "name": "Zakaria El Ouahdi"
+            },
+            {
+                "id": 696443,
+                "name": "Issa Diop"
+            },
+            {
+                "id": 1598170,
+                "name": "Samir El Mourabet"
+            },
+            {
+                "id": 1242587,
+                "name": "Amine Sba\u00ef"
+            },
+            {
+                "id": 1187506,
+                "name": "Chadi Riad"
+            },
+            {
+                "id": 884382,
+                "name": "Ayoub El Kaabi"
+            },
+            {
+                "id": 1680173,
+                "name": "Ayoube Amaimouni-Echghouyab"
+            },
+            {
+                "id": 1368654,
+                "name": "Chemsdine Talbi"
+            },
+            {
+                "id": 885288,
+                "name": "Ahmed Reda Tagnaouti"
+            },
+            {
+                "id": 1340895,
+                "name": "Bilal El Khannouss"
+            },
+            {
+                "id": 1274060,
+                "name": "Neil El Aynaoui"
+            },
+            {
+                "id": 1298186,
+                "name": "Redouane Halhal"
+            },
+            {
+                "id": 1050838,
+                "name": "Anass Salah-Eddine"
+            },
+            {
+                "id": 909908,
+                "name": "Youssef Belammari"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1544546,
+                "name": "Hajar Sa\u00efd"
+            },
+            {
+                "id": 1544682,
+                "name": "Jade Nassi"
+            },
+            {
+                "id": 2032570,
+                "name": "Kautar Azraf"
+            },
+            {
+                "id": 1640476,
+                "name": "Maryame Atiq"
+            },
+            {
+                "id": 1908616,
+                "name": "Najat Belhabib"
+            },
+            {
+                "id": 1846771,
+                "name": "Zineb Erroudany"
+            },
+            {
+                "id": 1464882,
+                "name": "Khadija Er-Rmichi"
+            },
+            {
+                "id": 1464883,
+                "name": "Zineb Redouani"
+            },
+            {
+                "id": 1510845,
+                "name": "Nouhaila Benzina"
+            },
+            {
+                "id": 1464918,
+                "name": "Siham Boukhami"
+            },
+            {
+                "id": 1346645,
+                "name": "Nesryne El Chad"
+            },
+            {
+                "id": 1301788,
+                "name": "\u00c9lodie Nakkach"
+            },
+            {
+                "id": 1464921,
+                "name": "Ghizlane Chebbak"
+            },
+            {
+                "id": 1209451,
+                "name": "Kenza Chapelle"
+            },
+            {
+                "id": 888652,
+                "name": "Salma Amani"
+            },
+            {
+                "id": 1464922,
+                "name": "Ibtissam Jra\u00efdi"
+            },
+            {
+                "id": 1464930,
+                "name": "Najat Badri"
+            },
+            {
+                "id": 1464931,
+                "name": "Fatima Tagnaout"
+            },
+            {
+                "id": 1464934,
+                "name": "Aziza Rabbah"
+            },
+            {
+                "id": 1798356,
+                "name": "Soumia Hady"
+            },
+            {
+                "id": 1417071,
+                "name": "Samya Hassani"
+            },
+            {
+                "id": 1464952,
+                "name": "Hanane A\u00eft El Haj"
+            },
+            {
+                "id": 1464953,
+                "name": "Sana\u00e2 Mssoudy"
+            },
+            {
+                "id": 1077625,
+                "name": "Sakina Ouzraoui Diki"
+            },
+            {
+                "id": 1464955,
+                "name": "Imane Saoud"
+            },
+            {
+                "id": 1048029,
+                "name": "Yasmin Mrabet"
+            },
+            {
+                "id": 1510849,
+                "name": "In\u00e8s Arouaissa"
+            },
+            {
+                "id": 1464961,
+                "name": "Hind El Hasnaoui"
+            },
+            {
+                "id": 1464963,
+                "name": "Chaymaa Mourtaji"
+            },
+            {
+                "id": 1640479,
+                "name": "Rania Boutiebi"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5900292,
+        "homeId": 9768,
+        "awayId": 9848,
+        "homeName": "Sporting CP",
+        "awayName": "Strasbourg",
+        "matchDate": "2026-07-20T19:15:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-20T19:15:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Est\u00e1dio do Algarve",
+            "city": "Almancil",
+            "lat": 37.088262822,
+            "long": -7.974722385
+        },
+        "matchUrl": "/matches/sporting-cp-vs-strasbourg/36k348#5900292"
+    },
+    "dataProvider": "enet"
+}

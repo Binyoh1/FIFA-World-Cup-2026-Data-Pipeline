@@ -1,0 +1,5329 @@
+{
+    "id": 1215064,
+    "name": "Martin Baturina",
+    "birthDate": {
+        "utcTime": "2003-02-16T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 10171,
+        "teamName": "Como",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#005ea9",
+            "colorAlternate": "#005ea9",
+            "colorAway": "#101010",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 2,
+                "position": "64",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58,
+                    "ratio": 0.26666666666666666
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 1,
+                "position": "77",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 1,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 9,
+                "position": "85",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.5
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 15,
+                "position": "87",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "115",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Left Winger",
+            "key": "leftwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Defensive Midfielder",
+                "key": "centerdefensivemidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 172,
+                "key": null,
+                "fallback": "172 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 20,
+                "options": {},
+                "key": null,
+                "fallback": 20
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "23"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Croatia"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CRO"
+            },
+            "countryCode": "CRO"
+        },
+        {
+            "value": {
+                "numberValue": 21623619,
+                "key": null,
+                "fallback": "\u20ac21.6m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 55,
+        "leagueName": "Serie A",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 6
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 17
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 29
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1569
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.24
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "CRO",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb",
+                "tournaments": [
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 252,
+                        "leagueName": "HNL",
+                        "seasonsWon": [
+                            "2023/2024",
+                            "2022/2023",
+                            "2021/2022",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025"
+                        ]
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 275,
+                        "leagueName": "Croatian Cup",
+                        "seasonsWon": [
+                            "2023/2024",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "CRO",
+                        "leagueId": 276,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2023/2024",
+                            "2022/2023"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8361,
+            "opponentTeamName": "Portugal",
+            "isHomeTeam": false,
+            "id": 4653707,
+            "matchDate": {
+                "utcTime": "2026-07-02T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-croatia/2u2izf#4653707",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 6714,
+            "opponentTeamName": "Ghana",
+            "isHomeTeam": true,
+            "id": 4667830,
+            "matchDate": {
+                "utcTime": "2026-06-27T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ghana-vs-croatia/2cpwux#4667830",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5922,
+            "opponentTeamName": "Panama",
+            "isHomeTeam": false,
+            "id": 4667827,
+            "matchDate": {
+                "utcTime": "2026-06-23T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/panama-vs-croatia/24y93x#4667827",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 4667825,
+            "matchDate": {
+                "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/england-vs-croatia/2viayw#4667825",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 78,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": true,
+            "id": 5159769,
+            "matchDate": {
+                "utcTime": "2026-06-07T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-croatia/23nxao#5159769",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": true,
+            "id": 5147839,
+            "matchDate": {
+                "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 7801,
+            "opponentTeamName": "Cremonese",
+            "isHomeTeam": false,
+            "id": 4803409,
+            "matchDate": {
+                "utcTime": "2026-05-24T18:50:00.000Z"
+            },
+            "matchPageUrl": "/matches/cremonese-vs-como/2o5sd7#4803409",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 10167,
+            "opponentTeamName": "Parma",
+            "isHomeTeam": true,
+            "id": 4803400,
+            "matchDate": {
+                "utcTime": "2026-05-17T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/parma-vs-como/3f58t2#4803400",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9876,
+            "opponentTeamName": "Hellas Verona",
+            "isHomeTeam": false,
+            "id": 4803388,
+            "matchDate": {
+                "utcTime": "2026-05-10T10:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hellas-verona-vs-como/3bnai4#4803388",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": true,
+            "id": 4803380,
+            "matchDate": {
+                "utcTime": "2026-05-02T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/napoli-vs-como/3bmv18#4803380",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 10233,
+            "opponentTeamName": "Genoa",
+            "isHomeTeam": false,
+            "id": 4803371,
+            "matchDate": {
+                "utcTime": "2026-04-26T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/como-vs-genoa/3fy2aj#4803371",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8636,
+            "opponentTeamName": "Inter",
+            "isHomeTeam": false,
+            "id": 4935323,
+            "matchDate": {
+                "utcTime": "2026-04-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/inter-vs-como/2xaxi8#4935323",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/2",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 80,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 7943,
+            "opponentTeamName": "Sassuolo",
+            "isHomeTeam": false,
+            "id": 4803364,
+            "matchDate": {
+                "utcTime": "2026-04-17T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sassuolo-vs-como/2popgq#4803364",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8636,
+            "opponentTeamName": "Inter",
+            "isHomeTeam": true,
+            "id": 4803351,
+            "matchDate": {
+                "utcTime": "2026-04-12T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/inter-vs-como/2xaxi8#4803351",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8600,
+            "opponentTeamName": "Udinese",
+            "isHomeTeam": false,
+            "id": 4803346,
+            "matchDate": {
+                "utcTime": "2026-04-06T10:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/udinese-vs-como/2wwfjq#4803346",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 5110104,
+            "matchDate": {
+                "utcTime": "2026-04-01T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-vs-croatia/2swyz6#5110104",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8258,
+            "opponentTeamName": "Colombia",
+            "isHomeTeam": false,
+            "id": 5147840,
+            "matchDate": {
+                "utcTime": "2026-03-26T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/colombia-vs-croatia/2sxre5#5147840",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 6479,
+            "opponentTeamName": "Pisa",
+            "isHomeTeam": true,
+            "id": 4803331,
+            "matchDate": {
+                "utcTime": "2026-03-22T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/pisa-vs-como/2aj8jq#4803331",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 53,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8686,
+            "opponentTeamName": "Roma",
+            "isHomeTeam": true,
+            "id": 4803318,
+            "matchDate": {
+                "utcTime": "2026-03-15T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/roma-vs-como/2xv43v#4803318",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8529,
+            "opponentTeamName": "Cagliari",
+            "isHomeTeam": false,
+            "id": 4803310,
+            "matchDate": {
+                "utcTime": "2026-03-07T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cagliari-vs-como/2w3x27#4803310",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 81,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8636,
+            "opponentTeamName": "Inter",
+            "isHomeTeam": true,
+            "id": 4935321,
+            "matchDate": {
+                "utcTime": "2026-03-03T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/inter-vs-como/2xaxi8#4935321",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9885,
+            "opponentTeamName": "Juventus",
+            "isHomeTeam": false,
+            "id": 4803293,
+            "matchDate": {
+                "utcTime": "2026-02-21T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/juventus-vs-como/3br5rd#4803293",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8564,
+            "opponentTeamName": "Milan",
+            "isHomeTeam": false,
+            "id": 4803277,
+            "matchDate": {
+                "utcTime": "2026-02-18T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/milan-vs-como/2whyl8#4803277",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": true,
+            "id": 4803279,
+            "matchDate": {
+                "utcTime": "2026-02-14T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-como/2w6bnm#4803279",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": false,
+            "id": 4935228,
+            "matchDate": {
+                "utcTime": "2026-02-10T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/napoli-vs-como/3bmv18#4935228",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": true,
+            "id": 4803260,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-como/2w1wx4#4803260",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": false,
+            "id": 4935214,
+            "matchDate": {
+                "utcTime": "2026-01-27T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-como/2w6bnm#4935214",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9804,
+            "opponentTeamName": "Torino",
+            "isHomeTeam": true,
+            "id": 4803249,
+            "matchDate": {
+                "utcTime": "2026-01-24T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/torino-vs-como/3asep4#4803249",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 68,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8543,
+            "opponentTeamName": "Lazio",
+            "isHomeTeam": false,
+            "id": 4803239,
+            "matchDate": {
+                "utcTime": "2026-01-19T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/lazio-vs-como/2w9j5q#4803239",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 74,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8564,
+            "opponentTeamName": "Milan",
+            "isHomeTeam": true,
+            "id": 4803189,
+            "matchDate": {
+                "utcTime": "2026-01-15T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/milan-vs-como/2whyl8#4803189",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9857,
+            "opponentTeamName": "Bologna",
+            "isHomeTeam": true,
+            "id": 4803229,
+            "matchDate": {
+                "utcTime": "2026-01-10T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bologna-vs-como/3bf4pz#4803229",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 6,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 6479,
+            "opponentTeamName": "Pisa",
+            "isHomeTeam": false,
+            "id": 4803225,
+            "matchDate": {
+                "utcTime": "2026-01-06T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pisa-vs-como/2aj8jq#4803225",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8600,
+            "opponentTeamName": "Udinese",
+            "isHomeTeam": true,
+            "id": 4803210,
+            "matchDate": {
+                "utcTime": "2026-01-03T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/udinese-vs-como/2wwfjq#4803210",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9888,
+            "opponentTeamName": "Lecce",
+            "isHomeTeam": false,
+            "id": 4803200,
+            "matchDate": {
+                "utcTime": "2025-12-27T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/lecce-vs-como/3bsg6y#4803200",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 6,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8686,
+            "opponentTeamName": "Roma",
+            "isHomeTeam": false,
+            "id": 4803185,
+            "matchDate": {
+                "utcTime": "2025-12-15T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/roma-vs-como/2xv43v#4803185",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8636,
+            "opponentTeamName": "Inter",
+            "isHomeTeam": false,
+            "id": 4803170,
+            "matchDate": {
+                "utcTime": "2025-12-06T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/inter-vs-como/2xaxi8#4803170",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 7943,
+            "opponentTeamName": "Sassuolo",
+            "isHomeTeam": true,
+            "id": 4803160,
+            "matchDate": {
+                "utcTime": "2025-11-28T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sassuolo-vs-como/2popgq#4803160",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9804,
+            "opponentTeamName": "Torino",
+            "isHomeTeam": false,
+            "id": 4803156,
+            "matchDate": {
+                "utcTime": "2025-11-24T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/torino-vs-como/3asep4#4803156",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 5,
+            "minutesPlayed": 7,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8529,
+            "opponentTeamName": "Cagliari",
+            "isHomeTeam": true,
+            "id": 4803140,
+            "matchDate": {
+                "utcTime": "2025-11-08T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cagliari-vs-como/2w3x27#4803140",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": false,
+            "id": 4803132,
+            "matchDate": {
+                "utcTime": "2025-11-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/napoli-vs-como/3bmv18#4803132",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9876,
+            "opponentTeamName": "Hellas Verona",
+            "isHomeTeam": true,
+            "id": 4803121,
+            "matchDate": {
+                "utcTime": "2025-10-29T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hellas-verona-vs-como/3bnai4#4803121",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 10167,
+            "opponentTeamName": "Parma",
+            "isHomeTeam": false,
+            "id": 4803115,
+            "matchDate": {
+                "utcTime": "2025-10-25T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/parma-vs-como/3f58t2#4803115",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9885,
+            "opponentTeamName": "Juventus",
+            "isHomeTeam": true,
+            "id": 4803100,
+            "matchDate": {
+                "utcTime": "2025-10-19T10:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/juventus-vs-como/3br5rd#4803100",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 507764,
+            "opponentTeamName": "Gibraltar",
+            "isHomeTeam": true,
+            "id": 4689378,
+            "matchDate": {
+                "utcTime": "2025-10-12T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-gibraltar/1pm42gv8#4689378",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8496,
+            "opponentTeamName": "Czechia",
+            "isHomeTeam": false,
+            "id": 4689375,
+            "matchDate": {
+                "utcTime": "2025-10-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-croatia/2vkax6#4689375",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8524,
+            "opponentTeamName": "Atalanta",
+            "isHomeTeam": false,
+            "id": 4803088,
+            "matchDate": {
+                "utcTime": "2025-10-04T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/atalanta-vs-como/2w1wx4#4803088",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 7801,
+            "opponentTeamName": "Cremonese",
+            "isHomeTeam": true,
+            "id": 4803079,
+            "matchDate": {
+                "utcTime": "2025-09-27T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cremonese-vs-como/2o5sd7#4803079",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 7943,
+            "opponentTeamName": "Sassuolo",
+            "isHomeTeam": true,
+            "id": 4932347,
+            "matchDate": {
+                "utcTime": "2025-09-24T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sassuolo-vs-como/2popgq#4932347",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": false,
+            "id": 4803073,
+            "matchDate": {
+                "utcTime": "2025-09-21T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-como/2w6bnm#4803073",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 10233,
+            "opponentTeamName": "Genoa",
+            "isHomeTeam": true,
+            "id": 4803059,
+            "matchDate": {
+                "utcTime": "2025-09-15T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/como-vs-genoa/3fy2aj#4803059",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": true,
+            "id": 4689374,
+            "matchDate": {
+                "utcTime": "2025-09-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/croatia-vs-montenegro/td71cx#4689374",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10155,
+            "teamName": "Croatia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": false,
+            "id": 4689371,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-croatia/2t23qh#4689371",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 9857,
+            "opponentTeamName": "Bologna",
+            "isHomeTeam": false,
+            "id": 4803047,
+            "matchDate": {
+                "utcTime": "2025-08-30T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bologna-vs-como/3bf4pz#4803047",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8543,
+            "opponentTeamName": "Lazio",
+            "isHomeTeam": true,
+            "id": 4803039,
+            "matchDate": {
+                "utcTime": "2025-08-24T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/lazio-vs-como/2w9j5q#4803039",
+            "leagueId": 55,
+            "leagueName": "Serie A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 189475,
+            "opponentTeamName": "S\u00fcdtirol",
+            "isHomeTeam": true,
+            "id": 4822790,
+            "matchDate": {
+                "utcTime": "2025-08-16T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/como-vs-sudtirol/95ljgpg#4822790",
+            "leagueId": 141,
+            "leagueName": "Coppa Italia",
+            "stage": "1/32",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8634,
+            "opponentTeamName": "Barcelona",
+            "isHomeTeam": false,
+            "id": 4885967,
+            "matchDate": {
+                "utcTime": "2025-08-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/barcelona-vs-como/2xa4hd#4885967",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10171,
+            "teamName": "Como",
+            "opponentTeamId": 8593,
+            "opponentTeamName": "Ajax",
+            "isHomeTeam": true,
+            "id": 4892785,
+            "matchDate": {
+                "utcTime": "2025-07-27T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ajax-vs-como/2wtm67#4892785",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 65,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1215064,
+                        "teamId": 10171,
+                        "team": "Como",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "34",
+                        "goals": "8",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1215064,
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-12-10T00:00:00",
+                        "endDate": "2025-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "165",
+                        "goals": "22",
+                        "assists": "34",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1215064,
+                        "teamId": 582156,
+                        "team": "Dinamo Zagreb II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-02-12T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "15",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "34",
+                        "goals": "8",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 55,
+                                "leagueName": "Serie A",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27044,
+                                "goals": "6",
+                                "assists": "3",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "7.24"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 141,
+                                "leagueName": "Coppa Italia",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27177,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.97"
+                                }
+                            }
+                        ],
+                        "teamId": 10171,
+                        "team": "Como",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "45",
+                        "goals": "6",
+                        "assists": "13",
+                        "rating": {
+                            "rating": "7.40"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23618,
+                                "goals": "4",
+                                "assists": "11",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.45"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "51",
+                        "goals": "8",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20941,
+                                "goals": "5",
+                                "assists": "5",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 276,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20961,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21016,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.97"
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "49",
+                        "goals": "6",
+                        "assists": "12",
+                        "rating": {
+                            "rating": "7.20"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17759,
+                                "goals": "6",
+                                "assists": "12",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.48"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 276,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 21122,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.40"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17697,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "6.26"
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "18",
+                        "goals": "2",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.11"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16422,
+                                "goals": "2",
+                                "assists": "4",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 275,
+                                "leagueName": "Croatian Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16407,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16640,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.92"
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 252,
+                                "leagueName": "HNL",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15424,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10156,
+                        "team": "Dinamo Zagreb",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "First NL",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 582156,
+                        "team": "Dinamo Zagreb II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "First NL",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 582156,
+                        "team": "Dinamo Zagreb II",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1215064,
+                        "teamId": -1,
+                        "team": "GNK Dinamo Zagreb Under 21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2023-10-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": null
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1215064,
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-11-06T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "23",
+                        "goals": "2",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1215064,
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-09-27T00:00:00",
+                        "endDate": "2024-03-05T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "13",
+                        "goals": "2",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "12",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.76"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.12"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "11",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.02"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 50,
+                                "leagueName": "EURO",
+                                "seasonName": "2024",
+                                "tournamentId": 18307,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10607,
+                                "leagueName": "EURO Qualification",
+                                "seasonName": "2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.02"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.75"
+                                }
+                            }
+                        ],
+                        "teamId": 10155,
+                        "team": "Croatia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "11",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.68"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2023",
+                                "tournamentId": 18334,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.68"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U21 National Team Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5848,
+                        "team": "Croatia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.99
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.36
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.07
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.74
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.23
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.86
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "martin-baturina",
+        "pageurl": "/players/1215064/martin-baturina",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Martin Baturina?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina is 23 years old. Born on Sun Feb 16 2003."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Martin Baturina?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina is 172 cm tall. Or 5 ft 8 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Martin Baturina born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina was born Sun Feb 16 2003 and is now 23 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Martin Baturina's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Martin Baturina's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina's transfer value is estimated to be around \u20ac21.6m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Martin Baturina from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina is from Croatia."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Martin Baturina scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Martin Baturina has scored 6 goals in the Serie A."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Martin Baturina",
+            "birthDate": "2003-02-16T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1215064/martin-baturina",
+            "nationality": {
+                "@type": "Country",
+                "name": "Croatia"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Como"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "172"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Serie A 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/55/overview/serie-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Como",
+                    "item": "https://www.fotmob.com/teams/10171/overview/como"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Martin Baturina",
+                    "item": "https://www.fotmob.com/leagues/1215064/overview/martin-baturina"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Serie A",
+                    "tournamentId": 55,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coppa Italia",
+                    "tournamentId": 141,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO",
+                    "tournamentId": 50,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO Qualification qualification",
+                    "tournamentId": 10607,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League Qualification qualification",
+                    "tournamentId": 10613,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "3-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "HNL",
+                    "tournamentId": 252,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 276,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "4-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "1. Division",
+                    "tournamentId": 252,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 276,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League Qualification qualification",
+                    "tournamentId": 10611,
+                    "entryId": "5-3",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945956205,
+                "playerName": "Martin Baturina",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 10155,
+                "playerId": 1215064,
+                "x": 86.889705882,
+                "y": 43.4402547721,
+                "min": 28,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 89.9,
+                "blockedY": 42.2928125,
+                "goalCrossedY": 35.14375,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0484962910413742,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.697420634920634,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8361,
+                "awayTeamId": 10155,
+                "homeTeamName": "Portugal",
+                "awayTeamName": "Croatia",
+                "homeScore": 2,
+                "awayScore": 1,
+                "matchId": 4653707,
+                "matchDate": "2026-07-02T23:00:00Z",
+                "teamColor": "#CC3737",
+                "teamColorDark": "#CC3737"
+            },
+            {
+                "id": 2944869287,
+                "playerName": "Martin Baturina",
+                "eventType": "Goal",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10155,
+                "playerId": 1215064,
+                "x": 84.1742718448,
+                "y": 23.7189808963,
+                "min": 36,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 36.05875,
+                "goalCrossedZ": 1.5859999922,
+                "expectedGoals": 0.0433553755283356,
+                "expectedGoalsOnTarget": 0.0525919683277607,
+                "onGoalShot": {
+                    "x": 0.455357142857142,
+                    "y": 0.419576717513228,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8491,
+                "awayTeamId": 10155,
+                "homeTeamName": "England",
+                "awayTeamName": "Croatia",
+                "homeScore": 4,
+                "awayScore": 2,
+                "matchId": 4667825,
+                "matchDate": "2026-06-17T20:00:00Z",
+                "teamColor": "#CC3737",
+                "teamColorDark": "#CC3737"
+            },
+            {
+                "id": 2945326233,
+                "playerName": "Martin Baturina",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10155,
+                "playerId": 1215064,
+                "x": 79.8946601952,
+                "y": 47.0135031814,
+                "min": 45,
+                "minAdded": 1,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 104.3362068966,
+                "blockedY": 37.78,
+                "goalCrossedY": 39.797142858,
+                "goalCrossedZ": 0.1797894728,
+                "expectedGoals": 0.0312631838023663,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": -2.22044604925e-16,
+                    "y": 0.0310134625286821,
+                    "zoomRatio": 0.652045342436859
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 5922,
+                "awayTeamId": 10155,
+                "homeTeamName": "Panama",
+                "awayTeamName": "Croatia",
+                "homeScore": 0,
+                "awayScore": 1,
+                "matchId": 4667827,
+                "matchDate": "2026-06-23T23:00:00Z",
+                "teamColor": "#CC3737",
+                "teamColorDark": "#CC3737"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 59.42028985507246,
+                            "percentileRankPer90": 65.94202898550725,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.03422222203678555,
+                            "percentileRank": 25.36231884057971,
+                            "percentileRankPer90": 13.768115942028986,
+                            "statFormat": "fraction",
+                            "statValue": "0.12",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.014611111126012273,
+                            "percentileRank": 34.78260869565217,
+                            "percentileRankPer90": 34.05797101449276,
+                            "statFormat": "fraction",
+                            "statValue": "0.05",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.03422222203678555,
+                            "percentileRank": 25.36231884057971,
+                            "percentileRankPer90": 13.768115942028986,
+                            "statFormat": "fraction",
+                            "statValue": "0.12",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.8333333333333333,
+                            "percentileRank": 29.71014492753623,
+                            "percentileRankPer90": 15.942028985507244,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 28.985507246376812,
+                            "percentileRankPer90": 31.88405797101449,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.0840421962655253,
+                            "percentileRank": 51.449275362318836,
+                            "percentileRankPer90": 35.507246376811594,
+                            "statFormat": "fraction",
+                            "statValue": "0.30",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 21.666666666666664,
+                            "percentileRank": 55.79710144927537,
+                            "percentileRankPer90": 28.985507246376812,
+                            "statFormat": "number",
+                            "statValue": "78",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 80.41237113402062,
+                            "percentileRank": 34.05797101449276,
+                            "percentileRankPer90": 34.05797101449276,
+                            "statFormat": "percent",
+                            "statValue": "80.4",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.5555555555555556,
+                            "percentileRank": 42.7536231884058,
+                            "percentileRankPer90": 35.507246376811594,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 50,
+                            "percentileRank": 40.57971014492754,
+                            "percentileRankPer90": 40.57971014492754,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.1111111111111112,
+                            "percentileRank": 53.62318840579711,
+                            "percentileRankPer90": 43.47826086956522,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 38.405797101449274,
+                            "percentileRankPer90": 44.20289855072464,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 12.5,
+                            "percentileRank": 42.028985507246375,
+                            "percentileRankPer90": 42.028985507246375,
+                            "statFormat": "percent",
+                            "statValue": "12.5",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 2.7777777777777777,
+                            "percentileRank": 86.95652173913044,
+                            "percentileRankPer90": 84.05797101449275,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 76.92307692307692,
+                            "percentileRank": 86.95652173913044,
+                            "percentileRankPer90": 86.95652173913044,
+                            "statFormat": "percent",
+                            "statValue": "76.9",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 8.333333333333332,
+                            "percentileRank": 92.7536231884058,
+                            "percentileRankPer90": 93.47826086956522,
+                            "statFormat": "number",
+                            "statValue": "30",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 60,
+                            "percentileRank": 92.7536231884058,
+                            "percentileRankPer90": 92.7536231884058,
+                            "statFormat": "percent",
+                            "statValue": "60.0",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.8333333333333333,
+                            "percentileRank": 75.36231884057972,
+                            "percentileRankPer90": 71.73913043478261,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 33.333333333333336,
+                            "percentileRank": 53.62318840579711,
+                            "percentileRankPer90": 53.62318840579711,
+                            "statFormat": "percent",
+                            "statValue": "33.3",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 47.5,
+                            "percentileRank": 67.3913043478261,
+                            "percentileRankPer90": 29.71014492753623,
+                            "statFormat": "number",
+                            "statValue": "171",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 1.6666666666666665,
+                            "percentileRank": 36.231884057971016,
+                            "percentileRankPer90": 19.565217391304348,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 2.2222222222222223,
+                            "percentileRank": 7.246376811594203,
+                            "percentileRankPer90": 19.565217391304348,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 3.888888888888889,
+                            "percentileRank": 96.37681159420289,
+                            "percentileRankPer90": 97.82608695652173,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 1.3888888888888888,
+                            "percentileRank": 36.231884057971016,
+                            "percentileRankPer90": 21.014492753623188,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 0.8333333333333333,
+                            "percentileRank": 39.85507246376812,
+                            "percentileRankPer90": 35.507246376811594,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 31.88405797101449,
+                            "percentileRankPer90": 36.231884057971016,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 71.01449275362319,
+                            "percentileRankPer90": 84.05797101449275,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.333333333333333,
+                            "percentileRank": 65.94202898550725,
+                            "percentileRankPer90": 38.405797101449274,
+                            "statFormat": "number",
+                            "statValue": "12",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 29.71014492753623,
+                            "percentileRankPer90": 31.88405797101449,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.5555555555555556,
+                            "percentileRank": 39.130434782608695,
+                            "percentileRankPer90": 60.14492753623188,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 34.05797101449276,
+                            "percentileRankPer90": 37.68115942028986,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0.2777777777777778,
+                            "percentileRank": 81.88405797101449,
+                            "percentileRankPer90": 91.30434782608695,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1.3888888888888888,
+                            "percentileRank": 16.666666666666664,
+                            "percentileRankPer90": 39.85507246376812,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.543444428178999,
+                            "percentileRank": 13.043478260869565,
+                            "percentileRankPer90": 30.434782608695656,
+                            "statFormat": "fraction",
+                            "statValue": "5.56",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0.2777777777777778,
+                    "percentileRank": 59.42028985507246,
+                    "percentileRankPer90": 65.94202898550725,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 7.12,
+                    "percentileRank": 64.4927536231884,
+                    "percentileRankPer90": 64.4927536231884,
+                    "statFormat": "fraction",
+                    "statValue": "7.12",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 40.57971014492754,
+                    "percentileRankPer90": 40.57971014492754,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 4,
+                    "percentileRank": 67.3913043478261,
+                    "percentileRankPer90": 63.04347826086957,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 71.01449275362319,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "324",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 53.82,
+                    "y": 5.18
+                },
+                {
+                    "x": 12.2,
+                    "y": 6.17
+                },
+                {
+                    "x": 65.25,
+                    "y": 26.46
+                },
+                {
+                    "x": 13.7,
+                    "y": 7.54
+                },
+                {
+                    "x": 64.92,
+                    "y": 3.35
+                },
+                {
+                    "x": 86.89,
+                    "y": 24.56
+                },
+                {
+                    "x": 85.28,
+                    "y": 22.39
+                },
+                {
+                    "x": 55.04,
+                    "y": 40.55
+                },
+                {
+                    "x": 58.4,
+                    "y": 30.29
+                },
+                {
+                    "x": 60.33,
+                    "y": 43.72
+                },
+                {
+                    "x": 75.16,
+                    "y": 30.23
+                },
+                {
+                    "x": 43.55,
+                    "y": 33.85
+                },
+                {
+                    "x": 93,
+                    "y": 10.43
+                },
+                {
+                    "x": 92.5,
+                    "y": 10.1
+                },
+                {
+                    "x": 60.02,
+                    "y": 19.87
+                },
+                {
+                    "x": 45.99,
+                    "y": 50.73
+                },
+                {
+                    "x": 96.12,
+                    "y": 18.04
+                },
+                {
+                    "x": 85.28,
+                    "y": 3.87
+                },
+                {
+                    "x": 78.88,
+                    "y": 3.74
+                },
+                {
+                    "x": 92.6,
+                    "y": 2.1
+                },
+                {
+                    "x": 57.68,
+                    "y": 9.51
+                },
+                {
+                    "x": 46.1,
+                    "y": 37.78
+                },
+                {
+                    "x": 27.36,
+                    "y": 4.66
+                },
+                {
+                    "x": 78.09,
+                    "y": 31.64
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 21.16,
+                    "y": 18.39
+                },
+                {
+                    "x": 24.43,
+                    "y": 15.52
+                },
+                {
+                    "x": 56.06,
+                    "y": 7.87
+                },
+                {
+                    "x": 34.23,
+                    "y": 0.39
+                },
+                {
+                    "x": 64.92,
+                    "y": 5.44
+                },
+                {
+                    "x": 56.36,
+                    "y": 7.15
+                },
+                {
+                    "x": 63.45,
+                    "y": 61.9
+                },
+                {
+                    "x": 44.67,
+                    "y": 21.55
+                },
+                {
+                    "x": 56.87,
+                    "y": 38.45
+                },
+                {
+                    "x": 73.14,
+                    "y": 5.18
+                },
+                {
+                    "x": 73.02,
+                    "y": 3.87
+                },
+                {
+                    "x": 93.2,
+                    "y": 42.52
+                },
+                {
+                    "x": 93.2,
+                    "y": 42.52
+                },
+                {
+                    "x": 70.32,
+                    "y": 44.98
+                },
+                {
+                    "x": 70.43,
+                    "y": 36.44
+                },
+                {
+                    "x": 74.38,
+                    "y": 30.32
+                },
+                {
+                    "x": 73.7,
+                    "y": 47.99
+                },
+                {
+                    "x": 41.55,
+                    "y": 36.82
+                },
+                {
+                    "x": 41.32,
+                    "y": 37.58
+                },
+                {
+                    "x": 84.85,
+                    "y": 68
+                },
+                {
+                    "x": 81.7,
+                    "y": 59.8
+                },
+                {
+                    "x": 72.24,
+                    "y": 30.32
+                },
+                {
+                    "x": 84.17,
+                    "y": 44.28
+                },
+                {
+                    "x": 49.25,
+                    "y": 14.54
+                },
+                {
+                    "x": 49.25,
+                    "y": 14.54
+                },
+                {
+                    "x": 46.71,
+                    "y": 16.22
+                },
+                {
+                    "x": 43.24,
+                    "y": 14.68
+                },
+                {
+                    "x": 60.33,
+                    "y": 5.18
+                },
+                {
+                    "x": 54.13,
+                    "y": 44.63
+                },
+                {
+                    "x": 42.34,
+                    "y": 42.35
+                },
+                {
+                    "x": 11.8,
+                    "y": 63.15
+                },
+                {
+                    "x": 47.01,
+                    "y": 44.63
+                },
+                {
+                    "x": 64.47,
+                    "y": 25.19
+                },
+                {
+                    "x": 73.81,
+                    "y": 27.19
+                },
+                {
+                    "x": 75.39,
+                    "y": 27.19
+                },
+                {
+                    "x": 78.32,
+                    "y": 14.54
+                },
+                {
+                    "x": 62.89,
+                    "y": 14.75
+                },
+                {
+                    "x": 68.18,
+                    "y": 52.83
+                },
+                {
+                    "x": 68.86,
+                    "y": 48.2
+                },
+                {
+                    "x": 76.4,
+                    "y": 35.45
+                },
+                {
+                    "x": 79.22,
+                    "y": 31.71
+                },
+                {
+                    "x": 51.48,
+                    "y": 12.27
+                },
+                {
+                    "x": 32.2,
+                    "y": 5.97
+                },
+                {
+                    "x": 29.05,
+                    "y": 4
+                },
+                {
+                    "x": 47.42,
+                    "y": 3.8
+                },
+                {
+                    "x": 42.56,
+                    "y": 2.49
+                },
+                {
+                    "x": 90.7,
+                    "y": 31.03
+                },
+                {
+                    "x": 72.12,
+                    "y": 8.2
+                },
+                {
+                    "x": 56.57,
+                    "y": 48.98
+                },
+                {
+                    "x": 8.59,
+                    "y": 20.29
+                },
+                {
+                    "x": 58.4,
+                    "y": 21.62
+                },
+                {
+                    "x": 32.09,
+                    "y": 7.94
+                },
+                {
+                    "x": 44.16,
+                    "y": 5.97
+                },
+                {
+                    "x": 49.15,
+                    "y": 6.89
+                },
+                {
+                    "x": 58.19,
+                    "y": 5.84
+                },
+                {
+                    "x": 65.37,
+                    "y": 36.9
+                },
+                {
+                    "x": 77.64,
+                    "y": 12.86
+                },
+                {
+                    "x": 76.07,
+                    "y": 12.53
+                },
+                {
+                    "x": 74.71,
+                    "y": 11.74
+                },
+                {
+                    "x": 98.73,
+                    "y": 52.83
+                },
+                {
+                    "x": 99.11,
+                    "y": 61.31
+                },
+                {
+                    "x": 75.05,
+                    "y": 23.44
+                },
+                {
+                    "x": 33.55,
+                    "y": 24
+                },
+                {
+                    "x": 26.57,
+                    "y": 25.59
+                },
+                {
+                    "x": 29.72,
+                    "y": 27.28
+                },
+                {
+                    "x": 93.1,
+                    "y": 12.99
+                },
+                {
+                    "x": 68.18,
+                    "y": 9.97
+                },
+                {
+                    "x": 65.25,
+                    "y": 48.48
+                },
+                {
+                    "x": 78.43,
+                    "y": 59.67
+                },
+                {
+                    "x": 98.54,
+                    "y": 65.9
+                },
+                {
+                    "x": 78.77,
+                    "y": 24.84
+                },
+                {
+                    "x": 67.84,
+                    "y": 34.38
+                },
+                {
+                    "x": 86.35,
+                    "y": 40.64
+                },
+                {
+                    "x": 72.12,
+                    "y": 35.37
+                },
+                {
+                    "x": 28.93,
+                    "y": 22.88
+                },
+                {
+                    "x": 78.66,
+                    "y": 49.68
+                },
+                {
+                    "x": 56.06,
+                    "y": 14.89
+                },
+                {
+                    "x": 36.82,
+                    "y": 26.57
+                },
+                {
+                    "x": 49.04,
+                    "y": 7.48
+                },
+                {
+                    "x": 96.12,
+                    "y": 60.98
+                },
+                {
+                    "x": 60.94,
+                    "y": 20.36
+                },
+                {
+                    "x": 32.99,
+                    "y": 4.07
+                },
+                {
+                    "x": 80.91,
+                    "y": 17.9
+                },
+                {
+                    "x": 79.89,
+                    "y": 20.99
+                },
+                {
+                    "x": 94.87,
+                    "y": 26.4
+                },
+                {
+                    "x": 48.43,
+                    "y": 31.71
+                },
+                {
+                    "x": 40.08,
+                    "y": 9.18
+                },
+                {
+                    "x": 10.42,
+                    "y": 59.08
+                },
+                {
+                    "x": 31.64,
+                    "y": 9.05
+                },
+                {
+                    "x": 56.26,
+                    "y": 17.76
+                },
+                {
+                    "x": 80.8,
+                    "y": 12.2
+                },
+                {
+                    "x": 76.97,
+                    "y": 4.39
+                },
+                {
+                    "x": 48.84,
+                    "y": 16.99
+                },
+                {
+                    "x": 56.06,
+                    "y": 2.49
+                },
+                {
+                    "x": 67.28,
+                    "y": 7.22
+                },
+                {
+                    "x": 76.4,
+                    "y": 22.6
+                },
+                {
+                    "x": 67.28,
+                    "y": 7.22
+                },
+                {
+                    "x": 69.76,
+                    "y": 8.79
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 41.55,
+                    "y": 12.66
+                },
+                {
+                    "x": 51.28,
+                    "y": 5.12
+                },
+                {
+                    "x": 64.92,
+                    "y": 4.2
+                },
+                {
+                    "x": 62.78,
+                    "y": 7.35
+                },
+                {
+                    "x": 62.21,
+                    "y": 9.51
+                },
+                {
+                    "x": 90.4,
+                    "y": 13.84
+                },
+                {
+                    "x": 44.67,
+                    "y": 13.12
+                },
+                {
+                    "x": 13.7,
+                    "y": 4.2
+                },
+                {
+                    "x": 12,
+                    "y": 4.2
+                },
+                {
+                    "x": 47.21,
+                    "y": 27.61
+                },
+                {
+                    "x": 55.35,
+                    "y": 19.23
+                },
+                {
+                    "x": 44.77,
+                    "y": 3.28
+                },
+                {
+                    "x": 67.06,
+                    "y": 21.06
+                },
+                {
+                    "x": 69.2,
+                    "y": 21.34
+                },
+                {
+                    "x": 44.16,
+                    "y": 24.28
+                },
+                {
+                    "x": 42.9,
+                    "y": 23.93
+                },
+                {
+                    "x": 84.74,
+                    "y": 49.61
+                },
+                {
+                    "x": 84.85,
+                    "y": 51.64
+                },
+                {
+                    "x": 86.67,
+                    "y": 58.16
+                },
+                {
+                    "x": 70.43,
+                    "y": 32.4
+                },
+                {
+                    "x": 84.17,
+                    "y": 47.92
+                },
+                {
+                    "x": 94.19,
+                    "y": 5.64
+                },
+                {
+                    "x": 66.83,
+                    "y": 1.57
+                },
+                {
+                    "x": 78.77,
+                    "y": 28.96
+                },
+                {
+                    "x": 45.38,
+                    "y": 17.13
+                },
+                {
+                    "x": 49.45,
+                    "y": 27.11
+                },
+                {
+                    "x": 65.82,
+                    "y": 5.77
+                },
+                {
+                    "x": 82.94,
+                    "y": 0
+                },
+                {
+                    "x": 62.21,
+                    "y": 20.64
+                },
+                {
+                    "x": 62.55,
+                    "y": 20.64
+                },
+                {
+                    "x": 67.17,
+                    "y": 19.45
+                },
+                {
+                    "x": 90.6,
+                    "y": 15.94
+                },
+                {
+                    "x": 62.66,
+                    "y": 28.2
+                },
+                {
+                    "x": 80.23,
+                    "y": 9.58
+                },
+                {
+                    "x": 65.93,
+                    "y": 5.12
+                },
+                {
+                    "x": 67.51,
+                    "y": 10.36
+                },
+                {
+                    "x": 83.95,
+                    "y": 4.13
+                },
+                {
+                    "x": 17.36,
+                    "y": 8.72
+                },
+                {
+                    "x": 28.48,
+                    "y": 18.53
+                },
+                {
+                    "x": 67.51,
+                    "y": 21.27
+                },
+                {
+                    "x": 79.11,
+                    "y": 25.19
+                },
+                {
+                    "x": 74.15,
+                    "y": 5.58
+                },
+                {
+                    "x": 94.19,
+                    "y": 8.72
+                },
+                {
+                    "x": 9.07,
+                    "y": 17.13
+                },
+                {
+                    "x": 4.74,
+                    "y": 1.25
+                },
+                {
+                    "x": 87.86,
+                    "y": 4.46
+                },
+                {
+                    "x": 66.49,
+                    "y": 24
+                },
+                {
+                    "x": 70.43,
+                    "y": 22.25
+                },
+                {
+                    "x": 60.02,
+                    "y": 4.33
+                },
+                {
+                    "x": 79.67,
+                    "y": 6.89
+                },
+                {
+                    "x": 43.35,
+                    "y": 20.36
+                },
+                {
+                    "x": 42.34,
+                    "y": 16.92
+                },
+                {
+                    "x": 41.89,
+                    "y": 17.13
+                },
+                {
+                    "x": 37.49,
+                    "y": 1.64
+                },
+                {
+                    "x": 19.61,
+                    "y": 11.48
+                },
+                {
+                    "x": 48.23,
+                    "y": 13.84
+                },
+                {
+                    "x": 30.17,
+                    "y": 9.05
+                },
+                {
+                    "x": 48.54,
+                    "y": 3.02
+                },
+                {
+                    "x": 39.75,
+                    "y": 7.87
+                },
+                {
+                    "x": 35.92,
+                    "y": 14.75
+                },
+                {
+                    "x": 43.45,
+                    "y": 16.08
+                },
+                {
+                    "x": 37.49,
+                    "y": 8.66
+                },
+                {
+                    "x": 26.23,
+                    "y": 3.67
+                },
+                {
+                    "x": 60.73,
+                    "y": 7.28
+                },
+                {
+                    "x": 60.43,
+                    "y": 2.1
+                },
+                {
+                    "x": 81.81,
+                    "y": 19.66
+                },
+                {
+                    "x": 67.51,
+                    "y": 27.11
+                },
+                {
+                    "x": 64.69,
+                    "y": 21.55
+                },
+                {
+                    "x": 46.1,
+                    "y": 11.09
+                },
+                {
+                    "x": 42,
+                    "y": 5.77
+                },
+                {
+                    "x": 73.93,
+                    "y": 33.92
+                },
+                {
+                    "x": 74.71,
+                    "y": 28.88
+                },
+                {
+                    "x": 83.5,
+                    "y": 12.2
+                },
+                {
+                    "x": 26.68,
+                    "y": 5.18
+                },
+                {
+                    "x": 41.77,
+                    "y": 24.49
+                },
+                {
+                    "x": 26.57,
+                    "y": 16.43
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 2970000,
+                "currency": "EUR",
+                "lowerBound": 2230000,
+                "upperBound": 3710000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 3380000,
+                "currency": "EUR",
+                "lowerBound": 2540000,
+                "upperBound": 4230000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 3420000,
+                "currency": "EUR",
+                "lowerBound": 2570000,
+                "upperBound": 4280000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 2980000,
+                "currency": "EUR",
+                "lowerBound": 2240000,
+                "upperBound": 3730000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 2680000,
+                "currency": "EUR",
+                "lowerBound": 2010000,
+                "upperBound": 3350000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 2480000,
+                "currency": "EUR",
+                "lowerBound": 1860000,
+                "upperBound": 3090000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 1090000,
+                "currency": "EUR",
+                "lowerBound": 820000,
+                "upperBound": 1370000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 1110000,
+                "currency": "EUR",
+                "lowerBound": 830000,
+                "upperBound": 1390000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 1110000,
+                "currency": "EUR",
+                "lowerBound": 830000,
+                "upperBound": 1380000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 990000,
+                "currency": "EUR",
+                "lowerBound": 750000,
+                "upperBound": 1240000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 3570000,
+                "currency": "EUR",
+                "lowerBound": 2680000,
+                "upperBound": 4460000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 4340000,
+                "currency": "EUR",
+                "lowerBound": 3250000,
+                "upperBound": 5420000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 3270000,
+                "currency": "EUR",
+                "lowerBound": 2460000,
+                "upperBound": 4090000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 5700000,
+                "currency": "EUR",
+                "lowerBound": 4280000,
+                "upperBound": 7130000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 6700000,
+                "currency": "EUR",
+                "lowerBound": 5030000,
+                "upperBound": 8380000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 8150000,
+                "currency": "EUR",
+                "lowerBound": 6110000,
+                "upperBound": 10190000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 9450000,
+                "currency": "EUR",
+                "lowerBound": 7090000,
+                "upperBound": 11810000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 11080000,
+                "currency": "EUR",
+                "lowerBound": 8310000,
+                "upperBound": 13850000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 11460000,
+                "currency": "EUR",
+                "lowerBound": 8600000,
+                "upperBound": 14330000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 11180000,
+                "currency": "EUR",
+                "lowerBound": 8380000,
+                "upperBound": 13970000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 19110000,
+                "currency": "EUR",
+                "lowerBound": 14330000,
+                "upperBound": 23890000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 20770000,
+                "currency": "EUR",
+                "lowerBound": 15580000,
+                "upperBound": 25960000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 20490000,
+                "currency": "EUR",
+                "lowerBound": 15370000,
+                "upperBound": 25610000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 17160000,
+                "currency": "EUR",
+                "lowerBound": 12870000,
+                "upperBound": 21450000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 15610000,
+                "currency": "EUR",
+                "lowerBound": 11700000,
+                "upperBound": 19510000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 14230000,
+                "currency": "EUR",
+                "lowerBound": 10670000,
+                "upperBound": 17790000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 13470000,
+                "currency": "EUR",
+                "lowerBound": 10110000,
+                "upperBound": 16840000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 12890000,
+                "currency": "EUR",
+                "lowerBound": 9670000,
+                "upperBound": 16110000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 16110000,
+                "currency": "EUR",
+                "lowerBound": 14499000,
+                "upperBound": 17721000,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 16999350,
+                "currency": "EUR",
+                "lowerBound": 15299415,
+                "upperBound": 18699285,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 18545009,
+                "currency": "EUR",
+                "lowerBound": 16690508,
+                "upperBound": 20399510,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 19891046,
+                "currency": "EUR",
+                "lowerBound": 17901941,
+                "upperBound": 21880151,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 20329269,
+                "currency": "EUR",
+                "lowerBound": 18296342,
+                "upperBound": 22362196,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 20329269,
+                "currency": "EUR",
+                "lowerBound": 18296342,
+                "upperBound": 22362196,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 20179545,
+                "currency": "EUR",
+                "lowerBound": 18161590,
+                "upperBound": 22197499,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 20286275,
+                "currency": "EUR",
+                "lowerBound": 18257647,
+                "upperBound": 22314902,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 20587668,
+                "currency": "EUR",
+                "lowerBound": 18528901,
+                "upperBound": 22646435,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 20228997,
+                "currency": "EUR",
+                "lowerBound": 18206097,
+                "upperBound": 22251897,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 20245196,
+                "currency": "EUR",
+                "lowerBound": 18220676,
+                "upperBound": 22269716,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 20245196,
+                "currency": "EUR",
+                "lowerBound": 18220676,
+                "upperBound": 22269716,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 20263977,
+                "currency": "EUR",
+                "lowerBound": 18237579,
+                "upperBound": 22290375,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 20263977,
+                "currency": "EUR",
+                "lowerBound": 18237579,
+                "upperBound": 22290375,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 20263977,
+                "currency": "EUR",
+                "lowerBound": 18237579,
+                "upperBound": 22290375,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 20525292,
+                "currency": "EUR",
+                "lowerBound": 18472763,
+                "upperBound": 22577821,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 20509093,
+                "currency": "EUR",
+                "lowerBound": 18458184,
+                "upperBound": 22560003,
+                "source": "scisports",
+                "teamId": 10156,
+                "teamName": "Dinamo Zagreb"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 24026244,
+                "currency": "EUR",
+                "lowerBound": 21623619,
+                "upperBound": 26428868,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 24026244,
+                "currency": "EUR",
+                "lowerBound": 21623619,
+                "upperBound": 26428868,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 24026244,
+                "currency": "EUR",
+                "lowerBound": 21623619,
+                "upperBound": 26428868,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 24026244,
+                "currency": "EUR",
+                "lowerBound": 21623619,
+                "upperBound": 26428868,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 23764929,
+                "currency": "EUR",
+                "lowerBound": 21388436,
+                "upperBound": 26141422,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 23912526,
+                "currency": "EUR",
+                "lowerBound": 21521274,
+                "upperBound": 26303779,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 23912526,
+                "currency": "EUR",
+                "lowerBound": 21521274,
+                "upperBound": 26303779,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 23912526,
+                "currency": "EUR",
+                "lowerBound": 21521274,
+                "upperBound": 26303779,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 23764929,
+                "currency": "EUR",
+                "lowerBound": 21388436,
+                "upperBound": 26141422,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 23713649,
+                "currency": "EUR",
+                "lowerBound": 21342284,
+                "upperBound": 26085014,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 23956183,
+                "currency": "EUR",
+                "lowerBound": 21560564,
+                "upperBound": 26351801,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 24026244,
+                "currency": "EUR",
+                "lowerBound": 21623619,
+                "upperBound": 26428868,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 21623619,
+                "currency": "EUR",
+                "lowerBound": 19461257,
+                "upperBound": 23785980,
+                "source": "scisports",
+                "teamId": 10171,
+                "teamName": "Como"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 822789,
+                "name": "Alberto Dossena"
+            },
+            {
+                "id": 1695978,
+                "name": "Alessio Chiesa"
+            },
+            {
+                "id": 1478238,
+                "name": "Ali Jasim"
+            },
+            {
+                "id": 1159233,
+                "name": "Alieu Fadera"
+            },
+            {
+                "id": 213501,
+                "name": "\u00c1lvaro Morata"
+            },
+            {
+                "id": 1790181,
+                "name": "Andr\u00e9a Le Borgne"
+            },
+            {
+                "id": 1665439,
+                "name": "Andr\u00e9s Cuenca"
+            },
+            {
+                "id": 602845,
+                "name": "Emil Audero"
+            },
+            {
+                "id": 1586275,
+                "name": "Fabio Rispoli"
+            },
+            {
+                "id": 1692655,
+                "name": "Francesco Andrealli"
+            },
+            {
+                "id": 1203946,
+                "name": "Iv\u00e1n Azon"
+            },
+            {
+                "id": 1459564,
+                "name": "Kaiki"
+            },
+            {
+                "id": 513982,
+                "name": "Luca Mazzitelli"
+            },
+            {
+                "id": 638090,
+                "name": "Luis Milla"
+            },
+            {
+                "id": 1427137,
+                "name": "Marco Tremolada"
+            },
+            {
+                "id": 1175942,
+                "name": "Marlon Mustapha"
+            },
+            {
+                "id": 1073496,
+                "name": "Matthias Braun\u00f6der"
+            },
+            {
+                "id": 1593861,
+                "name": "Mattia Liberali"
+            },
+            {
+                "id": 1898432,
+                "name": "Samuele Pisati"
+            },
+            {
+                "id": 557325,
+                "name": "Stefan Posch"
+            },
+            {
+                "id": 1536941,
+                "name": "Tommaso Fumagalli"
+            },
+            {
+                "id": 560939,
+                "name": "Jean Butez"
+            },
+            {
+                "id": 355356,
+                "name": "Marc-Oliver Kempf"
+            },
+            {
+                "id": 1384881,
+                "name": "\u00c1lex Valle"
+            },
+            {
+                "id": 362121,
+                "name": "Edoardo Goldaniga"
+            },
+            {
+                "id": 846000,
+                "name": "Maxence Caqueret"
+            },
+            {
+                "id": 566776,
+                "name": "Alessandro Gabrielloni"
+            },
+            {
+                "id": 1347574,
+                "name": "Nico Paz"
+            },
+            {
+                "id": 873270,
+                "name": "Anastasios Douvikas"
+            },
+            {
+                "id": 1413963,
+                "name": "Jacobo Ram\u00f3n"
+            },
+            {
+                "id": 1615459,
+                "name": "Adrian Lahdo"
+            },
+            {
+                "id": 1624039,
+                "name": "Jes\u00fas Rodr\u00edguez"
+            },
+            {
+                "id": 888745,
+                "name": "Nicolas-Gerrit K\u00fchn"
+            },
+            {
+                "id": 1122424,
+                "name": "Noel T\u00f6rnqvist"
+            },
+            {
+                "id": 1336582,
+                "name": "M\u00e1ximo Perrone"
+            },
+            {
+                "id": 1353289,
+                "name": "Ivan Smolcic"
+            },
+            {
+                "id": 560945,
+                "name": "M\u00ebrgim Vojvoda"
+            },
+            {
+                "id": 1076647,
+                "name": "Lucas Da Cunha"
+            },
+            {
+                "id": 1434889,
+                "name": "Assane Diao"
+            },
+            {
+                "id": 1347241,
+                "name": "Jayden Addai"
+            },
+            {
+                "id": 1817857,
+                "name": "Matteo Papaccioli"
+            },
+            {
+                "id": 1762470,
+                "name": "Cristiano De Paoli"
+            },
+            {
+                "id": 1690106,
+                "name": "Lorenzo Bonsignori"
+            },
+            {
+                "id": 1082597,
+                "name": "Ignace Van Der Brempt"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 383971,
+                "name": "Dominik Livakovic"
+            },
+            {
+                "id": 950824,
+                "name": "Josip Stanisic"
+            },
+            {
+                "id": 831474,
+                "name": "Marin Pongracic"
+            },
+            {
+                "id": 1070712,
+                "name": "Josko Gvardiol"
+            },
+            {
+                "id": 557799,
+                "name": "Duje Caleta-Car"
+            },
+            {
+                "id": 1186228,
+                "name": "Josip Sutalo"
+            },
+            {
+                "id": 641595,
+                "name": "Nikola Moro"
+            },
+            {
+                "id": 239219,
+                "name": "Mateo Kovacic"
+            },
+            {
+                "id": 173461,
+                "name": "Andrej Kramaric"
+            },
+            {
+                "id": 31097,
+                "name": "Luka Modric"
+            },
+            {
+                "id": 251269,
+                "name": "Ante Budimir"
+            },
+            {
+                "id": 1077684,
+                "name": "Ivor Pandur"
+            },
+            {
+                "id": 557677,
+                "name": "Nikola Vlasic"
+            },
+            {
+                "id": 163670,
+                "name": "Ivan Perisic"
+            },
+            {
+                "id": 446266,
+                "name": "Mario Pasalic"
+            },
+            {
+                "id": 1382000,
+                "name": "Petar Sucic"
+            },
+            {
+                "id": 643448,
+                "name": "Kristijan Jakic"
+            },
+            {
+                "id": 1300358,
+                "name": "Toni Fruk"
+            },
+            {
+                "id": 1210893,
+                "name": "Igor Matanovic"
+            },
+            {
+                "id": 959597,
+                "name": "Luka Sucic"
+            },
+            {
+                "id": 1413996,
+                "name": "Luka Vuskovic"
+            },
+            {
+                "id": 873557,
+                "name": "Dominik Kotarski"
+            },
+            {
+                "id": 1199714,
+                "name": "Marco Pasalic"
+            },
+            {
+                "id": 616170,
+                "name": "Martin Erlic"
+            },
+            {
+                "id": 709796,
+                "name": "Petar Musa"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "dataProvider": "enet"
+}

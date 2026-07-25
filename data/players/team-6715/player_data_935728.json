@@ -1,0 +1,5409 @@
+{
+    "id": 935728,
+    "name": "Ao Tanaka",
+    "birthDate": {
+        "utcTime": "1998-09-10T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2028-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8463,
+        "teamName": "Leeds United",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#0060A0",
+            "colorAlternate": "#ffffff",
+            "colorAway": "#FFCD00",
+            "colorAwayAlternate": "#FFCD00"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 14,
+                "position": "64",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 11,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.6230769230769231
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "86",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Defensive Midfielder",
+            "key": "centerdefensivemidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 22,
+                "options": {},
+                "key": null,
+                "fallback": 22
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 27,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "27"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Japan"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "JPN"
+            },
+            "countryCode": "JPN"
+        },
+        {
+            "value": {
+                "numberValue": 10882628,
+                "key": null,
+                "fallback": "\u20ac10.9m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2028-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2028-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 47,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 14
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 28
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1314
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.85
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 8463,
+                "teamName": "Leeds United",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 48,
+                        "leagueName": "Championship",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "JPN",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale",
+                "tournaments": [
+                    {
+                        "ccode": "JPN",
+                        "leagueId": 223,
+                        "leagueName": "J. League",
+                        "seasonsWon": [
+                            "2020",
+                            "2018",
+                            "2017"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "JPN",
+                        "leagueId": 440,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2021",
+                            "2019"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2018"
+                        ]
+                    },
+                    {
+                        "ccode": "JPN",
+                        "leagueId": 224,
+                        "leagueName": "J. League Cup",
+                        "seasonsWon": [
+                            "2019"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2017"
+                        ]
+                    },
+                    {
+                        "ccode": "JPN",
+                        "leagueId": -1,
+                        "leagueName": "Emperor Cup",
+                        "seasonsWon": [
+                            "2020"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2016"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4653711,
+            "matchDate": {
+                "utcTime": "2026-06-29T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-brazil/1uqadm#4653711",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 12,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8520,
+            "opponentTeamName": "Sweden",
+            "isHomeTeam": true,
+            "id": 4667788,
+            "matchDate": {
+                "utcTime": "2026-06-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-sweden/1x3r7y#4667788",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": false,
+            "id": 4667785,
+            "matchDate": {
+                "utcTime": "2026-06-21T04:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-tunisia/1hqd1q#4667785",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 4667783,
+            "matchDate": {
+                "utcTime": "2026-06-14T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-japan/1hn72b#4667783",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5418293,
+            "matchDate": {
+                "utcTime": "2026-05-31T10:25:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-iceland/1x8zfa#5418293",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": false,
+            "id": 4813754,
+            "matchDate": {
+                "utcTime": "2026-05-24T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-west-ham-united/2f8a75#4813754",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": true,
+            "id": 4813741,
+            "matchDate": {
+                "utcTime": "2026-05-17T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-brighton-hove-albion/2vqp9d#4813741",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": false,
+            "id": 4813733,
+            "matchDate": {
+                "utcTime": "2026-05-11T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-tottenham-hotspur/2ejdsf#4813733",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813721,
+            "matchDate": {
+                "utcTime": "2026-05-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-leeds-united/2akph4#4813721",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": false,
+            "id": 5293794,
+            "matchDate": {
+                "utcTime": "2026-04-26T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-leeds-united/2d7oy4#5293794",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": false,
+            "id": 4813705,
+            "matchDate": {
+                "utcTime": "2026-04-22T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-afc-bournemouth/2fh3fh#4813705",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": true,
+            "id": 4813700,
+            "matchDate": {
+                "utcTime": "2026-04-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-wolverhampton-wanderers/2ep8dz#4813700",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": false,
+            "id": 4813691,
+            "matchDate": {
+                "utcTime": "2026-04-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-manchester-united/2wd539#4813691",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": false,
+            "id": 5231346,
+            "matchDate": {
+                "utcTime": "2026-04-05T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-west-ham-united/2f8a75#5231346",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 69,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": false,
+            "id": 5124812,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-england/1wuals#5124812",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": false,
+            "id": 5147837,
+            "matchDate": {
+                "utcTime": "2026-03-28T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-scotland/1wwkrh#5147837",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": true,
+            "id": 4813680,
+            "matchDate": {
+                "utcTime": "2026-03-21T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-brentford/2sso1t#4813680",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 22,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": false,
+            "id": 4813669,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-crystal-palace/2rl0qz#4813669",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9850,
+            "opponentTeamName": "Norwich City",
+            "isHomeTeam": true,
+            "id": 5186381,
+            "matchDate": {
+                "utcTime": "2026-03-08T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-norwich-city/2rufon#5186381",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": true,
+            "id": 4813660,
+            "matchDate": {
+                "utcTime": "2026-03-03T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-sunderland/2dduzo#4813660",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": true,
+            "id": 4813650,
+            "matchDate": {
+                "utcTime": "2026-02-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-leeds-united/2d8203#4813650",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": false,
+            "id": 4813635,
+            "matchDate": {
+                "utcTime": "2026-02-21T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-aston-villa/2w9xjd#4813635",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8658,
+            "opponentTeamName": "Birmingham City",
+            "isHomeTeam": false,
+            "id": 5135177,
+            "matchDate": {
+                "utcTime": "2026-02-15T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-birmingham-city/2f9r1f#5135177",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": false,
+            "id": 4813627,
+            "matchDate": {
+                "utcTime": "2026-02-10T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-leeds-united/2d7oy4#4813627",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": true,
+            "id": 4813620,
+            "matchDate": {
+                "utcTime": "2026-02-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-nottingham-forest/2vqauu#4813620",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 4813608,
+            "matchDate": {
+                "utcTime": "2026-01-31T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-arsenal/2rkmmx#4813608",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": false,
+            "id": 4813600,
+            "matchDate": {
+                "utcTime": "2026-01-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-everton/2fdf72#4813600",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": true,
+            "id": 4813588,
+            "matchDate": {
+                "utcTime": "2026-01-17T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-fulham/2s5tto#4813588",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10170,
+            "opponentTeamName": "Derby County",
+            "isHomeTeam": false,
+            "id": 5089910,
+            "matchDate": {
+                "utcTime": "2026-01-11T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-derby-county/2vd3z0#5089910",
+            "leagueId": 132,
+            "leagueName": "FA Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4813583,
+            "matchDate": {
+                "utcTime": "2026-01-07T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-newcastle-united/2wdjjd#4813583",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10260,
+            "opponentTeamName": "Manchester United",
+            "isHomeTeam": true,
+            "id": 4813570,
+            "matchDate": {
+                "utcTime": "2026-01-04T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-manchester-united/2wd539#4813570",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4813560,
+            "matchDate": {
+                "utcTime": "2026-01-01T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-liverpool/2f6tdb#4813560",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": false,
+            "id": 4813553,
+            "matchDate": {
+                "utcTime": "2025-12-28T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-sunderland/2dduzo#4813553",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": true,
+            "id": 4813540,
+            "matchDate": {
+                "utcTime": "2025-12-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-crystal-palace/2rl0qz#4813540",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": false,
+            "id": 4813526,
+            "matchDate": {
+                "utcTime": "2025-12-14T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-brentford/2sso1t#4813526",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 73,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": true,
+            "id": 4813520,
+            "matchDate": {
+                "utcTime": "2025-12-06T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-liverpool/2f6tdb#4813520",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 25,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": true,
+            "id": 4813510,
+            "matchDate": {
+                "utcTime": "2025-12-03T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-leeds-united/2d7oy4#4813510",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4813500,
+            "matchDate": {
+                "utcTime": "2025-11-29T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-leeds-united/2d8203#4813500",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": true,
+            "id": 4813490,
+            "matchDate": {
+                "utcTime": "2025-11-23T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-aston-villa/2w9xjd#4813490",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 48,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 5797,
+            "opponentTeamName": "Bolivia",
+            "isHomeTeam": true,
+            "id": 5031705,
+            "matchDate": {
+                "utcTime": "2025-11-18T10:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/bolivia-vs-japan/1alzfv#5031705",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6714,
+            "opponentTeamName": "Ghana",
+            "isHomeTeam": true,
+            "id": 5031700,
+            "matchDate": {
+                "utcTime": "2025-11-14T10:20:00.000Z"
+            },
+            "matchPageUrl": "/matches/ghana-vs-japan/1hox82#5031700",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4813481,
+            "matchDate": {
+                "utcTime": "2025-11-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-nottingham-forest/2vqauu#4813481",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": false,
+            "id": 4813465,
+            "matchDate": {
+                "utcTime": "2025-11-01T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-brighton-hove-albion/2vqp9d#4813465",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4813461,
+            "matchDate": {
+                "utcTime": "2025-10-24T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-west-ham-united/2f8a75#4813461",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": false,
+            "id": 4813446,
+            "matchDate": {
+                "utcTime": "2025-10-18T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-leeds-united/2akph4#4813446",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": true,
+            "id": 4947213,
+            "matchDate": {
+                "utcTime": "2025-10-14T10:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-brazil/1uqadm#4947213",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6715,
+            "teamName": "Japan",
+            "opponentTeamId": 6724,
+            "opponentTeamName": "Paraguay",
+            "isHomeTeam": true,
+            "id": 4928747,
+            "matchDate": {
+                "utcTime": "2025-10-10T10:20:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-paraguay/1hrsw4#4928747",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": true,
+            "id": 4813441,
+            "matchDate": {
+                "utcTime": "2025-10-04T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-tottenham-hotspur/2ejdsf#4813441",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 23,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4813430,
+            "matchDate": {
+                "utcTime": "2025-09-27T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-afc-bournemouth/2fh3fh#4813430",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813424,
+            "matchDate": {
+                "utcTime": "2025-09-20T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-wolverhampton-wanderers/2ep8dz#4813424",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": false,
+            "id": 4813411,
+            "matchDate": {
+                "utcTime": "2025-09-13T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-fulham/2s5tto#4813411",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813386,
+            "matchDate": {
+                "utcTime": "2025-08-23T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-arsenal/2rkmmx#4813386",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4813383,
+            "matchDate": {
+                "utcTime": "2025-08-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-everton/2fdf72#4813383",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8463,
+            "teamName": "Leeds United",
+            "opponentTeamId": 8564,
+            "opponentTeamName": "Milan",
+            "isHomeTeam": true,
+            "id": 4797490,
+            "matchDate": {
+                "utcTime": "2025-08-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-milan/2ebcje#4797490",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 935728,
+                        "teamId": 8463,
+                        "team": "Leeds United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-30T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "78",
+                        "goals": "9",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 935728,
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2024-08-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "65",
+                        "goals": "9",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 935728,
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 935728,
+                        "teamId": 6304,
+                        "team": "Kawasaki Frontale",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-01-01T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "93",
+                        "goals": "9",
+                        "assists": "8",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "33",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.95"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.85"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28891,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.54"
+                                }
+                            }
+                        ],
+                        "teamId": 8463,
+                        "team": "Leeds United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "45",
+                        "goals": "5",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.38"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 48,
+                                "leagueName": "Championship",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23744,
+                                "goals": "5",
+                                "assists": "2",
+                                "appearances": "43",
+                                "rating": {
+                                    "rating": "7.43"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24289,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.41"
+                                }
+                            }
+                        ],
+                        "teamId": 8463,
+                        "team": "Leeds United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.03"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23795,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.27"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23599,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.31"
+                                }
+                            }
+                        ],
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "36",
+                        "goals": "8",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20947,
+                                "goals": "7",
+                                "assists": "3",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20948,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.86"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9081,
+                                "leagueName": "Bundesliga Qualification",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 23148,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.86"
+                                }
+                            }
+                        ],
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "25",
+                        "goals": "1",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.20"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17802,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17692,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.56"
+                                }
+                            }
+                        ],
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.90"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16495,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16553,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.21"
+                                }
+                            }
+                        ],
+                        "teamId": 8194,
+                        "team": "Fortuna D\u00fcsseldorf",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "21",
+                        "goals": "1",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.52"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2021",
+                                "tournamentId": 15979,
+                                "goals": "1",
+                                "assists": "4",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": "7.52"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 440,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2021",
+                                "tournamentId": 17201,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6304,
+                        "team": "Kawasaki Frontale",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "38",
+                        "goals": "6",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2020",
+                                "tournamentId": 14904,
+                                "goals": "5",
+                                "assists": "1",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 224,
+                                "leagueName": "J. League Cup",
+                                "seasonName": "2020",
+                                "tournamentId": 14929,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Emperor Cup",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6304,
+                        "team": "Kawasaki Frontale",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2019",
+                                "tournamentId": 13530,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 224,
+                                "leagueName": "J. League Cup",
+                                "seasonName": "2019",
+                                "tournamentId": 13574,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 440,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2019",
+                                "tournamentId": 14870,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 525,
+                                "leagueName": "AFC Champions League Elite",
+                                "seasonName": "2019",
+                                "tournamentId": 13426,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6304,
+                        "team": "Kawasaki Frontale",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "4",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 223,
+                                "leagueName": "J. League",
+                                "seasonName": "2018",
+                                "tournamentId": 12436,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6304,
+                        "team": "Kawasaki Frontale",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 935728,
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-12-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "41",
+                        "goals": "8",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 935728,
+                        "teamId": 298067,
+                        "team": "Japan U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-09-08T00:00:00",
+                        "endDate": "2021-10-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 935728,
+                        "teamId": 620748,
+                        "team": "Japan U22",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-05-23T00:00:00",
+                        "endDate": "2019-09-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "15",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10197,
+                                "leagueName": "World Cup Qualification AFC",
+                                "seasonName": "2026",
+                                "tournamentId": 21576,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.58"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.93"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "8.80"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.80"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "4",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "16",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.23"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10197,
+                                "leagueName": "World Cup Qualification AFC",
+                                "seasonName": "2022",
+                                "tournamentId": 17250,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.60"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2022",
+                                "tournamentId": 15338,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.02"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.77"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "Kirin Cup",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "EAFF E-1 Football Championship",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6715,
+                        "team": "Japan",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.09"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9571,
+                                "leagueName": "AFC U23 Asian Cup",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 66,
+                                "leagueName": "Summer Olympics",
+                                "seasonName": "2020",
+                                "tournamentId": 16084,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.09"
+                                }
+                            }
+                        ],
+                        "teamId": 298067,
+                        "team": "Japan U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U23 National Team Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 298067,
+                        "team": "Japan U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Tournoi Maurice Revello",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 620748,
+                        "team": "Japan U22",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.52
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.68
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.6
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.8
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.53
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.75
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "ao-tanaka",
+        "pageurl": "/players/935728/ao-tanaka",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Ao Tanaka?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka is 27 years old. Born on Thu Sep 10 1998."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Ao Tanaka?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Ao Tanaka born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka was born Thu Sep 10 1998 and is now 27 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Ao Tanaka's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Ao Tanaka's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka's transfer value is estimated to be around \u20ac10.9m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Ao Tanaka from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka is from Japan."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Ao Tanaka scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ao Tanaka has scored 2 goals in the Premier League."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ao Tanaka",
+            "birthDate": "1998-09-10T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/935728/ao-tanaka",
+            "nationality": {
+                "@type": "Country",
+                "name": "Japan"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Leeds United"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "74"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Leeds United",
+                    "item": "https://www.fotmob.com/teams/8463/overview/leeds-united"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Ao Tanaka",
+                    "item": "https://www.fotmob.com/leagues/935728/overview/ao-tanaka"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Championship",
+                    "tournamentId": 48,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Bundesliga Qualification",
+                    "tournamentId": 9081,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup AFC qualification",
+                    "tournamentId": 10197,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Summer Olympics",
+                    "tournamentId": 66,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "8-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "World Cup AFC qualification",
+                    "tournamentId": 10197,
+                    "entryId": "8-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018",
+            "tournaments": [
+                {
+                    "name": "J. League",
+                    "tournamentId": 223,
+                    "entryId": "9-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945127743,
+                "playerName": "Ao Tanaka",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6715,
+                "playerId": 935728,
+                "x": 79.5567961176,
+                "y": 35.9825,
+                "min": 48,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 39.208809525,
+                "goalCrossedZ": 0.3595789456,
+                "expectedGoals": 0.0339040830731392,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0,
+                    "y": 0.0690328459649328,
+                    "zoomRatio": 0.725693650700349
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6719,
+                "awayTeamId": 6715,
+                "homeTeamName": "Tunisia",
+                "awayTeamName": "Japan",
+                "homeScore": 0,
+                "awayScore": 4,
+                "matchId": 4667785,
+                "matchDate": "2026-06-21T04:00:00Z",
+                "teamColor": "#435D99",
+                "teamColorDark": "#435D99"
+            },
+            {
+                "id": 2945445425,
+                "playerName": "Ao Tanaka",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6715,
+                "playerId": 935728,
+                "x": 81.0208737872,
+                "y": 30.4925,
+                "min": 48,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 33.8475,
+                "goalCrossedZ": 5.6708965616,
+                "expectedGoals": 0.0466116294264793,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.0182123623943,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.451427736724176
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6715,
+                "awayTeamId": 8520,
+                "homeTeamName": "Japan",
+                "awayTeamName": "Sweden",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667788,
+                "matchDate": "2026-06-25T23:00:00Z",
+                "teamColor": "#435D99",
+                "teamColorDark": "#435D99"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.037734374636784196,
+                            "percentileRank": 39.175257731958766,
+                            "percentileRankPer90": 45.876288659793815,
+                            "statFormat": "fraction",
+                            "statValue": "0.08",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.037734374636784196,
+                            "percentileRank": 39.69072164948454,
+                            "percentileRankPer90": 46.90721649484536,
+                            "statFormat": "fraction",
+                            "statValue": "0.08",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.9375,
+                            "percentileRank": 34.5360824742268,
+                            "percentileRankPer90": 45.876288659793815,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.027489014173625037,
+                            "percentileRank": 30.412371134020617,
+                            "percentileRankPer90": 29.896907216494846,
+                            "statFormat": "fraction",
+                            "statValue": "0.06",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 68.90625,
+                            "percentileRank": 73.19587628865979,
+                            "percentileRankPer90": 95.36082474226805,
+                            "statFormat": "number",
+                            "statValue": "147",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 91.30434782608695,
+                            "percentileRank": 83.50515463917526,
+                            "percentileRankPer90": 83.50515463917526,
+                            "statFormat": "percent",
+                            "statValue": "91.3",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 2.34375,
+                            "percentileRank": 61.34020618556701,
+                            "percentileRankPer90": 77.31958762886599,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 71.42857142857143,
+                            "percentileRank": 77.83505154639175,
+                            "percentileRankPer90": 77.83505154639175,
+                            "statFormat": "percent",
+                            "statValue": "71.4",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.46875,
+                            "percentileRank": 18.04123711340206,
+                            "percentileRankPer90": 32.47422680412371,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 1.40625,
+                            "percentileRank": 71.1340206185567,
+                            "percentileRankPer90": 82.4742268041237,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 7.96875,
+                            "percentileRank": 70.61855670103093,
+                            "percentileRankPer90": 93.81443298969072,
+                            "statFormat": "number",
+                            "statValue": "17",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 62.96296296296296,
+                            "percentileRank": 88.14432989690721,
+                            "percentileRankPer90": 88.14432989690721,
+                            "statFormat": "percent",
+                            "statValue": "63.0",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 1.40625,
+                            "percentileRank": 58.24742268041238,
+                            "percentileRankPer90": 78.35051546391753,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 60,
+                            "percentileRank": 69.58762886597938,
+                            "percentileRankPer90": 69.58762886597938,
+                            "statFormat": "percent",
+                            "statValue": "60.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 89.53125,
+                            "percentileRank": 69.58762886597938,
+                            "percentileRankPer90": 92.78350515463917,
+                            "statFormat": "number",
+                            "statValue": "191",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 0.9375,
+                            "percentileRank": 33.50515463917525,
+                            "percentileRankPer90": 43.29896907216495,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 5.15625,
+                            "percentileRank": 52.0618556701031,
+                            "percentileRankPer90": 63.4020618556701,
+                            "statFormat": "number",
+                            "statValue": "11",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 4.21875,
+                            "percentileRank": 82.4742268041237,
+                            "percentileRankPer90": 94.3298969072165,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.46875,
+                            "percentileRank": 17.525773195876287,
+                            "percentileRankPer90": 29.381443298969074,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 2.8125,
+                            "percentileRank": 12.371134020618557,
+                            "percentileRankPer90": 5.154639175257731,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 6.09375,
+                            "percentileRank": 61.34020618556701,
+                            "percentileRankPer90": 88.14432989690721,
+                            "statFormat": "number",
+                            "statValue": "13",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.9375,
+                            "percentileRank": 43.81443298969072,
+                            "percentileRankPer90": 45.876288659793815,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 0.46875,
+                            "percentileRank": 17.525773195876287,
+                            "percentileRankPer90": 22.68041237113402,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0.46875,
+                            "percentileRank": 79.89690721649485,
+                            "percentileRankPer90": 95.36082474226805,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.9375,
+                            "percentileRank": 72.16494845360825,
+                            "percentileRankPer90": 75.25773195876289,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.5439374735578895,
+                            "percentileRank": 89.17525773195877,
+                            "percentileRankPer90": 93.29896907216495,
+                            "statFormat": "fraction",
+                            "statValue": "1.16",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.82,
+                    "percentileRank": 53.09278350515464,
+                    "percentileRankPer90": 53.09278350515464,
+                    "statFormat": "fraction",
+                    "statValue": "6.82",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 15.979381443298967,
+                    "percentileRankPer90": 15.979381443298967,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 19.587628865979383,
+                    "percentileRankPer90": 24.742268041237114,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 35.56701030927835,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "192",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 27.02,
+                    "y": 14.75
+                },
+                {
+                    "x": 26.23,
+                    "y": 16.15
+                },
+                {
+                    "x": 24.2,
+                    "y": 15.87
+                },
+                {
+                    "x": 24.2,
+                    "y": 15.87
+                },
+                {
+                    "x": 24.99,
+                    "y": 4.59
+                },
+                {
+                    "x": 66.94,
+                    "y": 39.04
+                },
+                {
+                    "x": 12.8,
+                    "y": 52.34
+                },
+                {
+                    "x": 3.22,
+                    "y": 55.21
+                },
+                {
+                    "x": 2.18,
+                    "y": 59.34
+                },
+                {
+                    "x": 9.94,
+                    "y": 64.33
+                },
+                {
+                    "x": 25.11,
+                    "y": 60.13
+                },
+                {
+                    "x": 69.2,
+                    "y": 48.91
+                },
+                {
+                    "x": 49.55,
+                    "y": 31.48
+                },
+                {
+                    "x": 18.11,
+                    "y": 16.43
+                },
+                {
+                    "x": 18.11,
+                    "y": 16.99
+                },
+                {
+                    "x": 59.21,
+                    "y": 23.65
+                },
+                {
+                    "x": 26.91,
+                    "y": 15.94
+                },
+                {
+                    "x": 27.92,
+                    "y": 10.63
+                },
+                {
+                    "x": 27.92,
+                    "y": 10.63
+                },
+                {
+                    "x": 39.63,
+                    "y": 29.8
+                },
+                {
+                    "x": 35.69,
+                    "y": 24.56
+                },
+                {
+                    "x": 86.46,
+                    "y": 35.37
+                },
+                {
+                    "x": 45.89,
+                    "y": 41.6
+                },
+                {
+                    "x": 37.27,
+                    "y": 25.36
+                },
+                {
+                    "x": 49.35,
+                    "y": 61.7
+                },
+                {
+                    "x": 62.66,
+                    "y": 62.36
+                },
+                {
+                    "x": 75.73,
+                    "y": 12.59
+                },
+                {
+                    "x": 59.72,
+                    "y": 23.86
+                },
+                {
+                    "x": 63.45,
+                    "y": 19.73
+                },
+                {
+                    "x": 63.56,
+                    "y": 23.72
+                },
+                {
+                    "x": 60.12,
+                    "y": 12.2
+                },
+                {
+                    "x": 61.76,
+                    "y": 23.23
+                },
+                {
+                    "x": 35.69,
+                    "y": 36.52
+                },
+                {
+                    "x": 20.38,
+                    "y": 18.04
+                },
+                {
+                    "x": 46.3,
+                    "y": 20.71
+                },
+                {
+                    "x": 49.15,
+                    "y": 25.01
+                },
+                {
+                    "x": 41.32,
+                    "y": 25.48
+                },
+                {
+                    "x": 55.35,
+                    "y": 29.21
+                },
+                {
+                    "x": 19.08,
+                    "y": 37.95
+                },
+                {
+                    "x": 24.54,
+                    "y": 45.33
+                },
+                {
+                    "x": 49.04,
+                    "y": 37.71
+                },
+                {
+                    "x": 50.77,
+                    "y": 41.06
+                },
+                {
+                    "x": 39.63,
+                    "y": 41.23
+                },
+                {
+                    "x": 39.97,
+                    "y": 39.8
+                },
+                {
+                    "x": 48.94,
+                    "y": 40.3
+                },
+                {
+                    "x": 71.22,
+                    "y": 52.41
+                },
+                {
+                    "x": 49.86,
+                    "y": 23.23
+                },
+                {
+                    "x": 67.06,
+                    "y": 48.34
+                },
+                {
+                    "x": 40.42,
+                    "y": 63.93
+                },
+                {
+                    "x": 11.6,
+                    "y": 56.26
+                },
+                {
+                    "x": 15,
+                    "y": 64.2
+                },
+                {
+                    "x": 35.47,
+                    "y": 33.08
+                },
+                {
+                    "x": 40.2,
+                    "y": 29.97
+                },
+                {
+                    "x": 67.51,
+                    "y": 22.67
+                },
+                {
+                    "x": 35.35,
+                    "y": 61.83
+                },
+                {
+                    "x": 34.68,
+                    "y": 24.14
+                },
+                {
+                    "x": 74.6,
+                    "y": 26
+                },
+                {
+                    "x": 28.93,
+                    "y": 52.55
+                },
+                {
+                    "x": 58.29,
+                    "y": 40.05
+                },
+                {
+                    "x": 66.04,
+                    "y": 56.26
+                },
+                {
+                    "x": 50.57,
+                    "y": 28.71
+                },
+                {
+                    "x": 48.94,
+                    "y": 45.54
+                },
+                {
+                    "x": 44.37,
+                    "y": 2.62
+                },
+                {
+                    "x": 46.2,
+                    "y": 23.3
+                },
+                {
+                    "x": 50.87,
+                    "y": 26.4
+                },
+                {
+                    "x": 61.24,
+                    "y": 26.23
+                },
+                {
+                    "x": 66.04,
+                    "y": 61.18
+                },
+                {
+                    "x": 26.46,
+                    "y": 29.55
+                },
+                {
+                    "x": 79.56,
+                    "y": 32.02
+                },
+                {
+                    "x": 41.55,
+                    "y": 26.23
+                },
+                {
+                    "x": 41.44,
+                    "y": 24.7
+                },
+                {
+                    "x": 46.71,
+                    "y": 6.03
+                },
+                {
+                    "x": 46.71,
+                    "y": 32.4
+                },
+                {
+                    "x": 48.74,
+                    "y": 27.03
+                },
+                {
+                    "x": 38.06,
+                    "y": 18.67
+                },
+                {
+                    "x": 46.2,
+                    "y": 21.62
+                },
+                {
+                    "x": 30.96,
+                    "y": 17.13
+                },
+                {
+                    "x": 33.89,
+                    "y": 16.15
+                },
+                {
+                    "x": 65.37,
+                    "y": 51.5
+                },
+                {
+                    "x": 82.15,
+                    "y": 56.65
+                },
+                {
+                    "x": 24.09,
+                    "y": 22.46
+                },
+                {
+                    "x": 45.18,
+                    "y": 20.08
+                },
+                {
+                    "x": 47.52,
+                    "y": 6.62
+                },
+                {
+                    "x": 64.92,
+                    "y": 46.59
+                },
+                {
+                    "x": 64.8,
+                    "y": 57.77
+                },
+                {
+                    "x": 38.28,
+                    "y": 60.33
+                },
+                {
+                    "x": 49.96,
+                    "y": 30.33
+                },
+                {
+                    "x": 55.96,
+                    "y": 17.83
+                },
+                {
+                    "x": 56.16,
+                    "y": 8.99
+                },
+                {
+                    "x": 38.17,
+                    "y": 22.18
+                },
+                {
+                    "x": 60.94,
+                    "y": 11.81
+                },
+                {
+                    "x": 58.4,
+                    "y": 21.2
+                },
+                {
+                    "x": 45.38,
+                    "y": 20.36
+                },
+                {
+                    "x": 21.95,
+                    "y": 38.79
+                },
+                {
+                    "x": 42.11,
+                    "y": 39.8
+                },
+                {
+                    "x": 34.79,
+                    "y": 35.22
+                },
+                {
+                    "x": 46.71,
+                    "y": 28.96
+                },
+                {
+                    "x": 81.02,
+                    "y": 1.97
+                },
+                {
+                    "x": 50.37,
+                    "y": 30.26
+                },
+                {
+                    "x": 50.47,
+                    "y": 22.39
+                },
+                {
+                    "x": 62.78,
+                    "y": 42.47
+                },
+                {
+                    "x": 69.53,
+                    "y": 51.43
+                },
+                {
+                    "x": 38.62,
+                    "y": 18.25
+                },
+                {
+                    "x": 54.74,
+                    "y": 34.76
+                },
+                {
+                    "x": 67.73,
+                    "y": 8.07
+                },
+                {
+                    "x": 67.73,
+                    "y": 8.07
+                },
+                {
+                    "x": 65.03,
+                    "y": 7.41
+                },
+                {
+                    "x": 56.97,
+                    "y": 36.06
+                },
+                {
+                    "x": 54.43,
+                    "y": 37.2
+                },
+                {
+                    "x": 74.26,
+                    "y": 43.65
+                },
+                {
+                    "x": 13,
+                    "y": 62.49
+                },
+                {
+                    "x": 2.94,
+                    "y": 49.89
+                },
+                {
+                    "x": 0.47,
+                    "y": 50.87
+                },
+                {
+                    "x": 44.88,
+                    "y": 45.33
+                },
+                {
+                    "x": 39.97,
+                    "y": 37.74
+                },
+                {
+                    "x": 14.8,
+                    "y": 38.28
+                },
+                {
+                    "x": 39.52,
+                    "y": 48.77
+                },
+                {
+                    "x": 32.43,
+                    "y": 37.74
+                },
+                {
+                    "x": 31.52,
+                    "y": 49.12
+                },
+                {
+                    "x": 59.92,
+                    "y": 45.26
+                },
+                {
+                    "x": 59.41,
+                    "y": 51.01
+                },
+                {
+                    "x": 70.1,
+                    "y": 53.39
+                },
+                {
+                    "x": 46.81,
+                    "y": 30.05
+                },
+                {
+                    "x": 24.32,
+                    "y": 33.47
+                },
+                {
+                    "x": 35.8,
+                    "y": 23.72
+                },
+                {
+                    "x": 35.02,
+                    "y": 18.04
+                },
+                {
+                    "x": 46.4,
+                    "y": 29.97
+                },
+                {
+                    "x": 49.45,
+                    "y": 27.19
+                },
+                {
+                    "x": 56.06,
+                    "y": 28.37
+                },
+                {
+                    "x": 20.04,
+                    "y": 60.13
+                },
+                {
+                    "x": 39.86,
+                    "y": 37.28
+                },
+                {
+                    "x": 70.55,
+                    "y": 37.86
+                },
+                {
+                    "x": 72.69,
+                    "y": 32.48
+                },
+                {
+                    "x": 31.64,
+                    "y": 13.05
+                },
+                {
+                    "x": 33.89,
+                    "y": 39.38
+                },
+                {
+                    "x": 55.55,
+                    "y": 56
+                },
+                {
+                    "x": 40.08,
+                    "y": 38.79
+                },
+                {
+                    "x": 39.75,
+                    "y": 38.79
+                },
+                {
+                    "x": 19.51,
+                    "y": 41.89
+                },
+                {
+                    "x": 43.86,
+                    "y": 52.48
+                },
+                {
+                    "x": 40.08,
+                    "y": 54.62
+                },
+                {
+                    "x": 17.47,
+                    "y": 36.44
+                },
+                {
+                    "x": 14.5,
+                    "y": 10.56
+                },
+                {
+                    "x": 21.39,
+                    "y": 7.54
+                },
+                {
+                    "x": 25.78,
+                    "y": 1.97
+                },
+                {
+                    "x": 55.35,
+                    "y": 30.87
+                },
+                {
+                    "x": 17.14,
+                    "y": 10.23
+                },
+                {
+                    "x": 59.62,
+                    "y": 34.76
+                },
+                {
+                    "x": 59.72,
+                    "y": 32.7
+                },
+                {
+                    "x": 61.24,
+                    "y": 62.75
+                },
+                {
+                    "x": 16,
+                    "y": 18.81
+                },
+                {
+                    "x": 13.6,
+                    "y": 15.45
+                },
+                {
+                    "x": 28.03,
+                    "y": 6.82
+                },
+                {
+                    "x": 28.26,
+                    "y": 23.09
+                },
+                {
+                    "x": 41.55,
+                    "y": 19.23
+                },
+                {
+                    "x": 48.64,
+                    "y": 22.39
+                },
+                {
+                    "x": 54.84,
+                    "y": 21.41
+                },
+                {
+                    "x": 66.15,
+                    "y": 29.21
+                },
+                {
+                    "x": 68.41,
+                    "y": 36.44
+                },
+                {
+                    "x": 72.8,
+                    "y": 40.81
+                },
+                {
+                    "x": 49.15,
+                    "y": 8.26
+                },
+                {
+                    "x": 85.92,
+                    "y": 7.35
+                },
+                {
+                    "x": 99.02,
+                    "y": 9.05
+                },
+                {
+                    "x": 76.4,
+                    "y": 2.16
+                },
+                {
+                    "x": 44.98,
+                    "y": 42.7
+                },
+                {
+                    "x": 67.17,
+                    "y": 26.94
+                },
+                {
+                    "x": 51.48,
+                    "y": 44.56
+                },
+                {
+                    "x": 17.57,
+                    "y": 60.46
+                },
+                {
+                    "x": 26.79,
+                    "y": 54.82
+                },
+                {
+                    "x": 26.46,
+                    "y": 64.13
+                },
+                {
+                    "x": 31.19,
+                    "y": 56.59
+                },
+                {
+                    "x": 35.58,
+                    "y": 62.03
+                },
+                {
+                    "x": 35.58,
+                    "y": 62.03
+                },
+                {
+                    "x": 68.75,
+                    "y": 64.46
+                },
+                {
+                    "x": 63.9,
+                    "y": 62.62
+                },
+                {
+                    "x": 62.89,
+                    "y": 61.44
+                },
+                {
+                    "x": 55.75,
+                    "y": 32.93
+                },
+                {
+                    "x": 76.07,
+                    "y": 33.62
+                },
+                {
+                    "x": 77.64,
+                    "y": 35.83
+                },
+                {
+                    "x": 81.02,
+                    "y": 37.51
+                },
+                {
+                    "x": 50.06,
+                    "y": 29.88
+                },
+                {
+                    "x": 70.21,
+                    "y": 52.06
+                },
+                {
+                    "x": 49.65,
+                    "y": 22.25
+                },
+                {
+                    "x": 61.34,
+                    "y": 30.87
+                },
+                {
+                    "x": 63.11,
+                    "y": 41.89
+                },
+                {
+                    "x": 11.2,
+                    "y": 36.59
+                },
+                {
+                    "x": 31.86,
+                    "y": 35.22
+                },
+                {
+                    "x": 41.44,
+                    "y": 44.56
+                },
+                {
+                    "x": 44.16,
+                    "y": 47.71
+                },
+                {
+                    "x": 44.77,
+                    "y": 45.82
+                },
+                {
+                    "x": 21.73,
+                    "y": 60.52
+                },
+                {
+                    "x": 13.5,
+                    "y": 55.08
+                },
+                {
+                    "x": 13.5,
+                    "y": 57.77
+                },
+                {
+                    "x": 29.16,
+                    "y": 32.78
+                },
+                {
+                    "x": 59.11,
+                    "y": 14.89
+                },
+                {
+                    "x": 58.8,
+                    "y": 10.63
+                },
+                {
+                    "x": 52.6,
+                    "y": 24.07
+                },
+                {
+                    "x": 67.96,
+                    "y": 19.09
+                },
+                {
+                    "x": 38.73,
+                    "y": 42.24
+                },
+                {
+                    "x": 38.73,
+                    "y": 42.24
+                },
+                {
+                    "x": 41.44,
+                    "y": 35.22
+                },
+                {
+                    "x": 56.06,
+                    "y": 21.41
+                },
+                {
+                    "x": 58.7,
+                    "y": 65.05
+                },
+                {
+                    "x": 58.7,
+                    "y": 63.8
+                },
+                {
+                    "x": 59.82,
+                    "y": 51.5
+                },
+                {
+                    "x": 14.7,
+                    "y": 41.54
+                },
+                {
+                    "x": 14.2,
+                    "y": 46.38
+                },
+                {
+                    "x": 48.54,
+                    "y": 24.07
+                },
+                {
+                    "x": 29.84,
+                    "y": 42.18
+                },
+                {
+                    "x": 37.38,
+                    "y": 44.77
+                },
+                {
+                    "x": 41.89,
+                    "y": 41.71
+                },
+                {
+                    "x": 47.11,
+                    "y": 49.4
+                },
+                {
+                    "x": 2.56,
+                    "y": 9.71
+                },
+                {
+                    "x": 3.98,
+                    "y": 9.25
+                },
+                {
+                    "x": 34.57,
+                    "y": 51.29
+                },
+                {
+                    "x": 41.1,
+                    "y": 49.19
+                },
+                {
+                    "x": 43.86,
+                    "y": 44.7
+                },
+                {
+                    "x": 46.4,
+                    "y": 57.11
+                },
+                {
+                    "x": 69.2,
+                    "y": 32.93
+                },
+                {
+                    "x": 50.16,
+                    "y": 37.28
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 50000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 920000,
+                "source": "scisports",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 1420000,
+                "currency": "EUR",
+                "lowerBound": 1070000,
+                "upperBound": 1780000,
+                "source": "scisports",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 3850000,
+                "currency": "EUR",
+                "lowerBound": 2890000,
+                "upperBound": 4820000,
+                "source": "scisports",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 6290000,
+                "currency": "EUR",
+                "lowerBound": 4720000,
+                "upperBound": 7860000,
+                "source": "scisports",
+                "teamId": 6304,
+                "teamName": "Kawasaki Frontale"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 5530000,
+                "currency": "EUR",
+                "lowerBound": 4150000,
+                "upperBound": 6910000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 4780000,
+                "currency": "EUR",
+                "lowerBound": 3580000,
+                "upperBound": 5970000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 4350000,
+                "currency": "EUR",
+                "lowerBound": 3270000,
+                "upperBound": 5440000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 3970000,
+                "currency": "EUR",
+                "lowerBound": 2970000,
+                "upperBound": 4960000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 3690000,
+                "currency": "EUR",
+                "lowerBound": 2770000,
+                "upperBound": 4620000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 3500000,
+                "currency": "EUR",
+                "lowerBound": 2630000,
+                "upperBound": 4380000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 3460000,
+                "currency": "EUR",
+                "lowerBound": 2600000,
+                "upperBound": 4330000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 3410000,
+                "currency": "EUR",
+                "lowerBound": 2560000,
+                "upperBound": 4260000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 3320000,
+                "currency": "EUR",
+                "lowerBound": 2490000,
+                "upperBound": 4140000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 5980000,
+                "currency": "EUR",
+                "lowerBound": 4480000,
+                "upperBound": 7470000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 6220000,
+                "currency": "EUR",
+                "lowerBound": 4660000,
+                "upperBound": 7770000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 5650000,
+                "currency": "EUR",
+                "lowerBound": 4240000,
+                "upperBound": 7060000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 5280000,
+                "currency": "EUR",
+                "lowerBound": 3960000,
+                "upperBound": 6600000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 5150000,
+                "currency": "EUR",
+                "lowerBound": 3860000,
+                "upperBound": 6440000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 4620000,
+                "currency": "EUR",
+                "lowerBound": 3460000,
+                "upperBound": 5770000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 4600000,
+                "currency": "EUR",
+                "lowerBound": 3450000,
+                "upperBound": 5750000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 4570000,
+                "currency": "EUR",
+                "lowerBound": 3430000,
+                "upperBound": 5710000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 4520000,
+                "currency": "EUR",
+                "lowerBound": 3390000,
+                "upperBound": 5660000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 4420000,
+                "currency": "EUR",
+                "lowerBound": 3310000,
+                "upperBound": 5520000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 4310000,
+                "currency": "EUR",
+                "lowerBound": 3230000,
+                "upperBound": 5380000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 4180000,
+                "currency": "EUR",
+                "lowerBound": 3140000,
+                "upperBound": 5230000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 3990000,
+                "currency": "EUR",
+                "lowerBound": 2990000,
+                "upperBound": 4990000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 3440000,
+                "currency": "EUR",
+                "lowerBound": 2580000,
+                "upperBound": 4300000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 2980000,
+                "currency": "EUR",
+                "lowerBound": 2230000,
+                "upperBound": 3720000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 2700000,
+                "currency": "EUR",
+                "lowerBound": 2020000,
+                "upperBound": 3370000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 2480000,
+                "currency": "EUR",
+                "lowerBound": 1860000,
+                "upperBound": 3100000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 2360000,
+                "currency": "EUR",
+                "lowerBound": 1770000,
+                "upperBound": 2960000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 2320000,
+                "currency": "EUR",
+                "lowerBound": 1740000,
+                "upperBound": 2900000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 2330000,
+                "currency": "EUR",
+                "lowerBound": 1750000,
+                "upperBound": 2910000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 2910000,
+                "currency": "EUR",
+                "lowerBound": 2328000,
+                "upperBound": 3492000,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 3492000,
+                "currency": "EUR",
+                "lowerBound": 2793600,
+                "upperBound": 4190400,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 4190400,
+                "currency": "EUR",
+                "lowerBound": 3352320,
+                "upperBound": 5028480,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 4449178,
+                "currency": "EUR",
+                "lowerBound": 3559342,
+                "upperBound": 5339013,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 4383887,
+                "currency": "EUR",
+                "lowerBound": 3507110,
+                "upperBound": 5260665,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 4383555,
+                "currency": "EUR",
+                "lowerBound": 3506844,
+                "upperBound": 5260266,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 5002337,
+                "currency": "EUR",
+                "lowerBound": 4251987,
+                "upperBound": 5752688,
+                "source": "scisports",
+                "teamId": 8194,
+                "teamName": "Fortuna D\u00fcsseldorf"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 4320289,
+                "currency": "EUR",
+                "lowerBound": 3456231,
+                "upperBound": 5184346,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 4134893,
+                "currency": "EUR",
+                "lowerBound": 3307915,
+                "upperBound": 4961872,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 3992584,
+                "currency": "EUR",
+                "lowerBound": 3194067,
+                "upperBound": 4791101,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 3993679,
+                "currency": "EUR",
+                "lowerBound": 3194943,
+                "upperBound": 4792415,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 4118968,
+                "currency": "EUR",
+                "lowerBound": 3295174,
+                "upperBound": 4942762,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 4274387,
+                "currency": "EUR",
+                "lowerBound": 3419509,
+                "upperBound": 5129264,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 4063323,
+                "currency": "EUR",
+                "lowerBound": 3250658,
+                "upperBound": 4875988,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 9456591,
+                "currency": "EUR",
+                "lowerBound": 8038102,
+                "upperBound": 10875079,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 9410623,
+                "currency": "EUR",
+                "lowerBound": 7999030,
+                "upperBound": 10822217,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 9410623,
+                "currency": "EUR",
+                "lowerBound": 7999030,
+                "upperBound": 10822217,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 11515580,
+                "currency": "EUR",
+                "lowerBound": 10364022,
+                "upperBound": 12667138,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 14203587,
+                "currency": "EUR",
+                "lowerBound": 12783229,
+                "upperBound": 15623946,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 14172212,
+                "currency": "EUR",
+                "lowerBound": 12754991,
+                "upperBound": 15589433,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 13377908,
+                "currency": "EUR",
+                "lowerBound": 12040117,
+                "upperBound": 14715698,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 13377908,
+                "currency": "EUR",
+                "lowerBound": 12040117,
+                "upperBound": 14715698,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 12912030,
+                "currency": "EUR",
+                "lowerBound": 11620827,
+                "upperBound": 14203233,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 13180346,
+                "currency": "EUR",
+                "lowerBound": 11862312,
+                "upperBound": 14498381,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 13119106,
+                "currency": "EUR",
+                "lowerBound": 11807195,
+                "upperBound": 14431016,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 13119106,
+                "currency": "EUR",
+                "lowerBound": 11807195,
+                "upperBound": 14431016,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 13208730,
+                "currency": "EUR",
+                "lowerBound": 11887857,
+                "upperBound": 14529603,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 12091809,
+                "currency": "EUR",
+                "lowerBound": 10882628,
+                "upperBound": 13300990,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 12091809,
+                "currency": "EUR",
+                "lowerBound": 10882628,
+                "upperBound": 13300990,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 10882628,
+                "currency": "EUR",
+                "lowerBound": 9794365,
+                "upperBound": 11970890,
+                "source": "scisports",
+                "teamId": 8463,
+                "teamName": "Leeds United"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 494417,
+                "name": "Harry Wilson"
+            },
+            {
+                "id": 751649,
+                "name": "Jack Harrison"
+            },
+            {
+                "id": 956161,
+                "name": "Joe Gelhardt"
+            },
+            {
+                "id": 1077915,
+                "name": "Largie Ramazani"
+            },
+            {
+                "id": 1344677,
+                "name": "Mateo Joseph"
+            },
+            {
+                "id": 701149,
+                "name": "Maximilian W\u00f6ber"
+            },
+            {
+                "id": 1250485,
+                "name": "Tarik Muharemovic"
+            },
+            {
+                "id": 637656,
+                "name": "Lucas Perri"
+            },
+            {
+                "id": 789646,
+                "name": "Jayden Bogle"
+            },
+            {
+                "id": 744494,
+                "name": "Gabriel Gudmundsson"
+            },
+            {
+                "id": 780432,
+                "name": "Ethan Ampadu"
+            },
+            {
+                "id": 717174,
+                "name": "Joe Rodon"
+            },
+            {
+                "id": 717176,
+                "name": "Daniel James"
+            },
+            {
+                "id": 820024,
+                "name": "Sean Longstaff"
+            },
+            {
+                "id": 612150,
+                "name": "Dominic Calvert-Lewin"
+            },
+            {
+                "id": 792540,
+                "name": "Jo\u00ebl Piroe"
+            },
+            {
+                "id": 952322,
+                "name": "Brenden Aaronson"
+            },
+            {
+                "id": 861197,
+                "name": "Lukas Nmecha"
+            },
+            {
+                "id": 861805,
+                "name": "Jaka Bijol"
+            },
+            {
+                "id": 881735,
+                "name": "Anton Stach"
+            },
+            {
+                "id": 915797,
+                "name": "Noah Okafor"
+            },
+            {
+                "id": 279481,
+                "name": "Alex Cairns"
+            },
+            {
+                "id": 922892,
+                "name": "Sebastiaan Bornauw"
+            },
+            {
+                "id": 710158,
+                "name": "James Justin"
+            },
+            {
+                "id": 363318,
+                "name": "Sam Byram"
+            },
+            {
+                "id": 1107286,
+                "name": "Wilfried Gnonto"
+            },
+            {
+                "id": 1080983,
+                "name": "Ilia Gruev"
+            },
+            {
+                "id": 1398938,
+                "name": "Charlie Crew"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1053679,
+                "name": "Zion Suzuki"
+            },
+            {
+                "id": 924610,
+                "name": "Yukinari Sugawara"
+            },
+            {
+                "id": 523731,
+                "name": "Shogo Taniguchi"
+            },
+            {
+                "id": 620917,
+                "name": "Ko Itakura"
+            },
+            {
+                "id": 98254,
+                "name": "Yuto Nagatomo"
+            },
+            {
+                "id": 915111,
+                "name": "Shuto Machino"
+            },
+            {
+                "id": 848289,
+                "name": "Takefusa Kubo"
+            },
+            {
+                "id": 1436730,
+                "name": "Keisuke Goto"
+            },
+            {
+                "id": 629805,
+                "name": "Ritsu Doan"
+            },
+            {
+                "id": 728765,
+                "name": "Daizen Maeda"
+            },
+            {
+                "id": 922808,
+                "name": "Keisuke Osako"
+            },
+            {
+                "id": 887704,
+                "name": "Keito Nakamura"
+            },
+            {
+                "id": 604044,
+                "name": "Junya Ito"
+            },
+            {
+                "id": 621515,
+                "name": "Daichi Kamada"
+            },
+            {
+                "id": 1023887,
+                "name": "Tsuyoshi Watanabe"
+            },
+            {
+                "id": 1134467,
+                "name": "Yuito Suzuki"
+            },
+            {
+                "id": 942393,
+                "name": "Ayase Ueda"
+            },
+            {
+                "id": 727837,
+                "name": "Koki Ogawa"
+            },
+            {
+                "id": 857120,
+                "name": "Ayumu Seko"
+            },
+            {
+                "id": 851626,
+                "name": "Hiroki Ito"
+            },
+            {
+                "id": 664444,
+                "name": "Takehiro Tomiyasu"
+            },
+            {
+                "id": 1232143,
+                "name": "Tomoki Hayakawa"
+            },
+            {
+                "id": 1033111,
+                "name": "Kaishu Sano"
+            },
+            {
+                "id": 1337765,
+                "name": "Junnosuke Suzuki"
+            },
+            {
+                "id": 1611223,
+                "name": "Kento Shiogai"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5739317,
+        "homeId": 8463,
+        "awayId": 9841,
+        "homeName": "Leeds United",
+        "awayName": "Wrexham",
+        "matchDate": "2026-07-24T23:30:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-24T23:30:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {},
+        "matchUrl": "/matches/leeds-united-vs-wrexham/2rqwj5#5739317"
+    },
+    "dataProvider": "enet"
+}

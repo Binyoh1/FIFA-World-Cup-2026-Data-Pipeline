@@ -1,0 +1,4829 @@
+{
+    "id": 634110,
+    "name": "Carlens Arcus",
+    "birthDate": {
+        "utcTime": "1996-06-28T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8121,
+        "teamName": "Angers",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#000000",
+            "colorAlternate": "#ffffff",
+            "colorAway": "#D72B1F",
+            "colorAwayAlternate": "#D72B1F"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Back",
+                    "key": "rightback"
+                },
+                "strPosShort": {
+                    "label": "RB",
+                    "key": "rightback_short"
+                },
+                "occurences": 27,
+                "position": "32",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.74
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 4,
+                "position": "33",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.74,
+                    "ratio": 0.3212121212121212
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 1,
+                "position": "51",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "71",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Back",
+            "key": "rightback"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Center Back",
+                "key": "centerback"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 2,
+                "options": {},
+                "key": null,
+                "fallback": 2
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 30,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "30"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Haiti"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "HAI"
+            },
+            "countryCode": "HAI"
+        },
+        {
+            "value": {
+                "numberValue": 1039378,
+                "key": null,
+                "fallback": "\u20ac1m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 53,
+        "leagueName": "Ligue 1",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 0
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 24
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 26
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2044
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.82
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 7
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "FRA",
+                "teamId": 10242,
+                "teamName": "Troyes",
+                "tournaments": [
+                    {
+                        "ccode": "FRA",
+                        "leagueId": 110,
+                        "leagueName": "Ligue 2",
+                        "seasonsWon": [
+                            "2014/2015"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667767,
+            "matchDate": {
+                "utcTime": "2026-06-20T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-brazil/1ny7ix#4667767",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 51,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 4667765,
+            "matchDate": {
+                "utcTime": "2026-06-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-scotland/1q0g2q#4667765",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5729844,
+            "matchDate": {
+                "utcTime": "2026-06-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-haiti/14zaw0#5729844",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": true,
+            "id": 5629010,
+            "matchDate": {
+                "utcTime": "2026-06-03T00:36:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-haiti/154u8l#5629010",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 1,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8521,
+            "opponentTeamName": "Brest",
+            "isHomeTeam": false,
+            "id": 4830755,
+            "matchDate": {
+                "utcTime": "2026-05-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-brest/2agfd8#4830755",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": true,
+            "id": 4830746,
+            "matchDate": {
+                "utcTime": "2026-05-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-strasbourg/2o4och#4830746",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8583,
+            "opponentTeamName": "Auxerre",
+            "isHomeTeam": false,
+            "id": 4830737,
+            "matchDate": {
+                "utcTime": "2026-05-03T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-auxerre/2b2l2f#4830737",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9831,
+            "opponentTeamName": "Nice",
+            "isHomeTeam": true,
+            "id": 4830683,
+            "matchDate": {
+                "utcTime": "2026-03-14T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-nice/2ny4qf#4830683",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9830,
+            "opponentTeamName": "Nantes",
+            "isHomeTeam": false,
+            "id": 4830679,
+            "matchDate": {
+                "utcTime": "2026-03-07T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-nantes/2nxqvq#4830679",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": false,
+            "id": 4830670,
+            "matchDate": {
+                "utcTime": "2026-02-28T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-monaco/2nxd12#4830670",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8689,
+            "opponentTeamName": "Lorient",
+            "isHomeTeam": false,
+            "id": 4830649,
+            "matchDate": {
+                "utcTime": "2026-02-15T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-lorient/2c4nqw#4830649",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9941,
+            "opponentTeamName": "Toulouse",
+            "isHomeTeam": true,
+            "id": 4830638,
+            "matchDate": {
+                "utcTime": "2026-02-08T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-toulouse/2p4l8e#4830638",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8550,
+            "opponentTeamName": "Metz",
+            "isHomeTeam": true,
+            "id": 4830629,
+            "matchDate": {
+                "utcTime": "2026-02-01T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-metz/2aqs46#4830629",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 6379,
+            "opponentTeamName": "Paris FC",
+            "isHomeTeam": false,
+            "id": 4830627,
+            "matchDate": {
+                "utcTime": "2026-01-25T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-fc-vs-angers/1qlitv#4830627",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": true,
+            "id": 4830611,
+            "matchDate": {
+                "utcTime": "2026-01-17T20:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-marseille/2b5t3x#4830611",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 5,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9941,
+            "opponentTeamName": "Toulouse",
+            "isHomeTeam": true,
+            "id": 5108149,
+            "matchDate": {
+                "utcTime": "2026-01-10T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-toulouse/2p4l8e#5108149",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9746,
+            "opponentTeamName": "Le Havre",
+            "isHomeTeam": false,
+            "id": 4830603,
+            "matchDate": {
+                "utcTime": "2026-01-04T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-le-havre/2n1i0k#4830603",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 191098,
+            "opponentTeamName": "Les Herbiers",
+            "isHomeTeam": false,
+            "id": 5079002,
+            "matchDate": {
+                "utcTime": "2025-12-19T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-les-herbiers/946qciv#5079002",
+            "leagueId": 134,
+            "leagueName": "Coupe de France",
+            "stage": "1/32",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9830,
+            "opponentTeamName": "Nantes",
+            "isHomeTeam": true,
+            "id": 4830593,
+            "matchDate": {
+                "utcTime": "2025-12-12T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-nantes/2nxqvq#4830593",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9831,
+            "opponentTeamName": "Nice",
+            "isHomeTeam": false,
+            "id": 4830590,
+            "matchDate": {
+                "utcTime": "2025-12-07T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-nice/2ny4qf#4830590",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8588,
+            "opponentTeamName": "Lens",
+            "isHomeTeam": true,
+            "id": 4830575,
+            "matchDate": {
+                "utcTime": "2025-11-30T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-lens/2b4diz#4830575",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9941,
+            "opponentTeamName": "Toulouse",
+            "isHomeTeam": false,
+            "id": 4830574,
+            "matchDate": {
+                "utcTime": "2025-11-23T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-toulouse/2p4l8e#4830574",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": true,
+            "id": 4822558,
+            "matchDate": {
+                "utcTime": "2025-11-19T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822558",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": true,
+            "id": 4822555,
+            "matchDate": {
+                "utcTime": "2025-11-14T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822555",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8583,
+            "opponentTeamName": "Auxerre",
+            "isHomeTeam": true,
+            "id": 4830557,
+            "matchDate": {
+                "utcTime": "2025-11-09T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-auxerre/2b2l2f#4830557",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8639,
+            "opponentTeamName": "Lille",
+            "isHomeTeam": false,
+            "id": 4830551,
+            "matchDate": {
+                "utcTime": "2025-11-02T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-lille/2bmo4b#4830551",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": false,
+            "id": 4830541,
+            "matchDate": {
+                "utcTime": "2025-10-29T20:05:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-marseille/2b5t3x#4830541",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8689,
+            "opponentTeamName": "Lorient",
+            "isHomeTeam": true,
+            "id": 4830530,
+            "matchDate": {
+                "utcTime": "2025-10-26T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-lorient/2c4nqw#4830530",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9829,
+            "opponentTeamName": "Monaco",
+            "isHomeTeam": true,
+            "id": 4830521,
+            "matchDate": {
+                "utcTime": "2025-10-18T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-monaco/2nxd12#4830521",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": false,
+            "id": 4822552,
+            "matchDate": {
+                "utcTime": "2025-10-10T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822552",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9848,
+            "opponentTeamName": "Strasbourg",
+            "isHomeTeam": false,
+            "id": 4830520,
+            "matchDate": {
+                "utcTime": "2025-10-05T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-strasbourg/2o4och#4830520",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "4.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8521,
+            "opponentTeamName": "Brest",
+            "isHomeTeam": true,
+            "id": 4830503,
+            "matchDate": {
+                "utcTime": "2025-09-28T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-brest/2agfd8#4830503",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9748,
+            "opponentTeamName": "Lyon",
+            "isHomeTeam": false,
+            "id": 4830498,
+            "matchDate": {
+                "utcTime": "2025-09-19T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-lyon/2n29lb#4830498",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 8550,
+            "opponentTeamName": "Metz",
+            "isHomeTeam": false,
+            "id": 4830489,
+            "matchDate": {
+                "utcTime": "2025-09-14T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-metz/2aqs46#4830489",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": false,
+            "id": 4822549,
+            "matchDate": {
+                "utcTime": "2025-09-10T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822549",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": true,
+            "id": 4822548,
+            "matchDate": {
+                "utcTime": "2025-09-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822548",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9851,
+            "opponentTeamName": "Rennes",
+            "isHomeTeam": true,
+            "id": 4830476,
+            "matchDate": {
+                "utcTime": "2025-08-31T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-rennes/2o5ty5#4830476",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 32,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": false,
+            "id": 4830473,
+            "matchDate": {
+                "utcTime": "2025-08-22T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/angers-vs-paris-saint-germain/2o4ahb#4830473",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8121,
+            "teamName": "Angers",
+            "opponentTeamId": 6379,
+            "opponentTeamName": "Paris FC",
+            "isHomeTeam": true,
+            "id": 4830458,
+            "matchDate": {
+                "utcTime": "2025-08-17T15:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/paris-fc-vs-angers/1qlitv#4830458",
+            "leagueId": 53,
+            "leagueName": "Ligue 1",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 33,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 634110,
+                        "teamId": 8121,
+                        "team": "Angers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2024-07-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "58",
+                        "goals": "0",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 8277,
+                        "team": "Vitesse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2024-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "62",
+                        "goals": "1",
+                        "assists": "7",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "128",
+                        "goals": "3",
+                        "assists": "11",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 213355,
+                        "team": "Auxerre B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-04-01T00:00:00",
+                        "endDate": "2019-09-02T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2017-08-30T00:00:00",
+                        "endDate": "2018-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "33",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 9984,
+                        "team": "Cercle Brugge",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-07-01T00:00:00",
+                        "endDate": "2017-08-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 8639,
+                        "team": "Lille",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-09T00:00:00",
+                        "endDate": "2017-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 213344,
+                        "team": "Lille B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-09T00:00:00",
+                        "endDate": "2017-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "19",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 10242,
+                        "team": "Troyes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-04-01T00:00:00",
+                        "endDate": "2016-07-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 558663,
+                        "team": "Troyes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-02-15T00:00:00",
+                        "endDate": "2016-07-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "25",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "28",
+                        "goals": "0",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "6.81"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27212,
+                                "goals": "0",
+                                "assists": "3",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "6.82"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28916,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.75"
+                                }
+                            }
+                        ],
+                        "teamId": 8121,
+                        "team": "Angers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "30",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.66"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23724,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.70"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.16"
+                                }
+                            }
+                        ],
+                        "teamId": 8121,
+                        "team": "Angers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "31",
+                        "goals": "0",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "6.94"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21111,
+                                "goals": "0",
+                                "assists": "4",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22047,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.25"
+                                }
+                            }
+                        ],
+                        "teamId": 8277,
+                        "team": "Vitesse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "31",
+                        "goals": "1",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.07"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17789,
+                                "goals": "1",
+                                "assists": "3",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "7.07"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18277,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8277,
+                        "team": "Vitesse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "35",
+                        "goals": "1",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.46"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16500,
+                                "goals": "1",
+                                "assists": "4",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16985,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Play-offs 1/2",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "38",
+                        "goals": "0",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15294,
+                                "goals": "0",
+                                "assists": "5",
+                                "appearances": "38",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            }
+                        ],
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "25",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.01"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14028,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": "7.01"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14634,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "30",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.88"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12738,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.88"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 150,
+                                "leagueName": "Coupe de la Ligue",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12954,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 3",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213355,
+                        "team": "Auxerre B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "33",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11525,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 12102,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8583,
+                        "team": "Auxerre",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11915,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9984,
+                        "team": "Cercle Brugge",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10949,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8639,
+                        "team": "Lille",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "19",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2016/2017",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 213344,
+                        "team": "Lille B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 110,
+                                "leagueName": "Ligue 2",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8548,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10242,
+                        "team": "Troyes",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "17",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2015/2016",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 558663,
+                        "team": "Troyes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 2",
+                                "seasonName": "2014/2015",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 558663,
+                        "team": "Troyes B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 634110,
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-05-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "56",
+                        "goals": "1",
+                        "assists": "5",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 634110,
+                        "teamId": 78793,
+                        "team": "Haiti U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2012-07-01T00:00:00",
+                        "endDate": "2016-09-26T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "5.87"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "5.67"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.19"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.66"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25901,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.66"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.56"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9821,
+                                "leagueName": "CONCACAF Nations League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23542,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.56"
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.93"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 19561,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9821,
+                                "leagueName": "CONCACAF Nations League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21463,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.24"
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9821,
+                                "leagueName": "CONCACAF Nations League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17526,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.85"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2021",
+                                "tournamentId": 15706,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.85"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf Gold Cup Qualification",
+                                "seasonName": "2021",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2019",
+                                "tournamentId": 13392,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": 13365,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9821,
+                                "leagueName": "CONCACAF Nations League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 13761,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2018",
+                                "tournamentId": 11352,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf Nations League Qualific",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2017",
+                                "tournamentId": 10882,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf U17",
+                                "seasonName": "2013",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 78793,
+                        "team": "Haiti U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_fullbacks",
+        "title": "Stats compared to other fullbacks",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.35
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.63
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.79
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.16
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.62
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "carlens-arcus",
+        "pageurl": "/players/634110/carlens-arcus",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Carlens Arcus?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus is 30 years old. Born on Fri Jun 28 1996."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Carlens Arcus?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Carlens Arcus born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus was born Fri Jun 28 1996 and is now 30 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Carlens Arcus's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Carlens Arcus's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus's transfer value is estimated to be around \u20ac1m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Carlens Arcus from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus is from Haiti."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Carlens Arcus scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Carlens Arcus has scored 0 goals in the Ligue 1."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Carlens Arcus",
+            "birthDate": "1996-06-28T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/634110/carlens-arcus",
+            "nationality": {
+                "@type": "Country",
+                "name": "Haiti"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Angers"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "75"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ligue 1 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/53/overview/ligue-1-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Angers",
+                    "item": "https://www.fotmob.com/teams/8121/overview/angers"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Carlens Arcus",
+                    "item": "https://www.fotmob.com/leagues/634110/overview/carlens-arcus"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONCACAF qualification",
+                    "tournamentId": 10198,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Nations League",
+                    "tournamentId": 9821,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Nations League",
+                    "tournamentId": 9821,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONCACAF qualification",
+                    "tournamentId": 10198,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "7-1",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "Ligue 2",
+                    "tournamentId": 110,
+                    "entryId": "9-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.05925547254496607,
+                            "percentileRank": 40.845070422535215,
+                            "percentileRankPer90": 52.816901408450704,
+                            "statFormat": "fraction",
+                            "statValue": "0.10",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 29.172413793103445,
+                            "percentileRank": 28.169014084507044,
+                            "percentileRankPer90": 41.54929577464789,
+                            "statFormat": "number",
+                            "statValue": "47",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 92.15686274509804,
+                            "percentileRank": 92.25352112676056,
+                            "percentileRankPer90": 92.25352112676056,
+                            "statFormat": "percent",
+                            "statValue": "92.2",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 1.2413793103448276,
+                            "percentileRank": 28.169014084507044,
+                            "percentileRankPer90": 56.33802816901409,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 66.66666666666667,
+                            "percentileRank": 83.09859154929578,
+                            "percentileRankPer90": 83.09859154929578,
+                            "statFormat": "percent",
+                            "statValue": "66.7",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.6206896551724138,
+                            "percentileRank": 18.30985915492958,
+                            "percentileRankPer90": 45.07042253521127,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.6206896551724138,
+                            "percentileRank": 40.140845070422536,
+                            "percentileRankPer90": 63.38028169014085,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 50,
+                            "percentileRank": 90.84507042253522,
+                            "percentileRankPer90": 90.84507042253522,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 3.7241379310344827,
+                            "percentileRank": 24.647887323943664,
+                            "percentileRankPer90": 31.690140845070424,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 35.294117647058826,
+                            "percentileRank": 6.338028169014084,
+                            "percentileRankPer90": 6.338028169014084,
+                            "statFormat": "percent",
+                            "statValue": "35.3",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 49.03448275862069,
+                            "percentileRank": 19.014084507042252,
+                            "percentileRankPer90": 15.492957746478872,
+                            "statFormat": "number",
+                            "statValue": "79",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.8620689655172413,
+                            "percentileRank": 62.676056338028175,
+                            "percentileRankPer90": 82.3943661971831,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 6.206896551724138,
+                            "percentileRank": 26.056338028169012,
+                            "percentileRankPer90": 52.816901408450704,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.8620689655172413,
+                            "percentileRank": 27.464788732394368,
+                            "percentileRankPer90": 42.95774647887324,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 1.8620689655172413,
+                            "percentileRank": 52.816901408450704,
+                            "percentileRankPer90": 85.2112676056338,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 3.103448275862069,
+                            "percentileRank": 21.830985915492956,
+                            "percentileRankPer90": 2.8169014084507045,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 0.6206896551724138,
+                            "percentileRank": 4.225352112676056,
+                            "percentileRankPer90": 4.225352112676056,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 1.2413793103448276,
+                            "percentileRank": 39.436619718309856,
+                            "percentileRankPer90": 28.87323943661972,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 2.4827586206896552,
+                            "percentileRank": 23.943661971830984,
+                            "percentileRankPer90": 50,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 3.103448275862069,
+                            "percentileRank": 25.352112676056336,
+                            "percentileRankPer90": 7.746478873239436,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 2.1117103346462907,
+                            "percentileRank": 50.70422535211267,
+                            "percentileRankPer90": 14.788732394366196,
+                            "statFormat": "fraction",
+                            "statValue": "3.40",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0.6206896551724138,
+                            "percentileRank": 4.225352112676056,
+                            "percentileRankPer90": 4.929577464788732,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 5.666666666666667,
+                    "percentileRank": 0.7042253521126761,
+                    "percentileRankPer90": 0.7042253521126761,
+                    "statFormat": "fraction",
+                    "statValue": "5.67",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 27.464788732394368,
+                    "percentileRankPer90": 27.464788732394368,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 25.352112676056336,
+                    "percentileRankPer90": 88.73239436619718,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 24.647887323943664,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "145",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 30.74,
+                    "y": 57.57
+                },
+                {
+                    "x": 29.95,
+                    "y": 63.28
+                },
+                {
+                    "x": 58.29,
+                    "y": 58.42
+                },
+                {
+                    "x": 33.78,
+                    "y": 68
+                },
+                {
+                    "x": 44.06,
+                    "y": 48.2
+                },
+                {
+                    "x": 52.09,
+                    "y": 54.82
+                },
+                {
+                    "x": 49.45,
+                    "y": 47.64
+                },
+                {
+                    "x": 39.75,
+                    "y": 52.83
+                },
+                {
+                    "x": 12.2,
+                    "y": 62.1
+                },
+                {
+                    "x": 58.9,
+                    "y": 64.13
+                },
+                {
+                    "x": 18.33,
+                    "y": 63.54
+                },
+                {
+                    "x": 68.63,
+                    "y": 54.62
+                },
+                {
+                    "x": 67.39,
+                    "y": 57.96
+                },
+                {
+                    "x": 67.39,
+                    "y": 46.66
+                },
+                {
+                    "x": 14.5,
+                    "y": 47.64
+                },
+                {
+                    "x": 41.1,
+                    "y": 45.47
+                },
+                {
+                    "x": 91.1,
+                    "y": 43.58
+                },
+                {
+                    "x": 59.21,
+                    "y": 64.46
+                },
+                {
+                    "x": 38.17,
+                    "y": 51.85
+                },
+                {
+                    "x": 97.57,
+                    "y": 61.18
+                },
+                {
+                    "x": 59.82,
+                    "y": 49.75
+                },
+                {
+                    "x": 24.99,
+                    "y": 54.68
+                },
+                {
+                    "x": 17.9,
+                    "y": 52.13
+                },
+                {
+                    "x": 39.75,
+                    "y": 57.18
+                },
+                {
+                    "x": 45.99,
+                    "y": 59.34
+                },
+                {
+                    "x": 29.38,
+                    "y": 68
+                },
+                {
+                    "x": 7.53,
+                    "y": 41.66
+                },
+                {
+                    "x": 56.16,
+                    "y": 54.29
+                },
+                {
+                    "x": 76.97,
+                    "y": 63.93
+                },
+                {
+                    "x": 81.02,
+                    "y": 63.41
+                },
+                {
+                    "x": 32.31,
+                    "y": 47.92
+                },
+                {
+                    "x": 62.66,
+                    "y": 62.62
+                },
+                {
+                    "x": 81.36,
+                    "y": 62.03
+                },
+                {
+                    "x": 73.14,
+                    "y": 47.08
+                },
+                {
+                    "x": 33.21,
+                    "y": 56.06
+                },
+                {
+                    "x": 74.26,
+                    "y": 63.15
+                },
+                {
+                    "x": 38.85,
+                    "y": 46.94
+                },
+                {
+                    "x": 56.77,
+                    "y": 48.27
+                },
+                {
+                    "x": 67.51,
+                    "y": 49.19
+                },
+                {
+                    "x": 64.35,
+                    "y": 34.69
+                },
+                {
+                    "x": 38.85,
+                    "y": 58.69
+                },
+                {
+                    "x": 24.65,
+                    "y": 51.36
+                },
+                {
+                    "x": 28.37,
+                    "y": 68
+                },
+                {
+                    "x": 61.24,
+                    "y": 62.36
+                },
+                {
+                    "x": 66.83,
+                    "y": 68
+                },
+                {
+                    "x": 92.4,
+                    "y": 65.7
+                },
+                {
+                    "x": 61.34,
+                    "y": 62.36
+                },
+                {
+                    "x": 75.05,
+                    "y": 55.8
+                },
+                {
+                    "x": 75.39,
+                    "y": 56.78
+                },
+                {
+                    "x": 23.08,
+                    "y": 62.03
+                },
+                {
+                    "x": 60.12,
+                    "y": 43.04
+                },
+                {
+                    "x": 2.94,
+                    "y": 46.66
+                },
+                {
+                    "x": 65.14,
+                    "y": 60.46
+                },
+                {
+                    "x": 58.19,
+                    "y": 39.8
+                },
+                {
+                    "x": 24.09,
+                    "y": 68
+                },
+                {
+                    "x": 19.08,
+                    "y": 42.18
+                },
+                {
+                    "x": 21.84,
+                    "y": 37.95
+                },
+                {
+                    "x": 43.01,
+                    "y": 63.01
+                },
+                {
+                    "x": 36.59,
+                    "y": 59.87
+                },
+                {
+                    "x": 67.84,
+                    "y": 65.38
+                },
+                {
+                    "x": 78.09,
+                    "y": 58.29
+                },
+                {
+                    "x": 94.1,
+                    "y": 68
+                },
+                {
+                    "x": 91.5,
+                    "y": 65.18
+                },
+                {
+                    "x": 38.39,
+                    "y": 63.67
+                },
+                {
+                    "x": 27.58,
+                    "y": 50.59
+                },
+                {
+                    "x": 64.02,
+                    "y": 64.06
+                },
+                {
+                    "x": 67.06,
+                    "y": 63.15
+                },
+                {
+                    "x": 61.55,
+                    "y": 53.46
+                },
+                {
+                    "x": 5.79,
+                    "y": 48.91
+                },
+                {
+                    "x": 0,
+                    "y": 49.19
+                },
+                {
+                    "x": 58.8,
+                    "y": 64.06
+                },
+                {
+                    "x": 99.69,
+                    "y": 65.25
+                },
+                {
+                    "x": 42.67,
+                    "y": 55.93
+                },
+                {
+                    "x": 43.35,
+                    "y": 65.25
+                },
+                {
+                    "x": 79.22,
+                    "y": 68
+                },
+                {
+                    "x": 21.84,
+                    "y": 63.87
+                },
+                {
+                    "x": 21.28,
+                    "y": 47.71
+                },
+                {
+                    "x": 28.26,
+                    "y": 57.77
+                },
+                {
+                    "x": 62.78,
+                    "y": 45.47
+                },
+                {
+                    "x": 19.94,
+                    "y": 49.54
+                },
+                {
+                    "x": 58.7,
+                    "y": 62.56
+                },
+                {
+                    "x": 50.57,
+                    "y": 68
+                },
+                {
+                    "x": 45.89,
+                    "y": 63.54
+                },
+                {
+                    "x": 64.47,
+                    "y": 68
+                },
+                {
+                    "x": 59.62,
+                    "y": 68
+                },
+                {
+                    "x": 60.84,
+                    "y": 63.74
+                },
+                {
+                    "x": 62.1,
+                    "y": 59.28
+                },
+                {
+                    "x": 32.09,
+                    "y": 60.65
+                },
+                {
+                    "x": 0.76,
+                    "y": 50.59
+                },
+                {
+                    "x": 0.95,
+                    "y": 50.59
+                },
+                {
+                    "x": 58.9,
+                    "y": 62.62
+                },
+                {
+                    "x": 58.9,
+                    "y": 62.62
+                },
+                {
+                    "x": 33.78,
+                    "y": 49.05
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2014-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 558663,
+                "teamName": "Troyes B",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-06-30T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 10242,
+                "teamName": "Troyes",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 10242,
+                "teamName": "Troyes"
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 8639,
+                "teamName": "Lille"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 410000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 510000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 920000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 730000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 910000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 720000,
+                "currency": "EUR",
+                "lowerBound": 540000,
+                "upperBound": 900000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 690000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 860000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 660000,
+                "currency": "EUR",
+                "lowerBound": 500000,
+                "upperBound": 830000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 730000,
+                "currency": "EUR",
+                "lowerBound": 540000,
+                "upperBound": 910000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 790000,
+                "currency": "EUR",
+                "lowerBound": 590000,
+                "upperBound": 990000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 670000,
+                "currency": "EUR",
+                "lowerBound": 510000,
+                "upperBound": 840000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 900000,
+                "currency": "EUR",
+                "lowerBound": 680000,
+                "upperBound": 1130000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 970000,
+                "currency": "EUR",
+                "lowerBound": 730000,
+                "upperBound": 1210000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 990000,
+                "currency": "EUR",
+                "lowerBound": 740000,
+                "upperBound": 1240000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 1000000,
+                "currency": "EUR",
+                "lowerBound": 750000,
+                "upperBound": 1250000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 730000,
+                "currency": "EUR",
+                "lowerBound": 550000,
+                "upperBound": 910000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 630000,
+                "currency": "EUR",
+                "lowerBound": 470000,
+                "upperBound": 790000,
+                "source": "scisports",
+                "teamId": 8583,
+                "teamName": "Auxerre"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 510000,
+                "currency": "EUR",
+                "lowerBound": 390000,
+                "upperBound": 640000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 1430000,
+                "currency": "EUR",
+                "lowerBound": 1070000,
+                "upperBound": 1790000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 1460000,
+                "currency": "EUR",
+                "lowerBound": 1100000,
+                "upperBound": 1830000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 1460000,
+                "currency": "EUR",
+                "lowerBound": 1100000,
+                "upperBound": 1830000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 1470000,
+                "currency": "EUR",
+                "lowerBound": 1100000,
+                "upperBound": 1830000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 1360000,
+                "currency": "EUR",
+                "lowerBound": 1020000,
+                "upperBound": 1690000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 1360000,
+                "currency": "EUR",
+                "lowerBound": 1020000,
+                "upperBound": 1700000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 1370000,
+                "currency": "EUR",
+                "lowerBound": 1030000,
+                "upperBound": 1710000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 1380000,
+                "currency": "EUR",
+                "lowerBound": 1040000,
+                "upperBound": 1730000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 1400000,
+                "currency": "EUR",
+                "lowerBound": 1050000,
+                "upperBound": 1750000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 1420000,
+                "currency": "EUR",
+                "lowerBound": 1070000,
+                "upperBound": 1780000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 1480000,
+                "currency": "EUR",
+                "lowerBound": 1110000,
+                "upperBound": 1840000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 1520000,
+                "currency": "EUR",
+                "lowerBound": 1140000,
+                "upperBound": 1900000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 1610000,
+                "currency": "EUR",
+                "lowerBound": 1210000,
+                "upperBound": 2010000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 1670000,
+                "currency": "EUR",
+                "lowerBound": 1260000,
+                "upperBound": 2090000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 1730000,
+                "currency": "EUR",
+                "lowerBound": 1300000,
+                "upperBound": 2160000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 1700000,
+                "currency": "EUR",
+                "lowerBound": 1270000,
+                "upperBound": 2120000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 1710000,
+                "currency": "EUR",
+                "lowerBound": 1280000,
+                "upperBound": 2140000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 1760000,
+                "currency": "EUR",
+                "lowerBound": 1320000,
+                "upperBound": 2200000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 1800000,
+                "currency": "EUR",
+                "lowerBound": 1350000,
+                "upperBound": 2250000,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1407751,
+                "currency": "EUR",
+                "lowerBound": 1126201,
+                "upperBound": 1689301,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 1381105,
+                "currency": "EUR",
+                "lowerBound": 1104884,
+                "upperBound": 1657326,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 1385777,
+                "currency": "EUR",
+                "lowerBound": 1108622,
+                "upperBound": 1662933,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 1395669,
+                "currency": "EUR",
+                "lowerBound": 1116535,
+                "upperBound": 1674802,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 1382875,
+                "currency": "EUR",
+                "lowerBound": 1106300,
+                "upperBound": 1659450,
+                "source": "scisports",
+                "teamId": 8277,
+                "teamName": "Vitesse"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 1353887,
+                "currency": "EUR",
+                "lowerBound": 1083110,
+                "upperBound": 1624665,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 1353887,
+                "currency": "EUR",
+                "lowerBound": 1083110,
+                "upperBound": 1624665,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 1286257,
+                "currency": "EUR",
+                "lowerBound": 1029005,
+                "upperBound": 1543508,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 1284621,
+                "currency": "EUR",
+                "lowerBound": 1027697,
+                "upperBound": 1541546,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 1344694,
+                "currency": "EUR",
+                "lowerBound": 1075755,
+                "upperBound": 1613632,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 1335211,
+                "currency": "EUR",
+                "lowerBound": 1068169,
+                "upperBound": 1602254,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 1335211,
+                "currency": "EUR",
+                "lowerBound": 1068169,
+                "upperBound": 1602254,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 1337208,
+                "currency": "EUR",
+                "lowerBound": 1069766,
+                "upperBound": 1604650,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 1325648,
+                "currency": "EUR",
+                "lowerBound": 1060518,
+                "upperBound": 1590777,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 1319490,
+                "currency": "EUR",
+                "lowerBound": 1055592,
+                "upperBound": 1583388,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 1266051,
+                "currency": "EUR",
+                "lowerBound": 1012841,
+                "upperBound": 1519261,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 1222699,
+                "currency": "EUR",
+                "lowerBound": 978159,
+                "upperBound": 1467239,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 1036535,
+                "currency": "EUR",
+                "lowerBound": 829228,
+                "upperBound": 1243842,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 1036535,
+                "currency": "EUR",
+                "lowerBound": 829228,
+                "upperBound": 1243842,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 1027120,
+                "currency": "EUR",
+                "lowerBound": 821696,
+                "upperBound": 1232544,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 1028845,
+                "currency": "EUR",
+                "lowerBound": 823076,
+                "upperBound": 1234615,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 1036535,
+                "currency": "EUR",
+                "lowerBound": 829228,
+                "upperBound": 1243842,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 1030949,
+                "currency": "EUR",
+                "lowerBound": 824759,
+                "upperBound": 1237139,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 1052889,
+                "currency": "EUR",
+                "lowerBound": 842311,
+                "upperBound": 1263467,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 1026961,
+                "currency": "EUR",
+                "lowerBound": 821569,
+                "upperBound": 1232353,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 1066152,
+                "currency": "EUR",
+                "lowerBound": 852922,
+                "upperBound": 1279383,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 1102200,
+                "currency": "EUR",
+                "lowerBound": 881760,
+                "upperBound": 1322641,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 1085222,
+                "currency": "EUR",
+                "lowerBound": 868177,
+                "upperBound": 1302266,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 1291164,
+                "currency": "EUR",
+                "lowerBound": 1032931,
+                "upperBound": 1549397,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 1039378,
+                "currency": "EUR",
+                "lowerBound": 831502,
+                "upperBound": 1247253,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1688984,
+                "name": "Amine Moussaoui"
+            },
+            {
+                "id": 1573544,
+                "name": "Anthony Bermont"
+            },
+            {
+                "id": 167035,
+                "name": "Anthony Lopes"
+            },
+            {
+                "id": 505059,
+                "name": "Branco van den Boomen"
+            },
+            {
+                "id": 1284738,
+                "name": "Gu\u00e9d\u00e9 Nadje"
+            },
+            {
+                "id": 1011026,
+                "name": "Jim Allevinah"
+            },
+            {
+                "id": 1169692,
+                "name": "Usman Simbakoli"
+            },
+            {
+                "id": 1466571,
+                "name": "Yacine Gaya"
+            },
+            {
+                "id": 1327156,
+                "name": "Jacques Ekomi\u00e9"
+            },
+            {
+                "id": 1178325,
+                "name": "Ousmane Camara"
+            },
+            {
+                "id": 1514645,
+                "name": "Marius Courcoul"
+            },
+            {
+                "id": 1329255,
+                "name": "Louis Mouton"
+            },
+            {
+                "id": 1242587,
+                "name": "Amine Sba\u00ef"
+            },
+            {
+                "id": 1347791,
+                "name": "Yassin Belkhdim"
+            },
+            {
+                "id": 310836,
+                "name": "Pierrick Capelle"
+            },
+            {
+                "id": 1177482,
+                "name": "Melvin Zinga"
+            },
+            {
+                "id": 1688980,
+                "name": "Marius Lou\u00ebr"
+            },
+            {
+                "id": 492116,
+                "name": "Jordan Lefort"
+            },
+            {
+                "id": 1487966,
+                "name": "Dan Sinat\u00e9"
+            },
+            {
+                "id": 1428420,
+                "name": "Emmanuel Biumla"
+            },
+            {
+                "id": 210400,
+                "name": "Abdoulaye Bamba"
+            },
+            {
+                "id": 1431818,
+                "name": "Lilian Rao-Lisoa"
+            },
+            {
+                "id": 1932713,
+                "name": "Yann Llahona"
+            },
+            {
+                "id": 1832893,
+                "name": "Harouna Djibirin"
+            },
+            {
+                "id": 1748405,
+                "name": "Prosper Peter"
+            },
+            {
+                "id": 1752228,
+                "name": "Lanroy Machine"
+            },
+            {
+                "id": 1803871,
+                "name": "Ilann Garin"
+            },
+            {
+                "id": 1607778,
+                "name": "Oumar Pona"
+            },
+            {
+                "id": 1946407,
+                "name": "Mael Gernigon"
+            },
+            {
+                "id": 1901863,
+                "name": "Yahia Jlidi"
+            },
+            {
+                "id": 1958964,
+                "name": "Bane Diatta"
+            },
+            {
+                "id": 561869,
+                "name": "Haris Belkebla"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 103468,
+                "name": "Johny Placide"
+            },
+            {
+                "id": 1807873,
+                "name": "Keeto Thermoncy"
+            },
+            {
+                "id": 532700,
+                "name": "Ricardo Ad\u00e9"
+            },
+            {
+                "id": 822716,
+                "name": "Hannes Delcroix"
+            },
+            {
+                "id": 1107287,
+                "name": "Carl Saint\u00e9"
+            },
+            {
+                "id": 643482,
+                "name": "Derrick Etienne"
+            },
+            {
+                "id": 1181438,
+                "name": "Martin Exp\u00e9rience"
+            },
+            {
+                "id": 525445,
+                "name": "Duckens Nazon"
+            },
+            {
+                "id": 769166,
+                "name": "Jean-Ricner Bellegarde"
+            },
+            {
+                "id": 1079194,
+                "name": "Don Deedson Louicius"
+            },
+            {
+                "id": 1209244,
+                "name": "Alexandre Pierre"
+            },
+            {
+                "id": 649744,
+                "name": "Duke Lacroix"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1200016,
+                "name": "Ruben Providence"
+            },
+            {
+                "id": 1242314,
+                "name": "Lenny Joseph"
+            },
+            {
+                "id": 1329461,
+                "name": "Danley Jean Jacques"
+            },
+            {
+                "id": 887703,
+                "name": "Wilson Isidor"
+            },
+            {
+                "id": 759569,
+                "name": "Yassin Fortun\u00e9"
+            },
+            {
+                "id": 833641,
+                "name": "Frantzdy Pierrot"
+            },
+            {
+                "id": 1199382,
+                "name": "Josu\u00e9 Casimir"
+            },
+            {
+                "id": 769168,
+                "name": "Jean-K\u00e9vin Duverne"
+            },
+            {
+                "id": 899023,
+                "name": "Josu\u00e9 Duverger"
+            },
+            {
+                "id": 1394254,
+                "name": "Wilguens Paugain"
+            },
+            {
+                "id": 1356595,
+                "name": "Dominique Simon"
+            },
+            {
+                "id": 1447452,
+                "name": "Olivier Pierre"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1937484,
+                "name": "Alyssa Manasse"
+            },
+            {
+                "id": 1081279,
+                "name": "Amandine Pierre-Louis"
+            },
+            {
+                "id": 1729585,
+                "name": "Anyssa Ibrahim"
+            },
+            {
+                "id": 1966108,
+                "name": "Cassandra Decombe"
+            },
+            {
+                "id": 1807266,
+                "name": "Chelsea Domond"
+            },
+            {
+                "id": 1807450,
+                "name": "D\u00e9borah Bien-Aim\u00e9"
+            },
+            {
+                "id": 1591676,
+                "name": "Jos\u00e9phine Vanuxeem"
+            },
+            {
+                "id": 1866960,
+                "name": "Ka\u00efna Pietrus"
+            },
+            {
+                "id": 1807235,
+                "name": "Lourdjina \u00c9tienne"
+            },
+            {
+                "id": 1966107,
+                "name": "Nya Jean-Baptiste"
+            },
+            {
+                "id": 1345962,
+                "name": "Oc\u00e9ane Toussaint"
+            },
+            {
+                "id": 1468679,
+                "name": "Jennyfer Limage"
+            },
+            {
+                "id": 1468681,
+                "name": "Tabita Joseph"
+            },
+            {
+                "id": 1130847,
+                "name": "Melchie Dumornay"
+            },
+            {
+                "id": 1382527,
+                "name": "Sherly Jeudy"
+            },
+            {
+                "id": 887722,
+                "name": "Nerilia Mondesir"
+            },
+            {
+                "id": 1468676,
+                "name": "Roseline \u00c9loissaint"
+            },
+            {
+                "id": 1468674,
+                "name": "Betina Petit-Fr\u00e8re"
+            },
+            {
+                "id": 1468673,
+                "name": "Claire Constant"
+            },
+            {
+                "id": 1468671,
+                "name": "Milan Pierre-J\u00e9r\u00f4me"
+            },
+            {
+                "id": 1468669,
+                "name": "Dayana Pierre-Louis"
+            },
+            {
+                "id": 1261791,
+                "name": "Kethna Louis"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5900170,
+        "homeId": 8121,
+        "awayId": 191098,
+        "homeName": "Angers",
+        "awayName": "Les Herbiers",
+        "matchDate": "2026-07-22T12:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-22T12:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {},
+        "matchUrl": "/matches/angers-vs-les-herbiers/946qciv#5900170"
+    },
+    "dataProvider": "enet"
+}

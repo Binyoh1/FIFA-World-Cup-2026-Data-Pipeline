@@ -1,0 +1,4927 @@
+{
+    "id": 1151313,
+    "name": "Luk\u00e1s Cerv",
+    "birthDate": {
+        "utcTime": "2001-04-10T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 6033,
+        "teamName": "Viktoria Plzen",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#DF041C",
+            "colorAlternate": "#DF041C",
+            "colorAway": "#005EA7",
+            "colorAwayAlternate": "#005EA7"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "35",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 37,
+                "position": "64",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Wing-Back",
+                    "key": "left_wing_back"
+                },
+                "strPosShort": {
+                    "label": "LWB",
+                    "key": "left_wing_back_short"
+                },
+                "occurences": 1,
+                "position": "68",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 9,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.38
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.24000000000000002
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Defensive Midfielder",
+            "key": "centerdefensivemidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 179,
+                "key": null,
+                "fallback": "179 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 6,
+                "options": {},
+                "key": null,
+                "fallback": 6
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Czechia"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CZE"
+            },
+            "countryCode": "CZE"
+        },
+        {
+            "value": {
+                "numberValue": 5505739,
+                "key": null,
+                "fallback": "\u20ac5.5m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 122,
+        "leagueName": "1. Liga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 1
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 31
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 32
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2656
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.1540625
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 4
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "CZE",
+                "teamId": 7787,
+                "teamName": "Slavia Prague",
+                "tournaments": [
+                    {
+                        "ccode": "CZE",
+                        "leagueId": 122,
+                        "leagueName": "1. Liga",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": true,
+            "id": 4667755,
+            "matchDate": {
+                "utcTime": "2026-06-25T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-czechia/1wualx#4667755",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 87,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 6316,
+            "opponentTeamName": "South Africa",
+            "isHomeTeam": true,
+            "id": 4667753,
+            "matchDate": {
+                "utcTime": "2026-06-18T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/south-africa-vs-czechia/1tbjja#4667753",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 7804,
+            "opponentTeamName": "South Korea",
+            "isHomeTeam": false,
+            "id": 4667752,
+            "matchDate": {
+                "utcTime": "2026-06-12T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/south-korea-vs-czechia/273opa#4667752",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 5858,
+            "opponentTeamName": "Guatemala",
+            "isHomeTeam": true,
+            "id": 5406267,
+            "matchDate": {
+                "utcTime": "2026-06-05T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/guatemala-vs-czechia/1pcdsr#5406267",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 430156,
+            "opponentTeamName": "Kosovo",
+            "isHomeTeam": true,
+            "id": 5629006,
+            "matchDate": {
+                "utcTime": "2026-05-31T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-kosovo/1873roja#5629006",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10247,
+            "opponentTeamName": "Sparta Prague",
+            "isHomeTeam": false,
+            "id": 5406616,
+            "matchDate": {
+                "utcTime": "2026-05-12T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-sparta-prague/26wnel#5406616",
+            "leagueId": 122,
+            "leagueName": "1. Liga Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10245,
+            "opponentTeamName": "Slovan Liberec",
+            "isHomeTeam": true,
+            "id": 5406614,
+            "matchDate": {
+                "utcTime": "2026-05-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-slovan-liberec/26vya6#5406614",
+            "leagueId": 122,
+            "leagueName": "1. Liga Championship Group",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1712,
+            "opponentTeamName": "Hradec Kralove",
+            "isHomeTeam": true,
+            "id": 5406612,
+            "matchDate": {
+                "utcTime": "2026-05-03T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hradec-kralove-vs-viktoria-plzen/hv20i#5406612",
+            "leagueId": 122,
+            "leagueName": "1. Liga Championship Group",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 6362,
+            "opponentTeamName": "Banik Ostrava",
+            "isHomeTeam": false,
+            "id": 4817315,
+            "matchDate": {
+                "utcTime": "2026-04-25T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-banik-ostrava/19qquk#4817315",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 2406,
+            "opponentTeamName": "Pardubice",
+            "isHomeTeam": true,
+            "id": 4817340,
+            "matchDate": {
+                "utcTime": "2026-04-19T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/pardubice-vs-viktoria-plzen/l7fhx#4817340",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 4721,
+            "opponentTeamName": "Teplice",
+            "isHomeTeam": true,
+            "id": 4817323,
+            "matchDate": {
+                "utcTime": "2026-04-04T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/teplice-vs-viktoria-plzen/yfmac#4817323",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 49,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 8238,
+            "opponentTeamName": "Denmark",
+            "isHomeTeam": true,
+            "id": 5067302,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/denmark-vs-czechia/2bdc0x#5067302",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "final",
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 5791,
+            "opponentTeamName": "Ireland",
+            "isHomeTeam": true,
+            "id": 5067294,
+            "matchDate": {
+                "utcTime": "2026-03-26T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ireland-vs-czechia/1ortfs#5067294",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 2nd Round",
+            "stage": "1/2",
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1670,
+            "opponentTeamName": "Bohemians 1905",
+            "isHomeTeam": true,
+            "id": 4817303,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bohemians-1905-vs-viktoria-plzen/ho3ol#4817303",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1712,
+            "opponentTeamName": "Hradec Kralove",
+            "isHomeTeam": false,
+            "id": 4817299,
+            "matchDate": {
+                "utcTime": "2026-03-08T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hradec-kralove-vs-viktoria-plzen/hv20i#4817299",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 143833,
+            "opponentTeamName": "Karvina",
+            "isHomeTeam": false,
+            "id": 5084878,
+            "matchDate": {
+                "utcTime": "2026-03-05T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-karvina/55q1np4#5084878",
+            "leagueId": 254,
+            "leagueName": "Cup",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1860,
+            "opponentTeamName": "FC Zlin",
+            "isHomeTeam": false,
+            "id": 4817290,
+            "matchDate": {
+                "utcTime": "2026-03-01T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-zlin-vs-viktoria-plzen/ijuzc#4817290",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10200,
+            "opponentTeamName": "Panathinaikos",
+            "isHomeTeam": true,
+            "id": 5161892,
+            "matchDate": {
+                "utcTime": "2026-02-26T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-panathinaikos/26g9u6#5161892",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10247,
+            "opponentTeamName": "Sparta Prague",
+            "isHomeTeam": true,
+            "id": 4817278,
+            "matchDate": {
+                "utcTime": "2026-02-22T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-sparta-prague/26wnel#4817278",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10200,
+            "opponentTeamName": "Panathinaikos",
+            "isHomeTeam": false,
+            "id": 5161884,
+            "matchDate": {
+                "utcTime": "2026-02-19T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-panathinaikos/26g9u6#5161884",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 6461,
+            "opponentTeamName": "Sigma Olomouc",
+            "isHomeTeam": false,
+            "id": 4817271,
+            "matchDate": {
+                "utcTime": "2026-02-14T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-sigma-olomouc/1ah5l2#4817271",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10245,
+            "opponentTeamName": "Slovan Liberec",
+            "isHomeTeam": true,
+            "id": 4817264,
+            "matchDate": {
+                "utcTime": "2026-02-08T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-slovan-liberec/26vya6#4817264",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 65,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 143833,
+            "opponentTeamName": "Karvina",
+            "isHomeTeam": false,
+            "id": 4817256,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-karvina/55q1np4#4817256",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 9931,
+            "opponentTeamName": "Basel",
+            "isHomeTeam": false,
+            "id": 4947849,
+            "matchDate": {
+                "utcTime": "2026-01-29T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-basel/23vjb5#4947849",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": true,
+            "id": 4947828,
+            "matchDate": {
+                "utcTime": "2026-01-22T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-fc-porto/22dqj2#4947828",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 88657,
+            "opponentTeamName": "Dukla Praha",
+            "isHomeTeam": true,
+            "id": 4817246,
+            "matchDate": {
+                "utcTime": "2025-12-14T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-dukla-praha/22579j8#4817246",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10200,
+            "opponentTeamName": "Panathinaikos",
+            "isHomeTeam": false,
+            "id": 4947894,
+            "matchDate": {
+                "utcTime": "2025-12-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-panathinaikos/26g9u6#4947894",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 2021,
+            "opponentTeamName": "Slovacko",
+            "isHomeTeam": false,
+            "id": 4817241,
+            "matchDate": {
+                "utcTime": "2025-12-06T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovacko-vs-viktoria-plzen/jbdku#4817241",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10180,
+            "opponentTeamName": "Mlada Boleslav",
+            "isHomeTeam": true,
+            "id": 4817237,
+            "matchDate": {
+                "utcTime": "2025-11-30T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-mlada-boleslav/269bh4#4817237",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8358,
+            "opponentTeamName": "Freiburg",
+            "isHomeTeam": true,
+            "id": 4947830,
+            "matchDate": {
+                "utcTime": "2025-11-27T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-freiburg/1pns16#4947830",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 7758,
+            "opponentTeamName": "Jablonec",
+            "isHomeTeam": false,
+            "id": 4817226,
+            "matchDate": {
+                "utcTime": "2025-11-23T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-jablonec/1kmjq6#4817226",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 507764,
+            "opponentTeamName": "Gibraltar",
+            "isHomeTeam": true,
+            "id": 4689381,
+            "matchDate": {
+                "utcTime": "2025-11-17T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-gibraltar/1p7x10ju#4689381",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 32,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 6035,
+            "opponentTeamName": "San Marino",
+            "isHomeTeam": true,
+            "id": 4960622,
+            "matchDate": {
+                "utcTime": "2025-11-13T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/san-marino-vs-czechia/1qv6c6#4960622",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 13,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 7787,
+            "opponentTeamName": "Slavia Prague",
+            "isHomeTeam": true,
+            "id": 4817215,
+            "matchDate": {
+                "utcTime": "2025-11-09T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-slavia-prague/1kv4oh#4817215",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 5,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8695,
+            "opponentTeamName": "Fenerbah\u00e7e",
+            "isHomeTeam": true,
+            "id": 4947829,
+            "matchDate": {
+                "utcTime": "2025-11-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-fenerbahce/1skycb#4947829",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 4721,
+            "opponentTeamName": "Teplice",
+            "isHomeTeam": false,
+            "id": 4817211,
+            "matchDate": {
+                "utcTime": "2025-11-02T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/teplice-vs-viktoria-plzen/yfmac#4817211",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1153471,
+            "opponentTeamName": "FK Nove Sady",
+            "isHomeTeam": false,
+            "id": 4992538,
+            "matchDate": {
+                "utcTime": "2025-10-29T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-fk-nove-sady/8ktdm6rd#4992538",
+            "leagueId": 254,
+            "leagueName": "Cup",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 6362,
+            "opponentTeamName": "Banik Ostrava",
+            "isHomeTeam": true,
+            "id": 4817203,
+            "matchDate": {
+                "utcTime": "2025-10-26T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-banik-ostrava/19qquk#4817203",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8686,
+            "opponentTeamName": "Roma",
+            "isHomeTeam": false,
+            "id": 4947773,
+            "matchDate": {
+                "utcTime": "2025-10-23T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-roma/1si432#4947773",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1670,
+            "opponentTeamName": "Bohemians 1905",
+            "isHomeTeam": false,
+            "id": 4817191,
+            "matchDate": {
+                "utcTime": "2025-10-18T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bohemians-1905-vs-viktoria-plzen/ho3ol#4817191",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 35,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 8269,
+            "opponentTeamName": "Faroe Islands",
+            "isHomeTeam": false,
+            "id": 4689377,
+            "matchDate": {
+                "utcTime": "2025-10-12T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/faroe-islands-vs-czechia/2bogoj#4689377",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 10155,
+            "opponentTeamName": "Croatia",
+            "isHomeTeam": true,
+            "id": 4689375,
+            "matchDate": {
+                "utcTime": "2025-10-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-croatia/2vkax6#4689375",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1712,
+            "opponentTeamName": "Hradec Kralove",
+            "isHomeTeam": true,
+            "id": 4817187,
+            "matchDate": {
+                "utcTime": "2025-10-05T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/hradec-kralove-vs-viktoria-plzen/hv20i#4817187",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10237,
+            "opponentTeamName": "Malm\u00f6 FF",
+            "isHomeTeam": true,
+            "id": 4947831,
+            "matchDate": {
+                "utcTime": "2025-10-02T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-malmo-ff/26t5tm#4947831",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 1860,
+            "opponentTeamName": "FC Zlin",
+            "isHomeTeam": true,
+            "id": 4817178,
+            "matchDate": {
+                "utcTime": "2025-09-28T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fc-zlin-vs-viktoria-plzen/ijuzc#4817178",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8222,
+            "opponentTeamName": "Ferencvaros",
+            "isHomeTeam": false,
+            "id": 4947833,
+            "matchDate": {
+                "utcTime": "2025-09-25T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-ferencvaros/1oi0ue#4947833",
+            "leagueId": 73,
+            "leagueName": "Europa League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10247,
+            "opponentTeamName": "Sparta Prague",
+            "isHomeTeam": false,
+            "id": 4817166,
+            "matchDate": {
+                "utcTime": "2025-09-20T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-sparta-prague/26wnel#4817166",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 76,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 6461,
+            "opponentTeamName": "Sigma Olomouc",
+            "isHomeTeam": true,
+            "id": 4817159,
+            "matchDate": {
+                "utcTime": "2025-09-13T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-sigma-olomouc/1ah5l2#4817159",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": true,
+            "id": 4913825,
+            "matchDate": {
+                "utcTime": "2025-09-08T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/saudi-arabia-vs-czechia/270jja#4913825",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8496,
+            "teamName": "Czechia",
+            "opponentTeamId": 49437,
+            "opponentTeamName": "Montenegro",
+            "isHomeTeam": false,
+            "id": 4689372,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/czechia-vs-montenegro/rr4nor#4689372",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 85,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10245,
+            "opponentTeamName": "Slovan Liberec",
+            "isHomeTeam": false,
+            "id": 4817152,
+            "matchDate": {
+                "utcTime": "2025-08-31T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-slovan-liberec/26vya6#4817152",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 143833,
+            "opponentTeamName": "Karvina",
+            "isHomeTeam": true,
+            "id": 4817144,
+            "matchDate": {
+                "utcTime": "2025-08-23T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-karvina/55q1np4#4817144",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 10180,
+            "opponentTeamName": "Mlada Boleslav",
+            "isHomeTeam": false,
+            "id": 4817125,
+            "matchDate": {
+                "utcTime": "2025-08-19T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-mlada-boleslav/269bh4#4817125",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 88657,
+            "opponentTeamName": "Dukla Praha",
+            "isHomeTeam": false,
+            "id": 4817134,
+            "matchDate": {
+                "utcTime": "2025-08-16T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-dukla-praha/22579j8#4817134",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": true,
+            "id": 4885147,
+            "matchDate": {
+                "utcTime": "2025-08-12T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-rangers/1raryz#4885147",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 2021,
+            "opponentTeamName": "Slovacko",
+            "isHomeTeam": true,
+            "id": 4817129,
+            "matchDate": {
+                "utcTime": "2025-08-09T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovacko-vs-viktoria-plzen/jbdku#4817129",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 8548,
+            "opponentTeamName": "Rangers",
+            "isHomeTeam": false,
+            "id": 4885137,
+            "matchDate": {
+                "utcTime": "2025-08-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-rangers/1raryz#4885137",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 75,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 9777,
+            "opponentTeamName": "Servette",
+            "isHomeTeam": false,
+            "id": 4813916,
+            "matchDate": {
+                "utcTime": "2025-07-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-servette/22f3bo#4813916",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 7758,
+            "opponentTeamName": "Jablonec",
+            "isHomeTeam": true,
+            "id": 4817114,
+            "matchDate": {
+                "utcTime": "2025-07-26T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-jablonec/1kmjq6#4817114",
+            "leagueId": 122,
+            "leagueName": "1. Liga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6033,
+            "teamName": "Viktoria Plzen",
+            "opponentTeamId": 9777,
+            "opponentTeamName": "Servette",
+            "isHomeTeam": true,
+            "id": 4813901,
+            "matchDate": {
+                "utcTime": "2025-07-22T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/viktoria-plzen-vs-servette/22f3bo#4813901",
+            "leagueId": 10611,
+            "leagueName": "Champions League Qualification",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 66,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1151313,
+                        "teamId": 6033,
+                        "team": "Viktoria Plzen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-02-09T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "124",
+                        "goals": "8",
+                        "assists": "10",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 10245,
+                        "team": "Slovan Liberec",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-06-22T00:00:00",
+                        "endDate": "2024-02-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "54",
+                        "goals": "7",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 7787,
+                        "team": "Slavia Prague",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-06-21T00:00:00",
+                        "endDate": "2022-06-21T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 2406,
+                        "team": "Pardubice",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-07-02T00:00:00",
+                        "endDate": "2022-06-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "23",
+                        "goals": "2",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 7787,
+                        "team": "Slavia Prague",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2021-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 1949,
+                        "team": "Vysocina Jihlava",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2020-08-03T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "25",
+                        "goals": "7",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 7787,
+                        "team": "Slavia Prague",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-03-12T00:00:00",
+                        "endDate": "2020-08-02T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "49",
+                        "goals": "3",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.24"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "3",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28034,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28190,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.24"
+                                }
+                            }
+                        ],
+                        "teamId": 6033,
+                        "team": "Viktoria Plzen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "52",
+                        "goals": "4",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.26"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24180,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24112,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "16",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            }
+                        ],
+                        "teamId": 6033,
+                        "team": "Viktoria Plzen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "23",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.28"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "16",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21826,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21016,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            }
+                        ],
+                        "teamId": 6033,
+                        "team": "Viktoria Plzen",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "19",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21826,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10245,
+                        "team": "Slovan Liberec",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "35",
+                        "goals": "4",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "1",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18182,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10245,
+                        "team": "Slovan Liberec",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "23",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16800,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 2406,
+                        "team": "Pardubice",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "25",
+                        "goals": "7",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 253,
+                                "leagueName": "FNL",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15475,
+                                "goals": "7",
+                                "assists": "undefined",
+                                "appearances": "24",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 254,
+                                "leagueName": "Czech Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15606,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1949,
+                        "team": "Vysocina Jihlava",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 122,
+                                "leagueName": "1. Liga",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 7787,
+                        "team": "Slavia Prague",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1151313,
+                        "teamId": 408784,
+                        "team": "Slavia Prague U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-01T00:00:00",
+                        "endDate": "2020-08-02T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "6",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 408784,
+                        "team": "Slavia Prague U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1151313,
+                        "teamId": 8496,
+                        "team": "Czechia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-05-27T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "19",
+                        "goals": "2",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 5833,
+                        "team": "Czechia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-08-24T00:00:00",
+                        "endDate": "2023-08-29T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": 7735,
+                        "team": "Czechia U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-01T00:00:00",
+                        "endDate": "2021-10-04T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1151313,
+                        "teamId": -1,
+                        "team": "Czechia Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-03-21T00:00:00",
+                        "endDate": "2019-11-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "12",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.32"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "7.42"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.92"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8496,
+                        "team": "Czechia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8496,
+                        "team": "Czechia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.25"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.25"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8496,
+                        "team": "Czechia",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2023",
+                                "tournamentId": 18334,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U21 National Team Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "UEFA U21 Championship Qualificat",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5833,
+                        "team": "Czechia U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 287,
+                                "leagueName": "UEFA U19 Championship",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 7735,
+                        "team": "Czechia U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U18 National Team Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Czechia Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_midfielders",
+        "title": "Stats compared to other midfielders",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.48
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.8
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.45
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.44
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.82
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.34
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "lukas-cerv",
+        "pageurl": "/players/1151313/lukas-cerv",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Luk\u00e1s Cerv?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv is 25 years old. Born on Tue Apr 10 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Luk\u00e1s Cerv?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv is 179 cm tall. Or 5 ft 10 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Luk\u00e1s Cerv born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv was born Tue Apr 10 2001 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Luk\u00e1s Cerv's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Luk\u00e1s Cerv's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv's transfer value is estimated to be around \u20ac5.5m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Luk\u00e1s Cerv from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv is from Czechia."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Luk\u00e1s Cerv scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Luk\u00e1s Cerv has scored 1 goals in the 1. Liga Championship Group."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Luk\u00e1s Cerv",
+            "birthDate": "2001-04-10T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1151313/lukas-cerv",
+            "nationality": {
+                "@type": "Country",
+                "name": "Czechia"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Viktoria Plzen"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "179"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "70"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "1. Liga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/122/overview/1-liga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Viktoria Plzen",
+                    "item": "https://www.fotmob.com/teams/6033/overview/viktoria-plzen"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Luk\u00e1s Cerv",
+                    "item": "https://www.fotmob.com/leagues/1151313/overview/lukas-cerv"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "1. Liga",
+                    "tournamentId": 122,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "1. Liga",
+                    "tournamentId": 122,
+                    "entryId": "2-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League Qualification qualification",
+                    "tournamentId": 10613,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League B",
+                    "tournamentId": 9807,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "1. Liga",
+                    "tournamentId": 122,
+                    "entryId": "3-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Conference League",
+                    "tournamentId": 10216,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "1. Liga",
+                    "tournamentId": 122,
+                    "entryId": "4-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "1. Liga",
+                    "tournamentId": 122,
+                    "entryId": "5-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "1. Liga Championship Group",
+                    "tournamentId": 122,
+                    "entryId": "6-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944917281,
+                "playerName": "Luk\u00e1s Cerv",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 8496,
+                "playerId": 1151313,
+                "x": 76.5160194192,
+                "y": 34.22875,
+                "min": 47,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 103.0086206898,
+                "blockedY": 33.31375,
+                "goalCrossedY": 33.5425,
+                "goalCrossedZ": 1.9134736748,
+                "expectedGoals": 0.029186436906457,
+                "expectedGoalsOnTarget": 0.0359839089214802,
+                "onGoalShot": {
+                    "x": 1.12103174603175,
+                    "y": 0.506209966878307,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8496,
+                "awayTeamId": 6316,
+                "homeTeamName": "Czechia",
+                "awayTeamName": "South Africa",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667753,
+                "matchDate": "2026-06-18T16:00:00Z",
+                "teamColor": "#D9273C",
+                "teamColorDark": "#D9273C"
+            },
+            {
+                "id": 2945401085,
+                "playerName": "Luk\u00e1s Cerv",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "ThrowInSetPiece",
+                "teamId": 8496,
+                "playerId": 1151313,
+                "x": 91.5,
+                "y": 35.75375,
+                "min": 46,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 104.051724138,
+                "blockedY": 34.38125,
+                "goalCrossedY": 33.92375,
+                "goalCrossedZ": 1.5474736766,
+                "expectedGoals": 0.10994291305542,
+                "expectedGoalsOnTarget": 0.132865250110626,
+                "onGoalShot": {
+                    "x": 1.02017195767196,
+                    "y": 0.409384570529101,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8496,
+                "awayTeamId": 6710,
+                "homeTeamName": "Czechia",
+                "awayTeamName": "Mexico",
+                "homeScore": 0,
+                "awayScore": 3,
+                "matchId": 4667755,
+                "matchDate": "2026-06-25T01:00:00Z",
+                "teamColor": "#D9273C",
+                "teamColorDark": "#D9273C"
+            },
+            {
+                "id": 2945402411,
+                "playerName": "Luk\u00e1s Cerv",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "FromCorner",
+                "teamId": 8496,
+                "playerId": 1151313,
+                "x": 81.0208737872,
+                "y": 27.446428571,
+                "min": 54,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 92.8,
+                "blockedY": 30.268,
+                "goalCrossedY": 33.085,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0130235059186816,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.24206349206349,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8496,
+                "awayTeamId": 6710,
+                "homeTeamName": "Czechia",
+                "awayTeamName": "Mexico",
+                "homeScore": 0,
+                "awayScore": 3,
+                "matchId": 4667755,
+                "matchDate": "2026-06-25T01:00:00Z",
+                "teamColor": "#D9273C",
+                "teamColorDark": "#D9273C"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.08301818099888889,
+                            "percentileRank": 59.79381443298969,
+                            "percentileRankPer90": 65.97938144329896,
+                            "statFormat": "fraction",
+                            "statValue": "0.15",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.09212727167389609,
+                            "percentileRank": 68.55670103092784,
+                            "percentileRankPer90": 72.68041237113401,
+                            "statFormat": "fraction",
+                            "statValue": "0.17",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.08301818099888889,
+                            "percentileRank": 60.30927835051546,
+                            "percentileRankPer90": 67.0103092783505,
+                            "statFormat": "fraction",
+                            "statValue": "0.15",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.6363636363636362,
+                            "percentileRank": 50.51546391752577,
+                            "percentileRankPer90": 74.22680412371135,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 1.0909090909090908,
+                            "percentileRank": 78.35051546391753,
+                            "percentileRankPer90": 94.3298969072165,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.0035878800025040455,
+                            "percentileRank": 3.608247422680412,
+                            "percentileRankPer90": 4.123711340206185,
+                            "statFormat": "fraction",
+                            "statValue": "0.01",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 20.181818181818183,
+                            "percentileRank": 17.525773195876287,
+                            "percentileRankPer90": 18.556701030927837,
+                            "statFormat": "number",
+                            "statValue": "37",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 82.22222222222223,
+                            "percentileRank": 28.350515463917525,
+                            "percentileRankPer90": 28.350515463917525,
+                            "statFormat": "percent",
+                            "statValue": "82.2",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.5454545454545454,
+                            "percentileRank": 13.402061855670103,
+                            "percentileRankPer90": 21.1340206185567,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 33.333333333333336,
+                            "percentileRank": 22.164948453608247,
+                            "percentileRankPer90": 22.164948453608247,
+                            "statFormat": "percent",
+                            "statValue": "33.3",
+                            "title": "Long ball accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 0.5454545454545454,
+                            "percentileRank": 25.257731958762886,
+                            "percentileRankPer90": 51.03092783505154,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 50,
+                            "percentileRank": 44.84536082474227,
+                            "percentileRankPer90": 44.84536082474227,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 4.363636363636363,
+                            "percentileRank": 30.412371134020617,
+                            "percentileRankPer90": 47.42268041237113,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 61.53846153846154,
+                            "percentileRank": 85.56701030927834,
+                            "percentileRankPer90": 85.56701030927834,
+                            "statFormat": "percent",
+                            "statValue": "61.5",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 35.45454545454545,
+                            "percentileRank": 14.948453608247423,
+                            "percentileRankPer90": 3.608247422680412,
+                            "statFormat": "number",
+                            "statValue": "65",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 1.0909090909090908,
+                            "percentileRank": 31.958762886597935,
+                            "percentileRankPer90": 46.90721649484536,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.6363636363636362,
+                            "percentileRank": 49.48453608247423,
+                            "percentileRankPer90": 76.80412371134021,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 5.454545454545455,
+                            "percentileRank": 45.36082474226804,
+                            "percentileRankPer90": 69.0721649484536,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.1818181818181817,
+                            "percentileRank": 44.329896907216494,
+                            "percentileRankPer90": 64.43298969072166,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.5454545454545454,
+                            "percentileRank": 17.525773195876287,
+                            "percentileRankPer90": 35.051546391752574,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1.6363636363636362,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 26.288659793814436,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 2.1818181818181817,
+                            "percentileRank": 12.371134020618557,
+                            "percentileRankPer90": 8.762886597938143,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 2.7272727272727275,
+                            "percentileRank": 67.5257731958763,
+                            "percentileRankPer90": 89.17525773195877,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1.0909090909090908,
+                            "percentileRank": 72.16494845360825,
+                            "percentileRankPer90": 64.43298969072166,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.9497455033389005,
+                            "percentileRank": 78.35051546391753,
+                            "percentileRankPer90": 69.58762886597938,
+                            "statFormat": "fraction",
+                            "statValue": "1.74",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.925,
+                    "percentileRank": 58.24742268041238,
+                    "percentileRankPer90": 58.24742268041238,
+                    "statFormat": "fraction",
+                    "statValue": "6.92",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 2,
+                    "percentileRank": 4.123711340206185,
+                    "percentileRankPer90": 4.123711340206185,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 19.587628865979383,
+                    "percentileRankPer90": 61.34020618556701,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 27.835051546391753,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "165",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 37.72,
+                    "y": 40.13
+                },
+                {
+                    "x": 46.71,
+                    "y": 50.87
+                },
+                {
+                    "x": 57.99,
+                    "y": 46.66
+                },
+                {
+                    "x": 37.83,
+                    "y": 16.57
+                },
+                {
+                    "x": 24.65,
+                    "y": 32.55
+                },
+                {
+                    "x": 61.99,
+                    "y": 11.48
+                },
+                {
+                    "x": 44.98,
+                    "y": 57.37
+                },
+                {
+                    "x": 47.11,
+                    "y": 19.87
+                },
+                {
+                    "x": 26.01,
+                    "y": 47.43
+                },
+                {
+                    "x": 56.67,
+                    "y": 32.48
+                },
+                {
+                    "x": 36.71,
+                    "y": 41.14
+                },
+                {
+                    "x": 71.9,
+                    "y": 65.38
+                },
+                {
+                    "x": 35.69,
+                    "y": 20.99
+                },
+                {
+                    "x": 7.53,
+                    "y": 28.37
+                },
+                {
+                    "x": 1.9,
+                    "y": 14.96
+                },
+                {
+                    "x": 9.26,
+                    "y": 31.64
+                },
+                {
+                    "x": 67.17,
+                    "y": 45.19
+                },
+                {
+                    "x": 66.61,
+                    "y": 42.76
+                },
+                {
+                    "x": 47.62,
+                    "y": 10.63
+                },
+                {
+                    "x": 48.13,
+                    "y": 48.06
+                },
+                {
+                    "x": 40.42,
+                    "y": 50.8
+                },
+                {
+                    "x": 45.79,
+                    "y": 58.55
+                },
+                {
+                    "x": 38.17,
+                    "y": 40.3
+                },
+                {
+                    "x": 58.7,
+                    "y": 53.6
+                },
+                {
+                    "x": 69.76,
+                    "y": 53.6
+                },
+                {
+                    "x": 76.52,
+                    "y": 33.77
+                },
+                {
+                    "x": 97.38,
+                    "y": 34.99
+                },
+                {
+                    "x": 17.68,
+                    "y": 29.72
+                },
+                {
+                    "x": 43.24,
+                    "y": 25.07
+                },
+                {
+                    "x": 28.48,
+                    "y": 45.47
+                },
+                {
+                    "x": 57.38,
+                    "y": 20.15
+                },
+                {
+                    "x": 55.65,
+                    "y": 8.66
+                },
+                {
+                    "x": 44.06,
+                    "y": 64.59
+                },
+                {
+                    "x": 56.87,
+                    "y": 19.87
+                },
+                {
+                    "x": 58.9,
+                    "y": 14.96
+                },
+                {
+                    "x": 63.34,
+                    "y": 3.74
+                },
+                {
+                    "x": 65.37,
+                    "y": 2.82
+                },
+                {
+                    "x": 3.7,
+                    "y": 39.88
+                },
+                {
+                    "x": 24.2,
+                    "y": 29.46
+                },
+                {
+                    "x": 39.07,
+                    "y": 43.44
+                },
+                {
+                    "x": 27.81,
+                    "y": 42.52
+                },
+                {
+                    "x": 65.25,
+                    "y": 40.97
+                },
+                {
+                    "x": 37.27,
+                    "y": 45.75
+                },
+                {
+                    "x": 31.86,
+                    "y": 23.65
+                },
+                {
+                    "x": 50.98,
+                    "y": 20.78
+                },
+                {
+                    "x": 92.1,
+                    "y": 6.03
+                },
+                {
+                    "x": 28.03,
+                    "y": 33.31
+                },
+                {
+                    "x": 30.06,
+                    "y": 40.64
+                },
+                {
+                    "x": 30.96,
+                    "y": 35.98
+                },
+                {
+                    "x": 66.61,
+                    "y": 46.59
+                },
+                {
+                    "x": 67.39,
+                    "y": 39.55
+                },
+                {
+                    "x": 32.31,
+                    "y": 37.72
+                },
+                {
+                    "x": 36.82,
+                    "y": 36.74
+                },
+                {
+                    "x": 43.96,
+                    "y": 43.16
+                },
+                {
+                    "x": 41.21,
+                    "y": 48.27
+                },
+                {
+                    "x": 14.4,
+                    "y": 31.79
+                },
+                {
+                    "x": 71.9,
+                    "y": 19.23
+                },
+                {
+                    "x": 91.5,
+                    "y": 32.25
+                },
+                {
+                    "x": 8.97,
+                    "y": 38.12
+                },
+                {
+                    "x": 102.63,
+                    "y": 19.87
+                },
+                {
+                    "x": 101.87,
+                    "y": 21.2
+                },
+                {
+                    "x": 81.02,
+                    "y": 40.55
+                },
+                {
+                    "x": 41.89,
+                    "y": 39.04
+                },
+                {
+                    "x": 44.98,
+                    "y": 25.48
+                },
+                {
+                    "x": 44.67,
+                    "y": 27.95
+                },
+                {
+                    "x": 50.77,
+                    "y": 44.77
+                },
+                {
+                    "x": 36.59,
+                    "y": 35.68
+                },
+                {
+                    "x": 71.34,
+                    "y": 27.36
+                },
+                {
+                    "x": 40.53,
+                    "y": 26.69
+                },
+                {
+                    "x": 19.72,
+                    "y": 4.13
+                },
+                {
+                    "x": 69.53,
+                    "y": 64.85
+                },
+                {
+                    "x": 39.75,
+                    "y": 44.98
+                },
+                {
+                    "x": 37.04,
+                    "y": 46.03
+                },
+                {
+                    "x": 49.76,
+                    "y": 21.83
+                },
+                {
+                    "x": 32.54,
+                    "y": 43.65
+                },
+                {
+                    "x": 67.17,
+                    "y": 52.2
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 408784,
+                "teamName": "Slavia Prague U19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 1949,
+                "teamName": "Vysocina Jihlava",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 1949,
+                "teamName": "Vysocina Jihlava"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 230000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": 2406,
+                "teamName": "Pardubice"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 260000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 440000,
+                "currency": "EUR",
+                "lowerBound": 330000,
+                "upperBound": 550000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 540000,
+                "currency": "EUR",
+                "lowerBound": 400000,
+                "upperBound": 670000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 400000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 500000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 520000,
+                "currency": "EUR",
+                "lowerBound": 390000,
+                "upperBound": 650000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 670000,
+                "currency": "EUR",
+                "lowerBound": 510000,
+                "upperBound": 840000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 760000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 950000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 850000,
+                "currency": "EUR",
+                "lowerBound": 630000,
+                "upperBound": 1060000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 910000,
+                "currency": "EUR",
+                "lowerBound": 680000,
+                "upperBound": 1130000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 890000,
+                "currency": "EUR",
+                "lowerBound": 660000,
+                "upperBound": 1110000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 780000,
+                "currency": "EUR",
+                "lowerBound": 580000,
+                "upperBound": 970000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 700000,
+                "currency": "EUR",
+                "lowerBound": 520000,
+                "upperBound": 870000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 770000,
+                "currency": "EUR",
+                "lowerBound": 580000,
+                "upperBound": 960000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 800000,
+                "currency": "EUR",
+                "lowerBound": 600000,
+                "upperBound": 1000000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 760000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 950000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 560000,
+                "upperBound": 930000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 770000,
+                "currency": "EUR",
+                "lowerBound": 580000,
+                "upperBound": 960000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 790000,
+                "currency": "EUR",
+                "lowerBound": 590000,
+                "upperBound": 990000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 810000,
+                "currency": "EUR",
+                "lowerBound": 610000,
+                "upperBound": 1010000,
+                "source": "scisports",
+                "teamId": 10245,
+                "teamName": "Slovan Liberec"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1010000,
+                "currency": "EUR",
+                "lowerBound": 808000,
+                "upperBound": 1212000,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 1212000,
+                "currency": "EUR",
+                "lowerBound": 969600,
+                "upperBound": 1454400,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 1454400,
+                "currency": "EUR",
+                "lowerBound": 1163520,
+                "upperBound": 1745280,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 1745280,
+                "currency": "EUR",
+                "lowerBound": 1396224,
+                "upperBound": 2094336,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 2094336,
+                "currency": "EUR",
+                "lowerBound": 1675468,
+                "upperBound": 2513203,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 2513203,
+                "currency": "EUR",
+                "lowerBound": 2010562,
+                "upperBound": 3015843,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 3015843,
+                "currency": "EUR",
+                "lowerBound": 2412674,
+                "upperBound": 3619011,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 3619011,
+                "currency": "EUR",
+                "lowerBound": 2895208,
+                "upperBound": 4342813,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 4342813,
+                "currency": "EUR",
+                "lowerBound": 3474250,
+                "upperBound": 5211375,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 4494351,
+                "currency": "EUR",
+                "lowerBound": 3595481,
+                "upperBound": 5393221,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 4309284,
+                "currency": "EUR",
+                "lowerBound": 3447427,
+                "upperBound": 5171141,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 4255410,
+                "currency": "EUR",
+                "lowerBound": 3404328,
+                "upperBound": 5106492,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 4267461,
+                "currency": "EUR",
+                "lowerBound": 3413969,
+                "upperBound": 5120953,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 4544417,
+                "currency": "EUR",
+                "lowerBound": 3635533,
+                "upperBound": 5453300,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 4545764,
+                "currency": "EUR",
+                "lowerBound": 3636611,
+                "upperBound": 5454917,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 4545764,
+                "currency": "EUR",
+                "lowerBound": 3636611,
+                "upperBound": 5454917,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 4823873,
+                "currency": "EUR",
+                "lowerBound": 3859099,
+                "upperBound": 5788648,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 4791478,
+                "currency": "EUR",
+                "lowerBound": 3833182,
+                "upperBound": 5749774,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 4632716,
+                "currency": "EUR",
+                "lowerBound": 3706173,
+                "upperBound": 5559260,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 4661125,
+                "currency": "EUR",
+                "lowerBound": 3728900,
+                "upperBound": 5593350,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 5853028,
+                "currency": "EUR",
+                "lowerBound": 4975074,
+                "upperBound": 6730983,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 5823261,
+                "currency": "EUR",
+                "lowerBound": 4949772,
+                "upperBound": 6696750,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 5726503,
+                "currency": "EUR",
+                "lowerBound": 4867528,
+                "upperBound": 6585479,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 5634583,
+                "currency": "EUR",
+                "lowerBound": 4789396,
+                "upperBound": 6479771,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 6475749,
+                "currency": "EUR",
+                "lowerBound": 5504387,
+                "upperBound": 7447111,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 6434797,
+                "currency": "EUR",
+                "lowerBound": 5469577,
+                "upperBound": 7400017,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 6409941,
+                "currency": "EUR",
+                "lowerBound": 5448450,
+                "upperBound": 7371432,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 6661577,
+                "currency": "EUR",
+                "lowerBound": 5662340,
+                "upperBound": 7660814,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 6477340,
+                "currency": "EUR",
+                "lowerBound": 5505739,
+                "upperBound": 7448942,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 5505739,
+                "currency": "EUR",
+                "lowerBound": 4679878,
+                "upperBound": 6331599,
+                "source": "scisports",
+                "teamId": 6033,
+                "teamName": "Viktoria Plzen"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1722302,
+                "name": "Baboucarr Faal"
+            },
+            {
+                "id": 1357694,
+                "name": "Filip Prebsl"
+            },
+            {
+                "id": 1621131,
+                "name": "Stefan Pirgic"
+            },
+            {
+                "id": 1225994,
+                "name": "V\u00e1clav M\u00edka"
+            },
+            {
+                "id": 1379393,
+                "name": "Dominik Tapaj"
+            },
+            {
+                "id": 1611068,
+                "name": "Karel Sp\u00e1cil"
+            },
+            {
+                "id": 1184444,
+                "name": "Christophe Kabongo"
+            },
+            {
+                "id": 1202885,
+                "name": "Denis Visinsky"
+            },
+            {
+                "id": 1734096,
+                "name": "Mohamed Toure"
+            },
+            {
+                "id": 196308,
+                "name": "Matej Vydra"
+            },
+            {
+                "id": 1478281,
+                "name": "Alexandr Sojka"
+            },
+            {
+                "id": 1039086,
+                "name": "Mari\u00e1n Tvrdon"
+            },
+            {
+                "id": 1199113,
+                "name": "Merchas Doski"
+            },
+            {
+                "id": 1252019,
+                "name": "Adam Kadlec"
+            },
+            {
+                "id": 351661,
+                "name": "Patrik Hrosovsky"
+            },
+            {
+                "id": 791677,
+                "name": "Tom\u00e1s Ladra"
+            },
+            {
+                "id": 1225210,
+                "name": "Cheick Souar\u00e9"
+            },
+            {
+                "id": 1662432,
+                "name": "Jir\u00ed Panos"
+            },
+            {
+                "id": 750473,
+                "name": "V\u00e1clav Jemelka"
+            },
+            {
+                "id": 1412131,
+                "name": "Jan Paluska"
+            },
+            {
+                "id": 1482721,
+                "name": "Viktor Baier"
+            },
+            {
+                "id": 955194,
+                "name": "Matej Valenta"
+            },
+            {
+                "id": 1280245,
+                "name": "D\u00e1vid Krc\u00edk"
+            },
+            {
+                "id": 1293671,
+                "name": "Sampson Dweh"
+            },
+            {
+                "id": 1514693,
+                "name": "Florian Wiegele"
+            },
+            {
+                "id": 1366347,
+                "name": "Sebastian Boh\u00e1c"
+            },
+            {
+                "id": 1478703,
+                "name": "Salim Fago Lawal"
+            },
+            {
+                "id": 1220633,
+                "name": "Prince Adu"
+            },
+            {
+                "id": 1300385,
+                "name": "Amar Memic"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1077903,
+                "name": "Matej Kov\u00e1r"
+            },
+            {
+                "id": 1085401,
+                "name": "David Zima"
+            },
+            {
+                "id": 306168,
+                "name": "Tom\u00e1s Holes"
+            },
+            {
+                "id": 1225995,
+                "name": "Robin Hran\u00e1c"
+            },
+            {
+                "id": 307317,
+                "name": "Vladim\u00edr Coufal"
+            },
+            {
+                "id": 1288146,
+                "name": "Step\u00e1n Chaloupek"
+            },
+            {
+                "id": 798029,
+                "name": "Ladislav Krejc\u00ed"
+            },
+            {
+                "id": 196311,
+                "name": "Vladim\u00edr Darida"
+            },
+            {
+                "id": 969870,
+                "name": "Adam Hlozek"
+            },
+            {
+                "id": 540097,
+                "name": "Patrik Schick"
+            },
+            {
+                "id": 690332,
+                "name": "Jan Kuchta"
+            },
+            {
+                "id": 988769,
+                "name": "Mojm\u00edr Chytil"
+            },
+            {
+                "id": 1247323,
+                "name": "David Jur\u00e1sek"
+            },
+            {
+                "id": 1037539,
+                "name": "Pavel Sulc"
+            },
+            {
+                "id": 463967,
+                "name": "Jindrich Stanek"
+            },
+            {
+                "id": 791682,
+                "name": "Luk\u00e1s Provod"
+            },
+            {
+                "id": 806551,
+                "name": "Michal Sad\u00edlek"
+            },
+            {
+                "id": 523217,
+                "name": "Tom\u00e1s Chory"
+            },
+            {
+                "id": 249063,
+                "name": "Jaroslav Zeleny"
+            },
+            {
+                "id": 883759,
+                "name": "David Doudera"
+            },
+            {
+                "id": 524437,
+                "name": "Tom\u00e1s Soucek"
+            },
+            {
+                "id": 1186978,
+                "name": "Luk\u00e1s Horn\u00edcek"
+            },
+            {
+                "id": 1478281,
+                "name": "Alexandr Sojka"
+            },
+            {
+                "id": 1764021,
+                "name": "Hugo Sochurek"
+            },
+            {
+                "id": 1202885,
+                "name": "Denis Visinsky"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5788578,
+        "homeId": 8608,
+        "awayId": 6033,
+        "homeName": "Troms\u00f8",
+        "awayName": "Viktoria Plzen",
+        "matchDate": "2026-07-23T16:00:00Z",
+        "statusId": 106,
+        "leagueId": 10613,
+        "parentLeagueId": 10613,
+        "leagueName": "Europa League Qualification",
+        "status": {
+            "utcTime": "2026-07-23T16:00:00.000Z",
+            "cancelled": true,
+            "started": false,
+            "finished": false,
+            "reason": {
+                "short": "Can",
+                "shortKey": "cancelled_short",
+                "long": "Cancelled",
+                "longKey": "cancelled"
+            }
+        },
+        "stadium": {
+            "venue": "Romssa Arena"
+        },
+        "matchUrl": "/matches/viktoria-plzen-vs-tromso/1rtkh5#5788578"
+    },
+    "dataProvider": "enet"
+}

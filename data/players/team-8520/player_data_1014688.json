@@ -1,0 +1,4123 @@
+{
+    "id": 1014688,
+    "name": "Alexander Bernhardsson",
+    "birthDate": {
+        "utcTime": "1998-09-08T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 8150,
+        "teamName": "Holstein Kiel",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#085080",
+            "colorAlternate": "#1a5889",
+            "colorAway": "#BD181C",
+            "colorAwayAlternate": "#BD181C"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 8,
+                "position": "62",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.58
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Wing-Back",
+                    "key": "left_wing_back"
+                },
+                "strPosShort": {
+                    "label": "LWB",
+                    "key": "left_wing_back_short"
+                },
+                "occurences": 1,
+                "position": "68",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 8,
+                "position": "71",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.42,
+                    "ratio": 0.5076923076923077
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "79",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 2,
+                "position": "82",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.27692307692307694
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 4,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.35384615384615387
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 1,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "107",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Wing-Back",
+            "key": "right_wing_back"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Midfielder",
+                "key": "rightmidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 185,
+                "key": null,
+                "fallback": "185 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 11,
+                "options": {},
+                "key": null,
+                "fallback": 11
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 27,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "27"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Sweden"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "SWE"
+            },
+            "countryCode": "SWE"
+        },
+        {
+            "value": {
+                "numberValue": 1670037,
+                "key": null,
+                "fallback": "\u20ac1.7m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 146,
+        "leagueName": "2. Bundesliga",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 9
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 16
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 20
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1401
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.32
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 4653704,
+            "matchDate": {
+                "utcTime": "2026-06-30T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/france-vs-sweden/1x6dai#4653704",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6715,
+            "opponentTeamName": "Japan",
+            "isHomeTeam": false,
+            "id": 4667788,
+            "matchDate": {
+                "utcTime": "2026-06-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/japan-vs-sweden/1x3r7y#4667788",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6708,
+            "opponentTeamName": "Netherlands",
+            "isHomeTeam": false,
+            "id": 4667786,
+            "matchDate": {
+                "utcTime": "2026-06-20T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/netherlands-vs-sweden/1x1gy6#4667786",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 55,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 4667784,
+            "matchDate": {
+                "utcTime": "2026-06-15T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tunisia-vs-sweden/1x5290#4667784",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. F",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6383,
+            "opponentTeamName": "Greece",
+            "isHomeTeam": true,
+            "id": 5418296,
+            "matchDate": {
+                "utcTime": "2026-06-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/greece-vs-sweden/1u4ito#5418296",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": false,
+            "id": 5269692,
+            "matchDate": {
+                "utcTime": "2026-06-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/norway-vs-sweden/2e5vii#5269692",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8480,
+            "opponentTeamName": "Dynamo Dresden",
+            "isHomeTeam": false,
+            "id": 4829958,
+            "matchDate": {
+                "utcTime": "2026-05-17T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-dynamo-dresden/2ac5al#4829958",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8188,
+            "opponentTeamName": "Magdeburg",
+            "isHomeTeam": true,
+            "id": 4829945,
+            "matchDate": {
+                "utcTime": "2026-05-09T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-magdeburg/27gyyv#4829945",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 9776,
+            "opponentTeamName": "Eintracht Braunschweig",
+            "isHomeTeam": true,
+            "id": 4829936,
+            "matchDate": {
+                "utcTime": "2026-05-02T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-eintracht-braunschweig/2no4sl#4829936",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8165,
+            "opponentTeamName": "1. FC N\u00fcrnberg",
+            "isHomeTeam": true,
+            "id": 4829882,
+            "matchDate": {
+                "utcTime": "2026-03-14T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-1-fc-nurnberg/278x73#4829882",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8262,
+            "opponentTeamName": "Darmstadt",
+            "isHomeTeam": false,
+            "id": 4829870,
+            "matchDate": {
+                "utcTime": "2026-03-07T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-darmstadt/286y1o#4829870",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 36,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8232,
+            "opponentTeamName": "Elversberg",
+            "isHomeTeam": true,
+            "id": 4829865,
+            "matchDate": {
+                "utcTime": "2026-02-28T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-elversberg/27weg9#4829865",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 19,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8177,
+            "opponentTeamName": "Hertha BSC",
+            "isHomeTeam": true,
+            "id": 4829775,
+            "matchDate": {
+                "utcTime": "2025-11-29T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-hertha-bsc/27d4bx#4829775",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8350,
+            "opponentTeamName": "Kaiserslautern",
+            "isHomeTeam": false,
+            "id": 4829765,
+            "matchDate": {
+                "utcTime": "2025-11-23T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-kaiserslautern/291zj4#4829765",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": true,
+            "id": 4689292,
+            "matchDate": {
+                "utcTime": "2025-11-18T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-sweden/1oxy3i#4689292",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": false,
+            "id": 4689290,
+            "matchDate": {
+                "utcTime": "2025-11-15T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-sweden/1x4eqf#4689290",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8194,
+            "opponentTeamName": "Fortuna D\u00fcsseldorf",
+            "isHomeTeam": true,
+            "id": 4829756,
+            "matchDate": {
+                "utcTime": "2025-11-09T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-fortuna-dusseldorf/27j2mm#4829756",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8171,
+            "opponentTeamName": "Preussen M\u00fcnster",
+            "isHomeTeam": false,
+            "id": 4829751,
+            "matchDate": {
+                "utcTime": "2025-10-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-preussen-munster/27b0r0#4829751",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8721,
+            "opponentTeamName": "Wolfsburg",
+            "isHomeTeam": false,
+            "id": 4951167,
+            "matchDate": {
+                "utcTime": "2025-10-28T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-wolfsburg/2cqofx#4951167",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 9911,
+            "opponentTeamName": "Bochum",
+            "isHomeTeam": true,
+            "id": 4829738,
+            "matchDate": {
+                "utcTime": "2025-10-25T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-bochum/2p479u#4829738",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8165,
+            "opponentTeamName": "1. FC N\u00fcrnberg",
+            "isHomeTeam": false,
+            "id": 4829731,
+            "matchDate": {
+                "utcTime": "2025-10-19T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-1-fc-nurnberg/278x73#4829731",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 68,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 430156,
+            "opponentTeamName": "Kosovo",
+            "isHomeTeam": true,
+            "id": 4689288,
+            "matchDate": {
+                "utcTime": "2025-10-13T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sweden-vs-kosovo/187a1byy#4689288",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 6717,
+            "opponentTeamName": "Switzerland",
+            "isHomeTeam": true,
+            "id": 4689286,
+            "matchDate": {
+                "utcTime": "2025-10-10T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/switzerland-vs-sweden/1x4eqf#4689286",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8262,
+            "opponentTeamName": "Darmstadt",
+            "isHomeTeam": true,
+            "id": 4829721,
+            "matchDate": {
+                "utcTime": "2025-10-04T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-darmstadt/286y1o#4829721",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8232,
+            "opponentTeamName": "Elversberg",
+            "isHomeTeam": false,
+            "id": 4829709,
+            "matchDate": {
+                "utcTime": "2025-09-27T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-elversberg/27weg9#4829709",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8295,
+            "opponentTeamName": "Karlsruher SC",
+            "isHomeTeam": true,
+            "id": 4829702,
+            "matchDate": {
+                "utcTime": "2025-09-21T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-karlsruher-sc/28ikei#4829702",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 10189,
+            "opponentTeamName": "Schalke 04",
+            "isHomeTeam": false,
+            "id": 4829697,
+            "matchDate": {
+                "utcTime": "2025-09-13T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-schalke-04/2s4m18#4829697",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 430156,
+            "opponentTeamName": "Kosovo",
+            "isHomeTeam": false,
+            "id": 4689283,
+            "matchDate": {
+                "utcTime": "2025-09-08T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sweden-vs-kosovo/187a1byy#4689283",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8520,
+            "teamName": "Sweden",
+            "opponentTeamId": 5787,
+            "opponentTeamName": "Slovenia",
+            "isHomeTeam": false,
+            "id": 4689281,
+            "matchDate": {
+                "utcTime": "2025-09-05T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/slovenia-vs-sweden/1oxy3i#4689281",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 71,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 9904,
+            "opponentTeamName": "Hannover 96",
+            "isHomeTeam": true,
+            "id": 4829684,
+            "matchDate": {
+                "utcTime": "2025-08-30T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-hannover-96/2p1hqd#4829684",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8357,
+            "opponentTeamName": "Greuther F\u00fcrth",
+            "isHomeTeam": false,
+            "id": 4829674,
+            "matchDate": {
+                "utcTime": "2025-08-24T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-greuther-furth/294gof#4829674",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 1734,
+            "opponentTeamName": "Homburg",
+            "isHomeTeam": false,
+            "id": 4810492,
+            "matchDate": {
+                "utcTime": "2025-08-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/homburg-vs-holstein-kiel/t38h8#4810492",
+            "leagueId": 209,
+            "leagueName": "DFB Pokal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 5,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 9912,
+            "opponentTeamName": "Arminia Bielefeld",
+            "isHomeTeam": true,
+            "id": 4829666,
+            "matchDate": {
+                "utcTime": "2025-08-10T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-arminia-bielefeld/2p4l7l#4829666",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8150,
+            "teamName": "Holstein Kiel",
+            "opponentTeamId": 8460,
+            "opponentTeamName": "Paderborn",
+            "isHomeTeam": false,
+            "id": 4829629,
+            "matchDate": {
+                "utcTime": "2025-08-02T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/holstein-kiel-vs-paderborn/2a50sf#4829629",
+            "leagueId": 146,
+            "leagueName": "2. Bundesliga",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1014688,
+                        "teamId": 8150,
+                        "team": "Holstein Kiel",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-01-22T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "55",
+                        "goals": "15",
+                        "assists": "11",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1014688,
+                        "teamId": 8014,
+                        "team": "Elfsborg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-01-11T00:00:00",
+                        "endDate": "2024-01-22T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "79",
+                        "goals": "20",
+                        "assists": "6",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1014688,
+                        "teamId": 10002,
+                        "team": "\u00d6rgryte",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-01-08T00:00:00",
+                        "endDate": "2019-12-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "28",
+                        "goals": "6",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1014688,
+                        "teamId": -1,
+                        "team": "S\u00e4vedalens IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-03T00:00:00",
+                        "endDate": "2018-11-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "22",
+                        "goals": "4",
+                        "assists": "9",
+                        "rating": {
+                            "rating": "7.40"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26892,
+                                "goals": "2",
+                                "assists": "9",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 26893,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.22"
+                                }
+                            }
+                        ],
+                        "teamId": 8150,
+                        "team": "Holstein Kiel",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "20",
+                        "goals": "7",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 54,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23794,
+                                "goals": "7",
+                                "assists": "2",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": "6.97"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 209,
+                                "leagueName": "DFB Pokal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23599,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.13"
+                                }
+                            }
+                        ],
+                        "teamId": 8150,
+                        "team": "Holstein Kiel",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "13",
+                        "goals": "4",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 146,
+                                "leagueName": "2. Bundesliga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20947,
+                                "goals": "4",
+                                "assists": "0",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": "7.15"
+                                }
+                            }
+                        ],
+                        "teamId": 8150,
+                        "team": "Holstein Kiel",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "19",
+                        "goals": "6",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.22"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 67,
+                                "leagueName": "Allsvenskan",
+                                "seasonName": "2023",
+                                "tournamentId": 18522,
+                                "goals": "6",
+                                "assists": "0",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": "7.22"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8014,
+                        "team": "Elfsborg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "28",
+                        "goals": "7",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.00"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 67,
+                                "leagueName": "Allsvenskan",
+                                "seasonName": "2022",
+                                "tournamentId": 17335,
+                                "goals": "7",
+                                "assists": "3",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "7.00"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17778,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8014,
+                        "team": "Elfsborg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "31",
+                        "goals": "7",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "6.86"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 67,
+                                "leagueName": "Allsvenskan",
+                                "seasonName": "2021",
+                                "tournamentId": 16005,
+                                "goals": "4",
+                                "assists": "3",
+                                "appearances": "21",
+                                "rating": {
+                                    "rating": "6.86"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10216,
+                                "leagueName": "Conference League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16432,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8014,
+                        "team": "Elfsborg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8014,
+                        "team": "Elfsborg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "26",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 168,
+                                "leagueName": "Superettan",
+                                "seasonName": "2019",
+                                "tournamentId": 13444,
+                                "goals": "5",
+                                "assists": "undefined",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10002,
+                        "team": "\u00d6rgryte",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10002,
+                        "team": "\u00d6rgryte",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Svenska Cupen",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "S\u00e4vedalens IF",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1014688,
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-01-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "11",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.63"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.62"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.62"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.68"
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.52"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.52"
+                                }
+                            }
+                        ],
+                        "teamId": 8520,
+                        "team": "Sweden",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_fullbacks",
+        "title": "Stats compared to other fullbacks",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.89
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.64
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.4
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.94
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.99
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.28
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "alexander-bernhardsson",
+        "pageurl": "/players/1014688/alexander-bernhardsson",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Alexander Bernhardsson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson is 27 years old. Born on Tue Sep 08 1998."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Alexander Bernhardsson?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson is 185 cm tall. Or 6 ft 1 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Alexander Bernhardsson born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson was born Tue Sep 08 1998 and is now 27 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Alexander Bernhardsson's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Alexander Bernhardsson's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson's transfer value is estimated to be around \u20ac1.7m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Alexander Bernhardsson from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson is from Sweden."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Alexander Bernhardsson scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Alexander Bernhardsson has scored 2 goals in the 2. Bundesliga."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Alexander Bernhardsson",
+            "birthDate": "1998-09-08T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1014688/alexander-bernhardsson",
+            "nationality": {
+                "@type": "Country",
+                "name": "Sweden"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Holstein Kiel"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "185"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "78"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "2. Bundesliga 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/146/overview/2-bundesliga-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Holstein Kiel",
+                    "item": "https://www.fotmob.com/teams/8150/overview/holstein-kiel"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Alexander Bernhardsson",
+                    "item": "https://www.fotmob.com/leagues/1014688/overview/alexander-bernhardsson"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 54,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "DFB Pokal",
+                    "tournamentId": 209,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "2. Bundesliga",
+                    "tournamentId": 146,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023",
+            "tournaments": [
+                {
+                    "name": "Allsvenskan",
+                    "tournamentId": 67,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022",
+            "tournaments": [
+                {
+                    "name": "Allsvenskan",
+                    "tournamentId": 67,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021",
+            "tournaments": [
+                {
+                    "name": "Allsvenskan",
+                    "tournamentId": 67,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019",
+            "tournaments": [
+                {
+                    "name": "Superettan",
+                    "tournamentId": 168,
+                    "entryId": "7-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945438779,
+                "playerName": "Alexander Bernhardsson",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 8520,
+                "playerId": 1014688,
+                "x": 87.5338235292,
+                "y": 27.614523809,
+                "min": 6,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 103.8620689656,
+                "blockedY": 32.475,
+                "goalCrossedY": 35.60125,
+                "goalCrossedZ": 0.160526315,
+                "expectedGoals": 0.0444934442639351,
+                "expectedGoalsOnTarget": 0.212024360895157,
+                "onGoalShot": {
+                    "x": 0.576388888888889,
+                    "y": 0.0424672791005291,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6715,
+                "awayTeamId": 8520,
+                "homeTeamName": "Japan",
+                "awayTeamName": "Sweden",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667788,
+                "matchDate": "2026-06-25T23:00:00Z",
+                "teamColor": "#dd9a00",
+                "teamColorDark": "#FED226"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.018287671551312484,
+                            "percentileRank": 52.816901408450704,
+                            "percentileRankPer90": 56.33802816901409,
+                            "statFormat": "fraction",
+                            "statValue": "0.04",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.08712328664244039,
+                            "percentileRank": 81.69014084507043,
+                            "percentileRankPer90": 86.61971830985915,
+                            "statFormat": "fraction",
+                            "statValue": "0.21",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.018287671551312484,
+                            "percentileRank": 52.816901408450704,
+                            "percentileRankPer90": 56.33802816901409,
+                            "statFormat": "fraction",
+                            "statValue": "0.04",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 0.410958904109589,
+                            "percentileRank": 33.80281690140845,
+                            "percentileRankPer90": 50.70422535211267,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.410958904109589,
+                            "percentileRank": 69.01408450704226,
+                            "percentileRankPer90": 83.09859154929578,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.024018584661287805,
+                            "percentileRank": 32.3943661971831,
+                            "percentileRankPer90": 24.647887323943664,
+                            "statFormat": "fraction",
+                            "statValue": "0.06",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 18.082191780821915,
+                            "percentileRank": 26.056338028169012,
+                            "percentileRankPer90": 9.859154929577464,
+                            "statFormat": "number",
+                            "statValue": "44",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 67.6923076923077,
+                            "percentileRank": 6.338028169014084,
+                            "percentileRankPer90": 6.338028169014084,
+                            "statFormat": "percent",
+                            "statValue": "67.7",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.821917808219178,
+                            "percentileRank": 28.169014084507044,
+                            "percentileRankPer90": 33.80281690140845,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 28.571428571428573,
+                            "percentileRank": 28.169014084507044,
+                            "percentileRankPer90": 28.169014084507044,
+                            "statFormat": "percent",
+                            "statValue": "28.6",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.410958904109589,
+                            "percentileRank": 18.30985915492958,
+                            "percentileRankPer90": 32.3943661971831,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Chances created"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 0.821917808219178,
+                            "percentileRank": 60.56338028169014,
+                            "percentileRankPer90": 68.30985915492957,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 40,
+                            "percentileRank": 45.07042253521127,
+                            "percentileRankPer90": 45.07042253521127,
+                            "statFormat": "percent",
+                            "statValue": "40.0",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 5.342465753424658,
+                            "percentileRank": 50.70422535211267,
+                            "percentileRankPer90": 69.01408450704226,
+                            "statFormat": "number",
+                            "statValue": "13",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 41.935483870967744,
+                            "percentileRank": 14.788732394366196,
+                            "percentileRankPer90": 14.788732394366196,
+                            "statFormat": "percent",
+                            "statValue": "41.9",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.821917808219178,
+                            "percentileRank": 42.25352112676056,
+                            "percentileRankPer90": 50,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 40,
+                            "percentileRank": 35.2112676056338,
+                            "percentileRankPer90": 35.2112676056338,
+                            "statFormat": "percent",
+                            "statValue": "40.0",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 48.49315068493151,
+                            "percentileRank": 34.50704225352113,
+                            "percentileRankPer90": 14.788732394366196,
+                            "statFormat": "number",
+                            "statValue": "118",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.643835616438356,
+                            "percentileRank": 5.633802816901409,
+                            "percentileRankPer90": 6.338028169014084,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.643835616438356,
+                            "percentileRank": 72.53521126760563,
+                            "percentileRankPer90": 78.87323943661971,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 5.7534246575342465,
+                            "percentileRank": 42.95774647887324,
+                            "percentileRankPer90": 45.07042253521127,
+                            "statFormat": "number",
+                            "statValue": "14",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.054794520547945,
+                            "percentileRank": 46.478873239436616,
+                            "percentileRankPer90": 57.04225352112676,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.821917808219178,
+                            "percentileRank": 30.28169014084507,
+                            "percentileRankPer90": 34.50704225352113,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 0.821917808219178,
+                            "percentileRank": 48.59154929577465,
+                            "percentileRankPer90": 61.267605633802816,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 4.10958904109589,
+                            "percentileRank": 51.40845070422535,
+                            "percentileRankPer90": 65.49295774647888,
+                            "statFormat": "number",
+                            "statValue": "10",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.410958904109589,
+                            "percentileRank": 54.22535211267606,
+                            "percentileRankPer90": 74.64788732394366,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 2.4657534246575343,
+                            "percentileRank": 7.746478873239436,
+                            "percentileRankPer90": 4.929577464788732,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 2.8767123287671232,
+                            "percentileRank": 47.88732394366197,
+                            "percentileRankPer90": 60.56338028169014,
+                            "statFormat": "number",
+                            "statValue": "7",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.4657534246575343,
+                            "percentileRank": 19.014084507042252,
+                            "percentileRankPer90": 15.492957746478872,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.500616432869271,
+                            "percentileRank": 45.774647887323944,
+                            "percentileRankPer90": 38.732394366197184,
+                            "statFormat": "fraction",
+                            "statValue": "3.65",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.616666666666666,
+                    "percentileRank": 32.3943661971831,
+                    "percentileRankPer90": 32.3943661971831,
+                    "statFormat": "fraction",
+                    "statValue": "6.62",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 27.464788732394368,
+                    "percentileRankPer90": 27.464788732394368,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 3,
+                    "percentileRank": 42.25352112676056,
+                    "percentileRankPer90": 88.02816901408451,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 42.25352112676056,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "219",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 35.13,
+                    "y": 59.87
+                },
+                {
+                    "x": 48.33,
+                    "y": 64
+                },
+                {
+                    "x": 15.9,
+                    "y": 25.13
+                },
+                {
+                    "x": 76.85,
+                    "y": 55.8
+                },
+                {
+                    "x": 61.14,
+                    "y": 54.68
+                },
+                {
+                    "x": 61.14,
+                    "y": 54.68
+                },
+                {
+                    "x": 73.59,
+                    "y": 64.98
+                },
+                {
+                    "x": 74.26,
+                    "y": 68
+                },
+                {
+                    "x": 42.67,
+                    "y": 66.56
+                },
+                {
+                    "x": 77.3,
+                    "y": 60.33
+                },
+                {
+                    "x": 90.4,
+                    "y": 64.85
+                },
+                {
+                    "x": 24.32,
+                    "y": 68
+                },
+                {
+                    "x": 76.29,
+                    "y": 68
+                },
+                {
+                    "x": 37.16,
+                    "y": 51.99
+                },
+                {
+                    "x": 83.05,
+                    "y": 64.85
+                },
+                {
+                    "x": 86.78,
+                    "y": 63.41
+                },
+                {
+                    "x": 99.4,
+                    "y": 60.85
+                },
+                {
+                    "x": 99.11,
+                    "y": 60.85
+                },
+                {
+                    "x": 37.16,
+                    "y": 51.99
+                },
+                {
+                    "x": 34.68,
+                    "y": 68
+                },
+                {
+                    "x": 70.55,
+                    "y": 44.56
+                },
+                {
+                    "x": 71.34,
+                    "y": 43.1
+                },
+                {
+                    "x": 67.84,
+                    "y": 54.68
+                },
+                {
+                    "x": 91.9,
+                    "y": 62.49
+                },
+                {
+                    "x": 94.87,
+                    "y": 63.28
+                },
+                {
+                    "x": 101.49,
+                    "y": 60.78
+                },
+                {
+                    "x": 72.46,
+                    "y": 24.35
+                },
+                {
+                    "x": 67.51,
+                    "y": 47.43
+                },
+                {
+                    "x": 86.67,
+                    "y": 54.29
+                },
+                {
+                    "x": 46.81,
+                    "y": 49.68
+                },
+                {
+                    "x": 67.84,
+                    "y": 53.88
+                },
+                {
+                    "x": 18,
+                    "y": 62.23
+                },
+                {
+                    "x": 69.98,
+                    "y": 59.74
+                },
+                {
+                    "x": 14.6,
+                    "y": 53.53
+                },
+                {
+                    "x": 11.2,
+                    "y": 52.76
+                },
+                {
+                    "x": 23.08,
+                    "y": 56.91
+                },
+                {
+                    "x": 82.82,
+                    "y": 66.56
+                },
+                {
+                    "x": 52.5,
+                    "y": 34
+                },
+                {
+                    "x": 55.24,
+                    "y": 61.38
+                },
+                {
+                    "x": 61.55,
+                    "y": 58.82
+                },
+                {
+                    "x": 21.5,
+                    "y": 54.49
+                },
+                {
+                    "x": 14.6,
+                    "y": 51.92
+                },
+                {
+                    "x": 33.78,
+                    "y": 31.48
+                },
+                {
+                    "x": 8.68,
+                    "y": 25.24
+                },
+                {
+                    "x": 31.52,
+                    "y": 13.91
+                },
+                {
+                    "x": 35.69,
+                    "y": 12
+                },
+                {
+                    "x": 67.51,
+                    "y": 55.47
+                },
+                {
+                    "x": 67.51,
+                    "y": 55.47
+                },
+                {
+                    "x": 81.81,
+                    "y": 64.46
+                },
+                {
+                    "x": 28.37,
+                    "y": 68
+                },
+                {
+                    "x": 28.15,
+                    "y": 63.74
+                },
+                {
+                    "x": 53.92,
+                    "y": 65.9
+                },
+                {
+                    "x": 9.55,
+                    "y": 59.6
+                },
+                {
+                    "x": 12.5,
+                    "y": 60.19
+                },
+                {
+                    "x": 27.25,
+                    "y": 65.64
+                },
+                {
+                    "x": 37.94,
+                    "y": 65.38
+                },
+                {
+                    "x": 13.3,
+                    "y": 58.49
+                },
+                {
+                    "x": 80.91,
+                    "y": 65.31
+                },
+                {
+                    "x": 77.53,
+                    "y": 63.54
+                },
+                {
+                    "x": 74.15,
+                    "y": 63.67
+                },
+                {
+                    "x": 43.55,
+                    "y": 68
+                },
+                {
+                    "x": 36.71,
+                    "y": 65.25
+                },
+                {
+                    "x": 57.07,
+                    "y": 62.62
+                },
+                {
+                    "x": 89.5,
+                    "y": 61.77
+                },
+                {
+                    "x": 29.38,
+                    "y": 65.51
+                },
+                {
+                    "x": 18.43,
+                    "y": 68
+                },
+                {
+                    "x": 24.43,
+                    "y": 58.03
+                },
+                {
+                    "x": 10.71,
+                    "y": 40.39
+                },
+                {
+                    "x": 10.04,
+                    "y": 42.93
+                },
+                {
+                    "x": 9.75,
+                    "y": 41.83
+                },
+                {
+                    "x": 40.53,
+                    "y": 61.97
+                },
+                {
+                    "x": 39.75,
+                    "y": 65.9
+                },
+                {
+                    "x": 25.11,
+                    "y": 68
+                },
+                {
+                    "x": 10.32,
+                    "y": 42.29
+                },
+                {
+                    "x": 86.03,
+                    "y": 64.72
+                },
+                {
+                    "x": 80.57,
+                    "y": 65.18
+                },
+                {
+                    "x": 78.09,
+                    "y": 64.98
+                },
+                {
+                    "x": 28.03,
+                    "y": 49.47
+                },
+                {
+                    "x": 34,
+                    "y": 42.06
+                },
+                {
+                    "x": 42.34,
+                    "y": 61.05
+                },
+                {
+                    "x": 41.21,
+                    "y": 60.39
+                },
+                {
+                    "x": 54.63,
+                    "y": 68
+                },
+                {
+                    "x": 57.28,
+                    "y": 63.28
+                },
+                {
+                    "x": 46.6,
+                    "y": 64.85
+                },
+                {
+                    "x": 79.44,
+                    "y": 54.23
+                },
+                {
+                    "x": 93.5,
+                    "y": 63.8
+                },
+                {
+                    "x": 77.75,
+                    "y": 60.92
+                },
+                {
+                    "x": 9.94,
+                    "y": 41.23
+                },
+                {
+                    "x": 12.7,
+                    "y": 57.51
+                },
+                {
+                    "x": 25.11,
+                    "y": 65.05
+                },
+                {
+                    "x": 74.94,
+                    "y": 62.62
+                },
+                {
+                    "x": 71.22,
+                    "y": 61.44
+                },
+                {
+                    "x": 4.93,
+                    "y": 50.45
+                },
+                {
+                    "x": 88.29,
+                    "y": 61.57
+                },
+                {
+                    "x": 60.43,
+                    "y": 51.99
+                },
+                {
+                    "x": 12.6,
+                    "y": 43.16
+                },
+                {
+                    "x": 60.23,
+                    "y": 63.8
+                },
+                {
+                    "x": 64.58,
+                    "y": 63.15
+                },
+                {
+                    "x": 95.45,
+                    "y": 61.9
+                },
+                {
+                    "x": 77.08,
+                    "y": 40.55
+                },
+                {
+                    "x": 64.13,
+                    "y": 58.49
+                },
+                {
+                    "x": 83.84,
+                    "y": 48.7
+                },
+                {
+                    "x": 54.23,
+                    "y": 65.44
+                },
+                {
+                    "x": 47.82,
+                    "y": 68
+                },
+                {
+                    "x": 68.75,
+                    "y": 63.41
+                },
+                {
+                    "x": 73.14,
+                    "y": 55.08
+                },
+                {
+                    "x": 87.53,
+                    "y": 40.39
+                },
+                {
+                    "x": 25.67,
+                    "y": 61.18
+                },
+                {
+                    "x": 60.73,
+                    "y": 64.2
+                },
+                {
+                    "x": 49.96,
+                    "y": 65.51
+                },
+                {
+                    "x": 34.68,
+                    "y": 55.73
+                },
+                {
+                    "x": 72.8,
+                    "y": 65.25
+                },
+                {
+                    "x": 73.81,
+                    "y": 65.11
+                },
+                {
+                    "x": 53.92,
+                    "y": 42.87
+                },
+                {
+                    "x": 46.4,
+                    "y": 65.31
+                },
+                {
+                    "x": 82.15,
+                    "y": 53.81
+                },
+                {
+                    "x": 90.5,
+                    "y": 57.44
+                },
+                {
+                    "x": 87.32,
+                    "y": 59.41
+                },
+                {
+                    "x": 10.32,
+                    "y": 34.08
+                },
+                {
+                    "x": 67.96,
+                    "y": 52.55
+                },
+                {
+                    "x": 88.39,
+                    "y": 51.43
+                },
+                {
+                    "x": 19.08,
+                    "y": 60.65
+                },
+                {
+                    "x": 28.26,
+                    "y": 55.8
+                },
+                {
+                    "x": 49.15,
+                    "y": 60.98
+                },
+                {
+                    "x": 57.28,
+                    "y": 44
+                },
+                {
+                    "x": 5.5,
+                    "y": 58.29
+                },
+                {
+                    "x": 4.65,
+                    "y": 24.21
+                },
+                {
+                    "x": 91.7,
+                    "y": 60.06
+                },
+                {
+                    "x": 78.77,
+                    "y": 51.5
+                },
+                {
+                    "x": 78.43,
+                    "y": 68
+                },
+                {
+                    "x": 79.78,
+                    "y": 59.01
+                },
+                {
+                    "x": 92.7,
+                    "y": 64.26
+                },
+                {
+                    "x": 15.4,
+                    "y": 51.92
+                },
+                {
+                    "x": 22.52,
+                    "y": 54.75
+                },
+                {
+                    "x": 67.06,
+                    "y": 61.97
+                },
+                {
+                    "x": 16.82,
+                    "y": 47.92
+                },
+                {
+                    "x": 67.06,
+                    "y": 63.28
+                },
+                {
+                    "x": 87.75,
+                    "y": 61.97
+                },
+                {
+                    "x": 57.48,
+                    "y": 63.08
+                },
+                {
+                    "x": 43.35,
+                    "y": 60
+                },
+                {
+                    "x": 42.22,
+                    "y": 61.05
+                },
+                {
+                    "x": 62.44,
+                    "y": 62.62
+                },
+                {
+                    "x": 51.59,
+                    "y": 66.69
+                },
+                {
+                    "x": 50.26,
+                    "y": 64.39
+                },
+                {
+                    "x": 65.48,
+                    "y": 40.97
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 10002,
+                "teamName": "\u00d6rgryte",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 10002,
+                "teamName": "\u00d6rgryte"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 80000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 350000,
+                "currency": "EUR",
+                "lowerBound": 260000,
+                "upperBound": 440000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 540000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 510000,
+                "currency": "EUR",
+                "lowerBound": 380000,
+                "upperBound": 630000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 570000,
+                "currency": "EUR",
+                "lowerBound": 430000,
+                "upperBound": 710000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 570000,
+                "currency": "EUR",
+                "lowerBound": 420000,
+                "upperBound": 710000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 510000,
+                "currency": "EUR",
+                "lowerBound": 380000,
+                "upperBound": 640000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 450000,
+                "currency": "EUR",
+                "lowerBound": 330000,
+                "upperBound": 560000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 370000,
+                "currency": "EUR",
+                "lowerBound": 280000,
+                "upperBound": 470000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 290000,
+                "currency": "EUR",
+                "lowerBound": 220000,
+                "upperBound": 360000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 300000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 270000,
+                "currency": "EUR",
+                "lowerBound": 210000,
+                "upperBound": 340000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 320000,
+                "currency": "EUR",
+                "lowerBound": 240000,
+                "upperBound": 400000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 340000,
+                "currency": "EUR",
+                "lowerBound": 250000,
+                "upperBound": 420000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 320000,
+                "upperBound": 540000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 520000,
+                "currency": "EUR",
+                "lowerBound": 390000,
+                "upperBound": 650000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 590000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 740000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 610000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 760000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 500000,
+                "currency": "EUR",
+                "lowerBound": 380000,
+                "upperBound": 620000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 450000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 560000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 420000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 520000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 400000,
+                "currency": "EUR",
+                "lowerBound": 300000,
+                "upperBound": 500000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 380000,
+                "currency": "EUR",
+                "lowerBound": 290000,
+                "upperBound": 480000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 360000,
+                "currency": "EUR",
+                "lowerBound": 270000,
+                "upperBound": 440000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 340000,
+                "currency": "EUR",
+                "lowerBound": 260000,
+                "upperBound": 430000,
+                "source": "scisports",
+                "teamId": 8014,
+                "teamName": "Elfsborg"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 430000,
+                "currency": "EUR",
+                "lowerBound": 344000,
+                "upperBound": 516000,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 516000,
+                "currency": "EUR",
+                "lowerBound": 412800,
+                "upperBound": 619200,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 619200,
+                "currency": "EUR",
+                "lowerBound": 495360,
+                "upperBound": 743040,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 743040,
+                "currency": "EUR",
+                "lowerBound": 594432,
+                "upperBound": 891648,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 891648,
+                "currency": "EUR",
+                "lowerBound": 713318,
+                "upperBound": 1069977,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 1069977,
+                "currency": "EUR",
+                "lowerBound": 855981,
+                "upperBound": 1283972,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 1283972,
+                "currency": "EUR",
+                "lowerBound": 1027177,
+                "upperBound": 1540766,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 1408408,
+                "currency": "EUR",
+                "lowerBound": 1126726,
+                "upperBound": 1690089,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 1408408,
+                "currency": "EUR",
+                "lowerBound": 1126726,
+                "upperBound": 1690089,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 1400407,
+                "currency": "EUR",
+                "lowerBound": 1120326,
+                "upperBound": 1680489,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 1354735,
+                "currency": "EUR",
+                "lowerBound": 1083788,
+                "upperBound": 1625682,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 1347290,
+                "currency": "EUR",
+                "lowerBound": 1077832,
+                "upperBound": 1616748,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 1366440,
+                "currency": "EUR",
+                "lowerBound": 1093152,
+                "upperBound": 1639728,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 1355149,
+                "currency": "EUR",
+                "lowerBound": 1084119,
+                "upperBound": 1626179,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 1361571,
+                "currency": "EUR",
+                "lowerBound": 1089257,
+                "upperBound": 1633886,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 1377040,
+                "currency": "EUR",
+                "lowerBound": 1101632,
+                "upperBound": 1652448,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 1552704,
+                "currency": "EUR",
+                "lowerBound": 1242163,
+                "upperBound": 1863245,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 2332406,
+                "currency": "EUR",
+                "lowerBound": 1865925,
+                "upperBound": 2798888,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 2299900,
+                "currency": "EUR",
+                "lowerBound": 1839920,
+                "upperBound": 2759880,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 2057144,
+                "currency": "EUR",
+                "lowerBound": 1645715,
+                "upperBound": 2468573,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 2103499,
+                "currency": "EUR",
+                "lowerBound": 1682799,
+                "upperBound": 2524198,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 2138713,
+                "currency": "EUR",
+                "lowerBound": 1710970,
+                "upperBound": 2566456,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 2151461,
+                "currency": "EUR",
+                "lowerBound": 1721169,
+                "upperBound": 2581753,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 2137083,
+                "currency": "EUR",
+                "lowerBound": 1709666,
+                "upperBound": 2564499,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 2130645,
+                "currency": "EUR",
+                "lowerBound": 1704516,
+                "upperBound": 2556774,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 2130645,
+                "currency": "EUR",
+                "lowerBound": 1704516,
+                "upperBound": 2556774,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 2027252,
+                "currency": "EUR",
+                "lowerBound": 1621802,
+                "upperBound": 2432703,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 1958137,
+                "currency": "EUR",
+                "lowerBound": 1566510,
+                "upperBound": 2349765,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 1891382,
+                "currency": "EUR",
+                "lowerBound": 1513106,
+                "upperBound": 2269659,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 1670037,
+                "currency": "EUR",
+                "lowerBound": 1336030,
+                "upperBound": 2004045,
+                "source": "scisports",
+                "teamId": 8150,
+                "teamName": "Holstein Kiel"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1091141,
+                "name": "Faride Alidou"
+            },
+            {
+                "id": 449277,
+                "name": "Giorgi Kvilitaia"
+            },
+            {
+                "id": 445204,
+                "name": "Sebastian Schonlau"
+            },
+            {
+                "id": 1257990,
+                "name": "Taisei Abe"
+            },
+            {
+                "id": 951919,
+                "name": "Timon Weiner"
+            },
+            {
+                "id": 1436615,
+                "name": "Frederik Roslyng"
+            },
+            {
+                "id": 673377,
+                "name": "Patrick Erras"
+            },
+            {
+                "id": 484640,
+                "name": "Carl Johansson"
+            },
+            {
+                "id": 1320446,
+                "name": "Marko Ivezic"
+            },
+            {
+                "id": 212982,
+                "name": "Steven Skrzybski"
+            },
+            {
+                "id": 1258603,
+                "name": "Guillermo Balzi"
+            },
+            {
+                "id": 1366006,
+                "name": "Umut Tohumcu"
+            },
+            {
+                "id": 1378854,
+                "name": "Jonas Torrissen Therkelsen"
+            },
+            {
+                "id": 874272,
+                "name": "Ivan Nekic"
+            },
+            {
+                "id": 1437580,
+                "name": "Kasper Davidsen"
+            },
+            {
+                "id": 1253909,
+                "name": "Andu Yobel Kelati"
+            },
+            {
+                "id": 1275291,
+                "name": "Phil Harres"
+            },
+            {
+                "id": 1159556,
+                "name": "Adri\u00e1n Kapr\u00e1lik"
+            },
+            {
+                "id": 1368049,
+                "name": "Lasse Rosenboom"
+            },
+            {
+                "id": 1281521,
+                "name": "Marcus M\u00fcller"
+            },
+            {
+                "id": 861541,
+                "name": "David Zec"
+            },
+            {
+                "id": 409818,
+                "name": "Jonas Meffert"
+            },
+            {
+                "id": 657654,
+                "name": "Marcel Engelhardt"
+            },
+            {
+                "id": 1543415,
+                "name": "Hiroki Sekine"
+            },
+            {
+                "id": 1899702,
+                "name": "Leon Parduzi"
+            },
+            {
+                "id": 1577605,
+                "name": "Lio Rothenhagen"
+            },
+            {
+                "id": 1189792,
+                "name": "Lenny Borges"
+            },
+            {
+                "id": 2069899,
+                "name": "Caspar Medlin"
+            },
+            {
+                "id": 1136403,
+                "name": "John Tolkin"
+            },
+            {
+                "id": 1677743,
+                "name": "Hamza Muqaj"
+            },
+            {
+                "id": 1921200,
+                "name": "Ikem Ugoh"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1014602,
+                "name": "Jacob Widell Zetterstr\u00f6m"
+            },
+            {
+                "id": 919848,
+                "name": "Gustaf Lagerbielke"
+            },
+            {
+                "id": 258269,
+                "name": "Victor Nilsson Lindel\u00f6f"
+            },
+            {
+                "id": 939780,
+                "name": "Isak Hien"
+            },
+            {
+                "id": 744494,
+                "name": "Gabriel Gudmundsson"
+            },
+            {
+                "id": 946703,
+                "name": "Herman Johansson"
+            },
+            {
+                "id": 1386775,
+                "name": "Lucas Bergvall"
+            },
+            {
+                "id": 1209228,
+                "name": "Daniel Svensson"
+            },
+            {
+                "id": 690107,
+                "name": "Alexander Isak"
+            },
+            {
+                "id": 931605,
+                "name": "Benjamin Nygren"
+            },
+            {
+                "id": 1050166,
+                "name": "Anthony Elanga"
+            },
+            {
+                "id": 546252,
+                "name": "Viktor Johansson"
+            },
+            {
+                "id": 520670,
+                "name": "Ken Sema"
+            },
+            {
+                "id": 831044,
+                "name": "Hjalmar Ekdal"
+            },
+            {
+                "id": 497662,
+                "name": "Carl Starfelt"
+            },
+            {
+                "id": 322003,
+                "name": "Jesper Karlstr\u00f6m"
+            },
+            {
+                "id": 664500,
+                "name": "Viktor Gy\u00f6keres"
+            },
+            {
+                "id": 1168311,
+                "name": "Yasin Ayari"
+            },
+            {
+                "id": 647900,
+                "name": "Mattias Svanberg"
+            },
+            {
+                "id": 531327,
+                "name": "Eric Smith"
+            },
+            {
+                "id": 1338361,
+                "name": "Besfort Zeneli"
+            },
+            {
+                "id": 73462,
+                "name": "Kristoffer Nordfeldt"
+            },
+            {
+                "id": 1272349,
+                "name": "Elliot Stroud"
+            },
+            {
+                "id": 118241,
+                "name": "Gustaf Nilsson"
+            },
+            {
+                "id": 1135782,
+                "name": "Taha Abdi Ali"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "nextMatch": {
+        "matchId": 5900640,
+        "homeId": 9905,
+        "awayId": 8150,
+        "homeName": "Mainz 05",
+        "awayName": "Holstein Kiel",
+        "matchDate": "2026-07-25T13:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-25T13:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Bruchwegstadion auf dem Wolfgang Frank Campus",
+            "city": "Mainz",
+            "lat": 50.00092947,
+            "long": 8.24572742
+        },
+        "matchUrl": "/matches/holstein-kiel-vs-mainz-05/2p1vnx#5900640"
+    },
+    "dataProvider": "enet"
+}

@@ -1,0 +1,5120 @@
+{
+    "id": 732282,
+    "name": "Trinc\u00e3o",
+    "birthDate": {
+        "utcTime": "1999-12-29T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 2530,
+        "teamName": "Al Ahli",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#005048",
+            "colorAlternate": "#0A9443",
+            "colorAway": "#0A9443",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 8,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.35384615384615387
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 40,
+                "position": "84",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 3,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.2576923076923077
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Attacking Midfielder",
+            "key": "centerattackingmidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 183,
+                "key": null,
+                "fallback": "183 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 26,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "26"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Portugal"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "POR"
+            },
+            "countryCode": "POR"
+        },
+        {
+            "value": {
+                "numberValue": 36075508,
+                "key": null,
+                "fallback": "\u20ac36.1m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 61,
+        "leagueName": "Liga Portugal",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 7
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 11
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 32
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 34
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2851
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.65
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 1
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "INT",
+                "teamId": 8361,
+                "teamName": "Portugal",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9806,
+                        "leagueName": "UEFA Nations League A",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "POR",
+                "teamId": 9768,
+                "teamName": "Sporting CP",
+                "tournaments": [
+                    {
+                        "ccode": "POR",
+                        "leagueId": 186,
+                        "leagueName": "Ta\u00e7a de Portugal",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2025/2026",
+                            "2023/2024"
+                        ]
+                    },
+                    {
+                        "ccode": "POR",
+                        "leagueId": 61,
+                        "leagueName": "Liga Portugal",
+                        "seasonsWon": [
+                            "2024/2025",
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2025/2026"
+                        ]
+                    }
+                ]
+            },
+            {
+                "ccode": "POR",
+                "teamId": 10264,
+                "teamName": "Braga",
+                "tournaments": [
+                    {
+                        "ccode": "POR",
+                        "leagueId": 187,
+                        "leagueName": "League Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ESP",
+                "teamId": 8634,
+                "teamName": "Barcelona",
+                "tournaments": [
+                    {
+                        "ccode": "ESP",
+                        "leagueId": 138,
+                        "leagueName": "Copa del Rey",
+                        "seasonsWon": [
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ESP",
+                        "leagueId": -1,
+                        "leagueName": "Trofeo Joan Gamper",
+                        "seasonsWon": [
+                            "2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "POR",
+                "teamId": 7738,
+                "teamName": "Portugal U19",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 287,
+                        "leagueName": "UEFA U19 Championship",
+                        "seasonsWon": [
+                            "2018 Finland"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": true,
+            "id": 4653844,
+            "matchDate": {
+                "utcTime": "2026-07-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-portugal/1vppuu#4653844",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 10155,
+            "opponentTeamName": "Croatia",
+            "isHomeTeam": true,
+            "id": 4653707,
+            "matchDate": {
+                "utcTime": "2026-07-02T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-croatia/2u2izf#4653707",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 8258,
+            "opponentTeamName": "Colombia",
+            "isHomeTeam": false,
+            "id": 4667823,
+            "matchDate": {
+                "utcTime": "2026-06-27T23:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/colombia-vs-portugal/2a883f#4667823",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. K",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 8700,
+            "opponentTeamName": "Uzbekistan",
+            "isHomeTeam": true,
+            "id": 4667822,
+            "matchDate": {
+                "utcTime": "2026-06-23T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-uzbekistan/2enrsr#4667822",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. K",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6321,
+            "opponentTeamName": "DR Congo",
+            "isHomeTeam": true,
+            "id": 4667819,
+            "matchDate": {
+                "utcTime": "2026-06-17T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/dr-congo-vs-portugal/1s6g4o#4667819",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. K",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6346,
+            "opponentTeamName": "Nigeria",
+            "isHomeTeam": true,
+            "id": 5293170,
+            "matchDate": {
+                "utcTime": "2026-06-10T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/nigeria-vs-portugal/1seblj#5293170",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 9762,
+            "opponentTeamName": "Chile",
+            "isHomeTeam": true,
+            "id": 5418304,
+            "matchDate": {
+                "utcTime": "2026-06-06T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-chile/2ps8p0#5418304",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 212820,
+            "opponentTeamName": "Torreense",
+            "isHomeTeam": true,
+            "id": 5074296,
+            "matchDate": {
+                "utcTime": "2026-05-24T16:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-torreense/bdp3pwu#5074296",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "final",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 120,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9764,
+            "opponentTeamName": "Gil Vicente",
+            "isHomeTeam": true,
+            "id": 4844460,
+            "matchDate": {
+                "utcTime": "2026-05-16T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/gil-vicente-vs-sporting-cp/35kuc6#4844460",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7841,
+            "opponentTeamName": "Rio Ave",
+            "isHomeTeam": false,
+            "id": 4844455,
+            "matchDate": {
+                "utcTime": "2026-05-11T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/rio-ave-vs-sporting-cp/2kber9#4844455",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7844,
+            "opponentTeamName": "Vitoria de Guimaraes",
+            "isHomeTeam": true,
+            "id": 4844445,
+            "matchDate": {
+                "utcTime": "2026-05-04T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#4844445",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 188163,
+            "opponentTeamName": "Tondela",
+            "isHomeTeam": true,
+            "id": 4844394,
+            "matchDate": {
+                "utcTime": "2026-04-29T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-tondela/8zygg2i#4844394",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 33,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": false,
+            "id": 4844434,
+            "matchDate": {
+                "utcTime": "2026-04-26T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-sporting-cp/14gl1x#4844434",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": false,
+            "id": 5074295,
+            "matchDate": {
+                "utcTime": "2026-04-22T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-fc-porto/35om0k#5074295",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9772,
+            "opponentTeamName": "Benfica",
+            "isHomeTeam": true,
+            "id": 4844426,
+            "matchDate": {
+                "utcTime": "2026-04-19T17:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-benfica/35o6xq#4844426",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 5205796,
+            "matchDate": {
+                "utcTime": "2026-04-15T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-arsenal/36af66#5205796",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/4",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1074320,
+            "opponentTeamName": "Estrela da Amadora",
+            "isHomeTeam": false,
+            "id": 4844417,
+            "matchDate": {
+                "utcTime": "2026-04-11T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-estrela-da-amadora/7hy84jvo#4844417",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 5205795,
+            "matchDate": {
+                "utcTime": "2026-04-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-arsenal/36af66#5205795",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/4",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1567,
+            "opponentTeamName": "Santa Clara",
+            "isHomeTeam": true,
+            "id": 4844408,
+            "matchDate": {
+                "utcTime": "2026-04-03T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/santa-clara-vs-sporting-cp/1298o4#4844408",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6713,
+            "opponentTeamName": "USA",
+            "isHomeTeam": false,
+            "id": 5083234,
+            "matchDate": {
+                "utcTime": "2026-03-31T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/usa-vs-portugal/1vngf0#5083234",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6710,
+            "opponentTeamName": "Mexico",
+            "isHomeTeam": false,
+            "id": 5083233,
+            "matchDate": {
+                "utcTime": "2026-03-29T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-portugal/1vmhix#5083233",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9780,
+            "opponentTeamName": "Alverca",
+            "isHomeTeam": false,
+            "id": 4844399,
+            "matchDate": {
+                "utcTime": "2026-03-22T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-alverca/35rjl6#4844399",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8402,
+            "opponentTeamName": "Bod\u00f8/Glimt",
+            "isHomeTeam": true,
+            "id": 5205736,
+            "matchDate": {
+                "utcTime": "2026-03-17T17:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/bodoglimt-vs-sporting-cp/2qait3#5205736",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 110,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8402,
+            "opponentTeamName": "Bod\u00f8/Glimt",
+            "isHomeTeam": false,
+            "id": 5205735,
+            "matchDate": {
+                "utcTime": "2026-03-11T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/bodoglimt-vs-sporting-cp/2qait3#5205735",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": false,
+            "id": 4844384,
+            "matchDate": {
+                "utcTime": "2026-03-07T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-braga/3bguh4#4844384",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": true,
+            "id": 5074293,
+            "matchDate": {
+                "utcTime": "2026-03-03T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-fc-porto/35om0k#5074293",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7842,
+            "opponentTeamName": "Estoril",
+            "isHomeTeam": true,
+            "id": 4844368,
+            "matchDate": {
+                "utcTime": "2026-02-27T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/estoril-vs-sporting-cp/2kbscf#4844368",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 83,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8348,
+            "opponentTeamName": "Moreirense",
+            "isHomeTeam": false,
+            "id": 4844366,
+            "matchDate": {
+                "utcTime": "2026-02-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/moreirense-vs-sporting-cp/2ppitu#4844366",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.8",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1634,
+            "opponentTeamName": "Famalicao",
+            "isHomeTeam": true,
+            "id": 4844353,
+            "matchDate": {
+                "utcTime": "2026-02-15T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/famalicao-vs-sporting-cp/12pkf3#4844353",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": false,
+            "id": 4844348,
+            "matchDate": {
+                "utcTime": "2026-02-09T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-fc-porto/35om0k#4844348",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": true,
+            "id": 5074291,
+            "matchDate": {
+                "utcTime": "2026-02-05T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-sporting-cp/14gl1x#5074291",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 77,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 10214,
+            "opponentTeamName": "Nacional",
+            "isHomeTeam": true,
+            "id": 4844332,
+            "matchDate": {
+                "utcTime": "2026-02-01T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-nacional/3avekx#4844332",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8315,
+            "opponentTeamName": "Athletic Club",
+            "isHomeTeam": false,
+            "id": 4947227,
+            "matchDate": {
+                "utcTime": "2026-01-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/athletic-club-vs-sporting-cp/2pcpy6#4947227",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 87,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 158085,
+            "opponentTeamName": "Arouca",
+            "isHomeTeam": false,
+            "id": 4844329,
+            "matchDate": {
+                "utcTime": "2026-01-24T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-arouca/6gza1yr#4844329",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9847,
+            "opponentTeamName": "Paris Saint-Germain",
+            "isHomeTeam": true,
+            "id": 4947157,
+            "matchDate": {
+                "utcTime": "2026-01-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-paris-saint-germain/36jnzb#4947157",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": true,
+            "id": 4844314,
+            "matchDate": {
+                "utcTime": "2026-01-16T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-casa-pia-ac/bdp8hnv#4844314",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7844,
+            "opponentTeamName": "Vitoria de Guimaraes",
+            "isHomeTeam": true,
+            "id": 5034508,
+            "matchDate": {
+                "utcTime": "2026-01-06T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#5034508",
+            "leagueId": 187,
+            "leagueName": "League Cup",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9764,
+            "opponentTeamName": "Gil Vicente",
+            "isHomeTeam": false,
+            "id": 4844307,
+            "matchDate": {
+                "utcTime": "2026-01-02T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/gil-vicente-vs-sporting-cp/35kuc6#4844307",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7841,
+            "opponentTeamName": "Rio Ave",
+            "isHomeTeam": true,
+            "id": 4844302,
+            "matchDate": {
+                "utcTime": "2025-12-28T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/rio-ave-vs-sporting-cp/2kber9#4844302",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7844,
+            "opponentTeamName": "Vitoria de Guimaraes",
+            "isHomeTeam": false,
+            "id": 4844292,
+            "matchDate": {
+                "utcTime": "2025-12-23T20:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vitoria-de-guimaraes-vs-sporting-cp/2kcjiu#4844292",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 89,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1567,
+            "opponentTeamName": "Santa Clara",
+            "isHomeTeam": false,
+            "id": 5074280,
+            "matchDate": {
+                "utcTime": "2025-12-18T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/santa-clara-vs-sporting-cp/1298o4#5074280",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 120,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1889,
+            "opponentTeamName": "AVS Futebol SAD",
+            "isHomeTeam": true,
+            "id": 4844281,
+            "matchDate": {
+                "utcTime": "2025-12-13T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/avs-futebol-sad-vs-sporting-cp/14gl1x#4844281",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9772,
+            "opponentTeamName": "Benfica",
+            "isHomeTeam": false,
+            "id": 4844273,
+            "matchDate": {
+                "utcTime": "2025-12-05T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-benfica/35o6xq#4844273",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 86,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1074320,
+            "opponentTeamName": "Estrela da Amadora",
+            "isHomeTeam": true,
+            "id": 4844264,
+            "matchDate": {
+                "utcTime": "2025-11-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-estrela-da-amadora/7hy84jvo#4844264",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8342,
+            "opponentTeamName": "Club Brugge",
+            "isHomeTeam": true,
+            "id": 4947191,
+            "matchDate": {
+                "utcTime": "2025-11-26T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/club-brugge-vs-sporting-cp/2pn6yx#4947191",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1783,
+            "opponentTeamName": "Marinhense",
+            "isHomeTeam": true,
+            "id": 5020864,
+            "matchDate": {
+                "utcTime": "2025-11-22T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/marinhense-vs-sporting-cp/13q7x4#5020864",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 2,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6583,
+            "opponentTeamName": "Armenia",
+            "isHomeTeam": true,
+            "id": 4689362,
+            "matchDate": {
+                "utcTime": "2025-11-16T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/armenia-vs-portugal/1uhmu1#4689362",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 9,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 5791,
+            "opponentTeamName": "Ireland",
+            "isHomeTeam": false,
+            "id": 4689360,
+            "matchDate": {
+                "utcTime": "2025-11-13T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ireland-vs-portugal/1nmo31#4689360",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1567,
+            "opponentTeamName": "Santa Clara",
+            "isHomeTeam": false,
+            "id": 4844255,
+            "matchDate": {
+                "utcTime": "2025-11-08T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/santa-clara-vs-sporting-cp/1298o4#4844255",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9885,
+            "opponentTeamName": "Juventus",
+            "isHomeTeam": false,
+            "id": 4947200,
+            "matchDate": {
+                "utcTime": "2025-11-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-juventus/36znpo#4947200",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9780,
+            "opponentTeamName": "Alverca",
+            "isHomeTeam": true,
+            "id": 4844246,
+            "matchDate": {
+                "utcTime": "2025-10-31T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-alverca/35rjl6#4844246",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 188163,
+            "opponentTeamName": "Tondela",
+            "isHomeTeam": false,
+            "id": 4844241,
+            "matchDate": {
+                "utcTime": "2025-10-26T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-tondela/8zygg2i#4844241",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8592,
+            "opponentTeamName": "Marseille",
+            "isHomeTeam": true,
+            "id": 4947215,
+            "matchDate": {
+                "utcTime": "2025-10-22T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/marseille-vs-sporting-cp/2scwmc#4947215",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 6403,
+            "opponentTeamName": "Pacos de Ferreira",
+            "isHomeTeam": false,
+            "id": 4979787,
+            "matchDate": {
+                "utcTime": "2025-10-18T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/pacos-de-ferreira-vs-sporting-cp/25utlm#4979787",
+            "leagueId": 186,
+            "leagueName": "Taca de Portugal",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 8565,
+            "opponentTeamName": "Hungary",
+            "isHomeTeam": true,
+            "id": 4689358,
+            "matchDate": {
+                "utcTime": "2025-10-14T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-hungary/2dalhi#4689358",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 5791,
+            "opponentTeamName": "Ireland",
+            "isHomeTeam": true,
+            "id": 4689356,
+            "matchDate": {
+                "utcTime": "2025-10-11T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/ireland-vs-portugal/1nmo31#4689356",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 10264,
+            "opponentTeamName": "Braga",
+            "isHomeTeam": true,
+            "id": 4844231,
+            "matchDate": {
+                "utcTime": "2025-10-05T18:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-braga/3bguh4#4844231",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9875,
+            "opponentTeamName": "Napoli",
+            "isHomeTeam": false,
+            "id": 4947225,
+            "matchDate": {
+                "utcTime": "2025-10-01T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-napoli/36vg3h#4947225",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 7842,
+            "opponentTeamName": "Estoril",
+            "isHomeTeam": false,
+            "id": 4844215,
+            "matchDate": {
+                "utcTime": "2025-09-27T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/estoril-vs-sporting-cp/2kbscf#4844215",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8348,
+            "opponentTeamName": "Moreirense",
+            "isHomeTeam": true,
+            "id": 4844213,
+            "matchDate": {
+                "utcTime": "2025-09-22T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/moreirense-vs-sporting-cp/2ppitu#4844213",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 8037,
+            "opponentTeamName": "Kairat Almaty",
+            "isHomeTeam": true,
+            "id": 4947226,
+            "matchDate": {
+                "utcTime": "2025-09-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/kairat-almaty-vs-sporting-cp/2mdsqr#4947226",
+            "leagueId": 42,
+            "leagueName": "Champions League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 1634,
+            "opponentTeamName": "Famalicao",
+            "isHomeTeam": false,
+            "id": 4844200,
+            "matchDate": {
+                "utcTime": "2025-09-13T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/famalicao-vs-sporting-cp/12pkf3#4844200",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 8565,
+            "opponentTeamName": "Hungary",
+            "isHomeTeam": false,
+            "id": 4689354,
+            "matchDate": {
+                "utcTime": "2025-09-09T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/portugal-vs-hungary/2dalhi#4689354",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 8361,
+            "teamName": "Portugal",
+            "opponentTeamId": 6583,
+            "opponentTeamName": "Armenia",
+            "isHomeTeam": false,
+            "id": 4689351,
+            "matchDate": {
+                "utcTime": "2025-09-06T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/armenia-vs-portugal/1uhmu1#4689351",
+            "leagueId": 10195,
+            "leagueName": "World Cup Qualification UEFA 1st Round Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 5,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9773,
+            "opponentTeamName": "FC Porto",
+            "isHomeTeam": true,
+            "id": 4844195,
+            "matchDate": {
+                "utcTime": "2025-08-30T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-fc-porto/35om0k#4844195",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 10214,
+            "opponentTeamName": "Nacional",
+            "isHomeTeam": false,
+            "id": 4844179,
+            "matchDate": {
+                "utcTime": "2025-08-23T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-nacional/3avekx#4844179",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 158085,
+            "opponentTeamName": "Arouca",
+            "isHomeTeam": true,
+            "id": 4844176,
+            "matchDate": {
+                "utcTime": "2025-08-17T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-arouca/6gza1yr#4844176",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 6,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 212821,
+            "opponentTeamName": "Casa Pia AC",
+            "isHomeTeam": false,
+            "id": 4844161,
+            "matchDate": {
+                "utcTime": "2025-08-08T19:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-casa-pia-ac/bdp8hnv#4844161",
+            "leagueId": 61,
+            "leagueName": "Liga Portugal",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 9768,
+            "teamName": "Sporting CP",
+            "opponentTeamId": 9772,
+            "opponentTeamName": "Benfica",
+            "isHomeTeam": true,
+            "id": 4813331,
+            "matchDate": {
+                "utcTime": "2025-07-31T19:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/sporting-cp-vs-benfica/35o6xq#4813331",
+            "leagueId": 188,
+            "leagueName": "Super Cup",
+            "stage": "final",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 732282,
+                        "teamId": 2530,
+                        "team": "Al Ahli",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2026-07-18T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-07-01T00:00:00",
+                        "endDate": "2026-07-18T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "156",
+                        "goals": "34",
+                        "assists": "40",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-07-13T00:00:00",
+                        "endDate": "2023-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "52",
+                        "goals": "13",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 8634,
+                        "team": "Barcelona",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2022-07-13T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 8602,
+                        "team": "Wolverhampton Wanderers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-07-04T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "30",
+                        "goals": "3",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 8634,
+                        "team": "Barcelona",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-08-04T00:00:00",
+                        "endDate": "2021-07-04T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "42",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 10264,
+                        "team": "Braga",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2020-08-04T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "47",
+                        "goals": "9",
+                        "assists": "10",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 338303,
+                        "team": "Braga B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-07-01T00:00:00",
+                        "endDate": "2019-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "46",
+                        "goals": "6",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "54",
+                        "goals": "13",
+                        "assists": "15",
+                        "rating": {
+                            "rating": "7.59"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27181,
+                                "goals": "7",
+                                "assists": "11",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.65"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27272,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "8.13"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27962,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 188,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 40069,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28184,
+                                "goals": "4",
+                                "assists": "3",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            }
+                        ],
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "54",
+                        "goals": "11",
+                        "assists": "16",
+                        "rating": {
+                            "rating": "7.73"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23826,
+                                "goals": "9",
+                                "assists": "14",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.88"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23750,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24009,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 188,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 27121,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.22"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24110,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.22"
+                                }
+                            }
+                        ],
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "48",
+                        "goals": "10",
+                        "assists": "9",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21251,
+                                "goals": "9",
+                                "assists": "6",
+                                "appearances": "31",
+                                "rating": {
+                                    "rating": "7.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21169,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21850,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21513,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": "6.99"
+                                }
+                            }
+                        ],
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "52",
+                        "goals": "13",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.10"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17953,
+                                "goals": "10",
+                                "assists": "2",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18276,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18229,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17697,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.78"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17700,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.57"
+                                }
+                            }
+                        ],
+                        "teamId": 9768,
+                        "team": "Sporting CP",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "30",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.93"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16390,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.93"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16818,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.68"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16490,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.20"
+                                }
+                            }
+                        ],
+                        "teamId": 8602,
+                        "team": "Wolverhampton Wanderers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "42",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.62"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 87,
+                                "leagueName": "LaLiga",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15585,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": "6.54"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 138,
+                                "leagueName": "Copa del Rey",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15839,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.34"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 139,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 16602,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15237,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.45"
+                                }
+                            }
+                        ],
+                        "teamId": 8634,
+                        "team": "Barcelona",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "39",
+                        "goals": "9",
+                        "assists": "10",
+                        "rating": {
+                            "rating": "7.17"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14196,
+                                "goals": "8",
+                                "assists": "6",
+                                "appearances": "27",
+                                "rating": {
+                                    "rating": "7.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14199,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14604,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14007,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "7.14"
+                                }
+                            }
+                        ],
+                        "teamId": 10264,
+                        "team": "Braga",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "8",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.79"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12920,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "5.79"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12949,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 13272,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10264,
+                        "team": "Braga",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12921,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 338303,
+                        "team": "Braga B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "30",
+                        "goals": "5",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11677,
+                                "goals": "5",
+                                "assists": "undefined",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 338303,
+                        "team": "Braga B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "5",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10646,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 338303,
+                        "team": "Braga B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2015/2016",
+                                "tournamentId": 9618,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 338303,
+                        "team": "Braga B",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 732282,
+                        "teamId": 8361,
+                        "team": "Portugal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-08-24T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "19",
+                        "goals": "3",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 5956,
+                        "team": "Portugal U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-03-16T00:00:00",
+                        "endDate": "2021-11-08T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "3",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 8557,
+                        "team": "Portugal U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-08-29T00:00:00",
+                        "endDate": "2021-04-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": 7738,
+                        "team": "Portugal U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-03-15T00:00:00",
+                        "endDate": "2019-03-17T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "5",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 732282,
+                        "teamId": -1,
+                        "team": "Portugal Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-06-01T00:00:00",
+                        "endDate": "2017-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "8",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.78"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10195,
+                                "leagueName": "World Cup Qualification UEFA",
+                                "seasonName": "2026",
+                                "tournamentId": 24488,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.31"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            }
+                        ],
+                        "teamId": 8361,
+                        "team": "Portugal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "4",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.10"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 22886,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.10"
+                                }
+                            }
+                        ],
+                        "teamId": 8361,
+                        "team": "Portugal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.60"
+                                }
+                            }
+                        ],
+                        "teamId": 8361,
+                        "team": "Portugal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.41"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2020",
+                                "tournamentId": 14773,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.41"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9806,
+                                "leagueName": "UEFA Nations League A",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15023,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.52"
+                                }
+                            }
+                        ],
+                        "teamId": 8361,
+                        "team": "Portugal",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "4",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FIFA U20 World Cup",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U20 National Team Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5956,
+                        "team": "Portugal U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "7",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 288,
+                                "leagueName": "EURO U21",
+                                "seasonName": "2021",
+                                "tournamentId": 15894,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8557,
+                        "team": "Portugal U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018",
+                        "appearances": "12",
+                        "goals": "5",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 287,
+                                "leagueName": "UEFA U19 Championship",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "5",
+                                "assists": "3",
+                                "appearances": "8",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Tournoi Maurice Revello",
+                                "seasonName": "2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 7738,
+                        "team": "Portugal U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2017",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U18 National Team Friendlies",
+                                "seasonName": "2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Portugal Under 18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.88
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.23
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.26
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.69
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.69
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.82
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "trincao",
+        "pageurl": "/players/732282/trincao",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Trinc\u00e3o?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o is 26 years old. Born on Wed Dec 29 1999."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Trinc\u00e3o?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o is 183 cm tall. Or 6 ft 0 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Trinc\u00e3o born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o was born Wed Dec 29 1999 and is now 26 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Trinc\u00e3o's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Trinc\u00e3o's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o's transfer value is estimated to be around \u20ac36.1m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Trinc\u00e3o from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trinc\u00e3o is from Portugal."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Trinc\u00e3o",
+            "birthDate": "1999-12-29T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/732282/trincao",
+            "nationality": {
+                "@type": "Country",
+                "name": "Portugal"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Al Ahli"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "183"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "77"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga Portugal 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/61/overview/liga-portugal-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Al Ahli",
+                    "item": "https://www.fotmob.com/teams/2530/overview/al-ahli"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Trinc\u00e3o",
+                    "item": "https://www.fotmob.com/leagues/732282/overview/trincao"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "League Cup",
+                    "tournamentId": 187,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Taca de Portugal",
+                    "tournamentId": 186,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup UEFA qualification",
+                    "tournamentId": 10195,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "League Cup",
+                    "tournamentId": 187,
+                    "entryId": "2-1",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 188,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal",
+                    "tournamentId": 61,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EURO U21",
+                    "tournamentId": 288,
+                    "entryId": "5-3",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "LaLiga",
+                    "tournamentId": 87,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Copa del Rey",
+                    "tournamentId": 138,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "6-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "UEFA Nations League A",
+                    "tournamentId": 9806,
+                    "entryId": "6-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 139,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "7-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945317945,
+                "playerName": "Trinc\u00e3o",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "SetPiece",
+                "teamId": 8361,
+                "playerId": 732282,
+                "x": 91.3,
+                "y": 38.284285716,
+                "min": 90,
+                "minAdded": 3,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 27.782619047,
+                "goalCrossedZ": 0.9824210478,
+                "expectedGoals": 0.113815866410732,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.158012039993458,
+                    "zoomRatio": 0.607973040187618
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8361,
+                "awayTeamId": 8700,
+                "homeTeamName": "Portugal",
+                "awayTeamName": "Uzbekistan",
+                "homeScore": 5,
+                "awayScore": 0,
+                "matchId": 4667822,
+                "matchDate": "2026-06-23T17:00:00Z",
+                "teamColor": "#ab0027",
+                "teamColorDark": "#ab0027"
+            }
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.31,
+                    "percentileRank": 32.338787295476415,
+                    "percentileRankPer90": 32.338787295476415,
+                    "statFormat": "fraction",
+                    "statValue": "6.31",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 12.512030798845045,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "27",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 81.13,
+                    "y": 48.55
+                },
+                {
+                    "x": 67.73,
+                    "y": 44.98
+                },
+                {
+                    "x": 78.43,
+                    "y": 38.45
+                },
+                {
+                    "x": 50.47,
+                    "y": 27.28
+                },
+                {
+                    "x": 70.32,
+                    "y": 22.67
+                },
+                {
+                    "x": 70.32,
+                    "y": 22.67
+                },
+                {
+                    "x": 83.72,
+                    "y": 38.79
+                },
+                {
+                    "x": 58.6,
+                    "y": 10.36
+                },
+                {
+                    "x": 58.6,
+                    "y": 10.36
+                },
+                {
+                    "x": 73.7,
+                    "y": 43.04
+                },
+                {
+                    "x": 66.61,
+                    "y": 43.65
+                },
+                {
+                    "x": 64.35,
+                    "y": 44.14
+                },
+                {
+                    "x": 70.88,
+                    "y": 49.61
+                },
+                {
+                    "x": 34.68,
+                    "y": 43.72
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 59.72,
+                    "y": 23.44
+                },
+                {
+                    "x": 59.72,
+                    "y": 23.44
+                },
+                {
+                    "x": 74.04,
+                    "y": 38.54
+                },
+                {
+                    "x": 71,
+                    "y": 18.46
+                },
+                {
+                    "x": 73.93,
+                    "y": 23.72
+                },
+                {
+                    "x": 38.85,
+                    "y": 47.92
+                },
+                {
+                    "x": 91.3,
+                    "y": 29.72
+                },
+                {
+                    "x": 55.55,
+                    "y": 60.46
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 160000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 200000,
+                "source": "scisports",
+                "teamId": 338303,
+                "teamName": "Braga B",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 370000,
+                "currency": "EUR",
+                "lowerBound": 280000,
+                "upperBound": 460000,
+                "source": "scisports",
+                "teamId": 338303,
+                "teamName": "Braga B"
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 580000,
+                "currency": "EUR",
+                "lowerBound": 440000,
+                "upperBound": 730000,
+                "source": "scisports",
+                "teamId": 338303,
+                "teamName": "Braga B"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 580000,
+                "currency": "EUR",
+                "lowerBound": 430000,
+                "upperBound": 720000,
+                "source": "scisports",
+                "teamId": 10264,
+                "teamName": "Braga",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 570000,
+                "currency": "EUR",
+                "lowerBound": 430000,
+                "upperBound": 720000,
+                "source": "scisports",
+                "teamId": 10264,
+                "teamName": "Braga"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 600000,
+                "currency": "EUR",
+                "lowerBound": 450000,
+                "upperBound": 750000,
+                "source": "scisports",
+                "teamId": 10264,
+                "teamName": "Braga"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 630000,
+                "currency": "EUR",
+                "lowerBound": 480000,
+                "upperBound": 790000,
+                "source": "scisports",
+                "teamId": 10264,
+                "teamName": "Braga"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 10910000,
+                "currency": "EUR",
+                "lowerBound": 8180000,
+                "upperBound": 13640000,
+                "source": "scisports",
+                "teamId": 8634,
+                "teamName": "Barcelona",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 21190000,
+                "currency": "EUR",
+                "lowerBound": 15890000,
+                "upperBound": 26480000,
+                "source": "scisports",
+                "teamId": 8634,
+                "teamName": "Barcelona"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 19020000,
+                "currency": "EUR",
+                "lowerBound": 14260000,
+                "upperBound": 23770000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 16850000,
+                "currency": "EUR",
+                "lowerBound": 12640000,
+                "upperBound": 21060000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 14170000,
+                "currency": "EUR",
+                "lowerBound": 10630000,
+                "upperBound": 17710000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 12170000,
+                "currency": "EUR",
+                "lowerBound": 9130000,
+                "upperBound": 15220000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 11170000,
+                "currency": "EUR",
+                "lowerBound": 8380000,
+                "upperBound": 13970000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 10080000,
+                "currency": "EUR",
+                "lowerBound": 7560000,
+                "upperBound": 12600000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 13050000,
+                "currency": "EUR",
+                "lowerBound": 9790000,
+                "upperBound": 16320000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 20420000,
+                "currency": "EUR",
+                "lowerBound": 15320000,
+                "upperBound": 25530000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 18210000,
+                "currency": "EUR",
+                "lowerBound": 13660000,
+                "upperBound": 22760000,
+                "source": "scisports",
+                "teamId": 8602,
+                "teamName": "Wolverhampton Wanderers"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 15560000,
+                "currency": "EUR",
+                "lowerBound": 11670000,
+                "upperBound": 19460000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 14570000,
+                "currency": "EUR",
+                "lowerBound": 10930000,
+                "upperBound": 18220000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 13070000,
+                "currency": "EUR",
+                "lowerBound": 9810000,
+                "upperBound": 16340000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 13070000,
+                "currency": "EUR",
+                "lowerBound": 9810000,
+                "upperBound": 16340000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 15870000,
+                "currency": "EUR",
+                "lowerBound": 11900000,
+                "upperBound": 19830000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 16610000,
+                "currency": "EUR",
+                "lowerBound": 12460000,
+                "upperBound": 20770000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 16330000,
+                "currency": "EUR",
+                "lowerBound": 12250000,
+                "upperBound": 20410000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 16180000,
+                "currency": "EUR",
+                "lowerBound": 12140000,
+                "upperBound": 20220000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 16050000,
+                "currency": "EUR",
+                "lowerBound": 12030000,
+                "upperBound": 20060000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 15980000,
+                "currency": "EUR",
+                "lowerBound": 11980000,
+                "upperBound": 19970000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 16000000,
+                "currency": "EUR",
+                "lowerBound": 12000000,
+                "upperBound": 20000000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 15650000,
+                "currency": "EUR",
+                "lowerBound": 11740000,
+                "upperBound": 19560000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 15530000,
+                "currency": "EUR",
+                "lowerBound": 11650000,
+                "upperBound": 19410000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 16570000,
+                "currency": "EUR",
+                "lowerBound": 12430000,
+                "upperBound": 20710000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 16340000,
+                "currency": "EUR",
+                "lowerBound": 12260000,
+                "upperBound": 20430000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 15830000,
+                "currency": "EUR",
+                "lowerBound": 11870000,
+                "upperBound": 19780000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 15150000,
+                "currency": "EUR",
+                "lowerBound": 11370000,
+                "upperBound": 18940000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 13990000,
+                "currency": "EUR",
+                "lowerBound": 10490000,
+                "upperBound": 17480000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 12650000,
+                "currency": "EUR",
+                "lowerBound": 9490000,
+                "upperBound": 15810000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 11750000,
+                "currency": "EUR",
+                "lowerBound": 8810000,
+                "upperBound": 14680000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 14680000,
+                "currency": "EUR",
+                "lowerBound": 13212000,
+                "upperBound": 16148000,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 16148000,
+                "currency": "EUR",
+                "lowerBound": 14533200,
+                "upperBound": 17762800,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 17762800,
+                "currency": "EUR",
+                "lowerBound": 15986520,
+                "upperBound": 19539080,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 19539080,
+                "currency": "EUR",
+                "lowerBound": 17585172,
+                "upperBound": 21492988,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 21492988,
+                "currency": "EUR",
+                "lowerBound": 19343689,
+                "upperBound": 23642286,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 21580639,
+                "currency": "EUR",
+                "lowerBound": 19422575,
+                "upperBound": 23738703,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 21497333,
+                "currency": "EUR",
+                "lowerBound": 19347600,
+                "upperBound": 23647066,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 21166501,
+                "currency": "EUR",
+                "lowerBound": 19049851,
+                "upperBound": 23283151,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 21166501,
+                "currency": "EUR",
+                "lowerBound": 19049851,
+                "upperBound": 23283151,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 21433736,
+                "currency": "EUR",
+                "lowerBound": 19290362,
+                "upperBound": 23577109,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 21433736,
+                "currency": "EUR",
+                "lowerBound": 19290362,
+                "upperBound": 23577109,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 21347651,
+                "currency": "EUR",
+                "lowerBound": 19212886,
+                "upperBound": 23482416,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 21036650,
+                "currency": "EUR",
+                "lowerBound": 18932985,
+                "upperBound": 23140315,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 21166501,
+                "currency": "EUR",
+                "lowerBound": 19049851,
+                "upperBound": 23283151,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 21796011,
+                "currency": "EUR",
+                "lowerBound": 19616410,
+                "upperBound": 23975613,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 30158478,
+                "currency": "EUR",
+                "lowerBound": 27142630,
+                "upperBound": 33174326,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 30033426,
+                "currency": "EUR",
+                "lowerBound": 27030083,
+                "upperBound": 33036768,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 35970523,
+                "currency": "EUR",
+                "lowerBound": 32373470,
+                "upperBound": 39567575,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 35970523,
+                "currency": "EUR",
+                "lowerBound": 32373470,
+                "upperBound": 39567575,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 34878248,
+                "currency": "EUR",
+                "lowerBound": 31390423,
+                "upperBound": 38366073,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 35380111,
+                "currency": "EUR",
+                "lowerBound": 31842100,
+                "upperBound": 38918122,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 35152155,
+                "currency": "EUR",
+                "lowerBound": 31636940,
+                "upperBound": 38667371,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 35380111,
+                "currency": "EUR",
+                "lowerBound": 31842100,
+                "upperBound": 38918122,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 35239425,
+                "currency": "EUR",
+                "lowerBound": 31715482,
+                "upperBound": 38763367,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 35239425,
+                "currency": "EUR",
+                "lowerBound": 31715482,
+                "upperBound": 38763367,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 35239425,
+                "currency": "EUR",
+                "lowerBound": 31715482,
+                "upperBound": 38763367,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 35239425,
+                "currency": "EUR",
+                "lowerBound": 31715482,
+                "upperBound": 38763367,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 38763367,
+                "currency": "EUR",
+                "lowerBound": 34887030,
+                "upperBound": 42639703,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 40083898,
+                "currency": "EUR",
+                "lowerBound": 36075508,
+                "upperBound": 44092287,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 36075508,
+                "currency": "EUR",
+                "lowerBound": 32467957,
+                "upperBound": 39683058,
+                "source": "scisports",
+                "teamId": 9768,
+                "teamName": "Sporting CP"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1528062,
+                "name": "Abdulelah Al Khaibari"
+            },
+            {
+                "id": 618294,
+                "name": "Abdullah Otayf"
+            },
+            {
+                "id": 938297,
+                "name": "Eduard Spertsyan"
+            },
+            {
+                "id": 1188101,
+                "name": "Saad Balobaid"
+            },
+            {
+                "id": 1524217,
+                "name": "Abdulrahman Al-Sanbi"
+            },
+            {
+                "id": 862538,
+                "name": "Roger Iba\u00f1ez"
+            },
+            {
+                "id": 1642823,
+                "name": "Mohammed Sulaiman"
+            },
+            {
+                "id": 1439625,
+                "name": "Valentin Atangana Edoa"
+            },
+            {
+                "id": 278343,
+                "name": "Riyad Mahrez"
+            },
+            {
+                "id": 844226,
+                "name": "Firas Al-Buraikan"
+            },
+            {
+                "id": 1050859,
+                "name": "Enzo Millot"
+            },
+            {
+                "id": 776972,
+                "name": "Wenderson Galeno"
+            },
+            {
+                "id": 1524233,
+                "name": "Eid Al-Muwallad"
+            },
+            {
+                "id": 773229,
+                "name": "\u00c9douard Mendy"
+            },
+            {
+                "id": 408987,
+                "name": "Ivan Toney"
+            },
+            {
+                "id": 1414577,
+                "name": "Matheus Gon\u00e7alves"
+            },
+            {
+                "id": 1905762,
+                "name": "Ali Bakhashwin"
+            },
+            {
+                "id": 1888666,
+                "name": "Ibrahim Azzam"
+            },
+            {
+                "id": 1616778,
+                "name": "Yaseen Atiah Al Zubaidi"
+            },
+            {
+                "id": 910986,
+                "name": "Ali Majrashi"
+            },
+            {
+                "id": 823078,
+                "name": "Merih Demiral"
+            },
+            {
+                "id": 1527140,
+                "name": "Mohammed Abdulrahman"
+            },
+            {
+                "id": 1174962,
+                "name": "Ziyad Aljohani"
+            },
+            {
+                "id": 1315821,
+                "name": "Matteo Dams"
+            },
+            {
+                "id": 1287535,
+                "name": "Rayan Hamed"
+            },
+            {
+                "id": 1251448,
+                "name": "Saleh Abu Al-Shamat"
+            },
+            {
+                "id": 1946265,
+                "name": "Salem Abdullah"
+            },
+            {
+                "id": 1780632,
+                "name": "Yazan Madani"
+            },
+            {
+                "id": 1536524,
+                "name": "Abdullah Abdo"
+            },
+            {
+                "id": 1877291,
+                "name": "Salman Al-Jadany"
+            },
+            {
+                "id": 1666534,
+                "name": "Ricardo Mathias"
+            },
+            {
+                "id": 579747,
+                "name": "Franck Kessi\u00e9"
+            },
+            {
+                "id": 1818174,
+                "name": "Ramez Al-Attar"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 795630,
+                "name": "Diogo Costa"
+            },
+            {
+                "id": 470834,
+                "name": "N\u00e9lson Semedo"
+            },
+            {
+                "id": 614006,
+                "name": "R\u00faben Dias"
+            },
+            {
+                "id": 1187283,
+                "name": "Tom\u00e1s Ara\u00fajo"
+            },
+            {
+                "id": 751550,
+                "name": "Diogo Dalot"
+            },
+            {
+                "id": 955529,
+                "name": "Matheus Nunes"
+            },
+            {
+                "id": 30893,
+                "name": "Cristiano Ronaldo"
+            },
+            {
+                "id": 422685,
+                "name": "Bruno Fernandes"
+            },
+            {
+                "id": 940087,
+                "name": "Gon\u00e7alo Ramos"
+            },
+            {
+                "id": 488139,
+                "name": "Bernardo Silva"
+            },
+            {
+                "id": 794427,
+                "name": "Joao F\u00e9lix"
+            },
+            {
+                "id": 416175,
+                "name": "Jos\u00e9 S\u00e1"
+            },
+            {
+                "id": 1343750,
+                "name": "Renato Veiga"
+            },
+            {
+                "id": 1165710,
+                "name": "Gon\u00e7alo In\u00e1cio"
+            },
+            {
+                "id": 1342757,
+                "name": "Jo\u00e3o Neves"
+            },
+            {
+                "id": 848844,
+                "name": "Rafael Le\u00e3o"
+            },
+            {
+                "id": 843040,
+                "name": "Pedro Neto"
+            },
+            {
+                "id": 536455,
+                "name": "Gon\u00e7alo Guedes"
+            },
+            {
+                "id": 361757,
+                "name": "Jo\u00e3o Cancelo"
+            },
+            {
+                "id": 534684,
+                "name": "R\u00faben Neves"
+            },
+            {
+                "id": 361717,
+                "name": "Rui Silva"
+            },
+            {
+                "id": 1061249,
+                "name": "Vitinha"
+            },
+            {
+                "id": 1130583,
+                "name": "Sam\u00fa"
+            },
+            {
+                "id": 1158945,
+                "name": "Nuno Mendes"
+            },
+            {
+                "id": 1185336,
+                "name": "Francisco Concei\u00e7\u00e3o"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "dataProvider": "enet",
+    "topCompletedTransfer": {
+        "name": "Trinc\u00e3o",
+        "playerId": 732282,
+        "position": {
+            "label": "AM",
+            "key": "centerattackingmidfielder_short"
+        },
+        "transferDate": "2026-07-18T21:13:27Z",
+        "transferText": [
+            null,
+            null,
+            null
+        ],
+        "fromClub": "Sporting CP",
+        "fromClubFullName": "Sporting CP",
+        "fromClubId": 9768,
+        "toClub": "Al Ahli",
+        "toClubFullName": "Al Ahli",
+        "toClubId": 2530,
+        "fee": {
+            "feeText": "fee",
+            "localizedFeeText": "transfer_fee",
+            "value": 39350000
+        },
+        "amountEuroEstimated": null,
+        "transferType": {
+            "text": "contract",
+            "localizationKey": "contract"
+        },
+        "contractExtension": false,
+        "onLoan": false,
+        "fromDate": "2026-07-18T00:00:00Z",
+        "toDate": "2030-06-30T00:00:00Z",
+        "marketValue": 36075508
+    }
+}

@@ -1,0 +1,5582 @@
+{
+    "id": 1070052,
+    "name": "Amad Diallo",
+    "birthDate": {
+        "utcTime": "2002-07-11T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 10260,
+        "teamName": "Manchester United",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#C70101",
+            "colorAlternate": "#C70101",
+            "colorAway": "#2B3737",
+            "colorAwayAlternate": "#FFFFFF"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Wing-Back",
+                    "key": "right_wing_back"
+                },
+                "strPosShort": {
+                    "label": "RWB",
+                    "key": "right_wing_back_short"
+                },
+                "occurences": 13,
+                "position": "62",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.58,
+                    "ratio": 0.5170731707317073
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 20,
+                "position": "83",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 6,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.3463414634146341
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Wing-Back",
+                "key": "right_wing_back"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 174,
+                "key": null,
+                "fallback": "174 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 16,
+                "options": {},
+                "key": null,
+                "fallback": 16
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 24,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "24"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "left",
+                "fallback": "Left"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Ivory Coast"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "CIV"
+            },
+            "countryCode": "CIV"
+        },
+        {
+            "value": {
+                "numberValue": 54153293,
+                "key": null,
+                "fallback": "\u20ac54.2m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 47,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 2
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 27
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 32
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 2344
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.19
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 2
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "ENG",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "tournaments": [
+                    {
+                        "ccode": "ENG",
+                        "leagueId": 132,
+                        "leagueName": "FA Cup",
+                        "seasonsWon": [
+                            "2023/2024"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2022/2023"
+                        ]
+                    }
+                ]
+            },
+            {
+                "ccode": "SCO",
+                "teamId": 8548,
+                "teamName": "Rangers",
+                "tournaments": [
+                    {
+                        "ccode": "SCO",
+                        "leagueId": 137,
+                        "leagueName": "Scottish Cup",
+                        "seasonsWon": [
+                            "2021/2022"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            },
+            {
+                "ccode": "ITA",
+                "teamId": 1087188,
+                "teamName": "Atalanta U19",
+                "tournaments": [
+                    {
+                        "ccode": "ITA",
+                        "leagueId": -1,
+                        "leagueName": "Super Cup Primavera",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "ITA",
+                        "leagueId": 9908,
+                        "leagueName": "Campionato Primavera 1",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8492,
+            "opponentTeamName": "Norway",
+            "isHomeTeam": true,
+            "id": 4653712,
+            "matchDate": {
+                "utcTime": "2026-06-30T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-norway/1wsny5#4653712",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 30,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 287981,
+            "opponentTeamName": "Curacao",
+            "isHomeTeam": false,
+            "id": 4667782,
+            "matchDate": {
+                "utcTime": "2026-06-25T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-curacao/jy3w4js#4667782",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8570,
+            "opponentTeamName": "Germany",
+            "isHomeTeam": false,
+            "id": 4667780,
+            "matchDate": {
+                "utcTime": "2026-06-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-germany/1xi59e#4667780",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6707,
+            "opponentTeamName": "Ecuador",
+            "isHomeTeam": true,
+            "id": 4667778,
+            "matchDate": {
+                "utcTime": "2026-06-14T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-ivory-coast/1hl6kp#4667778",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. E",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 34,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6723,
+            "opponentTeamName": "France",
+            "isHomeTeam": false,
+            "id": 5246832,
+            "matchDate": {
+                "utcTime": "2026-06-04T19:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-france/1hpsbj#5246832",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": false,
+            "id": 4813745,
+            "matchDate": {
+                "utcTime": "2026-05-24T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brighton-hove-albion-vs-manchester-united/3goccs#4813745",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": true,
+            "id": 4813742,
+            "matchDate": {
+                "utcTime": "2026-05-17T11:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/nottingham-forest-vs-manchester-united/3gnwkc#4813742",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": false,
+            "id": 4813732,
+            "matchDate": {
+                "utcTime": "2026-05-09T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-manchester-united/2wgr5i#4813732",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 75,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": true,
+            "id": 4813722,
+            "matchDate": {
+                "utcTime": "2026-05-03T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-manchester-united/2ygkcb#4813722",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9937,
+            "opponentTeamName": "Brentford",
+            "isHomeTeam": true,
+            "id": 4813711,
+            "matchDate": {
+                "utcTime": "2026-04-27T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brentford-vs-manchester-united/3dfzjk#4813711",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": false,
+            "id": 4813697,
+            "matchDate": {
+                "utcTime": "2026-04-18T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-manchester-united/2w9xj5#4813697",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 10,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8463,
+            "opponentTeamName": "Leeds United",
+            "isHomeTeam": true,
+            "id": 4813691,
+            "matchDate": {
+                "utcTime": "2026-04-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/leeds-united-vs-manchester-united/2wd539#4813691",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 5156668,
+            "matchDate": {
+                "utcTime": "2026-03-31T18:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-scotland/1wumce#5156668",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 7804,
+            "opponentTeamName": "South Korea",
+            "isHomeTeam": false,
+            "id": 5267317,
+            "matchDate": {
+                "utcTime": "2026-03-28T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-south-korea/1qpk3p#5267317",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": false,
+            "id": 4813675,
+            "matchDate": {
+                "utcTime": "2026-03-20T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-manchester-united/2yrx85#4813675",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10252,
+            "opponentTeamName": "Aston Villa",
+            "isHomeTeam": true,
+            "id": 4813671,
+            "matchDate": {
+                "utcTime": "2026-03-15T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/aston-villa-vs-manchester-united/3h9f6s#4813671",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10261,
+            "opponentTeamName": "Newcastle United",
+            "isHomeTeam": false,
+            "id": 4813662,
+            "matchDate": {
+                "utcTime": "2026-03-04T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-united-vs-newcastle-united/3hddo2#4813662",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": true,
+            "id": 4813652,
+            "matchDate": {
+                "utcTime": "2026-03-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-manchester-united/3c42bz#4813652",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": false,
+            "id": 4813639,
+            "matchDate": {
+                "utcTime": "2026-02-23T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-manchester-united/2ynv4k#4813639",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": false,
+            "id": 4813634,
+            "matchDate": {
+                "utcTime": "2026-02-10T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-manchester-united/2yi6pt#4813634",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": true,
+            "id": 4813622,
+            "matchDate": {
+                "utcTime": "2026-02-07T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-manchester-united/2xqo0r#4813622",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": true,
+            "id": 4813610,
+            "matchDate": {
+                "utcTime": "2026-02-01T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-manchester-united/3cqww9#4813610",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": false,
+            "id": 4813596,
+            "matchDate": {
+                "utcTime": "2026-01-25T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-manchester-united/3c3mu0#4813596",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": true,
+            "id": 4813590,
+            "matchDate": {
+                "utcTime": "2026-01-17T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-manchester-united/2wabz2#4813590",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 10255,
+            "opponentTeamName": "Egypt",
+            "isHomeTeam": false,
+            "id": 5073474,
+            "matchDate": {
+                "utcTime": "2026-01-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-egypt/2docwv#5073474",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6323,
+            "opponentTeamName": "Burkina Faso",
+            "isHomeTeam": true,
+            "id": 5073463,
+            "matchDate": {
+                "utcTime": "2026-01-06T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burkina-faso-vs-ivory-coast/1ekc7d#5073463",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5889,
+            "opponentTeamName": "Gabon",
+            "isHomeTeam": false,
+            "id": 4722017,
+            "matchDate": {
+                "utcTime": "2025-12-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/gabon-vs-ivory-coast/1b94le#4722017",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 6629,
+            "opponentTeamName": "Cameroon",
+            "isHomeTeam": true,
+            "id": 4722015,
+            "matchDate": {
+                "utcTime": "2025-12-28T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cameroon-vs-ivory-coast/1gytg4#4722015",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 87,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5965,
+            "opponentTeamName": "Mozambique",
+            "isHomeTeam": true,
+            "id": 4722013,
+            "matchDate": {
+                "utcTime": "2025-12-24T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/mozambique-vs-ivory-coast/1btpmg#4722013",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.2",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4813531,
+            "matchDate": {
+                "utcTime": "2025-12-15T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-manchester-united/2yrx85#4813531",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8602,
+            "opponentTeamName": "Wolverhampton Wanderers",
+            "isHomeTeam": false,
+            "id": 4813524,
+            "matchDate": {
+                "utcTime": "2025-12-08T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/wolverhampton-wanderers-vs-manchester-united/2xx4sz#4813524",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4813512,
+            "matchDate": {
+                "utcTime": "2025-12-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-manchester-united/2yi6pt#4813512",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9826,
+            "opponentTeamName": "Crystal Palace",
+            "isHomeTeam": false,
+            "id": 4813498,
+            "matchDate": {
+                "utcTime": "2025-11-30T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/crystal-palace-vs-manchester-united/3c42bz#4813498",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4813492,
+            "matchDate": {
+                "utcTime": "2025-11-24T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-manchester-united/2ynv4k#4813492",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5824,
+            "opponentTeamName": "Oman",
+            "isHomeTeam": false,
+            "id": 5050779,
+            "matchDate": {
+                "utcTime": "2025-11-18T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/oman-vs-ivory-coast/1armcs#5050779",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": false,
+            "id": 5050854,
+            "matchDate": {
+                "utcTime": "2025-11-14T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-saudi-arabia/1qmrc7#5050854",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8586,
+            "opponentTeamName": "Tottenham Hotspur",
+            "isHomeTeam": false,
+            "id": 4813483,
+            "matchDate": {
+                "utcTime": "2025-11-08T12:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/tottenham-hotspur-vs-manchester-united/2xqo0r#4813483",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10203,
+            "opponentTeamName": "Nottingham Forest",
+            "isHomeTeam": false,
+            "id": 4813471,
+            "matchDate": {
+                "utcTime": "2025-11-01T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nottingham-forest-vs-manchester-united/3gnwkc#4813471",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10204,
+            "opponentTeamName": "Brighton & Hove Albion",
+            "isHomeTeam": true,
+            "id": 4813462,
+            "matchDate": {
+                "utcTime": "2025-10-25T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/brighton-hove-albion-vs-manchester-united/3goccs#4813462",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 70,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8650,
+            "opponentTeamName": "Liverpool",
+            "isHomeTeam": false,
+            "id": 4813449,
+            "matchDate": {
+                "utcTime": "2025-10-19T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/liverpool-vs-manchester-united/2ygkcb#4813449",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5884,
+            "opponentTeamName": "Kenya",
+            "isHomeTeam": true,
+            "id": 4341289,
+            "matchDate": {
+                "utcTime": "2025-10-14T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/kenya-vs-ivory-coast/1b7rzy#4341289",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 87,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 121274,
+            "opponentTeamName": "Seychelles",
+            "isHomeTeam": false,
+            "id": 4341294,
+            "matchDate": {
+                "utcTime": "2025-10-10T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-seychelles/3rg1vb1#4341294",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 7,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8472,
+            "opponentTeamName": "Sunderland",
+            "isHomeTeam": true,
+            "id": 4813442,
+            "matchDate": {
+                "utcTime": "2025-10-04T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/sunderland-vs-manchester-united/2wgr5i#4813442",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8455,
+            "opponentTeamName": "Chelsea",
+            "isHomeTeam": true,
+            "id": 4813421,
+            "matchDate": {
+                "utcTime": "2025-09-20T16:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/chelsea-vs-manchester-united/2w9xj5#4813421",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8456,
+            "opponentTeamName": "Manchester City",
+            "isHomeTeam": false,
+            "id": 4813412,
+            "matchDate": {
+                "utcTime": "2025-09-14T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/manchester-city-vs-manchester-united/2wabz2#4813412",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 5889,
+            "opponentTeamName": "Gabon",
+            "isHomeTeam": false,
+            "id": 4341277,
+            "matchDate": {
+                "utcTime": "2025-09-09T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/gabon-vs-ivory-coast/1b94le#4341277",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6709,
+            "teamName": "Ivory Coast",
+            "opponentTeamId": 121284,
+            "opponentTeamName": "Burundi",
+            "isHomeTeam": true,
+            "id": 4341278,
+            "matchDate": {
+                "utcTime": "2025-09-05T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-burundi/3rgtave#4341278",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. F",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8191,
+            "opponentTeamName": "Burnley",
+            "isHomeTeam": true,
+            "id": 4813400,
+            "matchDate": {
+                "utcTime": "2025-08-30T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burnley-vs-manchester-united/2tcrst#4813400",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 10005,
+            "opponentTeamName": "Grimsby Town",
+            "isHomeTeam": false,
+            "id": 4927193,
+            "matchDate": {
+                "utcTime": "2025-08-27T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/grimsby-town-vs-manchester-united/3e9hbl#4927193",
+            "leagueId": 133,
+            "leagueName": "EFL Cup",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9879,
+            "opponentTeamName": "Fulham",
+            "isHomeTeam": false,
+            "id": 4813391,
+            "matchDate": {
+                "utcTime": "2025-08-24T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/fulham-vs-manchester-united/3cqww9#4813391",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 52,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 9825,
+            "opponentTeamName": "Arsenal",
+            "isHomeTeam": true,
+            "id": 4813382,
+            "matchDate": {
+                "utcTime": "2025-08-17T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/arsenal-vs-manchester-united/3c3mu0#4813382",
+            "leagueId": 47,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 35,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8535,
+            "opponentTeamName": "Fiorentina",
+            "isHomeTeam": true,
+            "id": 4782583,
+            "matchDate": {
+                "utcTime": "2025-08-09T11:50:00.000Z"
+            },
+            "matchPageUrl": "/matches/fiorentina-vs-manchester-united/2x63c9#4782583",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8668,
+            "opponentTeamName": "Everton",
+            "isHomeTeam": true,
+            "id": 4772689,
+            "matchDate": {
+                "utcTime": "2025-08-03T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/everton-vs-manchester-united/2ynv4k#4772689",
+            "leagueId": 489,
+            "leagueName": "Premier League Summer Series",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8678,
+            "opponentTeamName": "AFC Bournemouth",
+            "isHomeTeam": true,
+            "id": 4772685,
+            "matchDate": {
+                "utcTime": "2025-07-31T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/afc-bournemouth-vs-manchester-united/2yrx85#4772685",
+            "leagueId": 489,
+            "leagueName": "Premier League Summer Series",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10260,
+            "teamName": "Manchester United",
+            "opponentTeamId": 8654,
+            "opponentTeamName": "West Ham United",
+            "isHomeTeam": true,
+            "id": 4778508,
+            "matchDate": {
+                "utcTime": "2025-07-26T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/west-ham-united-vs-manchester-united/2yi6pt#4778508",
+            "leagueId": 489,
+            "leagueName": "Premier League Summer Series",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 62,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1070052,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2023-06-01T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "88",
+                        "goals": "15",
+                        "assists": "12",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 8472,
+                        "team": "Sunderland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-08-31T00:00:00",
+                        "endDate": "2023-05-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "42",
+                        "goals": "14",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-07-01T00:00:00",
+                        "endDate": "2022-08-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 8548,
+                        "team": "Rangers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-01-27T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "13",
+                        "goals": "3",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-01-07T00:00:00",
+                        "endDate": "2022-01-27T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 8524,
+                        "team": "Atalanta",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-26T00:00:00",
+                        "endDate": "2021-01-07T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "33",
+                        "goals": "2",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27110,
+                                "goals": "2",
+                                "assists": "3",
+                                "appearances": "32",
+                                "rating": {
+                                    "rating": "7.19"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27199,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.10"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "43",
+                        "goals": "11",
+                        "assists": "8",
+                        "rating": {
+                            "rating": "7.39"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23685,
+                                "goals": "8",
+                                "assists": "6",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "7.44"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 247,
+                                "leagueName": "Community Shield",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 26704,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24289,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 133,
+                                "leagueName": "EFL Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23747,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.48"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24112,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "7.31"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "12",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.69"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 20720,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "6.73"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21876,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.59"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "42",
+                        "goals": "14",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 48,
+                                "leagueName": "Championship",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17834,
+                                "goals": "14",
+                                "assists": "3",
+                                "appearances": "39",
+                                "rating": {
+                                    "rating": "7.36"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17927,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.13"
+                                }
+                            }
+                        ],
+                        "teamId": 8472,
+                        "team": "Sunderland",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "13",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.79"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 64,
+                                "leagueName": "Premiership",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16434,
+                                "goals": "3",
+                                "assists": "0",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "6.79"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 137,
+                                "leagueName": "Scottish Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16835,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8548,
+                        "team": "Rangers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.36"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16407,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "8",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 47,
+                                "leagueName": "Premier League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15382,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 132,
+                                "leagueName": "FA Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15661,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 73,
+                                "leagueName": "Europa League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15238,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.07"
+                                }
+                            }
+                        ],
+                        "teamId": 10260,
+                        "team": "Manchester United",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.40"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 55,
+                                "leagueName": "Serie A",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15604,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.21"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 42,
+                                "leagueName": "Champions League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15237,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.59"
+                                }
+                            }
+                        ],
+                        "teamId": 8524,
+                        "team": "Atalanta",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "3",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.33"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 55,
+                                "leagueName": "Serie A",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14290,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.33"
+                                }
+                            }
+                        ],
+                        "teamId": 8524,
+                        "team": "Atalanta",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1070052,
+                        "teamId": 773657,
+                        "team": "Sunderland U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-10-08T00:00:00",
+                        "endDate": "2023-05-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 357204,
+                        "team": "Manchester United U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-01-29T00:00:00",
+                        "endDate": "2022-01-27T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "6",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 1087188,
+                        "team": "Atalanta U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-07-01T00:00:00",
+                        "endDate": "2021-01-07T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10176,
+                                "leagueName": "Premier League 2 Div 2",
+                                "seasonName": "2022/2023",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 773657,
+                        "team": "Sunderland U21",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "2",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357204,
+                        "team": "Manchester United U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "3",
+                        "goals": "4",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2020/2021",
+                                "tournamentId": -1,
+                                "goals": "4",
+                                "assists": "3",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357204,
+                        "team": "Manchester United U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "3",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1087188,
+                        "team": "Atalanta U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1070052,
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-01-18T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "22",
+                        "goals": "8",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1070052,
+                        "teamId": 317234,
+                        "team": "Ivory Coast U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2021-07-02T00:00:00",
+                        "endDate": "2023-05-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "10",
+                        "goals": "4",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.27"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.39"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.13"
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "9",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.12"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2025",
+                                "tournamentId": 24309,
+                                "goals": "3",
+                                "assists": "1",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "7.68"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "5.72"
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2023",
+                                "tournamentId": 23214,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "2",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6709,
+                        "team": "Ivory Coast",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.05"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 66,
+                                "leagueName": "Summer Olympics",
+                                "seasonName": "2020",
+                                "tournamentId": 16084,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.05"
+                                }
+                            }
+                        ],
+                        "teamId": 317234,
+                        "team": "Ivory Coast U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.57
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.29
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.53
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.48
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.59
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.5
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "amad-diallo",
+        "pageurl": "/players/1070052/amad-diallo",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Amad Diallo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo is 24 years old. Born on Thu Jul 11 2002."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Amad Diallo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo is 174 cm tall. Or 5 ft 9 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Amad Diallo born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo was born Thu Jul 11 2002 and is now 24 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Amad Diallo's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo's preferred foot is left."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Amad Diallo's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo's transfer value is estimated to be around \u20ac54.2m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Amad Diallo from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo is from Ivory Coast."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Amad Diallo scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Amad Diallo has scored 2 goals in the Premier League."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Amad Diallo",
+            "birthDate": "2002-07-11T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1070052/amad-diallo",
+            "nationality": {
+                "@type": "Country",
+                "name": "Ivory Coast"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Manchester United"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "174"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "68"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/47/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Manchester United",
+                    "item": "https://www.fotmob.com/teams/10260/overview/manchester-united"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Amad Diallo",
+                    "item": "https://www.fotmob.com/leagues/1070052/overview/amad-diallo"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "EFL Cup",
+                    "tournamentId": 133,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Community Shield",
+                    "tournamentId": 247,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Championship",
+                    "tournamentId": 48,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Premiership",
+                    "tournamentId": 64,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 47,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Serie A",
+                    "tournamentId": 55,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FA Cup",
+                    "tournamentId": 132,
+                    "entryId": "6-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Champions League",
+                    "tournamentId": 42,
+                    "entryId": "6-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Europa League",
+                    "tournamentId": 73,
+                    "entryId": "6-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Summer Olympics",
+                    "tournamentId": 66,
+                    "entryId": "6-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Serie A",
+                    "tournamentId": 55,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945848625,
+                "playerName": "Amad Diallo",
+                "eventType": "Goal",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 101.0172413796,
+                "y": 27.782619047,
+                "min": 74,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 35.44875,
+                "goalCrossedZ": 1.059473679,
+                "expectedGoals": 0.198293462395668,
+                "expectedGoalsOnTarget": 0.371881812810898,
+                "onGoalShot": {
+                    "x": 0.616732804232803,
+                    "y": 0.280284042063492,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6709,
+                "awayTeamId": 8492,
+                "homeTeamName": "Ivory Coast",
+                "awayTeamName": "Norway",
+                "homeScore": 1,
+                "awayScore": 2,
+                "matchId": 4653712,
+                "matchDate": "2026-06-30T17:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2945849855,
+                "playerName": "Amad Diallo",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "FreeKick",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 74.4888349536,
+                "y": 34.83875,
+                "min": 90,
+                "minAdded": 6,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 103.6724137932,
+                "blockedY": 33.8475,
+                "goalCrossedY": 36.44,
+                "goalCrossedZ": 1.9134736748,
+                "expectedGoals": 0.0341529995203018,
+                "expectedGoalsOnTarget": 0.192128449678421,
+                "onGoalShot": {
+                    "x": 0.354497354497353,
+                    "y": 0.506209966878307,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6709,
+                "awayTeamId": 8492,
+                "homeTeamName": "Ivory Coast",
+                "awayTeamName": "Norway",
+                "homeScore": 1,
+                "awayScore": 2,
+                "matchId": 4653712,
+                "matchDate": "2026-06-30T17:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2944721263,
+                "playerName": "Amad Diallo",
+                "eventType": "Goal",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 90.5,
+                "y": 31.7125,
+                "min": 90,
+                "minAdded": 0,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 37.355,
+                "goalCrossedZ": 0.3659999982,
+                "expectedGoals": 0.163474068045616,
+                "expectedGoalsOnTarget": 0.865184187889099,
+                "onGoalShot": {
+                    "x": 0.112433862433861,
+                    "y": 0.0968253963492064,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6709,
+                "awayTeamId": 6707,
+                "homeTeamName": "Ivory Coast",
+                "awayTeamName": "Ecuador",
+                "homeScore": 1,
+                "awayScore": 0,
+                "matchId": 4667778,
+                "matchDate": "2026-06-14T23:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2944721521,
+                "playerName": "Amad Diallo",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 81.6966019424,
+                "y": 36.05875,
+                "min": 90,
+                "minAdded": 4,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 102.7241379312,
+                "blockedY": 34.1525,
+                "goalCrossedY": 34.22875,
+                "goalCrossedZ": 0.2054736832,
+                "expectedGoals": 0.0300626680254936,
+                "expectedGoalsOnTarget": 0.0117340069264174,
+                "onGoalShot": {
+                    "x": 0.939484126984128,
+                    "y": 0.0543581172486773,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6709,
+                "awayTeamId": 6707,
+                "homeTeamName": "Ivory Coast",
+                "awayTeamName": "Ecuador",
+                "homeScore": 1,
+                "awayScore": 0,
+                "matchId": 4667778,
+                "matchDate": "2026-06-14T23:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2945043403,
+                "playerName": "Amad Diallo",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 101.3017241382,
+                "y": 31.48375,
+                "min": 30,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 102.4396551726,
+                "blockedY": 31.78875,
+                "goalCrossedY": 32.24625,
+                "goalCrossedZ": 0.6228421022,
+                "expectedGoals": 0.298337817192078,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.46395502645503,
+                    "y": 0.164773042910053,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8570,
+                "awayTeamId": 6709,
+                "homeTeamName": "Germany",
+                "awayTeamName": "Ivory Coast",
+                "homeScore": 2,
+                "awayScore": 1,
+                "matchId": 4667780,
+                "matchDate": "2026-06-20T20:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2945428929,
+                "playerName": "Amad Diallo",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 87.3191176468,
+                "y": 23.4387261191,
+                "min": 10,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 39.460952382,
+                "goalCrossedZ": 0.1797894728,
+                "expectedGoals": 0.0426912307739258,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0,
+                    "y": 0.0329227321945911,
+                    "zoomRatio": 0.692186954872445
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 287981,
+                "awayTeamId": 6709,
+                "homeTeamName": "Curacao",
+                "awayTeamName": "Ivory Coast",
+                "homeScore": 0,
+                "awayScore": 2,
+                "matchId": 4667782,
+                "matchDate": "2026-06-25T20:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2945429773,
+                "playerName": "Amad Diallo",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 96.1228070165,
+                "y": 32.55125,
+                "min": 18,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 16.9928662435,
+                "goalCrossedZ": 0.2696842092,
+                "expectedGoals": 0.203930512070656,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.0158571228439318,
+                    "zoomRatio": 0.222259673741633
+                },
+                "box": "InsideBox",
+                "homeTeamId": 287981,
+                "awayTeamId": 6709,
+                "homeTeamName": "Curacao",
+                "awayTeamName": "Ivory Coast",
+                "homeScore": 0,
+                "awayScore": 2,
+                "matchId": 4667782,
+                "matchDate": "2026-06-25T20:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            },
+            {
+                "id": 2945430267,
+                "playerName": "Amad Diallo",
+                "eventType": "Miss",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6709,
+                "playerId": 1070052,
+                "x": 87.963235294,
+                "y": 30.292,
+                "min": 23,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 94.7719298231,
+                "blockedY": 34.1525,
+                "goalCrossedY": 40.46952381,
+                "goalCrossedZ": 2.0483157794,
+                "expectedGoals": 0.127509608864784,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.110223024625e-16,
+                    "y": 0.316609976183085,
+                    "zoomRatio": 0.584277933123489
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 287981,
+                "awayTeamId": 6709,
+                "homeTeamName": "Curacao",
+                "awayTeamName": "Ivory Coast",
+                "homeScore": 0,
+                "awayScore": 2,
+                "matchId": 4667782,
+                "matchDate": "2026-06-25T20:00:00Z",
+                "teamColor": "#FD8B06",
+                "teamColorDark": "#FD8B06"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 85.5072463768116,
+                            "percentileRankPer90": 94.92753623188406,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.5372119468191396,
+                            "percentileRank": 84.78260869565217,
+                            "percentileRankPer90": 95.65217391304348,
+                            "statFormat": "fraction",
+                            "statValue": "1.10",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.7047880570525709,
+                            "percentileRank": 89.85507246376811,
+                            "percentileRankPer90": 94.20289855072464,
+                            "statFormat": "fraction",
+                            "statValue": "1.44",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.5372119468191396,
+                            "percentileRank": 84.78260869565217,
+                            "percentileRankPer90": 95.65217391304348,
+                            "statFormat": "fraction",
+                            "statValue": "1.10",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 3.9130434782608696,
+                            "percentileRank": 76.81159420289855,
+                            "percentileRankPer90": 92.7536231884058,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 1.9565217391304348,
+                            "percentileRank": 82.6086956521739,
+                            "percentileRankPer90": 97.82608695652173,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.2856911492088567,
+                            "percentileRank": 68.84057971014492,
+                            "percentileRankPer90": 88.40579710144928,
+                            "statFormat": "fraction",
+                            "statValue": "0.58",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 33.75,
+                            "percentileRank": 48.55072463768116,
+                            "percentileRankPer90": 65.94202898550725,
+                            "statFormat": "number",
+                            "statValue": "69",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 92,
+                            "percentileRank": 92.02898550724638,
+                            "percentileRankPer90": 92.02898550724638,
+                            "statFormat": "percent",
+                            "statValue": "92.0",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 42.7536231884058,
+                            "percentileRankPer90": 53.62318840579711,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 100,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "percent",
+                            "statValue": "100.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 1.9565217391304348,
+                            "percentileRank": 53.62318840579711,
+                            "percentileRankPer90": 71.01449275362319,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "big_chance_created_team_title",
+                            "per90": 0.4891304347826087,
+                            "percentileRank": 54.347826086956516,
+                            "percentileRankPer90": 75.36231884057972,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Big chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 63.04347826086957,
+                            "percentileRankPer90": 73.91304347826086,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 50,
+                            "percentileRank": 88.40579710144928,
+                            "percentileRankPer90": 88.40579710144928,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 3.9130434782608696,
+                            "percentileRank": 81.88405797101449,
+                            "percentileRankPer90": 93.47826086956522,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 57.142857142857146,
+                            "percentileRank": 71.01449275362319,
+                            "percentileRankPer90": 71.01449275362319,
+                            "statFormat": "percent",
+                            "statValue": "57.1",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 7.336956521739131,
+                            "percentileRank": 60.14492753623188,
+                            "percentileRankPer90": 84.05797101449275,
+                            "statFormat": "number",
+                            "statValue": "15",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 55.55555555555556,
+                            "percentileRank": 84.05797101449275,
+                            "percentileRankPer90": 84.05797101449275,
+                            "statFormat": "percent",
+                            "statValue": "55.6",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 62.1195652173913,
+                            "percentileRank": 47.10144927536232,
+                            "percentileRankPer90": 69.56521739130434,
+                            "statFormat": "number",
+                            "statValue": "127",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 8.315217391304348,
+                            "percentileRank": 76.81159420289855,
+                            "percentileRankPer90": 92.7536231884058,
+                            "statFormat": "number",
+                            "statValue": "17",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 2.4456521739130435,
+                            "percentileRank": 26.08695652173913,
+                            "percentileRankPer90": 13.768115942028986,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 26.811594202898554,
+                            "percentileRankPer90": 31.88405797101449,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 3.9130434782608696,
+                            "percentileRank": 58.69565217391305,
+                            "percentileRankPer90": 79.71014492753623,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.4456521739130435,
+                            "percentileRank": 66.66666666666666,
+                            "percentileRankPer90": 84.05797101449275,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 56.52173913043478,
+                            "percentileRankPer90": 76.81159420289855,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "blocked_shots",
+                            "per90": 0.4891304347826087,
+                            "percentileRank": 78.98550724637681,
+                            "percentileRankPer90": 92.02898550724638,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Blocked scoring attempt"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 5.380434782608696,
+                            "percentileRank": 58.69565217391305,
+                            "percentileRankPer90": 82.6086956521739,
+                            "statFormat": "number",
+                            "statValue": "11",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.4891304347826087,
+                            "percentileRank": 29.71014492753623,
+                            "percentileRankPer90": 49.275362318840585,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.4891304347826087,
+                            "percentileRank": 54.347826086956516,
+                            "percentileRankPer90": 66.66666666666666,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 0.9782608695652174,
+                            "percentileRank": 57.971014492753625,
+                            "percentileRankPer90": 59.42028985507246,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 1.5437935033570165,
+                            "percentileRank": 44.927536231884055,
+                            "percentileRankPer90": 29.71014492753623,
+                            "statFormat": "fraction",
+                            "statValue": "3.16",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0.9782608695652174,
+                    "percentileRank": 85.5072463768116,
+                    "percentileRankPer90": 94.92753623188406,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 7.3875,
+                    "percentileRank": 80.43478260869566,
+                    "percentileRankPer90": 80.43478260869566,
+                    "statFormat": "fraction",
+                    "statValue": "7.39",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 40.57971014492754,
+                    "percentileRankPer90": 40.57971014492754,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 2,
+                    "percentileRank": 27.536231884057973,
+                    "percentileRankPer90": 31.88405797101449,
+                    "statFormat": "number",
+                    "statValue": "2",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 36.231884057971016,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "184",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 59.01,
+                    "y": 21.34
+                },
+                {
+                    "x": 83.72,
+                    "y": 9.05
+                },
+                {
+                    "x": 86.89,
+                    "y": 65.9
+                },
+                {
+                    "x": 95.74,
+                    "y": 49.75
+                },
+                {
+                    "x": 59.82,
+                    "y": 47.5
+                },
+                {
+                    "x": 71.45,
+                    "y": 63.01
+                },
+                {
+                    "x": 71.34,
+                    "y": 63.8
+                },
+                {
+                    "x": 0.95,
+                    "y": 32.32
+                },
+                {
+                    "x": 77.87,
+                    "y": 15.45
+                },
+                {
+                    "x": 71.11,
+                    "y": 45.33
+                },
+                {
+                    "x": 58.4,
+                    "y": 50.03
+                },
+                {
+                    "x": 62.1,
+                    "y": 56.85
+                },
+                {
+                    "x": 83.16,
+                    "y": 54.82
+                },
+                {
+                    "x": 101.02,
+                    "y": 40.22
+                },
+                {
+                    "x": 101.78,
+                    "y": 38.79
+                },
+                {
+                    "x": 63.56,
+                    "y": 3.15
+                },
+                {
+                    "x": 33.1,
+                    "y": 29.97
+                },
+                {
+                    "x": 41.44,
+                    "y": 37.51
+                },
+                {
+                    "x": 49.55,
+                    "y": 13.51
+                },
+                {
+                    "x": 85.92,
+                    "y": 14.19
+                },
+                {
+                    "x": 91,
+                    "y": 16.08
+                },
+                {
+                    "x": 43.12,
+                    "y": 6.17
+                },
+                {
+                    "x": 83.16,
+                    "y": 12.72
+                },
+                {
+                    "x": 77.75,
+                    "y": 48.55
+                },
+                {
+                    "x": 74.49,
+                    "y": 33.16
+                },
+                {
+                    "x": 94.68,
+                    "y": 32.32
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 97.86,
+                    "y": 46.24
+                },
+                {
+                    "x": 73.36,
+                    "y": 53.6
+                },
+                {
+                    "x": 64.69,
+                    "y": 61.97
+                },
+                {
+                    "x": 64.69,
+                    "y": 61.77
+                },
+                {
+                    "x": 62.1,
+                    "y": 55.28
+                },
+                {
+                    "x": 48.84,
+                    "y": 44.56
+                },
+                {
+                    "x": 75.28,
+                    "y": 54.49
+                },
+                {
+                    "x": 72.57,
+                    "y": 50.8
+                },
+                {
+                    "x": 59.51,
+                    "y": 48.48
+                },
+                {
+                    "x": 103.48,
+                    "y": 45.4
+                },
+                {
+                    "x": 56.16,
+                    "y": 50.17
+                },
+                {
+                    "x": 57.68,
+                    "y": 43.93
+                },
+                {
+                    "x": 55.55,
+                    "y": 37.68
+                },
+                {
+                    "x": 55.55,
+                    "y": 29.72
+                },
+                {
+                    "x": 56.26,
+                    "y": 25.53
+                },
+                {
+                    "x": 72.01,
+                    "y": 9.12
+                },
+                {
+                    "x": 93.4,
+                    "y": 11.61
+                },
+                {
+                    "x": 91.3,
+                    "y": 19.16
+                },
+                {
+                    "x": 95.35,
+                    "y": 21.48
+                },
+                {
+                    "x": 83.5,
+                    "y": 18.88
+                },
+                {
+                    "x": 72.91,
+                    "y": 65.11
+                },
+                {
+                    "x": 73.48,
+                    "y": 65.97
+                },
+                {
+                    "x": 23.3,
+                    "y": 48.77
+                },
+                {
+                    "x": 90.5,
+                    "y": 36.29
+                },
+                {
+                    "x": 13.9,
+                    "y": 35.6
+                },
+                {
+                    "x": 40.65,
+                    "y": 42.52
+                },
+                {
+                    "x": 40.65,
+                    "y": 42.52
+                },
+                {
+                    "x": 81.7,
+                    "y": 31.94
+                },
+                {
+                    "x": 29.95,
+                    "y": 51.92
+                },
+                {
+                    "x": 33.66,
+                    "y": 46.59
+                },
+                {
+                    "x": 69.31,
+                    "y": 64.06
+                },
+                {
+                    "x": 94.48,
+                    "y": 47.57
+                },
+                {
+                    "x": 98.54,
+                    "y": 51.85
+                },
+                {
+                    "x": 56.57,
+                    "y": 65.57
+                },
+                {
+                    "x": 46.4,
+                    "y": 54.68
+                },
+                {
+                    "x": 80.68,
+                    "y": 64.65
+                },
+                {
+                    "x": 101.3,
+                    "y": 36.52
+                },
+                {
+                    "x": 51.48,
+                    "y": 65.51
+                },
+                {
+                    "x": 91.7,
+                    "y": 56.19
+                },
+                {
+                    "x": 90.1,
+                    "y": 55.28
+                },
+                {
+                    "x": 28.71,
+                    "y": 45.54
+                },
+                {
+                    "x": 12.5,
+                    "y": 51.43
+                },
+                {
+                    "x": 12.5,
+                    "y": 46.66
+                },
+                {
+                    "x": 56.36,
+                    "y": 42.35
+                },
+                {
+                    "x": 78.09,
+                    "y": 43.58
+                },
+                {
+                    "x": 21.28,
+                    "y": 64.33
+                },
+                {
+                    "x": 22.18,
+                    "y": 64.39
+                },
+                {
+                    "x": 29.27,
+                    "y": 31.64
+                },
+                {
+                    "x": 25.67,
+                    "y": 61.31
+                },
+                {
+                    "x": 56.36,
+                    "y": 63.61
+                },
+                {
+                    "x": 104.62,
+                    "y": 67.67
+                },
+                {
+                    "x": 28.03,
+                    "y": 34.23
+                },
+                {
+                    "x": 38.17,
+                    "y": 28.54
+                },
+                {
+                    "x": 37.38,
+                    "y": 28.29
+                },
+                {
+                    "x": 91.3,
+                    "y": 50.8
+                },
+                {
+                    "x": 77.87,
+                    "y": 48.55
+                },
+                {
+                    "x": 83.5,
+                    "y": 49.96
+                },
+                {
+                    "x": 90.2,
+                    "y": 51.71
+                },
+                {
+                    "x": 94.39,
+                    "y": 49.19
+                },
+                {
+                    "x": 45.18,
+                    "y": 57.96
+                },
+                {
+                    "x": 54.53,
+                    "y": 48.48
+                },
+                {
+                    "x": 82.71,
+                    "y": 60.39
+                },
+                {
+                    "x": 90.5,
+                    "y": 61.77
+                },
+                {
+                    "x": 90.7,
+                    "y": 59.54
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 85.39,
+                    "y": 60.59
+                },
+                {
+                    "x": 82.48,
+                    "y": 48.55
+                },
+                {
+                    "x": 85.28,
+                    "y": 50.87
+                },
+                {
+                    "x": 6.08,
+                    "y": 47.01
+                },
+                {
+                    "x": 2.66,
+                    "y": 48.2
+                },
+                {
+                    "x": 3.6,
+                    "y": 47.92
+                },
+                {
+                    "x": 1.14,
+                    "y": 49.19
+                },
+                {
+                    "x": 66.15,
+                    "y": 50.59
+                },
+                {
+                    "x": 63,
+                    "y": 59.41
+                },
+                {
+                    "x": 43.01,
+                    "y": 65.11
+                },
+                {
+                    "x": 64.13,
+                    "y": 64.72
+                },
+                {
+                    "x": 62.66,
+                    "y": 62.82
+                },
+                {
+                    "x": 59.31,
+                    "y": 59.41
+                },
+                {
+                    "x": 56.97,
+                    "y": 53.18
+                },
+                {
+                    "x": 84.62,
+                    "y": 53.81
+                },
+                {
+                    "x": 78.32,
+                    "y": 56.85
+                },
+                {
+                    "x": 51.08,
+                    "y": 59.8
+                },
+                {
+                    "x": 37.72,
+                    "y": 31.86
+                },
+                {
+                    "x": 87.32,
+                    "y": 44.56
+                },
+                {
+                    "x": 60.73,
+                    "y": 53.39
+                },
+                {
+                    "x": 9.84,
+                    "y": 52.76
+                },
+                {
+                    "x": 10.9,
+                    "y": 56.06
+                },
+                {
+                    "x": 78.09,
+                    "y": 61.38
+                },
+                {
+                    "x": 84.4,
+                    "y": 63.01
+                },
+                {
+                    "x": 79.67,
+                    "y": 60.85
+                },
+                {
+                    "x": 90.1,
+                    "y": 56.85
+                },
+                {
+                    "x": 96.12,
+                    "y": 35.45
+                },
+                {
+                    "x": 53.41,
+                    "y": 63.41
+                },
+                {
+                    "x": 68.29,
+                    "y": 64.13
+                },
+                {
+                    "x": 70.21,
+                    "y": 64.59
+                },
+                {
+                    "x": 62.78,
+                    "y": 62.69
+                },
+                {
+                    "x": 58.6,
+                    "y": 64.2
+                },
+                {
+                    "x": 57.89,
+                    "y": 64.2
+                },
+                {
+                    "x": 68.75,
+                    "y": 65.38
+                },
+                {
+                    "x": 87.96,
+                    "y": 37.71
+                },
+                {
+                    "x": 63.23,
+                    "y": 62.62
+                },
+                {
+                    "x": 10.04,
+                    "y": 61.97
+                },
+                {
+                    "x": 9.07,
+                    "y": 64.85
+                },
+                {
+                    "x": 44.06,
+                    "y": 64.33
+                },
+                {
+                    "x": 58.6,
+                    "y": 53.74
+                },
+                {
+                    "x": 85.17,
+                    "y": 58.75
+                },
+                {
+                    "x": 89.9,
+                    "y": 60.52
+                },
+                {
+                    "x": 72.8,
+                    "y": 56.85
+                },
+                {
+                    "x": 71.9,
+                    "y": 53.25
+                },
+                {
+                    "x": 87.53,
+                    "y": 50.66
+                },
+                {
+                    "x": 78.09,
+                    "y": 56
+                },
+                {
+                    "x": 88.8,
+                    "y": 51.43
+                },
+                {
+                    "x": 54.33,
+                    "y": 64.72
+                },
+                {
+                    "x": 12.9,
+                    "y": 58.55
+                },
+                {
+                    "x": 60.23,
+                    "y": 52.2
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 12860000,
+                "currency": "EUR",
+                "lowerBound": 9640000,
+                "upperBound": 16070000,
+                "source": "scisports",
+                "teamId": 8524,
+                "teamName": "Atalanta",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 13350000,
+                "currency": "EUR",
+                "lowerBound": 10010000,
+                "upperBound": 16680000,
+                "source": "scisports",
+                "teamId": 8524,
+                "teamName": "Atalanta"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 13830000,
+                "currency": "EUR",
+                "lowerBound": 10380000,
+                "upperBound": 17290000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 12340000,
+                "currency": "EUR",
+                "lowerBound": 9260000,
+                "upperBound": 15430000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 10850000,
+                "currency": "EUR",
+                "lowerBound": 8140000,
+                "upperBound": 13570000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 9860000,
+                "currency": "EUR",
+                "lowerBound": 7400000,
+                "upperBound": 12330000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 9010000,
+                "currency": "EUR",
+                "lowerBound": 6760000,
+                "upperBound": 11270000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 7910000,
+                "currency": "EUR",
+                "lowerBound": 5930000,
+                "upperBound": 9880000,
+                "source": "scisports",
+                "teamId": 8548,
+                "teamName": "Rangers",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 5950000,
+                "currency": "EUR",
+                "lowerBound": 4460000,
+                "upperBound": 7430000,
+                "source": "scisports",
+                "teamId": 8548,
+                "teamName": "Rangers"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 4580000,
+                "currency": "EUR",
+                "lowerBound": 3430000,
+                "upperBound": 5720000,
+                "source": "scisports",
+                "teamId": 8548,
+                "teamName": "Rangers"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 1280000,
+                "currency": "EUR",
+                "lowerBound": 960000,
+                "upperBound": 1600000,
+                "source": "scisports",
+                "teamId": 8548,
+                "teamName": "Rangers"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 1310000,
+                "currency": "EUR",
+                "lowerBound": 980000,
+                "upperBound": 1640000,
+                "source": "scisports",
+                "teamId": 8548,
+                "teamName": "Rangers"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 1050000,
+                "currency": "EUR",
+                "lowerBound": 790000,
+                "upperBound": 1320000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 950000,
+                "currency": "EUR",
+                "lowerBound": 720000,
+                "upperBound": 1190000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 760000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 950000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 760000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 950000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 770000,
+                "currency": "EUR",
+                "lowerBound": 570000,
+                "upperBound": 960000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 1270000,
+                "currency": "EUR",
+                "lowerBound": 950000,
+                "upperBound": 1580000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 1250000,
+                "currency": "EUR",
+                "lowerBound": 940000,
+                "upperBound": 1570000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 1400000,
+                "currency": "EUR",
+                "lowerBound": 1050000,
+                "upperBound": 1750000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 2200000,
+                "currency": "EUR",
+                "lowerBound": 1650000,
+                "upperBound": 2750000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 2850000,
+                "currency": "EUR",
+                "lowerBound": 2140000,
+                "upperBound": 3570000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 4340000,
+                "currency": "EUR",
+                "lowerBound": 3250000,
+                "upperBound": 5420000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 5790000,
+                "currency": "EUR",
+                "lowerBound": 4340000,
+                "upperBound": 7230000,
+                "source": "scisports",
+                "teamId": 8472,
+                "teamName": "Sunderland"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 5600000,
+                "currency": "EUR",
+                "lowerBound": 4200000,
+                "upperBound": 6990000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 6970000,
+                "currency": "EUR",
+                "lowerBound": 5230000,
+                "upperBound": 8710000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 7270000,
+                "currency": "EUR",
+                "lowerBound": 5450000,
+                "upperBound": 9080000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 8170000,
+                "currency": "EUR",
+                "lowerBound": 6130000,
+                "upperBound": 10220000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 8690000,
+                "currency": "EUR",
+                "lowerBound": 6520000,
+                "upperBound": 10870000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 7970000,
+                "currency": "EUR",
+                "lowerBound": 5980000,
+                "upperBound": 9960000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 7440000,
+                "currency": "EUR",
+                "lowerBound": 5580000,
+                "upperBound": 9300000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 6730000,
+                "currency": "EUR",
+                "lowerBound": 5050000,
+                "upperBound": 8420000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 8420000,
+                "currency": "EUR",
+                "lowerBound": 7157000,
+                "upperBound": 9683000,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 9683000,
+                "currency": "EUR",
+                "lowerBound": 8230550,
+                "upperBound": 11135450,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 11135450,
+                "currency": "EUR",
+                "lowerBound": 10021905,
+                "upperBound": 12248995,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 12248995,
+                "currency": "EUR",
+                "lowerBound": 11024095,
+                "upperBound": 13473894,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 13473894,
+                "currency": "EUR",
+                "lowerBound": 12126504,
+                "upperBound": 14821283,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 14821283,
+                "currency": "EUR",
+                "lowerBound": 13339154,
+                "upperBound": 16303411,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 16303411,
+                "currency": "EUR",
+                "lowerBound": 14673069,
+                "upperBound": 17933752,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 17933752,
+                "currency": "EUR",
+                "lowerBound": 16140376,
+                "upperBound": 19727127,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 19727127,
+                "currency": "EUR",
+                "lowerBound": 17754414,
+                "upperBound": 21699839,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 21699839,
+                "currency": "EUR",
+                "lowerBound": 19529855,
+                "upperBound": 23869822,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 23869822,
+                "currency": "EUR",
+                "lowerBound": 21482839,
+                "upperBound": 26256804,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 26256804,
+                "currency": "EUR",
+                "lowerBound": 23631123,
+                "upperBound": 28882484,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 27473874,
+                "currency": "EUR",
+                "lowerBound": 24726487,
+                "upperBound": 30221261,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 28042672,
+                "currency": "EUR",
+                "lowerBound": 25238405,
+                "upperBound": 30846939,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 48595553,
+                "currency": "EUR",
+                "lowerBound": 43735998,
+                "upperBound": 53455108,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 48465703,
+                "currency": "EUR",
+                "lowerBound": 43619132,
+                "upperBound": 53312273,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 50284272,
+                "currency": "EUR",
+                "lowerBound": 45255845,
+                "upperBound": 55312699,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 53243186,
+                "currency": "EUR",
+                "lowerBound": 47918867,
+                "upperBound": 58567504,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 53243186,
+                "currency": "EUR",
+                "lowerBound": 47918867,
+                "upperBound": 58567504,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 53243186,
+                "currency": "EUR",
+                "lowerBound": 47918867,
+                "upperBound": 58567504,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 53243186,
+                "currency": "EUR",
+                "lowerBound": 47918867,
+                "upperBound": 58567504,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 49343133,
+                "currency": "EUR",
+                "lowerBound": 44408820,
+                "upperBound": 54277446,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 48626146,
+                "currency": "EUR",
+                "lowerBound": 43763531,
+                "upperBound": 53488760,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 48613556,
+                "currency": "EUR",
+                "lowerBound": 43752200,
+                "upperBound": 53474912,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 48483706,
+                "currency": "EUR",
+                "lowerBound": 43635335,
+                "upperBound": 53332076,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 49535560,
+                "currency": "EUR",
+                "lowerBound": 44582004,
+                "upperBound": 54489116,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 49727543,
+                "currency": "EUR",
+                "lowerBound": 44754789,
+                "upperBound": 54700297,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 54700297,
+                "currency": "EUR",
+                "lowerBound": 49230267,
+                "upperBound": 60170326,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 60170326,
+                "currency": "EUR",
+                "lowerBound": 54153293,
+                "upperBound": 66187358,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 54153293,
+                "currency": "EUR",
+                "lowerBound": 48737963,
+                "upperBound": 59568622,
+                "source": "scisports",
+                "teamId": 10260,
+                "teamName": "Manchester United"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 611491,
+                "name": "Andr\u00e9 Onana"
+            },
+            {
+                "id": 1714514,
+                "name": "Enzo Kana Biyik"
+            },
+            {
+                "id": 696365,
+                "name": "Marcus Rashford"
+            },
+            {
+                "id": 866967,
+                "name": "Altay Bayindir"
+            },
+            {
+                "id": 751550,
+                "name": "Diogo Dalot"
+            },
+            {
+                "id": 775539,
+                "name": "Noussair Mazraoui"
+            },
+            {
+                "id": 769895,
+                "name": "Matthijs de Ligt"
+            },
+            {
+                "id": 255610,
+                "name": "Harry Maguire"
+            },
+            {
+                "id": 847983,
+                "name": "Lisandro Mart\u00ednez"
+            },
+            {
+                "id": 750032,
+                "name": "Mason Mount"
+            },
+            {
+                "id": 422685,
+                "name": "Bruno Fernandes"
+            },
+            {
+                "id": 863098,
+                "name": "Matheus Cunha"
+            },
+            {
+                "id": 950830,
+                "name": "Joshua Zirkzee"
+            },
+            {
+                "id": 163604,
+                "name": "Karl Darlow"
+            },
+            {
+                "id": 1526560,
+                "name": "Patrick Dorgu"
+            },
+            {
+                "id": 1358581,
+                "name": "Leny Yoro"
+            },
+            {
+                "id": 1372921,
+                "name": "Andrey Santos"
+            },
+            {
+                "id": 465960,
+                "name": "Youri Tielemans"
+            },
+            {
+                "id": 923312,
+                "name": "Bryan Mbeumo"
+            },
+            {
+                "id": 24155,
+                "name": "Tom Heaton"
+            },
+            {
+                "id": 362694,
+                "name": "Luke Shaw"
+            },
+            {
+                "id": 1035614,
+                "name": "Manuel Ugarte"
+            },
+            {
+                "id": 1559639,
+                "name": "Ayden Heaven"
+            },
+            {
+                "id": 1073977,
+                "name": "Benjamin Sesko"
+            },
+            {
+                "id": 1178602,
+                "name": "Senne Lammens"
+            },
+            {
+                "id": 1557220,
+                "name": "Chido Obi"
+            },
+            {
+                "id": 1403351,
+                "name": "Tyler Fredricson"
+            },
+            {
+                "id": 1398915,
+                "name": "Ethan Wheatley"
+            },
+            {
+                "id": 1292810,
+                "name": "Kobbie Mainoo"
+            },
+            {
+                "id": 1430832,
+                "name": "Harry Amass"
+            },
+            {
+                "id": 1421810,
+                "name": "Toby Collyer"
+            },
+            {
+                "id": 1292838,
+                "name": "Daniel Gore"
+            },
+            {
+                "id": 1367699,
+                "name": "Dermot Mee"
+            },
+            {
+                "id": 1436260,
+                "name": "Shea Lacey"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 873566,
+                "name": "Yahia Fofana"
+            },
+            {
+                "id": 1425182,
+                "name": "Ousmane Diomande"
+            },
+            {
+                "id": 740997,
+                "name": "Ghislain Konan"
+            },
+            {
+                "id": 470539,
+                "name": "Jean Micha\u00ebl Seri"
+            },
+            {
+                "id": 1027472,
+                "name": "Wilfried Singo"
+            },
+            {
+                "id": 602211,
+                "name": "Seko Fofana"
+            },
+            {
+                "id": 1014496,
+                "name": "Odilon Kossounou"
+            },
+            {
+                "id": 579747,
+                "name": "Franck Kessi\u00e9"
+            },
+            {
+                "id": 1199383,
+                "name": "Ange-Yoan Bonny"
+            },
+            {
+                "id": 1227012,
+                "name": "Simon Adingra"
+            },
+            {
+                "id": 1735453,
+                "name": "Yan Diomande"
+            },
+            {
+                "id": 1213430,
+                "name": "Elye Wahi"
+            },
+            {
+                "id": 802462,
+                "name": "Christopher Op\u00e9ri"
+            },
+            {
+                "id": 1328540,
+                "name": "Oumar Diakit\u00e9"
+            },
+            {
+                "id": 1280201,
+                "name": "Mohamed Kon\u00e9"
+            },
+            {
+                "id": 1395704,
+                "name": "Gu\u00e9la Dou\u00e9"
+            },
+            {
+                "id": 795371,
+                "name": "Ibrahim Sangar\u00e9"
+            },
+            {
+                "id": 575735,
+                "name": "Nicolas P\u00e9p\u00e9"
+            },
+            {
+                "id": 1114979,
+                "name": "Emmanuel Agbadou"
+            },
+            {
+                "id": 787242,
+                "name": "Evan N'Dicka"
+            },
+            {
+                "id": 1087966,
+                "name": "Evann Guessand"
+            },
+            {
+                "id": 698273,
+                "name": "Alban Lafont"
+            },
+            {
+                "id": 1624586,
+                "name": "Bazoumana Tour\u00e9"
+            },
+            {
+                "id": 1186770,
+                "name": "Parfait Guiagon"
+            },
+            {
+                "id": 1666494,
+                "name": "Christ Inao Oula\u00ef"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 645946,
+                "name": "Lydie Saki"
+            },
+            {
+                "id": 645947,
+                "name": "Fatou Coulibaly"
+            },
+            {
+                "id": 645948,
+                "name": "Djelika Coulibaly"
+            },
+            {
+                "id": 645949,
+                "name": "Nina Kpaho"
+            },
+            {
+                "id": 645950,
+                "name": "Mariam Diakit\u00e9"
+            },
+            {
+                "id": 645951,
+                "name": "Rita Akaffou"
+            },
+            {
+                "id": 645952,
+                "name": "Nadege Essoh"
+            },
+            {
+                "id": 645953,
+                "name": "Ines Nrehy"
+            },
+            {
+                "id": 645954,
+                "name": "Sandrine Niamien"
+            },
+            {
+                "id": 645955,
+                "name": "Ange N'Guessan"
+            },
+            {
+                "id": 645956,
+                "name": "R\u00e9becca Elloh"
+            },
+            {
+                "id": 645957,
+                "name": "Ida Guehai"
+            },
+            {
+                "id": 645958,
+                "name": "Fernande Tchetche"
+            },
+            {
+                "id": 645959,
+                "name": "Josee Nahi"
+            },
+            {
+                "id": 645960,
+                "name": "Christine Lohoues"
+            },
+            {
+                "id": 645961,
+                "name": "Dominique Thiamale"
+            },
+            {
+                "id": 645962,
+                "name": "Nad\u00e8ge Ciss\u00e9"
+            },
+            {
+                "id": 645963,
+                "name": "Binta Diakit\u00e9"
+            },
+            {
+                "id": 645964,
+                "name": "Jessica Aby"
+            },
+            {
+                "id": 645965,
+                "name": "Aminata Haidara"
+            },
+            {
+                "id": 645966,
+                "name": "Sophie Aguie"
+            },
+            {
+                "id": 645967,
+                "name": "Raymonde Kacou"
+            },
+            {
+                "id": 645968,
+                "name": "Cynthia Djohore"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 5449682,
+        "homeId": 8422,
+        "awayId": 10260,
+        "homeName": "Rosenborg",
+        "awayName": "Manchester United",
+        "matchDate": "2026-07-24T16:00:00Z",
+        "statusId": 1,
+        "leagueId": 489,
+        "parentLeagueId": 489,
+        "leagueName": "Club Friendlies",
+        "status": {
+            "utcTime": "2026-07-24T16:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Lerkendal Stadion",
+            "city": "Trondheim",
+            "lat": 63.412379006,
+            "long": 10.404310226
+        },
+        "matchUrl": "/matches/rosenborg-vs-manchester-united/2vwpdh#5449682"
+    },
+    "dataProvider": "enet"
+}

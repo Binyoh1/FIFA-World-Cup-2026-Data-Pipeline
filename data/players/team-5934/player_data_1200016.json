@@ -1,0 +1,4613 @@
+{
+    "id": 1200016,
+    "name": "Ruben Providence",
+    "birthDate": {
+        "utcTime": "2001-07-07T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 4116,
+        "teamName": "Almere City FC",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#E60000",
+            "colorAlternate": "#E60000",
+            "colorAway": "#101010",
+            "colorAwayAlternate": "#FFFFFF"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 5,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.42,
+                    "ratio": 0.45
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 2,
+                "position": "83",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.30000000000000004
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "86",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 12,
+                "position": "87",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Left Winger",
+            "key": "leftwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Left Midfielder",
+                "key": "leftmidfielder"
+            },
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 178,
+                "key": null,
+                "fallback": "178 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 28,
+                "options": {},
+                "key": null,
+                "fallback": 28
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "25"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Haiti"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "HAI"
+            },
+            "countryCode": "HAI"
+        },
+        {
+            "value": {
+                "numberValue": 221974,
+                "key": null,
+                "fallback": "\u20ac222k"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 111,
+        "leagueName": "Eerste Divisie",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 1
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 2
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 10
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 25
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1028
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.56
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 1
+            }
+        ]
+    },
+    "trophies": null,
+    "recentMatches": [
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667767,
+            "matchDate": {
+                "utcTime": "2026-06-20T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-brazil/1ny7ix#4667767",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 4667765,
+            "matchDate": {
+                "utcTime": "2026-06-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-scotland/1q0g2q#4667765",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5729844,
+            "matchDate": {
+                "utcTime": "2026-06-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-haiti/14zaw0#5729844",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": true,
+            "id": 5629010,
+            "matchDate": {
+                "utcTime": "2026-06-03T00:36:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-haiti/154u8l#5629010",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 3,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8525,
+            "opponentTeamName": "Willem II",
+            "isHomeTeam": false,
+            "id": 5498625,
+            "matchDate": {
+                "utcTime": "2026-05-16T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-willem-ii/1bkspq#5498625",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/2",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8525,
+            "opponentTeamName": "Willem II",
+            "isHomeTeam": true,
+            "id": 5498624,
+            "matchDate": {
+                "utcTime": "2026-05-13T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-willem-ii/1bkspq#5498624",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/2",
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 6,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8526,
+            "opponentTeamName": "De Graafschap",
+            "isHomeTeam": false,
+            "id": 5427888,
+            "matchDate": {
+                "utcTime": "2026-05-09T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-de-graafschap/1bl2gx#5427888",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 16,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8526,
+            "opponentTeamName": "De Graafschap",
+            "isHomeTeam": true,
+            "id": 5427886,
+            "matchDate": {
+                "utcTime": "2026-05-06T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-de-graafschap/1bl2gx#5427886",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9835,
+            "opponentTeamName": "FC Den Bosch",
+            "isHomeTeam": true,
+            "id": 5406263,
+            "matchDate": {
+                "utcTime": "2026-05-02T12:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-den-bosch/1ly5uz#5406263",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9835,
+            "opponentTeamName": "FC Den Bosch",
+            "isHomeTeam": false,
+            "id": 5406262,
+            "matchDate": {
+                "utcTime": "2026-04-29T16:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-den-bosch/1ly5uz#5406262",
+            "leagueId": 58,
+            "leagueName": "Eredivisie Qualification",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9839,
+            "opponentTeamName": "VVV-Venlo",
+            "isHomeTeam": false,
+            "id": 4828239,
+            "matchDate": {
+                "utcTime": "2026-04-24T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-vvv-venlo/1lzcxh#4828239",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 7781,
+            "opponentTeamName": "TOP Oss",
+            "isHomeTeam": true,
+            "id": 4828191,
+            "matchDate": {
+                "utcTime": "2026-04-03T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-top-oss/1654je#4828191",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5159768,
+            "matchDate": {
+                "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-iceland/1qc7u5#5159768",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 5154124,
+            "matchDate": {
+                "utcTime": "2026-03-29T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-tunisia/1bo0fe#5154124",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 163363,
+            "opponentTeamName": "Jong Ajax",
+            "isHomeTeam": false,
+            "id": 4828181,
+            "matchDate": {
+                "utcTime": "2026-03-20T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-ajax/6fxxwd4#4828181",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 10219,
+            "opponentTeamName": "RKC Waalwijk",
+            "isHomeTeam": true,
+            "id": 4828175,
+            "matchDate": {
+                "utcTime": "2026-03-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-rkc-waalwijk/1p6g44#4828175",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8277,
+            "opponentTeamName": "Vitesse",
+            "isHomeTeam": false,
+            "id": 4828168,
+            "matchDate": {
+                "utcTime": "2026-03-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-vitesse/19q976#4828168",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 10217,
+            "opponentTeamName": "ADO Den Haag",
+            "isHomeTeam": true,
+            "id": 4828156,
+            "matchDate": {
+                "utcTime": "2026-03-07T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-ado-den-haag/1p5tzr#4828156",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 7788,
+            "opponentTeamName": "Cambuur",
+            "isHomeTeam": false,
+            "id": 4828118,
+            "matchDate": {
+                "utcTime": "2026-03-03T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-cambuur/166wto#4828118",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 278960,
+            "opponentTeamName": "Jong FC Utrecht",
+            "isHomeTeam": false,
+            "id": 4828146,
+            "matchDate": {
+                "utcTime": "2026-02-27T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-fc-utrecht/iemcs8u#4828146",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6416,
+            "opponentTeamName": "FC Eindhoven",
+            "isHomeTeam": false,
+            "id": 4828138,
+            "matchDate": {
+                "utcTime": "2026-02-21T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-eindhoven/x0ze2#4828138",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6417,
+            "opponentTeamName": "Helmond Sport",
+            "isHomeTeam": true,
+            "id": 4828122,
+            "matchDate": {
+                "utcTime": "2026-02-13T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-helmond-sport/x17io#4828122",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 8,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9838,
+            "opponentTeamName": "MVV Maastricht",
+            "isHomeTeam": false,
+            "id": 4828073,
+            "matchDate": {
+                "utcTime": "2026-02-02T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-mvv-maastricht/1lz25t#4828073",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9803,
+            "opponentTeamName": "Roda JC Kerkrade",
+            "isHomeTeam": true,
+            "id": 4828101,
+            "matchDate": {
+                "utcTime": "2026-01-30T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-roda-jc-kerkrade/1lolqz#4828101",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 681217,
+            "opponentTeamName": "Jong AZ Alkmaar",
+            "isHomeTeam": false,
+            "id": 4828099,
+            "matchDate": {
+                "utcTime": "2026-01-26T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-az-alkmaar/2zvuobc8#4828099",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 4,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8526,
+            "opponentTeamName": "De Graafschap",
+            "isHomeTeam": true,
+            "id": 4828081,
+            "matchDate": {
+                "utcTime": "2026-01-18T13:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-de-graafschap/1bl2gx#4828081",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6414,
+            "opponentTeamName": "Telstar",
+            "isHomeTeam": true,
+            "id": 5104611,
+            "matchDate": {
+                "utcTime": "2026-01-14T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-telstar/x0j4x#5104611",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6660,
+            "opponentTeamName": "FC Emmen",
+            "isHomeTeam": true,
+            "id": 4828061,
+            "matchDate": {
+                "utcTime": "2025-12-20T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-emmen/ykpio#4828061",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 15,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6422,
+            "opponentTeamName": "Fortuna Sittard",
+            "isHomeTeam": false,
+            "id": 5036367,
+            "matchDate": {
+                "utcTime": "2025-12-17T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fortuna-sittard/x2c65#5036367",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 455494,
+            "opponentTeamName": "Jong PSV",
+            "isHomeTeam": false,
+            "id": 4828056,
+            "matchDate": {
+                "utcTime": "2025-12-12T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-psv/1cis8c05#4828056",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 163363,
+            "opponentTeamName": "Jong Ajax",
+            "isHomeTeam": true,
+            "id": 4828041,
+            "matchDate": {
+                "utcTime": "2025-12-05T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-ajax/6fxxwd4#4828041",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 7781,
+            "opponentTeamName": "TOP Oss",
+            "isHomeTeam": false,
+            "id": 4828036,
+            "matchDate": {
+                "utcTime": "2025-11-29T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-top-oss/1654je#4828036",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9835,
+            "opponentTeamName": "FC Den Bosch",
+            "isHomeTeam": false,
+            "id": 4828015,
+            "matchDate": {
+                "utcTime": "2025-11-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-den-bosch/1ly5uz#4828015",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 2,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": true,
+            "id": 4822558,
+            "matchDate": {
+                "utcTime": "2025-11-19T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822558",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 84,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.6",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": true,
+            "id": 4822555,
+            "matchDate": {
+                "utcTime": "2025-11-14T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822555",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9838,
+            "opponentTeamName": "MVV Maastricht",
+            "isHomeTeam": true,
+            "id": 4828001,
+            "matchDate": {
+                "utcTime": "2025-11-07T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-mvv-maastricht/1lz25t#4828001",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8594,
+            "opponentTeamName": "Sparta Nijkerk",
+            "isHomeTeam": false,
+            "id": 4980819,
+            "matchDate": {
+                "utcTime": "2025-10-28T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-sparta-nijkerk/1c3jnb#4980819",
+            "leagueId": 235,
+            "leagueName": "KNVB Cup",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 62,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 681217,
+            "opponentTeamName": "Jong AZ Alkmaar",
+            "isHomeTeam": true,
+            "id": 4827981,
+            "matchDate": {
+                "utcTime": "2025-10-24T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-jong-az-alkmaar/2zvuobc8#4827981",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 9803,
+            "opponentTeamName": "Roda JC Kerkrade",
+            "isHomeTeam": false,
+            "id": 4827976,
+            "matchDate": {
+                "utcTime": "2025-10-20T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-roda-jc-kerkrade/1lolqz#4827976",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 7788,
+            "opponentTeamName": "Cambuur",
+            "isHomeTeam": true,
+            "id": 4827964,
+            "matchDate": {
+                "utcTime": "2025-10-17T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-cambuur/166wto#4827964",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": false,
+            "id": 4822554,
+            "matchDate": {
+                "utcTime": "2025-10-14T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822554",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5807,
+            "opponentTeamName": "Nicaragua",
+            "isHomeTeam": false,
+            "id": 4822552,
+            "matchDate": {
+                "utcTime": "2025-10-10T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nicaragua-vs-haiti/151ke9#4822552",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6417,
+            "opponentTeamName": "Helmond Sport",
+            "isHomeTeam": false,
+            "id": 4827954,
+            "matchDate": {
+                "utcTime": "2025-10-03T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-helmond-sport/x17io#4827954",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 7,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 10217,
+            "opponentTeamName": "ADO Den Haag",
+            "isHomeTeam": false,
+            "id": 4827921,
+            "matchDate": {
+                "utcTime": "2025-09-19T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-ado-den-haag/1p5tzr#4827921",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 1,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6416,
+            "opponentTeamName": "FC Eindhoven",
+            "isHomeTeam": true,
+            "id": 4827913,
+            "matchDate": {
+                "utcTime": "2025-09-15T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-eindhoven/x0ze2#4827913",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": false,
+            "id": 4822549,
+            "matchDate": {
+                "utcTime": "2025-09-10T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822549",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 38,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": true,
+            "id": 4822548,
+            "matchDate": {
+                "utcTime": "2025-09-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822548",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 25,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 10219,
+            "opponentTeamName": "RKC Waalwijk",
+            "isHomeTeam": false,
+            "id": 4827898,
+            "matchDate": {
+                "utcTime": "2025-08-30T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-rkc-waalwijk/1p6g44#4827898",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 8525,
+            "opponentTeamName": "Willem II",
+            "isHomeTeam": true,
+            "id": 4827881,
+            "matchDate": {
+                "utcTime": "2025-08-22T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-willem-ii/1bkspq#4827881",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4116,
+            "teamName": "Almere City FC",
+            "opponentTeamId": 6660,
+            "opponentTeamName": "FC Emmen",
+            "isHomeTeam": false,
+            "id": 4827877,
+            "matchDate": {
+                "utcTime": "2025-08-17T10:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/almere-city-fc-vs-fc-emmen/ykpio#4827877",
+            "leagueId": 111,
+            "leagueName": "Eerste Divisie",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1200016,
+                        "teamId": 4116,
+                        "team": "Almere City FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-29T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "53",
+                        "goals": "1",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 10056,
+                        "team": "Hartberg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-08-29T00:00:00",
+                        "endDate": "2024-08-29T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "54",
+                        "goals": "10",
+                        "assists": "4",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 7842,
+                        "team": "Estoril",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2022-02-05T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 8686,
+                        "team": "Roma",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2022-02-01T00:00:00",
+                        "endDate": "2022-02-04T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 8342,
+                        "team": "Club Brugge",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-08-20T00:00:00",
+                        "endDate": "2022-01-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 8686,
+                        "team": "Roma",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2020-09-18T00:00:00",
+                        "endDate": "2021-08-14T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.58"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 111,
+                                "leagueName": "Eerste Divisie",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27206,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "6.56"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 58,
+                                "leagueName": "Eredivisie Qualification",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 33529,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.36"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28512,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "7.16"
+                                }
+                            }
+                        ],
+                        "teamId": 4116,
+                        "team": "Almere City FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "23",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 57,
+                                "leagueName": "Eredivisie",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23691,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "22",
+                                "rating": {
+                                    "rating": "6.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 235,
+                                "leagueName": "KNVB Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24234,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "6.26"
+                                }
+                            }
+                        ],
+                        "teamId": 4116,
+                        "team": "Almere City FC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "1",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10056,
+                        "team": "Hartberg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "32",
+                        "goals": "2",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.51"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 38,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21107,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "29",
+                                "rating": {
+                                    "rating": "6.51"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10056,
+                        "team": "Hartberg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "21",
+                        "goals": "6",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.87"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 38,
+                                "leagueName": "Bundesliga",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17863,
+                                "goals": "6",
+                                "assists": "2",
+                                "appearances": "21",
+                                "rating": {
+                                    "rating": "6.87"
+                                }
+                            }
+                        ],
+                        "teamId": 10056,
+                        "team": "Hartberg",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1200016,
+                        "teamId": 394203,
+                        "team": "Paris Saint Germain U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-07-01T00:00:00",
+                        "endDate": "2019-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "6",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9741,
+                                "leagueName": "UEFA Youth League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 394203,
+                        "team": "Paris Saint Germain U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1200016,
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-03-05T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "18",
+                        "goals": "3",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1200016,
+                        "teamId": 5961,
+                        "team": "France U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-08T00:00:00",
+                        "endDate": "2021-09-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "4",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "14",
+                        "goals": "3",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.41"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.41"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.42"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "4",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.14"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25901,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.14"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2020",
+                        "appearances": "3",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 287,
+                                "leagueName": "UEFA U19 Championship",
+                                "seasonName": "2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5961,
+                        "team": "France U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U19 National Team Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5961,
+                        "team": "France U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.64
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.58
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.39
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.16
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.3
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.51
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "ruben-providence",
+        "pageurl": "/players/1200016/ruben-providence",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Ruben Providence?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence is 25 years old. Born on Sat Jul 07 2001."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Ruben Providence?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence is 178 cm tall. Or 5 ft 10 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Ruben Providence born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence was born Sat Jul 07 2001 and is now 25 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Ruben Providence's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Ruben Providence's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence's transfer value is estimated to be around \u20ac222k."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Ruben Providence from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence is from Haiti."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Ruben Providence scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ruben Providence has scored 1 goals in the Eerste Divisie."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ruben Providence",
+            "birthDate": "2001-07-07T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1200016/ruben-providence",
+            "nationality": {
+                "@type": "Country",
+                "name": "Haiti"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Almere City FC"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "178"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "67"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Eerste Divisie 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/111/overview/eerste-divisie-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Almere City FC",
+                    "item": "https://www.fotmob.com/teams/4116/overview/almere-city-fc"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Ruben Providence",
+                    "item": "https://www.fotmob.com/leagues/1200016/overview/ruben-providence"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Eerste Divisie",
+                    "tournamentId": 111,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Eredivisie",
+                    "tournamentId": 57,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "KNVB Cup",
+                    "tournamentId": 235,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONCACAF qualification",
+                    "tournamentId": 10198,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 38,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Bundesliga",
+                    "tournamentId": 38,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944571275,
+                "playerName": "Ruben Providence",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 5934,
+                "playerId": 1200016,
+                "x": 95.7368421041,
+                "y": 48.1345222902,
+                "min": 34,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 103.0086206898,
+                "blockedY": 37.27875,
+                "goalCrossedY": 36.135,
+                "goalCrossedZ": 0.2054736832,
+                "expectedGoals": 0.0337844230234623,
+                "expectedGoalsOnTarget": 0.118410535156727,
+                "onGoalShot": {
+                    "x": 0.435185185185184,
+                    "y": 0.0543581172486773,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 5934,
+                "awayTeamId": 8498,
+                "homeTeamName": "Haiti",
+                "awayTeamName": "Scotland",
+                "homeScore": 0,
+                "awayScore": 1,
+                "matchId": 4667765,
+                "matchDate": "2026-06-14T01:00:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            },
+            {
+                "id": 2944587331,
+                "playerName": "Ruben Providence",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 5934,
+                "playerId": 1200016,
+                "x": 91,
+                "y": 48.4147770674,
+                "min": 73,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 27.110238095,
+                "goalCrossedZ": 0.1797894728,
+                "expectedGoals": 0.0314756780862808,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.0260951648662233,
+                    "zoomRatio": 0.548640149270877
+                },
+                "box": "InsideBox",
+                "homeTeamId": 5934,
+                "awayTeamId": 8498,
+                "homeTeamName": "Haiti",
+                "awayTeamName": "Scotland",
+                "homeScore": 0,
+                "awayScore": 1,
+                "matchId": 4667765,
+                "matchDate": "2026-06-14T01:00:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            },
+            {
+                "id": 2944588313,
+                "playerName": "Ruben Providence",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 5934,
+                "playerId": 1200016,
+                "x": 92.9,
+                "y": 46.1727388498,
+                "min": 78,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 94.675438595,
+                "blockedY": 44.2810191037,
+                "goalCrossedY": 33.085,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.040675014257431,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.24206349206349,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 5934,
+                "awayTeamId": 8498,
+                "homeTeamName": "Haiti",
+                "awayTeamName": "Scotland",
+                "homeScore": 0,
+                "awayScore": 1,
+                "matchId": 4667765,
+                "matchDate": "2026-06-14T01:00:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            },
+            {
+                "id": 2945002251,
+                "playerName": "Ruben Providence",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "SetPiece",
+                "teamId": 5934,
+                "playerId": 1200016,
+                "x": 91.7,
+                "y": 45.752356684,
+                "min": 66,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 93.2,
+                "blockedY": 45.1918471296,
+                "goalCrossedY": 42.1771875,
+                "goalCrossedZ": 0.3595789456,
+                "expectedGoals": 0.0295323114842176,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0,
+                    "y": 0.0439734255329231,
+                    "zoomRatio": 0.462261627240417
+                },
+                "box": "InsideBox",
+                "homeTeamId": 8256,
+                "awayTeamId": 5934,
+                "homeTeamName": "Brazil",
+                "awayTeamName": "Haiti",
+                "homeScore": 3,
+                "awayScore": 0,
+                "matchId": 4667767,
+                "matchDate": "2026-06-20T00:30:00Z",
+                "teamColor": "#4273C2",
+                "teamColorDark": "#4273C2"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.05464573879413006,
+                            "percentileRank": 55.154639175257735,
+                            "percentileRankPer90": 56.18556701030928,
+                            "statFormat": "fraction",
+                            "statValue": "0.14",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_on_target",
+                            "per90": 0.04778475337766211,
+                            "percentileRank": 64.94845360824742,
+                            "percentileRankPer90": 63.91752577319587,
+                            "statFormat": "fraction",
+                            "statValue": "0.12",
+                            "title": "xGOT"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.05464573879413006,
+                            "percentileRank": 55.670103092783506,
+                            "percentileRankPer90": 57.21649484536082,
+                            "statFormat": "fraction",
+                            "statValue": "0.14",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 1.6143497757847534,
+                            "percentileRank": 64.94845360824742,
+                            "percentileRankPer90": 73.71134020618557,
+                            "statFormat": "number",
+                            "statValue": "4",
+                            "title": "Shots"
+                        },
+                        {
+                            "localizedTitleId": "ShotsOnTarget",
+                            "per90": 0.40358744394618834,
+                            "percentileRank": 52.0618556701031,
+                            "percentileRankPer90": 69.0721649484536,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Shots on target"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.16622261482503917,
+                            "percentileRank": 78.8659793814433,
+                            "percentileRankPer90": 82.4742268041237,
+                            "statFormat": "fraction",
+                            "statValue": "0.41",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 16.95067264573991,
+                            "percentileRank": 21.1340206185567,
+                            "percentileRankPer90": 9.278350515463918,
+                            "statFormat": "number",
+                            "statValue": "42",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 87.5,
+                            "percentileRank": 59.27835051546392,
+                            "percentileRankPer90": 59.27835051546392,
+                            "statFormat": "percent",
+                            "statValue": "87.5",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.8071748878923767,
+                            "percentileRank": 31.443298969072163,
+                            "percentileRankPer90": 35.56701030927835,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 66.66666666666667,
+                            "percentileRank": 69.58762886597938,
+                            "percentileRankPer90": 69.58762886597938,
+                            "statFormat": "percent",
+                            "statValue": "66.7",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 0.8071748878923767,
+                            "percentileRank": 42.2680412371134,
+                            "percentileRankPer90": 54.63917525773196,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.40358744394618834,
+                            "percentileRank": 55.154639175257735,
+                            "percentileRankPer90": 68.55670103092784,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 16.666666666666668,
+                            "percentileRank": 57.21649484536082,
+                            "percentileRankPer90": 57.21649484536082,
+                            "statFormat": "percent",
+                            "statValue": "16.7",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 2.0179372197309418,
+                            "percentileRank": 88.65979381443299,
+                            "percentileRankPer90": 89.69072164948454,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 41.666666666666664,
+                            "percentileRank": 39.69072164948454,
+                            "percentileRankPer90": 39.69072164948454,
+                            "statFormat": "percent",
+                            "statValue": "41.7",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 6.457399103139013,
+                            "percentileRank": 64.94845360824742,
+                            "percentileRankPer90": 80.41237113402062,
+                            "statFormat": "number",
+                            "statValue": "16",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 51.61290322580645,
+                            "percentileRank": 53.09278350515464,
+                            "percentileRankPer90": 53.09278350515464,
+                            "statFormat": "percent",
+                            "statValue": "51.6",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 43.587443946188344,
+                            "percentileRank": 31.958762886597935,
+                            "percentileRankPer90": 17.525773195876287,
+                            "statFormat": "number",
+                            "statValue": "108",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 3.632286995515695,
+                            "percentileRank": 87.11340206185567,
+                            "percentileRankPer90": 91.23711340206185,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 0.8071748878923767,
+                            "percentileRank": 39.175257731958766,
+                            "percentileRankPer90": 45.876288659793815,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 2.0179372197309418,
+                            "percentileRank": 77.83505154639175,
+                            "percentileRankPer90": 90.20618556701031,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 3.632286995515695,
+                            "percentileRank": 38.659793814432994,
+                            "percentileRankPer90": 35.051546391752574,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 2.4215246636771304,
+                            "percentileRank": 59.27835051546392,
+                            "percentileRankPer90": 70.10309278350515,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1.2107623318385652,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 52.57731958762887,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.632286995515695,
+                            "percentileRank": 38.659793814432994,
+                            "percentileRankPer90": 37.11340206185567,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.40358744394618834,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 62.88659793814433,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 1.2107623318385652,
+                            "percentileRank": 27.31958762886598,
+                            "percentileRankPer90": 30.412371134020617,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clearances",
+                            "per90": 1.2107623318385652,
+                            "percentileRank": 45.36082474226804,
+                            "percentileRankPer90": 50.51546391752577,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Clearances"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 2.4215246636771304,
+                            "percentileRank": 20.103092783505154,
+                            "percentileRankPer90": 24.22680412371134,
+                            "statFormat": "number",
+                            "statValue": "6",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 2.043322896743569,
+                            "percentileRank": 21.649484536082475,
+                            "percentileRankPer90": 13.917525773195877,
+                            "statFormat": "fraction",
+                            "statValue": "5.06",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.406666666666666,
+                    "percentileRank": 23.195876288659793,
+                    "percentileRankPer90": 23.195876288659793,
+                    "statFormat": "fraction",
+                    "statValue": "6.41",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 3,
+                    "percentileRank": 15.979381443298967,
+                    "percentileRankPer90": 15.979381443298967,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 3,
+                    "percentileRank": 42.78350515463917,
+                    "percentileRankPer90": 79.38144329896907,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 43.81443298969072,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "223",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 58.6,
+                    "y": 7.81
+                },
+                {
+                    "x": 100.64,
+                    "y": 16.85
+                },
+                {
+                    "x": 76.97,
+                    "y": 45.12
+                },
+                {
+                    "x": 80.35,
+                    "y": 48.27
+                },
+                {
+                    "x": 67.28,
+                    "y": 4.85
+                },
+                {
+                    "x": 67.39,
+                    "y": 9.45
+                },
+                {
+                    "x": 40.98,
+                    "y": 19.94
+                },
+                {
+                    "x": 81.81,
+                    "y": 12.53
+                },
+                {
+                    "x": 66.38,
+                    "y": 7.35
+                },
+                {
+                    "x": 66.04,
+                    "y": 15.73
+                },
+                {
+                    "x": 14.4,
+                    "y": 12.2
+                },
+                {
+                    "x": 84.74,
+                    "y": 12.4
+                },
+                {
+                    "x": 95.74,
+                    "y": 19.87
+                },
+                {
+                    "x": 62.33,
+                    "y": 6.82
+                },
+                {
+                    "x": 92.6,
+                    "y": 34.15
+                },
+                {
+                    "x": 71.45,
+                    "y": 15.52
+                },
+                {
+                    "x": 68.52,
+                    "y": 25.53
+                },
+                {
+                    "x": 78.54,
+                    "y": 5.31
+                },
+                {
+                    "x": 73.81,
+                    "y": 8.46
+                },
+                {
+                    "x": 47.42,
+                    "y": 5.51
+                },
+                {
+                    "x": 92.3,
+                    "y": 7.74
+                },
+                {
+                    "x": 91.1,
+                    "y": 6.17
+                },
+                {
+                    "x": 93.1,
+                    "y": 6.43
+                },
+                {
+                    "x": 83.5,
+                    "y": 12.4
+                },
+                {
+                    "x": 47.32,
+                    "y": 4.33
+                },
+                {
+                    "x": 78.66,
+                    "y": 38.79
+                },
+                {
+                    "x": 73.59,
+                    "y": 4.72
+                },
+                {
+                    "x": 8.78,
+                    "y": 5.64
+                },
+                {
+                    "x": 14.2,
+                    "y": 5.97
+                },
+                {
+                    "x": 30.4,
+                    "y": 17.83
+                },
+                {
+                    "x": 64.58,
+                    "y": 5.18
+                },
+                {
+                    "x": 82.6,
+                    "y": 10.23
+                },
+                {
+                    "x": 94.29,
+                    "y": 8.33
+                },
+                {
+                    "x": 92.7,
+                    "y": 6.56
+                },
+                {
+                    "x": 59.41,
+                    "y": 5.77
+                },
+                {
+                    "x": 75.28,
+                    "y": 4.72
+                },
+                {
+                    "x": 36.37,
+                    "y": 34.38
+                },
+                {
+                    "x": 49.86,
+                    "y": 48.91
+                },
+                {
+                    "x": 91,
+                    "y": 19.59
+                },
+                {
+                    "x": 82.37,
+                    "y": 3.28
+                },
+                {
+                    "x": 78.77,
+                    "y": 19.45
+                },
+                {
+                    "x": 92.9,
+                    "y": 21.83
+                },
+                {
+                    "x": 94.19,
+                    "y": 25.19
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 73.81,
+                    "y": 5.84
+                },
+                {
+                    "x": 73.14,
+                    "y": 16.01
+                },
+                {
+                    "x": 101.59,
+                    "y": 18.67
+                },
+                {
+                    "x": 99.5,
+                    "y": 21.06
+                },
+                {
+                    "x": 68.41,
+                    "y": 6.23
+                },
+                {
+                    "x": 76.74,
+                    "y": 8.33
+                },
+                {
+                    "x": 44.27,
+                    "y": 4.53
+                },
+                {
+                    "x": 49.45,
+                    "y": 45.89
+                },
+                {
+                    "x": 26.68,
+                    "y": 5.18
+                },
+                {
+                    "x": 86.46,
+                    "y": 9.71
+                },
+                {
+                    "x": 63.56,
+                    "y": 30.49
+                },
+                {
+                    "x": 66.27,
+                    "y": 44.49
+                },
+                {
+                    "x": 60.63,
+                    "y": 23.16
+                },
+                {
+                    "x": 36.14,
+                    "y": 8.26
+                },
+                {
+                    "x": 35.24,
+                    "y": 3.87
+                },
+                {
+                    "x": 55.24,
+                    "y": 16.01
+                },
+                {
+                    "x": 58.6,
+                    "y": 32.32
+                },
+                {
+                    "x": 74.49,
+                    "y": 56.06
+                },
+                {
+                    "x": 36.37,
+                    "y": 12
+                },
+                {
+                    "x": 61.24,
+                    "y": 16.01
+                },
+                {
+                    "x": 61.99,
+                    "y": 12.33
+                },
+                {
+                    "x": 78.09,
+                    "y": 3.67
+                },
+                {
+                    "x": 67.28,
+                    "y": 6.62
+                },
+                {
+                    "x": 95.74,
+                    "y": 4.33
+                },
+                {
+                    "x": 99.4,
+                    "y": 2.16
+                },
+                {
+                    "x": 71,
+                    "y": 5.05
+                },
+                {
+                    "x": 77.19,
+                    "y": 0
+                },
+                {
+                    "x": 79.44,
+                    "y": 8.72
+                },
+                {
+                    "x": 96.03,
+                    "y": 7.22
+                },
+                {
+                    "x": 86.46,
+                    "y": 10.63
+                },
+                {
+                    "x": 71.45,
+                    "y": 4.39
+                },
+                {
+                    "x": 36.03,
+                    "y": 5.44
+                },
+                {
+                    "x": 35.69,
+                    "y": 6.49
+                },
+                {
+                    "x": 34,
+                    "y": 11.41
+                },
+                {
+                    "x": 97.67,
+                    "y": 4.59
+                },
+                {
+                    "x": 66.94,
+                    "y": 6.82
+                },
+                {
+                    "x": 91.7,
+                    "y": 22.25
+                },
+                {
+                    "x": 92.2,
+                    "y": 21.55
+                },
+                {
+                    "x": 57.99,
+                    "y": 33.92
+                },
+                {
+                    "x": 66.38,
+                    "y": 4.2
+                },
+                {
+                    "x": 21.73,
+                    "y": 31.71
+                },
+                {
+                    "x": 29.61,
+                    "y": 26.94
+                },
+                {
+                    "x": 76.07,
+                    "y": 10.1
+                },
+                {
+                    "x": 75.95,
+                    "y": 15.59
+                },
+                {
+                    "x": 60.63,
+                    "y": 4.72
+                },
+                {
+                    "x": 60.63,
+                    "y": 2.43
+                },
+                {
+                    "x": 27.36,
+                    "y": 14.96
+                },
+                {
+                    "x": 26.01,
+                    "y": 19.87
+                },
+                {
+                    "x": 60.02,
+                    "y": 20.64
+                },
+                {
+                    "x": 60.33,
+                    "y": 20.78
+                },
+                {
+                    "x": 47.62,
+                    "y": 8.2
+                },
+                {
+                    "x": 19.94,
+                    "y": 7.54
+                },
+                {
+                    "x": 71.9,
+                    "y": 7.81
+                },
+                {
+                    "x": 67.28,
+                    "y": 4.59
+                },
+                {
+                    "x": 79.33,
+                    "y": 6.62
+                },
+                {
+                    "x": 95.45,
+                    "y": 9.64
+                },
+                {
+                    "x": 9.17,
+                    "y": 35.6
+                },
+                {
+                    "x": 22.52,
+                    "y": 16.78
+                },
+                {
+                    "x": 40.87,
+                    "y": 6.95
+                },
+                {
+                    "x": 12.2,
+                    "y": 18.39
+                },
+                {
+                    "x": 14.5,
+                    "y": 17.97
+                },
+                {
+                    "x": 24.54,
+                    "y": 20.22
+                },
+                {
+                    "x": 73.14,
+                    "y": 7.74
+                },
+                {
+                    "x": 64.13,
+                    "y": 6.43
+                },
+                {
+                    "x": 60.02,
+                    "y": 4.07
+                },
+                {
+                    "x": 89.5,
+                    "y": 11.28
+                },
+                {
+                    "x": 82.6,
+                    "y": 19.94
+                },
+                {
+                    "x": 89.2,
+                    "y": 20.85
+                },
+                {
+                    "x": 92.8,
+                    "y": 4.39
+                },
+                {
+                    "x": 72.57,
+                    "y": 6.95
+                },
+                {
+                    "x": 33.44,
+                    "y": 7.35
+                },
+                {
+                    "x": 39.18,
+                    "y": 9.84
+                },
+                {
+                    "x": 56.87,
+                    "y": 15.8
+                },
+                {
+                    "x": 9.55,
+                    "y": 59.8
+                },
+                {
+                    "x": 14.3,
+                    "y": 61.24
+                },
+                {
+                    "x": 44.67,
+                    "y": 6.43
+                },
+                {
+                    "x": 44.88,
+                    "y": 5.58
+                },
+                {
+                    "x": 16.3,
+                    "y": 6.36
+                },
+                {
+                    "x": 87.64,
+                    "y": 12.59
+                },
+                {
+                    "x": 50.47,
+                    "y": 16.43
+                },
+                {
+                    "x": 67.39,
+                    "y": 10.1
+                },
+                {
+                    "x": 88.9,
+                    "y": 12.2
+                },
+                {
+                    "x": 23.3,
+                    "y": 34.46
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 394203,
+                "teamName": "Paris Saint Germain U19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 394203,
+                "teamName": "Paris Saint Germain U19"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 270000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 350000,
+                "currency": "EUR",
+                "lowerBound": 260000,
+                "upperBound": 440000,
+                "source": "scisports",
+                "teamId": 8686,
+                "teamName": "Roma"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 280000,
+                "currency": "EUR",
+                "lowerBound": 210000,
+                "upperBound": 350000,
+                "source": "scisports",
+                "teamId": 8342,
+                "teamName": "Club Brugge",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 210000,
+                "currency": "EUR",
+                "lowerBound": 160000,
+                "upperBound": 260000,
+                "source": "scisports",
+                "teamId": 8342,
+                "teamName": "Club Brugge"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 8342,
+                "teamName": "Club Brugge"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 190000,
+                "source": "scisports",
+                "teamId": 8342,
+                "teamName": "Club Brugge"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 170000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 7842,
+                "teamName": "Estoril"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 120000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 120000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 150000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 112000,
+                "upperBound": 168000,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 168000,
+                "currency": "EUR",
+                "lowerBound": 134400,
+                "upperBound": 201600,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 201600,
+                "currency": "EUR",
+                "lowerBound": 161280,
+                "upperBound": 241920,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 241920,
+                "currency": "EUR",
+                "lowerBound": 193536,
+                "upperBound": 290304,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 290304,
+                "currency": "EUR",
+                "lowerBound": 232243,
+                "upperBound": 348364,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 348364,
+                "currency": "EUR",
+                "lowerBound": 278691,
+                "upperBound": 418036,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 418036,
+                "currency": "EUR",
+                "lowerBound": 334428,
+                "upperBound": 501643,
+                "source": "scisports",
+                "teamId": 10056,
+                "teamName": "Hartberg"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 501643,
+                "currency": "EUR",
+                "lowerBound": 401314,
+                "upperBound": 601971,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 578852,
+                "currency": "EUR",
+                "lowerBound": 463082,
+                "upperBound": 694623,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 578852,
+                "currency": "EUR",
+                "lowerBound": 463082,
+                "upperBound": 694623,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 578852,
+                "currency": "EUR",
+                "lowerBound": 463082,
+                "upperBound": 694623,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 578852,
+                "currency": "EUR",
+                "lowerBound": 463082,
+                "upperBound": 694623,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 594298,
+                "currency": "EUR",
+                "lowerBound": 475438,
+                "upperBound": 713157,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 594298,
+                "currency": "EUR",
+                "lowerBound": 475438,
+                "upperBound": 713157,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 594298,
+                "currency": "EUR",
+                "lowerBound": 475438,
+                "upperBound": 713157,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 594298,
+                "currency": "EUR",
+                "lowerBound": 475438,
+                "upperBound": 713157,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 588324,
+                "currency": "EUR",
+                "lowerBound": 470659,
+                "upperBound": 705989,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 559336,
+                "currency": "EUR",
+                "lowerBound": 447469,
+                "upperBound": 671204,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 278436,
+                "currency": "EUR",
+                "lowerBound": 222749,
+                "upperBound": 334124,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 278436,
+                "currency": "EUR",
+                "lowerBound": 222749,
+                "upperBound": 334124,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 262991,
+                "currency": "EUR",
+                "lowerBound": 210393,
+                "upperBound": 315590,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 262991,
+                "currency": "EUR",
+                "lowerBound": 210393,
+                "upperBound": 315590,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 262991,
+                "currency": "EUR",
+                "lowerBound": 210393,
+                "upperBound": 315590,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 262991,
+                "currency": "EUR",
+                "lowerBound": 210393,
+                "upperBound": 315590,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 262017,
+                "currency": "EUR",
+                "lowerBound": 209614,
+                "upperBound": 314421,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 262017,
+                "currency": "EUR",
+                "lowerBound": 209614,
+                "upperBound": 314421,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 262023,
+                "currency": "EUR",
+                "lowerBound": 209618,
+                "upperBound": 314428,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 262023,
+                "currency": "EUR",
+                "lowerBound": 209618,
+                "upperBound": 314428,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 277468,
+                "currency": "EUR",
+                "lowerBound": 221974,
+                "upperBound": 332962,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 221974,
+                "currency": "EUR",
+                "lowerBound": 177579,
+                "upperBound": 266368,
+                "source": "scisports",
+                "teamId": 4116,
+                "teamName": "Almere City FC"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 1311946,
+                "name": "Jochem Ritmeester van de Kamp"
+            },
+            {
+                "id": 1074619,
+                "name": "Jonas Wendlinger"
+            },
+            {
+                "id": 932540,
+                "name": "Joey Jacobs"
+            },
+            {
+                "id": 294966,
+                "name": "James Lawrence"
+            },
+            {
+                "id": 873558,
+                "name": "Teun Bijleveld"
+            },
+            {
+                "id": 1183511,
+                "name": "Enzo Cornelisse"
+            },
+            {
+                "id": 1079517,
+                "name": "Byron Burgering"
+            },
+            {
+                "id": 1255093,
+                "name": "Milan de Haan"
+            },
+            {
+                "id": 873527,
+                "name": "Ferdy Druijf"
+            },
+            {
+                "id": 1336012,
+                "name": "Julian Rijkhoff"
+            },
+            {
+                "id": 1334580,
+                "name": "Tristan Kuijsten"
+            },
+            {
+                "id": 1199132,
+                "name": "Misha Engel"
+            },
+            {
+                "id": 1624054,
+                "name": "Emanuel Poku"
+            },
+            {
+                "id": 1596247,
+                "name": "Olivier de Nijs"
+            },
+            {
+                "id": 1402625,
+                "name": "Job Kalisvaart"
+            },
+            {
+                "id": 1553190,
+                "name": "Hamza el Dahri"
+            },
+            {
+                "id": 1251659,
+                "name": "Emmanuel van de Blaak"
+            },
+            {
+                "id": 873537,
+                "name": "Jamie Jacobs"
+            },
+            {
+                "id": 1194654,
+                "name": "Guus Beaumont"
+            },
+            {
+                "id": 1647374,
+                "name": "Amoah Foah-Sam"
+            },
+            {
+                "id": 1320889,
+                "name": "Twan van der Zeeuw"
+            },
+            {
+                "id": 1389330,
+                "name": "Jaden Pinas"
+            },
+            {
+                "id": 1685074,
+                "name": "Bas Huisman"
+            },
+            {
+                "id": 1526787,
+                "name": "Jo\u00ebl van der Wilt"
+            },
+            {
+                "id": 1738035,
+                "name": "Malcolm Mateyo"
+            },
+            {
+                "id": 1709757,
+                "name": "Tiziano Vianello"
+            },
+            {
+                "id": 1451507,
+                "name": "Jereno van Gom"
+            },
+            {
+                "id": 1807465,
+                "name": "Immanuel Goghli"
+            },
+            {
+                "id": 1575701,
+                "name": "Marley Dors"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 103468,
+                "name": "Johny Placide"
+            },
+            {
+                "id": 634110,
+                "name": "Carlens Arcus"
+            },
+            {
+                "id": 1807873,
+                "name": "Keeto Thermoncy"
+            },
+            {
+                "id": 532700,
+                "name": "Ricardo Ad\u00e9"
+            },
+            {
+                "id": 822716,
+                "name": "Hannes Delcroix"
+            },
+            {
+                "id": 1107287,
+                "name": "Carl Saint\u00e9"
+            },
+            {
+                "id": 643482,
+                "name": "Derrick Etienne"
+            },
+            {
+                "id": 1181438,
+                "name": "Martin Exp\u00e9rience"
+            },
+            {
+                "id": 525445,
+                "name": "Duckens Nazon"
+            },
+            {
+                "id": 769166,
+                "name": "Jean-Ricner Bellegarde"
+            },
+            {
+                "id": 1079194,
+                "name": "Don Deedson Louicius"
+            },
+            {
+                "id": 1209244,
+                "name": "Alexandre Pierre"
+            },
+            {
+                "id": 649744,
+                "name": "Duke Lacroix"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1242314,
+                "name": "Lenny Joseph"
+            },
+            {
+                "id": 1329461,
+                "name": "Danley Jean Jacques"
+            },
+            {
+                "id": 887703,
+                "name": "Wilson Isidor"
+            },
+            {
+                "id": 759569,
+                "name": "Yassin Fortun\u00e9"
+            },
+            {
+                "id": 833641,
+                "name": "Frantzdy Pierrot"
+            },
+            {
+                "id": 1199382,
+                "name": "Josu\u00e9 Casimir"
+            },
+            {
+                "id": 769168,
+                "name": "Jean-K\u00e9vin Duverne"
+            },
+            {
+                "id": 899023,
+                "name": "Josu\u00e9 Duverger"
+            },
+            {
+                "id": 1394254,
+                "name": "Wilguens Paugain"
+            },
+            {
+                "id": 1356595,
+                "name": "Dominique Simon"
+            },
+            {
+                "id": 1447452,
+                "name": "Olivier Pierre"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1937484,
+                "name": "Alyssa Manasse"
+            },
+            {
+                "id": 1081279,
+                "name": "Amandine Pierre-Louis"
+            },
+            {
+                "id": 1729585,
+                "name": "Anyssa Ibrahim"
+            },
+            {
+                "id": 1966108,
+                "name": "Cassandra Decombe"
+            },
+            {
+                "id": 1807266,
+                "name": "Chelsea Domond"
+            },
+            {
+                "id": 1807450,
+                "name": "D\u00e9borah Bien-Aim\u00e9"
+            },
+            {
+                "id": 1591676,
+                "name": "Jos\u00e9phine Vanuxeem"
+            },
+            {
+                "id": 1866960,
+                "name": "Ka\u00efna Pietrus"
+            },
+            {
+                "id": 1807235,
+                "name": "Lourdjina \u00c9tienne"
+            },
+            {
+                "id": 1966107,
+                "name": "Nya Jean-Baptiste"
+            },
+            {
+                "id": 1345962,
+                "name": "Oc\u00e9ane Toussaint"
+            },
+            {
+                "id": 1468679,
+                "name": "Jennyfer Limage"
+            },
+            {
+                "id": 1468681,
+                "name": "Tabita Joseph"
+            },
+            {
+                "id": 1130847,
+                "name": "Melchie Dumornay"
+            },
+            {
+                "id": 1382527,
+                "name": "Sherly Jeudy"
+            },
+            {
+                "id": 887722,
+                "name": "Nerilia Mondesir"
+            },
+            {
+                "id": 1468676,
+                "name": "Roseline \u00c9loissaint"
+            },
+            {
+                "id": 1468674,
+                "name": "Betina Petit-Fr\u00e8re"
+            },
+            {
+                "id": 1468673,
+                "name": "Claire Constant"
+            },
+            {
+                "id": 1468671,
+                "name": "Milan Pierre-J\u00e9r\u00f4me"
+            },
+            {
+                "id": 1468669,
+                "name": "Dayana Pierre-Louis"
+            },
+            {
+                "id": 1261791,
+                "name": "Kethna Louis"
+            }
+        ]
+    },
+    "dataProvider": "enet"
+}

@@ -1,0 +1,3420 @@
+{
+    "id": 759569,
+    "name": "Yassin Fortun\u00e9",
+    "birthDate": {
+        "utcTime": "1999-01-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2027-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 4531,
+        "teamName": "Vizela",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#75acd4",
+            "colorAlternate": "#75acd4",
+            "colorAway": "#131428",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Center Back",
+                    "key": "centerback"
+                },
+                "strPosShort": {
+                    "label": "CB",
+                    "key": "centerback_short"
+                },
+                "occurences": 1,
+                "position": "37",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "85",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 3,
+                "position": "103",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26,
+                    "ratio": 0.4
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 10,
+                "position": "104",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Striker",
+            "key": "striker"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Right Winger",
+                "key": "rightwinger"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 185,
+                "key": null,
+                "fallback": "185 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 23,
+                "options": {},
+                "key": null,
+                "fallback": 23
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 27,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "27"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Haiti"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "HAI"
+            },
+            "countryCode": "HAI"
+        },
+        {
+            "value": {
+                "numberValue": 240664,
+                "key": null,
+                "fallback": "\u20ac240.7k"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2027-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2027-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 185,
+        "leagueName": "Liga Portugal 2",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 3
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 14
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 23
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1253
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 5
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "teamId": 357195,
+                "teamName": "Arsenal U23",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9084,
+                        "leagueName": "Premier League 2",
+                        "seasonsWon": [
+                            "2017/2018"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6262,
+            "opponentTeamName": "Morocco",
+            "isHomeTeam": false,
+            "id": 4667769,
+            "matchDate": {
+                "utcTime": "2026-06-24T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-morocco/18aaq8#4667769",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 4667767,
+            "matchDate": {
+                "utcTime": "2026-06-20T00:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-brazil/1ny7ix#4667767",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8498,
+            "opponentTeamName": "Scotland",
+            "isHomeTeam": true,
+            "id": 4667765,
+            "matchDate": {
+                "utcTime": "2026-06-14T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-scotland/1q0g2q#4667765",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5798,
+            "opponentTeamName": "Peru",
+            "isHomeTeam": true,
+            "id": 5729844,
+            "matchDate": {
+                "utcTime": "2026-06-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/peru-vs-haiti/14zaw0#5729844",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 9771,
+            "opponentTeamName": "Uniao de Leiria",
+            "isHomeTeam": true,
+            "id": 4844760,
+            "matchDate": {
+                "utcTime": "2026-05-09T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-uniao-de-leiria/1owfvg#4844760",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 1786,
+            "opponentTeamName": "Academico Viseu",
+            "isHomeTeam": false,
+            "id": 4844756,
+            "matchDate": {
+                "utcTime": "2026-05-02T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/academico-viseu-vs-vizela/bvt6m#4844756",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 81,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 338301,
+            "opponentTeamName": "Sporting CP B",
+            "isHomeTeam": true,
+            "id": 4844740,
+            "matchDate": {
+                "utcTime": "2026-04-26T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-sporting-cp-b/qzwe6dn#4844740",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6004,
+            "opponentTeamName": "Farense",
+            "isHomeTeam": true,
+            "id": 4844735,
+            "matchDate": {
+                "utcTime": "2026-04-19T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-farense/x1ngg#4844735",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 4064,
+            "opponentTeamName": "Feirense",
+            "isHomeTeam": false,
+            "id": 4844722,
+            "matchDate": {
+                "utcTime": "2026-04-12T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/feirense-vs-vizela/lzvld#4844722",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 338302,
+            "opponentTeamName": "Benfica B",
+            "isHomeTeam": true,
+            "id": 4844716,
+            "matchDate": {
+                "utcTime": "2026-04-07T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-benfica-b/qzwliws#4844716",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 8536,
+            "opponentTeamName": "Iceland",
+            "isHomeTeam": true,
+            "id": 5159768,
+            "matchDate": {
+                "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-iceland/1qc7u5#5159768",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6719,
+            "opponentTeamName": "Tunisia",
+            "isHomeTeam": true,
+            "id": 5154124,
+            "matchDate": {
+                "utcTime": "2026-03-29T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-tunisia/1bo0fe#5154124",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6547,
+            "opponentTeamName": "Penafiel",
+            "isHomeTeam": false,
+            "id": 4844707,
+            "matchDate": {
+                "utcTime": "2026-03-21T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-penafiel/10jft4#4844707",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 188154,
+            "opponentTeamName": "Lusitania Lourosa",
+            "isHomeTeam": true,
+            "id": 4844696,
+            "matchDate": {
+                "utcTime": "2026-03-15T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-lusitania-lourosa/8j0fuke#4844696",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 83,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 474326,
+            "opponentTeamName": "Felgueiras 1932",
+            "isHomeTeam": false,
+            "id": 4844690,
+            "matchDate": {
+                "utcTime": "2026-03-08T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-felgueiras-1932/1go59ubn#4844690",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 69,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 9774,
+            "opponentTeamName": "Chaves",
+            "isHomeTeam": true,
+            "id": 4844678,
+            "matchDate": {
+                "utcTime": "2026-02-28T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-chaves/1oxczj#4844678",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 36,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6421,
+            "opponentTeamName": "Leixoes",
+            "isHomeTeam": false,
+            "id": 4844674,
+            "matchDate": {
+                "utcTime": "2026-02-20T18:45:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-leixoes/zpord#4844674",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 10212,
+            "opponentTeamName": "Maritimo",
+            "isHomeTeam": true,
+            "id": 4844660,
+            "matchDate": {
+                "utcTime": "2026-02-15T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-maritimo/1splon#4844660",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 1785,
+            "opponentTeamName": "Oliveirense",
+            "isHomeTeam": false,
+            "id": 4844655,
+            "matchDate": {
+                "utcTime": "2026-02-07T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/oliveirense-vs-vizela/bvob5#4844655",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 9765,
+            "opponentTeamName": "Portimonense",
+            "isHomeTeam": true,
+            "id": 4844643,
+            "matchDate": {
+                "utcTime": "2026-01-31T20:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-portimonense/1oulo1#4844643",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 20,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 338304,
+            "opponentTeamName": "FC Porto B",
+            "isHomeTeam": false,
+            "id": 4844637,
+            "matchDate": {
+                "utcTime": "2026-01-25T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-fc-porto-b/qzx07z5#4844637",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 9771,
+            "opponentTeamName": "Uniao de Leiria",
+            "isHomeTeam": false,
+            "id": 4844607,
+            "matchDate": {
+                "utcTime": "2026-01-21T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-uniao-de-leiria/1owfvg#4844607",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6403,
+            "opponentTeamName": "Pacos de Ferreira",
+            "isHomeTeam": true,
+            "id": 4844622,
+            "matchDate": {
+                "utcTime": "2026-01-15T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-pacos-de-ferreira/zlgr4#4844622",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 212820,
+            "opponentTeamName": "Torreense",
+            "isHomeTeam": true,
+            "id": 4844621,
+            "matchDate": {
+                "utcTime": "2026-01-05T20:15:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-torreense/aun8m6n#4844621",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 1786,
+            "opponentTeamName": "Academico Viseu",
+            "isHomeTeam": true,
+            "id": 4844603,
+            "matchDate": {
+                "utcTime": "2025-12-20T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/academico-viseu-vs-vizela/bvt6m#4844603",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 64,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 338301,
+            "opponentTeamName": "Sporting CP B",
+            "isHomeTeam": false,
+            "id": 4844587,
+            "matchDate": {
+                "utcTime": "2025-12-14T11:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-sporting-cp-b/qzwe6dn#4844587",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6004,
+            "opponentTeamName": "Farense",
+            "isHomeTeam": false,
+            "id": 4844582,
+            "matchDate": {
+                "utcTime": "2025-12-08T15:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-farense/x1ngg#4844582",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 4064,
+            "opponentTeamName": "Feirense",
+            "isHomeTeam": true,
+            "id": 4844569,
+            "matchDate": {
+                "utcTime": "2025-12-01T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/feirense-vs-vizela/lzvld#4844569",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 6421,
+            "opponentTeamName": "Leixoes",
+            "isHomeTeam": true,
+            "id": 4844521,
+            "matchDate": {
+                "utcTime": "2025-09-26T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-leixoes/zpord#4844521",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 68,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 37,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 10212,
+            "opponentTeamName": "Maritimo",
+            "isHomeTeam": false,
+            "id": 4844507,
+            "matchDate": {
+                "utcTime": "2025-09-14T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-maritimo/1splon#4844507",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 6705,
+            "opponentTeamName": "Costa Rica",
+            "isHomeTeam": false,
+            "id": 4822549,
+            "matchDate": {
+                "utcTime": "2025-09-10T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/haiti-vs-costa-rica/1bk7sx#4822549",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5934,
+            "teamName": "Haiti",
+            "opponentTeamId": 5808,
+            "opponentTeamName": "Honduras",
+            "isHomeTeam": true,
+            "id": 4822548,
+            "matchDate": {
+                "utcTime": "2025-09-06T00:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/honduras-vs-haiti/151tgf#4822548",
+            "leagueId": 10198,
+            "leagueName": "World Cup Qualification CONCACAF 3rd Round Grp. C",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 1785,
+            "opponentTeamName": "Oliveirense",
+            "isHomeTeam": true,
+            "id": 4844502,
+            "matchDate": {
+                "utcTime": "2025-08-31T14:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/oliveirense-vs-vizela/bvob5#4844502",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 9765,
+            "opponentTeamName": "Portimonense",
+            "isHomeTeam": false,
+            "id": 4844490,
+            "matchDate": {
+                "utcTime": "2025-08-23T10:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-portimonense/1oulo1#4844490",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 4531,
+            "teamName": "Vizela",
+            "opponentTeamId": 338304,
+            "opponentTeamName": "FC Porto B",
+            "isHomeTeam": true,
+            "id": 4844484,
+            "matchDate": {
+                "utcTime": "2025-08-16T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/vizela-vs-fc-porto-b/qzx07z5#4844484",
+            "leagueId": 185,
+            "leagueName": "Liga Portugal 2",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 0,
+            "minutesPlayed": 18,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 759569,
+                        "teamId": 4531,
+                        "team": "Vizela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-08-04T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "23",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 2517,
+                        "team": "Quevilly",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2024-07-01T00:00:00",
+                        "endDate": "2025-08-04T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "32",
+                        "goals": "5",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 1181312,
+                        "team": "Polissya Zhytomyr",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2024-01-24T00:00:00",
+                        "endDate": "2024-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        },
+                        "startDate": "2023-04-07T00:00:00",
+                        "endDate": "2024-01-17T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "23",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 497121,
+                        "team": "Cholet",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-08-10T00:00:00",
+                        "endDate": "2022-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "21",
+                        "goals": "3",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2021-07-01T00:00:00",
+                        "endDate": "2021-08-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 8121,
+                        "team": "Angers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2021-02-01T00:00:00",
+                        "endDate": "2021-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2018-07-01T00:00:00",
+                        "endDate": "2020-07-10T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "38",
+                        "goals": "2",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "23",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 185,
+                                "leagueName": "Liga Portugal 2",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27182,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "23",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 4531,
+                        "team": "Vizela",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "32",
+                        "goals": "5",
+                        "assists": "3",
+                        "rating": {
+                            "rating": "7.26"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24294,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 1",
+                                "seasonName": "2024/2025",
+                                "tournamentId": -1,
+                                "goals": "5",
+                                "assists": "2",
+                                "appearances": "28",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 2517,
+                        "team": "Quevilly",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 441,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21263,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 442,
+                                "leagueName": "Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21860,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1181312,
+                        "team": "Polissya Zhytomyr",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.43"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 163,
+                                "leagueName": "Challenge League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21046,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "12",
+                                "rating": {
+                                    "rating": "6.43"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 164,
+                                "leagueName": "Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 21138,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "9",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.55"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 69,
+                                "leagueName": "Super League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 17814,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.70"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 70,
+                                "leagueName": "Super League Qualification",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 20727,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.06"
+                                }
+                            }
+                        ],
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "21",
+                        "goals": "3",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.16"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 134,
+                                "leagueName": "Coupe de France",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16985,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.16"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "National 1",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "undefined",
+                                "appearances": "18",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 497121,
+                        "team": "Cholet",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.98"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 53,
+                                "leagueName": "Ligue 1",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15293,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "5.98"
+                                }
+                            }
+                        ],
+                        "teamId": 8121,
+                        "team": "Angers",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 69,
+                                "leagueName": "Super League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14084,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "5.60"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 164,
+                                "leagueName": "Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14150,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "26",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.30"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 69,
+                                "leagueName": "Super League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12780,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "23",
+                                "rating": {
+                                    "rating": "6.30"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 164,
+                                "leagueName": "Cup",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12893,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10179,
+                        "team": "Sion",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 759569,
+                        "teamId": 357195,
+                        "team": "Arsenal U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-01T00:00:00",
+                        "endDate": "2018-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 1113566,
+                        "team": "Arsenal U18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2016-07-01T00:00:00",
+                        "endDate": "2017-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "2",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 394196,
+                        "team": "Arsenal U19",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-07-01T00:00:00",
+                        "endDate": "2016-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2017/2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Premier League International Cup",
+                                "seasonName": "2017/2018",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357195,
+                        "team": "Arsenal U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "2",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9084,
+                                "leagueName": "Premier League 2",
+                                "seasonName": "2016/2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 357195,
+                        "team": "Arsenal U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "14",
+                        "goals": "2",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "U18 Premier League",
+                                "seasonName": "2016/2017",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "3",
+                                "appearances": "14",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 1113566,
+                        "team": "Arsenal U18",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 759569,
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-08-27T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 759569,
+                        "teamId": 74659,
+                        "team": "France U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2015-01-01T00:00:00",
+                        "endDate": "2016-05-31T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "5.61"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "5.61"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Concacaf World Cup Qualifiers",
+                                "seasonName": "2026",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5934,
+                        "team": "Haiti",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016",
+                        "appearances": "9",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 301,
+                                "leagueName": "UEFA U17 Championship",
+                                "seasonName": "2016",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 74659,
+                        "team": "France U17",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": null,
+    "meta": {
+        "seopath": "yassin-fortune",
+        "pageurl": "/players/759569/yassin-fortune",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Yassin Fortun\u00e9?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9 is 27 years old. Born on Sat Jan 30 1999."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Yassin Fortun\u00e9?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9 is 185 cm tall. Or 6 ft 1 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Yassin Fortun\u00e9 born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9 was born Sat Jan 30 1999 and is now 27 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Yassin Fortun\u00e9's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Yassin Fortun\u00e9's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9's transfer value is estimated to be around \u20ac240.7k."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Yassin Fortun\u00e9 from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9 is from Haiti."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Yassin Fortun\u00e9 scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yassin Fortun\u00e9 has scored 3 goals in the Liga Portugal 2."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Yassin Fortun\u00e9",
+            "birthDate": "1999-01-30T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/759569/yassin-fortune",
+            "nationality": {
+                "@type": "Country",
+                "name": "Haiti"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Vizela"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "185"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "80"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga Portugal 2 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/185/overview/liga-portugal-2-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Vizela",
+                    "item": "https://www.fotmob.com/teams/4531/overview/vizela"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Yassin Fortun\u00e9",
+                    "item": "https://www.fotmob.com/leagues/759569/overview/yassin-fortune"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga Portugal 2",
+                    "tournamentId": 185,
+                    "entryId": "1-0",
+                    "hasDeepStats": false
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "National",
+                    "tournamentId": 8970,
+                    "entryId": "2-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CONCACAF qualification",
+                    "tournamentId": 10198,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 441,
+                    "entryId": "3-0",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "Challenge League",
+                    "tournamentId": 163,
+                    "entryId": "3-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Super League",
+                    "tournamentId": 69,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super League Qualification",
+                    "tournamentId": 70,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Coupe de France",
+                    "tournamentId": 134,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Ligue 1",
+                    "tournamentId": 53,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Super League",
+                    "tournamentId": 69,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2018/2019",
+            "tournaments": [
+                {
+                    "name": "Super League",
+                    "tournamentId": 69,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 1,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "1",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 3.368623676612127,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "5",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 51.08,
+                    "y": 8.72
+                },
+                {
+                    "x": 73.59,
+                    "y": 4.26
+                },
+                {
+                    "x": 64.24,
+                    "y": 0
+                },
+                {
+                    "x": 36.82,
+                    "y": 6.95
+                },
+                {
+                    "x": 48.03,
+                    "y": 3.15
+                },
+                {
+                    "x": 83.16,
+                    "y": 0
+                },
+                {
+                    "x": 44.16,
+                    "y": 34.69
+                }
+            ]
+        },
+        "shotmap": null,
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 100000,
+                "source": "scisports",
+                "teamId": 394196,
+                "teamName": "Arsenal U19",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 1113566,
+                "teamName": "Arsenal U18",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 160000,
+                "source": "scisports",
+                "teamId": 1113566,
+                "teamName": "Arsenal U18"
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports",
+                "teamId": 357195,
+                "teamName": "Arsenal U23",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 80000,
+                "currency": "EUR",
+                "lowerBound": 60000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 357195,
+                "teamName": "Arsenal U23"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 70000,
+                "currency": "EUR",
+                "lowerBound": 50000,
+                "upperBound": 90000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 60000,
+                "currency": "EUR",
+                "lowerBound": 40000,
+                "upperBound": 70000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 290000,
+                "currency": "EUR",
+                "lowerBound": 220000,
+                "upperBound": 370000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 190000,
+                "currency": "EUR",
+                "lowerBound": 140000,
+                "upperBound": 240000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 90000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 110000,
+                "source": "scisports",
+                "teamId": 8121,
+                "teamName": "Angers",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 120000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 300000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 280000,
+                "currency": "EUR",
+                "lowerBound": 210000,
+                "upperBound": 350000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 260000,
+                "currency": "EUR",
+                "lowerBound": 200000,
+                "upperBound": 330000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 220000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 280000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 210000,
+                "source": "scisports",
+                "teamId": 497121,
+                "teamName": "Cholet"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 180000,
+                "source": "scisports",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 130000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 160000,
+                "source": "scisports"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 90000,
+                "upperBound": 140000,
+                "source": "scisports"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 130000,
+                "source": "scisports"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 100000,
+                "currency": "EUR",
+                "lowerBound": 70000,
+                "upperBound": 120000,
+                "source": "scisports"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 110000,
+                "currency": "EUR",
+                "lowerBound": 80000,
+                "upperBound": 140000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 150000,
+                "currency": "EUR",
+                "lowerBound": 110000,
+                "upperBound": 190000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 320000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 250000,
+                "currency": "EUR",
+                "lowerBound": 190000,
+                "upperBound": 310000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 240000,
+                "currency": "EUR",
+                "lowerBound": 180000,
+                "upperBound": 300000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 230000,
+                "currency": "EUR",
+                "lowerBound": 170000,
+                "upperBound": 290000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 200000,
+                "currency": "EUR",
+                "lowerBound": 150000,
+                "upperBound": 250000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 180000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 130000,
+                "upperBound": 220000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 140000,
+                "currency": "EUR",
+                "lowerBound": 100000,
+                "upperBound": 170000,
+                "source": "scisports",
+                "teamId": 10179,
+                "teamName": "Sion"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 170000,
+                "currency": "EUR",
+                "lowerBound": 136000,
+                "upperBound": 204000,
+                "source": "scisports",
+                "teamId": 1181312,
+                "teamName": "Polissya Zhytomyr",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 204000,
+                "currency": "EUR",
+                "lowerBound": 163200,
+                "upperBound": 244800,
+                "source": "scisports",
+                "teamId": 1181312,
+                "teamName": "Polissya Zhytomyr"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 244800,
+                "currency": "EUR",
+                "lowerBound": 195840,
+                "upperBound": 293760,
+                "source": "scisports",
+                "teamId": 1181312,
+                "teamName": "Polissya Zhytomyr"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 262055,
+                "currency": "EUR",
+                "lowerBound": 209644,
+                "upperBound": 314466,
+                "source": "scisports",
+                "teamId": 1181312,
+                "teamName": "Polissya Zhytomyr"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 1181312,
+                "teamName": "Polissya Zhytomyr"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 261155,
+                "currency": "EUR",
+                "lowerBound": 208924,
+                "upperBound": 313386,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 274864,
+                "currency": "EUR",
+                "lowerBound": 219891,
+                "upperBound": 329836,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 274864,
+                "currency": "EUR",
+                "lowerBound": 219891,
+                "upperBound": 329836,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 274864,
+                "currency": "EUR",
+                "lowerBound": 219891,
+                "upperBound": 329836,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 274864,
+                "currency": "EUR",
+                "lowerBound": 219891,
+                "upperBound": 329836,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 272075,
+                "currency": "EUR",
+                "lowerBound": 217660,
+                "upperBound": 326491,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 272075,
+                "currency": "EUR",
+                "lowerBound": 217660,
+                "upperBound": 326491,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 233020,
+                "currency": "EUR",
+                "lowerBound": 186416,
+                "upperBound": 279624,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 158689,
+                "currency": "EUR",
+                "lowerBound": 126951,
+                "upperBound": 190427,
+                "source": "scisports",
+                "teamId": 2517,
+                "teamName": "Quevilly"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 158689,
+                "currency": "EUR",
+                "lowerBound": 126951,
+                "upperBound": 190427,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 365388,
+                "currency": "EUR",
+                "lowerBound": 292310,
+                "upperBound": 438465,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 323052,
+                "currency": "EUR",
+                "lowerBound": 258441,
+                "upperBound": 387662,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 314441,
+                "currency": "EUR",
+                "lowerBound": 251552,
+                "upperBound": 377329,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 314441,
+                "currency": "EUR",
+                "lowerBound": 251552,
+                "upperBound": 377329,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 312002,
+                "currency": "EUR",
+                "lowerBound": 249602,
+                "upperBound": 374403,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 301288,
+                "currency": "EUR",
+                "lowerBound": 241030,
+                "upperBound": 361546,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 301903,
+                "currency": "EUR",
+                "lowerBound": 241522,
+                "upperBound": 362284,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 300830,
+                "currency": "EUR",
+                "lowerBound": 240664,
+                "upperBound": 360996,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 309442,
+                "currency": "EUR",
+                "lowerBound": 247553,
+                "upperBound": 371330,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 300830,
+                "currency": "EUR",
+                "lowerBound": 240664,
+                "upperBound": 360996,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 240664,
+                "currency": "EUR",
+                "lowerBound": 192531,
+                "upperBound": 288796,
+                "source": "scisports",
+                "teamId": 4531,
+                "teamName": "Vizela"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 491148,
+                "name": "Anthony Carter"
+            },
+            {
+                "id": 848574,
+                "name": "Mamadou Mbaye"
+            },
+            {
+                "id": 1338967,
+                "name": "Antonio Gom\u00eds"
+            },
+            {
+                "id": 656651,
+                "name": "Jean-Pierre Rhyner"
+            },
+            {
+                "id": 1523326,
+                "name": "Damien Loppy"
+            },
+            {
+                "id": 939394,
+                "name": "Angel Bastunov"
+            },
+            {
+                "id": 1163226,
+                "name": "Manu Garrido"
+            },
+            {
+                "id": 1076516,
+                "name": "Natana\u00ebl Thio"
+            },
+            {
+                "id": 1869588,
+                "name": "Leandro Ribeiro"
+            },
+            {
+                "id": 244355,
+                "name": "Lu\u00eds Rocha"
+            },
+            {
+                "id": 899318,
+                "name": "Leverton Pierre"
+            },
+            {
+                "id": 1023413,
+                "name": "Miguel Tavares"
+            },
+            {
+                "id": 1160407,
+                "name": "Abdul Awudu"
+            },
+            {
+                "id": 1178306,
+                "name": "Bright Godwin"
+            },
+            {
+                "id": 1525444,
+                "name": "Rodrigo Ramos"
+            },
+            {
+                "id": 978172,
+                "name": "Aleksandar Busnic"
+            },
+            {
+                "id": 770523,
+                "name": "Heinz M\u00f6rschel"
+            },
+            {
+                "id": 1457801,
+                "name": "Ruly Garc\u00eda"
+            },
+            {
+                "id": 1532158,
+                "name": "Rodrigo Beirao"
+            },
+            {
+                "id": 1074982,
+                "name": "Yann Kitala"
+            },
+            {
+                "id": 1083325,
+                "name": "Mat\u00edas Lacava"
+            },
+            {
+                "id": 1696504,
+                "name": "Jos\u00e9 Sampaio"
+            },
+            {
+                "id": 1709983,
+                "name": "Italo Henrique"
+            },
+            {
+                "id": 1054503,
+                "name": "Hristo Ivanov"
+            },
+            {
+                "id": 1670911,
+                "name": "Pedro Ramos"
+            },
+            {
+                "id": 762612,
+                "name": "Andrea Hristov"
+            },
+            {
+                "id": 1282115,
+                "name": "J\u00f3j\u00f3"
+            },
+            {
+                "id": 1869589,
+                "name": "Moustapha Sanogo"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 103468,
+                "name": "Johny Placide"
+            },
+            {
+                "id": 634110,
+                "name": "Carlens Arcus"
+            },
+            {
+                "id": 1807873,
+                "name": "Keeto Thermoncy"
+            },
+            {
+                "id": 532700,
+                "name": "Ricardo Ad\u00e9"
+            },
+            {
+                "id": 822716,
+                "name": "Hannes Delcroix"
+            },
+            {
+                "id": 1107287,
+                "name": "Carl Saint\u00e9"
+            },
+            {
+                "id": 643482,
+                "name": "Derrick Etienne"
+            },
+            {
+                "id": 1181438,
+                "name": "Martin Exp\u00e9rience"
+            },
+            {
+                "id": 525445,
+                "name": "Duckens Nazon"
+            },
+            {
+                "id": 769166,
+                "name": "Jean-Ricner Bellegarde"
+            },
+            {
+                "id": 1079194,
+                "name": "Don Deedson Louicius"
+            },
+            {
+                "id": 1209244,
+                "name": "Alexandre Pierre"
+            },
+            {
+                "id": 649744,
+                "name": "Duke Lacroix"
+            },
+            {
+                "id": 1286428,
+                "name": "Garven Metusala"
+            },
+            {
+                "id": 1200016,
+                "name": "Ruben Providence"
+            },
+            {
+                "id": 1242314,
+                "name": "Lenny Joseph"
+            },
+            {
+                "id": 1329461,
+                "name": "Danley Jean Jacques"
+            },
+            {
+                "id": 887703,
+                "name": "Wilson Isidor"
+            },
+            {
+                "id": 833641,
+                "name": "Frantzdy Pierrot"
+            },
+            {
+                "id": 1199382,
+                "name": "Josu\u00e9 Casimir"
+            },
+            {
+                "id": 769168,
+                "name": "Jean-K\u00e9vin Duverne"
+            },
+            {
+                "id": 899023,
+                "name": "Josu\u00e9 Duverger"
+            },
+            {
+                "id": 1394254,
+                "name": "Wilguens Paugain"
+            },
+            {
+                "id": 1356595,
+                "name": "Dominique Simon"
+            },
+            {
+                "id": 1447452,
+                "name": "Olivier Pierre"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1937484,
+                "name": "Alyssa Manasse"
+            },
+            {
+                "id": 1081279,
+                "name": "Amandine Pierre-Louis"
+            },
+            {
+                "id": 1729585,
+                "name": "Anyssa Ibrahim"
+            },
+            {
+                "id": 1966108,
+                "name": "Cassandra Decombe"
+            },
+            {
+                "id": 1807266,
+                "name": "Chelsea Domond"
+            },
+            {
+                "id": 1807450,
+                "name": "D\u00e9borah Bien-Aim\u00e9"
+            },
+            {
+                "id": 1591676,
+                "name": "Jos\u00e9phine Vanuxeem"
+            },
+            {
+                "id": 1866960,
+                "name": "Ka\u00efna Pietrus"
+            },
+            {
+                "id": 1807235,
+                "name": "Lourdjina \u00c9tienne"
+            },
+            {
+                "id": 1966107,
+                "name": "Nya Jean-Baptiste"
+            },
+            {
+                "id": 1345962,
+                "name": "Oc\u00e9ane Toussaint"
+            },
+            {
+                "id": 1468679,
+                "name": "Jennyfer Limage"
+            },
+            {
+                "id": 1468681,
+                "name": "Tabita Joseph"
+            },
+            {
+                "id": 1130847,
+                "name": "Melchie Dumornay"
+            },
+            {
+                "id": 1382527,
+                "name": "Sherly Jeudy"
+            },
+            {
+                "id": 887722,
+                "name": "Nerilia Mondesir"
+            },
+            {
+                "id": 1468676,
+                "name": "Roseline \u00c9loissaint"
+            },
+            {
+                "id": 1468674,
+                "name": "Betina Petit-Fr\u00e8re"
+            },
+            {
+                "id": 1468673,
+                "name": "Claire Constant"
+            },
+            {
+                "id": 1468671,
+                "name": "Milan Pierre-J\u00e9r\u00f4me"
+            },
+            {
+                "id": 1468669,
+                "name": "Dayana Pierre-Louis"
+            },
+            {
+                "id": 1261791,
+                "name": "Kethna Louis"
+            }
+        ]
+    },
+    "dataProvider": "enet"
+}

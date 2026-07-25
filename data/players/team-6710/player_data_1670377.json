@@ -1,0 +1,3938 @@
+{
+    "id": 1670377,
+    "name": "Gilberto Mora",
+    "birthDate": {
+        "utcTime": "2008-10-14T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2029-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 162418,
+        "teamName": "Tijuana",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#000000",
+            "colorAlternate": "#C8252C",
+            "colorAway": "#B6272D",
+            "colorAwayAlternate": "#FFFFFF"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Right Midfielder",
+                    "key": "rightmidfielder"
+                },
+                "strPosShort": {
+                    "label": "RM",
+                    "key": "rightmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "72",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 7,
+                "position": "73",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 2,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.42,
+                    "ratio": 0.27142857142857146
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 6,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.41428571428571426
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 5,
+                "position": "87",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.17,
+                    "top": 0.26,
+                    "ratio": 0.37857142857142856
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 7,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1,
+                    "ratio": 0.45
+                }
+            }
+        ],
+        "primaryPosition": {
+            "label": "Central Midfielder",
+            "key": "centermidfielder"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Left Midfielder",
+                "key": "leftmidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            },
+            {
+                "label": "Left Winger",
+                "key": "leftwinger"
+            },
+            {
+                "label": "Striker",
+                "key": "striker"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 168,
+                "key": null,
+                "fallback": "168 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 19,
+                "options": {},
+                "key": null,
+                "fallback": 19
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 17,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "17"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Mexico"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "MEX"
+            },
+            "countryCode": "MEX"
+        },
+        {
+            "value": {
+                "numberValue": 9784114,
+                "key": null,
+                "fallback": "\u20ac9.8m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2029-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2029-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 230,
+        "leagueName": "Liga MX Clausura",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 1
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 0
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 4
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 6
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 331
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 6.96
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "INT",
+                "teamId": 6710,
+                "teamName": "Mexico",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9821,
+                        "leagueName": "Concacaf Nations League",
+                        "seasonsWon": [
+                            "2024/2025"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 298,
+                        "leagueName": "CONCACAF Gold Cup",
+                        "seasonsWon": [
+                            "2025 USA / Canada"
+                        ],
+                        "seasonsRunnerUp": []
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 8491,
+            "opponentTeamName": "England",
+            "isHomeTeam": true,
+            "id": 4653847,
+            "matchDate": {
+                "utcTime": "2026-07-06T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-england/1wsny4#4653847",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 6707,
+            "opponentTeamName": "Ecuador",
+            "isHomeTeam": true,
+            "id": 4653713,
+            "matchDate": {
+                "utcTime": "2026-07-01T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ecuador-vs-mexico/1hlgxf#4653713",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 58,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 8496,
+            "opponentTeamName": "Czechia",
+            "isHomeTeam": false,
+            "id": 4667755,
+            "matchDate": {
+                "utcTime": "2026-06-25T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-czechia/1wualx#4667755",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 72,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 7804,
+            "opponentTeamName": "South Korea",
+            "isHomeTeam": true,
+            "id": 4667754,
+            "matchDate": {
+                "utcTime": "2026-06-19T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-south-korea/1qpvav#4667754",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 6316,
+            "opponentTeamName": "South Africa",
+            "isHomeTeam": true,
+            "id": 4667751,
+            "matchDate": {
+                "utcTime": "2026-06-11T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/south-africa-vs-mexico/1einvt#4667751",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 8205,
+            "opponentTeamName": "Serbia",
+            "isHomeTeam": true,
+            "id": 5217286,
+            "matchDate": {
+                "utcTime": "2026-06-05T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-serbia/1u8cmr#5217286",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 6716,
+            "opponentTeamName": "Australia",
+            "isHomeTeam": true,
+            "id": 5217285,
+            "matchDate": {
+                "utcTime": "2026-05-31T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-australia/1ho253#5217285",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 30,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 6714,
+            "opponentTeamName": "Ghana",
+            "isHomeTeam": true,
+            "id": 5217284,
+            "matchDate": {
+                "utcTime": "2026-05-23T02:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-ghana/1hnhf6#5217284",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 7807,
+            "opponentTeamName": "Chivas",
+            "isHomeTeam": false,
+            "id": 5101862,
+            "matchDate": {
+                "utcTime": "2026-04-26T01:07:00.000Z"
+            },
+            "matchPageUrl": "/matches/chivas-vs-tijuana/6nm00h4#5101862",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": true,
+            "id": 5101857,
+            "matchDate": {
+                "utcTime": "2026-04-23T03:06:00.000Z"
+            },
+            "matchPageUrl": "/matches/pachuca-vs-tijuana/6nq5mdj#5101857",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 67,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6578,
+            "opponentTeamName": "Cruz Azul",
+            "isHomeTeam": false,
+            "id": 5101844,
+            "matchDate": {
+                "utcTime": "2026-04-18T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cruz-azul-vs-tijuana/6k5w4zw#5101844",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 29,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 649424,
+            "opponentTeamName": "FC Juarez",
+            "isHomeTeam": false,
+            "id": 5101833,
+            "matchDate": {
+                "utcTime": "2026-04-11T03:06:00.000Z"
+            },
+            "matchPageUrl": "/matches/tijuana-vs-fc-juarez/47e2g5bn#5101833",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 28,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 5797,
+            "opponentTeamName": "Bolivia",
+            "isHomeTeam": true,
+            "id": 5102656,
+            "matchDate": {
+                "utcTime": "2026-01-25T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/bolivia-vs-mexico/1akn68#5102656",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6358,
+            "opponentTeamName": "Atletico de San Luis",
+            "isHomeTeam": true,
+            "id": 5101737,
+            "matchDate": {
+                "utcTime": "2026-01-18T03:06:00.000Z"
+            },
+            "matchPageUrl": "/matches/atletico-de-san-luis-vs-tijuana/6jjrrtm#5101737",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6576,
+            "opponentTeamName": "CF America",
+            "isHomeTeam": true,
+            "id": 5101716,
+            "matchDate": {
+                "utcTime": "2026-01-10T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/cf-america-vs-tijuana/6k5ow77#5101716",
+            "leagueId": 230,
+            "leagueName": "Liga MX Clausura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 88,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 88,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 8561,
+            "opponentTeamName": "Tigres",
+            "isHomeTeam": false,
+            "id": 5068361,
+            "matchDate": {
+                "utcTime": "2025-11-30T03:10:00.000Z"
+            },
+            "matchPageUrl": "/matches/tigres-vs-tijuana/6pql3wn#5068361",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura Playoff",
+            "stage": "1/4",
+            "homeScore": 5,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 8561,
+            "opponentTeamName": "Tigres",
+            "isHomeTeam": true,
+            "id": 5068360,
+            "matchDate": {
+                "utcTime": "2025-11-27T05:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tigres-vs-tijuana/6pql3wn#5068360",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura Playoff",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 649424,
+            "opponentTeamName": "FC Juarez",
+            "isHomeTeam": true,
+            "id": 5056635,
+            "matchDate": {
+                "utcTime": "2025-11-21T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tijuana-vs-fc-juarez/47e2g5bn#5056635",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura Play-In Stage",
+            "stage": "final",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 77,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 6724,
+            "opponentTeamName": "Paraguay",
+            "isHomeTeam": true,
+            "id": 5031707,
+            "matchDate": {
+                "utcTime": "2025-11-19T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-vs-paraguay/1hqd1v#5031707",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 67,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 6710,
+            "teamName": "Mexico",
+            "opponentTeamId": 5796,
+            "opponentTeamName": "Uruguay",
+            "isHomeTeam": true,
+            "id": 5031703,
+            "matchDate": {
+                "utcTime": "2025-11-16T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uruguay-vs-mexico/1akdit#5031703",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 46,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 8561,
+            "opponentTeamName": "Tigres",
+            "isHomeTeam": false,
+            "id": 4804164,
+            "matchDate": {
+                "utcTime": "2025-10-25T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tigres-vs-tijuana/6pql3wn#4804164",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6618,
+            "opponentTeamName": "Toluca",
+            "isHomeTeam": true,
+            "id": 4804160,
+            "matchDate": {
+                "utcTime": "2025-10-23T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/toluca-vs-tijuana/6k9x1l4#4804160",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 85,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 87,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 7847,
+            "opponentTeamName": "Puebla",
+            "isHomeTeam": false,
+            "id": 4804144,
+            "matchDate": {
+                "utcTime": "2025-10-18T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/puebla-vs-tijuana/6nq1yzw#4804144",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 3,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5880,
+            "teamName": "Mexico U20",
+            "opponentTeamId": 5860,
+            "opponentTeamName": "Argentina U20",
+            "isHomeTeam": true,
+            "id": 4798339,
+            "matchDate": {
+                "utcTime": "2025-10-11T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-u20-vs-mexico-u20/151bam#4798339",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "1/4",
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5880,
+            "teamName": "Mexico U20",
+            "opponentTeamId": 5949,
+            "opponentTeamName": "Chile U20",
+            "isHomeTeam": false,
+            "id": 4798330,
+            "matchDate": {
+                "utcTime": "2025-10-07T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-u20-vs-chile-u20/15nsno#4798330",
+            "leagueId": 296,
+            "leagueName": "World Cup U20",
+            "stage": "1/8",
+            "homeScore": 1,
+            "awayScore": 4,
+            "minutesPlayed": 78,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5880,
+            "teamName": "Mexico U20",
+            "opponentTeamId": 5951,
+            "opponentTeamName": "Morocco U20",
+            "isHomeTeam": true,
+            "id": 4798307,
+            "matchDate": {
+                "utcTime": "2025-10-04T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/mexico-u20-vs-morocco-u20/15oawz#4798307",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 71,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5880,
+            "teamName": "Mexico U20",
+            "opponentTeamId": 5861,
+            "opponentTeamName": "Spain U20",
+            "isHomeTeam": false,
+            "id": 4798304,
+            "matchDate": {
+                "utcTime": "2025-10-01T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-u20-vs-mexico-u20/151kcr#4798304",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 5880,
+            "teamName": "Mexico U20",
+            "opponentTeamId": 5864,
+            "opponentTeamName": "Brazil U20",
+            "isHomeTeam": false,
+            "id": 4798303,
+            "matchDate": {
+                "utcTime": "2025-09-28T23:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-u20-vs-mexico-u20/152bjc#4798303",
+            "leagueId": 296,
+            "leagueName": "World Cup U20 Grp. C",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.1",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6358,
+            "opponentTeamName": "Atletico de San Luis",
+            "isHomeTeam": false,
+            "id": 4804106,
+            "matchDate": {
+                "utcTime": "2025-09-15T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/atletico-de-san-luis-vs-tijuana/6jjrrtm#4804106",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 1842,
+            "opponentTeamName": "Necaxa",
+            "isHomeTeam": true,
+            "id": 4804097,
+            "matchDate": {
+                "utcTime": "2025-09-01T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/necaxa-vs-tijuana/6741rbg#4804097",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 89,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 106,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 7807,
+            "opponentTeamName": "Chivas",
+            "isHomeTeam": true,
+            "id": 4804082,
+            "matchDate": {
+                "utcTime": "2025-08-23T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/chivas-vs-tijuana/6nm00h4#4804082",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.8",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 7848,
+            "opponentTeamName": "Pachuca",
+            "isHomeTeam": false,
+            "id": 4804075,
+            "matchDate": {
+                "utcTime": "2025-08-17T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/pachuca-vs-tijuana/6nq5mdj#4804075",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 63,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 1170234,
+            "opponentTeamName": "Mazatlan FC",
+            "isHomeTeam": false,
+            "id": 4804065,
+            "matchDate": {
+                "utcTime": "2025-08-10T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tijuana-vs-mazatlan-fc/bbxl9ekw#4804065",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 79,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 130394,
+            "opponentTeamName": "Seattle Sounders FC",
+            "isHomeTeam": false,
+            "id": 4736069,
+            "matchDate": {
+                "utcTime": "2025-08-07T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/seattle-sounders-fc-vs-tijuana/jozjd0g#4736069",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 26,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 8314,
+            "opponentTeamName": "Colorado Rapids",
+            "isHomeTeam": false,
+            "id": 4736052,
+            "matchDate": {
+                "utcTime": "2025-08-04T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/colorado-rapids-vs-tijuana/6p1gkvs#4736052",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 2,
+            "minutesPlayed": 71,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 6637,
+            "opponentTeamName": "LA Galaxy",
+            "isHomeTeam": false,
+            "id": 4736036,
+            "matchDate": {
+                "utcTime": "2025-08-01T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/la-galaxy-vs-tijuana/6kbtvwd#4736036",
+            "leagueId": 10043,
+            "leagueName": "Leagues Cup",
+            "stage": null,
+            "homeScore": 5,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 162418,
+            "teamName": "Tijuana",
+            "opponentTeamId": 649424,
+            "opponentTeamName": "FC Juarez",
+            "isHomeTeam": true,
+            "id": 4804055,
+            "matchDate": {
+                "utcTime": "2025-07-26T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/tijuana-vs-fc-juarez/47e2g5bn#4804055",
+            "leagueId": 230,
+            "leagueName": "Liga MX Apertura",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 1394436,
+            "teamName": "Liga MX All-Stars",
+            "opponentTeamId": 207967,
+            "opponentTeamName": "MLS All-Stars",
+            "isHomeTeam": false,
+            "id": 4886628,
+            "matchDate": {
+                "utcTime": "2025-07-24T01:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/mls-all-stars-vs-liga-mx-all-stars/gdsid645#4886628",
+            "leagueId": 489,
+            "leagueName": "Club Friendlies",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 44,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 1670377,
+                        "teamId": 162418,
+                        "team": "Tijuana",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-08-18T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "53",
+                        "goals": "10",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1670377,
+                        "teamId": 1394436,
+                        "team": "Liga MX All-Stars",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-07-18T00:00:00Z",
+                        "endDate": "2025-07-25T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026/2027",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 230,
+                                "leagueName": "Liga MX",
+                                "seasonName": "2026/2027",
+                                "tournamentId": 1000000459,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 162418,
+                        "team": "Tijuana",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "20",
+                        "goals": "6",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.08"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 230,
+                                "leagueName": "Liga MX",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27048,
+                                "goals": "6",
+                                "assists": "1",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": "7.08"
+                                }
+                            }
+                        ],
+                        "teamId": 162418,
+                        "team": "Tijuana",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "3",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "7.13"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10043,
+                                "leagueName": "Leagues Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25098,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.13"
+                                }
+                            }
+                        ],
+                        "teamId": 162418,
+                        "team": "Tijuana",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "30",
+                        "goals": "2",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.77"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 230,
+                                "leagueName": "Liga MX",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 1000000162,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "6.77"
+                                }
+                            }
+                        ],
+                        "teamId": 162418,
+                        "team": "Tijuana",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "youth": {
+                "teamEntries": [
+                    {
+                        "participantId": 1670377,
+                        "teamId": -1,
+                        "team": "Club Tijuana Xoloitzcuintles de Caliente Under 15",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2022-04-01T00:00:00Z",
+                        "endDate": "2024-12-31T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2022",
+                        "appearances": "7",
+                        "goals": "1",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "MLS Generation Cup U15",
+                                "seasonName": "2022",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "2",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Club Tijuana Xoloitzcuintles de Caliente Under 15",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 1670377,
+                        "teamId": 6710,
+                        "team": "Mexico",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-01-09T00:00:00Z",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "14",
+                        "goals": "0",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1670377,
+                        "teamId": 5880,
+                        "team": "Mexico U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2025-03-01T00:00:00Z",
+                        "endDate": "2026-05-31T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "3",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 1670377,
+                        "teamId": -1,
+                        "team": "Mexico Under 16",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2023-11-11T00:00:00Z",
+                        "endDate": "2023-11-27T00:00:00Z",
+                        "active": false,
+                        "role": null,
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "1",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.60"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.79"
+                                }
+                            }
+                        ],
+                        "teamId": 6710,
+                        "team": "Mexico",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "7",
+                        "goals": "0",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.15"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 298,
+                                "leagueName": "CONCACAF Gold Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 25901,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.54"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 1000000213,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.58"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "Hybrid Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 6710,
+                        "team": "Mexico",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "6",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueName": "FIFA U20 World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U20 National Team Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 5880,
+                        "team": "Mexico U20",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "1",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueName": "U16 National Team Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": -1,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": -1,
+                        "team": "Mexico Under 16",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_forwards",
+        "title": "Stats compared to other forwards",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.96
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.03
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.3
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.61
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.23
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.95
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "gilberto-mora",
+        "pageurl": "/players/1670377/gilberto-mora",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Gilberto Mora?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora is 17 years old. Born on Tue Oct 14 2008."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Gilberto Mora?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora is 168 cm tall. Or 5 ft 6 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Gilberto Mora born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora was born Tue Oct 14 2008 and is now 17 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Gilberto Mora's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Gilberto Mora's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora's transfer value is estimated to be around \u20ac9.8m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Gilberto Mora from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora is from Mexico."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Gilberto Mora scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gilberto Mora has scored 1 goals in the Liga MX Clausura."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Gilberto Mora",
+            "birthDate": "2008-10-14T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/1670377/gilberto-mora",
+            "nationality": {
+                "@type": "Country",
+                "name": "Mexico"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Tijuana"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "168"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "62"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Liga MX Clausura 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/230/overview/liga-mx-clausura-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Tijuana",
+                    "item": "https://www.fotmob.com/teams/162418/overview/tijuana"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Gilberto Mora",
+                    "item": "https://www.fotmob.com/leagues/1670377/overview/gilberto-mora"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Liga MX Apertura",
+                    "tournamentId": 230,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga MX Clausura",
+                    "tournamentId": 230,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CONCACAF Gold Cup",
+                    "tournamentId": 298,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Leagues Cup",
+                    "tournamentId": 10043,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup U20",
+                    "tournamentId": 296,
+                    "entryId": "1-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Liga MX Apertura",
+                    "tournamentId": 230,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Liga MX Clausura",
+                    "tournamentId": 230,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2945861375,
+                "playerName": "Gilberto Mora",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6710,
+                "playerId": 1670377,
+                "x": 80.345145632,
+                "y": 26.343125,
+                "min": 5,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "goalCrossedY": 33.8475,
+                "goalCrossedZ": 3.7417931072,
+                "expectedGoals": 0.022732412442565,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.02760185299441,
+                    "y": 0.677248677248677,
+                    "zoomRatio": 0.684163962746636
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 6710,
+                "awayTeamId": 6707,
+                "homeTeamName": "Mexico",
+                "awayTeamName": "Ecuador",
+                "homeScore": 2,
+                "awayScore": 0,
+                "matchId": 4653713,
+                "matchDate": "2026-07-01T02:00:00Z",
+                "teamColor": "#00634b",
+                "teamColorDark": "#00634b"
+            },
+            {
+                "id": 2945861713,
+                "playerName": "Gilberto Mora",
+                "eventType": "Miss",
+                "shotType": "RightFoot",
+                "situation": "FromCorner",
+                "teamId": 6710,
+                "playerId": 1670377,
+                "x": 95.2543859636,
+                "y": 52.3383439482,
+                "min": 15,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": false,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "goalCrossedY": 29.21142857,
+                "goalCrossedZ": 1.7850526228,
+                "expectedGoals": 0.0323318354785442,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 2,
+                    "y": 0.372773518969936,
+                    "zoomRatio": 0.78937947470484
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6710,
+                "awayTeamId": 6707,
+                "homeTeamName": "Mexico",
+                "awayTeamName": "Ecuador",
+                "homeScore": 2,
+                "awayScore": 0,
+                "matchId": 4653713,
+                "matchDate": "2026-07-01T02:00:00Z",
+                "teamColor": "#00634b",
+                "teamColorDark": "#00634b"
+            },
+            {
+                "id": 2945862865,
+                "playerName": "Gilberto Mora",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6710,
+                "playerId": 1670377,
+                "x": 91.9,
+                "y": 22.4578343989,
+                "min": 52,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 93,
+                "blockedY": 23.2285350362,
+                "goalCrossedY": 31.78875,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0247113220393658,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.58498677248677,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6710,
+                "awayTeamId": 6707,
+                "homeTeamName": "Mexico",
+                "awayTeamName": "Ecuador",
+                "homeScore": 2,
+                "awayScore": 0,
+                "matchId": 4653713,
+                "matchDate": "2026-07-01T02:00:00Z",
+                "teamColor": "#00634b",
+                "teamColorDark": "#00634b"
+            },
+            {
+                "id": 2946429181,
+                "playerName": "Gilberto Mora",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 6710,
+                "playerId": 1670377,
+                "x": 89.3,
+                "y": 45.1217834353,
+                "min": 19,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 91.9,
+                "blockedY": 43.3701910778,
+                "goalCrossedY": 34.61,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0438497848808765,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.838624338624339,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 6710,
+                "awayTeamId": 8491,
+                "homeTeamName": "Mexico",
+                "awayTeamName": "England",
+                "homeScore": 2,
+                "awayScore": 3,
+                "matchId": 4653847,
+                "matchDate": "2026-07-06T01:00:00Z",
+                "teamColor": "#00634b",
+                "teamColorDark": "#00634b"
+            },
+            {
+                "id": 2945397979,
+                "playerName": "Gilberto Mora",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 6710,
+                "playerId": 1670377,
+                "x": 80.0072815544,
+                "y": 30.232,
+                "min": 39,
+                "period": "FirstHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 83.160679612,
+                "blockedY": 30.292,
+                "goalCrossedY": 32.78,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0275271814316511,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.32275132275132,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8496,
+                "awayTeamId": 6710,
+                "homeTeamName": "Czechia",
+                "awayTeamName": "Mexico",
+                "homeScore": 0,
+                "awayScore": 3,
+                "matchId": 4667755,
+                "matchDate": "2026-06-25T01:00:00Z",
+                "teamColor": "#00634b",
+                "teamColorDark": "#00634b"
+            }
+        ],
+        "statsSection": {
+            "id": "stats-section",
+            "items": [
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "goals",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Goals"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals",
+                            "per90": 0.06325116528328074,
+                            "percentileRank": 59.27835051546392,
+                            "percentileRankPer90": 59.27835051546392,
+                            "statFormat": "fraction",
+                            "statValue": "0.15",
+                            "title": "xG"
+                        },
+                        {
+                            "localizedTitleId": "non_penalty_xg",
+                            "per90": 0.06325116528328074,
+                            "percentileRank": 59.79381443298969,
+                            "percentileRankPer90": 60.30927835051546,
+                            "statFormat": "fraction",
+                            "statValue": "0.15",
+                            "title": "xG excl. penalty"
+                        },
+                        {
+                            "localizedTitleId": "shots",
+                            "per90": 2.0930232558139537,
+                            "percentileRank": 77.31958762886599,
+                            "percentileRankPer90": 88.14432989690721,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Shots"
+                        }
+                    ],
+                    "localizedTitleId": "shooting",
+                    "title": "Shooting",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "assists",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Assists"
+                        },
+                        {
+                            "localizedTitleId": "expected_assists",
+                            "per90": 0.14053769097771754,
+                            "percentileRank": 73.71134020618557,
+                            "percentileRankPer90": 76.80412371134021,
+                            "statFormat": "fraction",
+                            "statValue": "0.34",
+                            "title": "xA"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes",
+                            "per90": 32.651162790697676,
+                            "percentileRank": 45.876288659793815,
+                            "percentileRankPer90": 41.75257731958763,
+                            "statFormat": "number",
+                            "statValue": "78",
+                            "title": "Accurate passes"
+                        },
+                        {
+                            "localizedTitleId": "successful_passes_accuracy",
+                            "per90": 90.69767441860465,
+                            "percentileRank": 78.8659793814433,
+                            "percentileRankPer90": 78.8659793814433,
+                            "statFormat": "percent",
+                            "statValue": "90.7",
+                            "title": "Pass accuracy"
+                        },
+                        {
+                            "localizedTitleId": "long_balls_accurate",
+                            "per90": 0.8372093023255813,
+                            "percentileRank": 31.443298969072163,
+                            "percentileRankPer90": 36.597938144329895,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Accurate long balls"
+                        },
+                        {
+                            "localizedTitleId": "long_ball_succeeeded_accuracy",
+                            "per90": 50,
+                            "percentileRank": 38.144329896907216,
+                            "percentileRankPer90": 38.144329896907216,
+                            "statFormat": "percent",
+                            "statValue": "50.0",
+                            "title": "Long ball accuracy"
+                        },
+                        {
+                            "localizedTitleId": "chances_created",
+                            "per90": 2.0930232558139537,
+                            "percentileRank": 82.4742268041237,
+                            "percentileRankPer90": 91.23711340206185,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Chances created"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 55.154639175257735,
+                            "percentileRankPer90": 70.10309278350515,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Successful crosses"
+                        },
+                        {
+                            "localizedTitleId": "crosses_succeeeded_accuracy",
+                            "per90": 25,
+                            "percentileRank": 64.43298969072166,
+                            "percentileRankPer90": 64.43298969072166,
+                            "statFormat": "percent",
+                            "statValue": "25.0",
+                            "title": "Cross accuracy"
+                        }
+                    ],
+                    "localizedTitleId": "passing",
+                    "title": "Passing",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "dribbles_succeeded",
+                            "per90": 0.8372093023255813,
+                            "percentileRank": 51.03092783505154,
+                            "percentileRankPer90": 66.49484536082474,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Dribbles"
+                        },
+                        {
+                            "localizedTitleId": "won_contest_subtitle",
+                            "per90": 28.571428571428573,
+                            "percentileRank": 30.412371134020617,
+                            "percentileRankPer90": 30.412371134020617,
+                            "statFormat": "percent",
+                            "statValue": "28.6",
+                            "title": "Dribbles success rate"
+                        },
+                        {
+                            "localizedTitleId": "duel_won",
+                            "per90": 3.7674418604651163,
+                            "percentileRank": 34.5360824742268,
+                            "percentileRankPer90": 36.597938144329895,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Duels won"
+                        },
+                        {
+                            "localizedTitleId": "duel_won_percent",
+                            "per90": 39.130434782608695,
+                            "percentileRank": 21.1340206185567,
+                            "percentileRankPer90": 21.1340206185567,
+                            "statFormat": "percent",
+                            "statValue": "39.1",
+                            "title": "Duels won %"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 22.68041237113402,
+                            "percentileRankPer90": 32.47422680412371,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Aerials won"
+                        },
+                        {
+                            "localizedTitleId": "aerials_won_percent",
+                            "per90": 33.333333333333336,
+                            "percentileRank": 31.958762886597935,
+                            "percentileRankPer90": 31.958762886597935,
+                            "statFormat": "percent",
+                            "statValue": "33.3",
+                            "title": "Aerials won %"
+                        },
+                        {
+                            "localizedTitleId": "touches",
+                            "per90": 52.74418604651163,
+                            "percentileRank": 41.23711340206185,
+                            "percentileRankPer90": 35.051546391752574,
+                            "statFormat": "number",
+                            "statValue": "126",
+                            "title": "Touches"
+                        },
+                        {
+                            "localizedTitleId": "touches_opp_box",
+                            "per90": 3.3488372093023253,
+                            "percentileRank": 82.9896907216495,
+                            "percentileRankPer90": 88.65979381443299,
+                            "statFormat": "number",
+                            "statValue": "8",
+                            "title": "Touches in opposition box"
+                        },
+                        {
+                            "localizedTitleId": "dispossessed",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 25.257731958762886,
+                            "percentileRankPer90": 26.804123711340207,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Dispossessed"
+                        },
+                        {
+                            "localizedTitleId": "fouls_won",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 49.48453608247423,
+                            "percentileRankPer90": 62.88659793814433,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls won"
+                        }
+                    ],
+                    "localizedTitleId": "possession",
+                    "title": "Possession",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "defensive_actions",
+                            "per90": 2.0930232558139537,
+                            "percentileRank": 17.010309278350515,
+                            "percentileRankPer90": 14.432989690721648,
+                            "statFormat": "number",
+                            "statValue": "5",
+                            "title": "Defensive actions"
+                        },
+                        {
+                            "localizedTitleId": "matchstats.headers.tackles",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 28.350515463917525,
+                            "percentileRankPer90": 35.56701030927835,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Tackles"
+                        },
+                        {
+                            "localizedTitleId": "interceptions",
+                            "per90": 0.8372093023255813,
+                            "percentileRank": 37.11340206185567,
+                            "percentileRankPer90": 53.09278350515464,
+                            "statFormat": "number",
+                            "statValue": "2",
+                            "title": "Interceptions"
+                        },
+                        {
+                            "localizedTitleId": "fouls",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 48.45360824742268,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Fouls committed"
+                        },
+                        {
+                            "localizedTitleId": "recoveries",
+                            "per90": 3.7674418604651163,
+                            "percentileRank": 38.659793814432994,
+                            "percentileRankPer90": 41.75257731958763,
+                            "statFormat": "number",
+                            "statValue": "9",
+                            "title": "Recoveries"
+                        },
+                        {
+                            "localizedTitleId": "poss_won_att_3rd_team_title",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 40.72164948453608,
+                            "percentileRankPer90": 64.43298969072166,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Possession won final 3rd"
+                        },
+                        {
+                            "localizedTitleId": "dribbled_past",
+                            "per90": 0.41860465116279066,
+                            "percentileRank": 61.855670103092784,
+                            "percentileRankPer90": 72.16494845360825,
+                            "statFormat": "number",
+                            "statValue": "1",
+                            "title": "Dribbled past"
+                        },
+                        {
+                            "localizedTitleId": "clean_sheet_team_title",
+                            "per90": 0,
+                            "percentileRank": 0,
+                            "percentileRankPer90": 0,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Clean sheets"
+                        },
+                        {
+                            "localizedTitleId": "goals_conceded_while_on_pitch",
+                            "per90": 1.255813953488372,
+                            "percentileRank": 54.123711340206185,
+                            "percentileRankPer90": 58.24742268041238,
+                            "statFormat": "number",
+                            "statValue": "3",
+                            "title": "Goals conceded while on pitch"
+                        },
+                        {
+                            "localizedTitleId": "expected_goals_against_while_on_pitch",
+                            "per90": 0.9397255764451138,
+                            "percentileRank": 71.64948453608247,
+                            "percentileRankPer90": 71.1340206185567,
+                            "statFormat": "fraction",
+                            "statValue": "2.24",
+                            "title": "xG against while on pitch"
+                        }
+                    ],
+                    "localizedTitleId": "defending",
+                    "title": "Defending",
+                    "type": "stat-values"
+                },
+                {
+                    "display": "stats-group",
+                    "items": [
+                        {
+                            "localizedTitleId": "yellow_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Yellow cards"
+                        },
+                        {
+                            "localizedTitleId": "red_cards",
+                            "per90": 0,
+                            "percentileRank": 100,
+                            "percentileRankPer90": 100,
+                            "statFormat": "number",
+                            "statValue": "0",
+                            "title": "Red cards"
+                        }
+                    ],
+                    "localizedTitleId": "discipline",
+                    "title": "Discipline",
+                    "type": "stat-values"
+                }
+            ],
+            "localizedTitleId": "season_performance",
+            "title": "Season performance",
+            "type": "grouped-stat-values"
+        },
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.455,
+                    "percentileRank": 25.773195876288657,
+                    "percentileRankPer90": 25.773195876288657,
+                    "statFormat": "fraction",
+                    "statValue": "6.46",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 54.63917525773196,
+                    "percentileRankPer90": 54.63917525773196,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 3,
+                    "percentileRank": 42.78350515463917,
+                    "percentileRankPer90": 82.4742268041237,
+                    "statFormat": "number",
+                    "statValue": "3",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 41.23711340206185,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "215",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 58.6,
+                    "y": 30.05
+                },
+                {
+                    "x": 67.51,
+                    "y": 64
+                },
+                {
+                    "x": 92.3,
+                    "y": 62.49
+                },
+                {
+                    "x": 73.36,
+                    "y": 51.43
+                },
+                {
+                    "x": 68.63,
+                    "y": 51.08
+                },
+                {
+                    "x": 71.9,
+                    "y": 46.03
+                },
+                {
+                    "x": 95.74,
+                    "y": 56.72
+                },
+                {
+                    "x": 86.14,
+                    "y": 56.32
+                },
+                {
+                    "x": 101.78,
+                    "y": 49.33
+                },
+                {
+                    "x": 56.57,
+                    "y": 31.48
+                },
+                {
+                    "x": 80.35,
+                    "y": 41.66
+                },
+                {
+                    "x": 46.1,
+                    "y": 59.6
+                },
+                {
+                    "x": 75.16,
+                    "y": 63.47
+                },
+                {
+                    "x": 66.94,
+                    "y": 64
+                },
+                {
+                    "x": 66.72,
+                    "y": 62.56
+                },
+                {
+                    "x": 31.98,
+                    "y": 32.55
+                },
+                {
+                    "x": 36.25,
+                    "y": 27.7
+                },
+                {
+                    "x": 36.25,
+                    "y": 27.7
+                },
+                {
+                    "x": 69.65,
+                    "y": 54.62
+                },
+                {
+                    "x": 104.62,
+                    "y": 0.33
+                },
+                {
+                    "x": 95.25,
+                    "y": 15.66
+                },
+                {
+                    "x": 46.3,
+                    "y": 54.68
+                },
+                {
+                    "x": 71.56,
+                    "y": 15.24
+                },
+                {
+                    "x": 64.24,
+                    "y": 17.83
+                },
+                {
+                    "x": 64.02,
+                    "y": 7.22
+                },
+                {
+                    "x": 73.25,
+                    "y": 5.71
+                },
+                {
+                    "x": 79.11,
+                    "y": 4.99
+                },
+                {
+                    "x": 54.74,
+                    "y": 35.14
+                },
+                {
+                    "x": 68.97,
+                    "y": 4.2
+                },
+                {
+                    "x": 65.82,
+                    "y": 61.18
+                },
+                {
+                    "x": 65.82,
+                    "y": 61.18
+                },
+                {
+                    "x": 67.51,
+                    "y": 59.54
+                },
+                {
+                    "x": 68.18,
+                    "y": 58.82
+                },
+                {
+                    "x": 96.61,
+                    "y": 62.23
+                },
+                {
+                    "x": 56.87,
+                    "y": 33.62
+                },
+                {
+                    "x": 66.38,
+                    "y": 58.95
+                },
+                {
+                    "x": 61.45,
+                    "y": 61.77
+                },
+                {
+                    "x": 76.63,
+                    "y": 25.48
+                },
+                {
+                    "x": 70.88,
+                    "y": 63.41
+                },
+                {
+                    "x": 72.69,
+                    "y": 56.72
+                },
+                {
+                    "x": 59.21,
+                    "y": 62.23
+                },
+                {
+                    "x": 91.9,
+                    "y": 45.54
+                },
+                {
+                    "x": 30.06,
+                    "y": 46.24
+                },
+                {
+                    "x": 38.73,
+                    "y": 48.91
+                },
+                {
+                    "x": 92,
+                    "y": 44.63
+                },
+                {
+                    "x": 34.9,
+                    "y": 55.14
+                },
+                {
+                    "x": 35.02,
+                    "y": 57.37
+                },
+                {
+                    "x": 62.33,
+                    "y": 59.21
+                },
+                {
+                    "x": 67.62,
+                    "y": 62.88
+                },
+                {
+                    "x": 64.8,
+                    "y": 56.06
+                },
+                {
+                    "x": 82.37,
+                    "y": 62.95
+                },
+                {
+                    "x": 40.2,
+                    "y": 51.08
+                },
+                {
+                    "x": 67.39,
+                    "y": 50.59
+                },
+                {
+                    "x": 69.76,
+                    "y": 55.54
+                },
+                {
+                    "x": 74.71,
+                    "y": 5.38
+                },
+                {
+                    "x": 63.9,
+                    "y": 31.41
+                },
+                {
+                    "x": 72.12,
+                    "y": 12.72
+                },
+                {
+                    "x": 89.3,
+                    "y": 22.88
+                },
+                {
+                    "x": 92.2,
+                    "y": 23.02
+                },
+                {
+                    "x": 45.79,
+                    "y": 45.96
+                },
+                {
+                    "x": 55.55,
+                    "y": 55.08
+                },
+                {
+                    "x": 49.76,
+                    "y": 49.33
+                },
+                {
+                    "x": 50.06,
+                    "y": 49.75
+                },
+                {
+                    "x": 45.28,
+                    "y": 31.64
+                },
+                {
+                    "x": 64.35,
+                    "y": 52.62
+                },
+                {
+                    "x": 82.37,
+                    "y": 57.64
+                },
+                {
+                    "x": 63.23,
+                    "y": 9.58
+                },
+                {
+                    "x": 60.73,
+                    "y": 9.97
+                },
+                {
+                    "x": 74.94,
+                    "y": 0
+                },
+                {
+                    "x": 89.8,
+                    "y": 12.46
+                },
+                {
+                    "x": 83.16,
+                    "y": 14.54
+                },
+                {
+                    "x": 75.16,
+                    "y": 62.62
+                },
+                {
+                    "x": 75.62,
+                    "y": 52.06
+                },
+                {
+                    "x": 55.85,
+                    "y": 40.22
+                },
+                {
+                    "x": 44.67,
+                    "y": 45.54
+                },
+                {
+                    "x": 37.38,
+                    "y": 49.19
+                },
+                {
+                    "x": 38.51,
+                    "y": 45.05
+                },
+                {
+                    "x": 59.01,
+                    "y": 39.46
+                },
+                {
+                    "x": 76.85,
+                    "y": 47.29
+                },
+                {
+                    "x": 76.52,
+                    "y": 45.82
+                },
+                {
+                    "x": 61.88,
+                    "y": 17.97
+                },
+                {
+                    "x": 72.46,
+                    "y": 18.18
+                },
+                {
+                    "x": 71.79,
+                    "y": 31.71
+                },
+                {
+                    "x": 98.15,
+                    "y": 47.64
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 64.58,
+                    "y": 50.59
+                },
+                {
+                    "x": 53.82,
+                    "y": 42.06
+                },
+                {
+                    "x": 74.49,
+                    "y": 15.94
+                },
+                {
+                    "x": 43.96,
+                    "y": 60.72
+                },
+                {
+                    "x": 43.12,
+                    "y": 47.92
+                },
+                {
+                    "x": 67.96,
+                    "y": 2.89
+                },
+                {
+                    "x": 67.73,
+                    "y": 4.33
+                },
+                {
+                    "x": 59.41,
+                    "y": 47.71
+                },
+                {
+                    "x": 57.79,
+                    "y": 48.48
+                },
+                {
+                    "x": 59.31,
+                    "y": 47.22
+                },
+                {
+                    "x": 60.33,
+                    "y": 45.19
+                },
+                {
+                    "x": 52.5,
+                    "y": 34
+                },
+                {
+                    "x": 48.64,
+                    "y": 40.22
+                },
+                {
+                    "x": 81.02,
+                    "y": 12.72
+                },
+                {
+                    "x": 33.1,
+                    "y": 56.65
+                },
+                {
+                    "x": 74.15,
+                    "y": 7.67
+                },
+                {
+                    "x": 71,
+                    "y": 9.77
+                },
+                {
+                    "x": 74.83,
+                    "y": 53.32
+                },
+                {
+                    "x": 69.98,
+                    "y": 22.81
+                },
+                {
+                    "x": 74.26,
+                    "y": 16.29
+                },
+                {
+                    "x": 69.87,
+                    "y": 19.87
+                },
+                {
+                    "x": 61.45,
+                    "y": 44.28
+                },
+                {
+                    "x": 92.8,
+                    "y": 29.72
+                },
+                {
+                    "x": 48.94,
+                    "y": 39.29
+                },
+                {
+                    "x": 62.55,
+                    "y": 9.18
+                },
+                {
+                    "x": 71.45,
+                    "y": 51.5
+                },
+                {
+                    "x": 61.14,
+                    "y": 7.81
+                },
+                {
+                    "x": 36.37,
+                    "y": 38.2
+                },
+                {
+                    "x": 75.39,
+                    "y": 61.57
+                },
+                {
+                    "x": 46.91,
+                    "y": 51.64
+                },
+                {
+                    "x": 76.97,
+                    "y": 65.97
+                },
+                {
+                    "x": 60.33,
+                    "y": 57.83
+                },
+                {
+                    "x": 71.67,
+                    "y": 50.17
+                },
+                {
+                    "x": 85.06,
+                    "y": 43.51
+                },
+                {
+                    "x": 68.86,
+                    "y": 38.12
+                },
+                {
+                    "x": 23.75,
+                    "y": 47.08
+                },
+                {
+                    "x": 58.9,
+                    "y": 42.52
+                },
+                {
+                    "x": 31.19,
+                    "y": 52.41
+                },
+                {
+                    "x": 37.27,
+                    "y": 64
+                },
+                {
+                    "x": 84.96,
+                    "y": 59.01
+                },
+                {
+                    "x": 46.6,
+                    "y": 23.09
+                },
+                {
+                    "x": 42.34,
+                    "y": 22.46
+                },
+                {
+                    "x": 73.48,
+                    "y": 53.39
+                },
+                {
+                    "x": 74.94,
+                    "y": 45.96
+                },
+                {
+                    "x": 80.01,
+                    "y": 37.77
+                },
+                {
+                    "x": 85.06,
+                    "y": 44.35
+                },
+                {
+                    "x": 44.37,
+                    "y": 64.72
+                },
+                {
+                    "x": 45.38,
+                    "y": 15.66
+                },
+                {
+                    "x": 74.38,
+                    "y": 44.77
+                },
+                {
+                    "x": 56.57,
+                    "y": 21.27
+                },
+                {
+                    "x": 76.74,
+                    "y": 22.88
+                },
+                {
+                    "x": 73.7,
+                    "y": 25.65
+                },
+                {
+                    "x": 74.15,
+                    "y": 31.41
+                },
+                {
+                    "x": 84.4,
+                    "y": 58.42
+                },
+                {
+                    "x": 22.63,
+                    "y": 24.96
+                },
+                {
+                    "x": 64.8,
+                    "y": 4.72
+                },
+                {
+                    "x": 66.04,
+                    "y": 3.02
+                },
+                {
+                    "x": 42.79,
+                    "y": 36.14
+                },
+                {
+                    "x": 75.28,
+                    "y": 54.68
+                },
+                {
+                    "x": 66.15,
+                    "y": 4
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 2468216,
+                "currency": "EUR",
+                "lowerBound": 1974572,
+                "upperBound": 2961859,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 2486823,
+                "currency": "EUR",
+                "lowerBound": 1989459,
+                "upperBound": 2984188,
+                "source": "scisports",
+                "teamId": -1,
+                "teamName": "Club Tijuana Xoloitzcuintles de Caliente Under 15"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 2087101,
+                "currency": "EUR",
+                "lowerBound": 1669680,
+                "upperBound": 2504521,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 2074947,
+                "currency": "EUR",
+                "lowerBound": 1659957,
+                "upperBound": 2489936,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 2459860,
+                "currency": "EUR",
+                "lowerBound": 1967888,
+                "upperBound": 2951832,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 2520416,
+                "currency": "EUR",
+                "lowerBound": 2016333,
+                "upperBound": 3024500,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 2520416,
+                "currency": "EUR",
+                "lowerBound": 2016333,
+                "upperBound": 3024500,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 2520416,
+                "currency": "EUR",
+                "lowerBound": 2016333,
+                "upperBound": 3024500,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 2519905,
+                "currency": "EUR",
+                "lowerBound": 2015924,
+                "upperBound": 3023886,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 2497321,
+                "currency": "EUR",
+                "lowerBound": 1997857,
+                "upperBound": 2996786,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 5273442,
+                "currency": "EUR",
+                "lowerBound": 4482426,
+                "upperBound": 6064459,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 7520343,
+                "currency": "EUR",
+                "lowerBound": 6392291,
+                "upperBound": 8648394,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 7507658,
+                "currency": "EUR",
+                "lowerBound": 6381510,
+                "upperBound": 8633807,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 6495636,
+                "currency": "EUR",
+                "lowerBound": 5521290,
+                "upperBound": 7469981,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 6194429,
+                "currency": "EUR",
+                "lowerBound": 5265265,
+                "upperBound": 7123594,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 7279320,
+                "currency": "EUR",
+                "lowerBound": 6187422,
+                "upperBound": 8371218,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 6706735,
+                "currency": "EUR",
+                "lowerBound": 5700724,
+                "upperBound": 7712745,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 6445378,
+                "currency": "EUR",
+                "lowerBound": 5478571,
+                "upperBound": 7412184,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 6557094,
+                "currency": "EUR",
+                "lowerBound": 5573530,
+                "upperBound": 7540658,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 6574871,
+                "currency": "EUR",
+                "lowerBound": 5588640,
+                "upperBound": 7561101,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 6533836,
+                "currency": "EUR",
+                "lowerBound": 5553761,
+                "upperBound": 7513912,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 6433214,
+                "currency": "EUR",
+                "lowerBound": 5468232,
+                "upperBound": 7398197,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 7398197,
+                "currency": "EUR",
+                "lowerBound": 6288467,
+                "upperBound": 8507926,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 8507926,
+                "currency": "EUR",
+                "lowerBound": 7231737,
+                "upperBound": 9784114,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 9784114,
+                "currency": "EUR",
+                "lowerBound": 8316496,
+                "upperBound": 11251731,
+                "source": "scisports",
+                "teamId": 162418,
+                "teamName": "Tijuana"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 324432,
+                "name": "Antonio Rodr\u00edguez"
+            },
+            {
+                "id": 1169764,
+                "name": "Rafael Fern\u00e1ndez"
+            },
+            {
+                "id": 616540,
+                "name": "Unai Bilbao"
+            },
+            {
+                "id": 610642,
+                "name": "Kevin Escamilla"
+            },
+            {
+                "id": 1010407,
+                "name": "Alejandro G\u00f3mez"
+            },
+            {
+                "id": 1071276,
+                "name": "Iv\u00e1n Tona"
+            },
+            {
+                "id": 1119943,
+                "name": "Mourad El Ghezouani"
+            },
+            {
+                "id": 1072829,
+                "name": "Adonis Preciado"
+            },
+            {
+                "id": 1032039,
+                "name": "Jackson Porozo"
+            },
+            {
+                "id": 1225758,
+                "name": "Alan Vega"
+            },
+            {
+                "id": 1455072,
+                "name": "Ramiro \u00c1rciga"
+            },
+            {
+                "id": 1173461,
+                "name": "\u00c1ngel Zapata"
+            },
+            {
+                "id": 430015,
+                "name": "Ignacio Rivero"
+            },
+            {
+                "id": 896548,
+                "name": "\u00d3scar Manzan\u00e1rez"
+            },
+            {
+                "id": 1572472,
+                "name": "Aldahir P\u00e9rez"
+            },
+            {
+                "id": 1432285,
+                "name": "Salim Hern\u00e1ndez"
+            },
+            {
+                "id": 239287,
+                "name": "Josef Mart\u00ednez"
+            },
+            {
+                "id": 1603564,
+                "name": "Diego Abreu"
+            },
+            {
+                "id": 1457724,
+                "name": "Yael Padilla"
+            },
+            {
+                "id": 1504865,
+                "name": "Pablo Ort\u00edz"
+            },
+            {
+                "id": 791820,
+                "name": "Frank Boya"
+            },
+            {
+                "id": 1851538,
+                "name": "German Padilla"
+            },
+            {
+                "id": 1222038,
+                "name": "Christian Castillo"
+            },
+            {
+                "id": 1729963,
+                "name": "Joban Gonz\u00e1lez"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 1227878,
+                "name": "Ra\u00fal Rangel"
+            },
+            {
+                "id": 727586,
+                "name": "Jorge S\u00e1nchez"
+            },
+            {
+                "id": 664644,
+                "name": "C\u00e9sar Montes"
+            },
+            {
+                "id": 783505,
+                "name": "Edson \u00c1lvarez"
+            },
+            {
+                "id": 914103,
+                "name": "Johan V\u00e1squez"
+            },
+            {
+                "id": 971628,
+                "name": "\u00c9rik Lira"
+            },
+            {
+                "id": 921174,
+                "name": "Luis Romo"
+            },
+            {
+                "id": 895954,
+                "name": "\u00c1lvaro Fidalgo"
+            },
+            {
+                "id": 292313,
+                "name": "Raul Jim\u00e9nez"
+            },
+            {
+                "id": 728365,
+                "name": "Alexis Vega"
+            },
+            {
+                "id": 954092,
+                "name": "Santiago Gim\u00e9nez"
+            },
+            {
+                "id": 751164,
+                "name": "Carlos Acevedo"
+            },
+            {
+                "id": 31047,
+                "name": "Guillermo Ochoa"
+            },
+            {
+                "id": 1456983,
+                "name": "Armando Gonz\u00e1lez"
+            },
+            {
+                "id": 1074586,
+                "name": "Israel Reyes"
+            },
+            {
+                "id": 720560,
+                "name": "Juli\u00e1n Qui\u00f1ones"
+            },
+            {
+                "id": 559986,
+                "name": "Orbel\u00edn Pineda"
+            },
+            {
+                "id": 1254394,
+                "name": "Obed Vargas"
+            },
+            {
+                "id": 1432212,
+                "name": "Mateo Ch\u00e1vez"
+            },
+            {
+                "id": 977404,
+                "name": "C\u00e9sar Huerta"
+            },
+            {
+                "id": 558539,
+                "name": "Guillermo Mart\u00ednez"
+            },
+            {
+                "id": 597976,
+                "name": "Jes\u00fas Gallardo"
+            },
+            {
+                "id": 527616,
+                "name": "Luis Ch\u00e1vez"
+            },
+            {
+                "id": 720737,
+                "name": "Roberto Alvarado"
+            },
+            {
+                "id": 1170238,
+                "name": "Brian Guti\u00e9rrez"
+            }
+        ],
+        "womensNationalTeam": [
+            {
+                "id": 1360040,
+                "name": "Diana Ord\u00f3\u00f1ez"
+            },
+            {
+                "id": 1570698,
+                "name": "Itzel Velasco"
+            },
+            {
+                "id": 1691858,
+                "name": "Ivonne Guti\u00e9rrez"
+            },
+            {
+                "id": 1611578,
+                "name": "Nina Nicosia"
+            },
+            {
+                "id": 271531,
+                "name": "Kenti Robles"
+            },
+            {
+                "id": 1386690,
+                "name": "Karla Nieto"
+            },
+            {
+                "id": 1269074,
+                "name": "Rebeca Bernal"
+            },
+            {
+                "id": 1366785,
+                "name": "Karol Bernal"
+            },
+            {
+                "id": 646171,
+                "name": "Mar\u00eda S\u00e1nchez"
+            },
+            {
+                "id": 1434520,
+                "name": "Alexia Delgado"
+            },
+            {
+                "id": 934143,
+                "name": "Kiana Palacios"
+            },
+            {
+                "id": 1311917,
+                "name": "Montserrat Sald\u00edvar"
+            },
+            {
+                "id": 1290773,
+                "name": "Alice Soto"
+            },
+            {
+                "id": 1384114,
+                "name": "Blanca F\u00e9lix"
+            },
+            {
+                "id": 646164,
+                "name": "Greta Espinoza"
+            },
+            {
+                "id": 1337846,
+                "name": "Jasmine Cas\u00e1rez"
+            },
+            {
+                "id": 1269070,
+                "name": "Nancy Antonio"
+            },
+            {
+                "id": 1269083,
+                "name": "Reyna Reyes"
+            },
+            {
+                "id": 1312258,
+                "name": "F\u00e1tima Serv\u00edn"
+            },
+            {
+                "id": 271552,
+                "name": "Charlyn Corral"
+            },
+            {
+                "id": 1336476,
+                "name": "Nicolette Hern\u00e1ndez"
+            },
+            {
+                "id": 1386688,
+                "name": "Esthefanny Barreras"
+            },
+            {
+                "id": 1524136,
+                "name": "Kimberly Rodr\u00edguez"
+            }
+        ]
+    },
+    "nextMatch": {
+        "matchId": 1000014512,
+        "homeId": 162418,
+        "awayId": 1841,
+        "homeName": "Tijuana",
+        "awayName": "Leon",
+        "matchDate": "2026-07-25T03:00:00Z",
+        "statusId": 1,
+        "leagueId": 230,
+        "parentLeagueId": -1,
+        "leagueName": "Liga MX",
+        "status": {
+            "utcTime": "2026-07-25T03:00:00.000Z",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+        },
+        "stadium": {
+            "venue": "Estadio Caliente",
+            "city": "Tijuana",
+            "lat": 32.506056657,
+            "long": -116.993080974
+        },
+        "matchUrl": "/matches/leon-vs-tijuana/673y8kn#1000014512"
+    },
+    "dataProvider": "opta"
+}

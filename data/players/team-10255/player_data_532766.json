@@ -1,0 +1,4856 @@
+{
+    "id": 532766,
+    "name": "Zizo",
+    "birthDate": {
+        "utcTime": "1996-01-10T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "contractEnd": {
+        "utcTime": "2030-06-30T00:00:00.000Z",
+        "timezone": "UTC"
+    },
+    "isCoach": false,
+    "isCaptain": false,
+    "gender": "male",
+    "primaryTeam": {
+        "teamId": 101745,
+        "teamName": "Al Ahly SC",
+        "onLoan": false,
+        "teamColors": {
+            "color": "#A02020",
+            "colorAlternate": "#A02020",
+            "colorAway": "#000000",
+            "colorAwayAlternate": "#ffffff"
+        }
+    },
+    "positionDescription": {
+        "positions": [
+            {
+                "strPos": {
+                    "label": "Defensive Midfielder",
+                    "key": "centerdefensivemidfielder"
+                },
+                "strPosShort": {
+                    "label": "DM",
+                    "key": "centerdefensivemidfielder_short"
+                },
+                "occurences": 1,
+                "position": "64",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Central Midfielder",
+                    "key": "centermidfielder"
+                },
+                "strPosShort": {
+                    "label": "CM",
+                    "key": "centermidfielder_short"
+                },
+                "occurences": 2,
+                "position": "73",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.42,
+                    "ratio": 0.2625
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Midfielder",
+                    "key": "leftmidfielder"
+                },
+                "strPosShort": {
+                    "label": "LM",
+                    "key": "leftmidfielder_short"
+                },
+                "occurences": 1,
+                "position": "78",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            },
+            {
+                "strPos": {
+                    "label": "Right Winger",
+                    "key": "rightwinger"
+                },
+                "strPosShort": {
+                    "label": "RW",
+                    "key": "rightwinger_short"
+                },
+                "occurences": 14,
+                "position": "82",
+                "isMainPosition": true,
+                "pitchPositionData": {
+                    "right": 0.83,
+                    "top": 0.26
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Attacking Midfielder",
+                    "key": "centerattackingmidfielder"
+                },
+                "strPosShort": {
+                    "label": "AM",
+                    "key": "centerattackingmidfielder_short"
+                },
+                "occurences": 9,
+                "position": "84",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.26,
+                    "ratio": 0.48125
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Striker",
+                    "key": "striker"
+                },
+                "strPosShort": {
+                    "label": "ST",
+                    "key": "striker_short"
+                },
+                "occurences": 4,
+                "position": "104",
+                "isMainPosition": false,
+                "pitchPositionData": {
+                    "right": 0.5,
+                    "top": 0.1,
+                    "ratio": 0.325
+                }
+            },
+            {
+                "strPos": {
+                    "label": "Left Winger",
+                    "key": "leftwinger"
+                },
+                "strPosShort": {
+                    "label": "LW",
+                    "key": "leftwinger_short"
+                },
+                "occurences": 1,
+                "position": "107",
+                "isMainPosition": false,
+                "pitchPositionData": null
+            }
+        ],
+        "primaryPosition": {
+            "label": "Right Winger",
+            "key": "rightwinger"
+        },
+        "nonPrimaryPositions": [
+            {
+                "label": "Central Midfielder",
+                "key": "centermidfielder"
+            },
+            {
+                "label": "Attacking Midfielder",
+                "key": "centerattackingmidfielder"
+            },
+            {
+                "label": "Striker",
+                "key": "striker"
+            }
+        ]
+    },
+    "injuryInformation": null,
+    "internationalDuty": null,
+    "playerInformation": [
+        {
+            "value": {
+                "numberValue": 180,
+                "key": null,
+                "fallback": "180 cm"
+            },
+            "title": "Height",
+            "translationKey": "height_sentencecase"
+        },
+        {
+            "value": {
+                "numberValue": 25,
+                "options": {},
+                "key": null,
+                "fallback": 25
+            },
+            "title": "Shirt",
+            "translationKey": "shirt"
+        },
+        {
+            "value": {
+                "numberValue": 30,
+                "options": {
+                    "style": "unit",
+                    "unit": "year",
+                    "unitDisplay": "long"
+                },
+                "key": null,
+                "fallback": "30"
+            },
+            "title": "Age",
+            "translationKey": "age_sentencecase"
+        },
+        {
+            "value": {
+                "key": "right",
+                "fallback": "Right"
+            },
+            "title": "Preferred foot",
+            "translationKey": "preferred_foot"
+        },
+        {
+            "value": {
+                "key": null,
+                "fallback": "Egypt"
+            },
+            "title": "Country",
+            "translationKey": "country_sentencecase",
+            "icon": {
+                "type": "country",
+                "id": "EGY"
+            },
+            "countryCode": "EGY"
+        },
+        {
+            "value": {
+                "numberValue": 2243623,
+                "key": null,
+                "fallback": "\u20ac2.2m"
+            },
+            "title": "Market value",
+            "translationKey": "transfer_value"
+        },
+        {
+            "value": {
+                "dateValue": "2030-06-30",
+                "key": null,
+                "fallback": {
+                    "utcTime": "2030-06-30T00:00:00.000Z",
+                    "timezone": "UTC"
+                }
+            },
+            "title": "Contract end",
+            "translationKey": "contract_end"
+        }
+    ],
+    "mainLeague": {
+        "leagueId": 519,
+        "leagueName": "Premier League",
+        "season": "2025/2026",
+        "stats": [
+            {
+                "title": "Goals",
+                "localizedTitleId": "goals",
+                "value": 5
+            },
+            {
+                "title": "Assists",
+                "localizedTitleId": "assists",
+                "value": 6
+            },
+            {
+                "title": "Started",
+                "localizedTitleId": "started",
+                "value": 16
+            },
+            {
+                "title": "Matches",
+                "localizedTitleId": "matches_uppercase",
+                "value": 20
+            },
+            {
+                "title": "Minutes played",
+                "localizedTitleId": "minutes_played",
+                "value": 1265
+            },
+            {
+                "title": "Rating",
+                "localizedTitleId": "rating",
+                "value": 7.457777777777778
+            },
+            {
+                "title": "Yellow cards",
+                "localizedTitleId": "yellow_cards",
+                "value": 0
+            },
+            {
+                "title": "Red cards",
+                "localizedTitleId": "red_cards",
+                "value": 0
+            }
+        ]
+    },
+    "trophies": {
+        "playerTrophies": [
+            {
+                "ccode": "EGY",
+                "teamId": 80591,
+                "teamName": "Zamalek SC",
+                "tournaments": [
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9467,
+                        "leagueName": "CAF Super Cup",
+                        "seasonsWon": [
+                            "2024/2025",
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "EGY",
+                        "leagueId": 9941,
+                        "leagueName": "Egypt Cup",
+                        "seasonsWon": [
+                            "2020/2021",
+                            "2018/2019"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2022/2023"
+                        ]
+                    },
+                    {
+                        "ccode": "EGY",
+                        "leagueId": 519,
+                        "leagueName": "Premier League",
+                        "seasonsWon": [
+                            "2021/2022",
+                            "2020/2021"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2019/2020",
+                            "2018/2019"
+                        ]
+                    },
+                    {
+                        "ccode": "INT",
+                        "leagueId": 9468,
+                        "leagueName": "CAF Confed Cup",
+                        "seasonsWon": [
+                            "2023/2024",
+                            "2018/2019"
+                        ],
+                        "seasonsRunnerUp": []
+                    },
+                    {
+                        "ccode": "EGY",
+                        "leagueId": 10314,
+                        "leagueName": "Super Cup",
+                        "seasonsWon": [
+                            "2019/2020"
+                        ],
+                        "seasonsRunnerUp": [
+                            "2024/2025",
+                            "2021/2022",
+                            "2017/2018"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "coachTrophies": []
+    },
+    "recentMatches": [
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6706,
+            "opponentTeamName": "Argentina",
+            "isHomeTeam": false,
+            "id": 4653848,
+            "matchDate": {
+                "utcTime": "2026-07-07T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/argentina-vs-egypt/2dn9n7#4653848",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6716,
+            "opponentTeamName": "Australia",
+            "isHomeTeam": false,
+            "id": 4653716,
+            "matchDate": {
+                "utcTime": "2026-07-03T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/australia-vs-egypt/2dqwke#4653716",
+            "leagueId": 77,
+            "leagueName": "World Cup",
+            "stage": "1/16",
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6711,
+            "opponentTeamName": "Iran",
+            "isHomeTeam": true,
+            "id": 4667795,
+            "matchDate": {
+                "utcTime": "2026-06-27T03:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/iran-vs-egypt/2dp33g#4667795",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 33,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 5820,
+            "opponentTeamName": "New Zealand",
+            "isHomeTeam": false,
+            "id": 4667792,
+            "matchDate": {
+                "utcTime": "2026-06-22T01:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/new-zealand-vs-egypt/24xk7y#4667792",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 8263,
+            "opponentTeamName": "Belgium",
+            "isHomeTeam": false,
+            "id": 4667790,
+            "matchDate": {
+                "utcTime": "2026-06-15T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/belgium-vs-egypt/2u3bhg#4667790",
+            "leagueId": 77,
+            "leagueName": "World Cup Grp. G",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 14,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 8256,
+            "opponentTeamName": "Brazil",
+            "isHomeTeam": false,
+            "id": 5667813,
+            "matchDate": {
+                "utcTime": "2026-06-06T22:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/brazil-vs-egypt/2u0jh4#5667813",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 8713,
+            "opponentTeamName": "Russia",
+            "isHomeTeam": true,
+            "id": 5451193,
+            "matchDate": {
+                "utcTime": "2026-05-28T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/russia-vs-egypt/2z43zp#5451193",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101762,
+            "opponentTeamName": "Al Masry SC",
+            "isHomeTeam": false,
+            "id": 5243240,
+            "matchDate": {
+                "utcTime": "2026-05-20T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-al-masry-sc/9igv0i8#5243240",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 1,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101754,
+            "opponentTeamName": "ENPPI",
+            "isHomeTeam": true,
+            "id": 5243237,
+            "matchDate": {
+                "utcTime": "2026-05-05T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-enppi/9ifw4b0#5243237",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 70,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 78,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 80591,
+            "opponentTeamName": "Zamalek SC",
+            "isHomeTeam": false,
+            "id": 5243236,
+            "matchDate": {
+                "utcTime": "2026-05-01T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/zamalek-sc-vs-al-ahly-sc/7mx4q9b#5243236",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 517894,
+            "opponentTeamName": "Pyramids FC",
+            "isHomeTeam": false,
+            "id": 5243232,
+            "matchDate": {
+                "utcTime": "2026-04-27T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-pyramids-fc/2g6y6xgq#5243232",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 205189,
+            "opponentTeamName": "Smouha SC",
+            "isHomeTeam": true,
+            "id": 5243225,
+            "matchDate": {
+                "utcTime": "2026-04-11T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-smouha-sc/ln0v12q#5243225",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 65,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 608449,
+            "opponentTeamName": "Ceramica Cleopatra",
+            "isHomeTeam": false,
+            "id": 5243223,
+            "matchDate": {
+                "utcTime": "2026-04-07T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-ceramica-cleopatra/37uqnjjw#5243223",
+            "leagueId": 519,
+            "leagueName": "Premier League Championship Group",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6720,
+            "opponentTeamName": "Spain",
+            "isHomeTeam": false,
+            "id": 5137675,
+            "matchDate": {
+                "utcTime": "2026-03-31T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/spain-vs-egypt/2dscyg#5137675",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 82,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 7795,
+            "opponentTeamName": "Saudi Arabia",
+            "isHomeTeam": false,
+            "id": 5267632,
+            "matchDate": {
+                "utcTime": "2026-03-27T17:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/saudi-arabia-vs-egypt/2ozwdy#5267632",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 4,
+            "minutesPlayed": 58,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.5",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 8153,
+            "opponentTeamName": "Esp\u00e9rance",
+            "isHomeTeam": true,
+            "id": 5187176,
+            "matchDate": {
+                "utcTime": "2026-03-21T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/esperance-vs-al-ahly-sc/2rvdh68#5187176",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League",
+            "stage": "1/4",
+            "homeScore": 2,
+            "awayScore": 3,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 72,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 8153,
+            "opponentTeamName": "Esp\u00e9rance",
+            "isHomeTeam": false,
+            "id": 5187173,
+            "matchDate": {
+                "utcTime": "2026-03-15T21:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/esperance-vs-al-ahly-sc/2rvdh68#5187173",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League",
+            "stage": "1/4",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 74,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101747,
+            "opponentTeamName": "Tala'ea El Gaish",
+            "isHomeTeam": false,
+            "id": 4899581,
+            "matchDate": {
+                "utcTime": "2026-03-09T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-talaea-el-gaish/9if1l65#4899581",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 24,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.0",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101757,
+            "opponentTeamName": "Al Mokawloon Al Arab",
+            "isHomeTeam": false,
+            "id": 4899713,
+            "matchDate": {
+                "utcTime": "2026-03-05T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-al-mokawloon-al-arab/9ig97di#4899713",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 3,
+            "minutesPlayed": 66,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 107,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 585662,
+            "opponentTeamName": "ZED FC",
+            "isHomeTeam": true,
+            "id": 4899688,
+            "matchDate": {
+                "utcTime": "2026-02-28T19:30:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-zed-fc/30je5i92#4899688",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 21,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 687954,
+            "opponentTeamName": "National Bank",
+            "isHomeTeam": false,
+            "id": 4899603,
+            "matchDate": {
+                "utcTime": "2026-02-03T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-national-bank/3z8tlzi0#4899603",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 31,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "5.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 165084,
+            "opponentTeamName": "Young Africans",
+            "isHomeTeam": false,
+            "id": 5045227,
+            "matchDate": {
+                "utcTime": "2026-01-31T13:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-young-africans/gcqtgnr#5045227",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 205190,
+            "opponentTeamName": "Wadi Degla FC",
+            "isHomeTeam": true,
+            "id": 4899593,
+            "matchDate": {
+                "utcTime": "2026-01-27T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-wadi-degla-fc/ln11lwq#4899593",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.4",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 165084,
+            "opponentTeamName": "Young Africans",
+            "isHomeTeam": true,
+            "id": 5045224,
+            "matchDate": {
+                "utcTime": "2026-01-23T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-young-africans/gcqtgnr#5045224",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6346,
+            "opponentTeamName": "Nigeria",
+            "isHomeTeam": true,
+            "id": 5073477,
+            "matchDate": {
+                "utcTime": "2026-01-17T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nigeria-vs-egypt/2a1ru7#5073477",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "bronze",
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 60,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 64,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6395,
+            "opponentTeamName": "Senegal",
+            "isHomeTeam": false,
+            "id": 5073475,
+            "matchDate": {
+                "utcTime": "2026-01-14T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/senegal-vs-egypt/2aj8he#5073475",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/2",
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 9,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6709,
+            "opponentTeamName": "Ivory Coast",
+            "isHomeTeam": true,
+            "id": 5073474,
+            "matchDate": {
+                "utcTime": "2026-01-10T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/ivory-coast-vs-egypt/2docwv#5073474",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/4",
+            "homeScore": 3,
+            "awayScore": 2,
+            "minutesPlayed": 0,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": true,
+            "playedInMatch": false
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 5883,
+            "opponentTeamName": "Benin",
+            "isHomeTeam": true,
+            "id": 5073460,
+            "matchDate": {
+                "utcTime": "2026-01-05T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/benin-vs-egypt/25jb8y#5073460",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations",
+            "stage": "1/8",
+            "homeScore": 3,
+            "awayScore": 1,
+            "minutesPlayed": 61,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6712,
+            "opponentTeamName": "Angola",
+            "isHomeTeam": false,
+            "id": 4721993,
+            "matchDate": {
+                "utcTime": "2025-12-29T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/angola-vs-egypt/2dpg6s#4721993",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. B",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 45,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.1",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6316,
+            "opponentTeamName": "South Africa",
+            "isHomeTeam": true,
+            "id": 4721991,
+            "matchDate": {
+                "utcTime": "2025-12-26T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/south-africa-vs-egypt/29r3va#4721991",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 73,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6290,
+            "opponentTeamName": "Zimbabwe",
+            "isHomeTeam": true,
+            "id": 4721989,
+            "matchDate": {
+                "utcTime": "2025-12-22T20:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/zimbabwe-vs-egypt/29hvnn#4721989",
+            "leagueId": 289,
+            "leagueName": "Africa Cup of Nations Grp. B",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 23,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6346,
+            "opponentTeamName": "Nigeria",
+            "isHomeTeam": true,
+            "id": 5030185,
+            "matchDate": {
+                "utcTime": "2025-12-16T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/nigeria-vs-egypt/2a1ru7#5030185",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 69,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 103,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 102035,
+            "opponentTeamName": "FAR Rabat",
+            "isHomeTeam": false,
+            "id": 5045222,
+            "matchDate": {
+                "utcTime": "2025-11-28T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-far-rabat/9jdyly5#5045222",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League Grp. B",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.2",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101630,
+            "opponentTeamName": "JS Kabylie",
+            "isHomeTeam": true,
+            "id": 5045220,
+            "matchDate": {
+                "utcTime": "2025-11-22T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/js-kabylie-vs-al-ahly-sc/9i0vfll#5045220",
+            "leagueId": 526,
+            "leagueName": "CAF Champions League Grp. B",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.7",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 104,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 8700,
+            "opponentTeamName": "Uzbekistan",
+            "isHomeTeam": false,
+            "id": 5030187,
+            "matchDate": {
+                "utcTime": "2025-11-14T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/uzbekistan-vs-egypt/2yytry#5030187",
+            "leagueId": 114,
+            "leagueName": "Friendlies",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 59,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101762,
+            "opponentTeamName": "Al Masry SC",
+            "isHomeTeam": true,
+            "id": 4899563,
+            "matchDate": {
+                "utcTime": "2025-11-02T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-al-masry-sc/9igv0i8#4899563",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.6",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 103017,
+            "opponentTeamName": "Petrojet",
+            "isHomeTeam": false,
+            "id": 4899664,
+            "matchDate": {
+                "utcTime": "2025-10-29T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-petrojet/9mpe2i0#4899664",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.9",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101766,
+            "opponentTeamName": "Al Ittihad Alexandria",
+            "isHomeTeam": true,
+            "id": 4899654,
+            "matchDate": {
+                "utcTime": "2025-10-22T14:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-al-ittihad-alexandria/9ihcgmi#4899654",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 1,
+            "minutesPlayed": 83,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 115,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 230700,
+            "opponentTeamName": "Guinea-Bissau",
+            "isHomeTeam": true,
+            "id": 4341116,
+            "matchDate": {
+                "utcTime": "2025-10-12T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/egypt-vs-guinea-bissau/dc3pswm#4341116",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. A",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 0,
+            "minutesPlayed": 80,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 77,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 121285,
+            "opponentTeamName": "Djibouti",
+            "isHomeTeam": false,
+            "id": 4341111,
+            "matchDate": {
+                "utcTime": "2025-10-08T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/egypt-vs-djibouti/3z2x8c7#4341111",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 3,
+            "minutesPlayed": 79,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 82,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 316480,
+            "opponentTeamName": "Kahrbaa Ismailia",
+            "isHomeTeam": false,
+            "id": 4899556,
+            "matchDate": {
+                "utcTime": "2025-10-04T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-kahrbaa-ismailia/146deh55#4899556",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 4,
+            "minutesPlayed": 74,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.5",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 86,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101754,
+            "opponentTeamName": "ENPPI",
+            "isHomeTeam": false,
+            "id": 4896205,
+            "matchDate": {
+                "utcTime": "2025-09-14T17:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-enppi/9ifw4b0#4896205",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 1,
+            "awayScore": 1,
+            "minutesPlayed": 27,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 6323,
+            "opponentTeamName": "Burkina Faso",
+            "isHomeTeam": false,
+            "id": 4341108,
+            "matchDate": {
+                "utcTime": "2025-09-09T16:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/burkina-faso-vs-egypt/29tlee#4341108",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. A",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 5,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 10255,
+            "teamName": "Egypt",
+            "opponentTeamId": 121282,
+            "opponentTeamName": "Ethiopia",
+            "isHomeTeam": true,
+            "id": 4341096,
+            "matchDate": {
+                "utcTime": "2025-09-05T19:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/egypt-vs-ethiopia/3z2oruj#4341096",
+            "leagueId": 10196,
+            "leagueName": "World Cup Qualification CAF Grp. A",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 0,
+            "minutesPlayed": 63,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": 0,
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 517894,
+            "opponentTeamName": "Pyramids FC",
+            "isHomeTeam": true,
+            "id": 4896191,
+            "matchDate": {
+                "utcTime": "2025-08-30T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-pyramids-fc/2g6y6xgq#4896191",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "6.3",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 85,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 101752,
+            "opponentTeamName": "Ghazl Al Mahalla",
+            "isHomeTeam": false,
+            "id": 4896179,
+            "matchDate": {
+                "utcTime": "2025-08-25T15:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-ghazl-al-mahalla/9ifne9h#4896179",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 0,
+            "awayScore": 0,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "7.8",
+                "isTopRating": false
+            },
+            "playerOfTheMatch": false,
+            "onBench": false,
+            "lineupPositionId": 84,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 581345,
+            "opponentTeamName": "Pharco FC",
+            "isHomeTeam": true,
+            "id": 4896159,
+            "matchDate": {
+                "utcTime": "2025-08-15T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-pharco-fc/2z6gwht8#4896159",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 4,
+            "awayScore": 1,
+            "minutesPlayed": 89,
+            "goals": 2,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "9.0",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 105,
+            "playedInMatch": true
+        },
+        {
+            "teamId": 101745,
+            "teamName": "Al Ahly SC",
+            "opponentTeamId": 797212,
+            "opponentTeamName": "Modern Sport FC",
+            "isHomeTeam": false,
+            "id": 4895999,
+            "matchDate": {
+                "utcTime": "2025-08-09T18:00:00.000Z"
+            },
+            "matchPageUrl": "/matches/al-ahly-sc-vs-modern-sport-fc/55mgqc3b#4895999",
+            "leagueId": 519,
+            "leagueName": "Premier League",
+            "stage": null,
+            "homeScore": 2,
+            "awayScore": 2,
+            "minutesPlayed": 90,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "ratingProps": {
+                "rating": "8.9",
+                "isTopRating": true
+            },
+            "playerOfTheMatch": true,
+            "onBench": false,
+            "lineupPositionId": 83,
+            "playedInMatch": true
+        }
+    ],
+    "careerHistory": {
+        "showFootnote": false,
+        "careerItems": {
+            "senior": {
+                "teamEntries": [
+                    {
+                        "participantId": 532766,
+                        "teamId": 101745,
+                        "team": "Al Ahly SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        },
+                        "startDate": "2025-06-06T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "31",
+                        "goals": "5",
+                        "assists": "10",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        },
+                        "startDate": "2019-01-25T00:00:00",
+                        "endDate": "2025-06-06T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "254",
+                        "goals": "82",
+                        "assists": "59",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 8348,
+                        "team": "Moreirense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2017-08-30T00:00:00",
+                        "endDate": "2018-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "back from loan",
+                            "localizationKey": "transfer_type_back_from_loan"
+                        },
+                        "startDate": "2017-07-01T00:00:00",
+                        "endDate": "2017-07-01T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": null,
+                        "goals": null,
+                        "assists": null,
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 10214,
+                        "team": "Nacional",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        },
+                        "startDate": "2017-01-20T00:00:00",
+                        "endDate": "2017-06-30T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "13",
+                        "goals": "2",
+                        "assists": "0",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2014-01-01T00:00:00",
+                        "endDate": "2017-01-20T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "78",
+                        "goals": "5",
+                        "assists": "3",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2025/2026",
+                        "appearances": "31",
+                        "goals": "5",
+                        "assists": "10",
+                        "rating": {
+                            "rating": "7.43"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 27525,
+                                "goals": "5",
+                                "assists": "6",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": "7.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10314,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 28872,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "8.03"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 526,
+                                "leagueName": "CAF Champions League",
+                                "seasonName": "2025/2026",
+                                "tournamentId": 29227,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.13"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 78,
+                                "leagueName": "FIFA Club World Cup",
+                                "seasonName": "2025",
+                                "tournamentId": 24449,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.97"
+                                }
+                            }
+                        ],
+                        "teamId": 101745,
+                        "team": "Al Ahly SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free transfer",
+                            "localizationKey": "free_transfer"
+                        }
+                    },
+                    {
+                        "seasonName": "2024/2025",
+                        "appearances": "29",
+                        "goals": "7",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24306,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9941,
+                                "leagueName": "Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24621,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10314,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24251,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.46"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9468,
+                                "leagueName": "CAF Confed Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 24256,
+                                "goals": "3",
+                                "assists": "2",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": "7.52"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9467,
+                                "leagueName": "CAF Super Cup",
+                                "seasonName": "2024/2025",
+                                "tournamentId": 23868,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": "7.90"
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2023/2024",
+                        "appearances": "33",
+                        "goals": "15",
+                        "assists": "9",
+                        "rating": {
+                            "rating": "7.66"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22011,
+                                "goals": "9",
+                                "assists": "3",
+                                "appearances": "19",
+                                "rating": {
+                                    "rating": "7.57"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9468,
+                                "leagueName": "CAF Confed Cup",
+                                "seasonName": "2023/2024",
+                                "tournamentId": 22100,
+                                "goals": "4",
+                                "assists": "6",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "7.83"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10474,
+                                "leagueName": "Arab Club Champions Cup",
+                                "seasonName": "2023",
+                                "tournamentId": 21566,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2022/2023",
+                        "appearances": "47",
+                        "goals": "21",
+                        "assists": "17",
+                        "rating": {
+                            "rating": "7.59"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18318,
+                                "goals": "13",
+                                "assists": "13",
+                                "appearances": "34",
+                                "rating": {
+                                    "rating": "7.65"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9941,
+                                "leagueName": "Cup",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 19920,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 526,
+                                "leagueName": "CAF Champions League",
+                                "seasonName": "2022/2023",
+                                "tournamentId": 18545,
+                                "goals": "6",
+                                "assists": "2",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": "7.41"
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2021/2022",
+                        "appearances": "39",
+                        "goals": "20",
+                        "assists": "16",
+                        "rating": {
+                            "rating": "7.95"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 16980,
+                                "goals": "19",
+                                "assists": "14",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": "8.01"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9941,
+                                "leagueName": "Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17449,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10314,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2021/2022",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 526,
+                                "leagueName": "CAF Champions League",
+                                "seasonName": "2021/2022",
+                                "tournamentId": 17208,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.70"
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2020/2021",
+                        "appearances": "41",
+                        "goals": "10",
+                        "assists": "7",
+                        "rating": {
+                            "rating": "7.34"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15874,
+                                "goals": "9",
+                                "assists": "6",
+                                "appearances": "33",
+                                "rating": {
+                                    "rating": "7.47"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9941,
+                                "leagueName": "Cup",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 16070,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 526,
+                                "leagueName": "CAF Champions League",
+                                "seasonName": "2020/2021",
+                                "tournamentId": 15986,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": "6.54"
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2019/2020",
+                        "appearances": "41",
+                        "goals": "8",
+                        "assists": "5",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14504,
+                                "goals": "7",
+                                "assists": "3",
+                                "appearances": "26",
+                                "rating": {
+                                    "rating": "6.87"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9941,
+                                "leagueName": "Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14788,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10314,
+                                "leagueName": "Super Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 526,
+                                "leagueName": "CAF Champions League",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 14625,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "11",
+                                "rating": {
+                                    "rating": "7.21"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9467,
+                                "leagueName": "CAF Super Cup",
+                                "seasonName": "2019/2020",
+                                "tournamentId": 15892,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2018/2019",
+                        "appearances": "24",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 519,
+                                "leagueName": "Premier League",
+                                "seasonName": "2018/2019",
+                                "tournamentId": 12929,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "15",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 9468,
+                                "leagueName": "CAF Confed Cup",
+                                "seasonName": "2018/2019",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "9",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 80591,
+                        "team": "Zamalek SC",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "free agent",
+                            "localizationKey": "transfer_type_free_agent"
+                        }
+                    },
+                    {
+                        "seasonName": "2017/2018",
+                        "appearances": "30",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11676,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "25",
+                                "rating": {
+                                    "rating": "6.18"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 187,
+                                "leagueName": "League Cup",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 11720,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 186,
+                                "leagueName": "Taca de Portugal",
+                                "seasonName": "2017/2018",
+                                "tournamentId": 12070,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 8348,
+                        "team": "Moreirense",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "13",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 61,
+                                "leagueName": "Liga Portugal",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10645,
+                                "goals": "2",
+                                "assists": "0",
+                                "appearances": "13",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10214,
+                        "team": "Nacional",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": {
+                            "text": "on loan",
+                            "localizationKey": "on_loan"
+                        }
+                    },
+                    {
+                        "seasonName": "2016/2017",
+                        "appearances": "18",
+                        "goals": "1",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 264,
+                                "leagueName": "First Division B",
+                                "seasonName": "2016/2017",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "17",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2016/2017",
+                                "tournamentId": 10810,
+                                "goals": "1",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2015/2016",
+                        "appearances": "20",
+                        "goals": "2",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 264,
+                                "leagueName": "First Division B",
+                                "seasonName": "2015/2016",
+                                "tournamentId": -1,
+                                "goals": "2",
+                                "assists": "undefined",
+                                "appearances": "20",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2014/2015",
+                        "appearances": "35",
+                        "goals": "2",
+                        "assists": "3",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8585,
+                                "goals": "2",
+                                "assists": "2",
+                                "appearances": "30",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 149,
+                                "leagueName": "Cup",
+                                "seasonName": "2014/2015",
+                                "tournamentId": 8916,
+                                "goals": "0",
+                                "assists": "undefined",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueName": "Play-offs 1/2",
+                                "seasonName": "2014/2015",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2013/2014",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 40,
+                                "leagueName": "First Division A",
+                                "seasonName": "2013/2014",
+                                "tournamentId": 7726,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "5",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 9989,
+                        "team": "Lierse",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            },
+            "national team": {
+                "teamEntries": [
+                    {
+                        "participantId": 532766,
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2019-10-27T00:00:00",
+                        "endDate": null,
+                        "active": true,
+                        "role": null,
+                        "appearances": "64",
+                        "goals": "5",
+                        "assists": "8",
+                        "hasUncertainData": false
+                    },
+                    {
+                        "participantId": 532766,
+                        "teamId": 307603,
+                        "team": "Egypt U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null,
+                        "startDate": "2024-07-04T00:00:00",
+                        "endDate": "2024-08-09T00:00:00",
+                        "active": false,
+                        "role": null,
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "2",
+                        "hasUncertainData": false
+                    }
+                ],
+                "seasonEntries": [
+                    {
+                        "seasonName": "2026",
+                        "appearances": "18",
+                        "goals": "3",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "6.70"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2026",
+                                "tournamentId": 21577,
+                                "goals": "2",
+                                "assists": "1",
+                                "appearances": "10",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 77,
+                                "leagueName": "World Cup",
+                                "seasonName": "2026",
+                                "tournamentId": 24254,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.08"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2026",
+                                "tournamentId": 29822,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "7.32"
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2025",
+                        "appearances": "12",
+                        "goals": "0",
+                        "assists": "4",
+                        "rating": {
+                            "rating": "6.97"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2025",
+                                "tournamentId": 24309,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "6.99"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2025",
+                                "tournamentId": -1,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2025",
+                                "tournamentId": 24481,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.91"
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2024",
+                                "tournamentId": 22275,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2023",
+                        "appearances": "13",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "7.18"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2023",
+                                "tournamentId": 22109,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10608,
+                                "leagueName": "Africa Cup of Nations Qualification",
+                                "seasonName": "2023",
+                                "tournamentId": 23214,
+                                "goals": "1",
+                                "assists": "0",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.28"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2023",
+                                "tournamentId": 18498,
+                                "goals": "0",
+                                "assists": "1",
+                                "appearances": "4",
+                                "rating": {
+                                    "rating": "6.96"
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2022",
+                        "appearances": "5",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": "6.28"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10196,
+                                "leagueName": "World Cup Qualification CAF",
+                                "seasonName": "2022",
+                                "tournamentId": 17236,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "2",
+                                "rating": {
+                                    "rating": "6.13"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2022",
+                                "tournamentId": 17169,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "3",
+                                "rating": {
+                                    "rating": "6.38"
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2021",
+                        "appearances": "14",
+                        "goals": "1",
+                        "assists": "1",
+                        "rating": {
+                            "rating": "6.57"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 10242,
+                                "leagueName": "FIFA Arab Cup",
+                                "seasonName": "2021",
+                                "tournamentId": 17035,
+                                "goals": "1",
+                                "assists": "1",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": null
+                                }
+                            },
+                            {
+                                "isFriendly": false,
+                                "leagueId": 289,
+                                "leagueName": "Africa Cup of Nations",
+                                "seasonName": "2021",
+                                "tournamentId": 16803,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "7",
+                                "rating": {
+                                    "rating": "6.57"
+                                }
+                            },
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2021",
+                                "tournamentId": 15943,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2019",
+                        "appearances": "1",
+                        "goals": "0",
+                        "assists": "0",
+                        "rating": {
+                            "rating": null
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": true,
+                                "leagueId": 114,
+                                "leagueName": "Friendlies",
+                                "seasonName": "2019",
+                                "tournamentId": 13365,
+                                "goals": "0",
+                                "assists": "0",
+                                "appearances": "1",
+                                "rating": {
+                                    "rating": null
+                                }
+                            }
+                        ],
+                        "teamId": 10255,
+                        "team": "Egypt",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    },
+                    {
+                        "seasonName": "2024",
+                        "appearances": "6",
+                        "goals": "0",
+                        "assists": "2",
+                        "rating": {
+                            "rating": "7.26"
+                        },
+                        "tournamentStats": [
+                            {
+                                "isFriendly": false,
+                                "leagueId": 66,
+                                "leagueName": "Summer Olympics",
+                                "seasonName": "2024",
+                                "tournamentId": 23037,
+                                "goals": "0",
+                                "assists": "2",
+                                "appearances": "6",
+                                "rating": {
+                                    "rating": "7.26"
+                                }
+                            }
+                        ],
+                        "teamId": 307603,
+                        "team": "Egypt U23",
+                        "teamGender": "male",
+                        "showTeamGender": false,
+                        "transferType": null
+                    }
+                ]
+            }
+        },
+        "fullCareer": true
+    },
+    "traits": {
+        "key": "stats_comparison_att_mid_wingers",
+        "title": "Stats compared to other attacking midfielders/wingers",
+        "items": [
+            {
+                "key": "chances_created",
+                "title": "Chances created",
+                "value": 0.99
+            },
+            {
+                "key": "aerials_won",
+                "title": "Aerial duels",
+                "value": 0.14
+            },
+            {
+                "key": "defensive_actions",
+                "title": "Defensive actions",
+                "value": 0.04
+            },
+            {
+                "key": "goals",
+                "title": "Goals",
+                "value": 0.67
+            },
+            {
+                "key": "shot_attempts",
+                "title": "Shot attempts",
+                "value": 0.6
+            },
+            {
+                "key": "touches",
+                "title": "Touches",
+                "value": 0.74
+            }
+        ]
+    },
+    "meta": {
+        "seopath": "zizo",
+        "pageurl": "/players/532766/zizo",
+        "faqJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How old is Zizo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo is 30 years old. Born on Wed Jan 10 1996."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How tall is Zizo?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo is 180 cm tall. Or 5 ft 11 in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "When was Zizo born?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo was born Wed Jan 10 1996 and is now 30 years old."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is Zizo's preferred foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo's preferred foot is right."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is Zizo's transfer value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo's transfer value is estimated to be around \u20ac2.2m."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Zizo from?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo is from Egypt."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many goals has Zizo scored this season?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zizo has scored 5 goals in the Premier League Championship Group."
+                    }
+                }
+            ]
+        },
+        "personJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Zizo",
+            "birthDate": "1996-01-10T00:00:00.000Z",
+            "url": "https://www.fotmob.com/players/532766/zizo",
+            "nationality": {
+                "@type": "Country",
+                "name": "Egypt"
+            },
+            "affiliation": {
+                "@type": "SportsTeam",
+                "name": "Al Ahly SC"
+            },
+            "gender": "https://schema.org/Male",
+            "height": {
+                "@type": "QuantitativeValue",
+                "unitText": "cm",
+                "value": "180"
+            },
+            "weight": {
+                "@type": "QuantitativeValue",
+                "unitText": "kg",
+                "value": "67"
+            }
+        },
+        "breadcrumbJSONLD": {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fotmob.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Premier League 2025/2026",
+                    "item": "https://www.fotmob.com/leagues/519/overview/premier-league-20252026"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Al Ahly SC",
+                    "item": "https://www.fotmob.com/teams/101745/overview/al-ahly-sc"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Zizo",
+                    "item": "https://www.fotmob.com/leagues/532766/overview/zizo"
+                }
+            ]
+        }
+    },
+    "coachStats": null,
+    "statSeasons": [
+        {
+            "seasonName": "2026",
+            "tournaments": [
+                {
+                    "name": "World Cup",
+                    "tournamentId": 77,
+                    "entryId": "0-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2025/2026",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "1-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "FIFA Club World Cup",
+                    "tournamentId": 78,
+                    "entryId": "1-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Champions League",
+                    "tournamentId": 526,
+                    "entryId": "1-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "1-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2024/2025",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "2-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Super Cup",
+                    "tournamentId": 10314,
+                    "entryId": "2-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Summer Olympics",
+                    "tournamentId": 66,
+                    "entryId": "2-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "2-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Confed Cup",
+                    "tournamentId": 9468,
+                    "entryId": "2-4",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Super Cup",
+                    "tournamentId": 9467,
+                    "entryId": "2-5",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2023/2024",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "3-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Arab Club Champions Cup",
+                    "tournamentId": 10474,
+                    "entryId": "3-1",
+                    "hasDeepStats": false
+                },
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "3-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Confed Cup",
+                    "tournamentId": 9468,
+                    "entryId": "3-3",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "3-4",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2022/2023",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "4-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "4-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Champions League",
+                    "tournamentId": 526,
+                    "entryId": "4-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2021/2022",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "5-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations",
+                    "tournamentId": 289,
+                    "entryId": "5-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Champions League",
+                    "tournamentId": 526,
+                    "entryId": "5-2",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2020/2021",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "6-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Champions League",
+                    "tournamentId": 526,
+                    "entryId": "6-1",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2019/2020",
+            "tournaments": [
+                {
+                    "name": "Premier League",
+                    "tournamentId": 519,
+                    "entryId": "7-0",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "Africa Cup of Nations Qualification qualification",
+                    "tournamentId": 10608,
+                    "entryId": "7-1",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "CAF Champions League",
+                    "tournamentId": 526,
+                    "entryId": "7-2",
+                    "hasDeepStats": true
+                },
+                {
+                    "name": "World Cup CAF qualification",
+                    "tournamentId": 10196,
+                    "entryId": "7-3",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2017/2018",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "8-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2016/2017",
+            "tournaments": [
+                {
+                    "name": "Primeira Liga",
+                    "tournamentId": 61,
+                    "entryId": "9-0",
+                    "hasDeepStats": true
+                }
+            ]
+        },
+        {
+            "seasonName": "2014/2015",
+            "tournaments": [
+                {
+                    "name": "Pro League",
+                    "tournamentId": 40,
+                    "entryId": "10-0",
+                    "hasDeepStats": false
+                }
+            ]
+        }
+    ],
+    "firstSeasonStats": {
+        "sectionOrder": [
+            "top-stat-card",
+            "shotmap",
+            "stats-section"
+        ],
+        "shotmap": [
+            {
+                "id": 2944753525,
+                "playerName": "Zizo",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10255,
+                "playerId": 532766,
+                "x": 80.0072815544,
+                "y": 44.4211464923,
+                "min": 79,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": false,
+                "blockedX": 82.9354368936,
+                "blockedY": 43.16,
+                "goalCrossedY": 32.0175,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0195569414645433,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 1.5244708994709,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "OutsideBox",
+                "homeTeamId": 8263,
+                "awayTeamId": 10255,
+                "homeTeamName": "Belgium",
+                "awayTeamName": "Egypt",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667790,
+                "matchDate": "2026-06-15T19:00:00Z",
+                "teamColor": "#DE313C",
+                "teamColorDark": "#DE313C"
+            },
+            {
+                "id": 2945220271,
+                "playerName": "Zizo",
+                "eventType": "AttemptSaved",
+                "shotType": "RightFoot",
+                "situation": "RegularPlay",
+                "teamId": 10255,
+                "playerId": 532766,
+                "x": 101.5862068968,
+                "y": 40.553571429,
+                "min": 90,
+                "minAdded": 3,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": false,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 102.8189655174,
+                "blockedY": 38.536428573,
+                "goalCrossedY": 34.7625,
+                "goalCrossedZ": 0.5265263132,
+                "expectedGoals": 0.116717420518398,
+                "expectedGoalsOnTarget": 0.186850160360336,
+                "onGoalShot": {
+                    "x": 0.798280423280423,
+                    "y": 0.139292675449735,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 5820,
+                "awayTeamId": 10255,
+                "homeTeamName": "New Zealand",
+                "awayTeamName": "Egypt",
+                "homeScore": 1,
+                "awayScore": 3,
+                "matchId": 4667792,
+                "matchDate": "2026-06-22T01:00:00Z",
+                "teamColor": "#DE313C",
+                "teamColorDark": "#DE313C"
+            },
+            {
+                "id": 2945524285,
+                "playerName": "Zizo",
+                "eventType": "AttemptSaved",
+                "shotType": "LeftFoot",
+                "situation": "RegularPlay",
+                "teamId": 10255,
+                "playerId": 532766,
+                "x": 92.4,
+                "y": 41.7725,
+                "min": 62,
+                "period": "SecondHalf",
+                "isOwnGoal": false,
+                "isBlocked": true,
+                "isOnTarget": true,
+                "isSavedOffLine": false,
+                "isFromInsideBox": true,
+                "blockedX": 95.1578947355,
+                "blockedY": 40.217380953,
+                "goalCrossedY": 34.53375,
+                "goalCrossedZ": 1.219999994,
+                "expectedGoals": 0.0792489573359489,
+                "expectedGoalsOnTarget": 0,
+                "onGoalShot": {
+                    "x": 0.858796296296295,
+                    "y": 0.322751321164021,
+                    "zoomRatio": 1
+                },
+                "box": "InsideBox",
+                "homeTeamId": 10255,
+                "awayTeamId": 6711,
+                "homeTeamName": "Egypt",
+                "awayTeamName": "Iran",
+                "homeScore": 1,
+                "awayScore": 1,
+                "matchId": 4667795,
+                "matchDate": "2026-06-27T03:00:00Z",
+                "teamColor": "#DE313C",
+                "teamColorDark": "#DE313C"
+            }
+        ],
+        "topStatCard": {
+            "display": "stats-group",
+            "id": "top-stat-card",
+            "items": [
+                {
+                    "localizedTitleId": "goals",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Goals"
+                },
+                {
+                    "localizedTitleId": "assists",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Assists"
+                },
+                {
+                    "localizedTitleId": "rating",
+                    "per90": 6.08,
+                    "percentileRank": 20.88546679499519,
+                    "percentileRankPer90": 20.88546679499519,
+                    "statFormat": "fraction",
+                    "statValue": "6.08",
+                    "title": "Rating"
+                },
+                {
+                    "localizedTitleId": "matches_uppercase",
+                    "per90": 4,
+                    "percentileRank": 62.07892204042348,
+                    "percentileRankPer90": 62.07892204042348,
+                    "statFormat": "number",
+                    "statValue": "4",
+                    "title": "Matches"
+                },
+                {
+                    "localizedTitleId": "player_started_matches",
+                    "per90": 0,
+                    "percentileRank": 0,
+                    "percentileRankPer90": 0,
+                    "statFormat": "number",
+                    "statValue": "0",
+                    "title": "Started"
+                },
+                {
+                    "localizedTitleId": "minutes_played",
+                    "per90": 90,
+                    "percentileRank": 21.174205967276226,
+                    "percentileRankPer90": 100,
+                    "statFormat": "number",
+                    "statValue": "53",
+                    "title": "Minutes"
+                }
+            ],
+            "type": "stat-values"
+        },
+        "heatmap": {
+            "coordinates": [
+                {
+                    "x": 28.71,
+                    "y": 63.8
+                },
+                {
+                    "x": 31.41,
+                    "y": 56.72
+                },
+                {
+                    "x": 61.65,
+                    "y": 10.69
+                },
+                {
+                    "x": 39.97,
+                    "y": 58.23
+                },
+                {
+                    "x": 80.01,
+                    "y": 23.58
+                },
+                {
+                    "x": 37.38,
+                    "y": 47.15
+                },
+                {
+                    "x": 69.87,
+                    "y": 56.06
+                },
+                {
+                    "x": 74.04,
+                    "y": 61.44
+                },
+                {
+                    "x": 104.43,
+                    "y": 67.67
+                },
+                {
+                    "x": 90.6,
+                    "y": 48.91
+                },
+                {
+                    "x": 97.09,
+                    "y": 68
+                },
+                {
+                    "x": 99.31,
+                    "y": 63.74
+                },
+                {
+                    "x": 97.96,
+                    "y": 55.21
+                },
+                {
+                    "x": 64.02,
+                    "y": 48.62
+                },
+                {
+                    "x": 62.33,
+                    "y": 53.11
+                },
+                {
+                    "x": 36.82,
+                    "y": 56.85
+                },
+                {
+                    "x": 28.71,
+                    "y": 61.18
+                },
+                {
+                    "x": 97.38,
+                    "y": 63.47
+                },
+                {
+                    "x": 30.62,
+                    "y": 47.78
+                },
+                {
+                    "x": 32.54,
+                    "y": 47.36
+                },
+                {
+                    "x": 96.7,
+                    "y": 28.71
+                },
+                {
+                    "x": 101.59,
+                    "y": 27.45
+                },
+                {
+                    "x": 75.39,
+                    "y": 46.38
+                },
+                {
+                    "x": 78.21,
+                    "y": 40.3
+                },
+                {
+                    "x": 96.22,
+                    "y": 57.05
+                },
+                {
+                    "x": 100.83,
+                    "y": 68
+                },
+                {
+                    "x": 95.83,
+                    "y": 53.81
+                },
+                {
+                    "x": 58.19,
+                    "y": 37.72
+                },
+                {
+                    "x": 64.8,
+                    "y": 36.59
+                },
+                {
+                    "x": 62.44,
+                    "y": 48.06
+                },
+                {
+                    "x": 47.62,
+                    "y": 39.38
+                },
+                {
+                    "x": 92.4,
+                    "y": 26.23
+                },
+                {
+                    "x": 93.5,
+                    "y": 24.84
+                },
+                {
+                    "x": 104.53,
+                    "y": 0.33
+                },
+                {
+                    "x": 48.43,
+                    "y": 46.24
+                },
+                {
+                    "x": 96.32,
+                    "y": 7.02
+                },
+                {
+                    "x": 104.53,
+                    "y": 67.67
+                },
+                {
+                    "x": 104.62,
+                    "y": 67.61
+                },
+                {
+                    "x": 68.18,
+                    "y": 60.65
+                },
+                {
+                    "x": 33.78,
+                    "y": 63.47
+                },
+                {
+                    "x": 48.74,
+                    "y": 47.64
+                },
+                {
+                    "x": 86.46,
+                    "y": 68
+                },
+                {
+                    "x": 47.52,
+                    "y": 56.06
+                },
+                {
+                    "x": 70.66,
+                    "y": 27.87
+                },
+                {
+                    "x": 43.86,
+                    "y": 47.29
+                },
+                {
+                    "x": 43.86,
+                    "y": 47.29
+                },
+                {
+                    "x": 42.11,
+                    "y": 56.19
+                },
+                {
+                    "x": 59.62,
+                    "y": 37.95
+                },
+                {
+                    "x": 57.99,
+                    "y": 37.36
+                },
+                {
+                    "x": 9.75,
+                    "y": 61.38
+                },
+                {
+                    "x": 7.72,
+                    "y": 58.1
+                },
+                {
+                    "x": 50.37,
+                    "y": 38.79
+                }
+            ]
+        },
+        "keeperShotmap": null
+    },
+    "status": "active",
+    "marketValues": {
+        "values": [
+            {
+                "date": "2014-12-31T00:00:00+00:00",
+                "value": 540000,
+                "currency": "EUR",
+                "lowerBound": 400000,
+                "upperBound": 670000,
+                "source": "scisports",
+                "teamId": 9989,
+                "teamName": "Lierse",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2015-06-30T00:00:00+00:00",
+                "value": 900000,
+                "currency": "EUR",
+                "lowerBound": 670000,
+                "upperBound": 1120000,
+                "source": "scisports",
+                "teamId": 9989,
+                "teamName": "Lierse"
+            },
+            {
+                "date": "2015-12-31T00:00:00+00:00",
+                "value": 1250000,
+                "currency": "EUR",
+                "lowerBound": 940000,
+                "upperBound": 1570000,
+                "source": "scisports",
+                "teamId": 9989,
+                "teamName": "Lierse"
+            },
+            {
+                "date": "2016-06-30T00:00:00+00:00",
+                "value": 860000,
+                "currency": "EUR",
+                "lowerBound": 650000,
+                "upperBound": 1080000,
+                "source": "scisports",
+                "teamId": 9989,
+                "teamName": "Lierse"
+            },
+            {
+                "date": "2016-12-31T00:00:00+00:00",
+                "value": 470000,
+                "currency": "EUR",
+                "lowerBound": 360000,
+                "upperBound": 590000,
+                "source": "scisports",
+                "teamId": 10214,
+                "teamName": "Nacional",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-06-30T00:00:00+00:00",
+                "value": 790000,
+                "currency": "EUR",
+                "lowerBound": 590000,
+                "upperBound": 990000,
+                "source": "scisports",
+                "teamId": 8348,
+                "teamName": "Moreirense",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2017-12-31T00:00:00+00:00",
+                "value": 1110000,
+                "currency": "EUR",
+                "lowerBound": 830000,
+                "upperBound": 1380000,
+                "source": "scisports",
+                "teamId": 8348,
+                "teamName": "Moreirense"
+            },
+            {
+                "date": "2018-06-30T00:00:00+00:00",
+                "value": 740000,
+                "currency": "EUR",
+                "lowerBound": 560000,
+                "upperBound": 930000,
+                "source": "scisports",
+                "teamId": 8348,
+                "teamName": "Moreirense"
+            },
+            {
+                "date": "2018-12-31T00:00:00+00:00",
+                "value": 370000,
+                "currency": "EUR",
+                "lowerBound": 280000,
+                "upperBound": 470000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2019-06-30T00:00:00+00:00",
+                "value": 420000,
+                "currency": "EUR",
+                "lowerBound": 310000,
+                "upperBound": 520000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2019-12-31T00:00:00+00:00",
+                "value": 460000,
+                "currency": "EUR",
+                "lowerBound": 340000,
+                "upperBound": 570000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2020-06-30T00:00:00+00:00",
+                "value": 890000,
+                "currency": "EUR",
+                "lowerBound": 670000,
+                "upperBound": 1110000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2020-12-31T00:00:00+00:00",
+                "value": 1320000,
+                "currency": "EUR",
+                "lowerBound": 990000,
+                "upperBound": 1650000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2021-06-30T00:00:00+00:00",
+                "value": 1450000,
+                "currency": "EUR",
+                "lowerBound": 1090000,
+                "upperBound": 1820000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2021-10-31T00:00:00+00:00",
+                "value": 1590000,
+                "currency": "EUR",
+                "lowerBound": 1190000,
+                "upperBound": 1990000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2021-11-30T00:00:00+00:00",
+                "value": 1660000,
+                "currency": "EUR",
+                "lowerBound": 1240000,
+                "upperBound": 2070000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2021-12-31T00:00:00+00:00",
+                "value": 1650000,
+                "currency": "EUR",
+                "lowerBound": 1240000,
+                "upperBound": 2060000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-01-31T00:00:00+00:00",
+                "value": 1580000,
+                "currency": "EUR",
+                "lowerBound": 1190000,
+                "upperBound": 1980000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-02-28T00:00:00+00:00",
+                "value": 1530000,
+                "currency": "EUR",
+                "lowerBound": 1150000,
+                "upperBound": 1910000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-03-31T00:00:00+00:00",
+                "value": 1430000,
+                "currency": "EUR",
+                "lowerBound": 1070000,
+                "upperBound": 1790000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-04-30T00:00:00+00:00",
+                "value": 1360000,
+                "currency": "EUR",
+                "lowerBound": 1020000,
+                "upperBound": 1700000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-05-31T00:00:00+00:00",
+                "value": 1300000,
+                "currency": "EUR",
+                "lowerBound": 980000,
+                "upperBound": 1630000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-06-30T00:00:00+00:00",
+                "value": 1270000,
+                "currency": "EUR",
+                "lowerBound": 950000,
+                "upperBound": 1590000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-07-31T00:00:00+00:00",
+                "value": 1290000,
+                "currency": "EUR",
+                "lowerBound": 970000,
+                "upperBound": 1620000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-08-31T00:00:00+00:00",
+                "value": 1380000,
+                "currency": "EUR",
+                "lowerBound": 1040000,
+                "upperBound": 1730000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-09-04T00:00:00+00:00",
+                "value": 1450000,
+                "currency": "EUR",
+                "lowerBound": 1090000,
+                "upperBound": 1810000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-09-30T00:00:00+00:00",
+                "value": 1740000,
+                "currency": "EUR",
+                "lowerBound": 1300000,
+                "upperBound": 2170000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-10-31T00:00:00+00:00",
+                "value": 1730000,
+                "currency": "EUR",
+                "lowerBound": 1300000,
+                "upperBound": 2160000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-11-30T00:00:00+00:00",
+                "value": 1740000,
+                "currency": "EUR",
+                "lowerBound": 1300000,
+                "upperBound": 2170000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2022-12-31T00:00:00+00:00",
+                "value": 2070000,
+                "currency": "EUR",
+                "lowerBound": 1550000,
+                "upperBound": 2590000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-01-31T00:00:00+00:00",
+                "value": 2090000,
+                "currency": "EUR",
+                "lowerBound": 1560000,
+                "upperBound": 2610000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-02-28T00:00:00+00:00",
+                "value": 2110000,
+                "currency": "EUR",
+                "lowerBound": 1580000,
+                "upperBound": 2640000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-03-31T00:00:00+00:00",
+                "value": 2100000,
+                "currency": "EUR",
+                "lowerBound": 1580000,
+                "upperBound": 2630000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-04-30T00:00:00+00:00",
+                "value": 2090000,
+                "currency": "EUR",
+                "lowerBound": 1570000,
+                "upperBound": 2620000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-05-31T00:00:00+00:00",
+                "value": 2080000,
+                "currency": "EUR",
+                "lowerBound": 1560000,
+                "upperBound": 2610000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-06-30T00:00:00+00:00",
+                "value": 1990000,
+                "currency": "EUR",
+                "lowerBound": 1490000,
+                "upperBound": 2490000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-07-31T00:00:00+00:00",
+                "value": 1880000,
+                "currency": "EUR",
+                "lowerBound": 1410000,
+                "upperBound": 2350000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-09-01T00:00:00+00:00",
+                "value": 1800000,
+                "currency": "EUR",
+                "lowerBound": 1350000,
+                "upperBound": 2250000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-09-30T00:00:00+00:00",
+                "value": 1690000,
+                "currency": "EUR",
+                "lowerBound": 1270000,
+                "upperBound": 2120000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-10-31T00:00:00+00:00",
+                "value": 1620000,
+                "currency": "EUR",
+                "lowerBound": 1210000,
+                "upperBound": 2020000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-11-30T00:00:00+00:00",
+                "value": 1620000,
+                "currency": "EUR",
+                "lowerBound": 1220000,
+                "upperBound": 2030000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2023-12-31T00:00:00+00:00",
+                "value": 1590000,
+                "currency": "EUR",
+                "lowerBound": 1190000,
+                "upperBound": 1990000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-01-31T00:00:00+00:00",
+                "value": 1990000,
+                "currency": "EUR",
+                "lowerBound": 1592000,
+                "upperBound": 2388000,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-02-29T00:00:00+00:00",
+                "value": 2388000,
+                "currency": "EUR",
+                "lowerBound": 1910400,
+                "upperBound": 2865600,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-03-31T00:00:00+00:00",
+                "value": 2545968,
+                "currency": "EUR",
+                "lowerBound": 2036774,
+                "upperBound": 3055162,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-04-30T00:00:00+00:00",
+                "value": 2543066,
+                "currency": "EUR",
+                "lowerBound": 2034453,
+                "upperBound": 3051679,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-05-31T00:00:00+00:00",
+                "value": 2543066,
+                "currency": "EUR",
+                "lowerBound": 2034453,
+                "upperBound": 3051679,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-06-30T00:00:00+00:00",
+                "value": 2159237,
+                "currency": "EUR",
+                "lowerBound": 1727389,
+                "upperBound": 2591084,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-07-31T00:00:00+00:00",
+                "value": 2159237,
+                "currency": "EUR",
+                "lowerBound": 1727389,
+                "upperBound": 2591084,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-08-31T00:00:00+00:00",
+                "value": 2159237,
+                "currency": "EUR",
+                "lowerBound": 1727389,
+                "upperBound": 2591084,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-09-30T00:00:00+00:00",
+                "value": 2159237,
+                "currency": "EUR",
+                "lowerBound": 1727389,
+                "upperBound": 2591084,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-10-31T00:00:00+00:00",
+                "value": 2120381,
+                "currency": "EUR",
+                "lowerBound": 1696305,
+                "upperBound": 2544457,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-11-30T00:00:00+00:00",
+                "value": 2064515,
+                "currency": "EUR",
+                "lowerBound": 1651612,
+                "upperBound": 2477418,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2024-12-31T00:00:00+00:00",
+                "value": 2034809,
+                "currency": "EUR",
+                "lowerBound": 1627847,
+                "upperBound": 2441771,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2025-01-30T00:00:00+00:00",
+                "value": 1964856,
+                "currency": "EUR",
+                "lowerBound": 1571885,
+                "upperBound": 2357828,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2025-02-27T00:00:00+00:00",
+                "value": 1929357,
+                "currency": "EUR",
+                "lowerBound": 1543486,
+                "upperBound": 2315229,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2025-03-30T00:00:00+00:00",
+                "value": 1974803,
+                "currency": "EUR",
+                "lowerBound": 1579843,
+                "upperBound": 2369764,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2025-04-30T00:00:00+00:00",
+                "value": 1938060,
+                "currency": "EUR",
+                "lowerBound": 1550448,
+                "upperBound": 2325672,
+                "source": "scisports",
+                "teamId": 80591,
+                "teamName": "Zamalek SC"
+            },
+            {
+                "date": "2025-05-31T00:00:00+00:00",
+                "value": 1933352,
+                "currency": "EUR",
+                "lowerBound": 1546682,
+                "upperBound": 2320023,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC",
+                "isPeriodStart": true
+            },
+            {
+                "date": "2025-07-01T00:00:00+00:00",
+                "value": 2236196,
+                "currency": "EUR",
+                "lowerBound": 1788956,
+                "upperBound": 2683435,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2025-08-01T00:00:00+00:00",
+                "value": 2236196,
+                "currency": "EUR",
+                "lowerBound": 1788956,
+                "upperBound": 2683435,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2025-09-01T00:00:00+00:00",
+                "value": 2236196,
+                "currency": "EUR",
+                "lowerBound": 1788956,
+                "upperBound": 2683435,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2025-10-01T00:00:00+00:00",
+                "value": 2237503,
+                "currency": "EUR",
+                "lowerBound": 1790002,
+                "upperBound": 2685004,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2025-11-01T00:00:00+00:00",
+                "value": 2238747,
+                "currency": "EUR",
+                "lowerBound": 1790998,
+                "upperBound": 2686497,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2025-12-01T00:00:00+00:00",
+                "value": 2238747,
+                "currency": "EUR",
+                "lowerBound": 1790998,
+                "upperBound": 2686497,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-01-01T00:00:00+00:00",
+                "value": 2238747,
+                "currency": "EUR",
+                "lowerBound": 1790998,
+                "upperBound": 2686497,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-02-01T00:00:00+00:00",
+                "value": 2184022,
+                "currency": "EUR",
+                "lowerBound": 1747217,
+                "upperBound": 2620826,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-03-01T00:00:00+00:00",
+                "value": 2184022,
+                "currency": "EUR",
+                "lowerBound": 1747217,
+                "upperBound": 2620826,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-04-01T00:00:00+00:00",
+                "value": 2155651,
+                "currency": "EUR",
+                "lowerBound": 1724521,
+                "upperBound": 2586782,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-05-01T00:00:00+00:00",
+                "value": 2215252,
+                "currency": "EUR",
+                "lowerBound": 1772202,
+                "upperBound": 2658303,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-06-01T00:00:00+00:00",
+                "value": 2243623,
+                "currency": "EUR",
+                "lowerBound": 1794898,
+                "upperBound": 2692347,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            },
+            {
+                "date": "2026-07-01T00:00:00+00:00",
+                "value": 2243623,
+                "currency": "EUR",
+                "lowerBound": 1794898,
+                "upperBound": 2692347,
+                "source": "scisports",
+                "teamId": 101745,
+                "teamName": "Al Ahly SC"
+            }
+        ]
+    },
+    "relatedLinksData": {
+        "teammates": [
+            {
+                "id": 629981,
+                "name": "Afsha"
+            },
+            {
+                "id": 1689053,
+                "name": "Ahmed Abdin"
+            },
+            {
+                "id": 1797171,
+                "name": "Aqtay Abdallah"
+            },
+            {
+                "id": 1733276,
+                "name": "Hossam Adel"
+            },
+            {
+                "id": 1691814,
+                "name": "Kabaka"
+            },
+            {
+                "id": 1242166,
+                "name": "Karim El Debes"
+            },
+            {
+                "id": 1688835,
+                "name": "Moataz Mohamed"
+            },
+            {
+                "id": 1688836,
+                "name": "Mohamed Abdallah"
+            },
+            {
+                "id": 973243,
+                "name": "Mohamed Hussein"
+            },
+            {
+                "id": 1333268,
+                "name": "Mostafa Makhlouf"
+            },
+            {
+                "id": 1553109,
+                "name": "Nejc Gradisar"
+            },
+            {
+                "id": 1589641,
+                "name": "Omar El Saaiy"
+            },
+            {
+                "id": 922709,
+                "name": "Omar Kamal"
+            },
+            {
+                "id": 1688830,
+                "name": "Samir Mohamed"
+            },
+            {
+                "id": 546550,
+                "name": "Mohamed El Shenawy"
+            },
+            {
+                "id": 1689130,
+                "name": "Yassin Marei"
+            },
+            {
+                "id": 1000876,
+                "name": "Mohamed Ali Ben Romdhane"
+            },
+            {
+                "id": 533403,
+                "name": "Yasser Ibrahim"
+            },
+            {
+                "id": 513492,
+                "name": "Trezeguet"
+            },
+            {
+                "id": 712742,
+                "name": "Mohamed Sherif"
+            },
+            {
+                "id": 1309801,
+                "name": "Mohamed Shokry"
+            },
+            {
+                "id": 1418549,
+                "name": "Marwan Ateya"
+            },
+            {
+                "id": 613097,
+                "name": "Hussein El Shahat"
+            },
+            {
+                "id": 971617,
+                "name": "Achraf Dari"
+            },
+            {
+                "id": 614003,
+                "name": "Achraf Bencharki"
+            },
+            {
+                "id": 1510380,
+                "name": "Mohamed El Sayed"
+            },
+            {
+                "id": 909908,
+                "name": "Youssef Belammari"
+            },
+            {
+                "id": 1689169,
+                "name": "Hady Reyad"
+            },
+            {
+                "id": 979376,
+                "name": "Emam Ashour"
+            },
+            {
+                "id": 535838,
+                "name": "Ahmed Eid"
+            },
+            {
+                "id": 1689406,
+                "name": "Amr El Gazar"
+            },
+            {
+                "id": 1272431,
+                "name": "Karim Fouad"
+            },
+            {
+                "id": 612516,
+                "name": "Taher Mohamed"
+            },
+            {
+                "id": 660213,
+                "name": "Mohamed Hany"
+            },
+            {
+                "id": 1228546,
+                "name": "Mostafa Ahmed Shobeir"
+            },
+            {
+                "id": 1334787,
+                "name": "Hamza Alaa"
+            },
+            {
+                "id": 1333271,
+                "name": "Ahmed Kouka"
+            },
+            {
+                "id": 1819231,
+                "name": "Omar Moawad"
+            }
+        ],
+        "mensNationalTeam": [
+            {
+                "id": 660213,
+                "name": "Mohamed Hany"
+            },
+            {
+                "id": 1384425,
+                "name": "Hossam Abdelmaguid"
+            },
+            {
+                "id": 505872,
+                "name": "Ramy Rabia"
+            },
+            {
+                "id": 1179331,
+                "name": "Mohamed Abdelmonem"
+            },
+            {
+                "id": 533403,
+                "name": "Yasser Ibrahim"
+            },
+            {
+                "id": 513492,
+                "name": "Trezeguet"
+            },
+            {
+                "id": 979376,
+                "name": "Emam Ashour"
+            },
+            {
+                "id": 1708842,
+                "name": "Hamza Abdelkarim"
+            },
+            {
+                "id": 292462,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 1426403,
+                "name": "Mostafa Zico"
+            },
+            {
+                "id": 971787,
+                "name": "Haissem Hassan"
+            },
+            {
+                "id": 849334,
+                "name": "Ahmed Fatouh"
+            },
+            {
+                "id": 1022128,
+                "name": "Hamdi Fathy"
+            },
+            {
+                "id": 560416,
+                "name": "Karim Hafez"
+            },
+            {
+                "id": 653688,
+                "name": "El Mahdy Soliman"
+            },
+            {
+                "id": 906944,
+                "name": "Mohanad Lasheen"
+            },
+            {
+                "id": 1001335,
+                "name": "Nabil Emad Dunga"
+            },
+            {
+                "id": 1418549,
+                "name": "Marwan Attia"
+            },
+            {
+                "id": 1272436,
+                "name": "Ibrahim Adel"
+            },
+            {
+                "id": 839204,
+                "name": "Omar Marmoush"
+            },
+            {
+                "id": 546550,
+                "name": "Mohamed El Shenawy"
+            },
+            {
+                "id": 1689101,
+                "name": "Tarek Alaa"
+            },
+            {
+                "id": 1689371,
+                "name": "Mohamed Alaa"
+            },
+            {
+                "id": 1228546,
+                "name": "Mostafa Shobeir"
+            },
+            {
+                "id": 1291391,
+                "name": "Mahmoud Saber"
+            }
+        ],
+        "womensNationalTeam": []
+    },
+    "dataProvider": "enet"
+}

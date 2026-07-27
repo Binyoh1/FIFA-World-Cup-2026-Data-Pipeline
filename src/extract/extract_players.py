@@ -1,7 +1,5 @@
-import time
 import logging
 from pathlib import Path
-from random import randint
 
 import requests
 import polars as pl
@@ -18,18 +16,19 @@ logger = logging.getLogger(__name__)
 
 @task(retries=3, retry_delay_seconds=DELAY)
 def fetch_and_save_player_data(player_id: int, team_id: int, headers: dict, dir_path: Path) -> None:
-    logging.info(f"Fetching and saving team-{team_id}'s player-{player_id} data...")    
+    logger.info(f"Fetching player-{player_id} (team-{team_id}) data...")
     try:
         endpoint = f"{BASE_URL}/api/data/playerData?id={player_id}"
         player_json = fetch_json(endpoint, headers)
-        
         player_path = dir_path / f"team-{team_id}/player_data_{player_id}.json"
         save_json(player_path, player_json)
-        logging.info(f"Fetched and saved player-{player_id} data successfully\n")
+        logger.info(f"Fetched and saved player-{player_id} data successfully\n")
     except requests.exceptions.RequestException as e:
-        logging.error(f"Network error player-{player_id}: {e}")
+        logger.error(f"Network error player-{player_id}: {e}")
+        raise
     except Exception as e:
-        logging.error(f"Error fetching data: {e}")
+        logger.error(f"Error fetching data: {e}")
+        raise
 
 
 @task
@@ -62,33 +61,35 @@ def extract_squad_list(df: pl.LazyFrame) -> pl.DataFrame:
     )
     return squad_list.collect()
 
-
 @task
-def get_team_ids(team_json: dict) -> int | None:
+def get_team_id(team_json: dict) -> int | None:
     team_details = team_json.get('details')
     team_id = int(team_details.get('id')) if team_details else None
     return team_id
 
 
-if __name__ == "__main__":
-    # get all saved teams
+@task
+def extract_players(teams_dir: Path, players_dir: Path, headers: dict=DEFAULT_HEADERS) -> None:
     teams_json_list = list(teams_dir.glob("*.json"))
-    
-    dfs = []
     for json_file in teams_json_list:
         try:
-            # load team json
-            raw_team_df = load_player_data(json_file)
-            
-            # extract squad list
-            squad_list = extract_squad_list(raw_team_df)
-            
             # fetch and save player data
-            team_id = get_team_ids(load_json(json_file))
+            team_id = get_team_id(load_json(json_file))
+            if not team_id:
+                logger.warning(f"Skipping {json_file.name}: no team_id found")
+                continue
+            raw_team_df = load_player_data(json_file)
+            squad_list = extract_squad_list(raw_team_df)
             for player_id in squad_list['player_id']:
-                delay = randint(1, 3)
-                if team_id:
-                    fetch_and_save_player_data(player_id, team_id, DEFAULT_HEADERS, players_dir)
-                    time.sleep(delay)
+                player_path = players_dir / f"team-{team_id}/player_data_{player_id}.json"
+                if player_path.exists():
+                    continue
+                fetch_and_save_player_data(player_id, team_id, headers, players_dir)
         except Exception as e:
-            logging.error(f"Error reading file {json_file.name}: {e}")
+            logger.error(f"Error processing file {json_file.name}: {e}")
+            raise
+
+
+if __name__ == "__main__":
+    # get all saved teams
+    extract_players(teams_dir, players_dir)

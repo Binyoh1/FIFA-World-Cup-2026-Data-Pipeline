@@ -5,6 +5,8 @@ from typing import Any
 # api base variables
 BASE_URL = "https://www.fotmob.com"
 
+COMP_ENDPOINT = f"{BASE_URL}/api/data/leagues?id=77"
+
 DEFAULT_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0',
     'Accept-Language': 'en-US,en;q=0.9',

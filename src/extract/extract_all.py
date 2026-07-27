@@ -3,7 +3,7 @@ from datetime import datetime
 
 from prefect import flow
 
-from common.api import BASE_URL, COMP_ENDPOINT, DEFAULT_HEADERS
+from common.api import COMP_ENDPOINT, DEFAULT_HEADERS
 from common.paths import comp_path, matches_dir, teams_dir, players_dir
 
 from extract.extract_comp import extract_comp

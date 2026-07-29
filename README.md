@@ -23,13 +23,13 @@ I would love to see what you do with the data, so don't hesitate to share your w
 .
 ├── src/
 │   ├── extract/                    # Fetches data from FotMob API and saves to data/raw
-│   │   ├── extract.py              Orchestrates api data extraction and saving raw JSON data
+│   │   ├── extract_all.py          # Orchestrates api data extraction and saving raw JSON data
 │   │   ├── extract_comp.py
 │   │   ├── extract_matches.py
 │   │   ├── extract_teams.py
 │   │   └── extract_players.py
 │   ├── transform/                  # Polars scripts: processes raw JSON and saves to data/silver
-│   │   ├── transform.py            # Orchestrates polars transformations and loading silver tables to Parquet files
+│   │   ├── transform_all.py        # Orchestrates polars transformations and loading silver tables to Parquet files
 │   │   ├── transform_comp.py
 │   │   ├── transform_matches.py
 │   │   ├── transform_teams.py

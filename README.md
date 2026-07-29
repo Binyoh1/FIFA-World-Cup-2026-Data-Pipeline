@@ -51,6 +51,6 @@ I would love to see what you do with the data, so don't hesitate to share your w
 ```
 
 ### Dataflow Rules
-- Extract logic (`src/extract/`) should only write to and read from `raw/` for fetching and saving raw JSON data from the FotMob API.
-- Transform logic (`src/transform/`) should only read from `raw/` and write cleaned data to `silver`Parquet files.
-- Aggregation and joining logic (`dbt_project/`) should only read from `silver/` and write analytics-ready data to `gold/`.
+- Extract logic (`src/extract/`) only writes to and reads from `raw/` for fetching and saving raw JSON data from the FotMob API.
+- Transform logic (`src/transform/`) only reads from `raw/` and writes cleaned data to `silver`Parquet files.
+- Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `gold/`.

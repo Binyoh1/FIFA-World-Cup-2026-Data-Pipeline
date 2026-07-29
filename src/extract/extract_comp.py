@@ -5,7 +5,7 @@ import requests
 import polars as pl
 from prefect import task
 
-from common.api import BASE_URL, COMP_ENDPOINT, DEFAULT_HEADERS, fetch_json
+from common.api import COMP_ENDPOINT, DEFAULT_HEADERS, fetch_json
 from common.paths import comp_path
 from common.utils import DELAY, setup_logging, save_json, load_json
 

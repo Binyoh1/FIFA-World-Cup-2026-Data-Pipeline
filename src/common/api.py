@@ -16,5 +16,9 @@ DEFAULT_HEADERS = {
 def fetch_json(endpoint: str, headers: dict, timeout: int=10) -> dict[str, Any]:
     response = requests.get(endpoint, headers=headers, timeout=timeout)
     response.raise_for_status()
+    if not response.content:
+        raise ValueError("Empty response content")
     json_content = response.json()
+    if not isinstance(json_content, dict):
+        raise ValueError(f"Expected dict, got {type(json_content).__name__} instead")
     return json_content

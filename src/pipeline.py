@@ -7,6 +7,8 @@ from common.utils import setup_logging
 
 from extract.extract_all import extract_all
 
+from transform.transform_all import transform_all
+
 setup_logging()
 
 logger = logging.getLogger(__name__)
@@ -15,6 +17,7 @@ logger = logging.getLogger(__name__)
 def pipeline() -> None:
     logger.info(f"Starting pipeline at {datetime.now()}...\n")
     extract_all()
+    transform_all()
     logger.info(f"Pipeline run completed at {datetime.now()}")
 
 

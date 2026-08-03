@@ -28,7 +28,7 @@ def load_comp_data() -> pl.LazyFrame:
     try:
         schema = load_schema(schema_path)
     except FileNotFoundError:
-        logger.warning(f"Schema file not found: {schema_path}. Inferring schema from data...")
+        logger.warning(f"Schema file not found: {schema_path}. Inferring comp schema from data...")
         infer_and_export_schema(df, schema_path)
         return df.lazy()
 
@@ -37,7 +37,7 @@ def load_comp_data() -> pl.LazyFrame:
     # polars has no specialized schema mismatch exception
     # catch any stored schema application error and regenerate schema
     except Exception as e:
-        logger.warning(f"Failed to apply schema: {e}. Regenerating schema from data...")
+        logger.warning(f"Failed to apply schema: {e}. Regenerating comp schema from data...")
         infer_and_export_schema(df, schema_path)
         return df.lazy()
 

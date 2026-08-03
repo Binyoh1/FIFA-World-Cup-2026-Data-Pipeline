@@ -5,9 +5,11 @@ from pathlib import Path
 import polars as pl
 from prefect import task
 
-from common.paths import matches_dir
+from common.paths import matches_dir, schemas_dir
 from common.utils import setup_logging, load_json
 
+from transform.utils.schema_build import create_master_schema
+from transform.utils.schema_io import export_schema, load_schema
 from transform.transform_comp import load_comp_data
 
 setup_logging()
@@ -16,17 +18,33 @@ logger = logging.getLogger(__name__)
 
 
 @task
-def load_matches(paths: list[Path], schema) -> pl.LazyFrame:
+def load_matches() -> pl.LazyFrame:
+    match_json_list = list(matches_dir.glob("*.json"))    
+    if not match_json_list:
+        logger.error("No match files found")
+        raise
+    
+    schema_path = schemas_dir / "match_schema.yaml"        
+    try:
+        schema = load_schema(schema_path)
+    except FileNotFoundError:
+        logger.warning(f"Schema file not found: {schema_path}")
+        schema = create_master_schema(match_json_list)
+        export_schema(schema, schema_path)
+    
     match_dfs = []
-    for json_file in paths:
+    for json_file in match_json_list:
         with open(json_file, "r", encoding="utf-8") as file:
             match_json = json.load(file)
-        match_df = pl.DataFrame([match_json], strict=False, schema=schema).lazy()
-        match_dfs.append(match_df)
+        try:
+            match_df = pl.DataFrame([match_json], strict=False, schema=schema).lazy()
+            match_dfs.append(match_df)
+        except Exception as e:
+            logger.error(f"Schema mismatch or error parsing {json_file.name}: {e}")
+            raise
     
     return pl.concat(match_dfs, how="diagonal_relaxed")
 
 
-# @task
-# def extract_fixtrues(df: pl.LazyFrame) -> pl.LazyFrame:
-#     pass
+if __name__ == "__main__":
+    load_matches()

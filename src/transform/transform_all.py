@@ -6,6 +6,7 @@ from prefect import flow
 from common.utils import setup_logging
 
 from transform.transform_comp import load_comp_data
+from transform.transform_matches import load_matches
 
 setup_logging()
 
@@ -15,4 +16,5 @@ logger = logging.getLogger(__name__)
 def transform_all() -> None:
     logger.info(f"Data transformation started at {datetime.now()}...\n")
     load_comp_data()
+    load_matches()
     logger.info(f"Data transformation completed at {datetime.now()}\n")

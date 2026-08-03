@@ -121,10 +121,6 @@ def dict_to_dtype(obj: dict[str, Any]) -> pl.DataType:
 
 # load schema
 def load_schema(input_path: Path) -> dict[str, pl.DataType]:
-    try:
-        with open(input_path, "r") as file:
-            schema_dict = yaml.safe_load(file)
-        return {col: dict_to_dtype(dtype) for col, dtype in schema_dict.items}
-    except FileNotFoundError:
-        logger.error(f"File not found: {input_path}")
-        raise
+    with open(input_path, "r") as file:
+                schema_dict = yaml.safe_load(file)
+    return {col: dict_to_dtype(dtype) for col, dtype in schema_dict.items()}

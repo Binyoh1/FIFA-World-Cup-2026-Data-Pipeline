@@ -5,11 +5,14 @@ from prefect import flow
 
 from common.api import COMP_ENDPOINT, DEFAULT_HEADERS
 from common.paths import comp_path, matches_dir, teams_dir, players_dir
+from common.utils import setup_logging
 
 from extract.extract_comp import extract_comp
 from extract.extract_matches import extract_matches
 from extract.extract_players import extract_players
 from extract.extract_teams import extract_teams
+
+setup_logging()
 
 logger = logging.getLogger(__name__)
 

@@ -1,12 +1,21 @@
 import json
+import logging
 from pathlib import Path
 from functools import reduce
+from typing import Any
 
 import polars as pl
 
+from common.utils import setup_logging
+
+setup_logging()
+
+logger = logging.getLogger(__name__)
+
 
 # recursive schema dtype merge
-def merge_dtypes(d1, d2):
+def merge_dtypes(d1: pl.DataType | Any, d2: pl.DataType | Any) -> pl.DataType | Any:
+    """Recursively merge dtypes."""
     # same type
     if d1 == d2:
         return d1
@@ -54,7 +63,7 @@ def merge_dtypes(d1, d2):
 
 
 # schema column and dtype merge
-def merge_schemas(s1, s2):
+def merge_schemas(s1: dict[str, pl.DataType], s2: dict[str, pl.DataType]) -> dict[str, pl.DataType]:
     merged = {}
     for col in s1.keys() | s2.keys():
         if col in s1 and col in s2:
@@ -67,19 +76,22 @@ def merge_schemas(s1, s2):
 
 
 # create initial schema
-def create_init_schema(paths: list[Path]) -> dict:
+def create_init_schema(paths: list[Path]) -> pl.Schema:
     """Infer schema from first file"""
+    if not paths:
+        logger.error("No files found")
+        raise
     try:
         with open(paths[0], "r", encoding="utf-8") as file:
             match_json = json.load(file)
         match_df = pl.DataFrame([match_json], strict=False)
     except Exception as e:
-        print(f"Couldn't find any file: {e}")
+        logger.error(f"Couldn't infer schema: {e}")
     return match_df.schema
 
 
 # create master schema
-def create_master_schema(paths: list[Path]) -> dict:
+def create_master_schema(paths: list[Path]) -> dict[str, pl.DataType]:
     """Create master schema from all files"""
     # use initial schema
     schema = create_init_schema(paths)
@@ -97,7 +109,7 @@ def create_master_schema(paths: list[Path]) -> dict:
         for json_file in paths:
             # skip missing files
             if not json_file.exists():
-                print(f"Couldn't find {json_file.name}")
+                logger.warning(f"Couldn't find {json_file.name}")
                 failed_files.add(json_file)
                 continue
             try:
@@ -107,21 +119,21 @@ def create_master_schema(paths: list[Path]) -> dict:
                 match_df = pl.DataFrame([match_json], strict=False, schema=schema)
                 valid_files.add(json_file)
             except Exception as e:
-                print(f"Schema mismatch or error parsing {json_file.name}: {e}")
+                logger.warning(f"Schema mismatch or error parsing {json_file.name}: {e}")
                 failed_files.add(json_file)
                 try:
                     inferred_df = pl.DataFrame([match_json], strict=False)
                     failed_schemas.append(inferred_df.schema)
                 except Exception as inner_e:
-                    print(f"Error inferring schema: {inner_e}")
+                    logger.error(f"Error inferring schema: {inner_e}")
                     continue
         
         # update schema
-        print(f"{len(valid_files)} valid files, {len(failed_files)} failed files")
+        logger.info(f"{len(valid_files)} valid files, {len(failed_files)} failed files")
                 
         # exit if no failed files
         if not failed_files:
-            print(f"Master schema created after {iterations} iterations. Exiting...")
+            logger.info(f"Master schema created after {iterations} iterations. Exiting...")
             break
         
         # merge schemas
@@ -130,12 +142,12 @@ def create_master_schema(paths: list[Path]) -> dict:
             schema = reduce(merge_schemas, [schema] + failed_schemas)
         else:
             # if files failed without infering new schema, break to prevent an infinite loop.
-            print("Couldn't infer any new schemas. Exiting...")
-            break
+            logger.error("Couldn't infer any new schemas. Exiting...")
+            raise
         
         # exit if max iterations reached
         if iterations == max_iterations:
-            print("Max iterations reached without success. Exiting...")
-            break
+            logger.error("Max iterations reached without success. Exiting...")
+            raise
         
     return schema

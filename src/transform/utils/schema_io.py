@@ -74,7 +74,7 @@ def dtype_to_dict(dtype: pl.DataType | Any) -> dict[str, Any]:
 
 
 # export schema
-def export_schema(schema: pl.Schema, output_path: Path) -> None:
+def export_schema(schema: pl.Schema | dict[str, pl.DataType], output_path: Path) -> None:
     schema_dict = {col: dtype_to_dict(dtype) for col, dtype in schema.items()}
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w") as file:

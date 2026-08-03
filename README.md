@@ -1,6 +1,9 @@
 # FIFA World 2026 ELT Pipeline
 
-## About the Dataset
+## Introduction
+This project implements an end-to-end data engineering pipeline that ingests raw FIFA World Cup 2026 data from the FotMob API, cleans it, transforms and refines it into analytics-ready tables, and loads it into a data warehouse for reporting.
+
+## About the Data
 This is comprehensive, raw, unprocessed JSON response data extracted from the FotMob API for every match, team, and player at the 2026 FIFA World Cup, organized into folders.
 - **comp**: contains:
     - **teams_lookup.csv**: clean list of all 48 participating teams, including country ID, name, and group, to easily reference specific teams and their players if the focus of the analysis pertains to a particular team.

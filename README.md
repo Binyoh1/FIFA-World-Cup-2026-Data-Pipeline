@@ -37,7 +37,7 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   │   └── extract_players.py
 │   ├── transform/                  # Polars script: processes raw JSON -> saves to data/silver
 │   │   ├── utils/                  # Python logic to build, refine, export, and load schema for processing JSON files
-│   │   │   ├── schema_builder.py   # Infers and refines schema
+│   │   │   ├── schema_build.py   # Infers and refines schema
 │   │   │   └── schema_io.py        # Export and load schema (YAML format)
 │   │   ├── transform_all.py        # Orchestrates polars transformations and loading silver tables to Parquet files
 │   │   ├── transform_comp.py
@@ -48,6 +48,7 @@ I would love to see what you do with the data, so don't hesitate to share your w
 ├── data/
 │   ├── raw/                        # Bronze layer: raw JSON files
 │   ├── schemas/                    # Inferred and refined master schemas
+│   │   ├── comp_schema.yaml
 │   │   ├── match_schema.yaml
 │   │   ├── team_schema.yaml
 │   │   └── player_schema.yaml

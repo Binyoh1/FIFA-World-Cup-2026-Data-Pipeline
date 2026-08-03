@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 
 @task
 def load_matches(paths: list[Path], schema) -> pl.LazyFrame:
-    # pass 2: load json
     match_dfs = []
     for json_file in paths:
         with open(json_file, "r", encoding="utf-8") as file:

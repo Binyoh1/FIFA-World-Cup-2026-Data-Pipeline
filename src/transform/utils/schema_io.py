@@ -86,6 +86,11 @@ def export_schema(schema: pl.Schema, output_path: Path) -> None:
         )
 
 
+# infer and export schema from JSON data
+def infer_and_export_schema(df: pl.DataFrame, output_path: Path) -> None:
+    export_schema(df.schema, output_path)
+
+
 # recursive map dict string to dtype for schema import
 def dict_to_dtype(obj: dict[str, Any]) -> pl.DataType:
     dtype = obj["type"]

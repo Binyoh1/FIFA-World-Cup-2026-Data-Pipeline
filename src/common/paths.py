@@ -23,3 +23,8 @@ silver_dir.mkdir(parents=True, exist_ok=True)
 # gold data directory
 gold_dir = Path("./data/gold")
 gold_dir.mkdir(parents=True, exist_ok=True)
+
+
+# schema directory
+schemas_dir = Path("./data/schemas")
+schemas_dir.mkdir(parents=True, exist_ok=True)

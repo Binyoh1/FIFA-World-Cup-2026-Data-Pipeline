@@ -17,9 +17,11 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
+# load match data
 @task
 def load_matches() -> pl.LazyFrame:
-    match_json_list = list(matches_dir.glob("*.json"))    
+    match_json_list = list(matches_dir.glob("*.json"))
+    # throw error if no match files found
     if not match_json_list:
         logger.error("No match files found")
         raise
@@ -28,7 +30,8 @@ def load_matches() -> pl.LazyFrame:
     try:
         schema = load_schema(schema_path)
     except FileNotFoundError:
-        logger.warning(f"Schema file not found: {schema_path}")
+        # infer schema if schema file not found
+        logger.warning(f"Schema file not found: {schema_path}. Inferring match schema from data...")
         schema = create_master_schema(match_json_list)
         export_schema(schema, schema_path)
     
@@ -40,6 +43,7 @@ def load_matches() -> pl.LazyFrame:
             match_df = pl.DataFrame([match_json], strict=False, schema=schema).lazy()
             match_dfs.append(match_df)
         except Exception as e:
+            # throw error if json parsing fails even after schema inference
             logger.error(f"Schema mismatch or error parsing {json_file.name}: {e}")
             raise
     

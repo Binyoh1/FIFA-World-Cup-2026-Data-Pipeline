@@ -22,13 +22,20 @@ I would love to see what you do with the data, so don't hesitate to share your w
 ```text
 .
 ├── src/
-│   ├── extract/                    # Fetches data from FotMob API and saves to data/raw
+│   ├── common/                     # helper functions and variables
+│   │   ├── api.py
+│   │   ├── paths.py
+│   │   └── utils.py
+│   ├── extract/                    # Fetches data from FotMob API -> saves to data/raw
 │   │   ├── extract_all.py          # Orchestrates api data extraction and saving raw JSON data
 │   │   ├── extract_comp.py
 │   │   ├── extract_matches.py
 │   │   ├── extract_teams.py
 │   │   └── extract_players.py
-│   ├── transform/                  # Polars scripts: processes raw JSON and saves to data/silver
+│   ├── transform/                  # Polars script: processes raw JSON -> saves to data/silver
+│   │   ├── utils/                  # Python logic to build, refine, export, and load schema for processing JSON files
+│   │   │   ├── schema_builder.py   # Infers and refines schema
+│   │   │   └── schema_io.py        # Export and load schema (YAML format)
 │   │   ├── transform_all.py        # Orchestrates polars transformations and loading silver tables to Parquet files
 │   │   ├── transform_comp.py
 │   │   ├── transform_matches.py
@@ -37,13 +44,20 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   └── pipeline.py                 # Prefect Flow orchestrating everything
 ├── data/
 │   ├── raw/                        # Bronze layer: raw JSON files
+│   ├── schemas/                    # Inferred and refined master schemas
+│   │   ├── match_schema.yaml
+│   │   ├── team_schema.yaml
+│   │   └── player_schema.yaml
 │   ├── silver/                     # Silver layer: clean Parquet files
-│   └── gold/                       # Gold layer: final .duckdb database file (optional: analytics-ready CSV files)
+│   │   ├── lookup/                 # basic lookup data for matches, teams, and players
+│   │   ├── reference/              # Pre-aggregated dimension/reference data for matches, teams, and players
+│   │   └── facts/
+│   └── gold/                       # Gold layer: final .duckdb database file
 ├── dbt_project/                    # dbt workspace for Gold layer models
 │   ├── models/
 │   │   ├── staging/                # Optional: dbt views over silver parquet files
 │   │   └── marts/                  # Final aggregated tables/views for BI consumption
-│   ├── dbt_project.yml             # Configured to point to data/gold/.duckdb analytics database
+│   ├── dbt_project.yml             # Configured to point to data/gold/fwc2026_team_profile_analytics.duckdb
 │   └── profiles.yml
 ├── docs/                           # Project guide, architecture diagrams, and documentation
 ├── requirements.txt                # Python dependencies (polars, dbt-duckdb, requests, prefect, etc.)
@@ -54,3 +68,6 @@ I would love to see what you do with the data, so don't hesitate to share your w
 - Extract logic (`src/extract/`) only writes to and reads from `raw/` for fetching and saving raw JSON data from the FotMob API.
 - Transform logic (`src/transform/`) only reads from `raw/` and writes cleaned data to `silver`Parquet files.
 - Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `gold/`.
+
+## To-Do
+- Logic for generating and refining master schema only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.

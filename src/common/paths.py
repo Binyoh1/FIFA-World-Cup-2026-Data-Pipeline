@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# raw data directory
+# raw/bronze data directory
 raw_dir = Path("./data/raw")
 raw_dir.mkdir(parents=True, exist_ok=True)
 
@@ -19,6 +19,15 @@ players_dir.mkdir(exist_ok=True)
 # silver data directory
 silver_dir = Path("./data/silver")
 silver_dir.mkdir(parents=True, exist_ok=True)
+
+lookup_dir = silver_dir / "lookup"
+lookup_dir.mkdir(parents=True, exist_ok=True)
+
+reference_dir = silver_dir / "reference"
+reference_dir.mkdir(parents=True, exist_ok=True)
+
+facts_dir = silver_dir / "facts"
+facts_dir.mkdir(parents=True, exist_ok=True)
 
 # gold data directory
 gold_dir = Path("./data/gold")

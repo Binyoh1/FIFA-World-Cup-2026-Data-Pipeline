@@ -5,7 +5,7 @@ from pathlib import Path
 import polars as pl
 from prefect import task
 
-from common.paths import matches_dir, schemas_dir
+from common.paths import matches_dir, schemas_dir, lookup_dir
 from common.utils import setup_logging, load_json
 
 from transform.utils.schema_build import create_master_schema
@@ -48,6 +48,48 @@ def load_matches() -> pl.LazyFrame:
             raise
     
     return pl.concat(match_dfs, how="diagonal_relaxed")
+
+
+# create matches lookup table
+@task
+def create_match_reference(lf: pl.LazyFrame) -> pl.LazyFrame:
+    round_map = {
+        "1/16": 4,
+        "1/8": 5,
+        "1/4": 6,
+        "1/2": 7,
+        "bronze": 8,
+        "final": 8,
+    }
+    
+    match_lookup_lf = (
+        lf
+        .select(pl.col('fixtures').struct.field('allMatches'),)
+        .explode('allMatches', empty_as_null=True)
+        .select(
+            # basic match info
+            pl.col('allMatches').struct.field('id').cast(pl.Int64).alias('match_id'),
+            pl.col('allMatches').struct.field('round').replace(round_map).cast(pl.Int64).alias('round_num'),
+            pl.when(pl.col('allMatches').struct.field('round').is_in(['1', '2', '3']))
+                .then(pl.lit('group phase'))
+                .otherwise(pl.col('allMatches').struct.field('roundName').str.to_lowercase())
+                .alias('phase'),
+            
+            # teams
+            pl.col('allMatches').struct.field('home').struct.field('id').cast(pl.Int64).alias('hometeam_id'),   
+            pl.col('allMatches').struct.field('home').struct.field('name').alias('hometeam'),   
+            pl.col('allMatches').struct.field('away').struct.field('id').cast(pl.Int64).alias('awayteam_id'),   
+            pl.col('allMatches').struct.field('away').struct.field('name').alias('awayteam'),
+            
+            # time
+            pl.col('allMatches').struct.field('status').struct.field('utcTime').str.to_datetime(time_zone='UTC')
+                .dt.date().alias('match_date_utc'),
+            pl.col('allMatches').struct.field('status').struct.field('utcTime').str.to_datetime(time_zone='UTC')
+                .dt.time().alias('start_time_utc'),
+        )
+    )
+    
+    return match_lookup_lf
 
 
 if __name__ == "__main__":

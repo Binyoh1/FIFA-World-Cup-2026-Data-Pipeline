@@ -51,7 +51,7 @@ def load_matches() -> pl.LazyFrame:
 
 # extract matches reference
 @task
-def extract_match_info(lf: pl.LazyFrame) -> pl.LazyFrame:
+def get_match_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     round_map = {
         "1/16": 4,
         "1/8": 5,
@@ -100,7 +100,7 @@ def extract_match_info(lf: pl.LazyFrame) -> pl.LazyFrame:
 
 
 @task
-def extract_match_venues(lf: pl.LazyFrame) -> pl.LazyFrame:
+def get_match_venues(lf: pl.LazyFrame) -> pl.LazyFrame:
     match_venue_lf = (
         lf
         .select(

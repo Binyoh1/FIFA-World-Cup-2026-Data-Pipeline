@@ -47,7 +47,7 @@ def load_comp_data() -> pl.LazyFrame:
 
 
 @task
-def extract_groups(lf: pl.LazyFrame) -> pl.LazyFrame:
+def get_groups(lf: pl.LazyFrame) -> pl.LazyFrame:
     group_ref_lf = (
         lf
         .select(pl.col('overview').struct.field('table'))

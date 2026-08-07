@@ -49,7 +49,7 @@ def load_teams() -> pl.LazyFrame:
 
 
 @task
-def extract_teams(lf: pl.LazyFrame) -> pl.LazyFrame:
+def get_teams(lf: pl.LazyFrame) -> pl.LazyFrame:
     teams_ref_lf = (
         lf
         .select(pl.col('overview').struct.field('table'))
@@ -75,7 +75,7 @@ def extract_teams(lf: pl.LazyFrame) -> pl.LazyFrame:
 
 
 @task
-def extract_team_info(lf: pl.LazyFrame) -> pl.LazyFrame:
+def get_team_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     team_info_lf = (
         lf
         .select(

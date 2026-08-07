@@ -47,7 +47,7 @@ def load_comp_data() -> pl.LazyFrame:
 
 
 @task
-def create_group_ref(lf: pl.LazyFrame) -> pl.LazyFrame:
+def extract_groups(lf: pl.LazyFrame) -> pl.LazyFrame:
     group_ref_lf = (
         lf
         .select(pl.col('overview').struct.field('table'))
@@ -56,7 +56,7 @@ def create_group_ref(lf: pl.LazyFrame) -> pl.LazyFrame:
         .explode('tables', empty_as_null=True)
         .unnest('tables')
         .select(
-            pl.col('leagueId').alias('group_id'),
+            pl.col('leagueId').cast(pl.Int32).alias('group_id'),
             pl.col('leagueName').str.replace("Grp.", "Group").alias('group'),
         )
         .unique(subset=['group_id'])

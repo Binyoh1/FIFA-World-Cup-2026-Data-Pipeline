@@ -50,9 +50,9 @@ def load_matches() -> pl.LazyFrame:
     return pl.concat(match_dfs, how="diagonal_relaxed")
 
 
-# create matches lookup table
+# extract matches reference
 @task
-def create_match_reference(lf: pl.LazyFrame) -> pl.LazyFrame:
+def extract_match_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     round_map = {
         "1/16": 4,
         "1/8": 5,
@@ -62,7 +62,7 @@ def create_match_reference(lf: pl.LazyFrame) -> pl.LazyFrame:
         "final": 8,
     }
     
-    match_lookup_lf = (
+    matches_ref_lf = (
         lf
         .select(pl.col('fixtures').struct.field('allMatches'),)
         .explode('allMatches', empty_as_null=True)
@@ -86,10 +86,38 @@ def create_match_reference(lf: pl.LazyFrame) -> pl.LazyFrame:
                 .dt.date().alias('match_date_utc'),
             pl.col('allMatches').struct.field('status').struct.field('utcTime').str.to_datetime(time_zone='UTC')
                 .dt.time().alias('start_time_utc'),
+            
+            # match status
+            pl.col('allMatches').struct.field('status').struct.field('started').alias('is_started'),
+            pl.col('allMatches').struct.field('status').struct.field('finished').alias('is_finished'),
+            pl.col('allMatches').struct.field('status').struct.field('cancelled').alias('is_cancelled'),
+            pl.col('allMatches').struct.field('status').struct.field('awarded').alias('is_awarded'),
+            pl.col('allMatches').struct.field('status').struct.field('reason').struct.field('long')
+                .str.to_lowercase().alias('status'),
         )
     )
     
-    return match_lookup_lf
+    return matches_ref_lf
+
+
+@task
+def extract_match_venues(lf: pl.LazyFrame) -> pl.LazyFrame:
+    match_venue_lf = (
+        lf
+        .select(
+            pl.col('general').struct.field('matchId').cast(pl.Int64).alias('match_id'),
+            pl.col('seo').struct.field('eventJSONLD').struct.field('location')
+                .struct.field('name').alias('venue'),
+            pl.col('seo').struct.field('eventJSONLD').struct.field('location')
+                .struct.field('address').struct.field('addressCountry').alias('host_nation'),
+            pl.col('seo').struct.field('eventJSONLD').struct.field('location')
+                .struct.field('address').struct.field('latitude'),
+            pl.col('seo').struct.field('eventJSONLD').struct.field('location')
+                .struct.field('address').struct.field('longitude'),
+        )
+    )
+    
+    return match_venue_lf
 
 
 if __name__ == "__main__":

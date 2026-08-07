@@ -37,8 +37,8 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   │   └── extract_players.py
 │   ├── transform/                  # Polars script: processes raw JSON -> saves to data/silver
 │   │   ├── utils/                  # Python logic to build, refine, export, and load schema for processing JSON files
-│   │   │   ├── schema_build.py   # Infers and refines schema
-│   │   │   └── schema_io.py        # Export and load schema (YAML format)
+│   │   │   ├── schema_build.py     # Infer and refine schemas
+│   │   │   └── schema_io.py        # Export and load schemas (YAML format)
 │   │   ├── transform_all.py        # Orchestrates polars transformations and loading silver tables to Parquet files
 │   │   ├── transform_comp.py
 │   │   ├── transform_matches.py
@@ -53,19 +53,18 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   │   ├── team_schema.yaml
 │   │   └── player_schema.yaml
 │   ├── silver/                     # Silver layer: clean Parquet files
-│   │   ├── lookup/                 # basic lookup data for matches, teams, and players
-│   │   ├── reference/              # Pre-aggregated dimension/reference data for matches, teams, and players
-│   │   └── facts/
-│   └── gold/                       # Gold layer: final .duckdb database file
-├── dbt_project/                    # dbt workspace for Gold layer models
+│   │   ├── reference/              # Normalized lookup/reference tables for matches, teams, and players
+│   │   └── performance/            # Events, metrics, and stats for matches, teams, players
+│   └── warehouse/                  # Gold layer: final duckdb warehouse
+├── dbt_project/                    # dbt workspace for Gold layer modeling
 │   ├── models/
 │   │   ├── staging/                # Optional: dbt views over silver parquet files
 │   │   └── marts/                  # Final aggregated tables/views for BI consumption
-│   ├── dbt_project.yml             # Configured to point to data/gold/fwc2026_team_profile_analytics.duckdb
+│   ├── dbt_project.yml             # Configured to point to data/gold/fwc2026_analytics.duckdb
 │   └── profiles.yml
 ├── docs/                           # Project guide, architecture diagrams, and documentation
-├── requirements.txt                # Python dependencies (polars, dbt-duckdb, requests, prefect, etc.)
-└── README.md                       # Project overview, description, and summary of findings
+├── requirements.txt                # Python dependencies (polars, duckdb, dbt, requests, prefect, etc.)
+└── README.md                       # Project overview, description, and summary of insights
 ```
 
 ### Dataflow Rules

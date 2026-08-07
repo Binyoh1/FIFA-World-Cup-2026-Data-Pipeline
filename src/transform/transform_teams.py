@@ -1,15 +1,51 @@
+import json
 import logging
 from pathlib import Path
 
 import polars as pl
 from prefect import task
 
-from common.paths import teams_dir
+from common.paths import teams_dir, schemas_dir
 from common.utils import setup_logging, load_json
+
+from transform.utils.schema_build import create_master_schema
+from transform.utils.schema_io import load_schema, export_schema
 
 setup_logging()
 
 logger = logging.getLogger(__name__)
+
+
+# load team data
+@task
+def load_teams() -> pl.LazyFrame:
+    team_json_list = list(teams_dir.glob("*.json"))
+    
+    if not team_json_list:
+        logger.error("No team data files found")
+        raise
+    
+    schema_path = schemas_dir / "team_schema.yaml"
+    try:
+        schema = load_schema(schema_path)
+    except FileNotFoundError:
+        logger.warning(f"Schema file not found: {schema_path}. Inferring team schema from data...")
+        schema = create_master_schema(team_json_list)
+        export_schema(schema, schema_path)
+    
+    team_dfs = []
+    for json_file in team_json_list:
+        with open(json_file, "r", encoding="utf-8") as file:
+            team_json = json.load(file)
+        try:
+            team_df = pl.DataFrame([team_json], strict=False, schema=schema).lazy()
+            team_dfs.append(team_df)
+        except Exception as e:
+            # throw error if json parsing fails even after schema inference attempt
+            logger.error(f"Schema mismatch or error parsing {json_file.name}: {e}")
+            raise
+    
+    return pl.concat(team_dfs, how="diagonal_relaxed")
 
 
 @task

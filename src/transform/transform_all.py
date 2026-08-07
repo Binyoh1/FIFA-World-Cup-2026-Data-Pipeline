@@ -7,6 +7,7 @@ from common.utils import setup_logging
 
 from transform.transform_comp import load_comp_data, extract_groups
 from transform.transform_matches import load_matches, extract_match_info, extract_match_venues
+from transform.transform_teams import load_teams, extract_teams, extract_team_info
 
 setup_logging()
 
@@ -17,7 +18,14 @@ def transform_all() -> None:
     logger.info(f"Data transformation started at {datetime.now()}...\n")
     raw_comp_lf = load_comp_data()
     raw_matches_lf = load_matches()
+    raw_teams_lf = load_teams()
+    
+    # teams and groups
     group_ref_lf = extract_groups(raw_comp_lf)
+    team_ref_lf = extract_teams(raw_comp_lf)
+    team_info_ref_lf = extract_team_info(raw_teams_lf)
+    
+    # matches
     match_info_ref_lf = extract_match_info(raw_comp_lf)
     match_venue_ref_lf = extract_match_venues(raw_matches_lf)
     logger.info(f"Data transformation completed at {datetime.now()}\n")

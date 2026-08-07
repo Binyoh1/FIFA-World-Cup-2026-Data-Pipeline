@@ -10,7 +10,6 @@ from common.utils import setup_logging, load_json
 
 from transform.utils.schema_build import create_master_schema
 from transform.utils.schema_io import export_schema, load_schema
-from transform.transform_comp import load_comp_data
 
 setup_logging()
 
@@ -23,7 +22,7 @@ def load_matches() -> pl.LazyFrame:
     match_json_list = list(matches_dir.glob("*.json"))
     # throw error if no match files found
     if not match_json_list:
-        logger.error("No match files found")
+        logger.error("No match data files found")
         raise
     
     schema_path = schemas_dir / "match_schema.yaml"        
@@ -43,7 +42,7 @@ def load_matches() -> pl.LazyFrame:
             match_df = pl.DataFrame([match_json], strict=False, schema=schema).lazy()
             match_dfs.append(match_df)
         except Exception as e:
-            # throw error if json parsing fails even after schema inference
+            # throw error if json parsing fails even after schema inference attempt
             logger.error(f"Schema mismatch or error parsing {json_file.name}: {e}")
             raise
     

@@ -69,8 +69,8 @@ I would love to see what you do with the data, so don't hesitate to share your w
 
 ### Dataflow Rules
 - Extract logic (`src/extract/`) only writes to and reads from `raw/` for fetching and saving raw JSON data from the FotMob API.
-- Transform logic (`src/transform/`) only reads from `raw/` and writes cleaned data to `silver`Parquet files.
-- Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `gold/`.
+- Transform logic (`src/transform/`) only reads from `raw/` and writes cleaned data to `silver/` Parquet files.
+- Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `warehouse/`.
 
 ## To-Do
-- Logic for generating and refining master schema only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.
+- Logic for generating and refining master schemas only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.

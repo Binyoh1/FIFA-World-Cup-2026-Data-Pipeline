@@ -6,8 +6,16 @@ from prefect import flow
 from common.utils import setup_logging
 
 from transform.transform_comp import load_comp_data, select_groups
-from transform.transform_matches import load_matches, select_match_info, select_match_venues
-from transform.transform_teams import load_teams, select_teams, select_team_info
+from transform.transform_matches import (
+    load_matches,
+    select_match_info,
+    select_match_venues
+)
+from transform.transform_teams import (
+    load_teams,
+    select_teams,
+    select_team_info
+)
 
 setup_logging()
 

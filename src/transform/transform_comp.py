@@ -56,8 +56,12 @@ def select_groups(lf: pl.LazyFrame) -> pl.LazyFrame:
         .explode('tables', empty_as_null=True)
         .unnest('tables')
         .select(
-            pl.col('leagueId').cast(pl.Int32).alias('group_id'),
-            pl.col('leagueName').str.replace("Grp.", "Group").alias('group'),
+            pl.col('leagueId')
+                .cast(pl.Int32)
+                .alias('group_id'),
+            pl.col('leagueName')
+                .str.replace("Grp.", "Group")
+                .alias('group'),
         )
         .unique(subset=['group_id'])
     )

@@ -1,7 +1,7 @@
 # FIFA World 2026 ELT Pipeline
 
 ## Introduction
-This project implements an end-to-end data engineering pipeline that ingests raw FIFA World Cup 2026 data from the FotMob API, cleans it, transforms and refines it into analytics-ready tables, and loads it into a data warehouse for reporting.
+This project implements an end-to-end data pipeline that ingests raw FIFA World Cup 2026 data from the FotMob API, processes it using Python Polars, models and refines it into analytics-ready tables using DuckDB + dbt, and loads it into a data warehouse for reporting.
 
 ## About the Data
 This is comprehensive, raw, unprocessed JSON response data extracted from the FotMob API for every match, team, and player at the 2026 FIFA World Cup, organized into folders.
@@ -73,4 +73,5 @@ I would love to see what you do with the data, so don't hesitate to share your w
 - Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `warehouse/`.
 
 ## To-Do
-- Logic for generating and refining master schemas only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.
+- Add logic for generating and refining master schemas only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.
+- Add logic for only fetching and saving API data if the current file does not reflect state by end of competition (e.g. head coach may have changed after the competition).

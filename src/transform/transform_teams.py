@@ -92,14 +92,17 @@ def select_team_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         .select(
             pl.col('details')
                 .struct.field('id')
+                .cast(pl.UInt32)
                 .alias('team_id'),
             pl.col('details')
                 .struct.field('fifaRanking')
                 .struct.field('rank')
+                .cast(pl.UInt8)
                 .alias('fifa_rank'),        
             pl.col('details')
                 .struct.field('fifaRanking')
                 .struct.field('points')
+                .cast(pl.UInt16)
                 .alias('rank_points'),     
             pl.col('details')
                 .struct.field('fifaRanking')
@@ -147,6 +150,8 @@ def select_team_info(lf: pl.LazyFrame) -> pl.LazyFrame:
             pl.col('stadium_info')
                 .list.get(0)
                 .list.get(-1)
+                .str.replace("turf", "")
+                .str.strip_chars()
                 .alias('surface'),
             pl.col('stadium_info')
                 .list.get(1)

@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 # fetch and save competition data
 @task(retries=3, retry_delay_seconds=DELAY)
 def extract_comp(endpoint: str, headers: dict, ouput_path: Path) -> None:
-    logger.info("Fetching competition data...")    
+    logger.info("Fetching competition data...")
     try:        
         comp_json = fetch_json(endpoint, headers)
         save_json(ouput_path, comp_json)        

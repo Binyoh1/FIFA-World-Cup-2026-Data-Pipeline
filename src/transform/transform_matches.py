@@ -36,8 +36,7 @@ def load_matches() -> pl.LazyFrame:
     
     match_dfs = []
     for json_file in match_json_list:
-        with open(json_file, "r", encoding="utf-8") as file:
-            match_json = json.load(file)
+        match_json = load_json(json_file)
         try:
             match_df = pl.DataFrame([match_json], strict=False, schema=schema).lazy()
             match_dfs.append(match_df)

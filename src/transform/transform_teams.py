@@ -35,8 +35,7 @@ def load_teams() -> pl.LazyFrame:
     
     team_dfs = []
     for json_file in team_json_list:
-        with open(json_file, "r", encoding="utf-8") as file:
-            team_json = json.load(file)
+        team_json = load_json(json_file)
         try:
             team_df = pl.DataFrame([team_json], strict=False, schema=schema).lazy()
             team_dfs.append(team_df)

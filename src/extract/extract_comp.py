@@ -68,6 +68,7 @@ def extract_comp(endpoint: str, headers: dict, output_path: Path) -> None:
         last_finished_fixture_end_time = last_played_fixture_timestamp + timedelta(hours=3)
     
     if last_finished_fixture_end_time > last_saved_timestamp:
+        logger.info("Competition data may be outdated. Fetching new data...")
         fetch_and_save_comp_data()
     else:
         logger.debug("Competition data is up-to-date. No new data fetched.")

@@ -5,11 +5,9 @@ from pathlib import Path
 import polars as pl
 from prefect import task
 
-from common.paths import matches_dir, schemas_dir, lookup_dir
-from common.utils import setup_logging, load_json
+from common.paths import matches_dir
+from common.utils import setup_logging
 
-from transform.utils.schema_build import create_master_schema
-from transform.utils.schema_io import export_schema, load_schema
 from transform.utils.data_load import load_data
 
 setup_logging()
@@ -20,7 +18,7 @@ logger = logging.getLogger(__name__)
 # load match data
 @task
 def load_matches() -> pl.LazyFrame:
-    return load_data(matches_dir, "matches")
+    return load_data(matches_dir, "match")
 
 
 # extract matches reference

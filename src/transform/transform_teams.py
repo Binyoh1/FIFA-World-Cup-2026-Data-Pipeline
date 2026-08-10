@@ -5,12 +5,10 @@ from pathlib import Path
 import polars as pl
 from prefect import task
 
-from common.paths import teams_dir, schemas_dir
-from common.utils import setup_logging, load_json
+from common.paths import teams_dir
+from common.utils import setup_logging
 
 from transform.utils.data_load import load_data
-from transform.utils.schema_build import create_master_schema
-from transform.utils.schema_io import load_schema, export_schema
 
 setup_logging()
 

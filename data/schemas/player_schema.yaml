@@ -1,0 +1,1213 @@
+contractEnd:
+  type: Struct
+  fields:
+    utcTime:
+      type: String
+    timezone:
+      type: String
+careerHistory:
+  type: Struct
+  fields:
+    careerItems:
+      type: Struct
+      fields:
+        senior:
+          type: Struct
+          fields:
+            teamEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  participantId:
+                    type: Int64
+                  active:
+                    type: Boolean
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  hasUncertainData:
+                    type: Boolean
+                  teamId:
+                    type: Int64
+                  transferType:
+                    type: Struct
+                    fields:
+                      text:
+                        type: String
+                      localizationKey:
+                        type: String
+                  endDate:
+                    type: String
+                  startDate:
+                    type: String
+                  role:
+                    type: 'Null'
+                  assists:
+                    type: String
+            seasonEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  seasonName:
+                    type: String
+                  teamId:
+                    type: Int64
+                  tournamentStats:
+                    type: List
+                    inner:
+                      type: Struct
+                      fields:
+                        goals:
+                          type: String
+                        isFriendly:
+                          type: Boolean
+                        leagueId:
+                          type: Int64
+                        appearances:
+                          type: String
+                        leagueName:
+                          type: String
+                        seasonName:
+                          type: String
+                        rating:
+                          type: Struct
+                          fields:
+                            rating:
+                              type: String
+                        tournamentId:
+                          type: Int64
+                        assists:
+                          type: String
+                  rating:
+                    type: Struct
+                    fields:
+                      rating:
+                        type: String
+                  transferType:
+                    type: Struct
+                    fields:
+                      text:
+                        type: String
+                      localizationKey:
+                        type: String
+                  assists:
+                    type: String
+        youth:
+          type: Struct
+          fields:
+            teamEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  participantId:
+                    type: Int64
+                  active:
+                    type: Boolean
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  hasUncertainData:
+                    type: Boolean
+                  teamId:
+                    type: Int64
+                  transferType:
+                    type: Struct
+                    fields:
+                      text:
+                        type: String
+                      localizationKey:
+                        type: String
+                  endDate:
+                    type: String
+                  startDate:
+                    type: String
+                  role:
+                    type: 'Null'
+                  assists:
+                    type: String
+            seasonEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  seasonName:
+                    type: String
+                  teamId:
+                    type: Int64
+                  tournamentStats:
+                    type: List
+                    inner:
+                      type: Struct
+                      fields:
+                        goals:
+                          type: String
+                        assists:
+                          type: String
+                        leagueId:
+                          type: Int64
+                        appearances:
+                          type: String
+                        leagueName:
+                          type: String
+                        seasonName:
+                          type: String
+                        rating:
+                          type: Struct
+                          fields:
+                            rating:
+                              type: String
+                        tournamentId:
+                          type: Int64
+                        isFriendly:
+                          type: Boolean
+                  rating:
+                    type: Struct
+                    fields:
+                      rating:
+                        type: String
+                  transferType:
+                    type: Struct
+                    fields:
+                      text:
+                        type: String
+                      localizationKey:
+                        type: String
+                  assists:
+                    type: String
+        national team:
+          type: Struct
+          fields:
+            teamEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  participantId:
+                    type: Int64
+                  active:
+                    type: Boolean
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  hasUncertainData:
+                    type: Boolean
+                  teamId:
+                    type: Int64
+                  transferType:
+                    type: 'Null'
+                  endDate:
+                    type: String
+                  startDate:
+                    type: String
+                  role:
+                    type: 'Null'
+                  assists:
+                    type: String
+            seasonEntries:
+              type: List
+              inner:
+                type: Struct
+                fields:
+                  team:
+                    type: String
+                  teamGender:
+                    type: String
+                  goals:
+                    type: String
+                  showTeamGender:
+                    type: Boolean
+                  appearances:
+                    type: String
+                  seasonName:
+                    type: String
+                  teamId:
+                    type: Int64
+                  tournamentStats:
+                    type: List
+                    inner:
+                      type: Struct
+                      fields:
+                        goals:
+                          type: String
+                        isFriendly:
+                          type: Boolean
+                        leagueId:
+                          type: Int64
+                        appearances:
+                          type: String
+                        leagueName:
+                          type: String
+                        seasonName:
+                          type: String
+                        rating:
+                          type: Struct
+                          fields:
+                            rating:
+                              type: String
+                        tournamentId:
+                          type: Int64
+                        assists:
+                          type: String
+                  rating:
+                    type: Struct
+                    fields:
+                      rating:
+                        type: String
+                  transferType:
+                    type: 'Null'
+                  assists:
+                    type: String
+    showFootnote:
+      type: Boolean
+    fullCareer:
+      type: Boolean
+topCompletedTransfer:
+  type: Struct
+  fields:
+    toDate:
+      type: String
+    amountEuroEstimated:
+      type: 'Null'
+    fromDate:
+      type: String
+    name:
+      type: String
+    transferDate:
+      type: String
+    fromClub:
+      type: String
+    contractExtension:
+      type: Boolean
+    fromClubFullName:
+      type: String
+    toClubId:
+      type: Int64
+    fee:
+      type: Struct
+      fields:
+        localizedFeeText:
+          type: String
+        feeText:
+          type: String
+        value:
+          type: Int64
+    transferText:
+      type: List
+      inner:
+        type: 'Null'
+    playerId:
+      type: Int64
+    toClub:
+      type: String
+    fromClubId:
+      type: Int64
+    position:
+      type: Struct
+      fields:
+        label:
+          type: String
+        key:
+          type: String
+    onLoan:
+      type: Boolean
+    transferType:
+      type: Struct
+      fields:
+        text:
+          type: String
+        localizationKey:
+          type: String
+    marketValue:
+      type: Int64
+    toClubFullName:
+      type: String
+status:
+  type: String
+nextMatch:
+  type: Struct
+  fields:
+    matchUrl:
+      type: String
+    stadium:
+      type: Struct
+      fields:
+        venue:
+          type: String
+        city:
+          type: String
+        lat:
+          type: Float64
+        long:
+          type: Float64
+    awayName:
+      type: String
+    status:
+      type: Struct
+      fields:
+        utcTime:
+          type: String
+        started:
+          type: Boolean
+        cancelled:
+          type: Boolean
+        reason:
+          type: Struct
+          fields:
+            short:
+              type: String
+            shortKey:
+              type: String
+            long:
+              type: String
+            longKey:
+              type: String
+        finished:
+          type: Boolean
+    matchId:
+      type: Int64
+    leagueId:
+      type: Int64
+    leagueName:
+      type: String
+    homeId:
+      type: Int64
+    matchDate:
+      type: String
+    homeName:
+      type: String
+    parentLeagueId:
+      type: Int64
+    awayId:
+      type: Int64
+    statusId:
+      type: Int64
+coachStats:
+  type: 'Null'
+recentMatches:
+  type: List
+  inner:
+    type: Struct
+    fields:
+      lineupPositionId:
+        type: Int64
+      homeScore:
+        type: Int64
+      awayScore:
+        type: Int64
+      leagueId:
+        type: Int64
+      leagueName:
+        type: String
+      minutesPlayed:
+        type: Int64
+      matchDate:
+        type: Struct
+        fields:
+          utcTime:
+            type: String
+      id:
+        type: Int64
+      teamName:
+        type: String
+      playerOfTheMatch:
+        type: Boolean
+      matchPageUrl:
+        type: String
+      assists:
+        type: Int64
+      opponentTeamId:
+        type: Int64
+      goals:
+        type: Int64
+      ratingProps:
+        type: Struct
+        fields:
+          rating:
+            type: String
+          isTopRating:
+            type: Boolean
+      yellowCards:
+        type: Int64
+      onBench:
+        type: Boolean
+      opponentTeamName:
+        type: String
+      teamId:
+        type: Int64
+      redCards:
+        type: Int64
+      playedInMatch:
+        type: Boolean
+      stage:
+        type: String
+      isHomeTeam:
+        type: Boolean
+meta:
+  type: Struct
+  fields:
+    breadcrumbJSONLD:
+      type: Struct
+      fields:
+        '@context':
+          type: String
+        '@type':
+          type: String
+        itemListElement:
+          type: List
+          inner:
+            type: Struct
+            fields:
+              '@type':
+                type: String
+              position:
+                type: Int64
+              name:
+                type: String
+              item:
+                type: String
+    seopath:
+      type: String
+    faqJSONLD:
+      type: Struct
+      fields:
+        '@context':
+          type: String
+        '@type':
+          type: String
+        mainEntity:
+          type: List
+          inner:
+            type: Struct
+            fields:
+              '@type':
+                type: String
+              name:
+                type: String
+              acceptedAnswer:
+                type: Struct
+                fields:
+                  '@type':
+                    type: String
+                  text:
+                    type: String
+    personJSONLD:
+      type: Struct
+      fields:
+        gender:
+          type: String
+        weight:
+          type: Struct
+          fields:
+            '@type':
+              type: String
+            unitText:
+              type: String
+            value:
+              type: String
+        '@context':
+          type: String
+        name:
+          type: String
+        '@type':
+          type: String
+        affiliation:
+          type: Struct
+          fields:
+            '@type':
+              type: String
+            name:
+              type: String
+        url:
+          type: String
+        nationality:
+          type: Struct
+          fields:
+            '@type':
+              type: String
+            name:
+              type: String
+        height:
+          type: Struct
+          fields:
+            '@type':
+              type: String
+            unitText:
+              type: String
+            value:
+              type: String
+        birthDate:
+          type: String
+    pageurl:
+      type: String
+isCaptain:
+  type: Boolean
+id:
+  type: Int64
+internationalDuty:
+  type: 'Null'
+firstSeasonStats:
+  type: Struct
+  fields:
+    keeperShotmap:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          teamColor:
+            type: String
+          minAdded:
+            type: Int64
+          onGoalShot:
+            type: Struct
+            fields:
+              y:
+                type: Float64
+              x:
+                type: Float64
+              zoomRatio:
+                type: Float64
+          matchDate:
+            type: String
+          expectedGoalsOnTarget:
+            type: Float64
+          blockedX:
+            type: Float64
+          situation:
+            type: String
+          eventType:
+            type: String
+          isOwnGoal:
+            type: Boolean
+          playerName:
+            type: String
+          blockedY:
+            type: Float64
+          min:
+            type: Int64
+          isBlocked:
+            type: Boolean
+          goalCrossedZ:
+            type: Float64
+          goalCrossedY:
+            type: Float64
+          y:
+            type: Float64
+          isSavedOffLine:
+            type: Boolean
+          homeScore:
+            type: Int64
+          awayScore:
+            type: Int64
+          awayTeamId:
+            type: Int64
+          homeTeamName:
+            type: String
+          id:
+            type: Int64
+          box:
+            type: String
+          awayTeamName:
+            type: String
+          period:
+            type: String
+          isFromInsideBox:
+            type: Boolean
+          playerId:
+            type: Int64
+          matchId:
+            type: Int64
+          isOnTarget:
+            type: Boolean
+          teamColorDark:
+            type: String
+          shotType:
+            type: String
+          homeTeamId:
+            type: Int64
+          teamId:
+            type: Int64
+          expectedGoals:
+            type: Float64
+          x:
+            type: Float64
+    topStatCard:
+      type: Struct
+      fields:
+        items:
+          type: List
+          inner:
+            type: Struct
+            fields:
+              percentileRank:
+                type: Float64
+              percentileRankPer90:
+                type: Float64
+              per90:
+                type: Float64
+              statFormat:
+                type: String
+              localizedTitleId:
+                type: String
+              title:
+                type: String
+              statValue:
+                type: String
+        display:
+          type: String
+        id:
+          type: String
+        type:
+          type: String
+    shotmap:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          teamColor:
+            type: String
+          minAdded:
+            type: Int64
+          onGoalShot:
+            type: Struct
+            fields:
+              y:
+                type: Float64
+              x:
+                type: Float64
+              zoomRatio:
+                type: Float64
+          matchDate:
+            type: String
+          expectedGoalsOnTarget:
+            type: Float64
+          blockedX:
+            type: Float64
+          situation:
+            type: String
+          eventType:
+            type: String
+          isOwnGoal:
+            type: Boolean
+          playerName:
+            type: String
+          blockedY:
+            type: Float64
+          min:
+            type: Int64
+          isBlocked:
+            type: Boolean
+          goalCrossedZ:
+            type: Float64
+          goalCrossedY:
+            type: Float64
+          y:
+            type: Float64
+          isSavedOffLine:
+            type: Boolean
+          homeScore:
+            type: Int64
+          awayScore:
+            type: Int64
+          awayTeamId:
+            type: Int64
+          homeTeamName:
+            type: String
+          id:
+            type: Int64
+          box:
+            type: String
+          awayTeamName:
+            type: String
+          period:
+            type: String
+          isFromInsideBox:
+            type: Boolean
+          playerId:
+            type: Int64
+          matchId:
+            type: Int64
+          isOnTarget:
+            type: Boolean
+          teamColorDark:
+            type: String
+          shotType:
+            type: String
+          homeTeamId:
+            type: Int64
+          teamId:
+            type: Int64
+          expectedGoals:
+            type: Float64
+          x:
+            type: Float64
+    sectionOrder:
+      type: List
+      inner:
+        type: String
+    statsSection:
+      type: Struct
+      fields:
+        id:
+          type: String
+        items:
+          type: List
+          inner:
+            type: Struct
+            fields:
+              display:
+                type: String
+              items:
+                type: List
+                inner:
+                  type: Struct
+                  fields:
+                    localizedTitleId:
+                      type: String
+                    percentileRankPer90:
+                      type: Float64
+                    per90:
+                      type: Float64
+                    statFormat:
+                      type: String
+                    percentileRank:
+                      type: Float64
+                    title:
+                      type: String
+                    statValue:
+                      type: String
+              type:
+                type: String
+              localizedTitleId:
+                type: String
+              title:
+                type: String
+        type:
+          type: String
+        localizedTitleId:
+          type: String
+        title:
+          type: String
+    heatmap:
+      type: Struct
+      fields:
+        coordinates:
+          type: List
+          inner:
+            type: Struct
+            fields:
+              x:
+                type: Float64
+              y:
+                type: Float64
+primaryTeam:
+  type: Struct
+  fields:
+    teamId:
+      type: Int64
+    teamName:
+      type: String
+    onLoan:
+      type: Boolean
+    teamColors:
+      type: Struct
+      fields:
+        color:
+          type: String
+        colorAlternate:
+          type: String
+        colorAway:
+          type: String
+        colorAwayAlternate:
+          type: String
+injuryInformation:
+  type: Struct
+  fields:
+    name:
+      type: String
+    expectedReturn:
+      type: Struct
+      fields:
+        expectedReturnFallback:
+          type: String
+        expectedReturnKey:
+          type: String
+        expectedReturnDateParam:
+          type: String
+    lastUpdated:
+      type: Struct
+      fields:
+        utcTime:
+          type: String
+        timezone:
+          type: 'Null'
+    key:
+      type: String
+gender:
+  type: String
+dataProvider:
+  type: String
+trophies:
+  type: Struct
+  fields:
+    playerTrophies:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          teamName:
+            type: String
+          teamId:
+            type: Int64
+          ccode:
+            type: String
+          tournaments:
+            type: List
+            inner:
+              type: Struct
+              fields:
+                seasonsRunnerUp:
+                  type: List
+                  inner:
+                    type: String
+                ccode:
+                  type: String
+                seasonsWon:
+                  type: List
+                  inner:
+                    type: String
+                leagueId:
+                  type: Int64
+                leagueName:
+                  type: String
+    coachTrophies:
+      type: List
+      inner:
+        type: 'Null'
+playerInformation:
+  type: List
+  inner:
+    type: Struct
+    fields:
+      countryCode:
+        type: String
+      icon:
+        type: Struct
+        fields:
+          type:
+            type: String
+          id:
+            type: String
+      value:
+        type: Struct
+        fields:
+          numberValue:
+            type: Int64
+          key:
+            type: String
+          dateValue:
+            type: String
+          options:
+            type: Struct
+            fields:
+              style:
+                type: String
+              unit:
+                type: String
+              unitDisplay:
+                type: String
+          fallback:
+            type: String
+      translationKey:
+        type: String
+      title:
+        type: String
+isCoach:
+  type: Boolean
+topRumour:
+  type: Struct
+  fields:
+    toDate:
+      type: 'Null'
+    amountEuroEstimated:
+      type: 'Null'
+    fromDate:
+      type: 'Null'
+    name:
+      type: String
+    transferDate:
+      type: String
+    fromClub:
+      type: String
+    contractExtension:
+      type: Boolean
+    fromClubFullName:
+      type: String
+    toClubId:
+      type: Int64
+    sourceUrl:
+      type: String
+    fee:
+      type: Struct
+      fields:
+        localizedFeeText:
+          type: String
+        feeText:
+          type: String
+        value:
+          type: Int64
+    transferText:
+      type: List
+      inner:
+        type: 'Null'
+    sourceName:
+      type: String
+    playerId:
+      type: Int64
+    probability:
+      type: String
+    toClub:
+      type: String
+    fromClubId:
+      type: Int64
+    position:
+      type: Struct
+      fields:
+        label:
+          type: String
+        key:
+          type: String
+    onLoan:
+      type: Boolean
+    transferType:
+      type: Struct
+      fields:
+        text:
+          type: String
+        localizationKey:
+          type: String
+    rumourId:
+      type: Int64
+    marketValue:
+      type: Int64
+    toClubFullName:
+      type: String
+birthDate:
+  type: Struct
+  fields:
+    utcTime:
+      type: String
+    timezone:
+      type: String
+relatedLinksData:
+  type: Struct
+  fields:
+    teammates:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          id:
+            type: Int64
+          name:
+            type: String
+    womensNationalTeam:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          id:
+            type: Int64
+          name:
+            type: String
+    mensNationalTeam:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          id:
+            type: Int64
+          name:
+            type: String
+mainLeague:
+  type: Struct
+  fields:
+    stats:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          localizedTitleId:
+            type: String
+          title:
+            type: String
+          value:
+            type: String
+    leagueId:
+      type: Int64
+    season:
+      type: String
+    leagueName:
+      type: String
+marketValues:
+  type: Struct
+  fields:
+    values:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          date:
+            type: String
+          value:
+            type: Int64
+          currency:
+            type: String
+          lowerBound:
+            type: Int64
+          upperBound:
+            type: Int64
+          source:
+            type: String
+          teamId:
+            type: Int64
+          teamName:
+            type: String
+          isPeriodStart:
+            type: Boolean
+traits:
+  type: Struct
+  fields:
+    key:
+      type: String
+    title:
+      type: String
+    items:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          key:
+            type: String
+          title:
+            type: String
+          value:
+            type: Float64
+name:
+  type: String
+statSeasons:
+  type: List
+  inner:
+    type: Struct
+    fields:
+      seasonName:
+        type: String
+      tournaments:
+        type: List
+        inner:
+          type: Struct
+          fields:
+            name:
+              type: String
+            tournamentId:
+              type: Int64
+            entryId:
+              type: String
+            hasDeepStats:
+              type: Boolean
+positionDescription:
+  type: Struct
+  fields:
+    positions:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          position:
+            type: String
+          isMainPosition:
+            type: Boolean
+          strPos:
+            type: Struct
+            fields:
+              label:
+                type: String
+              key:
+                type: String
+          strPosShort:
+            type: Struct
+            fields:
+              label:
+                type: String
+              key:
+                type: String
+          occurences:
+            type: Int64
+          pitchPositionData:
+            type: Struct
+            fields:
+              top:
+                type: Float64
+              right:
+                type: Float64
+              ratio:
+                type: Float64
+    nonPrimaryPositions:
+      type: List
+      inner:
+        type: Struct
+        fields:
+          label:
+            type: String
+          key:
+            type: String
+    primaryPosition:
+      type: Struct
+      fields:
+        label:
+          type: String
+        key:
+          type: String

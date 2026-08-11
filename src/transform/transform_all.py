@@ -16,6 +16,7 @@ from transform.transform_teams import (
     select_teams,
     select_team_info
 )
+from transform.transform_players import load_players
 
 setup_logging()
 
@@ -27,6 +28,7 @@ def transform_all() -> None:
     raw_comp_lf = load_comp_data()
     raw_matches_lf = load_matches()
     raw_teams_lf = load_teams()
+    raw_players_lf = load_players()
     
     # teams and groups
     group_ref_lf = select_groups(raw_comp_lf)

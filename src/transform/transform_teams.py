@@ -3,7 +3,7 @@ from prefect import task
 
 from common.paths import teams_dir
 
-from transform.utils.data_io import load_data
+from transform.utils.data_helpers import load_data
 
 
 # load team data

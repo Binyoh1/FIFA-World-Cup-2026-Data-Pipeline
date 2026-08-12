@@ -14,6 +14,27 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
+# field mapping for player info processing
+PLAYER_FIELD_MAPPINGS = {
+    'height_info': {
+        "alias": "height_cm",
+        "field": "numberValue",
+        "dtype": pl.UInt8,
+    },
+    'value_info': {
+        "alias": "transfer_value_eur",
+        "field": "numberValue",
+        "dtype": pl.UInt32,
+    },
+    'foot_info': {
+        "alias": "preferred_foot",
+        "field": "label",
+        "dtype": pl.String,
+    }
+}
+
+
+# load data from multi-file folder
 def load_data(file_dir: Path, schema_name: str) -> pl.LazyFrame:
     json_list = list(file_dir.rglob("*.json"))
     

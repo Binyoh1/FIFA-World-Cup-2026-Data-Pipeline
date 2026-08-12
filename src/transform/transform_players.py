@@ -69,9 +69,9 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         .pivot(
             on='title',
             on_columns=[
-                'height',
-                'preferred_foot',
-                'transfer_value',
+                'height_info',
+                'foot_info',
+                'value_info',
             ],
             values='value',
             index = [

@@ -16,7 +16,7 @@ from transform.transform_teams import (
     select_teams,
     select_team_info
 )
-from transform.transform_players import load_players
+from transform.transform_players import load_players, select_player_info
 
 setup_logging()
 
@@ -38,4 +38,7 @@ def transform_all() -> None:
     # matches
     match_info_ref_lf = select_match_info(raw_comp_lf)
     match_venue_ref_lf = select_match_venues(raw_matches_lf)
+    
+    # players
+    player_info_ref_lf = select_player_info(raw_players_lf)
     logger.info(f"Data transformation completed at {datetime.now()}\n")

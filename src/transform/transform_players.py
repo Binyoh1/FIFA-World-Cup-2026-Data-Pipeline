@@ -88,8 +88,8 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     
     # safely parse player info fields, cast to correct dtype, and fallback to null if missing in raw JSON
     expressions = [
-        pl.col(src).struct.fiel(cfg["field"]).cast(cfg["dtype"]).alias(cfg["alias"])
-        if src in players_pivoted_lf.columns
+        pl.col(src).struct.field(cfg["field"]).cast(cfg["dtype"]).alias(cfg["alias"])
+        if src in players_pivoted_lf.collect_schema().names()
         else pl.lit(None).cast(cfg["dtype"]).alias(cfg["alias"])
         for src, cfg in PLAYER_FIELD_MAPPINGS.items()
     ]
@@ -103,7 +103,7 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     ])
     
     # drop unnecessary columns
-    drop_cols = [src for src in PLAYER_FIELD_MAPPINGS if src in players_pivoted_lf.columns]
+    drop_cols = [src for src in PLAYER_FIELD_MAPPINGS if src in players_pivoted_lf.collect_schema().names()]
     drop_cols.append('primaryTeam')
     
     # consoilidate parsing expressions and fields
@@ -112,6 +112,5 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         .with_columns(expressions)
         .drop(drop_cols)
     )
-    
     
     return players_clean_lf

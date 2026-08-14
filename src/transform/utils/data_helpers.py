@@ -28,7 +28,7 @@ PLAYER_FIELD_MAPPINGS = {
     },
     'foot_info': {
         "alias": "preferred_foot",
-        "field": "label",
+        "field": "key",
         "dtype": pl.String,
     }
 }

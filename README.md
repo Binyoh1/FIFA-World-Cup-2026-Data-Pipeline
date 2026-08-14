@@ -36,7 +36,7 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   │   ├── extract_teams.py
 │   │   └── extract_players.py
 │   ├── transform/                  # Polars script: processes raw JSON -> saves to data/silver
-│   │   ├── utils/                  # Python logic to build, refine, export, and load schema for processing JSON files
+│   │   ├── utils/                  # Helper functions and variables for transformation logic
 │   │   │   ├── data_helpers.py     # Helper functions and variables for loading data
 │   │   │   ├── schema_build.py     # Infer and refine schemas
 │   │   │   └── schema_io.py        # Export and load schemas (YAML format)

@@ -37,9 +37,10 @@ I would love to see what you do with the data, so don't hesitate to share your w
 │   │   └── extract_players.py
 │   ├── transform/                  # Polars script: processes raw JSON -> saves to data/silver
 │   │   ├── utils/                  # Python logic to build, refine, export, and load schema for processing JSON files
+│   │   │   ├── data_helpers.py     # Helper functions and variables for loading data
 │   │   │   ├── schema_build.py     # Infer and refine schemas
 │   │   │   └── schema_io.py        # Export and load schemas (YAML format)
-│   │   ├── transform_all.py        # Orchestrates polars transformations and loading silver tables to Parquet files
+│   │   ├── transform_all.py        # Orchestrates polars transformations and loading of silver tables to Parquet files
 │   │   ├── transform_comp.py
 │   │   ├── transform_matches.py
 │   │   ├── transform_teams.py
@@ -73,5 +74,4 @@ I would love to see what you do with the data, so don't hesitate to share your w
 - Aggregation and joining logic (`dbt_project/`) only reads from `silver/` and writes analytics-ready data to `warehouse/`.
 
 ## To-Do
-- Add logic for generating and refining master schemas only if loaded YAML schema from data/schemas/ fails to load JSON file(s) or isn't present.
 - Add logic for only fetching and saving API data if the current file does not reflect state by end of competition (e.g. head coach may have changed after the competition).

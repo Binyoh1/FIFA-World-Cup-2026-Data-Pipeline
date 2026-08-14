@@ -11,6 +11,7 @@ from transform.utils.data_helpers import PLAYER_FIELD_MAPPINGS, load_data
 def load_players() -> pl.LazyFrame:
     return load_data(players_dir, "player")
 
+# select player information
 @task
 def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     players_lf = (
@@ -48,14 +49,16 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
             pl.col('playerInformation'),
             
             # club info
-            pl.col('primaryTeam'),            
+            pl.col('primaryTeam'),
+            pl.col('mainLeague'),
         )
         .explode('playerInformation', empty_as_null=True)
         .unnest('playerInformation')
         .filter(pl.col('title').is_in(["Height", "Preferred foot", "Market value"]))
         .with_columns(
             # rename additional player info columns
-            pl.col('title').str.replace_many(
+            pl.col('title')
+            .str.replace_many(
                 ["Height", "Preferred foot", "Market value"],
                 ["height_info", "foot_info", "value_info"]
             ),
@@ -81,6 +84,7 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
                 'birth_date',
                 'primary_position',
                 'primaryTeam',
+                'mainLeague',
             ],
             aggregate_function='first'
         )
@@ -100,11 +104,21 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         pl.col('primaryTeam')
             .struct.field('teamName')
             .alias('club'),
+        pl.col('mainLeague')
+            .struct.field('leagueId')
+            .cast(pl.UInt32)
+            .alias('league_id'),
+        pl.col('mainLeague')
+            .struct.field('leagueName')
+            .alias('league'),
     ])
     
     # drop unnecessary columns
-    drop_cols = [src for src in PLAYER_FIELD_MAPPINGS if src in players_pivoted_lf.collect_schema().names()]
-    drop_cols.append('primaryTeam')
+    drop_cols = [
+        src for src in PLAYER_FIELD_MAPPINGS 
+        if src in players_pivoted_lf.collect_schema().names()
+    ]
+    drop_cols.extend(['primaryTeam', 'mainLeague'])
     
     # consoilidate parsing expressions and fields
     players_clean_lf = (

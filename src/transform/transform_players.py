@@ -100,6 +100,8 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         for src, cfg in PLAYER_FIELD_MAPPINGS.items()
     ]
     expressions.extend([
+        pl.col('countryCode_country_info')
+            .alias('country_code'),
         pl.col('primaryTeam')
             .struct.field('teamId')
             .alias('club_id'),
@@ -113,8 +115,6 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         pl.col('mainLeague')
             .struct.field('leagueName')
             .alias('league'),
-        pl.col('countryCode_country_info')
-            .alias('country_code')
     ])
     
     # drop unnecessary columns

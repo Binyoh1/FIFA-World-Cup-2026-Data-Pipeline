@@ -75,7 +75,7 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
             on_columns=[
                 'height_info',
                 'foot_info',
-                'transafer_value',
+                'transfer_value',
                 'country_info',
             ],
             values=['value', 'countryCode'],

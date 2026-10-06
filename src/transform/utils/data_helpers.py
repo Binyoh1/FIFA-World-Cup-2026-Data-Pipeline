@@ -16,21 +16,21 @@ logger = logging.getLogger(__name__)
 
 # field mapping for player info processing
 PLAYER_FIELD_MAPPINGS = {
-    'height_info': {
+    'value_height_info': {
         "alias": "height_cm",
         "field": "numberValue",
         "dtype": pl.UInt8,
     },
-    'value_info': {
+    'value_tranfer_value': {
         "alias": "transfer_value_eur",
         "field": "numberValue",
         "dtype": pl.UInt32,
     },
-    'foot_info': {
+    'value_foot_info': {
         "alias": "preferred_foot",
         "field": "key",
         "dtype": pl.String,
-    }
+    },
 }
 
 

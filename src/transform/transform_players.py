@@ -1,4 +1,5 @@
 import polars as pl
+import polars.selectors as cs
 from prefect import task
 
 from common.paths import players_dir
@@ -54,16 +55,16 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         )
         .explode('playerInformation', empty_as_null=True)
         .unnest('playerInformation')
-        .filter(pl.col('title').is_in(["Height", "Preferred foot", "Market value"]))
+        .filter(pl.col('title').is_in(["Height", "Preferred foot", "Market value", "Country"]))
         .with_columns(
             # rename additional player info columns
             pl.col('title')
             .str.replace_many(
-                ["Height", "Preferred foot", "Market value"],
-                ["height_info", "foot_info", "value_info"]
+                ["Height", "Preferred foot", "Market value", "Country"],
+                ["height_info", "foot_info", "transfer_value", "country_info"],
             ),
         )
-        .drop('translationKey', 'icon', 'countryCode')        
+        .drop('translationKey', 'icon')        
     )
     
     # pivot to fold player data back into single row per player
@@ -74,9 +75,10 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
             on_columns=[
                 'height_info',
                 'foot_info',
-                'value_info',
+                'transafer_value',
+                'country_info',
             ],
-            values='value',
+            values=['value', 'countryCode'],
             index = [
                 'player_id',
                 'player_name',
@@ -111,6 +113,8 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
         pl.col('mainLeague')
             .struct.field('leagueName')
             .alias('league'),
+        pl.col('countryCode_country_info')
+            .alias('country_code')
     ])
     
     # drop unnecessary columns
@@ -124,7 +128,7 @@ def select_player_info(lf: pl.LazyFrame) -> pl.LazyFrame:
     players_clean_lf = (
         players_pivoted_lf
         .with_columns(expressions)
-        .drop(drop_cols)
+        .drop(drop_cols, cs.starts_with('countryCode_', 'value_'))
     )
     
     return players_clean_lf

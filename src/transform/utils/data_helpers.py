@@ -40,7 +40,7 @@ def load_data(file_dir: Path, schema_name: str) -> pl.LazyFrame:
     
     # throw error if no json files found
     if not json_list:
-        logger.error("No {schema_name} data files found")
+        logger.error(f"No {schema_name} data files found")
         raise
     
     # look for schema file
